@@ -112,15 +112,46 @@ class GeminiFishIdentifier(
         )
     }
 
-    private val groqModels = listOf(
+    private val groqFallbackModels = listOf(
+        "qwen/qwen3.8-27b",
         "qwen/qwen3.6-27b",
-        "meta-llama/llama-4-scout-17b-16e-instruct",
-        "meta-llama/llama-4-maverick-17b-128e-instruct"
+        "meta-llama/llama-4-scout-17b-16e-instruct"
     )
+    private var groqModelsCache: List<String>? = null
+
+    /** Lekéri, milyen modellek érhetők el most a Groqnál (a nevek időnként változnak). */
+    private fun groqModels(key: String): List<String> {
+        groqModelsCache?.let { return it }
+        val found = mutableListOf<String>()
+        try {
+            val req = Request.Builder().url("https://api.groq.com/openai/v1/models")
+                .header("Authorization", "Bearer " + key).get().build()
+            val resp = client.newCall(req).execute()
+            val body = resp.body?.string().orEmpty()
+            if (resp.isSuccessful) {
+                val data = JSONObject(body).optJSONArray("data")
+                if (data != null) {
+                    for (i in 0 until data.length()) {
+                        val id = data.optJSONObject(i)?.optString("id").orEmpty()
+                        val lower = id.lowercase()
+                        val vision = (lower.contains("qwen") && !lower.contains("guard")) ||
+                            lower.contains("llama-4") || lower.contains("vision")
+                        if (vision) found.add(id)
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            Log.w("GeminiFishIdentifier", "Groq modellista nem érhető el", e)
+        }
+        // A legújabb verzió előre
+        val ordered = found.sortedDescending() + groqFallbackModels.filter { it !in found }
+        groqModelsCache = ordered
+        return ordered
+    }
 
     private fun groqIdentify(key: String, base64Image: String): Result<FishRecognitionResult> {
         var err: Exception? = null
-        for (model in groqModels) {
+        for (model in groqModels(key).take(4)) {
             try {
                 val content = JSONArray()
                     .put(JSONObject().put("type", "text").put("text", fishPrompt + "\n\nCsak a JSON objektumot írd ki, semmi mást."))
