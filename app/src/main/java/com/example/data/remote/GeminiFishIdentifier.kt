@@ -43,22 +43,13 @@ class GeminiFishIdentifier(
 
         val base64Image = bitmapToBase64(bitmap)
 
-        // 1. Groq: gyors (pár mp) és napi kb. 1000 ingyenes felismerés
-        var groqError: String? = null
-        if (groqKey.isNotBlank()) {
-            val g = groqIdentify(groqKey, base64Image)
-            if (g.isSuccess) return@withContext g
-            groqError = g.exceptionOrNull()?.message
-        }
-        if (apiKey.isBlank() || apiKey == "MY_GEMINI_API_KEY") {
-            return@withContext Result.failure(Exception("A felismerés most nem sikerült: " + (groqError ?: "ismeretlen hiba") + " Próbáld újra 1 perc múlva."))
-        }
+        var lastError: Exception? = null
+        val geminiOk = apiKey.isNotBlank() && apiKey != "MY_GEMINI_API_KEY"
 
-        // 2. Tartalék: Google Gemini
+        // 1. Google Gemini: a legpontosabb halhatározó (napi ingyenes kerettel)
+        if (geminiOk) {
         val jsonPayload = buildRequestBody(base64Image)
         val requestBody = jsonPayload.toRequestBody("application/json; charset=utf-8".toMediaType())
-
-        var lastError: Exception? = null
         var busy = false
 
         // Végigpróbálja a modelleket; ha egy túlterhelt (503/429/500), a következőre vált.
@@ -110,10 +101,26 @@ class GeminiFishIdentifier(
             if (!busy) break
         }
 
-        if (groqError != null) {
+        }
+
+        // 2. Tartalék: Groq (gyors, nagyobb keret, de fajszinten kevésbé pontos) – jelölve
+        val groqKey2 = ApiKeyStore.groqKey()
+        if (groqKey2.isNotBlank()) {
+            val g = groqIdentify(groqKey2, base64Image)
+            val r = g.getOrNull()
+            if (r != null) {
+                val note = "Tartalék felismerés (a Gemini napi kerete most nem elérhető): ez csak tájékoztató tipp, " +
+                    "a pontos fajt ellenőrizd (pl. a diszhal.info gombbal), vagy próbáld újra később."
+                return@withContext Result.success(
+                    r.copy(
+                        confidencePercent = minOf(r.confidencePercent, 60),
+                        uncertaintyWarning = if (r.uncertaintyWarning.isBlank()) note else note + " " + r.uncertaintyWarning
+                    )
+                )
+            }
             lastError = Exception(
-                "A felismerés most nem sikerült. Groq: " + groqError + "\nGemini: " + (lastError?.message ?: "nem válaszolt.") +
-                    "\nPróbáld újra 1-2 perc múlva."
+                "A felismerés most nem sikerült.\nGemini: " + (lastError?.message ?: "nincs kulcs.") +
+                    "\nTartalék (Groq): " + (g.exceptionOrNull()?.message ?: "nem válaszolt.") + "\nPróbáld újra 1-2 perc múlva."
             )
         }
 

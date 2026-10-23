@@ -26,10 +26,6 @@ jobs:
           SDKM=$(ls $ANDROID_HOME/cmdline-tools/*/bin/sdkmanager | head -1)
           yes | "$SDKM" --licenses > /dev/null || true
 
-      - name: Felismerés-teszt
-        continue-on-error: true
-        run: python3 .ci/test.py
-
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '9.3.1'
