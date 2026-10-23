@@ -340,8 +340,7 @@ class AquariumViewModel(application: Application) : AndroidViewModel(application
                 )
             }.onFailure { error ->
                 val isMissingKey = error is com.example.data.remote.MissingApiKeyException ||
-                        BuildConfig.GEMINI_API_KEY.isBlank() ||
-                        BuildConfig.GEMINI_API_KEY == "MY_GEMINI_API_KEY"
+                        com.example.data.local.ApiKeyStore.effectiveKey().isBlank()
 
                 _recognitionState.value = _recognitionState.value.copy(
                     isAnalyzing = false,

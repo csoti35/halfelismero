@@ -26,8 +26,11 @@ class GeminiFishIdentifier(
 
     private val supportedModels = listOf(
         "gemini-flash-latest",
+        "gemini-3.8-flash",
+        "gemini-3.7-flash",
+        "gemini-3.5-flash",
         "gemini-2.5-flash",
-        "gemini-2.0-flash"
+        "gemini-flash-lite-latest"
     )
 
     suspend fun identifyFish(bitmap: Bitmap): Result<FishRecognitionResult> = withContext(Dispatchers.IO) {
@@ -46,37 +49,50 @@ class GeminiFishIdentifier(
         val requestBody = jsonPayload.toRequestBody("application/json; charset=utf-8".toMediaType())
 
         var lastError: Exception? = null
+        var busy = false
 
-        // Try candidate models in order of capability
-        for (modelName in supportedModels) {
-            try {
-                val url = "https://generativelanguage.googleapis.com/v1beta/models/$modelName:generateContent"
-                val request = Request.Builder()
-                    .url(url)
-                    .header("x-goog-api-key", apiKey)
-                    .post(requestBody)
-                    .build()
+        // Végigpróbálja a modelleket; ha egy túlterhelt (503/429/500), a következőre vált.
+        // Ha mind foglalt, rövid várakozás után még kétszer újrapróbálja.
+        attempts@ for (attempt in 0 until 3) {
+            if (attempt > 0) kotlinx.coroutines.delay(2500L * attempt)
+            busy = false
+            for (modelName in supportedModels) {
+                try {
+                    val url = "https://generativelanguage.googleapis.com/v1beta/models/$modelName:generateContent"
+                    val request = Request.Builder()
+                        .url(url)
+                        .header("x-goog-api-key", apiKey)
+                        .post(requestBody)
+                        .build()
 
-                val response = client.newCall(request).execute()
-                val responseString = response.body?.string().orEmpty()
+                    val response = client.newCall(request).execute()
+                    val responseString = response.body?.string().orEmpty()
 
-                if (response.isSuccessful) {
-                    val parsedResult = parseGeminiResponse(responseString)
-                    return@withContext Result.success(parsedResult)
-                } else {
-                    Log.w("GeminiFishIdentifier", "Model $modelName returned ${response.code}: $responseString")
-                    lastError = Exception("Gemini API hiba ($modelName - ${response.code}): $responseString")
-                    // If model not found (404), continue to next model in list
-                    val modelUnavailable = response.code == 404 ||
-                        (response.code == 400 && (responseString.contains("not found", true) || responseString.contains("not supported", true)))
-                    if (!modelUnavailable) {
-                        break
+                    if (response.isSuccessful) {
+                        val parsedResult = parseGeminiResponse(responseString)
+                        return@withContext Result.success(parsedResult)
                     }
+                    Log.w("GeminiFishIdentifier", "Model $modelName returned ${response.code}: $responseString")
+                    val code = response.code
+                    val modelMissing = code == 404 ||
+                        (code == 400 && (responseString.contains("not found", true) || responseString.contains("not supported", true)))
+                    val overloaded = code == 429 || code == 500 || code == 503 || code == 504
+                    if (overloaded) busy = true
+                    lastError = when {
+                        code == 401 || code == 403 || (code == 400 && responseString.contains("API key", true)) ->
+                            Exception("A Gemini kulcs nem érvényes vagy le van tiltva. Adj meg új kulcsot a Beállításokban.")
+                        overloaded ->
+                            Exception("A Google szerverei most túlterheltek, vagy elfogyott a napi ingyenes keret. Próbáld újra 1-2 perc múlva.")
+                        else -> Exception("Gemini hiba ($code). Próbáld újra.")
+                    }
+                    if (!modelMissing && !overloaded) break@attempts
+                } catch (e: Exception) {
+                    Log.e("GeminiFishIdentifier", "Network error calling $modelName", e)
+                    lastError = Exception("Nincs internetkapcsolat, vagy a Google nem válaszolt időben. Ellenőrizd a netet, és próbáld újra.")
+                    busy = true
                 }
-            } catch (e: Exception) {
-                Log.e("GeminiFishIdentifier", "Network error calling $modelName", e)
-                lastError = e
             }
+            if (!busy) break
         }
 
         Result.failure(
