@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit
 class GeminiFishIdentifier(
     private val client: OkHttpClient = OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)
-        .readTimeout(60, TimeUnit.SECONDS)
+        .readTimeout(40, TimeUnit.SECONDS)
         .writeTimeout(30, TimeUnit.SECONDS)
         .build()
 ) {
@@ -31,16 +31,30 @@ class GeminiFishIdentifier(
 
     suspend fun identifyFish(bitmap: Bitmap): Result<FishRecognitionResult> = withContext(Dispatchers.IO) {
         val apiKey = ApiKeyStore.effectiveKey()
+        val groqKey = ApiKeyStore.groqKey()
 
-        if (apiKey.isBlank() || apiKey == "MY_GEMINI_API_KEY") {
+        if ((apiKey.isBlank() || apiKey == "MY_GEMINI_API_KEY") && groqKey.isBlank()) {
             return@withContext Result.failure(
                 MissingApiKeyException(
-                    "A Gemini API-kulcs nincs beállítva. Add meg az ingyenes kulcsodat a Beállítások fülön (kulcs: aistudio.google.com/apikey), vagy használd a minta felismerés funkciót!"
+                    "Nincs beállítva kulcs a felismeréshez. Add meg az ingyenes kulcsodat a Beállítások fülön (aistudio.google.com/apikey), vagy használd a minta felismerés funkciót!"
                 )
             )
         }
 
         val base64Image = bitmapToBase64(bitmap)
+
+        // 1. Groq: gyors (pár mp) és napi kb. 1000 ingyenes felismerés
+        var groqError: String? = null
+        if (groqKey.isNotBlank()) {
+            val g = groqIdentify(groqKey, base64Image)
+            if (g.isSuccess) return@withContext g
+            groqError = g.exceptionOrNull()?.message
+        }
+        if (apiKey.isBlank() || apiKey == "MY_GEMINI_API_KEY") {
+            return@withContext Result.failure(Exception("A felismerés most nem sikerült: " + (groqError ?: "ismeretlen hiba") + " Próbáld újra 1 perc múlva."))
+        }
+
+        // 2. Tartalék: Google Gemini
         val jsonPayload = buildRequestBody(base64Image)
         val requestBody = jsonPayload.toRequestBody("application/json; charset=utf-8".toMediaType())
 
@@ -49,7 +63,7 @@ class GeminiFishIdentifier(
 
         // Végigpróbálja a modelleket; ha egy túlterhelt (503/429/500), a következőre vált.
         // Ha mind foglalt, rövid várakozás után még kétszer újrapróbálja.
-        attempts@ for (attempt in 0 until 2) {
+        attempts@ for (attempt in 0 until 1) {
             if (attempt > 0) kotlinx.coroutines.delay(3000L)
             busy = false
             for (modelName in supportedModels) {
@@ -96,14 +110,10 @@ class GeminiFishIdentifier(
             if (!busy) break
         }
 
-        // Ingyenes tartalék: Groq (nagyobb napi keret), ha a Gemini nem sikerült
-        val groqKey = ApiKeyStore.groqKey()
-        if (groqKey.isNotBlank()) {
-            val g = groqIdentify(groqKey, base64Image)
-            if (g.isSuccess) return@withContext g
+        if (groqError != null) {
             lastError = Exception(
-                (lastError?.message ?: "A Gemini nem válaszolt.") +
-                    "\nA tartalék szolgáltatás (Groq) sem sikerült: " + (g.exceptionOrNull()?.message ?: "ismeretlen hiba")
+                "A felismerés most nem sikerült. Groq: " + groqError + "\nGemini: " + (lastError?.message ?: "nem válaszolt.") +
+                    "\nPróbáld újra 1-2 perc múlva."
             )
         }
 
@@ -177,7 +187,7 @@ class GeminiFishIdentifier(
                 val code = response.code
                 err = when {
                     code == 401 || code == 403 -> Exception("a Groq kulcs nem érvényes.")
-                    code == 429 -> Exception("a Groq napi ingyenes kerete is elfogyott, holnap újra működik.")
+                    code == 429 -> Exception("a Groq percenkénti vagy napi kerete épp betelt.")
                     else -> Exception("Groq hiba ($code).")
                 }
                 val tryNext = code == 404 || code == 429 || code == 500 || code == 503 ||
@@ -192,7 +202,7 @@ class GeminiFishIdentifier(
     }
 
     private fun bitmapToBase64(bitmap: Bitmap): String {
-        val maxDimension = 1280
+        val maxDimension = 1024
         val ratio = minOf(
             maxDimension.toFloat() / bitmap.width,
             maxDimension.toFloat() / bitmap.height,
@@ -225,6 +235,7 @@ class GeminiFishIdentifier(
             - Killi-nőstény vs. harcoshal-nőstény: a harcoshalnak kicsi a hátúszója, hosszú a farok alatti úszója, és fonalas a hasúszója.
             - Aranyos zebrasügér (Astatotilapia latifasciata): széles függőleges fekete sávok sárga-narancs alapon (fiatalon foltokra szakadhatnak); a szabálytalan fekete pöttyös-foltos narancs hal inkább "OB" színváltozatú malawi sügér.
 
+            Elnevezés: a "magyarNev" a magyar akvarisztikában használt név legyen. A killiket magyarul FOGASPONTYOKNAK hívjuk: náluk a magyar név fogasponty legyen, és zárójelben a killi név is szerepeljen (pl. "Argentin gyöngyfogasponty (gyöngyös killi)").
             A "biztonsagSzazalek" legyen őszinte: 85 fölé csak akkor menj, ha a döntő bélyegek jól látszanak. Az "alternativFajok" listában add meg a 2-3 legvalószínűbb MÁSIK fajt, mindegyiknél röviden, miben különbözik (pl. "Gyöngygurámi – magas test, fonalas hasúszó").
             Válaszolj KIZÁRÓLAG érvényes JSON formátumban az alábbi mezőkkel, magyar nyelven:
             {

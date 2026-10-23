@@ -528,7 +528,7 @@ fun IdentifyScreen(
                     if (result.alternativeSpecies.isNotEmpty()) {
                         Spacer(modifier = Modifier.height(12.dp))
                         Text(
-                            text = "Lehetséges alternatív fajok:",
+                            text = "Hasonló fajok, amivel összetéveszthető (nem ez az eredmény):",
                             style = MaterialTheme.typography.titleSmall,
                             fontWeight = FontWeight.SemiBold,
                             color = MaterialTheme.colorScheme.onSurface
