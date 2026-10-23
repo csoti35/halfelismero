@@ -223,40 +223,40 @@ class GeminiFishIdentifier(
     }
 
     private val fishPrompt = """
-            Te egy világszínvonalú akvarisztikai szakértő és halhatározó vagy. Feladat: a képen látható akváriumi hal fajának pontos meghatározása.
+            Te tapasztalt akvarisztikai halhatározó szakértő vagy. Feladat: a MELLÉKELT KÉPEN látható akváriumi hal fajának meghatározása.
+            Ha több hal látszik, a legnagyobb, legélesebben látható halat (vagy a képen többségben lévő fajt) határozd meg.
 
-            Így dolgozz (ezt magadban végezd el, a válaszba csak a JSON kerül):
-            1. Nézd meg a látható bélyegeket: testforma (megnyúlt/hengeres, oldalról lapított, magas hátú), a száj állása, a HÁTÚSZÓ HELYE és mérete, a FAROK ALATTI ÚSZÓ hossza és helye, a HASÚSZÓ (kicsi vagy hosszú fonalszerű tapogató), a farokúszó formája, a mintázat (pöttyök, sávok, csíkok, foltok) és a színek.
-            2. Gondold végig a 3-4 legvalószínűbb fajt, és döntsd el, melyik bélyeg választja el őket.
-            3. Ne a legismertebb hasonló fajt válaszd automatikusan: a hobbisták ritkább fajokat is tartanak (killik/fogaspontyok: Austrolebias – régi nevén Cynolebias, Nothobranchius, Aphyosemion, Fundulopanchax, Simpsonichthys; szivárványhalak; Viktória-tavi és malawi sügérek; gébek; törpesügérek).
+            Módszer:
+            1. Először írd le pontosan, mit látsz a képen ("lathatoBelyegek" mező): testforma és méret a növényekhez/kavicshoz képest, színek, mintázat (pöttyök, sávok, csíkok, foltok), a hátúszó helye és mérete, a farok alatti úszó hossza, a hasúszó (kicsi vagy hosszú, fonalszerű), a farokúszó formája és színe, a száj állása.
+            2. CSAK ezek alapján gondold végig a 3-4 szóba jöhető fajt, és válaszd azt, amelyikre a látott bélyegek a legjobban illenek. Ne találgass olyan fajt, amelynek jellegzetes bélyegei nem látszanak a képen.
+            3. Gondolj a gyakori díszhalakra (elevenszülők: guppi, endler, platti, molli, kardfarkú; pontylazacok; razbórák, dániók, márnák; harcsák; labirintushalak; sügérek) és a ritkábbakra is (fogaspontyok/killik, szivárványhalak, gébek, tavi sügérek).
+            Hasznos megkülönböztetések: a fogaspontyoknál (killik) a hát- és a farok alatti úszó hátul, egymással szemben ül; a gurámiknál és harcoshalaknál a hasúszó hosszú, fonalszerű; az elevenszülő hímeknél a farok alatti úszó pálcaszerű párzószervvé (gonopódium) alakult; a pontylazacoknak gyakran van kis zsírúszójuk.
 
-            FONTOS összetévesztések:
-            - GYÖNGYÖS KILLI (Austrolebias nigripinnis, régi nevén Cynolebias nigripinnis) vs. GYÖNGYGURÁMI (Trichopodus leeri): mindkettő gyöngypöttyös! A killi teste megnyúlt, hengeres, kicsi (max. 4-5 cm); a hátúszó és a farok alatti úszó HÁTUL, egymással SZEMBEN ül, nagyjából egyforma, lekerekített; a hasúszó KICSI; a hím sötét kékesszürke vagy fekete, világoskék/zöldes pöttyökkel, a farok alatti úszó alja gyakran narancs/vörös szegélyű; a nőstény szürkésbarna. A gyöngygurámi teste magas, oldalról erősen lapított, nagyobb (10-12 cm); a hasúszói HOSSZÚ FONALSZERŰ TAPOGATÓK; a farok alatti úszó a has közepétől a farokig húzódik; a test közepén sötét hosszanti vonal fut a szemtől a farokig.
-            - Killi-nőstény vs. harcoshal-nőstény: a harcoshalnak kicsi a hátúszója, hosszú a farok alatti úszója, és fonalas a hasúszója.
-            - Aranyos zebrasügér (Astatotilapia latifasciata): széles függőleges fekete sávok sárga-narancs alapon (fiatalon foltokra szakadhatnak); a szabálytalan fekete pöttyös-foltos narancs hal inkább "OB" színváltozatú malawi sügér.
+            Elnevezés: a "magyarNev" a magyar akvarisztikában használt név legyen. Fogaspontyoknál (killiknél) a magyar fogasponty nevet írd, mellette zárójelben a killi megnevezést.
+            A "biztonsagSzazalek" legyen őszinte: 85 fölé csak akkor menj, ha a döntő bélyegek jól látszanak; homályos, apró vagy távoli halnál legyen alacsonyabb.
+            Az "alternativFajok" listában add meg a 2-3 legvalószínűbb MÁSIK fajt, mindegyiknél röviden, miben különbözik a képen látott haltól.
 
-            Elnevezés: a "magyarNev" a magyar akvarisztikában használt név legyen. A killiket magyarul FOGASPONTYOKNAK hívjuk: náluk a magyar név fogasponty legyen, és zárójelben a killi név is szerepeljen (pl. "Argentin gyöngyfogasponty (gyöngyös killi)").
-            A "biztonsagSzazalek" legyen őszinte: 85 fölé csak akkor menj, ha a döntő bélyegek jól látszanak. Az "alternativFajok" listában add meg a 2-3 legvalószínűbb MÁSIK fajt, mindegyiknél röviden, miben különbözik (pl. "Gyöngygurámi – magas test, fonalas hasúszó").
-            Válaszolj KIZÁRÓLAG érvényes JSON formátumban az alábbi mezőkkel, magyar nyelven:
+            Válaszolj KIZÁRÓLAG érvényes JSON formátumban, magyar nyelven, PONTOSAN ezekkel a mezőkkel (a <...> helyére a saját válaszodat írd):
             {
-              "magyarNev": "A hal közismert magyar neve",
-              "tudomanyosNev": "A faj tudományos latin neve",
-              "csalad": "Rendszertani család (pl. Characidae)",
-              "biztonsagSzazalek": 90,
-              "bizonytalansagiJelzes": "Ha a kép homályos, gyenge minőségű vagy a faj könnyen összetéveszthető, részletezd a bizonytalanságot. Ha biztos a felismerés, legyen üres string.",
-              "alternativFajok": ["Hasonló faj 1", "Hasonló faj 2"],
-              "meret": "Felnőtt méret (pl. 3-4 cm)",
-              "elohely": "Eredeti élőhely (pl. Dél-Amerika, Amazonas-medence)",
-              "homerseklet": "Ideális vízhőmérséklet (pl. 22-26 °C)",
-              "ph": "Ideális pH tartomány (pl. 6.0 - 7.0)",
-              "vizkemenyseg": "Ideális vízkeménység (pl. 2 - 10 dGH)",
-              "taplalkozas": "Táplálkozási igények (pl. Mindenevő, finom lemezes és fagyasztott plankton)",
-              "tarsithatosag": "Társíthatóság és viselkedés (pl. Békés rajhal, min. 8-10 egyed ajánlott)",
-              "szaporitas": "Szaporodási mód (pl. Szabadon ikrázó, lágy víz szükséges)",
-              "leiras": "Részletes magyar nyelvű ismertető a hal megjelenéséről, színeiről és viselkedéséről",
-              "gondozasiTippek": "Hasznos akvarisztikai jótanácsok a tartáshoz és növényzethez"
+              "lathatoBelyegek": "<amit a képen ténylegesen látsz, 1-3 mondat>",
+              "magyarNev": "<magyar név>",
+              "tudomanyosNev": "<latin név>",
+              "csalad": "<család latinul>",
+              "biztonsagSzazalek": <0-100 egész szám>,
+              "bizonytalansagiJelzes": "<ha bizonytalan vagy a kép rossz, miért; különben üres string>",
+              "alternativFajok": ["<másik faj – miben különbözik>", "<másik faj – miben különbözik>"],
+              "meret": "<felnőttkori méret cm-ben>",
+              "elohely": "<eredeti élőhely>",
+              "homerseklet": "<ideális vízhőmérséklet °C>",
+              "ph": "<ideális pH-tartomány>",
+              "vizkemenyseg": "<ideális keménység dGH>",
+              "taplalkozas": "<táplálkozás>",
+              "tarsithatosag": "<természet (békés/félagresszív/agresszív) és társíthatóság>",
+              "szaporitas": "<szaporodási mód és a tenyésztés lényege>",
+              "leiras": "<a hal megjelenése, színei, viselkedése>",
+              "gondozasiTippek": "<tartási tanácsok>"
             }
-            Ha a képen egyértelműen NEM hal látható, a magyarNev mező értéke legyen 'Nem felismerhető akváriumi hal' és a bizonytalansagiJelzes részletezze a problémát.
+            Ha a képen egyértelműen NEM hal látható, a magyarNev legyen 'Nem felismerhető akváriumi hal', és a bizonytalansagiJelzes írja le a problémát.
         """.trimIndent()
 
     private fun buildRequestBody(base64Data: String): String {
