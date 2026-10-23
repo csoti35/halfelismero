@@ -34,6 +34,16 @@ public class MainActivity extends Activity {
     private static final int REQ_CAMERA_PERM = 11;
     private static final int REQ_LOCATION_PERM = 12;
 
+    /** Elrejti az „Edit with Lovable” jelvényt (most és ha később újra megjelenne). */
+    private static final String HIDE_BADGE_JS =
+        "(function(){" +
+        "var css='#lovable-badge,a[href*=\\'lovable.dev\\'],a[href*=\\'lovable.app/?utm\\'],[id*=lovable-badge]{display:none!important;visibility:hidden!important}';" +
+        "if(!document.getElementById('hide-lovable')){var st=document.createElement('style');st.id='hide-lovable';st.textContent=css;(document.head||document.documentElement).appendChild(st);}" +
+        "var pend=false;function sweep(){pend=false;document.querySelectorAll('a').forEach(function(el){var t=(el.textContent||'').trim();" +
+        "if(/Edit with\\s*Lovable/i.test(t)&&t.length<60){var box=(el.parentElement&&el.parentElement.children.length<=3&&getComputedStyle(el.parentElement).position==='fixed')?el.parentElement:el;box.style.setProperty('display','none','important');}});}" +
+        "sweep();new MutationObserver(function(){if(!pend){pend=true;setTimeout(sweep,300);}}).observe(document.documentElement,{childList:true,subtree:true});" +
+        "})();";
+
     private WebView web;
     private String homeHost;
     private ValueCallback<Uri[]> fileCallback;
@@ -79,6 +89,12 @@ public class MainActivity extends Activity {
                 }
                 openExternal(u); // térkép, keresés, telefonszám stb. külső alkalmazásban
                 return true;
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String pageUrl) {
+                super.onPageFinished(view, pageUrl);
+                view.evaluateJavascript(HIDE_BADGE_JS, null);
             }
         });
 
