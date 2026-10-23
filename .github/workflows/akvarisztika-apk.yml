@@ -1,0 +1,42 @@
+name: Akvarisztika APK
+
+on:
+  push:
+    branches: [akvarisztika]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Android SDK licencek
+        run: |
+          SDKM=$(ls $ANDROID_HOME/cmdline-tools/*/bin/sdkmanager | head -1)
+          yes | "$SDKM" --licenses > /dev/null || true
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
+      - name: APK fordítása
+        run: |
+          set -o pipefail
+          gradle assembleDebug --no-configuration-cache --console=plain 2>&1 | tee build.log || {
+            grep -v "> Task" build.log | grep -E -A6 "error:|What went wrong|Could not|FAILED|Exception" | head -60 | while IFS= read -r l; do echo "::error::${l:0:900}"; done
+            exit 1
+          }
+      - run: cp app/build/outputs/apk/debug/app-debug.apk akvarisztika.apk
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: akvarisztika-apk
+          name: Akvarisztika – Android APK
+          make_latest: false
+          files: akvarisztika.apk
+          body: Akvarisztika (halfelismerő, árak, boltok) Android-alkalmazás. Letöltés lent, az Assets alatt.
