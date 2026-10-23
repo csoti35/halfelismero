@@ -19,17 +19,13 @@ import java.util.concurrent.TimeUnit
 class GeminiFishIdentifier(
     private val client: OkHttpClient = OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)
-        .readTimeout(90, TimeUnit.SECONDS)
+        .readTimeout(60, TimeUnit.SECONDS)
         .writeTimeout(30, TimeUnit.SECONDS)
         .build()
 ) {
 
     private val supportedModels = listOf(
         "gemini-flash-latest",
-        "gemini-3.8-flash",
-        "gemini-3.7-flash",
-        "gemini-3.5-flash",
-        "gemini-2.5-flash",
         "gemini-flash-lite-latest"
     )
 
@@ -53,8 +49,8 @@ class GeminiFishIdentifier(
 
         // Végigpróbálja a modelleket; ha egy túlterhelt (503/429/500), a következőre vált.
         // Ha mind foglalt, rövid várakozás után még kétszer újrapróbálja.
-        attempts@ for (attempt in 0 until 3) {
-            if (attempt > 0) kotlinx.coroutines.delay(2500L * attempt)
+        attempts@ for (attempt in 0 until 2) {
+            if (attempt > 0) kotlinx.coroutines.delay(3000L)
             busy = false
             for (modelName in supportedModels) {
                 try {
@@ -76,13 +72,18 @@ class GeminiFishIdentifier(
                     val code = response.code
                     val modelMissing = code == 404 ||
                         (code == 400 && (responseString.contains("not found", true) || responseString.contains("not supported", true)))
+                    val quotaGone = code == 429 && responseString.contains("quota", true)
+                    if (quotaGone) {
+                        lastError = Exception("Elfogyott a mai ingyenes Gemini-keret ennél a kulcsnál. Holnap újra működik, vagy adj meg saját ingyenes kulcsot a Beállításokban (aistudio.google.com/apikey).")
+                        break@attempts
+                    }
                     val overloaded = code == 429 || code == 500 || code == 503 || code == 504
                     if (overloaded) busy = true
                     lastError = when {
                         code == 401 || code == 403 || (code == 400 && responseString.contains("API key", true)) ->
                             Exception("A Gemini kulcs nem érvényes vagy le van tiltva. Adj meg új kulcsot a Beállításokban.")
                         overloaded ->
-                            Exception("A Google szerverei most túlterheltek, vagy elfogyott a napi ingyenes keret. Próbáld újra 1-2 perc múlva.")
+                            Exception("A Google szerverei most túlterheltek. Próbáld újra 1-2 perc múlva.")
                         else -> Exception("Gemini hiba ($code). Próbáld újra.")
                     }
                     if (!modelMissing && !overloaded) break@attempts
@@ -101,7 +102,7 @@ class GeminiFishIdentifier(
     }
 
     private fun bitmapToBase64(bitmap: Bitmap): String {
-        val maxDimension = 1600
+        val maxDimension = 1280
         val ratio = minOf(
             maxDimension.toFloat() / bitmap.width,
             maxDimension.toFloat() / bitmap.height,
@@ -180,6 +181,8 @@ class GeminiFishIdentifier(
 
         val genConfig = JSONObject()
         genConfig.put("temperature", 0.2)
+        // Kevesebb "gondolkodás" = gyorsabb válasz (a felismeréshez elég)
+        genConfig.put("thinkingConfig", JSONObject().put("thinkingLevel", "low"))
         genConfig.put("responseMimeType", "application/json")
         root.put("generationConfig", genConfig)
 
