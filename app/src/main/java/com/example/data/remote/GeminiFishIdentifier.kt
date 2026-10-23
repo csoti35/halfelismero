@@ -101,7 +101,7 @@ class GeminiFishIdentifier(
     }
 
     private fun bitmapToBase64(bitmap: Bitmap): String {
-        val maxDimension = 1024
+        val maxDimension = 1600
         val ratio = minOf(
             maxDimension.toFloat() / bitmap.width,
             maxDimension.toFloat() / bitmap.height,
@@ -116,15 +116,27 @@ class GeminiFishIdentifier(
         }
 
         val outputStream = ByteArrayOutputStream()
-        scaled.compress(Bitmap.CompressFormat.JPEG, 85, outputStream)
+        scaled.compress(Bitmap.CompressFormat.JPEG, 90, outputStream)
         val byteArray = outputStream.toByteArray()
         return Base64.encodeToString(byteArray, Base64.NO_WRAP)
     }
 
     private fun buildRequestBody(base64Data: String): String {
         val prompt = """
-            Te egy világszínvonalú akvarisztikai szakértő és halbiológus vagy.
-            Elemezd a képen látható halat és válaszolj KIZÁRÓLAG érvényes JSON formátumban az alábbi mezőkkel magyar nyelven:
+            Te egy világszínvonalú akvarisztikai szakértő és halhatározó vagy. Feladat: a képen látható akváriumi hal fajának pontos meghatározása.
+
+            Így dolgozz (ezt magadban végezd el, a válaszba csak a JSON kerül):
+            1. Nézd meg a látható bélyegeket: testforma (megnyúlt/hengeres, oldalról lapított, magas hátú), a száj állása, a HÁTÚSZÓ HELYE és mérete, a FAROK ALATTI ÚSZÓ hossza és helye, a HASÚSZÓ (kicsi vagy hosszú fonalszerű tapogató), a farokúszó formája, a mintázat (pöttyök, sávok, csíkok, foltok) és a színek.
+            2. Gondold végig a 3-4 legvalószínűbb fajt, és döntsd el, melyik bélyeg választja el őket.
+            3. Ne a legismertebb hasonló fajt válaszd automatikusan: a hobbisták ritkább fajokat is tartanak (killik/fogaspontyok: Austrolebias – régi nevén Cynolebias, Nothobranchius, Aphyosemion, Fundulopanchax, Simpsonichthys; szivárványhalak; Viktória-tavi és malawi sügérek; gébek; törpesügérek).
+
+            FONTOS összetévesztések:
+            - GYÖNGYÖS KILLI (Austrolebias nigripinnis, régi nevén Cynolebias nigripinnis) vs. GYÖNGYGURÁMI (Trichopodus leeri): mindkettő gyöngypöttyös! A killi teste megnyúlt, hengeres, kicsi (max. 4-5 cm); a hátúszó és a farok alatti úszó HÁTUL, egymással SZEMBEN ül, nagyjából egyforma, lekerekített; a hasúszó KICSI; a hím sötét kékesszürke vagy fekete, világoskék/zöldes pöttyökkel, a farok alatti úszó alja gyakran narancs/vörös szegélyű; a nőstény szürkésbarna. A gyöngygurámi teste magas, oldalról erősen lapított, nagyobb (10-12 cm); a hasúszói HOSSZÚ FONALSZERŰ TAPOGATÓK; a farok alatti úszó a has közepétől a farokig húzódik; a test közepén sötét hosszanti vonal fut a szemtől a farokig.
+            - Killi-nőstény vs. harcoshal-nőstény: a harcoshalnak kicsi a hátúszója, hosszú a farok alatti úszója, és fonalas a hasúszója.
+            - Aranyos zebrasügér (Astatotilapia latifasciata): széles függőleges fekete sávok sárga-narancs alapon (fiatalon foltokra szakadhatnak); a szabálytalan fekete pöttyös-foltos narancs hal inkább "OB" színváltozatú malawi sügér.
+
+            A "biztonsagSzazalek" legyen őszinte: 85 fölé csak akkor menj, ha a döntő bélyegek jól látszanak. Az "alternativFajok" listában add meg a 2-3 legvalószínűbb MÁSIK fajt, mindegyiknél röviden, miben különbözik (pl. "Gyöngygurámi – magas test, fonalas hasúszó").
+            Válaszolj KIZÁRÓLAG érvényes JSON formátumban az alábbi mezőkkel, magyar nyelven:
             {
               "magyarNev": "A hal közismert magyar neve",
               "tudomanyosNev": "A faj tudományos latin neve",
@@ -151,16 +163,16 @@ class GeminiFishIdentifier(
         val content = JSONObject()
         val parts = JSONArray()
 
-        val textPart = JSONObject()
-        textPart.put("text", prompt)
-        parts.put(textPart)
-
         val imagePart = JSONObject()
         val inlineData = JSONObject()
         inlineData.put("mimeType", "image/jpeg")
         inlineData.put("data", base64Data)
         imagePart.put("inlineData", inlineData)
         parts.put(imagePart)
+
+        val textPart = JSONObject()
+        textPart.put("text", prompt)
+        parts.put(textPart)
 
         content.put("parts", parts)
         contents.put(content)

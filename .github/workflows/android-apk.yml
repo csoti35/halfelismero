@@ -38,6 +38,10 @@ jobs:
           G=$(python3 -c "import json;d=json.load(open('g.json'));print((d['candidates'][0]['content']['parts'][0].get('text','') if 'candidates' in d else json.dumps(d.get('error',{})))[:600])")
           echo "::warning::KULCS-TESZT generálás (gemini-flash-latest): HTTP $C2 – $G"
 
+      - name: Felismerés-teszt a mintaképpel
+        continue-on-error: true
+        run: python3 .ci/fish_test.py
+
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '9.3.1'
