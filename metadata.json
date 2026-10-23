@@ -1,0 +1,6 @@
+{
+  "name": "Halfelismerő",
+  "description": "Magyar nyelvű akváriumi halfelismerő mesterséges intelligenciával, fajadatbázissal, akvárium- és gondozási napló-kezeléssel.",
+  "requestFramePermissions": ["android.permission.CAMERA"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
