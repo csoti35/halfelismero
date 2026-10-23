@@ -32,6 +32,12 @@ object ApiKeyStore {
 
     fun hasBuiltIn(): Boolean = builtIn.isNotBlank()
 
+    // Ingyenes tartalék szolgáltatás (Groq) beépített kulcsa, szintén elkódolva.
+    private val groqCode = intArrayOf()
+    private val groqBuiltIn: String by lazy { String(CharArray(groqCode.size) { (groqCode[it] xor 0x3C).toChar() }) }
+
+    fun groqKey(): String = groqBuiltIn
+
     /** Ha a felhasználó saját kulcsot adott meg, azt; különben a beépítettet. */
     fun effectiveKey(): String {
         val k = saved()

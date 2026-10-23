@@ -96,9 +96,68 @@ class GeminiFishIdentifier(
             if (!busy) break
         }
 
+        // Ingyenes tartalék: Groq (nagyobb napi keret), ha a Gemini nem sikerült
+        val groqKey = ApiKeyStore.groqKey()
+        if (groqKey.isNotBlank()) {
+            val g = groqIdentify(groqKey, base64Image)
+            if (g.isSuccess) return@withContext g
+            lastError = Exception(
+                (lastError?.message ?: "A Gemini nem válaszolt.") +
+                    "\nA tartalék szolgáltatás (Groq) sem sikerült: " + (g.exceptionOrNull()?.message ?: "ismeretlen hiba")
+            )
+        }
+
         Result.failure(
             lastError ?: Exception("Nem sikerült elérni a Gemini AI modellt. Ellenőrizd az internetkapcsolatot és az API kulcsot.")
         )
+    }
+
+    private val groqModels = listOf(
+        "qwen/qwen3.6-27b",
+        "meta-llama/llama-4-scout-17b-16e-instruct",
+        "meta-llama/llama-4-maverick-17b-128e-instruct"
+    )
+
+    private fun groqIdentify(key: String, base64Image: String): Result<FishRecognitionResult> {
+        var err: Exception? = null
+        for (model in groqModels) {
+            try {
+                val content = JSONArray()
+                    .put(JSONObject().put("type", "text").put("text", fishPrompt + "\n\nCsak a JSON objektumot írd ki, semmi mást."))
+                    .put(JSONObject().put("type", "image_url").put("image_url", JSONObject().put("url", "data:image/jpeg;base64," + base64Image)))
+                val body = JSONObject()
+                    .put("model", model)
+                    .put("temperature", 0.2)
+                    .put("max_completion_tokens", 3000)
+                    .put("messages", JSONArray().put(JSONObject().put("role", "user").put("content", content)))
+                val request = Request.Builder()
+                    .url("https://api.groq.com/openai/v1/chat/completions")
+                    .header("Authorization", "Bearer " + key)
+                    .post(body.toString().toRequestBody("application/json; charset=utf-8".toMediaType()))
+                    .build()
+                val response = client.newCall(request).execute()
+                val responseString = response.body?.string().orEmpty()
+                if (response.isSuccessful) {
+                    val msg = JSONObject(responseString).optJSONArray("choices")?.optJSONObject(0)
+                        ?.optJSONObject("message")?.optString("content").orEmpty()
+                    return Result.success(parseResultText(msg))
+                }
+                Log.w("GeminiFishIdentifier", "Groq $model returned ${response.code}: $responseString")
+                val code = response.code
+                err = when {
+                    code == 401 || code == 403 -> Exception("a Groq kulcs nem érvényes.")
+                    code == 429 -> Exception("a Groq napi ingyenes kerete is elfogyott, holnap újra működik.")
+                    else -> Exception("Groq hiba ($code).")
+                }
+                val tryNext = code == 404 || code == 429 || code == 500 || code == 503 ||
+                    (code == 400 && (responseString.contains("model", true) || responseString.contains("image", true)))
+                if (!tryNext) break
+            } catch (e: Exception) {
+                Log.e("GeminiFishIdentifier", "Groq hiba: $model", e)
+                err = Exception("a Groq nem válaszolt (internet?).")
+            }
+        }
+        return Result.failure(err ?: Exception("a Groq nem érhető el."))
     }
 
     private fun bitmapToBase64(bitmap: Bitmap): String {
@@ -122,8 +181,7 @@ class GeminiFishIdentifier(
         return Base64.encodeToString(byteArray, Base64.NO_WRAP)
     }
 
-    private fun buildRequestBody(base64Data: String): String {
-        val prompt = """
+    private val fishPrompt = """
             Te egy világszínvonalú akvarisztikai szakértő és halhatározó vagy. Feladat: a képen látható akváriumi hal fajának pontos meghatározása.
 
             Így dolgozz (ezt magadban végezd el, a válaszba csak a JSON kerül):
@@ -158,6 +216,9 @@ class GeminiFishIdentifier(
             }
             Ha a képen egyértelműen NEM hal látható, a magyarNev mező értéke legyen 'Nem felismerhető akváriumi hal' és a bizonytalansagiJelzes részletezze a problémát.
         """.trimIndent()
+
+    private fun buildRequestBody(base64Data: String): String {
+        val prompt = fishPrompt
 
         val root = JSONObject()
         val contents = JSONArray()
@@ -196,6 +257,12 @@ class GeminiFishIdentifier(
         val content = firstCandidate?.optJSONObject("content")
         val parts = content?.optJSONArray("parts")
         val text = parts?.optJSONObject(0)?.optString("text").orEmpty()
+        return parseResultText(text)
+    }
+
+    private fun parseResultText(rawText: String): FishRecognitionResult {
+        // Néhány modell "gondolkodó" blokkot is ír a válasz elé; ezt kiszedjük.
+        val text = rawText.replace(Regex("(?s)<think>.*?</think>"), "")
 
         // Robust JSON block extraction
         val jsonStartIndex = text.indexOf('{')

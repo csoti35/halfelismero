@@ -472,6 +472,22 @@ fun IdentifyScreen(
                         )
                     }
 
+                    // Bővebb leírás a diszhal.info oldalon (a felismert faj latin neve alapján)
+                    val uriHandler = androidx.compose.ui.platform.LocalUriHandler.current
+                    val searchName = result.scientificName.ifBlank { result.hungarianName }
+                    if (searchName.isNotBlank()) {
+                        Spacer(modifier = Modifier.height(8.dp))
+                        OutlinedButton(
+                            onClick = {
+                                val q = java.net.URLEncoder.encode("site:diszhal.info " + searchName, "UTF-8")
+                                try { uriHandler.openUri("https://www.google.com/search?q=" + q) } catch (e: Exception) { }
+                            },
+                            modifier = Modifier.testTag("diszhal_info_button")
+                        ) {
+                            Text("Bővebben a diszhal.info-n", color = TurquoisePrimary, fontSize = 13.sp)
+                        }
+                    }
+
                     // Uncertainty Warning banner if present
                     if (result.uncertaintyWarning.isNotBlank()) {
                         Spacer(modifier = Modifier.height(12.dp))
