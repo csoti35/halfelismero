@@ -34,7 +34,7 @@ jobs:
         run: |
           set -o pipefail
           gradle assembleDebug --no-configuration-cache --console=plain 2>&1 | tee build.log || {
-            grep -E "^e: |error:|What went wrong|FAILURE|Could not|> " build.log | head -40 | while IFS= read -r l; do echo "::error::${l:0:900}"; done
+            grep -v "> Task" build.log | grep -E -A6 "^e: |error:|What went wrong|Could not|FAILED|Exception" | head -60 | while IFS= read -r l; do echo "::error::${l:0:900}"; done
             exit 1
           }
 
