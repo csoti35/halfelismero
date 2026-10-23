@@ -26,6 +26,18 @@ jobs:
           SDKM=$(ls $ANDROID_HOME/cmdline-tools/*/bin/sdkmanager | head -1)
           yes | "$SDKM" --licenses > /dev/null || true
 
+      - name: Beépített kulcs ellenőrzése
+        continue-on-error: true
+        run: |
+          KEY=$(python3 -c "import re;s=open('app/src/main/java/com/example/data/local/ApiKeyStore.kt').read();n=re.search(r'intArrayOf\(([^)]*)\)',s).group(1);print(''.join(chr(int(x)^0x5A) for x in n.split(',')))")
+          echo "::add-mask::$KEY"
+          C1=$(curl -s -o m.json -w '%{http_code}' -H "x-goog-api-key: $KEY" "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200")
+          FL=$(python3 -c "import json;d=json.load(open('m.json'));print(' '.join(m['name'][7:] for m in d.get('models',[]) if 'flash' in m['name'])[:600] if 'models' in d else json.dumps(d.get('error',{}))[:600])")
+          echo "::warning::KULCS-TESZT modellek: HTTP $C1 – $FL"
+          C2=$(curl -s -o g.json -w '%{http_code}' -H "x-goog-api-key: $KEY" -H "Content-Type: application/json" -d '{"contents":[{"parts":[{"text":"Mondd: szia"}]}]}' "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent")
+          G=$(python3 -c "import json;d=json.load(open('g.json'));print((d['candidates'][0]['content']['parts'][0].get('text','') if 'candidates' in d else json.dumps(d.get('error',{})))[:600])")
+          echo "::warning::KULCS-TESZT generálás (gemini-flash-latest): HTTP $C2 – $G"
+
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '9.3.1'

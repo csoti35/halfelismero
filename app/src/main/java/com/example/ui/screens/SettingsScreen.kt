@@ -132,7 +132,7 @@ fun SettingsScreen(
                 Spacer(modifier = Modifier.height(12.dp))
 
                 Text(
-                    text = "A képfelismeréshez a Google Gemini modellt használjuk. Ingyenes kulcsot itt kérhetsz a Gmail-fiókoddal: aistudio.google.com/apikey → Create API key. Másold ki, illeszd be lent, és mentsd el. A kulcs csak ezen a telefonon tárolódik.",
+                    text = "A képfelismeréshez a Google Gemini modellt használjuk. Az alkalmazásban van beépített kulcs, nem kell semmit beállítanod. Saját kulcsot csak akkor adj meg lent, ha a beépített napi keret elfogyott (ingyen: aistudio.google.com/apikey).",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     lineHeight = 18.sp
@@ -143,7 +143,7 @@ fun SettingsScreen(
                 OutlinedTextField(
                     value = keyInput,
                     onValueChange = { keyInput = it },
-                    label = { Text(if (isApiKeyPresent) "Új kulcs (ha cserélnéd)" else "Gemini API-kulcs") },
+                    label = { Text("Saját kulcs (nem kötelező)") },
                     placeholder = { Text("Illeszd be ide a kulcsot") },
                     singleLine = true,
                     modifier = Modifier
@@ -170,7 +170,7 @@ fun SettingsScreen(
                 if (isApiKeyPresent) {
                     Spacer(modifier = Modifier.height(6.dp))
                     Text(
-                        text = "Mentett kulcs: " + savedKey.take(6) + "…",
+                        text = if (ApiKeyStore.saved().isNotBlank()) "Saját kulcs használatban: " + savedKey.take(6) + "…" else "Beépített kulcs használatban",
                         style = MaterialTheme.typography.bodySmall,
                         color = TurquoisePrimary
                     )
