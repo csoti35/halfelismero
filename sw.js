@@ -1,5 +1,5 @@
 // Akváriumi Halfelismerő – service worker: az alkalmazás vázát offline is betölti.
-const CACHE = "halfelismero-v1";
+const CACHE = "halfelismero-v2";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {

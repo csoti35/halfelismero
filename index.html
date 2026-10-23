@@ -219,11 +219,11 @@ ol.list{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
       <p style="margin:0">A felismeréshez egy <b>ingyenes Google Gemini kulcs</b> kell. Csak egyszer kell beírni, a telefonod megjegyzi.</p>
       <ol class="list">
         <li>Nyisd meg: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>, és jelentkezz be a Gmail-fiókoddal.</li>
-        <li>Koppints a <b>Create API key</b> (Kulcs létrehozása) gombra, és másold ki a kulcsot (AIza… kezdetű).</li>
+        <li>Koppints a <b>Create API key</b> (Kulcs létrehozása) gombra, és a kulcs melletti másolás ikonnal másold ki.</li>
         <li>Illeszd be ide, és nyomd meg a <b>Mentés</b> gombot.</li>
       </ol>
       <div class="namerow">
-        <input type="password" id="keyIn" class="textin" placeholder="AIza…" autocomplete="off" spellcheck="false">
+        <input type="text" id="keyIn" class="textin" placeholder="Illeszd be ide a kulcsot" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
         <button type="button" class="btn" id="keySave">Mentés</button>
       </div>
       <p class="foot" id="keyState" style="margin:0"></p>
@@ -571,11 +571,27 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
     goBtn.disabled=!file||!sample||busy; $("nameBtn").disabled=!sample||busy;
     if(!k)setStatus('Első lépés: add meg az ingyenes Gemini kulcsot lent, a <a href="#settings" style="color:inherit">Beállításoknál</a>.',false);
   }
-  $("keySave").addEventListener("click",()=>{
-    const k=$("keyIn").value.trim();
+  $("keySave").addEventListener("click",async()=>{
+    // Bemásoláskor gyakran kerül bele szóköz, sortörés vagy idézőjel: ezeket kiszedjük
+    const k=$("keyIn").value.replace(/[\s"'`„”“]/g,"").replace(/^(key|api[_ ]?key)[:=]/i,"");
+    const st=$("keyState");
     if(!k){setKey("");MODEL=null;refreshKeyUI();return}
-    if(!/^[A-Za-z0-9_\-]{20,}$/.test(k)){$("keyState").textContent="Ez nem tűnik Gemini kulcsnak. A kulcs általában AIza betűkkel kezdődik.";$("keyState").classList.remove("keyok");return}
-    setKey(k); MODEL=null; $("keyIn").value=""; refreshKeyUI(); setStatus(file?"Kulcs elmentve. Nyomd meg a „Hal felismerése” gombot.":"Kulcs elmentve. Most fotózd le a halat.");
+    if(k.length<15){st.textContent="Ez túl rövid egy kulcshoz ("+k.length+" karakter). Másold ki újra a teljes kulcsot.";st.classList.remove("keyok");return}
+    st.classList.remove("keyok"); st.textContent="Kulcs ellenőrzése a Google-nél…"; $("keySave").disabled=true;
+    let ok=false, msg="";
+    try{
+      const r=await fetch(API+"/models?pageSize=200&key="+encodeURIComponent(k));
+      if(r.ok){ok=true}else{try{msg=(await r.json()).error?.message||""}catch(_){} if(!msg)msg="HTTP "+r.status}
+    }catch(_){msg="Nem sikerült elérni a Google-t. Ellenőrizd az internetet."}
+    $("keySave").disabled=false;
+    if(!ok){
+      st.textContent="A Google nem fogadta el a kulcsot: "+msg.slice(0,220);
+      setKey(k); MODEL=null; // elmentjük, hátha csak átmeneti a hiba
+      sample=true; goBtn.disabled=!file||busy; $("nameBtn").disabled=busy;
+      return;
+    }
+    setKey(k); MODEL=null; $("keyIn").value=""; refreshKeyUI();
+    setStatus(file?"Kulcs rendben. Nyomd meg a „Hal felismerése” gombot.":"Kulcs rendben. Most fotózd le a halat.");
   });
 
   // ---- Google Gemini hívás ----
