@@ -649,6 +649,13 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
   if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!standalone)$("iosHint").hidden=false;
   if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 
+  // Egyszeri link: ...#key=KULCS -> elmenti a kulcsot, és azonnal kitörli a címsorból
+  try{
+    const m=location.hash.match(/^#key=([^&]+)/);
+    if(m){const k=decodeURIComponent(m[1]).trim(); if(k.length>=15){setKey(k);MODEL=null}
+      history.replaceState(null,"",location.pathname+location.search);
+      setTimeout(()=>{$("keyState").textContent="✓ Kulcs elmentve a linkből. Most fotózd le a halat!";$("keyState").classList.add("keyok")},0);}
+  }catch(_){}
   refreshKeyUI();
 })();
 </script>
