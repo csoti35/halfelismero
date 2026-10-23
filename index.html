@@ -416,7 +416,7 @@ Ha "found" false, a többi mező lehet null, de a "tippek" mezőben írd le, mi�
     if(!name){setStatus("Írd be a hal nevét.",true);$("nameIn").focus();return}
     if(!sample||busy)return;
     busy=true; goBtn.disabled=true; $("nameBtn").disabled=true; ctl=new AbortController();
-    setStatus('<span class="spin"></span>Összeállítom az adatlapot…');
+    startTicker('Összeállítom az adatlapot…');
     const prompt=`Nincs kép. A felhasználó megadta a hal nevét: "${name.replace(/"/g,"'")}". Állítsd össze ennek a fajnak az adatlapját.
 Ha a név régi vagy szinonima (pl. Cynolebias → Austrolebias), a "latin" mezőbe a mai érvényes nevet írd, a "tippek" mezőben említsd a régi nevet is.
 A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és a nőstényt külön is). A "confidence" legyen "magas", ha ismert fajról van szó, a "mi_kellene" pedig null, a "jeloltek" üres lista. Ha nem ismersz ilyen nevű halat, "found": false, és a "tippek" mezőben kérdezz vissza vagy javasolj hasonló nevű fajt.
@@ -437,7 +437,15 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
   $("nameBtn").addEventListener("click",lookupByName);
   $("nameIn").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();lookupByName()}});
 
-  function setStatus(t,err){statusEl.innerHTML=t;statusEl.classList.toggle("err",!!err)}
+  let ticker=null;
+  function startTicker(label){
+    const t0=Date.now(); stopTicker();
+    const draw=()=>{const sec=Math.round((Date.now()-t0)/1000);statusEl.innerHTML='<span class="spin"></span>'+label+' '+sec+' mp <button type="button" class="linkbtn" id="stopBtn">Megállítás</button>';statusEl.classList.remove("err")};
+    draw(); ticker=setInterval(draw,1000);
+  }
+  function stopTicker(){if(ticker){clearInterval(ticker);ticker=null}}
+  statusEl.addEventListener("click",e=>{if(e.target&&e.target.id==="stopBtn"&&ctl){ctl.abort();stopTicker();setStatus("Megállítva.")}});
+  function setStatus(t,err){stopTicker();statusEl.innerHTML=t;statusEl.classList.toggle("err",!!err)}
 
   function thumb(f){return new Promise(res=>{const img=new Image();const u=URL.createObjectURL(f);img.onload=()=>{const c=document.createElement("canvas");const s=200/Math.max(img.width,img.height);c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);c.getContext("2d").drawImage(img,0,0,c.width,c.height);URL.revokeObjectURL(u);try{res(c.toDataURL("image/jpeg",.7))}catch(e){res("")}};img.onerror=()=>{URL.revokeObjectURL(u);res("")};img.src=u})}
 
@@ -515,6 +523,7 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
   const ERR={
     no_key:"Előbb add meg a Gemini kulcsot lent, a Beállításoknál.",
     bad_key:"A Gemini kulcs nem jó vagy nincs engedélyezve. Ellenőrizd, hogy pontosan másoltad-e be.",
+    timeout:"A Google 90 másodperc alatt sem válaszolt. Ellenőrizd a netet, és próbáld újra.",
     rate_limited:"Elérted az ingyenes keret korlátját. Várj egy percet (vagy holnapig), majd próbáld újra.",
     region:"A Google ingyenes Gemini kerete ebből az országból nem érhető el ehhez a kulcshoz.",
     refused:"Erre a képre nem érkezett válasz. Próbálj egy másik fotót.",
@@ -526,7 +535,7 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
   goBtn.addEventListener("click",async()=>{
     if(!file||!sample||busy)return;
     busy=true; goBtn.disabled=true; ctl=new AbortController();
-    setStatus('<span class="spin"></span>Vizsgálom a halat… ez 10–40 másodperc is lehet.');
+    startTicker('Vizsgálom a halat…');
     try{
       const full=await toJpeg(file);
       const zoomed=Number($("zoom").value)>1 ? await cropBlob() : null;
@@ -580,9 +589,9 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
     st.classList.remove("keyok"); st.textContent="Kulcs ellenőrzése a Google-nél…"; $("keySave").disabled=true;
     let ok=false, msg="";
     try{
-      const r=await fetch(API+"/models?pageSize=200&key="+encodeURIComponent(k));
+      const r=await tfetch(API+"/models?pageSize=200&key="+encodeURIComponent(k),{},20000);
       if(r.ok){ok=true}else{try{msg=(await r.json()).error?.message||""}catch(_){} if(!msg)msg="HTTP "+r.status}
-    }catch(_){msg="Nem sikerült elérni a Google-t. Ellenőrizd az internetet."}
+    }catch(e){msg=e&&e.code==="timeout"?"a Google 20 másodperc alatt sem válaszolt. Ellenőrizd a netet, és próbáld újra.":"Nem sikerült elérni a Google-t. Ellenőrizd az internetet."}
     $("keySave").disabled=false;
     if(!ok){
       st.textContent="A Google nem fogadta el a kulcsot: "+msg.slice(0,220);
@@ -596,11 +605,20 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
 
   // ---- Google Gemini hívás ----
   const API="https://generativelanguage.googleapis.com/v1beta";
+  // fetch időkorláttal: ha a Google nem válaszol, nem pörög a végtelenségig
+  async function tfetch(url,opts,ms,outer){
+    const c=new AbortController(); let timedOut=false;
+    const t=setTimeout(()=>{timedOut=true;c.abort()},ms);
+    const onAbort=()=>c.abort(); if(outer){if(outer.aborted)c.abort();else outer.addEventListener("abort",onAbort,{once:true})}
+    try{return await fetch(url,Object.assign({},opts||{},{signal:c.signal}))}
+    catch(e){if(timedOut)throw{code:"timeout"};if(outer&&outer.aborted)throw{code:"cancelled"};throw{code:"network",message:String(e&&e.message||e)}}
+    finally{clearTimeout(t);if(outer)outer.removeEventListener("abort",onAbort)}
+  }
   let MODEL=null;
   async function pickModel(key){
     if(MODEL)return MODEL;
     let r;
-    try{r=await fetch(API+"/models?pageSize=200&key="+encodeURIComponent(key))}catch(_){throw{code:"network"}}
+    try{r=await tfetch(API+"/models?pageSize=200&key="+encodeURIComponent(key),{},20000)}catch(e){if(e&&e.code==="cancelled")throw e;return MODEL="gemini-flash-latest"}
     if(!r.ok){let m="";try{m=(await r.json()).error?.message||""}catch(_){}
       if(r.status===400||r.status===401||r.status===403)throw{code:/location|region|country/i.test(m)?"region":"bad_key",message:m};
       return MODEL="gemini-flash-latest"}
@@ -624,10 +642,10 @@ A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és
     for(const b of images)parts.push({inline_data:{mime_type:b.type||"image/jpeg",data:await blobToB64(b)}});
     let r;
     try{
-      r=await fetch(API+"/models/"+encodeURIComponent(model)+":generateContent?key="+encodeURIComponent(key),{
-        method:"POST",headers:{"Content-Type":"application/json"},signal,
-        body:JSON.stringify({contents:[{role:"user",parts}],generationConfig:{responseMimeType:"application/json",temperature:0.2}})});
-    }catch(e){if(e&&e.name==="AbortError")throw{code:"cancelled"};throw{code:"network"}}
+      r=await tfetch(API+"/models/"+encodeURIComponent(model)+":generateContent?key="+encodeURIComponent(key),{
+        method:"POST",headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({contents:[{role:"user",parts}],generationConfig:{responseMimeType:"application/json",temperature:0.2}})},90000,signal);
+    }catch(e){throw e}
     if(!r.ok){
       let m="";try{m=(await r.json()).error?.message||""}catch(_){}
       if(r.status===404)MODEL=null;
