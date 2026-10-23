@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Fotózd le az akváriumi halat, és megtudod a faját, méretét, természetét, tartását, tenyésztését és hogy hol kapható.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b7a75">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Halfelismerő">
+<title>Akváriumi Halfelismerő</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: egy oszlopos "fajkártya" – mint a díszállatbolti medence címkéje: fotó felül, adatsávok alatta */
+:root{
+  --bg:#eef4f3; --surface:#ffffff; --ink:#0f2a2e; --muted:#58706f; --line:#cfdedc;
+  --accent:#0b7a75; --accent-ink:#ffffff; --sand:#f3ead8;
+  --ok:#2f8a4c; --warn:#b7791f; --bad:#c2410c;
+  --ok-bg:#e3f3e8; --warn-bg:#fbf0dc; --bad-bg:#fde8dd;
+  --f-display:"Young Serif", Georgia, "Times New Roman", serif;
+  --f-body:"Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0a1a1c; --surface:#11272a; --ink:#e3efed; --muted:#93acaa; --line:#21403f;
+  --accent:#3cc7b9; --accent-ink:#06201f; --sand:#1d2b26;
+  --ok:#6fd38f; --warn:#f0b956; --bad:#ff8a5b;
+  --ok-bg:#163223; --warn-bg:#352a12; --bad-bg:#3a1d12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0a1a1c; --surface:#11272a; --ink:#e3efed; --muted:#93acaa; --line:#21403f;
+  --accent:#3cc7b9; --accent-ink:#06201f; --sand:#1d2b26;
+  --ok:#6fd38f; --warn:#f0b956; --bad:#ff8a5b;
+  --ok-bg:#163223; --warn-bg:#352a12; --bad-bg:#3a1d12; color-scheme:dark}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+img{max-width:100%}
+body{margin:0}
+[hidden]{display:none!important}
+html{touch-action:manipulation}
+.wrap{overflow-x:clip}
+.wrap>*{min-width:0;max-width:100%}
+.shoot{overflow:hidden}
+.drop{max-width:100%}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:1.9rem;line-height:1.1}
+.lede{color:var(--muted);margin:6px 0 0;max-width:60ch}
+.label{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+
+/* Feltöltő */
+.shoot{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:14px}
+.drop{position:relative;border:2px dashed var(--line);border-radius:10px;min-height:180px;display:grid;place-items:center;text-align:center;overflow:hidden;background:var(--sand)}
+.drop.has{border-style:solid}
+.stage{position:relative;display:block;line-height:0;width:fit-content;max-width:100%;margin:0 auto}
+.stage img{display:block;max-width:100%;max-height:360px;width:auto;height:auto;cursor:crosshair}
+.sel{position:absolute;border:3px solid var(--accent);border-radius:6px;box-shadow:0 0 0 9999px rgba(0,0,0,.45);pointer-events:none}
+.zoomrow{display:flex;flex-direction:column;gap:6px}
+.zoomhelp{margin:0;font-size:.92rem}
+#zoom{width:100%;accent-color:var(--accent)}
+.textin{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);width:100%}
+.textin:focus{outline:2px solid var(--accent);outline-offset:1px}
+.tips{margin:0;padding-left:20px;font-size:.88rem;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+.warnbox{background:var(--warn-bg);color:var(--ink);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.warnbox b{color:var(--warn)}
+.byname{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:14px}
+.namerow{display:flex;gap:8px}
+.namerow .textin{flex:1;min-width:0}
+.pick{gap:10px}
+.alarm{background:var(--warn-bg);border-left:4px solid var(--warn);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.alarm>b{color:var(--warn);font-size:1.05rem}
+.alarm.bad{background:var(--bad-bg);border-left-color:var(--bad)}
+.alarm.bad>b{color:var(--bad)}
+.cand{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.cand:hover,.cand:focus-visible{border-color:var(--accent)}
+.cand-n{font-weight:700}
+.cand-l{font-style:italic;color:var(--muted);font-weight:400;font-size:.92rem}
+.cand-w{font-weight:400;font-size:.88rem;color:var(--ink)}
+.fixlink{align-self:flex-start;background:none;border:0;padding:0;color:var(--accent);font-size:.92rem;text-decoration:underline;cursor:pointer}
+.drop p{margin:0;padding:20px;color:var(--muted)}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+button,.btn{font:600 1rem var(--f-body);border-radius:10px;padding:12px 18px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:8px;position:relative;text-decoration:none}
+.sec .btns .btn{padding:9px 14px;font-size:.92rem}
+.btn-primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);flex:1 1 200px;justify-content:center}
+button:disabled{opacity:.5;cursor:not-allowed}
+button:focus-visible,.btn:focus-within{outline:3px solid var(--accent);outline-offset:2px}
+.hiddenfile{position:fixed;left:-9999px;top:0;width:1px;height:1px}
+.drop.over{border-color:var(--accent)}
+.paste{min-height:48px;border:1px dashed var(--line);border-radius:10px;padding:12px 14px;color:var(--ink);background:var(--bg);font-size:.95rem;outline:none;overflow:hidden;word-break:break-word}
+.paste:empty::before{content:attr(data-ph);color:var(--muted)}
+.paste:focus{border-color:var(--accent);border-style:solid}
+.paste img{display:none}
+.alt summary{cursor:pointer;color:var(--accent);font-size:.92rem}
+.alt p{margin:8px 0 6px;font-size:.92rem;color:var(--muted)}
+.alt input{max-width:100%;font:inherit;color:var(--ink)}
+.btn-primary{width:100%}
+.status{font-size:.95rem;color:var(--muted);min-height:1.4em;margin:0}
+.status.err{color:var(--bad)}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:s .8s linear infinite;vertical-align:-2px;margin-right:6px}
+@keyframes s{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.spin{animation:none}}
+
+/* Fajkártya */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.card-head{padding:18px 18px 14px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.example-tag{align-self:flex-start;font:600 .7rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;background:var(--sand);color:var(--muted);padding:3px 8px;border-radius:4px}
+.card-head h2{font-size:1.7rem;line-height:1.15}
+.latin{font-style:italic;color:var(--muted);margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.chip{font-size:.82rem;font-weight:600;padding:4px 10px;border-radius:999px;background:var(--bg);color:var(--ink);border:1px solid var(--line)}
+.chip.ok{background:var(--ok-bg);color:var(--ok);border-color:transparent}
+.chip.warn{background:var(--warn-bg);color:var(--warn);border-color:transparent}
+.chip.bad{background:var(--bad-bg);color:var(--bad);border-color:transparent}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));border-bottom:1px solid var(--line)}
+.stat{padding:12px 18px;border-right:1px solid var(--line);border-top:1px solid var(--line);margin-top:-1px;margin-right:-1px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.stat b{font:600 1.15rem var(--f-mono);font-variant-numeric:tabular-nums}
+.sec{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.sec:last-child{border-bottom:0}
+.sec h3{font-size:1.15rem}
+.sec p{margin:0;max-width:65ch}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0}
+.kv dt{color:var(--muted);font-size:.9rem}
+.kv dd{margin:0;min-width:0}
+ul.list{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px}
+ol.list{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:520px){.two{grid-template-columns:1fr}}
+.meter{display:flex;gap:4px;margin-top:2px}
+.meter i{flex:1;height:6px;border-radius:3px;background:var(--line)}
+.meter i.on{background:var(--accent)}
+.note{background:var(--sand);border-radius:10px;padding:12px 14px;font-size:.95rem}
+
+/* Előzmények */
+.hist{display:flex;flex-direction:column;gap:10px}
+.hist-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.hist-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.h-item{display:flex;flex-direction:column;gap:6px;padding:8px;text-align:left;font-weight:500;font-size:.9rem;align-items:stretch}
+.h-item img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;background:var(--sand)}
+.h-item span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.linkbtn{background:none;border:0;padding:4px;color:var(--accent);font-size:.9rem}
+.foot{font-size:.85rem;color:var(--muted)}
+.keybox{display:flex;flex-direction:column;gap:10px}
+.keybox a{color:var(--accent)}
+.keyok{color:var(--ok)!important;font-weight:600}
+.help{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.help h2{font-size:1.25rem}
+.tabs{display:flex;gap:6px;background:var(--bg);padding:4px;border-radius:10px}
+.tabs button{flex:1;justify-content:center;border:0;background:transparent;padding:8px 12px;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Akváriumi Halfelismerő</h1>
+    <p class="lede">Fotózd le a halat, és megmutatom, milyen faj, mekkorára nő, mennyire békés, mekkora akvárium kell neki, és hogyan lehet szaporítani.</p>
+  </header>
+
+  <section class="shoot" aria-label="Fotó feltöltése">
+    <div class="drop" id="drop">
+      <p id="dropHint">Készíts fotót a halról, válassz képet a galériából, vagy illeszd be.<br>Legjobb, ha a hal oldalról, élesen látszik.</p>
+      <div class="stage" id="stage" hidden>
+        <img id="preview" alt="A kiválasztott hal fotója">
+        <div class="sel" id="sel" hidden></div>
+      </div>
+    </div>
+    <div class="zoomrow" id="zoomRow" hidden>
+      <p class="zoomhelp"><b>Koppints a halra a képen</b>, majd nagyíts rá, hogy a keret csak a halat fogja körbe. Így sokkal pontosabb a felismerés.</p>
+      <label for="zoom" class="label">Nagyítás</label>
+      <input type="range" id="zoom" min="1" max="5" step="0.25" value="1">
+    </div>
+    <label for="noteIn" class="label">Amit tudsz róla (nem kötelező)</label>
+    <input type="text" id="noteIn" class="textin" placeholder="pl. boltban „harcoshal” néven vettem, kb. 5 cm">
+    <ul class="tips">
+      <li>Fotózz közelről, a hal oldalát, merőlegesen az üvegre.</li>
+      <li>Kapcsold le a vakut, és töröld le kívül az üveget.</li>
+      <li>Ha a hal mozog, készíts több képet, és a legélesebbet töltsd fel.</li>
+    </ul>
+    <div class="btns">
+      <button type="button" class="btn" id="camBtn">📷 Fotó készítése</button>
+      <button type="button" class="btn" id="galBtn">🖼️ Kép a galériából</button>
+    </div>
+    <input type="file" id="camIn" class="hiddenfile" accept="image/*" capture="environment" tabindex="-1" aria-hidden="true">
+    <input type="file" id="galIn" class="hiddenfile" accept="image/*" tabindex="-1" aria-hidden="true">
+    <div class="paste" id="pasteBox" contenteditable="true" role="textbox" aria-label="Kép beillesztése" data-ph="Vagy illeszd be ide a képet: koppints ide hosszan → Beillesztés (gépen Ctrl+V)"></div>
+    <details class="alt">
+      <summary>Nem nyílik meg a fotózás vagy a galéria?</summary>
+      <p>Próbáld ezzel a sima fájlválasztóval:</p>
+      <input type="file" id="plainIn" accept="image/*">
+    </details>
+    <button class="btn-primary" id="goBtn" disabled>Hal felismerése</button>
+    <div class="byname" id="byName">
+      <label for="nameIn" class="label">Tudod a nevét? Kérd le az adatlapját</label>
+      <div class="namerow">
+        <input type="text" id="nameIn" class="textin" placeholder="pl. Cynolebias nigripinnis vagy gyöngyös killi">
+        <button type="button" class="btn" id="nameBtn" disabled>Adatlap</button>
+      </div>
+    </div>
+    <p class="status" id="status" role="status"></p>
+  </section>
+
+  <article class="card" id="card"></article>
+
+  <section class="hist" id="histWrap" hidden>
+    <div class="hist-row"><span class="label">Korábbi felismerések</span><button class="linkbtn" id="clearHist">Törlés</button></div>
+    <div class="hist-list" id="histList"></div>
+  </section>
+
+  <section class="help" id="settings" aria-label="Beállítások">
+    <h2>Beállítások</h2>
+    <div id="keyBox" class="keybox">
+      <p style="margin:0">A felismeréshez egy <b>ingyenes Google Gemini kulcs</b> kell. Csak egyszer kell beírni, a telefonod megjegyzi.</p>
+      <ol class="list">
+        <li>Nyisd meg: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>, és jelentkezz be a Gmail-fiókoddal.</li>
+        <li>Koppints a <b>Create API key</b> (Kulcs létrehozása) gombra, és másold ki a kulcsot (AIza… kezdetű).</li>
+        <li>Illeszd be ide, és nyomd meg a <b>Mentés</b> gombot.</li>
+      </ol>
+      <div class="namerow">
+        <input type="password" id="keyIn" class="textin" placeholder="AIza…" autocomplete="off" spellcheck="false">
+        <button type="button" class="btn" id="keySave">Mentés</button>
+      </div>
+      <p class="foot" id="keyState" style="margin:0"></p>
+    </div>
+    <div id="installBox" hidden>
+      <button type="button" class="btn btn-primary" id="installBtn">📲 Telepítés a telefonra</button>
+    </div>
+    <p class="foot" id="iosHint" style="margin:0" hidden>iPhone-on: Safari → <b>Megosztás</b> → <b>Főképernyőhöz adás</b>.</p>
+  </section>
+
+  <p class="foot">Az eredmény a Google Gemini mesterséges intelligencia becslése. Hasonló fajoknál (pl. sügérek, guppi-változatok) érdemes szakkereskedésben is megerősíttetni, mielőtt együtt tartod őket.</p>
+</div>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const card=$("card"), statusEl=$("status"), goBtn=$("goBtn"), preview=$("preview"), drop=$("drop");
+  let file=null, sample=null, busy=false, ctl=null, imgLimits=null;
+
+  const EXAMPLE = {
+    found:true, confidence:"magas",
+    nev:"Neonhal", latin:"Paracheirodon innesi", csalad:"Pontylazacfélék (Characidae)",
+    szarmazas:"Dél-Amerika, az Amazonas felső vízgyűjtője, lassú, sötét vizű patakok",
+    max_meret_cm:4, elettartam_ev:"5–8", termeszet:"békés", termeszet_leiras:"Nyugodt, félénk rajhal. Egyedül vagy kis csapatban stresszes, legalább 8–10 példányban érzi jól magát.",
+    raj_min:8, uszasi_zona:"középső", min_akvarium_l:54, nehezseg:2,
+    viz:{homerseklet:"21–26 °C", ph:"5,5–7,0", gh:"1–10 °dGH"},
+    taplalek:"Mindenevő: apró lemezes táp, granulátum, fagyasztott vagy élő tubifex, artémia, szúnyoglárva.",
+    tarsithato:["Pancserharcsák (Corydoras)","Törpegurámik","Kisebb pontylazacok (pl. vörösneon)","Csigák, garnélák"],
+    kerulendo:["Skalár (nagyobb példányok megeszik)","Nagyobb sügérek","Uszonycsipkedő fajok (pl. szumátrai díszmárna)"],
+    szaporodas:{mod:"Ívó, nem gondozza az ikrát", nehezseg:4,
+      lepesek:["Külön ívató akvárium nagyon lágy (1–2 °dGH), savas (pH 5–6) vízzel, 24–25 °C-on, félhomályban.","Az ívató aljára finom levelű növény vagy ívóháló kerül, mert a szülők megeszik az ikrát.","Jól feltáplált párt (vagy kisebb csapatot) este kell berakni, az ívás reggel szokott megtörténni.","Ívás után a szülőket azonnal ki kell venni.","Az ikra fényérzékeny, sötétben tartsd. 1–2 nap múlva kelnek, majd 3–4 nap után kezdenek úszni.","Az ivadékot infuzóriummal, majd frissen kelt artémiával etesd."]},
+    ivari_kulonbseg:"A nőstény teste teltebb, oldalról nézve a kék csík ívben hajlik. A hím karcsúbb, a csíkja egyenes.",
+    tippek:"Sötét talaj és sűrű növényzet mellett a színei sokkal élénkebbek. Érzékeny a vízminőség hirtelen változására, csak bejáratott akváriumba tedd.",
+    beszerzes:{elerhetoseg:"gyakori",hol:["Szinte minden díszállat-kereskedés és akvarisztikai szaküzlet","Akvarisztikai webshopok (élőállat-szállítással)","Hobbitenyésztők, akvarisztikai börzék"],ar:"kb. 250–600 Ft/db",megjegyzes:"Olyan medencéből válassz, ahol nincs elhullott hal, és a neonok színe élénk. Rögtön 8–10 darabot vegyél egyszerre."},
+    alternativak:[]
+  };
+
+  const PROMPT = `Te egy tapasztalt akvarista és halhatározó szakértő vagy. Feladat: akváriumi (édesvízi vagy tengeri) hal fajának meghatározása fotóról.
+
+Így dolgozz:
+1. Először nézd meg alaposan a látható bélyegeket: testforma (oldalról lapított, hengeres, magas hátú), száj állása, uszonyok alakja/hossza/helyzete (hátúszó helye, farokúszó formája, van-e zsírúszó, hasúszó fonalszerű-e), bajuszszálak, színezet és mintázat (csíkok, foltok, szemfolt), pikkelyek, méret a környezethez képest, viselkedésre utaló jelek (pl. felszín közelében, aljzaton).
+2. Ezek alapján gondold végig a 3-4 legvalószínűbb fajt, és vesd össze, melyik bélyeg dönt köztük.
+3. Gondolj a gyakori díszhalak (guppi, platti, harcoshal, gurámik, neonok, harcsák, márnák, sügérek, aranyhal stb.) mellett a hobbisták által tartott ritkább csoportokra is: killik/fogaspontyok (Aphyosemion, Fundulopanchax, Nothobranchius, Austrolebias – régi nevén Cynolebias, Simpsonichthys), szivárványhalak, gébek, törpesügérek, labirintushalak, Viktória-tavi haplochromisok (Haplochromis/Astatotilapia, Pundamilia, pl. aranyos zebrasügér – Astatotilapia latifasciata), malawi sügérek (Aulonocara, mbunák), tanganyikai sügérek.
+   Mintázat: széles, függőleges fekete sávok sárga-narancs alapon (a sávok fiatal vagy stresszes halnál foltokra szakadhatnak) → pl. aranyos zebrasügér; teljesen szabálytalan, pöttyszerű fekete foltok narancs alapon → "OB" színváltozat (malawi sügérek). Ne a legismertebb hasonló fajt válaszd automatikusan.
+   Fontos összetévesztés: a killi nőstények (pl. Austrolebias, Nothobranchius) gyakran szürkésbarnák, apró pöttyökkel, és könnyű őket harcoshal-nősténynek nézni. Különbség: a killinél a hát- és a farok alatti úszó nagyjából egymással szemben, hátul ül, és hasonló méretű, a hasúszó kicsi, nem fonalas. A harcoshalnál a hátúszó kicsi, a farok alatti úszó a hasától hosszan húzódik, a hasúszók hosszúak, fonalszerűek.
+   Válaszd a bélyegekhez legjobban illőt, akkor is, ha ritkább faj.
+4. Ha a képen bolti címke, ártábla vagy felirat látszik (pl. a medence üvegén), olvasd le, és erősen vedd figyelembe.
+5. Légy őszinte a biztosságban: "magas" csak akkor, ha a döntő bélyegek jól látszanak. A felhasználó a válasz alapján dönti el, megvegye-e a halat, ezért a természetet ("termeszet") óvatosan add meg: ha egy faj fajtársaival vagy kisebb halakkal agresszív, ne írd "békés"-nek.
+
+Válaszolj MAGYARUL, kizárólag egyetlen JSON objektummal, ebben a formában:
+{
+ "found": true,              // false, ha nincs a képen hal, vagy annyira homályos, hogy semmilyen bélyeg nem látszik
+ "confidence": "magas" | "közepes" | "alacsony",
+ "nev": "a legvalószínűbb faj RÖVID magyar köznevé (max. 4 szó, pl. 'Sziámi harcoshal'; ha nőstény vagy fiatal, azt a 'nem_kor' mezőbe írd). Ide NE írj bizonytalanságot, magyarázatot, zárójelet",
+ "latin": "csak a tudományos név, pl. 'Betta splendens'",
+ "nem_kor": "pl. 'nőstény', 'hím', 'fiatal', vagy null",
+ "egyeb_nevek": ["a faj/változat más nevei, amelyeken Magyarországon a boltokban árulják (pl. 'OB', 'kékcsíkos aranysügér'), régi latin nevek; max. 4"],
+ "jellemzok": ["3-5 rövid tétel: mely LÁTHATÓ bélyegek alapján döntöttél"],
+ "jeloltek": [{"nev":"rövid magyar név","latin":"tudományos név","miert":"max. 10 szó: mi szól mellette / miben más","termeszet":"békés" | "félagresszív" | "agresszív","max_meret_cm":szám}],  // a 3 legvalószínűbb faj valószínűség szerint, az ELSŐ ugyanaz, mint "nev"; mindig 3 különböző faj legyen,
+ "mi_kellene": "ha a biztosság nem magas: 1 mondat, mit fotózzon le jobban a felhasználó (pl. 'a farokúszót kiterítve', 'oldalról, közelebbről'); különben null",
+ "csalad": "család magyarul (latinul)",
+ "szarmazas": "honnan származik, milyen élőhely",
+ "max_meret_cm": szám (felnőttkori max. testhossz akváriumban, cm),
+ "elettartam_ev": "pl. 5–8",
+ "termeszet": "békés" | "félagresszív" | "agresszív",
+ "termeszet_leiras": "1-2 mondat a viselkedésről, territoriális-e, rajhal-e",
+ "raj_min": szám vagy null (minimum csoportlétszám, ha rajhal),
+ "uszasi_zona": "felső" | "középső" | "alsó" | "mindenhol",
+ "min_akvarium_l": szám (minimum ajánlott liter),
+ "nehezseg": 1-5 (tartás nehézsége, 1 = kezdőknek),
+ "viz": {"homerseklet":"pl. 22–26 °C","ph":"pl. 6,5–7,5","gh":"pl. 5–15 °dGH"},
+ "taplalek": "mit eszik",
+ "tarsithato": ["3-5 jól társítható faj/csoport"],
+ "kerulendo": ["2-4 kerülendő társ, zárójelben röviden miért"],
+ "szaporodas": {"mod":"pl. elevenszülő / ívó / szájköltő / habfészek-építő, gondozza-e az utódot","nehezseg":1-5,"lepesek":["4-6 konkrét lépés a tenyésztéshez: ívató, vízparaméterek, kiváltás, szülők eltávolítása, ivadéknevelés, ivadéktáp"]},
+ "ivari_kulonbseg": "hogyan különböztethető meg a hím és a nőstény",
+ "tippek": "1-2 hasznos tartási tipp",
+ "beszerzes": {"elerhetoseg":"gyakori" | "közepes" | "ritka" (mennyire könnyű Magyarországon beszerezni),"hol":["2-4 konkrét beszerzési hely típusa Magyarországon, pl. díszállat-kereskedések, akvarisztikai szaküzletek, akvarisztikai webshopok, hobbitenyésztők, haltőzsdék/börzék, Facebook-csoportok, Jófogás"],"ar":"becsült bolti ár forintban, pl. 'kb. 300–600 Ft/db'","megjegyzes":"1 mondat: mire figyelj vásárláskor (egészséges példány jelei, párban/rajban vedd, vadfogás vagy tenyésztett)"},
+ "alternativak": ["1-3 hasonló faj, amivel összetéveszthető, mindegyiknél röviden, miben különbözik, pl. 'Paradicsomhal – hosszabb, villás farok, csíkos test'"]
+}
+Ha "found" false, a többi mező lehet null, de a "tippek" mezőben írd le, miért nem sikerült (pl. homályos kép), és mit fotózzon a felhasználó.`;
+
+  // Store
+  const KEY="halfelismero-hist-v1";
+  function loadHist(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){return []}}
+  function saveHist(h){try{localStorage.setItem(KEY,JSON.stringify(h.slice(0,12)))}catch(e){}}
+
+  function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+  function meter(n){n=Math.max(0,Math.min(5,Number(n)||0));let h='<div class="meter" aria-label="'+n+' / 5">';for(let i=1;i<=5;i++)h+='<i class="'+(i<=n?'on':'')+'"></i>';return h+'</div>'}
+  function tempClass(t){t=String(t||"").toLowerCase();if(t.startsWith("agressz"))return"bad";if(t.startsWith("fél"))return"warn";return"ok"}
+  function list(arr,tag){if(!Array.isArray(arr)||!arr.length)return'<p>–</p>';return'<'+tag+' class="list">'+arr.map(x=>'<li>'+esc(x)+'</li>').join("")+'</'+tag+'>'}
+
+  function buyHtml(d){
+    const b=d.beszerzes; if(!b)return"";
+    const e=String(b.elerhetoseg||"").toLowerCase();
+    const cls=e.startsWith("gyak")?"ok":e.startsWith("ritk")?"bad":"warn";
+    const q=encodeURIComponent((d.nev||"")+" "+(d.latin||"")+" vásárlás");
+    return `<div class="sec"><h3>Hol kapható?</h3>
+      <div class="chips">${b.elerhetoseg?'<span class="chip '+cls+'">'+esc(b.elerhetoseg)+'</span>':''}${b.ar?'<span class="chip">'+esc(b.ar)+'</span>':''}</div>
+      ${list(b.hol,"ul")}
+      ${b.megjegyzes?'<p>'+esc(b.megjegyzes)+'</p>':''}
+      <div class="btns">
+        <a class="btn" href="https://www.google.com/search?q=${q}" target="_blank" rel="noopener">Keresés a neten</a>
+        <a class="btn" href="https://www.google.com/maps/search/akvarisztika" target="_blank" rel="noopener">Akvarisztikák a közelben</a>
+      </div>
+      <p class="foot" style="margin:0">Az ár becslés, boltonként eltérhet.</p>
+    </div>`;
+  }
+
+  // Átalakítja a képet JPEG-gé és kisebbre veszi (iPhone HEIC és nagy fotók miatt). Ha nem sikerül, az eredetit küldi.
+  function toJpeg(f){return new Promise(res=>{const img=new Image();const u=URL.createObjectURL(f);img.onload=()=>{try{const s=Math.min(1,1600/Math.max(img.width,img.height));const c=document.createElement("canvas");c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);c.getContext("2d").drawImage(img,0,0,c.width,c.height);URL.revokeObjectURL(u);c.toBlob(b=>res(b||f),"image/jpeg",.88)}catch(e){URL.revokeObjectURL(u);res(f)}};img.onerror=()=>{URL.revokeObjectURL(u);res(f)};img.src=u})}
+
+  // Vásárlás előtti figyelmeztetés: a legrosszabb esetet mutatja a lehetséges fajok közül
+  function safetyHtml(d,conf){
+    const rank=t=>{t=String(t||"").toLowerCase();return t.startsWith("agressz")?2:t.startsWith("fél")?1:0};
+    const all=[{nev:d.nev,termeszet:d.termeszet,max_meret_cm:d.max_meret_cm}].concat(Array.isArray(d.jeloltek)?d.jeloltek.slice(1,3):[]);
+    const worst=all.reduce((a,c)=>rank(c.termeszet)>rank(a.termeszet)?c:a,all[0]);
+    const differs=all.some(c=>rank(c.termeszet)!==rank(d.termeszet));
+    const big=all.reduce((m,c)=>Math.max(m,Number(c.max_meret_cm)||0),0);
+    if(conf==="magas")return"";
+    if(!differs&&rank(worst.termeszet)===0)return"";
+    const bad=rank(worst.termeszet)===2;
+    return `<div class="sec"><div class="alarm ${bad?"bad":""}">
+      <b>Vásárlás előtt figyelj!</b>
+      <span>A felismerés nem biztos, és a lehetséges fajok természete eltér. A legrosszabb eset: <b>${esc(worst.nev)}</b>, ami <b>${esc(worst.termeszet)}</b>${worst.max_meret_cm?", és akár "+esc(worst.max_meret_cm)+" cm-esre is megnő":""}.</span>
+      <span>Mielőtt megveszed: kérdezd meg az eladótól a hal latin nevét, vagy fotózd le a medence címkéjét is, és azt is töltsd fel. Békés közösségbe csak akkor tedd, ha biztos vagy a fajban.</span>
+    </div></div>`;
+  }
+
+  function render(d,isExample){
+    if(!d||d.found===false){
+      card.innerHTML='<div class="sec"><h3>Nem sikerült felismerni</h3><p>'+esc(d?.tippek||"Próbálj élesebb, oldalról készült fotót, ahol a hal teljes teste látszik, és az üveg nem tükröződik.")+'</p></div>';
+      return;
+    }
+    const v=d.viz||{}, sz=d.szaporodas||{};
+    const conf=String(d.confidence||"");
+    card.innerHTML=`
+      <div class="card-head">
+        ${isExample?'<span class="example-tag">Példa – így néz ki egy eredmény</span>':''}
+        <span class="label">${esc(d.csalad||"")}</span>
+        <h2>${esc(d.nev)}</h2>
+        ${!isExample?'<button type="button" class="fixlink" id="fixBtn">Nem ez a hal? Írd be a nevét</button>':''}
+        <p class="latin">${esc(d.latin)}${d.nem_kor?' · <span style="font-style:normal">'+esc(d.nem_kor)+'</span>':''}</p>
+        ${Array.isArray(d.egyeb_nevek)&&d.egyeb_nevek.length?'<p class="foot" style="margin:0">Más néven: '+d.egyeb_nevek.map(esc).join(", ")+'</p>':''}
+        <div class="chips">
+          <span class="chip ${tempClass(d.termeszet)}">${esc(d.termeszet||"?")}${!isExample&&conf&&conf!=="magas"?" – ha tényleg ez a faj":""}</span>
+          ${d.raj_min?'<span class="chip">rajhal · min. '+esc(d.raj_min)+' db</span>':''}
+          ${d.uszasi_zona?'<span class="chip">'+esc(d.uszasi_zona)+' vízréteg</span>':''}
+          ${conf&&!isExample?'<span class="chip '+(conf==="magas"?"ok":conf==="közepes"?"warn":"bad")+'">biztosság: '+esc(conf)+'</span>':''}
+        </div>
+      </div>
+      ${!isExample?safetyHtml(d,conf):''}
+      ${!isExample&&Array.isArray(d.jeloltek)&&d.jeloltek.length>1?`<div class="sec pick"><h3>Melyik a te halad?</h3><p class="foot" style="margin:0">Koppints a helyesre, és annak az adatlapját kapod meg.</p>${d.jeloltek.slice(0,3).map((c,i)=>`<button type="button" class="cand" data-name="${esc((c.latin||"")+" ("+(c.nev||"")+")")}"><span class="cand-n">${i===0?'<span class="chip ok" style="font-size:.72rem;padding:2px 8px">legvalószínűbb</span> ':''}${esc(c.nev)}</span><span class="cand-l">${esc(c.latin)}</span>${c.termeszet||c.max_meret_cm?'<span class="chips" style="margin:2px 0">'+(c.termeszet?'<span class="chip '+tempClass(c.termeszet)+'">'+esc(c.termeszet)+'</span>':'')+(c.max_meret_cm?'<span class="chip">max. '+esc(c.max_meret_cm)+' cm</span>':'')+'</span>':''}${c.miert?'<span class="cand-w">'+esc(c.miert)+'</span>':''}</button>`).join("")}<button type="button" class="fixlink" id="fixBtn2">Egyik sem, beírom a nevét</button></div>`:''}
+      ${!isExample&&conf&&conf!=="magas"?`<div class="sec"><div class="warnbox"><b>${conf==="alacsony"?"Bizonytalan felismerés":"Valószínű, de nem biztos"}</b><span>${esc(d.mi_kellene||"A fotón nem látszanak jól a döntő jellemzők. Készíts közelebbi, élesebb képet oldalról, és nagyíts rá a halra.")}</span>${Array.isArray(d.alternativak)&&d.alternativak.length?'<span>Ezek is lehetnek: '+d.alternativak.map(esc).join("; ")+'</span>':''}</div></div>`:''}
+      ${Array.isArray(d.jellemzok)&&d.jellemzok.length?'<div class="sec"><h3>Miről ismertem fel?</h3>'+list(d.jellemzok,"ul")+'</div>':''}
+      <div class="stats">
+        <div class="stat"><span class="label">Max. méret</span><b>${esc(d.max_meret_cm)} cm</b></div>
+        <div class="stat"><span class="label">Min. akvárium</span><b>${esc(d.min_akvarium_l)} l</b></div>
+        <div class="stat"><span class="label">Élettartam</span><b>${esc(d.elettartam_ev)} év</b></div>
+        <div class="stat"><span class="label">Tartás nehézsége</span>${meter(d.nehezseg)}</div>
+      </div>
+      <div class="sec"><h3>Természet</h3><p>${esc(d.termeszet_leiras)}</p><p class="foot" style="margin:0">Származás: ${esc(d.szarmazas)}</p></div>
+      <div class="sec"><h3>Vízparaméterek</h3>
+        <dl class="kv"><dt>Hőmérséklet</dt><dd>${esc(v.homerseklet)}</dd><dt>pH</dt><dd>${esc(v.ph)}</dd><dt>Keménység</dt><dd>${esc(v.gh)}</dd></dl>
+      </div>
+      <div class="sec"><h3>Táplálék</h3><p>${esc(d.taplalek)}</p></div>
+      <div class="sec two">
+        <div><h3>Jó társak</h3>${list(d.tarsithato,"ul")}</div>
+        <div><h3>Kerülendő</h3>${list(d.kerulendo,"ul")}</div>
+      </div>
+      <div class="sec"><h3>Tenyésztés</h3>
+        <dl class="kv"><dt>Mód</dt><dd>${esc(sz.mod)}</dd><dt>Nehézség</dt><dd>${meter(sz.nehezseg)}</dd><dt>Ivari különbség</dt><dd>${esc(d.ivari_kulonbseg)}</dd></dl>
+        ${list(sz.lepesek,"ol")}
+      </div>
+      ${buyHtml(d)}
+      ${d.tippek?'<div class="sec"><div class="note"><b>Tipp:</b> '+esc(d.tippek)+'</div></div>':''}
+      ${Array.isArray(d.alternativak)&&d.alternativak.length&&(isExample||conf==="magas")?'<div class="sec"><h3>Összetéveszthető ezekkel</h3>'+list(d.alternativak,"ul")+'</div>':''}
+    `;
+  }
+
+  card.addEventListener("click",e=>{
+    const t=e.target;
+    if(t&&(t.id==="fixBtn"||t.id==="fixBtn2")){$("byName").scrollIntoView({block:"center"});$("nameIn").focus();return}
+    const c=t&&t.closest&&t.closest(".cand");
+    if(c){$("nameIn").value=c.dataset.name;lookupByName()}
+  });
+
+  async function lookupByName(){
+    const name=$("nameIn").value.trim().slice(0,120);
+    if(!name){setStatus("Írd be a hal nevét.",true);$("nameIn").focus();return}
+    if(!sample||busy)return;
+    busy=true; goBtn.disabled=true; $("nameBtn").disabled=true; ctl=new AbortController();
+    setStatus('<span class="spin"></span>Összeállítom az adatlapot…');
+    const prompt=`Nincs kép. A felhasználó megadta a hal nevét: "${name.replace(/"/g,"'")}". Állítsd össze ennek a fajnak az adatlapját.
+Ha a név régi vagy szinonima (pl. Cynolebias → Austrolebias), a "latin" mezőbe a mai érvényes nevet írd, a "tippek" mezőben említsd a régi nevet is.
+A "jellemzok" mezőbe azt írd, miről lehet felismerni ezt a fajt (a hímet és a nőstényt külön is). A "confidence" legyen "magas", ha ismert fajról van szó, a "mi_kellene" pedig null, a "jeloltek" üres lista. Ha nem ismersz ilyen nevű halat, "found": false, és a "tippek" mezőben kérdezz vissza vagy javasolj hasonló nevű fajt.
+
+`+PROMPT;
+    try{
+      const d=await askAI(prompt,[],ctl.signal);
+      render(d,false); setStatus(d&&d.found!==false?"Kész.":"");
+      if(d&&d.found!==false){
+        let t=""; if(file){try{t=await thumb(file)}catch(_){}}
+        const h=loadHist(); h.unshift({t:Date.now(),img:t,data:d}); saveHist(h); renderHist();
+      }
+      card.scrollIntoView({block:"start"});
+    }catch(e){
+      if(e&&e.code!=="cancelled")setStatus((ERR[e&&e.code]||"Hiba történt. Próbáld újra egy perc múlva.")+(e&&e.code?" (hibakód: "+esc(e.code)+(e.message&&!ERR[e.code]?" – "+esc(String(e.message).slice(0,160)):"")+")":""),true);
+    }finally{busy=false; goBtn.disabled=!file||!sample; $("nameBtn").disabled=!sample}
+  }
+  $("nameBtn").addEventListener("click",lookupByName);
+  $("nameIn").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();lookupByName()}});
+
+  function setStatus(t,err){statusEl.innerHTML=t;statusEl.classList.toggle("err",!!err)}
+
+  function thumb(f){return new Promise(res=>{const img=new Image();const u=URL.createObjectURL(f);img.onload=()=>{const c=document.createElement("canvas");const s=200/Math.max(img.width,img.height);c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);c.getContext("2d").drawImage(img,0,0,c.width,c.height);URL.revokeObjectURL(u);try{res(c.toDataURL("image/jpeg",.7))}catch(e){res("")}};img.onerror=()=>{URL.revokeObjectURL(u);res("")};img.src=u})}
+
+  function useFile(f){
+    if(!f)return;
+    if(f.type&&!f.type.startsWith("image/")){setStatus("Ez nem képfájl. Válassz egy fotót.",true);return}
+    file=f; preview.src=URL.createObjectURL(f); $("stage").hidden=false; $("dropHint").hidden=true; drop.classList.add("has");
+    crop={x:.5,y:.5}; $("zoom").value=1; $("zoomRow").hidden=false; drawSel();
+    goBtn.disabled=!sample||busy;
+    setStatus(sample?"Megvan a kép. Nyomd meg a „Hal felismerése” gombot.":"Megvan a kép. Előbb add meg a Gemini kulcsot lent, a Beállításoknál.",!sample);
+  }
+  function pick(e){const f=e.target.files&&e.target.files[0]; useFile(f); try{e.target.value=""}catch(_){}}
+  ["camIn","galIn","plainIn"].forEach(id=>{$(id).addEventListener("change",pick);$(id).addEventListener("input",pick)});
+  $("camBtn").addEventListener("click",()=>{try{$("camIn").click()}catch(e){setStatus("Nem sikerült megnyitni a kamerát. Próbáld a sima fájlválasztót lent.",true)}});
+  $("galBtn").addEventListener("click",()=>{try{$("galIn").click()}catch(e){setStatus("Nem sikerült megnyitni a galériát. Próbáld a sima fájlválasztót lent.",true)}});
+  drop.addEventListener("click",()=>{if(file)return;try{$("galIn").click()}catch(e){}});
+
+  // Kivágás: koppintás a halra + nagyítás
+  let crop={x:.5,y:.5};
+  function cropRect(){ // a kép arányaiban (0..1) adja meg a kivágott négyzetet
+    const z=Number($("zoom").value)||1, w=preview.naturalWidth||1, h=preview.naturalHeight||1;
+    const side=Math.min(w,h)/z; const fw=Math.min(1,side/w), fh=Math.min(1,side/h);
+    if(z<=1)return{x:0,y:0,w:1,h:1};
+    let x=crop.x-fw/2, y=crop.y-fh/2; x=Math.max(0,Math.min(1-fw,x)); y=Math.max(0,Math.min(1-fh,y));
+    return{x,y,w:fw,h:fh};
+  }
+  function drawSel(){
+    const z=Number($("zoom").value)||1, s=$("sel");
+    if(z<=1||!preview.naturalWidth){s.hidden=true;return}
+    const r=cropRect(); s.hidden=false;
+    s.style.left=(r.x*100)+"%"; s.style.top=(r.y*100)+"%"; s.style.width=(r.w*100)+"%"; s.style.height=(r.h*100)+"%";
+  }
+  preview.addEventListener("load",drawSel);
+  preview.addEventListener("click",e=>{
+    const b=preview.getBoundingClientRect();
+    crop={x:(e.clientX-b.left)/b.width,y:(e.clientY-b.top)/b.height};
+    if(Number($("zoom").value)<=1)$("zoom").value=2.5;
+    drawSel();
+  });
+  $("zoom").addEventListener("input",drawSel);
+  function cropBlob(){return new Promise(res=>{try{
+    const r=cropRect(), w=preview.naturalWidth, h=preview.naturalHeight;
+    const sx=Math.round(r.x*w), sy=Math.round(r.y*h), sw=Math.round(r.w*w), sh=Math.round(r.h*h);
+    const s=Math.min(1,1400/Math.max(sw,sh)); const c=document.createElement("canvas");
+    c.width=Math.round(sw*s); c.height=Math.round(sh*s);
+    c.getContext("2d").drawImage(preview,sx,sy,sw,sh,0,0,c.width,c.height);
+    c.toBlob(b=>res(b),"image/jpeg",.9);
+  }catch(e){res(null)}})}
+
+  // Beillesztés: a doboz és az egész oldal is fogadja
+  function imageFromClipboard(ev){
+    const cd=ev.clipboardData; if(!cd)return null;
+    if(cd.files&&cd.files.length){for(const f of cd.files)if(f.type.startsWith("image/"))return f}
+    for(const it of (cd.items||[])){if(it.kind==="file"&&it.type.startsWith("image/")){const f=it.getAsFile();if(f)return f}}
+    return null;
+  }
+  document.addEventListener("paste",ev=>{
+    const f=imageFromClipboard(ev);
+    if(f){ev.preventDefault();useFile(f)}
+    else if(ev.target&&ev.target.id==="pasteBox"){ev.preventDefault();setStatus("A vágólapon nincs kép. Előbb másolj ki egy képet (pl. a galériában: Megosztás → Másolás).",true)}
+    setTimeout(()=>{$("pasteBox").innerHTML=""},0);
+  });
+  $("pasteBox").addEventListener("input",()=>{ // néhány telefon nem paste eseményt küld, hanem beszúrja a képet
+    const im=$("pasteBox").querySelector("img");
+    if(im&&im.src&&im.src.startsWith("data:image/")){try{const [h,b64]=im.src.split(",");const type=h.slice(5).split(";")[0];const bin=atob(b64);const arr=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)arr[i]=bin.charCodeAt(i);useFile(new File([arr],"beillesztett",{type}))}catch(e){}}
+    else if(im&&im.complete&&im.naturalWidth){try{const c=document.createElement("canvas");c.width=im.naturalWidth;c.height=im.naturalHeight;c.getContext("2d").drawImage(im,0,0);c.toBlob(b=>b&&useFile(new File([b],"beillesztett.png",{type:"image/png"})))}catch(e){}}
+    $("pasteBox").innerHTML="";
+  });
+
+  // Behúzás egérrel
+  ["dragenter","dragover"].forEach(t=>drop.addEventListener(t,e=>{e.preventDefault();drop.classList.add("over")}));
+  ["dragleave","drop"].forEach(t=>drop.addEventListener(t,()=>drop.classList.remove("over")));
+  drop.addEventListener("drop",e=>{e.preventDefault();const f=e.dataTransfer&&e.dataTransfer.files&&e.dataTransfer.files[0];useFile(f)});
+
+  const ERR={
+    no_key:"Előbb add meg a Gemini kulcsot lent, a Beállításoknál.",
+    bad_key:"A Gemini kulcs nem jó vagy nincs engedélyezve. Ellenőrizd, hogy pontosan másoltad-e be.",
+    rate_limited:"Elérted az ingyenes keret korlátját. Várj egy percet (vagy holnapig), majd próbáld újra.",
+    region:"A Google ingyenes Gemini kerete ebből az országból nem érhető el ehhez a kulcshoz.",
+    refused:"Erre a képre nem érkezett válasz. Próbálj egy másik fotót.",
+    empty:"Üres válasz érkezett. Próbáld újra.",
+    invalid_json:"A válasz nem jött meg rendesen. Próbáld újra.",
+    network:"Nincs internetkapcsolat, vagy a Google szolgáltatása nem érhető el. Ellenőrizd a netet."
+  };
+
+  goBtn.addEventListener("click",async()=>{
+    if(!file||!sample||busy)return;
+    busy=true; goBtn.disabled=true; ctl=new AbortController();
+    setStatus('<span class="spin"></span>Vizsgálom a halat… ez 10–40 másodperc is lehet.');
+    try{
+      const full=await toJpeg(file);
+      const zoomed=Number($("zoom").value)>1 ? await cropBlob() : null;
+      const maxImg=(imgLimits&&imgLimits.maxCount)||1;
+      let images, intro;
+      if(zoomed&&maxImg>=2){images=[zoomed,full];intro="Két képet kapsz: az ELSŐ a hal kinagyított részlete (ezen nézd a jellemzőket), a MÁSODIK a teljes fotó (méretarányhoz, környezethez)."}
+      else if(zoomed){images=[zoomed];intro="A képen a hal kinagyított részlete látható."}
+      else{images=[full];intro="A képen egy akváriumi fotó látható."}
+      const note=$("noteIn").value.trim().slice(0,300);
+      const prompt=intro+(note?"\nA felhasználó megjegyzése a halról: \""+note+"\" (vedd figyelembe, de a képet részesítsd előnyben, ha ellentmond).":"")+"\n\n"+PROMPT;
+      const d=await askAI(prompt,images,ctl.signal);
+      render(d,false);
+      setStatus(d&&d.found!==false?"Kész.":"");
+      if(d&&d.found!==false){
+        const t=await thumb(file);
+        const h=loadHist(); h.unshift({t:Date.now(),img:t,data:d}); saveHist(h); renderHist();
+      }
+      card.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+    }catch(e){
+      console.warn("AI hiba",e);
+      if(e&&e.code!=="cancelled")setStatus((ERR[e&&e.code]||"Hiba történt a felismerés közben. Próbáld újra egy perc múlva.")+(e&&e.code?' <span style="opacity:.7">(hibakód: '+esc(e.code)+(e.message&&!ERR[e.code]?' – '+esc(String(e.message).slice(0,160)):'')+')</span>':''),true);
+    }finally{busy=false; goBtn.disabled=!file||!sample}
+  });
+
+  function renderHist(){
+    const h=loadHist(); $("histWrap").hidden=!h.length;
+    $("histList").innerHTML=h.map((x,i)=>'<button class="h-item" data-i="'+i+'">'+(x.img?'<img src="'+x.img+'" alt="">':'')+'<span>'+esc(x.data?.nev||"?")+'</span></button>').join("");
+  }
+  $("histList").addEventListener("click",e=>{const b=e.target.closest(".h-item");if(!b)return;const x=loadHist()[+b.dataset.i];if(x){render(x.data,false);card.scrollIntoView({block:"start"})}});
+  $("clearHist").addEventListener("click",()=>{saveHist([]);renderHist()});
+
+  render(EXAMPLE,true); renderHist();
+
+  // ---- Gemini kulcs ----
+  const KKEY="halfelismero-gemini-key";
+  function getKey(){try{return localStorage.getItem(KKEY)||""}catch(_){return ""}}
+  function setKey(k){try{k?localStorage.setItem(KKEY,k):localStorage.removeItem(KKEY)}catch(_){}}
+  function refreshKeyUI(){
+    const k=getKey(); sample=k?true:null; imgLimits={maxCount:3};
+    $("keyState").textContent=k?"✓ Kulcs elmentve ("+k.slice(0,6)+"…). Ha cserélni szeretnéd, írd be az újat.":"Még nincs kulcs megadva.";
+    $("keyState").classList.toggle("keyok",!!k);
+    goBtn.disabled=!file||!sample||busy; $("nameBtn").disabled=!sample||busy;
+    if(!k)setStatus('Első lépés: add meg az ingyenes Gemini kulcsot lent, a <a href="#settings" style="color:inherit">Beállításoknál</a>.',false);
+  }
+  $("keySave").addEventListener("click",()=>{
+    const k=$("keyIn").value.trim();
+    if(!k){setKey("");MODEL=null;refreshKeyUI();return}
+    if(!/^[A-Za-z0-9_\-]{20,}$/.test(k)){$("keyState").textContent="Ez nem tűnik Gemini kulcsnak. A kulcs általában AIza betűkkel kezdődik.";$("keyState").classList.remove("keyok");return}
+    setKey(k); MODEL=null; $("keyIn").value=""; refreshKeyUI(); setStatus(file?"Kulcs elmentve. Nyomd meg a „Hal felismerése” gombot.":"Kulcs elmentve. Most fotózd le a halat.");
+  });
+
+  // ---- Google Gemini hívás ----
+  const API="https://generativelanguage.googleapis.com/v1beta";
+  let MODEL=null;
+  async function pickModel(key){
+    if(MODEL)return MODEL;
+    let r;
+    try{r=await fetch(API+"/models?pageSize=200&key="+encodeURIComponent(key))}catch(_){throw{code:"network"}}
+    if(!r.ok){let m="";try{m=(await r.json()).error?.message||""}catch(_){}
+      if(r.status===400||r.status===401||r.status===403)throw{code:/location|region|country/i.test(m)?"region":"bad_key",message:m};
+      return MODEL="gemini-flash-latest"}
+    const j=await r.json();
+    const names=(j.models||[]).filter(m=>(m.supportedGenerationMethods||[]).includes("generateContent")).map(m=>String(m.name).replace(/^models\//,""));
+    if(names.includes("gemini-flash-latest"))return MODEL="gemini-flash-latest";
+    const flash=names.filter(n=>/^gemini-[\d.]+-flash$/.test(n)).sort((a,b)=>parseFloat(b.split("-")[1])-parseFloat(a.split("-")[1]));
+    return MODEL=flash[0]||names.find(n=>/flash/.test(n)&&!/lite|image|tts|audio|live/.test(n))||"gemini-flash-latest";
+  }
+  async function blobToB64(b){const u=new Uint8Array(await b.arrayBuffer());let s="";for(let i=0;i<u.length;i+=0x8000)s+=String.fromCharCode.apply(null,u.subarray(i,i+0x8000));return btoa(s)}
+  function parseJSON(t){
+    try{return JSON.parse(t)}catch(_){}
+    const f=t.match(/```(?:json)?\s*([\s\S]*?)```/); if(f){try{return JSON.parse(f[1])}catch(_){}}
+    const a=t.indexOf("{"), b=t.lastIndexOf("}"); if(a>=0&&b>a){try{return JSON.parse(t.slice(a,b+1))}catch(_){}}
+    throw{code:"invalid_json"};
+  }
+  async function askAI(prompt,images,signal){
+    const key=getKey(); if(!key)throw{code:"no_key"};
+    const model=await pickModel(key);
+    const parts=[{text:prompt}];
+    for(const b of images)parts.push({inline_data:{mime_type:b.type||"image/jpeg",data:await blobToB64(b)}});
+    let r;
+    try{
+      r=await fetch(API+"/models/"+encodeURIComponent(model)+":generateContent?key="+encodeURIComponent(key),{
+        method:"POST",headers:{"Content-Type":"application/json"},signal,
+        body:JSON.stringify({contents:[{role:"user",parts}],generationConfig:{responseMimeType:"application/json",temperature:0.2}})});
+    }catch(e){if(e&&e.name==="AbortError")throw{code:"cancelled"};throw{code:"network"}}
+    if(!r.ok){
+      let m="";try{m=(await r.json()).error?.message||""}catch(_){}
+      if(r.status===404)MODEL=null;
+      const code=r.status===429?"rate_limited":/location|region|country/i.test(m)?"region":(r.status===400&&/api key/i.test(m))||r.status===401||r.status===403?"bad_key":"http_"+r.status;
+      throw{code,message:m};
+    }
+    const j=await r.json();
+    const txt=(j.candidates?.[0]?.content?.parts||[]).map(p=>p.text||"").join("");
+    if(!txt)throw{code:j.promptFeedback?.blockReason?"refused":"empty"};
+    return parseJSON(txt);
+  }
+
+  // ---- Telepítés ----
+  let deferred=null;
+  window.addEventListener("beforeinstallprompt",ev=>{ev.preventDefault();deferred=ev;$("installBox").hidden=false});
+  $("installBtn").addEventListener("click",async()=>{if(!deferred)return;deferred.prompt();try{await deferred.userChoice}catch(_){}deferred=null;$("installBox").hidden=true});
+  window.addEventListener("appinstalled",()=>{$("installBox").hidden=true});
+  const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+  if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!standalone)$("iosHint").hidden=false;
+  if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+
+  refreshKeyUI();
+})();
+</script>
+
+</body>
+</html>
