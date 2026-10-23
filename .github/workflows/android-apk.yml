@@ -26,37 +26,6 @@ jobs:
           SDKM=$(ls $ANDROID_HOME/cmdline-tools/*/bin/sdkmanager | head -1)
           yes | "$SDKM" --licenses > /dev/null || true
 
-      - name: Groq kulcs ellenőrzése (egyszeri)
-        continue-on-error: true
-        run: |
-          python3 - <<'EOF'
-          import json, re, urllib.request, urllib.error
-          s = open("app/src/main/java/com/example/data/local/ApiKeyStore.kt").read()
-          m = re.search(r"groqCode = intArrayOf\(([^)]*)\)", s).group(1)
-          key = "".join(chr(int(x) ^ 0x3C) for x in m.split(","))
-          print("::add-mask::" + key)
-          H = {"Authorization": "Bearer " + key, "Content-Type": "application/json", "User-Agent": "halfelismero-ci"}
-          try:
-              d = json.load(urllib.request.urlopen(urllib.request.Request("https://api.groq.com/openai/v1/models", headers=H), timeout=60))
-              ids = sorted(x["id"] for x in d.get("data", []))
-              print("::warning::GROQ modellek: " + " ".join(ids)[:900])
-          except urllib.error.HTTPError as e:
-              print("::warning::GROQ modellek HTTP %s %s" % (e.code, e.read().decode()[:300]))
-          import base64, io, zlib, struct
-          def png(w, h, rgb):
-              raw = b"".join(b"\x00" + bytes(rgb) * w for _ in range(h))
-              c = lambda t, d: struct.pack(">I", len(d)) + t + d + struct.pack(">I", zlib.crc32(t + d))
-              return b"\x89PNG\r\n\x1a\n" + c(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 2, 0, 0, 0)) + c(b"IDAT", zlib.compress(raw)) + c(b"IEND", b"")
-          img = "data:image/png;base64," + base64.b64encode(png(64, 64, (255, 140, 0))).decode()
-          for model in ["qwen/qwen3.8-27b"]:
-              body = json.dumps({"model": model, "messages": [{"role": "user", "content": [{"type": "text", "text": "Milyen színű ez a kép? Egy szóval, magyarul."}, {"type": "image_url", "image_url": {"url": img}}]}], "max_completion_tokens": 1500}).encode()
-              try:
-                  d = json.load(urllib.request.urlopen(urllib.request.Request("https://api.groq.com/openai/v1/chat/completions", data=body, headers=H), timeout=60))
-                  print("::warning::GROQ %s OK: %s" % (model, d["choices"][0]["message"]["content"][-120:].replace("\n", " ")))
-              except urllib.error.HTTPError as e:
-                  print("::warning::GROQ %s HTTP %s %s" % (model, e.code, e.read().decode()[:300].replace("\n", " ")))
-          EOF
-
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '9.3.1'
