@@ -112,6 +112,13 @@
                     <button onclick="openModal('shareModal')" class="bg-slate-800 hover:bg-slate-700 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 transition">
                         <i class="fa-solid fa-share-nodes"></i> <span class="hidden md:inline">Megosztás / Tárhely</span>
                     </button>
+                    <button id="cloudBtn" onclick="cloudButton()" class="hidden bg-slate-800 hover:bg-slate-700 text-sky-300 border border-sky-500/30 px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 transition">
+                        <i class="fa-solid fa-cloud"></i> <span id="cloudBtnText">Bejelentkezés</span>
+                    </button>
+                    <label class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 transition cursor-pointer" title="Mentett fájl visszatöltése">
+                        <i class="fa-solid fa-upload"></i> <span class="hidden md:inline">Visszatöltés</span>
+                        <input type="file" accept="application/json,.json" onchange="importData(event)" class="hidden">
+                    </label>
                     <button onclick="exportData()" class="bg-teal-600 hover:bg-teal-500 text-white px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 shadow transition">
                         <i class="fa-solid fa-download"></i> <span class="hidden md:inline">Mentés (JSON)</span>
                     </button>
@@ -939,6 +946,7 @@
             populateCompatSelects();
             renderStockCheck();
             loadCloudDatabase();
+            initCloud();
             if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
             try { if (!localStorage.getItem('aquaFajProSeenGuide')) { openModal('onboardingModal'); localStorage.setItem('aquaFajProSeenGuide', '1'); } } catch (e) {}
         };
@@ -1497,8 +1505,93 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             }, 900);
         }
 
-        // ================= MENTÉS, EXPORT =================
-        function saveToLocalStorage() { try { localStorage.setItem('aquaFajProState', JSON.stringify(appState)); } catch (e) {} }
+        // ================= MENTÉS, EXPORT, FELHŐ =================
+        function saveToLocalStorage(fromCloud) {
+            if (!fromCloud) appState.updatedAt = Date.now();
+            try { localStorage.setItem('aquaFajProState', JSON.stringify(appState)); } catch (e) {}
+            if (!fromCloud) scheduleCloudPush();
+        }
+        function renderAll() {
+            renderStock(); renderWaterDiagnosis(); updateWaterChart(); renderTasks(); renderExpenses(); calculateAquascape();
+        }
+        function importData(e) {
+            const f = e.target.files && e.target.files[0]; e.target.value = '';
+            if (!f) return;
+            const r = new FileReader();
+            r.onload = () => {
+                try {
+                    const d = JSON.parse(r.result);
+                    if (!d || !Array.isArray(d.stock)) throw new Error('nem AquaFaj-mentés');
+                    localStorage.setItem('aquaFajProState', JSON.stringify(d));
+                    loadFromLocalStorage(); saveToLocalStorage(); renderAll();
+                    showToast('Az adatok visszatöltve.');
+                } catch (err) { showToast('Ez a fájl nem AquaFaj-mentés.', true); }
+            };
+            r.readAsText(f);
+        }
+        function showToast(msg, bad) {
+            const t = document.createElement('div');
+            t.className = `fixed bottom-4 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-xl text-xs font-semibold shadow-lg ${bad ? 'bg-rose-600' : 'bg-teal-600'} text-white`;
+            t.style.left = '50%'; t.style.transform = 'translateX(-50%)';
+            t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 3000);
+        }
+
+        // Felhős mentés (Google Firebase). Amíg nincs beállítva, a gomb rejtve marad.
+        const FIREBASE_CONFIG = null; /* __FIREBASE_CONFIG__ */
+        let fbUser = null, fbDb = null, pushTimer = null;
+        function loadScript(src) { return new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); }); }
+        async function initCloud() {
+            if (!FIREBASE_CONFIG) return;
+            try {
+                const v = '10.12.2', base = `https://www.gstatic.com/firebasejs/${v}/`;
+                await loadScript(base + 'firebase-app-compat.js');
+                await loadScript(base + 'firebase-auth-compat.js');
+                await loadScript(base + 'firebase-firestore-compat.js');
+                firebase.initializeApp(FIREBASE_CONFIG);
+                fbDb = firebase.firestore();
+                document.getElementById('cloudBtn').classList.remove('hidden');
+                firebase.auth().getRedirectResult().catch(() => {});
+                firebase.auth().onAuthStateChanged(async user => {
+                    fbUser = user;
+                    document.getElementById('cloudBtnText').innerText = user ? (user.displayName || 'Felhő').split(' ')[0] + ' ✓' : 'Bejelentkezés';
+                    if (user) await pullFromCloud();
+                });
+            } catch (e) { console.warn('Felhő nem érhető el', e); }
+        }
+        async function cloudButton() {
+            if (!window.firebase) return;
+            if (fbUser) {
+                const ok = document.getElementById('cloudBtnText').dataset.confirm === '1';
+                if (!ok) { document.getElementById('cloudBtnText').dataset.confirm = '1'; document.getElementById('cloudBtnText').innerText = 'Kijelentkezés?'; setTimeout(() => { delete document.getElementById('cloudBtnText').dataset.confirm; if (fbUser) document.getElementById('cloudBtnText').innerText = (fbUser.displayName || 'Felhő').split(' ')[0] + ' ✓'; }, 3000); return; }
+                await firebase.auth().signOut(); showToast('Kijelentkeztél. Az adatok ezen a telefonon megmaradnak.');
+                return;
+            }
+            const provider = new firebase.auth.GoogleAuthProvider();
+            try { await firebase.auth().signInWithPopup(provider); }
+            catch (e) {
+                if (/popup|operation-not-supported|web-storage/i.test(e.code || '')) { await firebase.auth().signInWithRedirect(provider); }
+                else showToast('A bejelentkezés nem sikerült: ' + (e.code || e.message), true);
+            }
+        }
+        async function pullFromCloud() {
+            try {
+                const snap = await fbDb.collection('users').doc(fbUser.uid).get();
+                const cloud = snap.exists ? snap.data() : null;
+                if (cloud && cloud.updatedAt > (appState.updatedAt || 0)) {
+                    const st = JSON.parse(cloud.state);
+                    localStorage.setItem('aquaFajProState', JSON.stringify(st));
+                    loadFromLocalStorage(); saveToLocalStorage(true); renderAll();
+                    showToast('Adatok betöltve a felhőből.');
+                } else { await pushToCloud(); showToast('Adatok elmentve a felhőbe.'); }
+            } catch (e) { showToast('A felhő most nem érhető el.', true); }
+        }
+        function scheduleCloudPush() { if (!fbUser) return; clearTimeout(pushTimer); pushTimer = setTimeout(pushToCloud, 1500); }
+        async function pushToCloud() {
+            if (!fbUser || !fbDb) return;
+            const st = { ...appState, scannedTempItem: null };
+            try { await fbDb.collection('users').doc(fbUser.uid).set({ state: JSON.stringify(st), updatedAt: appState.updatedAt || Date.now() }); }
+            catch (e) { console.warn('Felhőmentés hiba', e); }
+        }
         function loadFromLocalStorage() {
             try {
                 const saved = JSON.parse(localStorage.getItem('aquaFajProState') || 'null');
