@@ -175,8 +175,9 @@
                     </div>
                     <div>
                         <label class="text-[11px] text-slate-400" for="scanNote">Írd le, mit látsz (nem kötelező, de pontosabb lesz tőle)</label>
+                        <div id="symptomChips" class="hidden mt-1 mb-1 flex flex-wrap gap-1.5"></div>
                         <textarea id="scanNote" rows="2" class="mt-1 w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-100 focus:border-teal-500 outline-none" placeholder=""></textarea>
-                        <button type="button" id="textOnlyBtn" onclick="analyzeTextOnly()" class="hidden mt-1 w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs font-semibold"><i class="fa-solid fa-stethoscope mr-1"></i>Elemzés csak a leírás alapján (fotó nélkül)</button>
+                        <button type="button" id="textOnlyBtn" onclick="analyzeTextOnly()" class="hidden mt-1 w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs font-semibold"><i class="fa-solid fa-stethoscope mr-1"></i>Elemzés csak a leírás alapján (ha nem tudsz jó fotót csinálni)</button>
                     </div>
                 </div>
 
@@ -1438,8 +1439,20 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             beteg: ['Fotózd le a beteg halat', 'pl. fehér pöttyök a testén, dörzsölődik a köveken, kapkodja a levegőt, 3 napja kezdődött, guppi'],
             alga: ['Fotózd le az algát vagy a vizet', 'pl. fekete pamacsok a leveleken, napi 10 óra világítás']
         };
+        const SYMPTOMS = ['fehér pöttyök', 'aranyporszerű bevonat', 'vattás, szőrös folt', 'rojtos, foszló úszó', 'összecsukott úszók', 'felfújt has', 'felálló pikkelyek (fenyőtoboz)', 'kidülledő szem', 'zavaros szem', 'piros csíkok, vérzés', 'fekély, seb', 'fakó szín', 'fehér, fonalas ürülék', 'nem eszik', 'kapkodja a levegőt a felszínen', 'gyors kopoltyúmozgás', 'dörzsölődik a tárgyakon', 'fenéken fekszik', 'oldalra dől / fejjel lefelé úszik', 'elbújik, bágyadt', 'fogy, beesett has', 'több hal is beteg', 'új halat tettem be nemrég', 'most kezdődött', 'több napja tart'];
+        function addSymptom(t) {
+            const el = document.getElementById('scanNote');
+            const cur = el.value.trim();
+            if (cur.toLowerCase().includes(t.toLowerCase())) return;
+            el.value = cur ? cur.replace(/[,.\s]+$/, '') + ', ' + t : t;
+        }
         function setScanMode(m) {
             scanMode = m;
+            const chips = document.getElementById('symptomChips');
+            chips.classList.toggle('hidden', m !== 'beteg');
+            if (m === 'beteg' && !chips.childElementCount) chips.innerHTML = SYMPTOMS.map(t => `<button type="button" onclick="addSymptom('${t}')" class="px-2 py-1 rounded-full bg-slate-800 border border-slate-700 hover:border-teal-400 text-[11px] text-slate-200">+ ${t}</button>`).join('');
+            document.querySelector('label[for="scanNote"]').innerText = m === 'beteg' ? 'Írd le a tüneteket és a tapasztalataidat (koppints a jellemzőkre, vagy írd be): mióta, hány hal, eszik-e, mit változtattál' : 'Írd le, mit látsz (nem kötelező, de pontosabb lesz tőle)';
+            document.getElementById('scanNote').rows = m === 'beteg' ? 4 : 2;
             document.querySelectorAll('.scan-mode').forEach(b => {
                 const on = b.dataset.mode === m;
                 b.className = 'scan-mode p-2.5 rounded-xl border ' + (on ? 'bg-teal-500/20 border-teal-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300 hover:border-slate-500');
@@ -1452,7 +1465,9 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const note = (document.getElementById('scanNote').value || '').trim();
             const stock = appState.stock.map(i => i.name).join(', ');
             let p = SCAN_PROMPTS[scanMode];
-            if (note) p += `\n\nA felhasználó leírása (vedd figyelembe, de a kép az elsődleges, ha van): "${note.slice(0, 600)}"`;
+            if (note) p += scanMode === 'beteg'
+                ? `\n\nA gazdi saját megfigyelései (NAGYON FONTOS: a tünetek a fotón gyakran nem látszanak jól, ezért a leírást ugyanolyan súllyal vedd figyelembe, mint a képet; ha a kép nem egyértelmű, főleg a leírásra támaszkodj, és a "lathato" mezőben jelezd, mi jött a képből és mi a leírásból): "${note.slice(0, 1200)}"`
+                : `\n\nA felhasználó leírása (vedd figyelembe, de a kép az elsődleges, ha van): "${note.slice(0, 600)}"`;
             if (['beteg', 'alga'].includes(scanMode) && stock) p += `\nAz akváriumban élők: ${stock}. A gyógyszereknél vedd figyelembe őket.`;
             return p;
         }
