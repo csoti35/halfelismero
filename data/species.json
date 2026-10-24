@@ -1,5 +1,122 @@
 {
 "frissitve": "2026-10-24",
-"darab": 0,
-"fajok": []
+"darab": 4,
+"fajok": [
+{
+"id": "poecilia-latipinna",
+"tipus": "hal",
+"latin": "Poecilia latipinna",
+"magyar_nev": "Vitorlás molli",
+"egyeb_nevek": [
+"Szélesúszójú fogasponty",
+"Vitorlás molli"
+],
+"regi_latin_nevek": [
+"Mollienesia latipinna"
+],
+"csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+"csoport": "Elevenszülők",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 120,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "poecilia-reticulata",
+"tipus": "hal",
+"latin": "Poecilia reticulata",
+"magyar_nev": "Guppi",
+"egyeb_nevek": [
+"Guppi",
+"Millióhal"
+],
+"regi_latin_nevek": [
+"Lebistes reticulatus",
+"Acanthophacelus reticulatus"
+],
+"csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+"csoport": "Elevenszülők",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.2,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "poecilia-sphenops",
+"tipus": "hal",
+"latin": "Poecilia sphenops",
+"magyar_nev": "Molli",
+"egyeb_nevek": [
+"Black molli",
+"Közönséges molli",
+"Sphenops molli"
+],
+"regi_latin_nevek": [
+"Mollienesia sphenops"
+],
+"csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+"csoport": "Elevenszülők",
+"max_meret_cm": 8,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "poecilia-wingei",
+"tipus": "hal",
+"latin": "Poecilia wingei",
+"magyar_nev": "Endler guppi",
+"egyeb_nevek": [
+"Endler-fogasponty",
+"Campoma guppi"
+],
+"regi_latin_nevek": [],
+"csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+"csoport": "Elevenszülők",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 1800,
+"ellenorzott": false
+}
+]
 }

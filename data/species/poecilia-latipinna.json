@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Poecilia latipinna",
+ "id": "poecilia-latipinna",
+ "tipus": "hal",
+ "latin": "Poecilia latipinna",
+ "regi_latin_nevek": [
+  "Mollienesia latipinna"
+ ],
+ "magyar_nev": "Vitorlás molli",
+ "egyeb_nevek": [
+  "Szélesúszójú fogasponty",
+  "Vitorlás molli"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Észak-Amerika délkeleti partvidéke (USA délkeleti államai, Mexikói-öböl)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nagy úszóteret igénylő, impozáns hal. A hímek látványosan feszítik ki vitorlaszerű hátúszójukat rivalizálás vagy udvarlás közben.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 15,
+ "gh_max": 35,
+ "taplalek": "Mindenevő, nagy arányban algákkal és növényi rostokkal táplálkozik; spirulinás tápok, forrázott spenót, artémia, szúnyoglárva.",
+ "tarsithato": [
+  "Platti",
+  "Kardfarkú hal",
+  "Szivárványhalak",
+  "Közép-amerikai békés elevenszülők",
+  "Keményvizes páncélosharcsák"
+ ],
+ "kerulendo": [
+  "Lágyvizes kényes fajok (diszkosz, vörösfejű pontylazac)",
+  "Úszócsipkedő fajok (pl. szumátrai díszmárna)",
+  "Kisméretű nano halak"
+ ],
+ "szaporodas_mod": "elevenszülő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tartsunk 1 domináns hímre 2-3 nőstényt legalább 100-120 literes, algásodó medencében.",
+  "A változatos, növényi és fehérjedús táplálás elengedhetetlen a termékenységhez.",
+  "A 4-6 hetes vemhességi idő elteltével a nőstény 30-100 utódot hoz világra.",
+  "Az ivadékok nagytestűek, azonnal etethetők finomra dörzsölt lemezes táppal és artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója rendkívül magas és széles vitorlát alkot, testük karcsúbb és gonopódiumuk van. A nőstények testesebbek, hátúszójuk jóval alacsonyabb.",
+ "felismeres_jegyek": [
+  "A kifejlett hímek hátán magas, vitorlaszerű hátúszó található (12-14 úszósugárral)",
+  "Pikkelysorai mentén finom hosszanti pontozottság vagy csíkozottság figyelhető meg",
+  "Robusztus, oldalról enyhén lapított, magas testalkat",
+  "A hím alsó része gonopódiumban végződik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia velifera",
+   "magyar_nev": "Óriás vitorlás molli",
+   "kulonbseg": "Nagyobbra nő (akár 15-18 cm), hátúszója még hosszabb és 18-20 úszósugárból épül fel."
+  },
+  {
+   "latin": "Poecilia sphenops",
+   "magyar_nev": "Fekete molli",
+   "kulonbseg": "Hátúszója jóval kisebb és alacsonyabb, teste zömökebb és kissé lekerekítettebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius)",
+  "Bársonybetegség (Oodinium)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A hímek hatalmas vitorlája csak tágas akváriumban és kiváló vízminőség mellett fejlődik ki tökéletesen.",
+  "Brakkvízi területekről is ismert, így az enyhe sózást (1-2 g tengeri só literenként) nagyon meghálálja.",
+  "Étrendjében mindig biztosítsunk elegendő növényi anyagot és algát a megfelelő bélműködéshez."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

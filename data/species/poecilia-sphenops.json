@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Poecilia sphenops",
+ "id": "poecilia-sphenops",
+ "tipus": "hal",
+ "latin": "Poecilia sphenops",
+ "regi_latin_nevek": [
+  "Mollienesia sphenops"
+ ],
+ "magyar_nev": "Molli",
+ "egyeb_nevek": [
+  "Black molli",
+  "Közönséges molli",
+  "Sphenops molli"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika és Dél-Amerika északi része (Mexikótól Kolumbiáig)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, aktív hal, de a felnőtt hímek olykor hevesen kergethetik a nőstényeket és vetélytársaikat.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 12,
+ "gh_max": 30,
+ "taplalek": "Mindenevő, erősen növényi beállítottságú; elengedhetetlen a spirulina, algafélék, forrázott zöldségek, de elfogadja a fagyasztott és száraztápokat is.",
+ "tarsithato": [
+  "Platti",
+  "Kardfarkú hal",
+  "Szivárványhalak",
+  "Békés páncélosharcsák",
+  "Algázó gébek"
+ ],
+ "kerulendo": [
+  "Lágy, savas vizet igénylő pontylazacok és diszkoszhalak",
+  "Fátyolos úszójú lassú fajok",
+  "Agresszív ragadozó sügérek"
+ ],
+ "szaporodas_mod": "elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Alakítsunk ki hármas vagy négyes csoportot (1 hím, 2-3 nőstény) tágas akváriumban.",
+  "Tartsuk a hőmérsékletet 26-28 °C-on és biztosítsunk bőséges növényi táplálékot.",
+  "A 4-6 hetes vemhesség végén a nőstény 30-80 ivadékot hoz a világra.",
+  "A kishalak védelmére sűrű növényzet szükséges, különben a felnőttek elfogyaszthatják őket."
+ ],
+ "ivari_kulonbseg": "A hím karcsúbb alkatú, kisebb méretű, farok alatti úszója gonopódiummá alakult. A nőstény jóval testesebb, kerekebb hasú és legyezőszerű farok alatti úszóval bír.",
+ "felismeres_jegyek": [
+  "Hengeres, vaskos testalkat, kissé felülről lapított fejjel",
+  "A legnépszerűbb forma egyöntetű, bársonyos koromfekete színű",
+  "A hátúszó arányos, nem nő meg vitorlaszerűen (9-11 finom úszósugár)",
+  "Hímeknél a has alatt hegyes párzószerv (gonopódium) látható"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia latipinna",
+   "magyar_nev": "Szélesúszójú molli",
+   "kulonbseg": "A hím hátúszója sokkal magasabb, széles vitorlát képez, a test pikkelysoraiban pedig vonalas rajzolat látható."
+  },
+  {
+   "latin": "Poecilia velifera",
+   "magyar_nev": "Óriás vitorlás molli",
+   "kulonbseg": "Sokkal nagyobbra nő (akár 15 cm), hátúszója hatalmas és jóval több (18-20) úszósugárból áll."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius)",
+  "Bársonybetegség (Oodinium)",
+  "Oszlopos betegség (Columnaris)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kifejezetten igényli a kemény, lúgos vizet; lágy, savas közegben könnyen megbetegszik és gombásodik.",
+  "Rendszeres zöldeleség nélkül lecsipkedi a finomabb levelű akváriumi növényeket.",
+  "Az enyhe sózást (1 teáskanál tengeri só 10 liter vízhez) kimondottan meghálálja, ez megvédi a fertőzésektől."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

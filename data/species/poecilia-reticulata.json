@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Poecilia reticulata",
+ "id": "poecilia-reticulata",
+ "tipus": "hal",
+ "latin": "Poecilia reticulata",
+ "regi_latin_nevek": [
+  "Lebistes reticulatus",
+  "Acanthophacelus reticulatus"
+ ],
+ "magyar_nev": "Guppi",
+ "egyeb_nevek": [
+  "Guppi",
+  "Millióhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Dél-Amerika északi része (Venezuela, Guyana, Trinidad és Tobago)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, élénk mozgású társas hal. A hímek állandóan udvarolnak, ezért érdemes háremben tartani őket, hogy a nőstények ne merüljenek ki.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; minőségi lemezes és finom szemcsés száraztápok, fagyasztott és élő artémia, tubifex, szúnyoglárva, valamint némi spirulina.",
+ "tarsithato": [
+  "Platti",
+  "Páncélosharcsák",
+  "Neonhal",
+  "Ékfoltos razbóra",
+  "Otocinclus"
+ ],
+ "kerulendo": [
+  "Szumátrai díszmárna",
+  "Vitorláshal",
+  "Nagyobb testű sügérek",
+  "Ragadozó harcsák"
+ ],
+ "szaporodas_mod": "elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Tartsunk 1 hímre legalább 2-3 nőstényt az ideális hárem kialakításához.",
+  "Biztosítsunk dús úszónövényzetet (pl. sallangos páfrány, riccia), ahol a kicsinyek elrejtőzhetnek.",
+  "A kb. 4 hetes vemhességi idő lejárta után a nőstény 20-60 kishalat hoz világra.",
+  "Az ivadékok finom poreleséggel és frissen keltetett artémiával gond nélkül felnevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen kisebbek, karcsúbbak, élénk színűek, úszóik gyakran megnyúltak, és farok alatti úszójuk párzószervvé (gonopódium) alakult. A nőstények nagyobbak, teltebbek, fakóbbak és ivaréretten fekete terhességi foltot viselnek a hasuk alján.",
+ "felismeres_jegyek": [
+  "Hímeknél feltűnően színes, tarka mintázat és gyakran legyező- vagy zászlószerű farokúszó",
+  "A nőstények nagyobb, vaskosabb testalkatúak és egyszínűbb szürkés-ezüstösek",
+  "Hímek hasoldalán jól kivehető, hegyes gonopódium található",
+  "Nőstények ivarnyílása felett jól látható, sötét terhességi folt"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia wingei",
+   "magyar_nev": "Endler guppi",
+   "kulonbseg": "Kisebb termetű, a hímek fénylő neonszínekben pompáznak és farokúszójuk általában nem fátyolos, hanem kardos mintázatú."
+  },
+  {
+   "latin": "Micropoecilia picta",
+   "magyar_nev": "Mocsári fogasponty",
+   "kulonbseg": "Karcsúbb felépítésű, természetesebb vörös-fekete rajzolatú, ritkábban beszerezhető faj."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Úszórothadás",
+  "Oodinium (bársonybetegség)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Kemény vagy középkemény, stabil vizet igényel, a savas és lágy vízben immunrendszere gyorsan legyengül.",
+  "A hímek fátyolos uszonyait a csipkelődő halak (pl. márnák) megcsonkíthatják, velük ne társítsuk.",
+  "Gyors szaporodása miatt tervezzük meg előre a felesleges szaporulat elhelyezését."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

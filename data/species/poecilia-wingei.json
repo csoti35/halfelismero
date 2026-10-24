@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Poecilia wingei",
+ "id": "poecilia-wingei",
+ "tipus": "hal",
+ "latin": "Poecilia wingei",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Endler guppi",
+ "egyeb_nevek": [
+  "Endler-fogasponty",
+  "Campoma guppi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae (Elevenszülő fogaspontyok)",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Venezuela északkeleti része (Campoma- és Carúpano-lagúnák)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 2,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül fürge, békés és kíváncsi hal. A hímek szinte folyamatosan vibráló násztáncot lejtenek a nőstények előtt.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; mikrogranulátumok, finom lemezes eleségek, frissen kelt artémia, mikróféreg és algás eleségek.",
+ "tarsithato": [
+  "Neocaridina garnélák",
+  "Amano garnéla",
+  "Otocinclus",
+  "Törpe páncélosharcsák",
+  "Boraras fajok"
+ ],
+ "kerulendo": [
+  "Szivárványos guppi (kereszteződés miatt)",
+  "Vitorláshal",
+  "Nagyobb lazacok",
+  "Agresszív márnák"
+ ],
+ "szaporodas_mod": "elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Tartsunk 1 hímre legalább 2 nőstényt egy növényesített akváriumban.",
+  "Kevésbé hajlamosak saját ivadékaik felfalására, de finomlevelű mohák nyújtsanak menedéket.",
+  "A vemhesség 23-26 napig tart, alkalmanként 10-30 utód jön a világra.",
+  "Az újszülöttek azonnal elfogadják a mikroszemcsés ivadéktápokat és az artémiát."
+ ],
+ "ivari_kulonbseg": "A hímek aprók (2-2,5 cm), fémfényű neon színekkel tarkítottak és gonopódiumuk van. A nőstények jóval nagyobbak (4-4,5 cm), egyszínű olajbarna vagy zöldesszürke árnyalatúak, színtelen úszókkal.",
+ "felismeres_jegyek": [
+  "Hímeken fémesen csillogó narancssárga, smaragdzöld, kék és bársonyfekete foltok",
+  "A farokúszó szélein gyakran felső- vagy alsókardos színes sáv látható, közepe többnyire áttetsző",
+  "A nőstények teste jóval vaskosabb és teljesen dísztelen, fakó zöldesszürke",
+  "A hím kistermetű, hegyes gonopódiummal rendelkezik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "Szivárványos guppi",
+   "kulonbseg": "Nagyobb testméret, gyakran hatalmas fátyolos úszók, és nincsenek rá jellemző tiszta neon foltok."
+  },
+  {
+   "latin": "Neoheterandria elegans",
+   "magyar_nev": "Törpe fogasponty",
+   "kulonbseg": "Még apróbb, sárgásbarna alapszínű, finom függőleges csíkokkal díszített test."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór",
+  "Bakteriális fertőzések",
+  "Hasméhkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Szigorúan tilos szivárványos guppival egy medencében tartani, mert korlátlanul kereszteződnek és tönkreteszik a tiszta vérvonalat.",
+  "Kiváló választás növényes nano akváriumokba, mivel a kifejlett garnélákat egyáltalán nem bántja.",
+  "Élő eleség etetésével a hímek neon színei drámaian felerősödnek."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}
