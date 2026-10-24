@@ -1,28 +1,90 @@
 [
- {"id":"01","kind":"title","title":"AquaFaj","sub":"Ingyenes magyar akvarisztikai zsebkönyv",
-  "say":"Szia! Ez az AquaFaj, egy ingyenes, magyar akvarisztikai zsebkönyv a telefonodra. Megmutatom, mit tud, és hogyan teheted fel pár kattintással."},
- {"id":"02","kind":"app","shot":"scan","caption":"📷 Fotós felismerés",
-  "say":"Az első fül a fotós felismerés. Fotózz le egy halat, növényt vagy garnélát, vagy válassz egy képet a galériából, és a mesterséges intelligencia pár másodperc alatt megmondja, mi az."},
- {"id":"03","kind":"app","shot":"result","caption":"Fajleírás és tartási adatok",
-  "say":"Kapsz egy rövid leírást, és látod a hal maximális méretét, a szükséges akváriumméretet, a hőmérsékletet, a pH-t, és azt, hogy békés-e. Ha a gép nem biztos a dolgában, több lehetséges fajt is felajánl, és te választod ki a tiédet."},
- {"id":"04","kind":"app","shot":"price","caption":"🏷️ Ár és hol kapható",
-  "say":"Azt is azonnal látod, hogy összefér-e a meglévő halaiddal. Alatta ott a becsült bolti ár, és egy gombnyomással megnyílik a térkép a hozzád legközelebbi akvarisztikákkal, a webshopok árai és a Jófogás hirdetései."},
- {"id":"05","kind":"app","shot":"tab1","caption":"🌱 Akvakertész kalkulátor",
-  "say":"Az akvakertész fülön kiszámolhatod az akváriumod űrtartalmát, és a fényhez meg a szén-dioxidhoz illő növényeket is megtalálod."},
- {"id":"06","kind":"app","shot":"tab2","caption":"🐟 Állomány és összeférhetőség",
-  "say":"Az állomány fülön vezeted, kik élnek az akváriumodban. A program folyamatosan figyeli, kik férnek össze, és szól, ha például egy nagyobb hal megenné a kisebbet."},
- {"id":"07","kind":"app","shot":"tab3","caption":"💧 Vízparaméterek",
-  "say":"A vízparaméter fülön rögzítheted a méréseidet. Grafikonon követed a változást, és ha valami veszélyes, például túl magas az ammónia, a program azonnal figyelmeztet, és megmondja, mit tegyél."},
- {"id":"08","kind":"app","shot":"tab4","caption":"✅ Teendők és költségek",
-  "say":"Az utolsó fülön a teendők és a költségek vannak: vízcsere, szűrőtisztítás, és az is, hogy eddig mennyit költöttél a hobbira."},
- {"id":"09","kind":"app","shot":"cloud","caption":"☁️ Mentés a felhőbe",
-  "say":"Ha a Belépés gombbal bejelentkezel a Google-fiókoddal, minden adatod automatikusan a felhőbe mentődik. Így a telefonodon és a gépeden is ugyanazt látod, és ha telefont cserélsz, akkor sem vész el semmi."},
- {"id":"10","kind":"install1","caption":"Telepítés · 1. lépés",
-  "say":"És most a telepítés. Nyisd meg a telefonodon a Chrome böngészőt, és írd be a képernyőn látható címet."},
- {"id":"11","kind":"install2","caption":"Telepítés · 2. lépés",
-  "say":"Koppints jobb felül a három pöttyre, majd válaszd az Alkalmazás telepítése, vagy a Hozzáadás a kezdőképernyőhöz lehetőséget, és erősítsd meg."},
- {"id":"12","kind":"install3","caption":"Telepítés · 3. lépés",
-  "say":"Kész is! Az AquaFaj ikonja megjelenik a kezdőképernyőn, és úgy indul, mint bármelyik másik alkalmazás. iPhone-on a Safariban, a Megosztás gomb alatt találod a Főképernyőhöz adás pontot."},
- {"id":"13","kind":"title","title":"Jó halazást! 🐠","sub":"csoti35.github.io/halfelismero/zsebkonyv",
-  "say":"Ennyi az egész. Próbáld ki, és ha tetszik, küldd el az akvarista barátaidnak is. Jó halazást!"}
+ {
+  "id": "01",
+  "kind": "title",
+  "title": "AquaFaj",
+  "sub": "Ingyenes magyar akvarisztikai zsebkönyv",
+  "say": "Szia! Ez az AquaFaj, egy ingyenes, magyar akvarisztikai zsebkönyv a telefonodra. Megmutatom, mit tud, és hogyan teheted fel pár kattintással."
+ },
+ {
+  "id": "02",
+  "kind": "app",
+  "shot": "scan",
+  "caption": "📷 Fotós felismerés",
+  "say": "Az első fül a fotós felismerés. Fotózz le egy halat, növényt vagy garnélát, vagy válassz egy képet a galériából, és a mesterséges intelligencia pár másodperc alatt megmondja, mi az."
+ },
+ {
+  "id": "03",
+  "kind": "app",
+  "shot": "result",
+  "caption": "Fajleírás és tartási adatok",
+  "say": "Kapsz egy rövid leírást, és látod a hal maximális méretét, a szükséges akváriumméretet, a hőmérsékletet, a pH-t, és azt, hogy békés-e. Ha a gép nem biztos a dolgában, több lehetséges fajt is felajánl, és te választod ki a tiédet."
+ },
+ {
+  "id": "04",
+  "kind": "app",
+  "shot": "price",
+  "caption": "🏷️ Ár és hol kapható",
+  "say": "Azt is azonnal látod, hogy összefér-e a meglévő halaiddal. Alatta ott a becsült bolti ár, és egy gombnyomással megnyílik a térkép a hozzád legközelebbi akvarisztikákkal, a webshopok árai és a Jófogás hirdetései."
+ },
+ {
+  "id": "05",
+  "kind": "app",
+  "shot": "tab1",
+  "caption": "🌱 Akvakertész kalkulátor",
+  "say": "Az akvakertész fülön kiszámolhatod az akváriumod űrtartalmát, és a fényhez meg a szén-dioxidhoz illő növényeket is megtalálod."
+ },
+ {
+  "id": "06",
+  "kind": "app",
+  "shot": "tab2",
+  "caption": "🐟 Állomány és összeférhetőség",
+  "say": "Az állomány fülön vezeted, kik élnek az akváriumodban. A program folyamatosan figyeli, kik férnek össze, és szól, ha például egy nagyobb hal megenné a kisebbet."
+ },
+ {
+  "id": "07",
+  "kind": "app",
+  "shot": "tab3",
+  "caption": "💧 Vízparaméterek",
+  "say": "A vízparaméter fülön rögzítheted a méréseidet. Grafikonon követed a változást, és ha valami veszélyes, például túl magas az ammónia, a program azonnal figyelmeztet, és megmondja, mit tegyél."
+ },
+ {
+  "id": "08",
+  "kind": "app",
+  "shot": "tab4",
+  "caption": "✅ Teendők és költségek",
+  "say": "Az utolsó fülön a teendők és a költségek vannak: vízcsere, szűrőtisztítás, és az is, hogy eddig mennyit költöttél a hobbira."
+ },
+ {
+  "id": "09",
+  "kind": "app",
+  "shot": "cloud",
+  "caption": "☁️ Mentés a felhőbe",
+  "say": "Ha a Belépés gombbal bejelentkezel a Google-fiókoddal, minden adatod automatikusan a felhőbe mentődik. Így a telefonodon és a gépeden is ugyanazt látod, és ha telefont cserélsz, akkor sem vész el semmi."
+ },
+ {
+  "id": "10",
+  "kind": "install1",
+  "caption": "Telepítés · 1. lépés",
+  "say": "És most a telepítés. Koppints a linkre, amit tőlem kaptál. Ha nem a Chrome-ban nyílik meg, akkor a jobb felső sarokban válaszd a Megnyitás Chrome-ban lehetőséget."
+ },
+ {
+  "id": "11",
+  "kind": "install2",
+  "caption": "Telepítés · 2. lépés",
+  "say": "Koppints jobb felül a három pöttyre, majd válaszd az Alkalmazás telepítése, vagy a Hozzáadás a kezdőképernyőhöz lehetőséget, és erősítsd meg."
+ },
+ {
+  "id": "12",
+  "kind": "install3",
+  "caption": "Telepítés · 3. lépés",
+  "say": "Kész is! Az AquaFaj ikonja megjelenik a kezdőképernyőn, és úgy indul, mint bármelyik másik alkalmazás. iPhone-on a Safariban, a Megosztás gomb alatt találod a Főképernyőhöz adás pontot."
+ },
+ {
+  "id": "13",
+  "kind": "title",
+  "title": "Jó halazást! 🐠",
+  "sub": "Koppints a kapott linkre, és próbáld ki!",
+  "say": "Ennyi az egész. Koppints a linkre, próbáld ki, és ha tetszik, küldd tovább az akvarista barátaidnak is. Jó halazást!"
+ }
 ]

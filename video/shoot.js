@@ -92,7 +92,7 @@ async function wireCss(page) {
     .notch{position:absolute;top:18px;left:50%;transform:translateX(-50%);width:160px;height:40px;border-radius:20px;background:#020617;z-index:3}</style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">`;
   const phone = inner => `<div class="phone"><div class="screen"><div class="notch"></div>${inner}</div></div>`;
-  const chromeBar = `<div style="position:absolute;bottom:0;left:0;right:0;height:150px;background:#1e293b;display:flex;align-items:center;gap:22px;padding:0 30px;font-size:34px">
+  const chromeBarUnused = `<div style="position:absolute;bottom:0;left:0;right:0;height:150px;background:#1e293b;display:flex;align-items:center;gap:22px;padding:0 30px;font-size:34px">
      <span style="font-size:44px">⌂</span><div style="flex:1;background:#334155;border-radius:40px;padding:22px 30px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:30px">🔒 ${URL_TXT}</div><span style="font-size:46px;font-weight:900">⋮</span></div>`;
   const appBg = `<img src="${img(path.join(OUT, 'shots/scan.png'))}" style="filter:brightness(.55)">`;
   for (const s of scenes) {
@@ -105,9 +105,15 @@ async function wireCss(page) {
     } else if (s.kind === 'app') {
       body = `<div class="cap">${s.caption}</div>` + phone(`<img src="${img(path.join(OUT, 'shots', s.shot + '.png'))}">`) + `<div class="brand">AquaFaj · ingyenes</div>`;
     } else if (s.kind === 'install1') {
-      body = `<div class="cap">${s.caption}</div>` + phone(`<div style="position:absolute;inset:0;background:#0f172a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;padding:50px;text-align:center">
-          <div style="font-size:120px">🌐</div><div style="font-size:46px;font-weight:700">Nyisd meg a Chrome-ot,<br>és írd be:</div>
-          <div style="font-size:40px;font-weight:800;color:#0f172a;background:#5eead4;border-radius:28px;padding:30px 26px;word-break:break-all;box-shadow:0 0 0 10px rgba(94,234,212,.25)">${URL_TXT}</div></div>${chromeBar}`) + `<div class="brand">${URL_TXT}</div>`;
+      body = `<div class="cap">${s.caption}</div>` + phone(`<div style="position:absolute;inset:0;background:#0b141a"></div>
+          <div style="position:absolute;top:70px;left:0;right:0;height:120px;background:#1f2c34;display:flex;align-items:center;padding:0 40px;font-size:38px;font-weight:700;color:#e9edef">← 💬 Üzenet</div>
+          <div style="position:absolute;top:300px;left:40px;width:560px;background:#1f2c34;border-radius:0 34px 34px 34px;padding:34px;font-size:36px;color:#e9edef;line-height:1.35">Szia! Próbáld ki ezt az akvarisztikai appot 🐠</div>
+          <div style="position:absolute;top:520px;left:40px;width:600px;background:#1f2c34;border-radius:0 34px 34px 34px;overflow:hidden;box-shadow:0 0 0 6px #fbbf24">
+            <div style="height:220px;background:linear-gradient(135deg,#0f766e,#155e75);display:flex;align-items:center;justify-content:center"><img src="${ICON}" style="width:150px;height:150px;border-radius:40px"></div>
+            <div style="padding:28px 34px;font-size:36px;font-weight:800;color:#e9edef">AquaFaj – akvarisztikai zsebkönyv</div>
+            <div style="padding:0 34px 30px;font-size:32px;color:#53bdeb;text-decoration:underline">🔗 Koppints ide</div></div>
+          <div style="position:absolute;top:900px;left:330px;font-size:150px;transform:rotate(-15deg)">👆</div>
+          <div style="position:absolute;bottom:90px;left:40px;right:40px;text-align:center;font-size:34px;color:#99f6e4">Nem Chrome-ban nyílt meg?<br><b>⋮ → Megnyitás Chrome-ban</b></div>`) + `<div class="brand">Koppints a kapott linkre</div>`;
     } else if (s.kind === 'install2') {
       const items = ['Új lap', 'Könyvjelzők', 'Előzmények', 'Letöltések', '<b>📲 Alkalmazás telepítése</b>', 'Hozzáadás a kezdőképernyőhöz', 'Beállítások'];
       body = `<div class="cap">${s.caption}</div>` + phone(`${appBg}
