@@ -1809,7 +1809,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v15';
+        const APP_VERSION = 'v16';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
@@ -1839,7 +1839,17 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             return new Promise(res => { const i = new Image(); i.onload = () => { const k = Math.min(1, max / Math.max(i.width, i.height)); const c = document.createElement('canvas'); c.width = Math.round(i.width * k); c.height = Math.round(i.height * k); c.getContext('2d').drawImage(i, 0, 0, c.width, c.height); res(c.toDataURL('image/jpeg', q).split(',')[1]); }; i.onerror = () => res(null); i.src = 'data:image/jpeg;base64,' + b64; });
         }
         // E-mail a freemailre a háttérben (FormSubmit, ingyenes, fiók nélkül). Rejtett űrlap -> a fotó csatolmányként megy.
-        function emailInBackground(doc) {
+        const MAIL_URL = null; /* __MAIL_URL__ */
+        async function emailInBackground(doc) {
+            if (MAIL_URL) {
+                try {
+                    const r = await Promise.race([fetch(MAIL_URL, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(doc) }), new Promise((_, rej) => setTimeout(() => rej(new Error('időtúllépés')), 25000))]);
+                    const j = await r.json().catch(() => ({}));
+                    if (j.ok) return true;
+                    window.lastAppError = 'E-mail: ' + (j.hiba || r.status);
+                } catch (e) { window.lastAppError = 'E-mail: ' + e.message; }
+                return false;
+            }
             return new Promise(res => {
                 const name = 'fs_' + Date.now();
                 const ifr = document.createElement('iframe'); ifr.name = name; ifr.style.display = 'none'; document.body.appendChild(ifr);
