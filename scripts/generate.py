@@ -41,7 +41,9 @@ Szabályok:
 - Mezők növénynél: {mezok_noveny}
 - "id": a latin név kisbetűvel, ékezet nélkül, szóközök és jelek helyett kötőjel (pl. "betta-splendens"). "tipus": hal / noveny / gerinctelen (a listából).
 - "latin": a ma érvényes tudományos név; ha a listában régi név vagy tenyésztett változat szerepel, azt "regi_latin_nevek"-be vagy a magyar névbe írd.
-- "magyar_nev": a magyar akvarisztikában bevett név. Fogaspontyoknál (killiknél) a fogasponty nevet használd, zárójelben "killi". Ha nincs bevett magyar név, adj egy pontos, leíró nevet, és "magyar_nev_bizonytalan": true.
+- "magyar_nev": a magyar díszállat-kereskedésekben és szakirodalomban TÉNYLEGESEN használt név (pl. guppi, platti, molli, kardfarkú, neonhal, parázs pontylazac, sziámi harcoshal, skalár, diszkosz, páncélos harcsa, algaevő harcsa). NE fordíts le szó szerint angol vagy latin neveket, és ne találj ki új nevet. Ha nem vagy biztos benne, hogy a név bevett Magyarországon, írd a legismertebb nevet (akár a latin nemzetségnevet, pl. "Apistogramma agassizii" vagy "Ancistrus"), és "magyar_nev_bizonytalan": true.
+- Fogaspontyoknál (killiknél) a fogasponty nevet használd, zárójelben "killi". Az elevenszülő fogaspontyok (guppi, platti, molli, kardfarkú, limia, goodeidák) neve ne legyen "fogasponty", hanem a bevett név.
+- Helyes, természetes magyar szakszavakat használj (pl. ívató akvárium, ikra, ivadék, artémia, tubifex).
 - "termeszet": "bekes" / "felagressziv" / "agressziv". Óvatosan: ha fajtársaival vagy kisebb halakkal agresszív, ne legyen "bekes".
 - "uszasi_zona": "felso" / "kozepso" / "also" / "mindenhol". "beszerezhetoseg" (Magyarországon): "gyakori" / "kozepes" / "ritka".
 - Számmezők számok legyenek (nem szöveg). "nehezseg", "szaporitas_nehezseg": 1–5 (1 = könnyű).
@@ -77,7 +79,7 @@ class QuotaGone(Exception):
 def gemini(prompt):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
-    for model in ["gemini-flash-latest", "gemini-flash-lite-latest"]:
+    for model in ["gemini-flash-latest"]:
         req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                                      data=body, headers={"Content-Type": "application/json", "x-goog-api-key": GEMINI_KEY})
         try:
@@ -134,6 +136,12 @@ def main():
             if not isinstance(rec, dict) or not rec.get("magyar_nev"):
                 print("Hiányos adatlap:", latin)
                 continue
+            for k in ["regi_latin_nevek", "egyeb_nevek", "tarsithato", "kerulendo", "szaporitas_lepesek", "felismeres_jegyek", "gyakori_betegsegek", "tippek"]:
+                v = rec.get(k)
+                if isinstance(v, str):
+                    rec[k] = [x.strip() for x in re.split(r"[;,]\s*", v) if x.strip()]
+                elif v is None:
+                    rec[k] = []
             rec["id"] = slug(latin)
             rec["tipus"] = tipus
             rec["lista_nev"] = latin
