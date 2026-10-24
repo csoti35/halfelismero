@@ -754,6 +754,8 @@
     <!-- FOOTER -->
     <footer class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 mt-12">
         <p>AquaFaj Pro – akvarisztikai zsebkönyv. A fajadatok tájékoztató jellegűek; fontos döntés előtt kérdezz meg egy tapasztalt akvaristát.</p>
+        <button type="button" onclick="openBugReport()" class="mt-3 inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-xs font-semibold"><i class="fa-solid fa-bug text-rose-300"></i> Hiba bejelentése / javaslat</button>
+        <p class="mt-1 text-[10px] text-slate-500">aquafajpro@freemail.hu</p>
     </footer>
 
     <datalist id="speciesNames"></datalist>
@@ -787,6 +789,21 @@
     </div>
 
     <!-- SHARE & HOSTING MODAL -->
+    <div id="bugModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+        <div class="glass-panel w-full max-w-md rounded-2xl p-5 space-y-3 border border-slate-700">
+            <div class="flex items-center justify-between"><h3 class="text-white font-bold text-sm"><i class="fa-solid fa-bug text-rose-300 mr-1"></i>Hiba bejelentése</h3>
+                <button onclick="closeModal('bugModal')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button></div>
+            <p class="text-[11px] text-slate-400">Írd le, mi nem működik, vagy mit szeretnél másképp. Az e-mailhez automatikusan hozzátesszük a telefonod típusát és az utolsó hibaüzenetet, hogy gyorsan javítani tudjuk.</p>
+            <div class="grid grid-cols-2 gap-1.5 text-[11px]" id="bugKinds">
+
+            </div>
+            <textarea id="bugText" rows="4" class="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-100 focus:border-teal-500 outline-none" placeholder="pl. A fotó feltöltése után nem jön eredmény, csak forog."></textarea>
+            <button onclick="sendBugReport()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-semibold py-2.5 rounded-lg text-xs"><i class="fa-solid fa-paper-plane mr-1"></i>Küldés e-mailben</button>
+            <button onclick="copyBugReport()" class="w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs">Nem nyílik meg a levelező? Szöveg másolása</button>
+            <p class="text-[10px] text-slate-500 text-center">Cím: aquafajpro@freemail.hu</p>
+        </div>
+    </div>
+
     <div id="shareModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
         <div class="glass-panel max-w-md w-full p-6 rounded-2xl space-y-4 border border-cyan-500/30">
             <div class="flex justify-between items-center border-b border-slate-700 pb-3">
@@ -1531,7 +1548,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 const d = await geminiIdentify(await fileToJpegBase64(file), buildPrompt());
                 showScanResult(d);
             } catch (err) {
-                res.innerHTML = `<div class="p-3 rounded-xl border sev-bad text-rose-200 text-xs">${esc(err.message)}</div>`;
+                res.innerHTML = errorBox(err.message);
             } finally {
                 document.getElementById('scanLine').classList.add('hidden');
                 document.getElementById('uploadPrompt').classList.remove('hidden');
@@ -1547,7 +1564,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const t0 = Date.now(); const tick = setInterval(() => { const el = document.getElementById('scanSecs'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000); else clearInterval(tick); }, 1000);
             res.scrollIntoView({ behavior: 'smooth', block: 'center' });
             try { showScanResult(await geminiIdentify(null, buildPrompt() + '\nNincs fotó, csak a leírás alapján dolgozz, és ennek megfelelően legyél óvatosabb a biztosságnál.')); }
-            catch (err) { res.innerHTML = `<div class="p-3 rounded-xl border sev-bad text-rose-200 text-xs">${esc(err.message)}</div>`; }
+            catch (err) { res.innerHTML = errorBox(err.message); }
         }
 
         function treatmentHtml(d, name) {
@@ -1597,7 +1614,8 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${alts.length ? `<div class="text-[11px] text-slate-400">${['betegseg', 'alga'].includes(d.tipus) ? 'Más lehetőség (koppints rá, ha inkább ez):' : 'Lehet még:'}</div>` + alts.slice(0, 3).map((a, i) => `<button onclick="pickAlternative(${i})" class="w-full text-left p-2 rounded border border-slate-700 hover:border-teal-500 text-[11px]"><strong class="text-slate-100">${esc(a.magyar_nev || a.latin)}</strong> <span class="italic text-slate-400">${esc(a.latin || '')}</span><br><span class="text-slate-400">${esc(a.kulonbseg || '')}</span></button>`).join('') : ''}
                 ${kb && kb.type !== 'noveny' ? stockFitHtml(kb) : ''}
                 ${['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? shopHtml(name, (kb && kb.latin) || d.latin, d) : ''}
-                ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}`;
+                ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}
+                <button type="button" onclick="reportWrongScan()" class="text-[10px] text-slate-500 underline"><i class="fa-solid fa-flag mr-1"></i>Rossz a felismerés? Jelezd nekünk</button>`;
             window.lastScan = d;
             const type = ['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? d.tipus : null;
             appState.scannedTempItem = type ? { name, latin: (kb && kb.latin) || d.latin || '', type, count: 1, size: (kb && kb.size) || Number(d.max_meret_cm) || 3, aggro: (kb && kb.aggro) || (['bekes', 'teruletvedo', 'agressziv'].includes(d.termeszet) ? d.termeszet : 'bekes') } : null;
@@ -1649,7 +1667,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 const res = document.getElementById('scanResultContent');
                 res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300">Kezelés összeállítása: ${esc(a.magyar_nev || a.latin)}…</p></div>`;
                 geminiIdentify(null, buildPrompt() + `\nA felhasználó szerint ez a probléma: "${a.magyar_nev || a.latin}". Erre add meg a leírást és a kezelést, biztossag legyen 100, alternativak üres lista. A korábban látott tünetek: ${window.lastScan.lathato || ''}`)
-                    .then(showScanResult).catch(err => { res.innerHTML = `<div class="p-3 rounded-xl border sev-bad text-rose-200 text-xs">${esc(err.message)}</div>`; });
+                    .then(showScanResult).catch(err => { res.innerHTML = errorBox(err.message); });
                 return;
             }
             const kb = findSpecies(a.latin) || findSpecies(a.magyar_nev);
@@ -1771,6 +1789,43 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob); a.download = 'aquafaj_adatok.json';
             document.body.appendChild(a); a.click(); a.remove();
+        }
+
+        // ================= HIBABEJELENTÉS =================
+        const BUG_EMAIL = 'aquafajpro@freemail.hu';
+        const APP_VERSION = 'v10';
+        window.lastAppError = '';
+        window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
+        window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
+        let bugKind = 'Hiba';
+        function openBugReport(prefill) {
+            const kinds = ['Hiba', 'Rossz felismerés', 'Javaslat', 'Egyéb'];
+            document.getElementById('bugKinds').innerHTML = kinds.map(k => `<button type="button" onclick="bugKind='${k}';openBugReport.mark()" data-k="${k}" class="bug-k p-2 rounded-lg border">${k}</button>`).join('');
+            openBugReport.mark = () => document.querySelectorAll('.bug-k').forEach(b => b.className = 'bug-k p-2 rounded-lg border ' + (b.dataset.k === bugKind ? 'bg-teal-500/20 border-teal-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'));
+            if (prefill) { bugKind = prefill.kind || 'Hiba'; document.getElementById('bugText').value = prefill.text || ''; }
+            openBugReport.mark(); openModal('bugModal');
+        }
+        function bugBody() {
+            const scan = window.lastScan ? `${window.lastScan.magyar_nev || ''} (${window.lastScan.latin || ''}), ${window.lastScan.biztossag || '?'}%` : '-';
+            return `${document.getElementById('bugText').value.trim() || '(nincs leírás)'}\n\n----\nTípus: ${bugKind}\nVerzió: ${APP_VERSION}\nKészülék: ${navigator.userAgent}\nKépernyő: ${screen.width}x${screen.height}\nTelepítve: ${matchMedia('(display-mode: standalone)').matches ? 'igen' : 'nem (böngésző)'}\nBelépve: ${fbUser ? 'igen' : 'nem'}\nUtolsó felismerés: ${scan}\nUtolsó hiba: ${window.lastAppError || '-'}\nIdő: ${new Date().toLocaleString('hu-HU')}`;
+        }
+        function sendBugReport() {
+            if (!document.getElementById('bugText').value.trim()) { showToast('Írd le röviden, mi a gond.', true); return; }
+            location.href = `mailto:${BUG_EMAIL}?subject=${encodeURIComponent('AquaFaj – ' + bugKind)}&body=${encodeURIComponent(bugBody())}`;
+            setTimeout(() => { closeModal('bugModal'); showToast('Köszönjük a bejelentést!'); }, 800);
+        }
+        async function copyBugReport() {
+            const t = `Címzett: ${BUG_EMAIL}\nTárgy: AquaFaj – ${bugKind}\n\n${bugBody()}`;
+            try { await navigator.clipboard.writeText(t); showToast('Kimásolva – illeszd be egy e-mailbe: ' + BUG_EMAIL); }
+            catch (e) { prompt('Másold ki, és küldd el ide: ' + BUG_EMAIL, t); }
+        }
+        function errorBox(msg) {
+            window.lastAppError = msg;
+            return `<div class="p-3 rounded-xl border sev-bad text-rose-200 text-xs space-y-2"><div>${esc(msg)}</div><button type="button" onclick="openBugReport({kind:'Hiba',text:'A felismerésnél ezt a hibát kaptam: ${esc(msg).replace(/'/g, '')}'})" class="underline text-rose-100"><i class="fa-solid fa-bug mr-1"></i>Hiba bejelentése</button></div>`;
+        }
+        function reportWrongScan() {
+            const d = window.lastScan || {};
+            openBugReport({ kind: 'Rossz felismerés', text: `Ezt ismerte fel: ${d.magyar_nev || '?'} (${d.latin || ''}). Szerintem valójában: ` });
         }
 
         // ================= SEGÉDEK =================
