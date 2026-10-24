@@ -1502,14 +1502,14 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             return p;
         }
 
-        async function fileToJpegBase64(file) {
+        async function fileToJpegBase64(file, maxDim = 1024, q = 0.85) {
             const url = URL.createObjectURL(file);
             try {
                 const img = await new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = url; });
-                const s = Math.min(1, 1024 / Math.max(img.width, img.height));
+                const s = Math.min(1, maxDim / Math.max(img.width, img.height));
                 const c = document.createElement('canvas'); c.width = Math.round(img.width * s); c.height = Math.round(img.height * s);
                 c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
-                return c.toDataURL('image/jpeg', 0.85).split(',')[1];
+                return c.toDataURL('image/jpeg', q).split(',')[1];
             } finally { URL.revokeObjectURL(url); }
         }
 
@@ -1559,7 +1559,9 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const t0 = Date.now(); const tick = setInterval(() => { const el = document.getElementById('scanSecs'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000); else clearInterval(tick); }, 1000);
             try {
                 const b64 = await fileToJpegBase64(file);
-                window.lastScanPhoto = b64; try { localStorage.setItem('aquaFajLastPhoto', b64); } catch (e) { try { localStorage.removeItem('aquaFajLastPhoto'); } catch (e2) {} }
+                // A bejelentéshez jobb minőségű példányt tartunk meg (a részletek látszódjanak).
+                const hq = await fileToJpegBase64(file, 2000, 0.9).catch(() => b64);
+                window.lastScanPhoto = hq; try { localStorage.setItem('aquaFajLastPhoto', hq); } catch (e) { try { localStorage.setItem('aquaFajLastPhoto', b64); } catch (e2) { try { localStorage.removeItem('aquaFajLastPhoto'); } catch (e3) {} } }
                 const d = await geminiIdentify(b64, buildPrompt());
                 showScanResult(d);
             } catch (err) {
@@ -1809,7 +1811,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v18';
+        const APP_VERSION = 'v19';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
@@ -1872,7 +1874,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const b64 = bugPhotoB64();
             const doc = { kind: bugKind, text: text.slice(0, 2900), meta: bugBody().split('----').pop().trim().slice(0, 1500), createdAt: Date.now() };
             if (fbUser) { doc.uid = fbUser.uid; doc.email = fbUser.email || ''; }
-            if (b64 && document.getElementById('bugWithPhoto').checked && !document.getElementById('bugHint').classList.contains('hidden')) { const sm = await shrinkB64(b64, 1024, 0.8); if (sm) doc.photo = sm; }
+            if (b64 && document.getElementById('bugWithPhoto').checked && !document.getElementById('bugHint').classList.contains('hidden')) { doc.photo = b64; }
             const ok = await emailInBackground(doc);
             lbl.innerText = old;
             if (ok) { closeModal('bugModal'); document.getElementById('bugText').value = ''; showToast(doc.photo ? 'Elküldve a fotóval együtt. Köszönjük!' : 'Elküldve. Köszönjük!'); }
