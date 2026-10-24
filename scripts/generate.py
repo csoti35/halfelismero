@@ -19,7 +19,7 @@ NAMES = os.path.join(ROOT, "scripts", "magyar_nevek.txt")
 OUT = os.path.join(ROOT, "data", "species")
 INDEX = os.path.join(ROOT, "data", "species.json")
 BATCH = 4
-MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "12"))
+MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "25"))
 TODAY = datetime.date.today().isoformat()
 
 FIELDS_HAL = """"id","tipus","latin","regi_latin_nevek","magyar_nev","egyeb_nevek","magyar_nev_bizonytalan","csalad","csoport","szarmazas",
@@ -145,7 +145,7 @@ def main():
     names = load_names()
     todo = [(t, l) for t, l in items if not os.path.exists(os.path.join(OUT, slug(l) + ".json"))]
     print(f"Összesen {len(items)} faj, hiányzik: {len(todo)}")
-    providers = [gemini, groq]
+    providers = [gemini]  # a Groq-modell adatai pontatlanok voltak, ezért csak Gemini
     requests_done = 0
     while todo and requests_done < MAX_REQUESTS and providers:
         batch, todo = todo[:BATCH], todo[BATCH:]

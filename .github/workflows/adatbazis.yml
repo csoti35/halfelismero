@@ -2,7 +2,10 @@ name: Fajadatbázis bővítése
 
 on:
   schedule:
-    - cron: "17 */3 * * *"   # 3 óránként
+    # Naponta kétszer, közvetlenül a Gemini napi keretének újraindulása (magyar idő szerint kb. 9:00) ELŐTT,
+    # így csak az előző napból megmaradt keretet használja, és nem veszi el a felismerés elől.
+    - cron: "40 5 * * *"
+    - cron: "20 6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
