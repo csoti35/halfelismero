@@ -1,0 +1,82 @@
+{
+ "id": "hyphessobrycon-bentosi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon bentosi",
+ "regi_latin_nevek": [
+  "Hyphessobrycon rosaceus"
+ ],
+ "magyar_nev": "Disznóorrú tetra",
+ "egyeb_nevek": [
+  "Rózsás tetra",
+  "Bentos tetra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Lazacfélék",
+ "szarmazas": "Dél-Amerika (Amazonas alsó szakasza, Guyana)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nyugodt természetű rajhal, bár a hímek egymás között kisebb, veszélytelen fitogtatásokat mutathatnak be.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; szívesen fogyasztja a finom lemezes eleségeket, apró fagyasztott és élő táplálékot.",
+ "tarsithato": "Más békés dél-amerikai fajokkal, kisebb törpesügérekkel, harcsákkal.",
+ "kerulendo": "Nagyobb, agresszív vagy túlságosan mozgékony, csipkedős halak.",
+ "szaporodas_mod": "Növények közé ikrázó faj.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, tőzeggel szűrt, enyhén savanyú vizet igényel az íváshoz.",
+  "Helyezzünk be finom szálú növényeket a medencébe.",
+  "A tenyészpárt este telepítsük be az ívatztatóba.",
+  "Ívás után a szülőket távolítsuk el.",
+  "Az apró lárvák kelése után poralakú táppal vagy infuzóriával indítsunk."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek hátúszója rendkívül megnyúlt, zászlószerűen fátyolos és fekete-fehér mintás; a nőstények hátúszója rövidebb, lekerekítettebb.",
+ "felismeres_jegyek": [
+  "Rózsás vagy áttetsző lila alapszín",
+  "Magas, ovális, oldalról erősen lapított test",
+  "A hímeknél rendkívül megnyúlt, zászlós hátúszó fekete és fehér mintával",
+  "Válltájékon egy elmosódott sötét folt",
+  "Vöröses árnyalatú hasi és farok alatti úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon eques",
+   "magyar_nev": "Vörös tetra",
+   "kulonbseg": "Teste vörösebb, kevésbé rózsás, és a hátúszója sem olyan extrém módon megnyúlt."
+  },
+  {
+   "latin": "Hyphessobrycon erythrostigma",
+   "magyar_nev": "Vérfoltos tetra",
+   "kulonbseg": "Nagyobb testű, és a testén jellegzetes kerek, vörös folt található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darelykór",
+  "Bőrgomba",
+  "Érzékeny a rossz vízminőségre (úszórothadás)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "A lágyabb, savanyúbb víz és a gyökerekkel díszített medence hozza ki igazán csodás színeit.",
+  "Kerüljük a hirtelen vízkeménység-változást.",
+  "Fátyolos hátúszója miatt ne tartsuk úszócsipkedő fajokkal."
+ ],
+ "lista_nev": "Hyphessobrycon bentosi",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

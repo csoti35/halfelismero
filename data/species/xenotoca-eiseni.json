@@ -1,0 +1,82 @@
+{
+ "id": "xenotoca-eiseni",
+ "tipus": "hal",
+ "latin": "Xenotoca eiseni",
+ "regi_latin_nevek": [
+  "Characodon eisenii"
+ ],
+ "magyar_nev": "Vörösfarkú fogasponty",
+ "egyeb_nevek": [
+  "Eiseni fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Goodeidae",
+ "csoport": "élveaspra",
+ "szarmazas": "Mexikó",
+ "max_meret_cm": 7.0,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Élénk és néha veszekedős faj, a hímek kergetik egymást, és a lassabb halak úszóit is csipkedhetik.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, kedveli a fagyasztott, élő és minősemi száraz eleségeket, növényi kiegészítéssel.",
+ "tarsithato": [
+  "Hasonló méretű, aktív élveaspra fajok",
+  "Robusztusabb békés halak"
+ ],
+ "kerulendo": [
+  "Fátyolos guppik",
+  "Sziámi harcoshal",
+  "Nagyon apró testű halak"
+ ],
+ "szaporodas_mod": "Belső megtermékenyítés után fejlett ivadékok élveszülése",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk kemény, tiszta vizet rendszeres vízcserével",
+  "Alkalmazzunk sűrű növényzetet vagy ikráztató rácsot",
+  "Etessük a szülőket változatosan",
+  "A nagyméretű újszülötteket azonnal etethetjük Artemia naupliusszal"
+ ],
+ "ivari_kulonbseg": "A hímek hátulsó testrésze és farokúszója élénk narancsvörös színű, míg a nőstények szürkésbarna színűek.",
+ "felismeres_jegyek": [
+  "Kerekded, tömzsi test",
+  "Fényes vörös/narancs farokúszó a hímeknél",
+  "Sötét, kékesszürke előtest a hímeknél",
+  "Egyszerűbb szürke mintázat a nőstényeken",
+  "Gyors, határozott mozgás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ameca splendens",
+   "magyar_nev": "Smaragd-fogasponty",
+   "kulonbseg": "A farokúszó sárga szegélyű a vörös helyett, és a test smaragdzölden csillog."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális úszórothadás",
+  "Stressz alapú megbetegedések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Rendszeres vízcserét igényel a jó közérzethez.",
+  "A hímek közötti agresszió csökkentésére érdemes több nőstényt tartani egy hímre.",
+  "Könnyen tartható, ellenálló faj."
+ ],
+ "lista_nev": "Xenotoca eiseni",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "paracheirodon-innesi",
+ "tipus": "hal",
+ "latin": "Paracheirodon innesi",
+ "regi_latin_nevek": "Hyphessobrycon innesi, Cheirodon innesi",
+ "magyar_nev": "Neonhal",
+ "egyeb_nevek": "Ragyogó neonhal",
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika, Amazonas-medence, Peru",
+ "max_meret_cm": 4,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kifejezetten társas akváriumba való rajhal, amely más kisebb fajokkal kiválóan megfér.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; apró szemcsés száraztáp, fagyasztott Artemia, Cyclops, daphnia.",
+ "tarsithato": "Más békés apró lazacok, páncélosharcsák, törpesügérek",
+ "kerulendo": "Nagytestű, ragadozó halak, agresszív sügérek",
+ "szaporodas_mod": "Ívó, szabadon ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Külön iktató akkumulátor beállítása lágy, alacsony keménységű vízzel és sötét aljzattal",
+  "A tenyészpár kiválasztása és kondicionálása élő eledellel",
+  "Az ikrázás megkönnyítésére ikrarács vagy finom levelű növények elhelyezése",
+  "Az ikrázás után a szülőhalak eltávolítása a fényérzékeny ikrák védelme érdekében",
+  "A kikelő lárvák etetése infuzóriával, majd Artemia-naupliusszal"
+ ],
+ "ivari_kulonbseg": "A nőstények hasi része teltebb, lekerekítettebb, a hímek kék sávja egyenesebb.",
+ "felismeres_jegyek": [
+  "Testen végigfutó élénk, neonkék sáv",
+  "A test hátsó felén lévő vörös sáv a faroktőig",
+  "Hasoldal ezüstös-fehér",
+  "Orsó alakú, áramvonalas test",
+  "Átlátszó, színtelen úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paracheirodon axelrodi",
+   "magyar_nev": "Vörös neonhal",
+   "kulonbseg": "A vörös sáv a test teljes hosszában végigfut, nem csak a hátsó részen."
+  },
+  {
+   "latin": "Paracheirodon simulans",
+   "magyar_nev": "Zöld neonhal",
+   "kulonbseg": "Kisebb termetű, a kék sáv zöldesebb árnyalatú, a vörös sáv jóval halványabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Neonhal-betegség (Pleistophora)",
+  "Darakór",
+  "Baktériumos úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Csak lágyabb, enyhén savas vízben mutatják igazi pompájukat.",
+  "Sötét talaj és háttér mellett ragyogóbbak a színeik.",
+  "Kerüljük a hirtelen vízcseréket."
+ ],
+ "lista_nev": "Paracheirodon innesi",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

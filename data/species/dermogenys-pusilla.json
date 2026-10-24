@@ -1,0 +1,82 @@
+{
+ "id": "dermogenys-pusilla",
+ "tipus": "hal",
+ "latin": "Dermogenys pusilla",
+ "regi_latin_nevek": [
+  "Dermogenys pusillus"
+ ],
+ "magyar_nev": "Félcsőrös csuka",
+ "egyeb_nevek": [
+  "Félcsőrös csukahernyó"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hemiramphidae",
+ "csoport": "élveaspra",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia, Indonézia)",
+ "max_meret_cm": 7.0,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A faj hímjei territoriálisak és agresszívak lehetnek egymással szemben, a kisebb halakat pedig préda gyanánt kezelhetik.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de kifejezetten kedveli a felszínen úszó élő és fagyasztott eleségeket (ecetmuslica, daphnia).",
+ "tarsithato": [
+  "Békés, gyorsabb úszású felszíni vagy középső rétegű halak",
+  "Közepes testű békés pontyfélék"
+ ],
+ "kerulendo": [
+  "Fátyolos úszójú halak",
+  "Nagyon apró halivadékok",
+  "Agresszív alsó rétegű sügérek"
+ ],
+ "szaporodas_mod": "Belső megtermékenyítés után élve szülő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Biztosítsunk sűrű felszíni növényzetet a nőstényeknek és az ivadékoknak a búvóhelyhez",
+  "Tartsunk több nőstényt egy hím mellett a stressz csökkentésére",
+  "Etessük a szülőket bőségesen élő eleséggel",
+  "Az újszülött ivadékokat azonnal váltsuk külön a felnőttektől a kannibalizmus elkerülése érdekében"
+ ],
+ "ivari_kulonbseg": "A hím alsó állkapcsa hosszabb, teste színesebb és karcsúbb, míg a nőstény robusztusabb.",
+ "felismeres_jegyek": [
+  "Megnyúlt alsó állkapocs",
+  "Karcsú, torpedó alakú test",
+  "A hátúszó a test hátsó részén helyezkedik el",
+  "Felső vízréteghez igazodó testfelépítés",
+  "Diszkrét ezüstös vagy sárgás alapszín"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nomorhamphus liemi",
+   "magyar_nev": "Liem félcsőrös csuka",
+   "kulonbseg": "Nagyobb testméret, kampósabb alsó állkapocs és agresszívabb természet."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális úszórothadás",
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Sokk és ugrási sérülések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert kiválóan ugranak.",
+  "Kedvelik a enyhén sósított vizet is.",
+  "Ügyeljünk a bőséges felszíni úszónövényzetre."
+ ],
+ "lista_nev": "Dermogenys pusilla",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

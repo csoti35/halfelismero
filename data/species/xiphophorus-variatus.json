@@ -1,0 +1,87 @@
+{
+ "id": "xiphophorus-variatus",
+ "tipus": "hal",
+ "latin": "Xiphophorus variatus",
+ "regi_latin_nevek": "Platypoecilus variatus",
+ "magyar_nev": "Változó plati",
+ "egyeb_nevek": [
+  "Tarka plati",
+  "Variatus plati"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "élve▬▬▬▬▬▬▬▬▬",
+ "szarmazas": "Mexikó (keleti lejtők)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, társas akváriumba való, aktív mozgású hal.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "mindenevő, lemezes táp, növényi kiegészítés, fagyasztott eleség",
+ "tarsithato": [
+  "más békés fogaspontyok",
+  "guppik",
+  "alacsonyabb hőmérsékletet kedvelő halak"
+ ],
+ "kerulendo": [
+  "nagytestű, ragadozó fajok",
+  "trópusi melegvízi halak"
+ ],
+ "szaporodas_mod": "élve szülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Több nőstény tartása egy hím mellett",
+  "Hűvösebb (20-22 °C-os) vízcserék serkenthetik",
+  "Növényes búvóhelyek biztosítása az ivadéknak",
+  "Ivadékok különválasztása a jobb felnevelésért",
+  "Apró szemű táplálék adása az újszülötteknek"
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és gonopodiummal rendelkeznek, a hátúszójuk is gyakran hosszabb.",
+ "felismeres_jegyek": [
+  "Kicsit megnyúltabb test, mint a X. maculatusnak",
+  "Sárgás vagy kékesszürke alapszín, tarka foltokkal",
+  "A hímek hátúszója megnyúltabb lehet",
+  "Farktőnél sötét foltok vagy sávok",
+  "Mérsékelt méret"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus maculatus",
+   "magyar_nev": "Plati",
+   "kulonbseg": "Zömökebb testforma és rövidebb hátúszó a hímeknél."
+  },
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "Guppi",
+   "kulonbseg": "Sokkal kisebb méret és teljesen eltérő farokúszó forma."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darázsbetegség",
+  "Uszohasadás",
+  "Gombás fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1400,
+ "tippek": [
+  "Ez a faj jobban bírja az alacsonyabb hőmérsékletet, akár szobahőmérsékleten is tartható.",
+  "Nagyon szívós, kezdőknek kiváló.",
+  "Szereti a tágasabb úszóteret."
+ ],
+ "lista_nev": "Xiphophorus variatus",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

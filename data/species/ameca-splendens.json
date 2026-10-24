@@ -1,0 +1,80 @@
+{
+ "id": "ameca-splendens",
+ "tipus": "hal",
+ "latin": "Ameca splendens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Smaragd-fogasponty",
+ "egyeb_nevek": [
+  "Ameca ponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Goodeidae",
+ "csoport": "élveaspra",
+ "szarmazas": "Mexikó (Ameca folyó völgye)",
+ "max_meret_cm": 8.0,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Aktív, némileg zsarnokoskodó hal, amely csipkedheti a lassabb, fátyolos úszójú halak úszóit.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 20,
+ "homerseklet_max": 27,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 15,
+ "gh_max": 30,
+ "taplalek": "Mindenevő, de étrendjének jelentős részét növényi eredetű tápláléknak (alga, spirulina) kell alkotnia.",
+ "tarsithato": [
+  "Robusztus testfelépítésű élvegyűjtők",
+  "Gyorsabb úszású békés sügérek és pontyfélék"
+ ],
+ "kerulendo": [
+  "Fátyolos guppik",
+  "Lassú, hosszú úszójú halak",
+  "Nagyon apró testű fajok"
+ ],
+ "szaporodas_mod": "Trophotaeniae révén táplált, fejlett belső megtermékenyítéses élveszülés",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk kemény, lúgos vizet és jó szűrést",
+  "Helyezzünk el sűrű növényzetet a kiszabaduló ivadékok védelmére",
+  "Etessük a felnőtteket minőségi, növényi alapú eleséggel",
+  "A nagyobb méretű ivadékok azonnal etethetők artémiával"
+ ],
+ "ivari_kulonbseg": "A hímek farokúszójának alsó szélén egy jellegzetes, élénksárga sáv található, testük csillogóbb.",
+ "felismeres_jegyek": [
+  "Robusztus, oldalról lapított test",
+  "Ezüstös-smaragdzöld fémes csillogás a testen",
+  "Sárga szegély a hímek farokúszóján",
+  "Nagy, kifejezett szemek",
+  "Aktív, folyamatos úszásistílus"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xenotoca eiseni",
+   "magyar_nev": "Vörösfarkú fogasponty",
+   "kulonbseg": "A hímek farokúszója vörös színű sárga helyett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések rossz vízminőség esetén",
+  "Úszócsipkedésből eredő sebek"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Vadon szinte kihalt, akváriumi tartása fontos természetvédelmi szerep.",
+  "Szeretik a növényi eredetű táplálékot, rendszeresen adjunk nekik spirulinát.",
+  "Kiváló algapusztítók."
+ ],
+ "lista_nev": "Ameca splendens",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

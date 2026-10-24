@@ -1,0 +1,76 @@
+{
+ "id": "pristella-maxillaris",
+ "tipus": "hal",
+ "latin": "Pristella maxillaris",
+ "regi_latin_nevek": "Pristella riddlei",
+ "magyar_nev": "Fátyolos lepketetra",
+ "egyeb_nevek": "Pristella-tetra, Aranyszínű tetra",
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika, Amazonas, Orinoco, Guyana",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, társas akváriumokba való kis termetű rajhal.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6,
+ "ph_max": 8,
+ "gh_min": 4,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; elfogad minden apró száraz és fagyasztott eleséget.",
+ "tarsithato": "Bármilyen békés, kis és közepes testű akváriumi hal",
+ "kerulendo": "Nagytestű, agresszív ragadozók",
+ "szapor_mod": "ikraszoro",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savanyú vizet igényel a sikeres ívatáshoz.",
+  "Helyezzünk be finom levelű növényeket (pl. moha).",
+  "A párokat vagy egy kisebb csapatot este helyezzük át az ívatóba.",
+  "Reggel megtörténik az ikrázás, ezután a szülőket el kell távolítani.",
+  "A kikelő apró lárvák napok múlva elkezdenek úszni, infuzóriával etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek és általában valamivel nagyobbak, mint a hímek.",
+ "felismeres_jegyek": [
+  "Áttetsző, sárgás-ezüstös test",
+  "A hát- és hasúszón jellegzetes sárga és fekete foltok, fehér csúcsokkal",
+  "A farokúszó vöröses árnyalatú",
+  "Karcsú, ovális testforma",
+  "Jól látható áttetsző kopoltyúfedő"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon megalopterus",
+   "magyar_nev": "Fekete fantomtetra",
+   "kulonbseg": "Magasabb testalkatú és nagy, fekete hátúszója van."
+  },
+  {
+   "latin": "Hyphessobrycon rosaceus",
+   "magyar_nev": "Rózsás tetra",
+   "kulonbseg": "Rózsaszínes test és magasabb hátúszó jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daráxkór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Kifejezetten alkalmazkodóképes a keményebb vízhez is.",
+  "Kezdő akvaristák számára is kiváló választás szívóssága miatt.",
+  "Csapatban érzik magukat biztonságban."
+ ],
+ "lista_nev": "Pristella maxillaris",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

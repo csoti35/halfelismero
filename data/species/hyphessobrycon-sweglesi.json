@@ -1,0 +1,76 @@
+{
+ "id": "hyphessobrycon-sweglesi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon sweglesi",
+ "regi_latin_nevek": "",
+ "magyar_nev": "Vörös fantomlazac",
+ "egyeb_nevek": "Swegles-lazac",
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika, Orinoco és felső Negro folyó medencéje",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés rajhal, amely csodás látványt nyújt növényes akváriumokban. Fajtársaival szemben a hímek tartanak kis területet.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő: minőségi pelyhek, granulátumok, valamint fagyasztott artémia és Cyclops.",
+ "tarsithato": "Más kis pontylazacok, morgóharcsák, corydorasok, békés dél-amerikai halak",
+ "kerulendo": "Nagyobb testű, agresszív fajok",
+ "szapor_mod": "ikrázó, szabadon ikrázó",
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, savanyú víz (GH<5, pH 6.0) biztosítása az ívató medencében.",
+  "Fényvédelem (sötétítés) alkalmazása az ikrák érzékenysége miatt.",
+  "A szülők ívás utáni eltávolítása.",
+  "A kikelő apró lárvák etetése infuzóriával."
+ ],
+ "ivari_kulonbseg": "A hím hátúszója határozottan hosszabb, sarló alakú és fekete végű; a nőstény hátúszója lekerekítettebb.",
+ "felismeres_jegyek": [
+  "Magas, korong alakú testforma.",
+  "Áttetsző, élénk vörös alapszín.",
+  "A kopoltyúfedél mögött jellegzetes fekete vállfolt található.",
+  "A hímek hát- és hasúszói feketével szegélyezettek.",
+  "A szem felső írisze vöröses árnyalatú."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon megalopterus",
+   "magyar_nev": "Fekete fantomlazac",
+   "kulonbseg": "A fekete fantomlazac teste szürkésfekete, míg a vörös fantomlazacé élénk vörös."
+  },
+  {
+   "latin": "Hyphessobrycon erythrostigma",
+   "magyar_nev": "Vérfoltos lazac",
+   "kulonbseg": "A vérfoltos lazac nagyobb és kerek piros folt van a teste közepén, nem pedig vállfolt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darazskór",
+  "Baktériumos fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1300,
+ "tippek": [
+  "A gyengén megvilágított, növényekkel dúsan beültetett akváriumokat kedvelik.",
+  "A tőzeges szűrés felerősíti ragyogó vörös színüket.",
+  "Ne tartsuk egyedül, mert félénkké válnak."
+ ],
+ "lista_nev": "Hyphessobrycon sweglesi",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

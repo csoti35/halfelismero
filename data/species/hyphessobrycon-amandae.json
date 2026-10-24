@@ -1,0 +1,76 @@
+{
+ "id": "hyphessobrycon-amandae",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon amandae",
+ "regi_latin_nevek": "",
+ "magyar_nev": "Törpe papagájhal",
+ "egyeb_nevek": "Amanda lazac, Narancs tetra",
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika, Araguaia folyó medencéje, Brazília",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, társas akváriumba való mini rajhal, nem bánt senkit.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Apró szemcsés száraztáp, poralakú eleségek, micro fagyasztottak.",
+ "tarsithato": "Nano halak, törpegarnélák, csigák, békés apró fajok",
+ "kerulendo": "Nagytestű halak, sügérek",
+ "szaporodas_mod": "Ívó, szabadon ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Kis méretű ívató akkumulátor előkészítése lágy vízzel",
+  "Finomlevelű növények vagy ikrarács elhelyezése",
+  "Pár berakása estére, ívás reggel",
+  "Szülők kivétele az ikrázás után",
+  "Infuzóriás és papucsállatkás etetés kezdetben"
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, a hímek színe élénkebb narancssárga.",
+ "felismeres_jegyek": [
+  "Apró, alig 2-2.5 cm-es méret",
+  "Egységesen meleg narancssárga vagy vöröses-narancs test",
+  "Átlátszó vagy narancsos árnyalatú úszók",
+  "Kicsi, kerekded testforma",
+  "Nagy, sötét szem világos ísszel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon flammeus",
+   "magyar_nev": "Vörös pontylazac",
+   "kulonbseg": "Nagyobb méret és sötét vállfoltok jelenléte."
+  },
+  {
+   "latin": "Hyphessobrycon eques",
+   "magyar_nev": "Magasúszású pontylazac",
+   "kulonbseg": "Nagyobb termet, magasabb testfelépítés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Baktériumos finomfertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Nano akváriumok tökéletes dísze lehet.",
+  "A növényekkel dúsan beépített környezetet kedveli.",
+  "Csapatban tartva rendkívül bátor és látványos mozgású."
+ ],
+ "lista_nev": "Hyphessobrycon amandae",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

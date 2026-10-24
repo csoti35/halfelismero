@@ -1,0 +1,80 @@
+{
+ "id": "hemigrammus-bleheri",
+ "tipus": "hal",
+ "latin": "Hemigrammus bleheri",
+ "regi_latin_nevek": [
+  "Petitella bleheri"
+ ],
+ "magyar_nev": "Vörösfejű pontylazac",
+ "egyeb_nevek": [
+  "Bleher pontylazaca",
+  "Vörösorrú lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Rio Negro és Rio Meta medencéje)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Mintaszerű rajviselkedést mutató, békés hal. Folyamatosan együtt úszik a csoport, ami az egyik leglátványosabb csapathallá teszi.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Mindenevő. Szívesen fogadja az apró szemű lemezes, mikroszemcsés tápokat, élő vagy fagyasztott vörös planktont, artemiát és cyclopsot.",
+ "tarsithato": "Diszkoszhalak, vitorláshalak, Apistogramma törpesügérek, kistestű páncélosharcsák.",
+ "kerulendo": "Nagytestű ragadozók, territoriális vagy csipkelődő márnák és sügérek.",
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon tiszta, extrém lágy (1-3 dGH) és savas (pH 5.5-6.0), sötétített vizű tenyészmedencét állítsunk fel.",
+  "Az aljzatra helyezzünk ikrarácsot vagy dús finom levelű növényzetet.",
+  "A tenyészcsapatot élő táppal történő felkészítés után helyezzük ki.",
+  "Az ikrázást követően távolítsuk el a szülőket, mivel saját szaporulatukat felfalják.",
+  "Az ikrákat és lárvákat védjük a fénytől a kelésig és az elúszásig."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és vékonyabbak, a nőstények különösen ikrával telve lényegesen vaskosabb testalkatúak.",
+ "felismeres_jegyek": [
+  "A rubinvörös fejfolt mélyen hátranyúlik a kopoltyúfedők mögé a törzs elejére",
+  "A farokúszón kontrasztos fekete és fehér vízszintes csíkok láthatók",
+  "A faroknyél teljesen tiszta, hiányzik róla a sötét hosszanti vonal",
+  "Karcsú, nyújtott testforma áttetsző zöldes-ezüstös csillogással"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus rhodostomus",
+   "magyar_nev": "Valódi vörösorrú pontylazac",
+   "kulonbseg": "A vörös színeződés csak a homlokig terjed, nem lépi át a kopoltyúfedőt."
+  },
+  {
+   "latin": "Petitella georgiae",
+   "magyar_nev": "Hamis vörösorrú lazac",
+   "kulonbseg": "A fejvörösség kevésbé élénk, a faroknyélen pedig egy vastag, sötét sáv fut végig."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 550,
+ "ar_ft_max": 950,
+ "tippek": [
+  "A kereskedelemben a leggyakrabban ez a faj kapható 'vörösorrú' néven.",
+  "Kiválóan tolerálja a melegebb vizet (28-30 °C), így a diszkoszhalas akváriumok egyik legideálisabb csapathala."
+ ],
+ "lista_nev": "Hemigrammus bleheri",
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "xiphophorus-maculatus",
+ "tipus": "hal",
+ "latin": "Xiphophorus maculatus",
+ "regi_latin_nevek": "Platypoecilus maculatus",
+ "magyar_nev": "Plati",
+ "egyeb_nevek": [
+  "Platypus",
+  "Holdhalacska"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "élve▬▬▬▬▬▬▬▬▬",
+ "szarmazas": "Közép-Amerika (Mexikó, Guatemala, Honduras)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, társas akváriumba való, nyugodt természetű hal.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "mindenevő, lemezes táp, algák, fagyasztott eleség",
+ "tarsithato": [
+  "más békés fogaspontyok",
+  "guppik",
+  "folyami halak",
+  "páncélosharcsák"
+ ],
+ "kerulendo": [
+  "nagytestű ragadozó halak",
+  "úszócsonkító sügérek"
+ ],
+ "szaporodas_mod": "élve szülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Minimum egy hím és két-három nőstény tartása",
+  "Sűrű növényzet biztosítása",
+  "A vemhes nőstény hasa jelentősen megnő és szögletessé válik",
+  "A kishalak önállóan elmenekülnek a szülők elől a növények közé",
+  "Etetés apró artemiával vagy porított száraztáppal"
+ ],
+ "ivari_kulonbseg": "A hímeknél az analis úszó gonopodiummá alakult, testük rendszerint karcsúbb, a nőstények teltebbek és nagyobbak.",
+ "felismeres_jegyek": [
+  "Rövid, zömök test",
+  "Nincs megnyúlt kard alakú farkuszó",
+  "Változatos színváltozatok (piros, kék, napsugár, Mickey Mouse)",
+  "Lekerekített farokúszó",
+  "Élénk szemek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus variatus",
+   "magyar_nev": "Változó plati",
+   "kulonbseg": "Karcsúbb testfelépítés és gyakran hosszabb hátúszó."
+  },
+  {
+   "latin": "Xiphophorus hellerii",
+   "magyar_nev": "Kardfarkú hal",
+   "kulonbseg": "A hímek farkuszsúának alsó része hosszú karddal rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darázsbetegség",
+  "Bőrgomba",
+  "Baktériumos fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kezdő akvaristáknak az egyik legjobb választás.",
+  "Kedveli a keményebb vizet.",
+  "Könnyen kereszteződik a kardfarkú hallal."
+ ],
+ "lista_nev": "Xiphophorus maculatus",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

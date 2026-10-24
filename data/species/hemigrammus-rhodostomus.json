@@ -1,0 +1,81 @@
+{
+ "id": "hemigrammus-rhodostomus",
+ "tipus": "hal",
+ "latin": "Hemigrammus rhodostomus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Valódi vörösorrú pontylazac",
+ "egyeb_nevek": [
+  "Vörösorrú lazac",
+  "Parázsszemű lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport: ": "Pontylazacok",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Alsó-Amazonas és Orinoco medencéje)",
+ "max_meret_cm": 5.0,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, rendíthetetlenül szoros rajban úszó faj. Nagyon érzékeny a vízminőség ingadozásaira és a felhalmozódó bomlástermékekre.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l: ": 80,
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő; kedveli az apró szemű száraztápokat, fagyasztott és élő artemiát, cyclopsot, mikroférgeket.",
+ "tarsithato": "Diszkoszhalak, vitorláshalak, Apistogramma fajok, békés harcsafélék (Corydoras, Otocinclus).",
+ "kerulendo": "Agresszív, territoriális vagy nagytestű ragadozó halak, valamint hűvösebb vizet igénylő fajok.",
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Készítsünk elő 20-30 literes ívató medencét kimondottan lágy (<3 dGH) és savas (pH 5.5-6.0), tőzegen átszűrt vízzel.",
+  "Az aljzatra helyezzünk finom ikrahálót vagy dús növénycsomókat.",
+  "A tenyészállatokat bőséges élő eleséggel kondicionáljuk, majd párosával vagy kis csoportban tegyük ki őket este.",
+  "Az ívás végeztével a kifejlett egyedeket haladéktalanul távolítsuk el.",
+  "Az ikrák rendkívül érzékenyek a penészedésre és a fényre, ezért tartsuk a medencét sötétben."
+ ],
+ "ivari_kulonbseg": "A nemek nehezen különböztethetők meg; a nőstények valamivel teltebb testalkatúak, a hímek nyúlánkabbak.",
+ "felismeres_jegyek": [
+  "Az orr és a fejtető élénkpiros színezete nem terjed a kopoltyúfedők mögé",
+  "Farokúszóján éles fekete és fehér vízszintes csíkozás látható",
+  "Ezüstösen áttetsző, áramvonalas test",
+  "A faroknyél felső részén vékony fekete hosszanti vonal indul ki",
+  "Karcsú, hidrodinamikus testfelépítés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus bleheri",
+   "magyar_nev": "Vörösfejű pontylazac",
+   "kulonbseg": "A vörös szín jóval kiterjedtebb, túllépi a kopoltyúfedőt és a testhát elülső részét is befedi."
+  },
+  {
+   "latin": "Petitella georgiae",
+   "magyar_nev": "Hamis vörösorrú lazac",
+   "kulonbseg": "Fején a piros szín halványabb, a faroktő fekete csíkja viszont vastagabb és jobban előrenyúlik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Nitrát- és vízminőség-érzékenység miatti kifakulás",
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Oodinium)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "A fej pirosságának intenzitása kiváló bioindikátor: stressz vagy rossz vízminőség esetén azonnal kifakul.",
+  "Hosszanti úszóteret igényel, ezért legalább 80 cm hosszú akváriumban érvényesül a rajviselkedése."
+ ],
+ "lista_nev": "Hemigrammus rhodostomus",
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

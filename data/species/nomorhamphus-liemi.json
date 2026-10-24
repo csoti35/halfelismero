@@ -1,0 +1,82 @@
+{
+ "id": "nomorhamphus-liemi",
+ "tipus": "hal",
+ "latin": "Nomorhamphus liemi",
+ "regi_latin_nevek": [
+  "Dermogenys liemi"
+ ],
+ "magyar_nev": "Liem félcsőrös csuka",
+ "egyeb_nevek": [
+  "Kampuális félcsőrös csuka"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hemiramphidae",
+ "csoport": "élveaspra",
+ "szarmazas": "Indonézia (Szulavézi)",
+ "max_meret_cm": 10.0,
+ "elettartam_ev": 5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Teritoriális faj, különösen a hímek harcolnak egymással a dominanciáért, és a kisebb halakat bántalmazhatják.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.2,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó hajlamú mindenevő, szívesen fogyaszt rovarokat, artémiát és fagyasztott eleséget.",
+ "tarsithato": [
+  "Robusztus, gyorsabb középső és alsó rétegű halak",
+  "Nagyobb termetű békés sügérek"
+ ],
+ "kerulendo": [
+  "Kisebb testű békés halak",
+  "Fátyolos úszójú fajok",
+  "Más félcsőrös csuka fajok hímjei"
+ ],
+ "szaporodas_mod": "Belső megtermékenyítés után élve szülő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Biztosítsunk tágas, jól szűrt akváriumot kemény, lúgos vízzel",
+  "Helyezzünk el sok bújóhelyet és sűrű növényzetet",
+  "Különítsük el a vemhes nőstényt szülés előtt",
+  "Etessük az újszülött ivadékokat frissen kelt Artemia naupliusszal"
+ ],
+ "ivari_kulonbseg": "A hím alsó állkapcsa sokkal hosszabb és jellegzetesen kampós formájú, míg a nőstény rövidebb állkapoccsal rendelkezik.",
+ "felismeres_jegyek": [
+  "Nagyon megnyúlt, kampós alsó állkapocs a hímeknél",
+  "Robusztusabb testfelépítés, mint a Dermogenys fajoknak",
+  "Felső vízrétegben tartózkodó testtartás",
+  "Sötét szürke vagy barnás alapszín",
+  "Esetenként színes úszószélek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dermogenys pusilla",
+   "magyar_nev": "Félcsőrös csuka",
+   "kulonbseg": "Kisebb méret, egyenesebb alsó állkapocs és kevésbé agresszív viselkedés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések",
+  "Úszósérülések a harcok miatt",
+  "Külső élősködők"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Elengedhetetlen a szoros akváriumtető, mivel kiválóan ugranak.",
+  "Szeretik a mérsékelt áramlást és a tiszta, oxigéndús vizet.",
+  "Kerüljük a túlzsúfoltságot az agresszió mérséklésére."
+ ],
+ "lista_nev": "Nomorhamphus liemi",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "poecilia-wingei",
+ "tipus": "hal",
+ "latin": "Poecilia wingei",
+ "regi_latin_nevek": [
+  "Poecilia sp. Endler"
+ ],
+ "magyar_nev": "Endler guppi",
+ "egyeb_nevek": [
+  "Endler-fogasponty",
+  "Campoma guppi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülő fogaspontyok",
+ "szarmazas": "Venezuela északkeleti része (Campoma- és Carúpano-lagúnák vidéke)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 2.5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, rendkívül aktív és fürge kistestű hal. Békés törpefajokkal vagy nano akváriumokban remekül tartható.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona: ": "mindenhol",
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő. Méretéhez igazodó apró eleséget igényel: finomra morzsolt lemezes tápokat, spirulinát, mikroféreg kultúrákat és frissen kelt artemiát.",
+ "tarsithato": "Nano halakkal (pl. Boraras fajok, gyöngydánió), békés törpeharcsákkal (Corydoras habrosus/pygmaeus), Neocaridina törpe garnélákkal.",
+ "kerulendo": "Nagytestű halak, úszócsipkedők, agresszív sügérek és szivárványos guppik (Poecilia reticulata), mert utóbbival könnyen hibridizálódik.",
+ "szaporodas_mod": "Elevenszülő (belső megtermékenyítés)",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Hímek és nőstények közös tartása megfelelő háremben vagy vegyes csapatban.",
+  "Körülbelül 24-28 napos vemhesség után 10-25 apró utód jön a világra.",
+  "Sűrű növényzet (mohák, lebegő növények) jelenléte biztosítja a kishalak menedékét.",
+  "Saját utódait sokkal kevésbé bántja vagy eszi meg, mint a közönséges guppi.",
+  "Az ivadékok microporral és frissen kelt sórákkal rendkívül gyorsan növekednek."
+ ],
+ "ivari_kulonbseg": "A hímek aprók (2-2,5 cm), testükön és úszóikon intenzív, fluoreszkáló neon-narancssárga, smaragdzöld és fekete sávok találhatók, farok alatti úszójuk gonopódiummá alakult. A nőstények jóval nagyobbak (akár 4,5 cm), teljesen egyszínű ezüstös-olívabarnák, kerekded úszókkal.",
+ "felismeres_jegyek": [
+  "Nagyon apró, karcsú testalkat (a hím alig éri el a 2,5 cm-t).",
+  "A hímeken élesen elhatárolt, fémesen világító narancs, zöld és koromfekete foltok, sávok láthatók.",
+  "A hímek farokúszója többnyire átlátszó, a szélén felül vagy alul fekete-színes kardmintával.",
+  "A hím gonopódiuma vékony és hegyes.",
+  "A nőstény tompa szürkés-olíva színű, teljesen mintázatlan."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "Szivárványos guppi",
+   "kulonbseg": "Nagyobb testméret, hímjei többnyire fátyolos úszójúak, színmintázatuk diffúzabb és kevésbé fémes."
+  },
+  {
+   "latin": "Neoheterandria elegans",
+   "magyar_nev": "Törpe fogasponty",
+   "kulonbseg": "Még kisebb, aranybarna testen szabályos függőleges fekete sávok találhatók, hiányoznak a neon színek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális fertőzések a túl lágy vagy savas víz miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Tiszta vérvonal megőrzése érdekében soha ne tartsuk együtt Poecilia reticulatával.",
+  "Kifejezetten jól érzi magát dúsan benövényesített nano akváriumokban is.",
+  "Kedveli a melegebb (25-27 °C-os), enyhén kemény vagy kemény vizet."
+ ],
+ "lista_nev": "Poecilia wingei",
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

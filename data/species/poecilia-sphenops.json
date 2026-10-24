@@ -1,0 +1,83 @@
+{
+ "id": "poecilia-sphenops",
+ "tipus": "hal",
+ "latin": "Poecilia sphenops",
+ "regi_latin_nevek": [
+  "Mollienesia sphenops"
+ ],
+ "magyar_nev": "Szélesszárnyú fogasponty",
+ "egyeb_nevek": [
+  "Fekete molli",
+  "Black molly",
+  "Molli"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülő fogaspontyok",
+ "szarmazas": "Közép- és Dél-Amerika (Mexikótól Kolumbiáig)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szorgalmas és társas hal. Folyamatosan csipegeti az algákat az aljzatról és a növényekről; a hímek egymás között ártalmatlan erőfitogtatást végezhetnek.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 12,
+ "gh_max": 30,
+ "taplalek": "Mindenevő, de jelentős növényi táplálékot igényel. Fő tápláléka a jó minőségű növényi alapú lemezestáp, forrázott zöldségek (spenót, cukkini), spirulina alga, kiegészítve élő és fagyasztott rovarlárvákkal.",
+ "tarsithato": "Más elevenszülőkkel (xifó, platti, guppi), kemény vizet kedvelő békés harcsákkal és közepes termetű pontyfélékkel.",
+ "kerulendo": "Lágy és savas vizet igénylő érzékeny fajok (pl. vörös neonhal), uszonycsipkedő vagy territoriális agresszív halak.",
+ "szaporodas_mod": "Elevenszülő (belső megtermékenyítés)",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "1 hímre legalább 2-3 nőstény biztosítása tágas akváriumban.",
+  "Kiegyensúlyozott, növényekben gazdag táplálás a vemhes nőstények számára.",
+  "A nőstény 4-6 hét vemhesség után 20-60 fejlett ivadékot hoz világra.",
+  "Sűrű növényi búvóhelyek biztosítása, mivel a felnőttek ritkán, de megehetik az utódokat.",
+  "A kishalak kezdettől fogva képesek elfogyasztani a finomra porított szárazeleséget és az artemiát."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, kisebbek, farok alatti úszójuk párzószervvé (gonopódium) alakult. A nőstények nagyobbak, teltebb testalkatúak, farok alatti úszójuk kerekded legyező alakú.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról enyhén lapított, vaskos testalkat.",
+  "Kereskedelemben elterjedt formája mély, bársonyos koromfekete színű (Black Molly tenyészváltozat).",
+  "A hátúszó viszonylag rövid alapú (8-10 úszósugár) és trapéz alakú, nem vitorlaszerű.",
+  "Felső állású száj finom kaparó fogazattal az algák lecsipegetésére.",
+  "Hímeknél a farok alatti úszó vékony gonopódiummá módosult."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia latipinna",
+   "magyar_nev": "Vitorlás fogasponty",
+   "kulonbseg": "Nagyobb testű faj, a hímek hátúszója feltűnően magas, zászlószerű, több úszósugárral (12-14) rendelkezik."
+  },
+  {
+   "latin": "Xiphophorus variatus",
+   "magyar_nev": "Papagájplatti",
+   "kulonbseg": "Rövidebb, tömzsibb testalkat, eltérő fejszerkezet, ritkán teljesen fekete, inkább tarkán színezett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális és gombás fertőzések alacsony hőmérsékleten vagy túl lágy vízben"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kifejezetten melegkedvelő; 24 °C alatt hajlamos a megbetegedésekre.",
+  "Nagyon fontos számára a növényi kiegészítés, ennek hiányában a finom levelű vízinövényeket is megcsipkedheti.",
+  "Enyhén sózott vizet (1 teáskanál tengeri só 10 liter vízhez) kimondottan kedveli, ami segít megelőzni a fertőzéseket."
+ ],
+ "lista_nev": "Poecilia sphenops",
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

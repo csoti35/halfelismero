@@ -1,0 +1,84 @@
+{
+ "id": "limia-melanogaster",
+ "tipus": "hal",
+ "latin": "Limia melanogaster",
+ "regi_latin_nevek": "Limia caudofasciata melanogaster",
+ "magyar_nev": "Feketefoltos limia",
+ "egyeb_nevek": [
+  "kékhasú limia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Élveszülő fogaspontyok",
+ "szarmazas": "Jamaica",
+ "max_meret_cm": 5.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, élénk csapatban mozgó élveszülő, amely kiválóan illik társas akváriumokba.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; kedveli a lemezes tápokat, a spirulinát és az apró élő eleségeket.",
+ "tarsithato": [
+  "Békés kisebb halak",
+  "más limiák",
+  "guppik",
+  "páncélosharcsák"
+ ],
+ "kerulendo": [
+  "Nagy testű ragadozók",
+  "nagyon agresszív fajok"
+ ],
+ "szaporodas_mod": "Belső megtermékenyítésű élveszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Biztosítsunk dús növényzetet a medencében.",
+  "Etessünk rendszeresen fagyasztott vagy élő eleséggel.",
+  "A nőstények rendszeresen hozzák világra fejlett ivadékaikat.",
+  "A kis halak azonnal elfogadják a porrá zúzott száraztápot."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, színesebbek és rendelkeznek a megnyúlt gonopódiummal; a nőstények teltebbek, és a hasi részükön sötét (fekete) folt látszik.",
+ "felismeres_jegyek": [
+  "Világosbarna vagy olajzöldes alapszín",
+  "A hason sötét, kékesfekete folt (különösen nőstényeken)",
+  "Finoman pettyezett oldal",
+  "Kisebb, elegáns testfelépítés",
+  "A hímek úszói sárgás szegéllyel rendelkezhetnek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limia nigrofasciata",
+   "magyar_nev": "Feketecsíkos limia",
+   "kulonbseg": "Nagyobb méret, púpos hát a hímeken és csíkos minta."
+  },
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "Guppi",
+   "kulonbseg": "A hímek farka és színezetük sokkal változatosabb és nagyobb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daracskór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 900,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Csapatban érzi jól magát, ezért ne tartsuk magányosan.",
+  "Szereti a közepesen kemény, tiszta vizet és a rendszeres vízcserét."
+ ],
+ "lista_nev": "Limia melanogaster",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "hyphessobrycon-herbertaxelrodi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon herbertaxelrodi",
+ "regi_latin_nevek": "",
+ "magyar_nev": "Fekete neonhal",
+ "egyeb_nevek": "Axelrod-neonhal",
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika, Brazília (Paraguay és Tapajós vízrendszer)",
+ "max_meret_cm": 4.0,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, nyugodt rajhal, amely kiválóan illik társas akváriumokba. Más fajokkal sosem bántalmazó.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő: elfogadja a minőségi pehelyeleség, apró szemű granulátum, valamint a fagyasztott és élő táplálékokat (pl. artémia, dafn)",
+ "tarsithato": "Más békés pontylazacok, törpesügérek, páncélosharcsák, guppik, endler guppik",
+ "kerulendo": "Nagytestű, agresszív sügérek, úszószaggató fajok",
+ "szapor_mod": "ikrázó, szabadon ikrázó",
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Különívató akvárium berendezése lágy (gh < 5), enyhén savanyú vízzel (pH 6.0-6.5).",
+  "Sötét talaj és finom levelű növények (pl. jávai moha) elhelyezése az ikrázáshoz.",
+  "A jól fejlett, ikrás és tejrős példányok kiválasztása és este betelepítése az ívatóba.",
+  "Az ívást követően a szülők eltávolítása, mert az ikrákat megeszik.",
+  "A kikelő lárvák etetése papucsállatkával, majd artémia naupliusszal."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebb testalkatúak, különösen felülről nézve, míg a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Megnyúlt, oldalról lapított testforma.",
+  "A test hátulsó részén futó széles, sötétfekete sáv.",
+  "A fekete sáv felett egy élénk, neonkék vagy zöldes fényű csík.",
+  "Az úszók áttetszőek, enyhén sárgás árnyalattal.",
+  "Szeme felső része neonkék színben ragyog."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paracheirodon innesi",
+   "magyar_nev": "Neonhal",
+   "kulonbseg": "A neonhalon piros sáv is fut a hasi részen, míg a fekete neonhal csak fekete és kék sávos."
+  },
+  {
+   "latin": "Hemigrammus erythrozonus",
+   "magyar_nev": "Izzófényű lazac",
+   "kulonbseg": "Az izzófényű lazac oldalán vöröses-narancssárga csík fut, nem fekete."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darazskór (Ichthyophthirius multifiliis)",
+  "Baktériumos úszórothadás",
+  "Pontylazacok vaksága (gombás eredetű)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Sötét aljzattal és háttérrel mutatják a legszebb színeket.",
+  "Tartsd őket legalább 8-10 fős csapatban a stressz elkerülése érdekében.",
+  "Szeretik a gyökerekkel és úszónövényekkel árnyékolt medencéket."
+ ],
+ "lista_nev": "Hyphessobrycon herbertaxelrodi",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

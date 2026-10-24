@@ -1,0 +1,85 @@
+{
+ "id": "limia-nigrofasciata",
+ "tipus": "hal",
+ "latin": "Limia nigrofasciata",
+ "regi_latin_nevek": "Molinesia nigrofasciata",
+ "magyar_nev": "Feketecsíkos limia",
+ "egyeb_nevek": [
+  "púpos hátú limia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Élveszülő fogaspontyok",
+ "szarmazas": "Haiti (Közép-Amerika)",
+ "max_meret_cm": 7.0,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de élénk mozgású élveszülő, amely a hímek között néha enyhe rivális viselkedést mutathat, de kárt nem tesznek egymásban.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.2,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; igényli a növényi eredetű táplálékot (pl. spirulina) is a minőségi lemezes tápok mellett.",
+ "tarsithato": [
+  "Más békés élveszülők",
+  "kisebb sügérek",
+  "békés pontyfélék",
+  "harcsák"
+ ],
+ "kerulendo": [
+  "Nagyon agresszív fajok",
+  "lágy vizet igénylő érzékeny halak"
+ ],
+ "szaporodas_mod": "Belső megtermékenyítésű élveszülő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Helyezzünk el sűrű növényzetet a vemhes nőstény számára.",
+  "Etessünk magas fehérje- és növényi tartalmú eleséggel.",
+  "A kicsik megszületésük után azonnal úszóképesek.",
+  "Az ivadékok nevelése egyszerű friss Artemia naupliusszal."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek háta jellegzetesen púposodik, és oldalukon fekete csíkok rajzolódnak ki, valamint gonopódiumuk van; a nőstények kevésbé mintásak és nagyobbak.",
+ "felismeres_jegyek": [
+  "Ezüstös-sárgás alapszín",
+  "A hímeken függőleges fekete csíkok",
+  "A hímek kifejlett korban magas, púpos háttal rendelkeznek",
+  "Narancssárgás szegélyű úszók a hímeknél",
+  "Robusztus, molli-szerű testalkat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limia melanogaster",
+   "magyar_nev": "Feketefoltos limia",
+   "kulonbseg": "Kisebb méret és a hason lévő jellegzetes fekete folt."
+  },
+  {
+   "latin": "Poecilia sphenops",
+   "magyar_nev": "Fekete molly",
+   "kulonbseg": "Nincs púpos hát és eltérő mintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daracskór",
+  "Gombás fertőzések",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Szereti a kemény, enyhén lúgos vizet.",
+  "Jó hatással van rá egy kis tengeri só adagolása a vízhez (kb. 1 kávéskanál/10 liter)."
+ ],
+ "lista_nev": "Limia nigrofasciata",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

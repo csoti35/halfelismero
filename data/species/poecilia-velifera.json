@@ -1,0 +1,88 @@
+{
+ "id": "poecilia-velifera",
+ "tipus": "hal",
+ "latin": "Poecilia velifera",
+ "regi_latin_nevek": "Molinesia velifera",
+ "magyar_nev": "Óriás molnárhal",
+ "egyeb_nevek": [
+  "Vitorlás molli",
+  "Óriás molli"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "élve▬▬▬▬▬▬▬▬▬",
+ "szarmazas": "Mexikó (Yucatán-félsziget)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de élénk mozgású hal, a hímek territoriális vitákat folytathatnak egymással.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 15,
+ "gh_max": 30,
+ "taplalek": "mindenevő, növényi eredetű táplálék kiegészítéssel",
+ "tarsithato": [
+  "más békés élvevető halak",
+  "sójűrő fogaspontyok",
+  "békés sügérek"
+ ],
+ "kerulendo": [
+  "kifejezetten lágy vizet igénylő fajok",
+  "nagytestű agresszív halak",
+  "fátyolos úszókat tépkedő fajok"
+ ],
+ "szaporodas_mod": "élve szülő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Megfelelő ivarösszetétel biztosítása (1 hímre 2-3 nőstény)",
+  "Kemény, enyhén sós víz biztosítása a kedvükért",
+  "Sűrű növényzet behelyezése a kishalak bújócskájához",
+  "A vemhes nőstény különválasztása az ellés előtt",
+  "A kishalak etetése aprított száraztáppal és sóskarékkal"
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója hatalmas, vitorlaszerű, és gonopodiummal (módosított anális úszó) rendelkeznek, a nőstények nagyobbak és teltebbek.",
+ "felismeres_jegyek": [
+  "Hatalmas, vitorlaszerű hátúszó a hímeknél",
+  "Megnyúlt, erőteljes test",
+  "Csillogó kék vagy zöldes pikkelyek",
+  "Nagyobb méret a többi mollinál",
+  "Elvékonyodó faroktő"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia sphenops",
+   "magyar_nev": "Fekete molnárhal",
+   "kulonbseg": "Kisebb testméret és sokkal kisebb hátúszó a hímeknél."
+  },
+  {
+   "latin": "Poecilia latipinna",
+   "magyar_nev": "Vitorlás molnárhal",
+   "kulonbseg": "Kisebb maximális méret és eltérő sugarak száma a hátúszóban."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darázsbetegség (Ichthyophthirius multifiliis)",
+  "Úszórothadás",
+  "Baktériumos fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Nagyon meghálálja, ha kis mennyiségű tengeri sót adunk a vizéhez.",
+  "Szereti a magas hőmérsékletet és a kiváló szűrést.",
+  "Kiválóan algaevő, de fontos a növényi lemezes táp is."
+ ],
+ "lista_nev": "Poecilia velifera",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

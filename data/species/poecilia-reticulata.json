@@ -1,0 +1,83 @@
+{
+ "id": "poecilia-reticulata",
+ "tipus": "hal",
+ "latin": "Poecilia reticulata",
+ "regi_latin_nevek": [
+  "Lebistes reticulatus",
+  "Girardinus guppii"
+ ],
+ "magyar_nev": "Szivárványos guppi",
+ "egyeb_nevek": [
+  "Guppi",
+  "Millióhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülő fogaspontyok",
+ "szarmazas": "Dél-Amerika északi része (Venezuela, Guyana, Suriname) és a Karib-térség szigetei",
+ "max_meret_cm": 6,
+ "elettartam_ev": 2.5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, élénk és társas hal. Folyamatosan mozgásban van a felszín és a középső vízréteg között; a hímek kitartóan udvarolnak a nőstényeknek.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő. Szívesen fogyasztja a jó minőségű száraz lemezes vagy granulált tápokat, a növényi kiegészítést (spirulina), valamint az élő és fagyasztott apró eleségeket (artemia, cyclops, szúnyoglárva).",
+ "tarsithato": "Más békés elevenszülőkkel (platti, molli), páncélosharcsákkal, törpe szívóharcsákkal és kistestű, nem csipkelődő pontyfélékkel (pl. ékfoltos razbóra).",
+ "kerulendo": "Úszócsipkedő fajok (szumátrai márna, fekete tetra), nagytestű ragadozó sügérek, valamint hím sziámi harcoshalak (összetéveszthetik riválissal a fátyolos hímeket).",
+ "szaporodas_mod": "Elevenszülő (belső megtermékenyítés)",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "A megfelelő ivararány (1 hímre legalább 2-3 nőstény) beállítása a stressz elkerülése végett.",
+  "A hím a módosult farok alatti úszójával (gonopódium) termékenyíti meg a nőstényt.",
+  "A 4-6 hetes vemhesség végén a nőstény hasán sötét terhességi folt látható.",
+  "Dús növényzet (jávai moha, úszó sallangos páfrány) biztosítása a társas akváriumban az újszülöttek búvóhelyeként.",
+  "Az ivadékok rögtön elúsznak és azonnal etethetők finom poreleséggel vagy frissen kelt sórákkal."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen kisebbek, karcsúbbak, testük és úszóik rendkívül színpompásak, farok alatti úszójuk párzószervvé (gonopódium) alakult. A nőstények nagyobbak, teltebbek, fakó ezüstös-barnás alapszínűek és ivarérett korban jól látható fekete terhességi foltot viselnek a végbélnyílás felett.",
+ "felismeres_jegyek": [
+  "Felfelé nyíló (felső állású) száj és lapos fejtető.",
+  "A hímeknél a farok alatti úszó pálcaszerű párzószervvé (gonopódium) módosult.",
+  "A hímek testén és fátyolos vagy kerek farkán változatos színes mintázat, foltok és csíkok láthatók.",
+  "A nőstények teste jóval vaskosabb, fakóbb, alapszíne zöldesszürke vagy sárgásbarna.",
+  "Ivarérett nőstényeknél sötét folt (terhességi folt) a farok alatti úszó tövében."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia wingei",
+   "magyar_nev": "Endler guppi",
+   "kulonbseg": "Kisebb testméret, a hímek mindig fémes neonfoltokkal mintázottak, farkuk általában osztott kardmintás, nem fátyolos."
+  },
+  {
+   "latin": "Gambusia affinis",
+   "magyar_nev": "Szúnyogirtó fogasponty",
+   "kulonbseg": "Szürkés, fakó színezet mindkét ivarnál, hiányoznak a díszes úszók és színes minták; sokkal agresszívabb viselkedésű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bakteriális úszórothadás",
+  "Oodinium (bársonybetegség)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Kemény, enyhén lúgos vizet igényel; lágy és savas vízben az immunrendszere gyorsan legyengül.",
+  "Mindig tartsunk több nőstényt, mint hímet, mert az állandó udvarlás kimerítheti a nőstényeket.",
+  "A túlnemesített, nagy úszójú tenyészváltozatoknak kerüljük az erős áramlású szűrést."
+ ],
+ "lista_nev": "Poecilia reticulata",
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

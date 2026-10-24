@@ -1,0 +1,69 @@
+{
+ "id": "girardinus-metallicus",
+ "tipus": "hal",
+ "latin": "Girardinus metallicus",
+ "regi_latin_nevek": "Girardinus guppyi",
+ "magyar_nev": "Fémes fogasponty",
+ "egyeb_nevek": "Fémes élvextermő",
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Élveasvázú fogaspontyok",
+ "szarmazas": "Kuba",
+ "max_meret_cm": 7,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, élénk mozgású csoportos hal, de a hímek néha zaklathatják a nőstényeket.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 7,
+ "ph_max": 8,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; kedveli a száraz lemezes, fagyasztott és élő eledelt is.",
+ "tarsithato": "Más békés, hasonló méretű élvextermővel és békés pontyfélékkel.",
+ "kerulendo": "Nagytestű, agresszív sügérek vagy fátyolos úszójú halak, amelyek megrághatják.",
+ "szaporodas_mod": "Belső megtermékenyítésű élvextermő.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Biztosítsunk sűrű növényzetet a nőstényeknek és a kishalaknak.",
+  "A vemhes nőstényt különíthetjük el az ikrázás/ellés előtt.",
+  "Az újszülött ivadékokat etessük apró porrá zúzott száraz eledellel vagy sóféreg naupliusszal.",
+  "A felnőtt halakat etessük jól, hogy ne egyék meg a kicsinyeiket."
+ ],
+ "ivari_kulonbseg": "A hímek kisebbek, karcsúbbak és gonopodiummal (módosult farok alatti úszó) rendelkeznek, valamint fémes csillogásúak.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres testalkat",
+  "Fémesen csillogó, kékes-zöldes testalapszín",
+  "Sötét oldalcsíkok vagy foltok a testen",
+  "Hímeknél jól látható gonopodium",
+  "Nőstények teltebbek és nagyobbak"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "Guppi",
+   "kulonbseg": "A guppi hímek színesebbek, változatosabb farkúak, a Girardinus metallicus fémesebb és egyszínűbb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daruskór (Ichthyophthirius multifiliis)",
+  "Baktériumos úszórothadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Érdemes keményebb vizet biztosítani számukra.",
+  "Sűrű növényes beépítés elengedhetetlen a sikeres ikrázáshoz és búvóhelyhez."
+ ],
+ "lista_nev": "Girardinus metallicus",
+ "forras": "Google gemini-flash-lite-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}
