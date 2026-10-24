@@ -1387,10 +1387,10 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const url = URL.createObjectURL(file);
             try {
                 const img = await new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = url; });
-                const s = Math.min(1, 1280 / Math.max(img.width, img.height));
+                const s = Math.min(1, 1024 / Math.max(img.width, img.height));
                 const c = document.createElement('canvas'); c.width = Math.round(img.width * s); c.height = Math.round(img.height * s);
                 c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
-                return c.toDataURL('image/jpeg', 0.88).split(',')[1];
+                return c.toDataURL('image/jpeg', 0.85).split(',')[1];
             } finally { URL.revokeObjectURL(url); }
         }
 
@@ -1400,7 +1400,8 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 const cfg = { temperature: 0.2, responseMimeType: 'application/json' };
                 if (model === 'gemini-flash-latest') cfg.thinkingConfig = { thinkingLevel: 'low' };
                 const body = JSON.stringify({ contents: [{ parts: [{ inlineData: { mimeType: 'image/jpeg', data: b64 } }, { text: SCAN_PROMPT }] }], generationConfig: cfg });
-                const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 60000);
+                const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), model === 'gemini-flash-latest' ? 25000 : 30000);
+                const st = document.getElementById('scanStatus'); if (st) st.textContent = model === 'gemini-flash-latest' ? 'Pontos elemzés…' : 'A pontos elemzés lassú volt, most a gyors modellel próbálom…';
                 try {
                     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': GEMINI_KEY }, body, signal: ctl.signal });
                     const txt = await r.text();
@@ -1415,7 +1416,8 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                     if (r.status === 429 && /quota/i.test(txt)) continue;
                     if (r.status !== 503 && r.status !== 404) break;
                 } catch (e) {
-                    last = e.name === 'AbortError' ? 'A Google 60 másodperc alatt sem válaszolt. Ellenőrizd az internetet, és próbáld újra.' : 'Nincs internetkapcsolat.';
+                    last = e.name === 'AbortError' ? 'A Google most nagyon lassan válaszol. Próbáld újra 1-2 perc múlva.' : 'Nincs internetkapcsolat.';
+                    if (e.name === 'AbortError') continue;
                 } finally { clearTimeout(timer); }
             }
             throw new Error(last || 'A felismerés most nem sikerült.');
@@ -1433,7 +1435,8 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             document.getElementById('scanAccuracy').classList.add('hidden');
             document.getElementById('scanActions').classList.add('hidden');
             const res = document.getElementById('scanResultContent');
-            res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300">Elemzés folyamatban… (5–30 másodperc)</p></div>`;
+            res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300"><span id="scanStatus">Elemzés…</span> <span id="scanSecs">0</span> mp</p></div>`;
+            const t0 = Date.now(); const tick = setInterval(() => { const el = document.getElementById('scanSecs'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000); else clearInterval(tick); }, 1000);
             try {
                 const d = await geminiIdentify(await fileToJpegBase64(file));
                 showScanResult(d);
