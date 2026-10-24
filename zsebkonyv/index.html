@@ -797,6 +797,7 @@
             <div class="grid grid-cols-2 gap-1.5 text-[11px]" id="bugKinds">
 
             </div>
+            <div id="bugHint" class="hidden p-2 rounded-lg border sev-warn text-amber-200 text-[11px]"><i class="fa-solid fa-paperclip mr-1"></i>Rossz felismerésnél <strong>csatold a fotót is</strong> a levélhez (gemkapocs ikon a levelezőben), és írd meg, szerinted mi a helyes faj.</div>
             <textarea id="bugText" rows="4" class="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-100 focus:border-teal-500 outline-none" placeholder="pl. A fotó feltöltése után nem jön eredmény, csak forog."></textarea>
             <button onclick="sendBugReport()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-semibold py-2.5 rounded-lg text-xs"><i class="fa-solid fa-paper-plane mr-1"></i>Küldés e-mailben</button>
             <button onclick="copyBugReport()" class="w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs">Nem nyílik meg a levelező? Szöveg másolása</button>
@@ -1617,6 +1618,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}
                 <button type="button" onclick="reportWrongScan()" class="text-[10px] text-slate-500 underline"><i class="fa-solid fa-flag mr-1"></i>Rossz a felismerés? Jelezd nekünk</button>`;
             window.lastScan = d;
+            try { localStorage.setItem('aquaFajLastScan', JSON.stringify({ magyar_nev: d.magyar_nev, latin: d.latin, biztossag: d.biztossag, tipus: d.tipus, mod: scanMode, ido: new Date().toLocaleString('hu-HU') })); } catch (e) {}
             const type = ['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? d.tipus : null;
             appState.scannedTempItem = type ? { name, latin: (kb && kb.latin) || d.latin || '', type, count: 1, size: (kb && kb.size) || Number(d.max_meret_cm) || 3, aggro: (kb && kb.aggro) || (['bekes', 'teruletvedo', 'agressziv'].includes(d.termeszet) ? d.termeszet : 'bekes') } : null;
             document.getElementById('scanActions').classList.toggle('hidden', !appState.scannedTempItem);
@@ -1793,20 +1795,22 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v10';
+        const APP_VERSION = 'v12';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
         let bugKind = 'Hiba';
         function openBugReport(prefill) {
             const kinds = ['Hiba', 'Rossz felismerés', 'Javaslat', 'Egyéb'];
-            document.getElementById('bugKinds').innerHTML = kinds.map(k => `<button type="button" onclick="bugKind='${k}';openBugReport.mark()" data-k="${k}" class="bug-k p-2 rounded-lg border">${k}</button>`).join('');
+            document.getElementById('bugKinds').innerHTML = kinds.map(k => `<button type="button" onclick="bugKind='${k}';openBugReport.mark();openBugReport.hint()" data-k="${k}" class="bug-k p-2 rounded-lg border">${k}</button>`).join('');
             openBugReport.mark = () => document.querySelectorAll('.bug-k').forEach(b => b.className = 'bug-k p-2 rounded-lg border ' + (b.dataset.k === bugKind ? 'bg-teal-500/20 border-teal-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'));
             if (prefill) { bugKind = prefill.kind || 'Hiba'; document.getElementById('bugText').value = prefill.text || ''; }
-            openBugReport.mark(); openModal('bugModal');
+            openBugReport.hint = () => { const h = document.getElementById('bugHint'); if (h) h.classList.toggle('hidden', bugKind !== 'Rossz felismerés'); };
+            openBugReport.mark(); openBugReport.hint(); openModal('bugModal');
         }
         function bugBody() {
-            const scan = window.lastScan ? `${window.lastScan.magyar_nev || ''} (${window.lastScan.latin || ''}), ${window.lastScan.biztossag || '?'}%` : '-';
+            let ls = window.lastScan; if (!ls) { try { ls = JSON.parse(localStorage.getItem('aquaFajLastScan') || 'null'); } catch (e) {} }
+            const scan = ls ? `${ls.magyar_nev || ''} (${ls.latin || ''}), ${ls.biztossag || '?'}%, mód: ${ls.mod || scanMode}${ls.ido ? ', ' + ls.ido : ''}` : '-';
             return `${document.getElementById('bugText').value.trim() || '(nincs leírás)'}\n\n----\nTípus: ${bugKind}\nVerzió: ${APP_VERSION}\nKészülék: ${navigator.userAgent}\nKépernyő: ${screen.width}x${screen.height}\nTelepítve: ${matchMedia('(display-mode: standalone)').matches ? 'igen' : 'nem (böngésző)'}\nBelépve: ${fbUser ? 'igen' : 'nem'}\nUtolsó felismerés: ${scan}\nUtolsó hiba: ${window.lastAppError || '-'}\nIdő: ${new Date().toLocaleString('hu-HU')}`;
         }
         function sendBugReport() {
