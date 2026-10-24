@@ -1,0 +1,37 @@
+name: Fajadatbázis bővítése
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # 3 óránként
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: adatbazis
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Adatlapok generálása
+        run: python3 scripts/generate.py
+      - name: Mentés
+        run: |
+          git config user.name "csoti35"
+          git config user.email "djcsoti@gmail.com"
+          git add data
+          if git diff --cached --quiet; then echo "Nincs új adat."; exit 0; fi
+          git commit -m "Fajadatbázis: új adatlapok ($(date +%F' '%H:%M))"
+          git pull --rebase origin main
+          git push origin main
