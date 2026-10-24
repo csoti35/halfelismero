@@ -793,7 +793,7 @@
         <div class="glass-panel w-full max-w-md rounded-2xl p-5 space-y-3 border border-slate-700">
             <div class="flex items-center justify-between"><h3 class="text-white font-bold text-sm"><i class="fa-solid fa-bug text-rose-300 mr-1"></i>Hiba bejelentése</h3>
                 <button onclick="closeModal('bugModal')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button></div>
-            <p class="text-[11px] text-slate-400">Írd le, mi nem működik, vagy mit szeretnél másképp. Az e-mailhez automatikusan hozzátesszük a telefonod típusát és az utolsó hibaüzenetet, hogy gyorsan javítani tudjuk.</p>
+            <p class="text-[11px] text-slate-400">Írd le, mi nem működik, vagy mit szeretnél másképp. Egy gombnyomással elküldjük, levelező nem kell. Automatikusan hozzátesszük a telefonod típusát és az utolsó hibaüzenetet, hogy gyorsan javítani tudjuk.</p>
             <div class="grid grid-cols-2 gap-1.5 text-[11px]" id="bugKinds">
 
             </div>
@@ -803,9 +803,17 @@
                 <div id="bugNoPhoto" class="hidden text-slate-400">Nincs mentett fotó – előbb fotózz a felismeréssel.</div>
             </div>
             <textarea id="bugText" rows="4" class="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-100 focus:border-teal-500 outline-none" placeholder="pl. A fotó feltöltése után nem jön eredmény, csak forog."></textarea>
-            <button onclick="sendBugReport()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-semibold py-2.5 rounded-lg text-xs"><i class="fa-solid fa-paper-plane mr-1"></i><span id="bugSendLabel">Küldés e-mailben</span></button>
-            <button onclick="copyBugReport()" class="w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs">Nem nyílik meg a levelező? Szöveg másolása</button>
-            <p class="text-[10px] text-slate-500 text-center">Cím: aquafajpro@freemail.hu</p>
+            <button onclick="sendBugReport()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-semibold py-2.5 rounded-lg text-xs"><i class="fa-solid fa-paper-plane mr-1"></i><span id="bugSendLabel">Küldés</span></button>
+            <button onclick="location.href='mailto:'+BUG_EMAIL+'?subject='+encodeURIComponent('AquaFaj – '+bugKind)+'&body='+encodeURIComponent(bugBody())" class="w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs">Inkább e-mailben küldöm (aquafajpro@freemail.hu)</button>
+            <button id="inboxBtn" onclick="openInbox()" class="hidden w-full bg-amber-600 hover:bg-amber-500 text-white py-2 rounded-lg text-xs font-semibold"><i class="fa-solid fa-inbox mr-1"></i>Beérkezett bejelentések (csak neked)</button>
+        </div>
+    </div>
+
+    <div id="inboxModal" class="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-sm flex items-start justify-center p-3 hidden overflow-y-auto">
+        <div class="glass-panel w-full max-w-md rounded-2xl p-4 space-y-3 border border-slate-700 my-4">
+            <div class="flex items-center justify-between"><h3 class="text-white font-bold text-sm"><i class="fa-solid fa-inbox text-amber-300 mr-1"></i>Bejelentések</h3>
+                <button onclick="closeModal('inboxModal')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button></div>
+            <div id="inboxList" class="space-y-2"></div>
         </div>
     </div>
 
@@ -1801,7 +1809,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v13';
+        const APP_VERSION = 'v14';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
@@ -1815,8 +1823,10 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 const b64 = bugPhotoB64(), im = document.getElementById('bugPhoto');
                 im.classList.toggle('hidden', !b64); document.getElementById('bugNoPhoto').classList.toggle('hidden', !!b64); document.getElementById('bugWithPhoto').parentElement.classList.toggle('hidden', !b64);
                 if (b64) im.src = 'data:image/jpeg;base64,' + b64;
-                document.getElementById('bugSendLabel').innerText = (bugKind === 'Rossz felismerés' && b64) ? 'Küldés fotóval (Gmail / levelező)' : 'Küldés e-mailben'; };
-            openBugReport.mark(); openBugReport.hint(); openModal('bugModal');
+                document.getElementById('bugSendLabel').innerText = (bugKind === 'Rossz felismerés' && b64) ? 'Küldés fotóval' : 'Küldés'; };
+            openBugReport.mark(); openBugReport.hint();
+            document.getElementById('inboxBtn').classList.toggle('hidden', !(fbUser && ADMIN_EMAILS.includes((fbUser.email || '').toLowerCase())));
+            openModal('bugModal');
         }
         function bugBody() {
             let ls = window.lastScan; if (!ls) { try { ls = JSON.parse(localStorage.getItem('aquaFajLastScan') || 'null'); } catch (e) {} }
@@ -1824,26 +1834,45 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             return `${document.getElementById('bugText').value.trim() || '(nincs leírás)'}\n\n----\nTípus: ${bugKind}\nVerzió: ${APP_VERSION}\nKészülék: ${navigator.userAgent}\nKépernyő: ${screen.width}x${screen.height}\nTelepítve: ${matchMedia('(display-mode: standalone)').matches ? 'igen' : 'nem (böngésző)'}\nBelépve: ${fbUser ? 'igen' : 'nem'}\nUtolsó felismerés: ${scan}\nUtolsó hiba: ${window.lastAppError || '-'}\nIdő: ${new Date().toLocaleString('hu-HU')}`;
         }
         function bugPhotoB64() { return window.lastScanPhoto || (() => { try { return localStorage.getItem('aquaFajLastPhoto'); } catch (e) { return null; } })(); }
-        async function sendBugReport() {
-            if (!document.getElementById('bugText').value.trim()) { showToast('Írd le röviden, mi a gond.', true); return; }
-            const b64 = bugPhotoB64();
-            if (bugKind === 'Rossz felismerés' && b64 && document.getElementById('bugWithPhoto').checked) {
-                const bin = atob(b64); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
-                const f = new File([u], 'aquafaj_foto.jpg', { type: 'image/jpeg' });
-                const text = `Címzett: ${BUG_EMAIL}\n\n${bugBody()}`;
-                if (navigator.canShare && navigator.canShare({ files: [f] })) {
-                    try { await navigator.clipboard.writeText(BUG_EMAIL); } catch (e) {}
-                    showToast('A cím kimásolva: illeszd be a Címzett mezőbe!');
-                    try { await navigator.share({ files: [f], title: 'AquaFaj – ' + bugKind, text }); closeModal('bugModal'); showToast('Köszönjük a bejelentést!'); }
-                    catch (e) { if (e.name !== 'AbortError') showToast('A megosztás nem sikerült: ' + e.message, true); }
-                    return;
-                }
-                const a = document.createElement('a'); a.href = 'data:image/jpeg;base64,' + b64; a.download = 'aquafaj_foto.jpg'; document.body.appendChild(a); a.click(); a.remove();
-                showToast('A fotót letöltöttük – a levélhez a Letöltések mappából csatolhatod.');
-            }
-            location.href = `mailto:${BUG_EMAIL}?subject=${encodeURIComponent('AquaFaj – ' + bugKind)}&body=${encodeURIComponent(bugBody())}`;
-            setTimeout(() => { closeModal('bugModal'); showToast('Köszönjük a bejelentést!'); }, 800);
+        const ADMIN_EMAILS = ['djcsoti@gmail.com', 'parkgondozo.r1@gmail.com'];
+        function shrinkB64(b64, max = 720, q = 0.7) {
+            return new Promise(res => { const i = new Image(); i.onload = () => { const k = Math.min(1, max / Math.max(i.width, i.height)); const c = document.createElement('canvas'); c.width = Math.round(i.width * k); c.height = Math.round(i.height * k); c.getContext('2d').drawImage(i, 0, 0, c.width, c.height); res(c.toDataURL('image/jpeg', q).split(',')[1]); }; i.onerror = () => res(null); i.src = 'data:image/jpeg;base64,' + b64; });
         }
+        // Elsődleges: közvetlen beküldés (nem kell levelező, a fotó is megy). Ha nem megy, e-mail.
+        async function sendBugReport() {
+            const text = document.getElementById('bugText').value.trim();
+            if (!text) { showToast('Írd le röviden, mi a gond.', true); return; }
+            const btn = document.getElementById('bugSendLabel'); const old = btn.innerText; btn.innerText = 'Küldés…';
+            try {
+                if (!fbDb) throw new Error('nincs felhő');
+                const b64 = bugPhotoB64();
+                const doc = { kind: bugKind, text: text.slice(0, 2900), meta: bugBody().split('----').pop().trim().slice(0, 1500), createdAt: Date.now() };
+                if (fbUser) { doc.uid = fbUser.uid; doc.email = fbUser.email || ''; }
+                if (b64 && document.getElementById('bugWithPhoto').checked && !document.getElementById('bugHint').classList.contains('hidden')) { const sm = await shrinkB64(b64); if (sm) doc.photo = sm; }
+                await Promise.race([fbDb.collection('reports').add(doc), new Promise((_, rej) => setTimeout(() => rej(new Error('időtúllépés')), 15000))]);
+                closeModal('bugModal'); document.getElementById('bugText').value = '';
+                showToast(doc.photo ? 'Elküldve a fotóval együtt. Köszönjük!' : 'Elküldve. Köszönjük!');
+            } catch (e) {
+                console.warn('Közvetlen küldés nem ment:', e);
+                showToast('Közvetlenül nem ment, megnyitom az e-mailt…', true);
+                setTimeout(() => { location.href = `mailto:${BUG_EMAIL}?subject=${encodeURIComponent('AquaFaj – ' + bugKind)}&body=${encodeURIComponent(bugBody())}`; }, 600);
+            } finally { btn.innerText = old; }
+        }
+        async function openInbox() {
+            closeModal('bugModal'); openModal('inboxModal');
+            const box = document.getElementById('inboxList'); box.innerHTML = '<p class="text-xs text-slate-400 text-center py-6">Betöltés…</p>';
+            try {
+                const snap = await fbDb.collection('reports').orderBy('createdAt', 'desc').limit(50).get();
+                if (snap.empty) { box.innerHTML = '<p class="text-xs text-slate-400 text-center py-6">Nincs bejelentés.</p>'; return; }
+                box.innerHTML = snap.docs.map(d => { const r = d.data(); return `<div class="p-3 rounded-xl bg-slate-900 border border-slate-800 space-y-2 text-[11px]" id="rep-${d.id}">
+                    <div class="flex justify-between gap-2"><span class="font-semibold text-teal-300">${esc(r.kind || '')}</span><span class="text-slate-500">${new Date(r.createdAt).toLocaleString('hu-HU')}</span></div>
+                    <div class="text-slate-100 whitespace-pre-wrap">${esc(r.text || '')}</div>
+                    ${r.photo ? `<img src="data:image/jpeg;base64,${r.photo}" class="w-full rounded-lg border border-slate-700">` : ''}
+                    <details class="text-slate-400"><summary class="cursor-pointer">Részletek</summary><pre class="whitespace-pre-wrap text-[10px]">${esc(r.meta || '')}${r.email ? '\nFelhasználó: ' + esc(r.email) : ''}</pre></details>
+                    <button onclick="deleteReport('${d.id}')" class="text-rose-300 underline">Törlés (kész)</button></div>`; }).join('');
+            } catch (e) { box.innerHTML = `<p class="text-xs text-rose-300 text-center py-6">Nem sikerült betölteni: ${esc(e.code || e.message)}</p>`; }
+        }
+        async function deleteReport(id) { try { await fbDb.collection('reports').doc(id).delete(); document.getElementById('rep-' + id).remove(); } catch (e) { showToast('Törlés nem sikerült', true); } }
         async function copyBugReport() {
             const t = `Címzett: ${BUG_EMAIL}\nTárgy: AquaFaj – ${bugKind}\n\n${bugBody()}`;
             try { await navigator.clipboard.writeText(t); showToast('Kimásolva – illeszd be egy e-mailbe: ' + BUG_EMAIL); }
