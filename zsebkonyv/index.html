@@ -162,7 +162,22 @@
                     <h2 class="text-xl font-bold text-white flex items-center justify-center gap-2">
                         <i class="fa-solid fa-camera-retro text-teal-400"></i> AI Fotós Felismerés
                     </h2>
-                    <p class="text-xs text-slate-300">Fényképezz le egy halat, növényt vagy algát a telefonoddal, és az AI azonnal azonosítja!</p>
+                    <p class="text-xs text-slate-300">Halat, növényt, algát fotózz – vagy beteg halat: megmondja, mi baja lehet, és mivel kezeld.</p>
+                </div>
+
+                <!-- Mit vizsgálunk? + leírás -->
+                <div class="space-y-3">
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-semibold" id="scanModes">
+                        <button type="button" data-mode="hal" onclick="setScanMode('hal')" class="scan-mode p-2.5 rounded-xl border">🐟 Hal / garnéla</button>
+                        <button type="button" data-mode="noveny" onclick="setScanMode('noveny')" class="scan-mode p-2.5 rounded-xl border">🌿 Növény</button>
+                        <button type="button" data-mode="beteg" onclick="setScanMode('beteg')" class="scan-mode p-2.5 rounded-xl border">🩺 Beteg hal</button>
+                        <button type="button" data-mode="alga" onclick="setScanMode('alga')" class="scan-mode p-2.5 rounded-xl border">🦠 Alga / víz</button>
+                    </div>
+                    <div>
+                        <label class="text-[11px] text-slate-400" for="scanNote">Írd le, mit látsz (nem kötelező, de pontosabb lesz tőle)</label>
+                        <textarea id="scanNote" rows="2" class="mt-1 w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-100 focus:border-teal-500 outline-none" placeholder=""></textarea>
+                        <button type="button" id="textOnlyBtn" onclick="analyzeTextOnly()" class="hidden mt-1 w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs font-semibold"><i class="fa-solid fa-stethoscope mr-1"></i>Elemzés csak a leírás alapján (fotó nélkül)</button>
+                    </div>
                 </div>
 
                 <!-- Scanner Viewport / Upload Box -->
@@ -183,7 +198,7 @@
                                 <i class="fa-solid fa-cloud-arrow-up"></i>
                             </div>
                             <div>
-                                <p class="text-xs font-semibold text-white">Fotózz le egy halat, növényt vagy algát</p>
+                                <p class="text-xs font-semibold text-white" id="uploadTitle">Fotózz le egy halat vagy garnélát</p>
                                 <p class="text-[11px] text-slate-400">Hal, növény, garnéla, alga</p>
                             </div>
                             <div class="flex gap-2 justify-center relative z-10">
@@ -936,6 +951,7 @@
 
         // ================= INDÍTÁS =================
         window.onload = function() {
+            setScanMode('hal');
             loadFromLocalStorage();
             calculateAquascape();
             calculateSoil();
@@ -1375,14 +1391,71 @@
         // ================= 5. FÜL: VALÓDI AI-FELISMERÉS (Google Gemini) =================
         const G_CODE = [27, 11, 116, 27, 56, 98, 8, 20, 108, 19, 10, 98, 10, 31, 11, 104, 98, 105, 48, 30, 5, 46, 111, 106, 59, 62, 13, 31, 53, 61, 35, 51, 63, 106, 29, 20, 11, 61, 2, 17, 52, 57, 52, 35, 0, 98, 49, 109, 106, 56, 106, 13, 61];
         const GEMINI_KEY = String.fromCharCode(...G_CODE.map(c => c ^ 0x5A));
-        const SCAN_PROMPT = `Tapasztalt akvarisztikai halhatározó vagy. A képen egy akváriumi élőlény vagy jelenség látható (hal, garnéla, csiga, növény, alga vagy betegségtünet).
-Ha több hal van a képen, a legnagyobbat, legélesebbet határozd meg.
+        const PRICE_FIELDS = `"ar_ft_min":<szokásos magyarországi bolti ár forintban darabonként (növénynél csomagonként/cserepenként), alsó érték, vagy null>,"ar_ft_max":<felső érték vagy null>`;
+        const SCAN_PROMPTS = {
+            hal: `Tapasztalt akvarisztikai halhatározó vagy. A képen akváriumi hal, garnéla, rák vagy csiga látható.
+Ha több állat van a képen, a legnagyobbat, legélesebbet határozd meg.
 Először írd le, mit látsz ténylegesen (testforma, színek, mintázat, úszók helye, hasúszó, farokúszó, száj), és CSAK ezek alapján döntsd el a fajt. Ne találgass olyan fajt, amelynek jellegzetes bélyegei nem látszanak.
 Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
-{"lathato":"<amit látsz>","tipus":"hal|gerinctelen|noveny|alga|betegseg|egyeb","magyar_nev":"<a magyar akvarisztikában bevett név; killiknél fogasponty, zárójelben killi>","latin":"<latin név, ha van>","biztossag":<0-100>,
+{"lathato":"<amit látsz>","tipus":"hal|gerinctelen|egyeb","magyar_nev":"<a magyar akvarisztikában bevett név; killiknél fogasponty, zárójelben killi>","latin":"<latin név>","biztossag":<0-100>,
 "alternativak":[{"magyar_nev":"","latin":"","kulonbseg":"<miben különbözik a képen látottól>"}],
-"leiras":"<2-3 mondat: természet, tartás vagy (algánál/betegségnél) ok és teendő>","max_meret_cm":<szám vagy null>,"termeszet":"bekes|teruletvedo|agressziv|null",
-"ar_ft_min":<szokásos magyarországi bolti ár forintban darabonként (növénynél csomagonként/cserepenként), alsó érték, vagy null>,"ar_ft_max":<felső érték vagy null>}`;
+"leiras":"<2-3 mondat: természet, tartás>","max_meret_cm":<szám vagy null>,"termeszet":"bekes|teruletvedo|agressziv|null",${PRICE_FIELDS}}`,
+            noveny: `Tapasztalt akváriumi növényhatározó (akvakertész) vagy. A képen akváriumi, tavi vagy mocsári növény látható.
+Először írd le, mit látsz (levélforma, levélállás, szín, szár, gyökér, tő/rizóma, úszó vagy gyökerező), és CSAK ezek alapján döntsd el a fajt. Ha a növény rossz állapotú (sárgul, lyukas, elhal), azt is jelezd.
+Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
+{"lathato":"<amit látsz>","tipus":"noveny","magyar_nev":"<bevett magyar vagy kereskedelmi név>","latin":"<latin név>","biztossag":<0-100>,
+"alternativak":[{"magyar_nev":"","latin":"","kulonbseg":""}],
+"leiras":"<2-3 mondat: milyen növény, mire jó>","feny":"alacsony|kozepes|eros","co2":"nem_kell|ajanlott|szukseges","novekedes":"lassu|kozepes|gyors",
+"elhelyezes":"eloter|kozepter|hatter|uszo|dekoracio_ko_fa","max_magassag_cm":<szám vagy null>,"szaporitas":"<hogyan szaporítható>",
+"allapot":"<ha a képen hiánytünet vagy betegség látszik: mi lehet az oka és mit tegyen; különben null>",${PRICE_FIELDS}}`,
+            beteg: `Tapasztalt akvarisztikai halorvos-szakértő vagy. A képen (és/vagy a leírásban) egy beteg akváriumi hal vagy gerinctelen tünetei vannak.
+Először írd le, milyen tüneteket látsz ténylegesen (pöttyök, foltok, bevonat, úszók állapota, pikkelyek, szem, kopoltyú, has, viselkedés a leírás alapján). CSAK ezek alapján valószínűsíts betegséget.
+Adj gyakorlati, Magyarországon kapható kezelést: először a gyógyszer nélküli lépéseket (vízcsere, vízérték-mérés, hőmérséklet, karantén), majd a gyógyszert a hatóanyaggal és 1-2 nálunk kapható példatermékkel (pl. JBL, Sera, Tetra, eSHa márkák). Adagolást ne számolj ki, írd azt, hogy a tájékoztató szerint.
+Jelezd, ha a szer garnélára, csigára, növényre vagy szűrőbaktériumra veszélyes (pl. réz, malachitzöld, formalin), és ha az aktív szenet ki kell venni a szűrőből.
+Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
+{"lathato":"<a látott tünetek>","tipus":"betegseg","magyar_nev":"<a betegség magyar neve>","latin":"<kórokozó vagy angol név, ha van>","biztossag":<0-100>,
+"surgosseg":"azonnal|1-2_napon_belul|figyeld",
+"alternativak":[{"magyar_nev":"<más lehetséges betegség>","latin":"","kulonbseg":"<miben tér el a tünete>"}],
+"leiras":"<2-3 mondat: mi ez a betegség, mi okozza, ragályos-e>",
+"teendok":["<sorrendben, gyógyszer nélküli első lépések>"],
+"gyogyszerek":[{"hatoanyag":"<hatóanyag>","termek":"<1-2 kapható példatermék>","megjegyzes":"<mire figyelj, mire veszélyes>"}],
+"megelozes":"<1-2 mondat>","allatorvos":"<mikor kell állatorvoshoz / tapasztalt kereskedőhöz fordulni>"}`,
+            alga: `Tapasztalt akvarisztikai szakértő vagy. A képen (és/vagy a leírásban) alga, bevonat, zavaros víz vagy más vízminőségi jelenség látható az akváriumban.
+Először írd le, mit látsz (szín, forma: szálas, pamacsos, bevonat, foltos, lebegő; hol nő: üveg, levél, dekoráció, talaj). CSAK ezek alapján határozd meg.
+Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
+{"lathato":"<amit látsz>","tipus":"alga","magyar_nev":"<magyar név, pl. kovamoszat, fekete szakállas alga, kékmoszat>","latin":"<latin vagy angol név>","biztossag":<0-100>,
+"surgosseg":"azonnal|1-2_napon_belul|figyeld",
+"alternativak":[{"magyar_nev":"","latin":"","kulonbseg":""}],
+"leiras":"<2-3 mondat: mi ez, mi okozza (fény, tápanyag, CO2, új akvárium)>",
+"teendok":["<sorrendben, gyakorlati lépések>"],
+"gyogyszerek":[{"hatoanyag":"<szer vagy algaevő állat>","termek":"<kapható példa>","megjegyzes":"<mire figyelj>"}],
+"megelozes":"<1-2 mondat>"}`
+        };
+        let scanMode = 'hal';
+        const MODE_TEXT = {
+            hal: ['Fotózz le egy halat vagy garnélát', 'pl. kb. 4 cm, kék csík az oldalán, csapatban úszik'],
+            noveny: ['Fotózz le egy növényt', 'pl. hosszú keskeny levelek, a talajba gyökerezik, kb. 20 cm'],
+            beteg: ['Fotózd le a beteg halat', 'pl. fehér pöttyök a testén, dörzsölődik a köveken, kapkodja a levegőt, 3 napja kezdődött, guppi'],
+            alga: ['Fotózd le az algát vagy a vizet', 'pl. fekete pamacsok a leveleken, napi 10 óra világítás']
+        };
+        function setScanMode(m) {
+            scanMode = m;
+            document.querySelectorAll('.scan-mode').forEach(b => {
+                const on = b.dataset.mode === m;
+                b.className = 'scan-mode p-2.5 rounded-xl border ' + (on ? 'bg-teal-500/20 border-teal-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300 hover:border-slate-500');
+            });
+            document.getElementById('uploadTitle').innerText = MODE_TEXT[m][0];
+            document.getElementById('scanNote').placeholder = MODE_TEXT[m][1];
+            document.getElementById('textOnlyBtn').classList.toggle('hidden', !['beteg', 'alga'].includes(m));
+        }
+        function buildPrompt() {
+            const note = (document.getElementById('scanNote').value || '').trim();
+            const stock = appState.stock.map(i => i.name).join(', ');
+            let p = SCAN_PROMPTS[scanMode];
+            if (note) p += `\n\nA felhasználó leírása (vedd figyelembe, de a kép az elsődleges, ha van): "${note.slice(0, 600)}"`;
+            if (['beteg', 'alga'].includes(scanMode) && stock) p += `\nAz akváriumban élők: ${stock}. A gyógyszereknél vedd figyelembe őket.`;
+            return p;
+        }
 
         async function fileToJpegBase64(file) {
             const url = URL.createObjectURL(file);
@@ -1395,12 +1468,13 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             } finally { URL.revokeObjectURL(url); }
         }
 
-        async function geminiIdentify(b64) {
+        async function geminiIdentify(b64, prompt) {
             let last = '';
             for (const model of ['gemini-flash-latest', 'gemini-flash-lite-latest']) {
                 const cfg = { temperature: 0.2, responseMimeType: 'application/json' };
                 if (model === 'gemini-flash-latest') cfg.thinkingConfig = { thinkingLevel: 'low' };
-                const body = JSON.stringify({ contents: [{ parts: [{ inlineData: { mimeType: 'image/jpeg', data: b64 } }, { text: SCAN_PROMPT }] }], generationConfig: cfg });
+                const parts = b64 ? [{ inlineData: { mimeType: 'image/jpeg', data: b64 } }, { text: prompt }] : [{ text: prompt }];
+                const body = JSON.stringify({ contents: [{ parts }], generationConfig: cfg });
                 const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), model === 'gemini-flash-latest' ? 25000 : 30000);
                 const st = document.getElementById('scanStatus'); if (st) st.textContent = model === 'gemini-flash-latest' ? 'Pontos elemzés…' : 'A pontos elemzés lassú volt, most a gyors modellel próbálom…';
                 try {
@@ -1439,7 +1513,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300"><span id="scanStatus">Elemzés…</span> <span id="scanSecs">0</span> mp</p></div>`;
             const t0 = Date.now(); const tick = setInterval(() => { const el = document.getElementById('scanSecs'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000); else clearInterval(tick); }, 1000);
             try {
-                const d = await geminiIdentify(await fileToJpegBase64(file));
+                const d = await geminiIdentify(await fileToJpegBase64(file), buildPrompt());
                 showScanResult(d);
             } catch (err) {
                 res.innerHTML = `<div class="p-3 rounded-xl border sev-bad text-rose-200 text-xs">${esc(err.message)}</div>`;
@@ -1448,6 +1522,42 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 document.getElementById('uploadPrompt').classList.remove('hidden');
                 document.getElementById('uploadPrompt').classList.add('relative', 'z-10');
             }
+        }
+
+        async function analyzeTextOnly() {
+            const note = (document.getElementById('scanNote').value || '').trim();
+            if (note.length < 8) { showToast('Írd le részletesebben a tüneteket.', true); document.getElementById('scanNote').focus(); return; }
+            const res = document.getElementById('scanResultContent');
+            res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300"><span id="scanStatus">Elemzés…</span> <span id="scanSecs">0</span> mp</p></div>`;
+            const t0 = Date.now(); const tick = setInterval(() => { const el = document.getElementById('scanSecs'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000); else clearInterval(tick); }, 1000);
+            res.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            try { showScanResult(await geminiIdentify(null, buildPrompt() + '\nNincs fotó, csak a leírás alapján dolgozz, és ennek megfelelően legyél óvatosabb a biztosságnál.')); }
+            catch (err) { res.innerHTML = `<div class="p-3 rounded-xl border sev-bad text-rose-200 text-xs">${esc(err.message)}</div>`; }
+        }
+
+        function treatmentHtml(d, name) {
+            const urg = { 'azonnal': ['sev-bad text-rose-200', 'Sürgős – kezdd el még ma!'], '1-2_napon_belul': ['sev-warn text-amber-200', '1–2 napon belül kezeld'], 'figyeld': ['sev-ok text-emerald-200', 'Nem sürgős – figyeld a halat'] }[d.surgosseg];
+            const steps = (d.teendok || []).filter(Boolean);
+            const meds = (d.gyogyszerek || []).filter(m => m && (m.hatoanyag || m.termek));
+            const inverts = appState.stock.some(i => i.type === 'gerinctelen');
+            const q = t => encodeURIComponent(String(t || '').replace(/\(.*?\)/g, ' ').split(/[,;/]| vagy /)[0].trim());
+            return `${urg ? `<div class="p-2 rounded border ${urg[0]} text-[11px] font-semibold"><i class="fa-solid fa-clock mr-1"></i>${urg[1]}</div>` : ''}
+                ${steps.length ? `<div class="p-3 rounded-xl border border-slate-700 bg-slate-900/60 space-y-1 text-[11px]"><div class="font-semibold text-teal-300"><i class="fa-solid fa-list-ol mr-1"></i>Mit tegyél most?</div><ol class="list-decimal pl-4 space-y-1 text-slate-200">${steps.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>` : ''}
+                ${meds.length ? `<div class="p-3 rounded-xl border border-teal-500/30 bg-teal-500/5 space-y-2 text-[11px]"><div class="font-semibold text-teal-300"><i class="fa-solid fa-prescription-bottle-medical mr-1"></i>${d.tipus === 'alga' ? 'Szerek és segítők' : 'Gyógyszer'}</div>
+                    ${meds.map(m => `<div class="p-2 rounded-lg bg-slate-900 border border-slate-800 space-y-1"><div class="text-slate-100 font-semibold">${esc(m.hatoanyag || '')}</div>${m.termek ? `<div class="text-slate-300">Pl.: ${esc(m.termek)}</div>` : ''}${m.megjegyzes ? `<div class="text-amber-200/90">${esc(m.megjegyzes)}</div>` : ''}
+                        <div class="flex gap-1.5 pt-1"><a target="_blank" rel="noopener" href="https://www.google.com/search?q=site%3Ainvitalpet.hu+${q(m.termek || m.hatoanyag)}" class="flex-1 text-center py-1.5 rounded bg-emerald-600 hover:bg-emerald-500 text-white font-semibold">Invital</a><a target="_blank" rel="noopener" href="https://www.google.com/search?tbm=shop&q=${q(m.termek || m.hatoanyag)}" class="flex-1 text-center py-1.5 rounded bg-slate-700 hover:bg-slate-600 text-white">Webshopok</a></div></div>`).join('')}
+                    ${inverts && d.tipus !== 'alga' ? `<div class="p-2 rounded border sev-warn text-amber-200"><i class="fa-solid fa-shrimp mr-1"></i>Garnéla/csiga is van az akváriumodban: réz-, malachitzöld- vagy formalintartalmú szert csak külön karanténban használj!</div>` : ''}
+                    <div class="text-[10px] text-slate-500">Mindig a gyógyszer tájékoztatója szerint adagold. Kezelés alatt vedd ki az aktív szenet a szűrőből, és erősítsd a levegőztetést.</div></div>` : ''}
+                ${d.megelozes ? `<div class="text-[11px] text-slate-400"><strong class="text-slate-300">Megelőzés:</strong> ${esc(d.megelozes)}</div>` : ''}
+                ${d.allatorvos ? `<div class="text-[11px] text-slate-400"><strong class="text-slate-300">Mikor kérj segítséget:</strong> ${esc(d.allatorvos)}</div>` : ''}
+                ${link2map()}`;
+        }
+        function link2map() { return `<a href="https://www.google.com/maps/search/akvarisztika" target="_blank" rel="noopener" class="flex items-center gap-2 p-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 text-[11px]"><i class="fa-solid fa-location-dot w-4 text-center text-teal-400"></i>Akvarisztikák a közelben (szakember tanácsa, gyógyszer)</a>`; }
+        function plantInfoHtml(d) {
+            const L = { alacsony: 'alacsony', kozepes: 'közepes', eros: 'erős', nem_kell: 'nem kell', ajanlott: 'ajánlott', szukseges: 'szükséges', lassu: 'lassú', gyors: 'gyors', eloter: 'előtér', kozepter: 'középtér', hatter: 'háttér', uszo: 'úszó', dekoracio_ko_fa: 'kőre/fára kötve' };
+            const rows = [['💡 Fény', L[d.feny]], ['🫧 CO2', L[d.co2]], ['🌱 Növekedés', L[d.novekedes]], ['📍 Helye', L[d.elhelyezes]], ['📏 Magasság', d.max_magassag_cm ? `max. ${d.max_magassag_cm} cm` : ''], ['✂️ Szaporítás', d.szaporitas]].filter(r => r[1]);
+            return (rows.length ? `<div class="grid grid-cols-2 gap-1.5 text-[11px]">${rows.map(r => `<div class="p-2 rounded bg-slate-900 border border-slate-800 ${r[0].includes('Szaporítás') ? 'col-span-2' : ''}"><span class="text-slate-400">${r[0]}</span><br><span class="text-slate-100 font-semibold">${esc(r[1])}</span></div>`).join('')}</div>` : '')
+                + (d.allapot ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]"><strong>A növény állapota:</strong> ${esc(d.allapot)}</div>` : '');
         }
 
         function showScanResult(d) {
@@ -1465,9 +1575,11 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 <h4 class="font-bold text-white text-sm">${icon} ${esc(name)}</h4>
                 ${d.latin ? `<p class="text-[11px] italic text-teal-300">${esc(d.latin)}</p>` : ''}
                 <p class="text-slate-300">${esc(d.leiras || '')}</p>
+                ${['betegseg', 'alga'].includes(d.tipus) ? treatmentHtml(d, name) : ''}
+                ${d.tipus === 'noveny' ? plantInfoHtml(d) : ''}
                 ${kb ? `<div class="bg-slate-900 p-2 rounded text-[11px] border border-slate-800 text-slate-300">Max. ${kb.size} cm • min. ${kb.minTank || '?'} liter • ${kb.temp && kb.temp[0] ? kb.temp[0] + '–' + kb.temp[1] + ' °C' : ''} • pH ${kb.ph && kb.ph[0] ? kb.ph[0] + '–' + kb.ph[1] : '?'} • ${(AGGRO_LABEL[kb.aggro] || ['?'])[0]}</div>` : ''}
-                ${conf < 80 ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]">Nem biztos felismerés. Fotózz közelebbről, oldalról, vagy válassz a lehetséges fajok közül.</div>` : ''}
-                ${alts.length ? `<div class="text-[11px] text-slate-400">Lehet még:</div>` + alts.slice(0, 3).map((a, i) => `<button onclick="pickAlternative(${i})" class="w-full text-left p-2 rounded border border-slate-700 hover:border-teal-500 text-[11px]"><strong class="text-slate-100">${esc(a.magyar_nev || a.latin)}</strong> <span class="italic text-slate-400">${esc(a.latin || '')}</span><br><span class="text-slate-400">${esc(a.kulonbseg || '')}</span></button>`).join('') : ''}
+                ${conf < 80 ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]">${['betegseg', 'alga'].includes(d.tipus) ? 'Nem biztos a megállapítás. Írd le pontosabban a tüneteket, nézd meg a lenti lehetőségeket is, és kérdezz meg egy tapasztalt akvaristát.' : 'Nem biztos felismerés. Fotózz közelebbről, oldalról, vagy válassz a lehetséges fajok közül.'}</div>` : ''}
+                ${alts.length ? `<div class="text-[11px] text-slate-400">${['betegseg', 'alga'].includes(d.tipus) ? 'Más lehetőség (koppints rá, ha inkább ez):' : 'Lehet még:'}</div>` + alts.slice(0, 3).map((a, i) => `<button onclick="pickAlternative(${i})" class="w-full text-left p-2 rounded border border-slate-700 hover:border-teal-500 text-[11px]"><strong class="text-slate-100">${esc(a.magyar_nev || a.latin)}</strong> <span class="italic text-slate-400">${esc(a.latin || '')}</span><br><span class="text-slate-400">${esc(a.kulonbseg || '')}</span></button>`).join('') : ''}
                 ${kb && kb.type !== 'noveny' ? stockFitHtml(kb) : ''}
                 ${['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? shopHtml(name, (kb && kb.latin) || d.latin, d) : ''}
                 ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}`;
@@ -1518,8 +1630,15 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
         function pickAlternative(i) {
             const a = (window.lastScan && window.lastScan.alternativak || [])[i];
             if (!a) return;
+            if (['betegseg', 'alga'].includes(window.lastScan.tipus)) {
+                const res = document.getElementById('scanResultContent');
+                res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300">Kezelés összeállítása: ${esc(a.magyar_nev || a.latin)}…</p></div>`;
+                geminiIdentify(null, buildPrompt() + `\nA felhasználó szerint ez a probléma: "${a.magyar_nev || a.latin}". Erre add meg a leírást és a kezelést, biztossag legyen 100, alternativak üres lista. A korábban látott tünetek: ${window.lastScan.lathato || ''}`)
+                    .then(showScanResult).catch(err => { res.innerHTML = `<div class="p-3 rounded-xl border sev-bad text-rose-200 text-xs">${esc(err.message)}</div>`; });
+                return;
+            }
             const kb = findSpecies(a.latin) || findSpecies(a.magyar_nev);
-            showScanResult({ ...window.lastScan, magyar_nev: (kb && kb.name) || a.magyar_nev, latin: (kb && kb.latin) || a.latin, biztossag: 100, leiras: (kb && kb.desc) || 'A te választásod alapján.', alternativak: [], ar_ft_min: null, ar_ft_max: null });
+            showScanResult({ ...window.lastScan, feny: null, co2: null, novekedes: null, elhelyezes: null, max_magassag_cm: null, szaporitas: null, allapot: null, magyar_nev: (kb && kb.name) || a.magyar_nev, latin: (kb && kb.latin) || a.latin, biztossag: 100, leiras: (kb && kb.desc) || 'A te választásod alapján.', alternativak: [], ar_ft_min: null, ar_ft_max: null });
         }
 
         function addScannedToStock() {
