@@ -1537,7 +1537,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
         }
 
         // Felhős mentés (Google Firebase). Amíg nincs beállítva, a gomb rejtve marad.
-        const FIREBASE_CONFIG = null; /* __FIREBASE_CONFIG__ */
+        const FIREBASE_CONFIG = {apiKey:"AIzaSyA57SlVepwvOAInu6nLdSDCuWSjonm8c2M",authDomain:"aquafaj.firebaseapp.com",projectId:"aquafaj",storageBucket:"aquafaj.firebasestorage.app",messagingSenderId:"774306563306",appId:"1:774306563306:web:ce86741e37f08cc8aa0393"};
         let fbUser = null, fbDb = null, pushTimer = null;
         function loadScript(src) { return new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); }); }
         async function initCloud() {
