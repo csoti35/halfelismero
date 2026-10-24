@@ -1491,10 +1491,15 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             document.getElementById('scanNote').placeholder = MODE_TEXT[m][1];
             document.getElementById('textOnlyBtn').classList.toggle('hidden', !['beteg', 'alga'].includes(m));
         }
+        // A felismerés választéklistája (a hazai kereskedelemben gyakori fajok). Egyszer töltjük be.
+        let SPECIES_LIST = null;
+        fetch('../data/fajlista.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { SPECIES_LIST = j; }).catch(() => {});
         function buildPrompt() {
             const note = (document.getElementById('scanNote').value || '').trim();
             const stock = appState.stock.map(i => i.name).join(', ');
             let p = SCAN_PROMPTS[scanMode];
+            const list = SPECIES_LIST && (scanMode === 'hal' ? SPECIES_LIST.hal : scanMode === 'noveny' ? SPECIES_LIST.noveny : null);
+            if (list && list.length) p += `\n\nA Magyarországon kapható ${scanMode === 'noveny' ? 'növények' : 'halak és gerinctelenek'} listája (latin név, zárójelben a bevett magyar név):\n${list.join('; ')}\n\nSZABÁLY: ha a képen látható élőlény a listában szerepel, PONTOSAN a listában szereplő latin nevet írd a "latin" mezőbe, és ha van, a zárójeles magyar nevet a "magyar_nev" mezőbe. Az alternatívákat is elsősorban ebből a listából válaszd. Csak akkor adj meg listán kívüli fajt, ha biztosan egyik sem illik rá – ilyenkor a biztosság legfeljebb 70 legyen.`;
             if (note) p += scanMode === 'beteg'
                 ? `\n\nA gazdi saját megfigyelései (NAGYON FONTOS: a tünetek a fotón gyakran nem látszanak jól, ezért a leírást ugyanolyan súllyal vedd figyelembe, mint a képet; ha a kép nem egyértelmű, főleg a leírásra támaszkodj, és a "lathato" mezőben jelezd, mi jött a képből és mi a leírásból): "${note.slice(0, 1200)}"`
                 : `\n\nA felhasználó leírása (vedd figyelembe, de a kép az elsődleges, ha van): "${note.slice(0, 600)}"`;
@@ -1811,7 +1816,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v20';
+        const APP_VERSION = 'v21';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
