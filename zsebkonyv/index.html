@@ -1809,7 +1809,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v14';
+        const APP_VERSION = 'v15';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
@@ -1838,18 +1838,43 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
         function shrinkB64(b64, max = 720, q = 0.7) {
             return new Promise(res => { const i = new Image(); i.onload = () => { const k = Math.min(1, max / Math.max(i.width, i.height)); const c = document.createElement('canvas'); c.width = Math.round(i.width * k); c.height = Math.round(i.height * k); c.getContext('2d').drawImage(i, 0, 0, c.width, c.height); res(c.toDataURL('image/jpeg', q).split(',')[1]); }; i.onerror = () => res(null); i.src = 'data:image/jpeg;base64,' + b64; });
         }
+        // E-mail a freemailre a háttérben (FormSubmit, ingyenes, fiók nélkül). Rejtett űrlap -> a fotó csatolmányként megy.
+        function emailInBackground(doc) {
+            return new Promise(res => {
+                const name = 'fs_' + Date.now();
+                const ifr = document.createElement('iframe'); ifr.name = name; ifr.style.display = 'none'; document.body.appendChild(ifr);
+                const f = document.createElement('form'); f.method = 'POST'; f.action = 'https://formsubmit.co/' + BUG_EMAIL; f.enctype = 'multipart/form-data'; f.target = name; f.style.display = 'none';
+                const add = (k, v) => { const i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = v; f.appendChild(i); };
+                add('_subject', 'AquaFaj – ' + doc.kind + (doc.photo ? ' (fotóval)' : ''));
+                add('_captcha', 'false'); add('_template', 'box');
+                add('Bejelentés', doc.text); add('Típus', doc.kind); add('Felhasználó', doc.email || 'nincs belépve'); add('Részletek', doc.meta);
+                if (doc.photo) {
+                    try {
+                        const bin = atob(doc.photo); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+                        const dt = new DataTransfer(); dt.items.add(new File([u], 'aquafaj_foto.jpg', { type: 'image/jpeg' }));
+                        const fi = document.createElement('input'); fi.type = 'file'; fi.name = 'attachment'; fi.files = dt.files; f.appendChild(fi);
+                    } catch (e) { console.warn('csatolás', e); }
+                }
+                document.body.appendChild(f);
+                let done = false; const fin = ok => { if (done) return; done = true; res(ok); setTimeout(() => { f.remove(); ifr.remove(); }, 30000); };
+                ifr.onload = () => fin(true); setTimeout(() => fin(navigator.onLine), 12000);
+                f.submit();
+            });
+        }
         // Elsődleges: közvetlen beküldés (nem kell levelező, a fotó is megy). Ha nem megy, e-mail.
         async function sendBugReport() {
             const text = document.getElementById('bugText').value.trim();
             if (!text) { showToast('Írd le röviden, mi a gond.', true); return; }
             const btn = document.getElementById('bugSendLabel'); const old = btn.innerText; btn.innerText = 'Küldés…';
             try {
-                if (!fbDb) throw new Error('nincs felhő');
                 const b64 = bugPhotoB64();
                 const doc = { kind: bugKind, text: text.slice(0, 2900), meta: bugBody().split('----').pop().trim().slice(0, 1500), createdAt: Date.now() };
                 if (fbUser) { doc.uid = fbUser.uid; doc.email = fbUser.email || ''; }
                 if (b64 && document.getElementById('bugWithPhoto').checked && !document.getElementById('bugHint').classList.contains('hidden')) { const sm = await shrinkB64(b64); if (sm) doc.photo = sm; }
-                await Promise.race([fbDb.collection('reports').add(doc), new Promise((_, rej) => setTimeout(() => rej(new Error('időtúllépés')), 15000))]);
+                const mailP = emailInBackground(doc);
+                const dbP = fbDb ? Promise.race([fbDb.collection('reports').add(doc), new Promise((_, rej) => setTimeout(() => rej(new Error('időtúllépés')), 15000))]).then(() => true, e => { console.warn(e); return false; }) : Promise.resolve(false);
+                const [mailOk, dbOk] = await Promise.all([mailP, dbP]);
+                if (!mailOk && !dbOk) throw new Error('egyik sem ment');
                 closeModal('bugModal'); document.getElementById('bugText').value = '';
                 showToast(doc.photo ? 'Elküldve a fotóval együtt. Köszönjük!' : 'Elküldve. Köszönjük!');
             } catch (e) {
