@@ -1,0 +1,83 @@
+{
+ "id": "xiphophorus-variatus",
+ "tipus": "hal",
+ "latin": "Xiphophorus variatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "variatus platti",
+ "egyeb_nevek": [
+  "variatus",
+  "színes platti"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Poeciliidae",
+ "csoport": "élőhelyi halak",
+ "szarmazas": "Közép-Amerika",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "nyugodt, csoportos, kevés agresszió",
+ "rajhal": "killi",
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 7.8,
+ "gh_min": 6,
+ "gh_max": 15,
+ "taplalek": "élő növényzet, úszó növények",
+ "tarsithato": true,
+ "kerulendo": [
+  "nagyon agresszív fajok",
+  "túl szűk tér"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Válassz egészséges hím- és nősténypárokat",
+  "Biztosíts legalább 60 l akváriumot, sok növényt",
+  "Tartsd a hőmérsékletet 24‑27 °C‑on, pH‑t 7‑re",
+  "Adj napi 2‑3 alkalommal élő vagy fagyasztott artémiát",
+  "Gyűjtsd össze a szabadon úszó ikrákat (ikra‑szűrő)",
+  "Helyezd az ikrákat külön, szűrő nélküli „ikra‑tartályba”, ahol 27 °C‑on kelnek ki"
+ ],
+ "ivari_kulonbseg": "hímeknek élénk színű, gyakran fekete foltok a testén",
+ "felismeres_jegyek": [
+  "kicsi, ovális test",
+  "színes, foltos farok",
+  "hímeknek fekete vagy sötét foltok a mellkason",
+  "nagy úszólemez"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus maculatus",
+   "magyar_nev": "platti",
+   "kulonbseg": "variatusban gyakrabban előfordulnak sötét foltok"
+  },
+  {
+   "latin": "Xiphophorus helleri",
+   "magyar_nev": "kardfarkú",
+   "kulonbseg": "helleri hosszabb, hegyes farok"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis",
+  "velvet",
+  "gombás fertőzés"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 300,
+ "ar_ft_max": 850,
+ "tippek": [
+  "Kerüld a túl erős szűrőt, ami a fiatal ikrákat elszívhatja",
+  "Rendszeres vízcserével megelőzhető a betegségek terjedése",
+  "Adj elegendő búvóhelyet a növényzetből"
+ ],
+ "lista_nev": "Xiphophorus variatus",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

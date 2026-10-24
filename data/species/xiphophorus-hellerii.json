@@ -1,0 +1,83 @@
+{
+ "id": "xiphophorus-hellerii",
+ "tipus": "hal",
+ "latin": "Xiphophorus helleri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "kardfarkú",
+ "egyeb_nevek": [
+  "kardfarkú platti",
+  "helleri"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "élőhelyi halak",
+ "szarmazas": "Közép-Amerika",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "erősen területvédő, kisebb halakkal gyakran harcol",
+ "rajhal": "killi",
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "élő növényzet, de sok úszóhely",
+ "tarsithato": true,
+ "kerulendo": [
+  "nagyon agresszív fajok",
+  "túl szűk akvárium"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Válassz erős, egészséges hím- és nősténypárokat",
+  "Biztosíts legalább 80 l akváriumot, sok búvóhelyet",
+  "Tartsd a hőmérsékletet 25‑27 °C‑on, pH‑t 7.5‑re",
+  "Adj napi 2‑3 alkalommal élő vagy fagyasztott artémiát",
+  "Gyűjtsd össze a szabadon úszó ikrákat (ikra‑szűrő)",
+  "Helyezd az ikrákat külön, szűrő nélküli „ikra‑tartályba”, ahol 27 °C‑on kelnek ki"
+ ],
+ "ivari_kulonbseg": "hímeknek hosszú, hegyes, „kardfarkú” farok; nőstényeknek rövidebb farok",
+ "felismeres_jegyek": [
+  "hosszú, hegyes farok",
+  "erős, izmos test",
+  "hímeknek élénk színű mellkas",
+  "nagy úszólemez"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus maculatus",
+   "magyar_nev": "platti",
+   "kulonbseg": "helleri farok hegyes, plattiéknél sima"
+  },
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "guppi",
+   "kulonbseg": "helleri nagyobb, erősebb test"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis",
+  "velvet",
+  "bakteriális fertőzés"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Tartsd a hőmérsékletet stabilan, ne engedd, hogy 30 °C alá csökkenjen",
+  "Kerüld a túlzott populációt, hogy csökkenjen a területvédő harcok száma",
+  "Adj elegendő búvóhelyet, hogy a hímek ne legyenek folyamatosan agresszívak"
+ ],
+ "lista_nev": "Xiphophorus hellerii",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}
