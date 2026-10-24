@@ -11,7 +11,7 @@
   "kind": "app",
   "shot": "scan",
   "caption": "📷 Fotós felismerés",
-  "say": "Az első fül a fotós felismerés. Fotózz le egy halat, növényt vagy garnélát, vagy válassz egy képet a galériából, és a mesterséges intelligencia pár másodperc alatt megmondja, mi az."
+  "say": "Az első fül a fotós felismerés. Felül kiválasztod, mit vizsgálsz: halat vagy garnélát, növényt, beteg halat, vagy algát. Aztán fotózz, vagy válassz egy képet a galériából, és a mesterséges intelligencia pár másodperc alatt megmondja, mi az."
  },
  {
   "id": "03",
@@ -26,6 +26,27 @@
   "shot": "price",
   "caption": "🏷️ Ár és hol kapható",
   "say": "Azt is azonnal látod, hogy összefér-e a meglévő halaiddal. Alatta ott a becsült bolti ár, és egy gombnyomással megrendelheted olcsón az Invital webshopból, ahol rengeteg növény és felszerelés van. Ha inkább személyesen vásárolnál, megnyílik a térkép a hozzád legközelebbi akvarisztikákkal, a webshopok árai és a Jófogás hirdetései is."
+ },
+ {
+  "id": "05a",
+  "kind": "app",
+  "shot": "plant",
+  "caption": "🌿 Növényfelismerés",
+  "say": "Növényt is felismer. Megmondja, mennyi fény és szén-dioxid kell neki, milyen gyorsan nő, hova való az akváriumban, és hogyan szaporíthatod. Ha a növény sárgul vagy lyukas, azt is elárulja, mi lehet a baj."
+ },
+ {
+  "id": "05b",
+  "kind": "app",
+  "shot": "symptoms",
+  "caption": "🩺 Beteg hal – tünetek",
+  "say": "És ami talán a legfontosabb: a beteg hal. Mivel a tünetek a fotón nem mindig látszanak jól, a saját tapasztalatodat is leírhatod. Koppints a jellemző tünetekre, például fehér pöttyök, dörzsölődik, nem eszik, és írd hozzá, mióta tart. Ha nem sikerül jó fotót csinálni, fotó nélkül, csak a leírás alapján is elemez."
+ },
+ {
+  "id": "05c",
+  "kind": "app",
+  "shot": "disease",
+  "caption": "💊 Kezelés és gyógyszer",
+  "say": "Megkapod a valószínű betegséget, hogy mennyire sürgős, és lépésről lépésre, mit tegyél. Megmondja a gyógyszer hatóanyagát és a nálunk kapható termékeket, egy gombnyomással megrendelheted, és szól, ha a szer veszélyes a garnéláidra vagy a csigáidra."
  },
  {
   "id": "05",

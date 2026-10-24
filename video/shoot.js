@@ -27,6 +27,21 @@ const MOCK = { tipus: 'hal', magyar_nev: 'Neonhal', latin: 'Paracheirodon innesi
   leiras: 'Békés, csapatban élő dél-amerikai pontylazac. Legalább 8–10 egyedet tarts belőle, sűrűn növényesített, enyhén savas vízben.',
   max_meret_cm: 4, termeszet: 'bekes', ar_ft_min: 250, ar_ft_max: 450 };
 
+const PLANT = { tipus: 'noveny', magyar_nev: 'Törpe anubiasz', latin: 'Anubias barteri var. nana', biztossag: 91,
+  lathato: 'Sötétzöld, kerekded, vastag levelek rövid száron, kúszó gyökértörzs.', alternativak: [],
+  leiras: 'Szinte elpusztíthatatlan, lassú növésű növény. Kőre vagy gyökérre kötve a legszebb, a talajba ne temesd a gyökértörzsét.',
+  feny: 'alacsony', co2: 'nem_kell', novekedes: 'lassu', elhelyezes: 'dekoracio_ko_fa', max_magassag_cm: 10, szaporitas: 'A gyökértörzs (rizóma) kettévágásával.', allapot: null, ar_ft_min: 1500, ar_ft_max: 2800 };
+const SICK = { tipus: 'betegseg', magyar_nev: 'Pontbetegség (ichthyophthiriasis)', latin: 'Ichthyophthirius multifiliis', biztossag: 88, surgosseg: 'azonnal',
+  lathato: 'A leírás alapján: apró fehér pöttyök a testen, étvágytalanság, dörzsölődés.',
+  alternativak: [{ magyar_nev: 'Bársonybetegség (oodinium)', latin: 'Piscinoodinium', kulonbseg: 'Finom, aranyporszerű bevonat, nem különálló pöttyök.' }],
+  leiras: 'Egysejtű élősködő okozza, nagyon ragályos, ezért az egész akváriumot kezelni kell. Időben kezelve jól gyógyul.',
+  teendok: ['Emeld a hőmérsékletet lassan, napi 1 fokkal 27–28 °C-ra', 'Cserélj 30% vizet, és szívd ki a talajt', 'Vedd ki az aktív szenet a szűrőből, erősítsd a levegőztetést', 'Mérd meg az ammóniát és a nitritet'],
+  gyogyszerek: [{ hatoanyag: 'Malachitzöld + formalin', termek: 'JBL Punktol Plus, Sera costapur', megjegyzes: 'Garnélára és csigára veszélyes, a kezelést a tünetek eltűnése után is fejezd be.' }],
+  megelozes: 'Az új halakat 2 hétig tartsd karanténban, és kerüld a hirtelen hőmérséklet-változást.', allatorvos: 'Ha 3–4 nap kezelés után sem javul, vagy egyre több hal beteg.' };
+const PLANT_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"><rect width="1200" height="900" fill="#0d3b2e"/>
+<ellipse cx="600" cy="760" rx="420" ry="90" fill="#5b4636"/><path d="M380 720 C 500 700, 700 700, 820 720" stroke="#3f2f22" stroke-width="40" fill="none" stroke-linecap="round"/>
+${[[-250,-260,-30],[-120,-330,-10],[20,-350,8],[150,-310,22],[260,-240,40],[-60,-210,-20],[90,-200,15]].map(([x,y,r])=>`<g transform="translate(${600+x*0.7} ${720+y}) rotate(${r})"><ellipse rx="70" ry="120" fill="#1f6b3a"/><path d="M0 -110 L0 110" stroke="#2f8a4f" stroke-width="5"/></g><path d="M${600+x*0.7} ${720+y+110} L${600+x*0.3} 715" stroke="#2a5c34" stroke-width="10"/>`).join('')}</svg>`;
+
 async function wireCss(page) {
   if (!process.env.LOCAL_CSS) return;
   const css = fs.readFileSync(process.env.LOCAL_CSS, 'utf8');
@@ -39,12 +54,14 @@ async function wireCss(page) {
   // Hal "fotó"
   const fp = await browser.newPage({ viewport: { width: 1200, height: 900 } });
   await fp.setContent(`<body style="margin:0">${FISH_SVG}</body>`);
-  const fishPng = path.join(OUT, 'fish.png'); await fp.screenshot({ path: fishPng }); await fp.close();
+  const fishPng = path.join(OUT, 'fish.png'); await fp.screenshot({ path: fishPng });
+  await fp.setContent(`<body style="margin:0">${PLANT_SVG}</body>`); const plantPng = path.join(OUT, 'plant.png'); await fp.screenshot({ path: plantPng }); await fp.close();
 
   // App képernyőképek telefonméretben
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2.5, isMobile: true, hasTouch: true });
   const page = await ctx.newPage(); await wireCss(page);
-  await page.route(/generativelanguage/, r => setTimeout(() => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ candidates: [{ content: { parts: [{ text: JSON.stringify(MOCK) }] } }] }) }), 300));
+  await page.route(/generativelanguage/, r => { const pr = r.request().postData() || ''; const ans = /halorvos/.test(pr) ? SICK : /növényhatározó/.test(pr) ? PLANT : MOCK;
+    setTimeout(() => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ candidates: [{ content: { parts: [{ text: JSON.stringify(ans) }] } }] }) }), 300); });
   await page.route(/firebasejs/, r => r.abort());
   await page.addInitScript(() => {
     try { localStorage.setItem('aquaFajProSeenGuide', '1'); } catch (e) {}
@@ -70,6 +87,21 @@ async function wireCss(page) {
   await page.evaluate(() => { const e = [...document.querySelectorAll('#scanResultContent div')].find(d => /Ár és beszerzés/.test(d.textContent) && d.className.includes('rounded-xl')); e.classList.add('demo-target'); });
   await hl('.demo-target'); await shot('price');
   await hl(null);
+  // Növény
+  await page.evaluate(() => { setScanMode('noveny'); document.getElementById('uploadPrompt').classList.remove('hidden'); });
+  { const ins = await page.$$('input[type=file][accept^="image"]'); await ins[ins.length - 1].setInputFiles(plantPng); }
+  await page.waitForTimeout(2500); await prep();
+  await page.evaluate(() => { document.getElementById('uploadPrompt').classList.add('hidden'); document.getElementById('scanResultContent').scrollIntoView({ block: 'start' }); scrollBy(0, -150); }); await page.waitForTimeout(400);
+  await shot('plant');
+  // Beteg hal: tünetgombok
+  await page.evaluate(() => { setScanMode('beteg'); document.getElementById('scanPreview').classList.add('hidden'); document.getElementById('uploadPrompt').classList.remove('hidden'); document.getElementById('scanResultContent').innerHTML = ''; document.getElementById('scanAccuracy').classList.add('hidden'); document.getElementById('scanActions').classList.add('hidden'); });
+  for (const t of ['fehér pöttyök', 'dörzsölődik a tárgyakon', 'nem eszik', 'új halat tettem be nemrég']) await page.evaluate(t => addSymptom(t), t);
+  await page.evaluate(() => { const n = document.getElementById('scanNote'); n.value += ', guppi, 2 napja kezdődött'; document.getElementById('scanModes').scrollIntoView({ block: 'start' }); scrollBy(0, -20); });
+  await page.waitForTimeout(400); await hl('#scanNote'); await shot('symptoms'); await hl(null);
+  await page.evaluate(() => analyzeTextOnly()); await page.waitForTimeout(2500); await prep();
+  await page.evaluate(() => { const e = [...document.querySelectorAll('#scanResultContent div')].find(d => /Mit tegyél most/.test(d.textContent) && d.className.includes('rounded-xl')); e.scrollIntoView({ block: 'start' }); scrollBy(0, -260); }); await page.waitForTimeout(400);
+  await shot('disease');
+  await page.evaluate(() => { setScanMode('hal'); document.getElementById('scanNote').value = ''; document.getElementById('scanResultContent').innerHTML = ''; });
   await tab('tab1'); await page.evaluate(() => scrollTo(0, 0)); await shot('tab1');
   await tab('tab2'); await to('#stockCheckBox'); await hl('#stockCheckBox'); await shot('tab2'); await hl(null);
   await tab('tab3'); await to('#waterChart'); await page.waitForTimeout(800); await shot('tab3');
