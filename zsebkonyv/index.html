@@ -1504,6 +1504,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             return `<div class="p-3 rounded-xl border border-teal-500/30 bg-teal-500/5 space-y-2 text-[11px]">
                 <div class="font-semibold text-teal-300"><i class="fa-solid fa-tag mr-1"></i>Ár és beszerzés</div>
                 ${price ? `<div class="text-slate-100 text-sm font-bold">${price} <span class="text-[10px] font-normal text-slate-400">/ db, becsült bolti ár</span></div>` : '<div class="text-slate-400">Az árat a lenti keresésekkel nézd meg.</div>'}
+                <a href="https://www.google.com/search?q=site%3Ainvitalpet.hu+${q}" target="_blank" rel="noopener" class="flex items-center gap-2 p-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold shadow"><i class="fa-solid fa-leaf w-4 text-center"></i><span>Invital webshop – rendeld meg olcsón<br><span class="text-[10px] font-normal opacity-90">Növények, felszerelés, házhoz szállítva</span></span></a>
                 <div class="grid grid-cols-1 gap-1.5">
                     ${link('https://www.google.com/maps/search/akvarisztika', 'fa-solid fa-location-dot', 'Akvarisztikák a közelben (térkép)')}
                     ${link('https://www.google.com/search?tbm=shop&q=' + ql, 'fa-solid fa-cart-shopping', 'Webshopok és árak')}
