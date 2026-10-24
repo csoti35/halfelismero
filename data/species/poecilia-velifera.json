@@ -1,0 +1,91 @@
+{
+ "id": "poecilia-velifera",
+ "tipus": "hal",
+ "latin": "Poecilia velifera",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Óriás vitorlás molli",
+ "egyeb_nevek": [
+  "velifera guppi",
+  "színes guppi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Poecilia",
+ "szarmazas": "Közép- és Dél-Amerika",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nyugodt, csoportos hal, nem agresszív a többi békés fajjal.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "élő vagy fagyasztott artémia, daphnia, mikroszkopikus plankton",
+ "tarsithato": [
+  "más guppik",
+  "neonhalak",
+  "harcsa",
+  "platti"
+ ],
+ "kerulendo": [
+  "agresszív harcsák",
+  "nagy testű harcsa",
+  "nagy testű harcsa"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Válassz egész, fiatal hím- és nősténypárokat.",
+  "Biztosíts magas növekedési sebességű táplálékot (mikroélő, fagyasztott artémia).",
+  "A nőstény 30‑40 nap alatt szül 20‑30 ikrát.",
+  "Gyűjtsd össze az ikrákat egy szűrőkosárral, hogy megakadályozd a szülés utáni fogyasztást.",
+  "Az ikrákat 24‑48 órán belül tartsd külön, majd fokozatosan szoktasd vissza a fő akváriumba."
+ ],
+ "szaporitas_lepesek_nehezseg": 1,
+ "ivari_kulonbseg": "A hímnek színes farokfénye, a nősténynek kerekded test és kevesebb szín.",
+ "felismeres_jegyek": [
+  "élénk színpompás farok",
+  "kicsi test, 2‑3 cm",
+  "férfiak hosszú, színes farokszárny",
+  "nőstények kerekded test",
+  "szárnyak szimmetrikus elhelyezkedése"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "guppi",
+   "kulonbseg": "P. velifera nagyobb testű, színesebb farok"
+  },
+  {
+   "latin": "Poecilia wingei",
+   "magyar_nev": "winge guppi",
+   "kulonbseg": "P. wingei élénkebb szín, de kisebb test"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ichthyophthirius multifiliis (fehér folt)",
+  "Velvet (Oodinium)",
+  "Bacterial gill disease"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 250,
+ "ar_ft_max": 500,
+ "tippek": [
+  "Tartsd a víz hőmérsékletét stabilan 24‑26 °C‑on.",
+  "Adj napi több kisebb takarmányadagban, hogy elkerüld a túltápítást.",
+  "Rendszeres vízcserék (20 % hetente) megelőzik a betegségeket."
+ ],
+ "lista_nev": "Poecilia velifera",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

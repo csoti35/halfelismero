@@ -1,0 +1,86 @@
+{
+ "id": "hyphessobrycon-herbertaxelrodi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon herbertaxelrodi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fekete neon",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "tölgyes guppik",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nyugodt, csoportos hal, nem agresszív a többi békés fajjal.",
+ "rajhal": "killi",
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "élő vagy fagyasztott artémia, daphnia, mikroszemcsés tápok.",
+ "tarsithato": [
+  "törpe neonhal",
+  "cichlidae",
+  "más guppik"
+ ],
+ "kerulendo": [
+  "nagyméretű agresszív cichlidae",
+  "nagy testű harcsa"
+ ],
+ "szaporodas_mod": "élő szaporodás",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Kiválasztott, növényekkel dúsított akváriumot biztosítunk.",
+  "Felnőtt hímek és nőstények aránya 1:2-1:3.",
+  "A hím színes farokúszóival vonzza a nőstényt.",
+  "A nőstény ikrákat a növényekre vagy szivacsra rakja.",
+  "Az ikrák 24‑48 órán belül kelnek ki.",
+  "Az újszülötteket finom mikrotápokkal etetjük."
+ ],
+ "szaporitas_lepesek_leiras": "",
+ "ivari_kulonbseg": "A hímnek élénk színes farokúszója, a nősténynek tompább színezés.",
+ "felismeres_jegyek": [
+  "Kicsi, ovális test",
+  "Fényes, piros‑narancssárga farokúszó",
+  "Fején fehér csík",
+  "Nőstényen kevésbé színes farok"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon pulchripinnis",
+   "magyar_nev": "szép szárnyú guppi",
+   "kulonbseg": "farokúszó színe élénkebb, testén fekete foltok"
+  },
+  {
+   "latin": "Hyphessobrycon amandae",
+   "magyar_nev": "Amanda guppi",
+   "kulonbseg": "fején vízszintes fehér csík helyett függőleges csík"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ichthyophthirius multifiliis (fehér folt)",
+  "Velvet disease (Oodinium)",
+  "Fungális gombásodás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 550,
+ "tippek": [
+  "Tartsd a víz hőmérsékletét stabilan 24‑26 °C‑on.",
+  "Kerüld a túlzott fényerőt – 8‑10 óra napfény elegendő.",
+  "Rendszeres vízcserével (25 % hetente) megelőzheted a betegségeket."
+ ],
+ "lista_nev": "Hyphessobrycon herbertaxelrodi",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

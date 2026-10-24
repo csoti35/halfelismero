@@ -1,0 +1,83 @@
+{
+ "id": "thayeria-boehlkei",
+ "tipus": "hal",
+ "latin": "Thayeria boehlkei",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pingvinhal (ferdén úszó pontylazac)",
+ "egyeb_nevek": [
+  "pencil fish"
+ ],
+ "magyar_nev_bizonytatan": false,
+ "csalad": "Characidae",
+ "csoport": "tetra",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 4,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Lassú áramlatú, növényekkel dúsított víz, csoportos úszás.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.2,
+ "ph_max": 7.2,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "apró élőlények, mikroszkopikus rovarok, fagyasztott daphnia",
+ "tarsithato": [
+  "nyugodt tetra fajok",
+  "például neonhal",
+  "emberi rasbora"
+ ],
+ "kerulendo": [
+  "nagyon agresszív vagy nagy testű halfajok"
+ ],
+ "szaporodas_mod": "ikra",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím színesebb, a nősténynek kerekded testű, világosabb has.",
+  "A pár a növényzet közelében vagy úszó szivacsoknál ikrát rak le.",
+  "Az ikrák 24‑48 órán belül kelnek ki, a fiatalok 2‑3 hét után önállóak."
+ ],
+ "ivari_kulonbseg": "A hímnek hosszabb, hegyes úszófej és élénkebb színű test.",
+ "felismeres_jegyek": [
+  "Karcsú test, hosszú, hegyes úszófej",
+  "Fekete csík a hát közepén",
+  "Könnyen felismerhető fehér csík a hason"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Thayeria boehlkei",
+   "magyar_nev": "boehlkei thayeria",
+   "kulonbseg": "nincs, ez a faj"
+  },
+  {
+   "latin": "Hyphessobrycon pulchripinnis",
+   "magyar_nev": "szép szárnyú tetra",
+   "kulonbseg": "szárnyak színe élénkebb, test kisebb"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ichthyophthirius multifiliis",
+  "Velvet disease",
+  "Bakteriális uszonygyulladás"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Tartsd a víz pH‑ját 6,5‑7,0 között.",
+  "Biztosíts sűrű növényzetet a szaporodáshoz.",
+  "Kerüld a hirtelen hőmérséklet‑változást."
+ ],
+ "lista_nev": "Thayeria boehlkei",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_bizonytalan": false,
+ "magyar_nev_kuralt": true
+}

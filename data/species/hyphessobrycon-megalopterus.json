@@ -1,0 +1,85 @@
+{
+ "id": "hyphessobrycon-megalopterus",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon megalopterus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fekete fantomlazac",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "tölgyes guppik",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 5.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Csendes, csoportos faj, jól tolerálja a közepes áramlást.",
+ "rajhal": "killi",
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.2,
+ "ph_max": 7.4,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "élő artémia, mikrotáp, apró pellet.",
+ "tarsithato": [
+  "törpe neonhal",
+  "más guppik",
+  "békés cichlidae"
+ ],
+ "kerulendo": [
+  "nagy agresszív harcsa",
+  "nagy testű cichlidae"
+ ],
+ "szaporodas_mod": "élő szaporodás",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosíts dús növényzetet vagy szivacsot ikrák lerakásához.",
+  "Hímek és nőstények aránya 1:2.",
+  "A hím színes, nagy farokúszóval vonzza a nőstényt.",
+  "A nőstény ikrákat a növényekre helyezi.",
+  "Az ikrák 1‑2 nap alatt kelnek ki.",
+  "Az újszülötteket apró mikrotápokkal etetjük."
+ ],
+ "ivari_kulonbseg": "A hímnek hosszú, szárnyas farokúszója; a nősténynek rövidebb, kevésbé színes farok.",
+ "felismeres_jegyek": [
+  "Közepes méretű, ovális test",
+  "Jellegzetes, nagy, szárnyas farokúszó",
+  "Fején vízszintes fehér csík",
+  "Szín: élénk narancs‑vörös"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon herbertaxelrodi",
+   "magyar_nev": "Axelrod guppi",
+   "kulonbseg": "farokúszó rövidebb, kevésbé szárnyas"
+  },
+  {
+   "latin": "Hyphessobrycon pulchripinnis",
+   "magyar_nev": "szép szárnyú guppi",
+   "kulonbseg": "színvilág sötétebb, testén fekete foltok"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ichthyophthirius multifiliis",
+  "Velvet disease",
+  "Bakteriális gills disease"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 380,
+ "ar_ft_max": 600,
+ "tippek": [
+  "Kerüld a túl magas nitrit- és ammónia szintet.",
+  "Rendszeres, de nem túl gyakori takarítás segít a stabil vízminőségben.",
+  "Alacsony szűrőáramú, de jól szellőző akvárium ideális."
+ ],
+ "lista_nev": "Hyphessobrycon megalopterus",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

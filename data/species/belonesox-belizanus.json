@@ -1,0 +1,79 @@
+{
+ "id": "belonesox-belizanus",
+ "tipus": "hal",
+ "latin": "Belonesox belizanus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "belizai harcsa",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "ragadozó halak",
+ "szarmazas": "Közép‑Amerika (Belize, Guatemala)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "nagyon ragadozó, agresszív, területvédő",
+ "rajhal": true,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.8,
+ "ph_max": 7.8,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "élőhalak, aranyhal, apró garnélák, artémia",
+ "tarsithato": [
+  "nagyobb cichlidae",
+  "más ragadozók"
+ ],
+ "kerulendo": [
+  "kisebb békés halak",
+  "békés közösségek"
+ ],
+ "szaporodas_mod": "légyhalál",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Párzás után a nőstény a petéket a növényzetbe vagy sziklafalra helyezi",
+  "Peték kelnek ki 5‑7 nap alatt",
+  "Fiatal halak 2‑3 hét után önállóak, de még táplálékot igényelnek"
+ ],
+ "ivari_kulonbseg": "hímeknek hosszabb, hegyes újszájú száj, nőstények kisebb",
+ "felismeres_jegyek": [
+  "Vékony, harcsaszerű test",
+  "Hosszú, hegyes újszájú száj",
+  "Fekete csík a hát közepén"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cichla ocellaris",
+   "magyar_nev": "sárga harcsa",
+   "kulonbseg": "test nagyobb, színvilág sárga‑fekete"
+  },
+  {
+   "latin": "Pseudoplatystoma fasciatum",
+   "magyar_nev": "pálcás harcsa",
+   "kulonbseg": "test vastagabb, csíkok más elrendezésben"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ich",
+  "Fin rot (bakteriális)",
+  "Vírusos betegség (Lymphocystis)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Csak nagy, erősen szűrt akváriumban (200 L+)",
+  "Biztosíts erős rejtőző helyeket és magas vízoszlopot",
+  "Ne tarts vele békés, kisebb halakat"
+ ],
+ "lista_nev": "Belonesox belizanus",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

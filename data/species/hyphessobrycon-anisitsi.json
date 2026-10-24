@@ -1,0 +1,83 @@
+{
+ "id": "hyphessobrycon-anisitsi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon anisitsi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "anisitsi tarka",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalo": false,
+ "csalad": "Characidae",
+ "csoport": "tarka",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nyugodt, csoportos hal, nem agresszív a többi kisebb halfajjal.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "élő és fagyasztott artémia, mikroszkopikus élőlények, apró pellet.",
+ "tarsithato": [
+  "társas halak",
+  "pl. neonhal",
+  "platy",
+  "molli",
+  "más tarkaok."
+ ],
+ "kerulendo": [
+  "nagyméretű vagy erősen területvédő fajok."
+ ],
+ "szaporodas_mod": "ikrás",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hímek színesebben jelennek meg a párzási időszakban.",
+  "A nőstények a növényzet közelében lerakják az ikrákat (10‑30 db).",
+  "Az ikrák 24‑48 óra alatt kelnek ki.",
+  "Az újszülött ikrek 2‑3 napig élnek a szülői vizeletben, majd önállóan táplálkoznak."
+ ],
+ "ivari_kulonbseg": "nincs jelentős külső különbség, a hímek élénkebb színűek.",
+ "felismeres_jegyek": [
+  "kicsi, ovális test",
+  "élénk piros‑narancssárga szín a hát és a farok körül",
+  "fehér foltok a mellkason",
+  "száraz, szúrós uszon"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon pulchripinnis",
+   "magyar_nev": "szép szárnyú tarka",
+   "kulonbseg": "szárnyak szélén fehér szegély"
+  },
+  {
+   "latin": "Hyphessobrycon flammeus",
+   "magyar_nev": "lángos tarka",
+   "kulonbseg": "intenzívebb vörös szín a háton"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis (fehér folt)",
+  "velvet (velvet disease)",
+  "gombás fertőzés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 550,
+ "tippek": [
+  "Tartsd a víz hőmérsékletét 24‑26 °C‑n.",
+  "Biztosíts sok növényt a szaporodáshoz.",
+  "Kerüld a túl nagy populációt, mert a fiatalok könnyen elpusztulnak."
+ ],
+ "lista_nev": "Hyphessobrycon anisitsi",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

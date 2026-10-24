@@ -1,0 +1,87 @@
+{
+ "id": "xiphophorus-variatus",
+ "tipus": "hal",
+ "latin": "Xiphophorus variatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "variáns platti",
+ "egyeb_nevek": [
+  "vari platti",
+  "színes platti"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Xiphophorus",
+ "szarmazas": "Mexikó, Közép-Amerika",
+ "max_meret_cm": 6,
+ "elettartam_ev": 2,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Közepesen agresszív, főként a hímek a nőstényekhez viszonyulva.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 7.8,
+ "gh_min": 8,
+ "gh_max": 15,
+ "taplalek": "élő vagy fagyasztott artémia, daphnia, mikroszkopikus plankton",
+ "tarsithato": [
+  "más plattik",
+  "guppi",
+  "neonhalak"
+ ],
+ "kerulendo": [
+  "nagyon agresszív harcsák",
+  "nagy testű harcsa"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Válassz egész, fiatal hím- és nősténypárokat.",
+  "Adj magas fehérjetartalmú takarmányt (mikroélő, fagyasztott artémia).",
+  "A nőstény 30‑45 nap alatt szül 20‑40 ikrát.",
+  "Gyűjtsd össze az ikrákat szűrőkosárral, hogy megakadályozd a szülés utáni fogyasztást.",
+  "Az ikrákat 24‑48 órán belül külön tartsd, majd fokozatosan szoktasd vissza a fő akváriumba."
+ ],
+ "ivari_kulonbseg": "Hímnek hosszabb, színes farok; nősténynek kerekded test, kevesebb folt.",
+ "felismeres_jegyek": [
+  "testen kevésbé kontrasztos foltok",
+  "hímnek élénk, színes farok",
+  "nőstények kerekded test",
+  "szárnyak alacsonyan helyezkednek el",
+  "színárnyalatok változatos, de általában világosabb"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus maculatus",
+   "magyar_nev": "platti",
+   "kulonbseg": "X. maculatus nagyobb, jellegzetes fekete foltok"
+  },
+  {
+   "latin": "Xiphophorus helleri",
+   "magyar_nev": "kardfarkú platti",
+   "kulonbseg": "hímnek hegyes farok, erősebb szín"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ichthyophthirius multifiliis",
+  "Velvet",
+  "Fin rot"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 280,
+ "ar_ft_max": 550,
+ "tippek": [
+  "Tartsd a víz hőmérsékletét 24‑26 °C‑on.",
+  "Kerüld a túlzott hím-dominanciát – több nőstény a hímeknél.",
+  "Rendszeres vízcserék (20 % hetente) csökkentik a stresszt."
+ ],
+ "lista_nev": "Xiphophorus variatus",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

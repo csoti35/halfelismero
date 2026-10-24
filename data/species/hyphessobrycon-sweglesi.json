@@ -1,0 +1,85 @@
+{
+ "id": "hyphessobrycon-sweglesi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon sweglesi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vörös fantomlazac",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "tölgyes guppik",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 4.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Csendes, békés faj, jól együtt él más békés halfajokkal.",
+ "rajhal": "killi",
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 10,
+ "taplalek": "élő artémia, mikrotáp, apró pellet.",
+ "tarsithato": [
+  "törpe neonhal",
+  "más guppik",
+  "békés cichlidae"
+ ],
+ "kerulendo": [
+  "nagy agresszív harcsa",
+  "nagy testű cichlidae"
+ ],
+ "szaporodas_mod": "élő szaporodás",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Akvariumot dús növényzettel vagy szivaccsal felszerelünk.",
+  "Hímek és nőstények aránya 1:2.",
+  "A hím színes farokúszóval vonzza a nőstényt.",
+  "A nőstény ikrákat a növényekre vagy szivacsra rakja.",
+  "Az ikrák 1‑2 nap alatt kelnek ki.",
+  "Az újszülötteket finom mikrotápokkal etetjük."
+ ],
+ "ivari_kulonbseg": "Hímnek élénk kék‑zöld színű test, nőstény színe tompább.",
+ "felismeres_jegyek": [
+  "Kicsi, ovális test",
+  "Fején vízszintes fehér csík",
+  "Szín: kék‑zöld árnyalat",
+  "Farokúszó rövid, piros"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon herbertaxelrodi",
+   "magyar_nev": "Axelrod guppi",
+   "kulonbseg": "színvilág más, farokúszó pirosabb"
+  },
+  {
+   "latin": "Hyphessobrycon megalopterus",
+   "magyar_nev": "nagy szárnyú guppi",
+   "kulonbseg": "farokúszó sokkal nagyobb, szárnyasabb"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ichthyophthirius multifiliis",
+  "Velvet disease",
+  "Fungális bőrgyulladás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 340,
+ "ar_ft_max": 520,
+ "tippek": [
+  "Tartsd a víz pH‑ját 6,5‑7,0 között.",
+  "Kerüld a túl erős áramlást – a faj kedveli a nyugodt vízáramot.",
+  "Rendszeres, de mérsékelt takarítás segít a stabil környezetben."
+ ],
+ "lista_nev": "Hyphessobrycon sweglesi",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

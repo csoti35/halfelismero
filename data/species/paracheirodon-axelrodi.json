@@ -1,0 +1,88 @@
+{
+ "id": "paracheirodon-axelrodi",
+ "tipus": "hal",
+ "latin": "Paracheirodon axelrodi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vörös neonhal (kardinálishal)",
+ "egyeb_nevek": [
+  "Axelrod neonhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Neonhalak",
+ "szarmazas": "Amazonas-medence, Brazília",
+ "max_meret_cm": 3.0,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Csoportos, békés úszás a felső vízrétegben, nem agresszív.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "élő vagy fagyasztott artémia, mikrofa, finom flake.",
+ "tarsithato": [
+  "Paracheirodon innesi",
+  "Paracheirodon simulans",
+  "más békés apró halak."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív fajok",
+  "túl szűk akvárium."
+ ],
+ "szaporodas_mod": "ikra",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A víz hőmérsékletét 24‑26 °C‑ra emeljük.",
+  "pH‑t 6.0‑ra állítjuk, lágy GH‑t biztosítunk.",
+  "Sűrű növényzetet, fűszálas szűkítőket helyezünk el.",
+  "A hímek színesebb kék csíkot mutatnak, párosodás után a nőstény ikrákat rakja a növényekre.",
+  "Az ikrák 3‑4 nap alatt kelnek ki, a fryek 5‑7 nap múlva úsznak."
+ ],
+ "ivari_kulonbseg": "A hímek élénkebb kék csík, nőstények színe halványabb.",
+ "felismeres_jegyek": [
+  "erős kék‑fehér vízszintes csík a test közepén",
+  "színes, áttetsző has",
+  "max. 3 cm hosszú",
+  "hosszú, vékony úszó",
+  "fényes, szivárványos farok"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paracheirodon innesi",
+   "magyar_nev": "neonhal",
+   "kulonbseg": "kisebb test, szűkebb csík"
+  },
+  {
+   "latin": "Paracheirodon simulans",
+   "magyar_nev": "neonhal",
+   "kulonbseg": "színtelítettség alacsonyabb"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis",
+  "velvet disease",
+  "gombás fertőzés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 600,
+ "tippek": [
+  "Tartsd a vízparamétereket stabilan, különösen a pH‑t.",
+  "Biztosíts elegendő úszóhelyet és növényt a szaporodáshoz.",
+  "Kerüld a túlzott fényerőt, ami stresszt okozhat."
+ ],
+ "lista_nev": "Paracheirodon axelrodi",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

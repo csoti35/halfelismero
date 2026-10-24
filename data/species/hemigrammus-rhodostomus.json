@@ -1,0 +1,84 @@
+{
+ "id": "hemigrammus-rhodostomus",
+ "tipus": "hal",
+ "latin": "Hemigrammus rhodostomus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vörösorrú pontylazac",
+ "egyeb_nevek": [
+  "rövidfarokú neon tetra"
+ ],
+ "magyar_nev_bizonytalo": false,
+ "csalad": "Characidae",
+ "csoport": "tetra",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 3.0,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, iskolai faj, hasonló viselkedés a H. erythrozonus-hoz.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "fagyasztott vagy élő apró élőlények (artémia, mikroszkópikus férgek).",
+ "tarsithato": [
+  "más tetra fajok",
+  "békés rasbora",
+  "békés cichlidae"
+ ],
+ "kerulendo": [
+  "nagyobb területvédő cichlidae",
+  "agresszív harcshalak"
+ ],
+ "szaporodas_mod": "ikra",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Párok szaporodási párba állnak, nőstény a növényzet közelében lerakja az ikrákat.",
+  "20‑30 ikra lerakása, 24‑48 óra után kelnek ki.",
+  "Az ikrák szabadon úsznak, 5‑7 nap alatt felnőnek."
+ ],
+ "ivari_kulonbseg": "A hímek gyakran élénkebb piros színűek a fej és a hát közötti csíknál.",
+ "felismeres_jegyek": [
+  "Test rövidebb, farokúszó kicsi.",
+  "Vörös vízszintes csík a fej és hát között.",
+  "Fehér has, szürke hát."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus erythrozonus",
+   "magyar_nev": "neon tetra",
+   "kulonbseg": "hosszabb farokúszó, színek élénkebbek"
+  },
+  {
+   "latin": "Paracheirodon axelrodi",
+   "magyar_nev": "cardinal tetra",
+   "kulonbseg": "erősebb piros csík, sötétebb test"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ich (fehér folt)",
+  "Velvet",
+  "Fungális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 200,
+ "ar_ft_max": 350,
+ "tippek": [
+  "Tartsd a víz tisztaságát, heti részleges vízcserével.",
+  "Adj elegendő úszóhelyet a szaporodáshoz.",
+  "Kerüld a túl magas nitrit- és ammónia szinteket."
+ ],
+ "lista_nev": "Hemigrammus rhodostomus",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_bizonytalan": false,
+ "magyar_nev_kuralt": true
+}

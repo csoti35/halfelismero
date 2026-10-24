@@ -1,0 +1,85 @@
+{
+ "id": "limia-nigrofasciata",
+ "tipus": "hal",
+ "latin": "Limia nigrofasciata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "limia",
+ "egyeb_nevek": [
+  "fekete csíkasú limia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "limia",
+ "szarmazas": "Közép‑Amerika (Mexikó, Guatemala)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "csoportos, békés, de a hímek időnként területvédőek",
+ "rajhal": "szürke test, fekete vízszintes csíkok a hátán",
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 7.8,
+ "gh_min": 6,
+ "gh_max": 14,
+ "taplalek": "élő artémia, mikroszemcsés tápok, apró fagyasztott plankton",
+ "tarsithato": [
+  "más killi",
+  "békés harcsa",
+  "békés tengerik"
+ ],
+ "kerulendo": [
+  "nagyméretű harcsa",
+  "agresszív testű fajok"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tarts legalább 6 egyedet, 1 hím 5 nőstény arányban",
+  "Biztosíts 24‑26 °C‑t és stabil pH‑t",
+  "Adj napi 2‑3 alkalommal mikro‑tápot",
+  "Az ikrák a szülőnél maradnak, 1‑2 hét után szabadon úsznak",
+  "Eltávolíthatod a hímeket, ha túlzsúfoltságra számítasz"
+ ],
+ "ivari_kulonbseg": "hímek hátán erősebb, sötétebb csíkok",
+ "felismeres_jegyek": [
+  "szürke test",
+  "fekete vízszintes csíkok a hátúszón",
+  "hosszú, szárnyas úszók",
+  "kicsi, ovális fej"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limia melanogaster",
+   "magyar_nev": "limia",
+   "kulonbseg": "L. melanogaster sötétebb, egységes színű"
+  },
+  {
+   "latin": "Heterandria formosa",
+   "magyar_nev": "killi",
+   "kulonbseg": "kisebb test, élénkebb színminták"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis",
+  "velvet",
+  "gombás fertőzés"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 200,
+ "ar_ft_max": 350,
+ "tippek": [
+  "Tartsd a víz keménységét 6‑12 dGH között",
+  "Kerüld a hirtelen hőmérséklet‑változást",
+  "Rendszeres, kisebb vízcserék a stabilitásért"
+ ],
+ "lista_nev": "Limia nigrofasciata",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "hemigrammus-pulcher",
+ "tipus": "hal",
+ "latin": "Hemigrammus pulcher",
+ "regi_latin_nevek": [],
+ "magyar_nev": "szép neonhal",
+ "egyeb_nevek": [
+  "neon tetra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "tetra",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 4,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "csoportos, békés faj, nem harcol más halakkal",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "fagyasztott vagy élő apró élőlények (artémia, daphnia)",
+ "tarsithato": [
+  "apistogramma",
+  "más tetra",
+  "békés cichlidae"
+ ],
+ "kerulendo": [
+  "nagyméretű",
+  "agresszív harcsa"
+ ],
+ "szaporodas_mod": "ikra",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Párok kialakítása 2-3 hetes hőmérséklet növeléssel",
+  "Tojásrakás növényekre vagy szivacsra",
+  "Tojások 24-48 óra után kelnek",
+  "Ikra szabadon úszik, szülő nem gondozza"
+ ],
+ "ivari_kulonbseg": "nincs jelentős ivari dimorfizmus, csak enyhe színkülönbség",
+ "felismeres_jegyek": [
+  "vékony test, ezüstös szín",
+  "élénk kék/fehér csík a hátán",
+  "színpompás, fényes uszonya",
+  "kicsi, körülbelül 4 cm hosszú"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus erythrozonus",
+   "magyar_nev": "vöröscsíkú tetra",
+   "kulonbseg": "háton piros csík helyett kék"
+  },
+  {
+   "latin": "Paracheirodon innesi",
+   "magyar_nev": "neon tetra",
+   "kulonbseg": "test színe élénkabb, piros szegély a faroknál"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis (fehér folt)",
+  "velvet (velvet disease)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 550,
+ "tippek": [
+  "Tartsd a víz hőmérsékletét stabilan 24‑26 °C‑on",
+  "Biztosíts sok úszóhelyet és növényt a rejtekhez",
+  "Kerüld a túl nagy populációt, mert a stressz megnöveli a betegségkockázatot"
+ ],
+ "lista_nev": "Hemigrammus pulcher",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

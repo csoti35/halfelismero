@@ -1,0 +1,84 @@
+{
+ "id": "moenkhausia-sanctaefilomenae",
+ "tipus": "hal",
+ "latin": "Moenkhausia sanctaefilomenae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vörösszemű pontylazac",
+ "egyeb_nevek": [
+  "red-eye tetra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "tetra",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 4,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "csoportos, békés faj, jól együtt él más békés halfajokkal",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "apró élőlények, artémia, mikroszkopikus daphnia",
+ "tarsithato": [
+  "apistogramma",
+  "békés tetra",
+  "kisebb cichlidae"
+ ],
+ "kerulendo": [
+  "nagy",
+  "agresszív harcsa"
+ ],
+ "szaporodas_mod": "ikra",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Hőmérséklet növelése 26‑27 °C‑ra 1 hétig",
+  "Tojásrakás sűrű növényzetre vagy szivacsra",
+  "Tojások 24‑36 óra alatt kelnek",
+  "Ikra szabadon úszik, szülő nem gondozza"
+ ],
+ "ivari_kulonbseg": "hímek élénkebb piros szemek, nőstények szürkébbek",
+ "felismeres_jegyek": [
+  "test szürke‑kék, hátán finom piros csík",
+  "jellemző piros szemek",
+  "mérete 3‑4 cm",
+  "úszók középen, faroknyélnél"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon amandae",
+   "magyar_nev": "amanda tetra",
+   "kulonbseg": "színintenzitás sötétebb, nincs piros szem"
+  },
+  {
+   "latin": "Hemigrammus pulcher",
+   "magyar_nev": "szép neonhal",
+   "kulonbseg": "erősebb neon csík, piros szem hiányzik"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis",
+  "fungus"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 300,
+ "ar_ft_max": 500,
+ "tippek": [
+  "Tartsd a víz tisztaságát, a tetra érzékeny a szennyeződésekre",
+  "Adj elegendő úszóhelyet és növényt a rejtekhez",
+  "Kerüld a túl nagy populációt, a stressz növeli a betegségkockázatot"
+ ],
+ "lista_nev": "Moenkhausia sanctaefilomenae",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

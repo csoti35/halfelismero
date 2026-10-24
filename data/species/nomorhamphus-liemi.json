@@ -1,0 +1,78 @@
+{
+ "id": "nomorhamphus-liemi",
+ "tipus": "hal",
+ "latin": "Nomorhamphus liemi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "szájhal",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytosan": true,
+ "csalad": "Nomorhamphidae",
+ "csoport": "Halfbeakok",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "csoportos, békés halfaj, főként felszíni úszás",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "élő vagy fagyasztott artémia, Daphnia, mikroszkopikus rovarok",
+ "tarsithato": [
+  "béke kedvelő",
+  "más békés halfajokkal"
+ ],
+ "kerulendo": [
+  "nagyon agresszív vagy nagy testű halfajok"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "párzási időszakban a hím a nőstény hátát érinti",
+  "a nőstény a víz felszínén szül élő újszülötteket",
+  "az újszülöttek azonnal önállóan táplálkoznak"
+ ],
+ "ivari_kulonbseg": "hímnek élénkebb színű fej, nőstény szürkés",
+ "felismeres_jegyek": [
+  "hosszú, lefelé hajlított száj",
+  "test hossza 4‑5 cm",
+  "szürke‑barnás szín, hátán finom csíkok",
+  "úszók a test középvonalában"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dermogenys pusilla",
+   "magyar_nev": "szájhal",
+   "kulonbseg": "kisebb test, 3‑4 cm"
+  },
+  {
+   "latin": "Dermogenys collettei",
+   "magyar_nev": "szájhal",
+   "kulonbseg": "nagyobb, 5‑6 cm"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "gombás fertőzés (Saprolegnia)",
+  "baktériális uszkózis"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1300,
+ "ar_ft_max": 1900,
+ "tippek": [
+  "tartsd a víz hőmérsékletét 24‑26 °C‑on",
+  "használj finom szűrőt, mert a halfaj érzékeny a vízminőségre",
+  "tápláld élő vagy fagyasztott apró állatokat"
+ ],
+ "lista_nev": "Nomorhamphus liemi",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

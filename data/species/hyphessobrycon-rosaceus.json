@@ -1,0 +1,82 @@
+{
+ "id": "hyphessobrycon-rosaceus",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon rosaceus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "rózsaszín tarka",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalo": false,
+ "csalad": "Characidae",
+ "csoport": "tarka",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 4.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Csendes, csoportos faj, nem mutat agresszív viselkedést.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "élő artémia, mikroszkopikus élőlények, apró pellet.",
+ "tarsithato": [
+  "társas halak: neonhal",
+  "platy",
+  "molli",
+  "más tarkaok."
+ ],
+ "kerulendo": [
+  "nagyméretű vagy erősen területvédő fajok."
+ ],
+ "szaporodas_mod": "ikrás",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím színintenzitása nő a párzási időszakban.",
+  "A nőstény a növényzet közelében lerak 15‑25 ikrát.",
+  "Az ikrák 24‑36 óra alatt kelnek ki.",
+  "Az újszülött 2‑3 napig a szülői vizeletben marad, majd önállóan táplálkozik."
+ ],
+ "ivari_kulonbseg": "A hímek élénkebb rózsaszín színűek, a nőstények sötétebbek.",
+ "felismeres_jegyek": [
+  "kicsi, ovális test",
+  "rózsaszín árnyalat a hát és a farok körül",
+  "fehér foltok a mellkason",
+  "szúrós, szárnyas uszon"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon amandae",
+   "magyar_nev": "Amanda tarka",
+   "kulonbseg": "test színe sötétebb, kevesebb fehér folt"
+  },
+  {
+   "latin": "Hyphessobrycon copelandi",
+   "magyar_nev": "Copeland tarka",
+   "kulonbseg": "szín intenzitása alacsonyabb, szárnyak szélén sötét szegély"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis",
+  "velvet",
+  "gombás fertőzés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 300,
+ "ar_ft_max": 500,
+ "tippek": [
+  "Tartsd a víz tisztaságát, heti részleges vízcserével.",
+  "Adj elegendő úszó növényt a szaporodáshoz.",
+  "Kerüld a túl erős áramlást, mert a halak szeretik a nyugodt vizet."
+ ],
+ "lista_nev": "Hyphessobrycon rosaceus",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24"
+}

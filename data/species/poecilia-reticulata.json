@@ -1,0 +1,84 @@
+{
+ "id": "poecilia-reticulata",
+ "tipus": "hal",
+ "latin": "Poecilia reticulata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Guppi",
+ "egyeb_nevek": [
+  "színes guppi",
+  "színes guppykutya"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Poecilia",
+ "szarmazas": "Észak-Amerika (Trinidad, Venezuela)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "csoportos, békés halak, nem agresszívek a többi békés fajjal",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "élő vagy fagyasztott artémia, daphnia, mikroszemcsés táp",
+ "tarsithato": [
+  "szinte minden békés halfaj"
+ ],
+ "kerulendo": [
+  "nagyon agresszív vagy nagy testű fajok"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Kiválasztunk egész, fiatal hímeket és nőstényeket (arány 1:2‑3).",
+  "Biztosítunk növényzetet vagy fészkekészítő anyagot.",
+  "A nőstények 30‑45 nap alatt szülnek 20‑30 ikrát.",
+  "Az ikrák 24‑48 órán belül úsznak ki, majd 2‑3 hét alatt önállóak."
+ ],
+ "ivari_kulonbseg": "A hímnek színesebb farokfénye, a nősténynek kerekebb test és kevesebb szín.",
+ "felismeres_jegyek": [
+  "Kis, torz alakú test",
+  "Színes, csíkos vagy pöttyös farok",
+  "Nagy, szárnyas úszók",
+  "Hímeknek hosszú, színes farok",
+  "Nőstényeknek kerekebb test"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia wingei",
+   "magyar_nev": "winge guppi",
+   "kulonbseg": "intenzívebb színek, hosszabb farok"
+  },
+  {
+   "latin": "Poecilia sphenops",
+   "magyar_nev": "mollí",
+   "kulonbseg": "kerekebb test, kevesebb szín"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Ichthyophthirius multifiliis (fehér folt)",
+  "Velvet (Oodinium)",
+  "Fin rot"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 250,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Tartsd a víz hőmérsékletét stabilan 24‑26 °C‑on.",
+  "Kerüld a túlzott nitrit- és ammónia szintet.",
+  "Adj napi friss zöldségeket (spenót, uborka) a színélénkítésért."
+ ],
+ "lista_nev": "Poecilia reticulata",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}

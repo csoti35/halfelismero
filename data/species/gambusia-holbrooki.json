@@ -1,0 +1,87 @@
+{
+ "id": "gambusia-holbrooki",
+ "tipus": "hal",
+ "latin": "Gambusia holbrooki",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Keleti szúnyogirtó fogasponty",
+ "egyeb_nevek": [
+  "killi",
+  "mexikói killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "killi",
+ "szarmazas": "Észak-Amerika, Mexikó",
+ "max_meret_cm": 4,
+ "elettartam_ev": 2,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "csoportos, békés, de időnként területvédő a hímek",
+ "rajhal": "kicsi, szürke‑barnás test, fekete foltok a hátán",
+ "min_csoport": 8,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "élő artémia, mikroszemcsés tápok, apró fagyasztott plankton",
+ "tarsithato": [
+  "más killi",
+  "békés harcsa",
+  "békés tengerik"
+ ],
+ "kerulendo": [
+  "nagy harcsa",
+  "agresszív testű fajok"
+ ],
+ "szaporodas_mod": "élő szülés",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tarts legalább 8 egyedet, hogy a hímek versenyezzenek",
+  "Biztosíts 22‑26 °C‑t és stabil pH‑t",
+  "Adj napi 2‑3 alkalommal mikro‑tápot",
+  "Az ikrák a szülőnél maradnak, 1‑2 hét után szabadon úsznak",
+  "Eltávolíthatod a hímeket, ha túlzsúfoltságra számítasz"
+ ],
+ "ivari_kulonbseg": "hímek fején gyakran sötétebb foltok, nőstények színtelenebbek",
+ "felismeres_jegyek": [
+  "kicsi, ovális test",
+  "fekete foltok a hátúszó környékén",
+  "hosszú, szárnyas úszók",
+  "száj környékén sötét folt"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Heterandria formosa",
+   "magyar_nev": "killi",
+   "kulonbseg": "Heterandria kisebb, színesebb csíkokkal"
+  },
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "guppi",
+   "kulonbseg": "guppi nagyobb, farok színesebb"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ichthyophthiriasis",
+  "velvet",
+  "gombás fertőzés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 120,
+ "ar_ft_max": 250,
+ "tippek": [
+  "Kerüld a túlzott populációs zsúfoltságot – 1 cm testméret 1 l víz",
+  "Rendszeres vízcserék 15‑20 % hetente",
+  "Tartsd a víz keménységét 5‑12 dGH között"
+ ],
+ "lista_nev": "Gambusia holbrooki",
+ "forras": "Groq gpt-oss-120b",
+ "ellenorzott": false,
+ "frissitve": "2026-10-24",
+ "magyar_nev_kuralt": true
+}
