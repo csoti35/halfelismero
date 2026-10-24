@@ -797,9 +797,13 @@
             <div class="grid grid-cols-2 gap-1.5 text-[11px]" id="bugKinds">
 
             </div>
-            <div id="bugHint" class="hidden p-2 rounded-lg border sev-warn text-amber-200 text-[11px]"><i class="fa-solid fa-paperclip mr-1"></i>Rossz felismerésnél <strong>csatold a fotót is</strong> a levélhez (gemkapocs ikon a levelezőben), és írd meg, szerinted mi a helyes faj.</div>
+            <div id="bugHint" class="hidden p-2 rounded-lg border border-slate-700 bg-slate-900 text-[11px] space-y-1.5">
+                <label class="flex items-center gap-2 text-slate-200"><input type="checkbox" id="bugWithPhoto" checked class="accent-teal-500"> Az utolsó fotó csatolása</label>
+                <img id="bugPhoto" class="hidden h-20 rounded-lg border border-slate-700" alt="">
+                <div id="bugNoPhoto" class="hidden text-slate-400">Nincs mentett fotó – előbb fotózz a felismeréssel.</div>
+            </div>
             <textarea id="bugText" rows="4" class="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-100 focus:border-teal-500 outline-none" placeholder="pl. A fotó feltöltése után nem jön eredmény, csak forog."></textarea>
-            <button onclick="sendBugReport()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-semibold py-2.5 rounded-lg text-xs"><i class="fa-solid fa-paper-plane mr-1"></i>Küldés e-mailben</button>
+            <button onclick="sendBugReport()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-semibold py-2.5 rounded-lg text-xs"><i class="fa-solid fa-paper-plane mr-1"></i><span id="bugSendLabel">Küldés e-mailben</span></button>
             <button onclick="copyBugReport()" class="w-full bg-slate-700 hover:bg-slate-600 text-white py-2 rounded-lg text-xs">Nem nyílik meg a levelező? Szöveg másolása</button>
             <p class="text-[10px] text-slate-500 text-center">Cím: aquafajpro@freemail.hu</p>
         </div>
@@ -1546,7 +1550,9 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300"><span id="scanStatus">Elemzés…</span> <span id="scanSecs">0</span> mp</p></div>`;
             const t0 = Date.now(); const tick = setInterval(() => { const el = document.getElementById('scanSecs'); if (el) el.textContent = Math.round((Date.now() - t0) / 1000); else clearInterval(tick); }, 1000);
             try {
-                const d = await geminiIdentify(await fileToJpegBase64(file), buildPrompt());
+                const b64 = await fileToJpegBase64(file);
+                window.lastScanPhoto = b64; try { localStorage.setItem('aquaFajLastPhoto', b64); } catch (e) { try { localStorage.removeItem('aquaFajLastPhoto'); } catch (e2) {} }
+                const d = await geminiIdentify(b64, buildPrompt());
                 showScanResult(d);
             } catch (err) {
                 res.innerHTML = errorBox(err.message);
@@ -1795,7 +1801,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v12';
+        const APP_VERSION = 'v13';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
@@ -1805,7 +1811,11 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             document.getElementById('bugKinds').innerHTML = kinds.map(k => `<button type="button" onclick="bugKind='${k}';openBugReport.mark();openBugReport.hint()" data-k="${k}" class="bug-k p-2 rounded-lg border">${k}</button>`).join('');
             openBugReport.mark = () => document.querySelectorAll('.bug-k').forEach(b => b.className = 'bug-k p-2 rounded-lg border ' + (b.dataset.k === bugKind ? 'bg-teal-500/20 border-teal-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'));
             if (prefill) { bugKind = prefill.kind || 'Hiba'; document.getElementById('bugText').value = prefill.text || ''; }
-            openBugReport.hint = () => { const h = document.getElementById('bugHint'); if (h) h.classList.toggle('hidden', bugKind !== 'Rossz felismerés'); };
+            openBugReport.hint = () => { const h = document.getElementById('bugHint'); if (!h) return; h.classList.toggle('hidden', bugKind !== 'Rossz felismerés');
+                const b64 = bugPhotoB64(), im = document.getElementById('bugPhoto');
+                im.classList.toggle('hidden', !b64); document.getElementById('bugNoPhoto').classList.toggle('hidden', !!b64); document.getElementById('bugWithPhoto').parentElement.classList.toggle('hidden', !b64);
+                if (b64) im.src = 'data:image/jpeg;base64,' + b64;
+                document.getElementById('bugSendLabel').innerText = (bugKind === 'Rossz felismerés' && b64) ? 'Küldés fotóval (Gmail / levelező)' : 'Küldés e-mailben'; };
             openBugReport.mark(); openBugReport.hint(); openModal('bugModal');
         }
         function bugBody() {
@@ -1813,8 +1823,24 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const scan = ls ? `${ls.magyar_nev || ''} (${ls.latin || ''}), ${ls.biztossag || '?'}%, mód: ${ls.mod || scanMode}${ls.ido ? ', ' + ls.ido : ''}` : '-';
             return `${document.getElementById('bugText').value.trim() || '(nincs leírás)'}\n\n----\nTípus: ${bugKind}\nVerzió: ${APP_VERSION}\nKészülék: ${navigator.userAgent}\nKépernyő: ${screen.width}x${screen.height}\nTelepítve: ${matchMedia('(display-mode: standalone)').matches ? 'igen' : 'nem (böngésző)'}\nBelépve: ${fbUser ? 'igen' : 'nem'}\nUtolsó felismerés: ${scan}\nUtolsó hiba: ${window.lastAppError || '-'}\nIdő: ${new Date().toLocaleString('hu-HU')}`;
         }
-        function sendBugReport() {
+        function bugPhotoB64() { return window.lastScanPhoto || (() => { try { return localStorage.getItem('aquaFajLastPhoto'); } catch (e) { return null; } })(); }
+        async function sendBugReport() {
             if (!document.getElementById('bugText').value.trim()) { showToast('Írd le röviden, mi a gond.', true); return; }
+            const b64 = bugPhotoB64();
+            if (bugKind === 'Rossz felismerés' && b64 && document.getElementById('bugWithPhoto').checked) {
+                const bin = atob(b64); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+                const f = new File([u], 'aquafaj_foto.jpg', { type: 'image/jpeg' });
+                const text = `Címzett: ${BUG_EMAIL}\n\n${bugBody()}`;
+                if (navigator.canShare && navigator.canShare({ files: [f] })) {
+                    try { await navigator.clipboard.writeText(BUG_EMAIL); } catch (e) {}
+                    showToast('A cím kimásolva: illeszd be a Címzett mezőbe!');
+                    try { await navigator.share({ files: [f], title: 'AquaFaj – ' + bugKind, text }); closeModal('bugModal'); showToast('Köszönjük a bejelentést!'); }
+                    catch (e) { if (e.name !== 'AbortError') showToast('A megosztás nem sikerült: ' + e.message, true); }
+                    return;
+                }
+                const a = document.createElement('a'); a.href = 'data:image/jpeg;base64,' + b64; a.download = 'aquafaj_foto.jpg'; document.body.appendChild(a); a.click(); a.remove();
+                showToast('A fotót letöltöttük – a levélhez a Letöltések mappából csatolhatod.');
+            }
             location.href = `mailto:${BUG_EMAIL}?subject=${encodeURIComponent('AquaFaj – ' + bugKind)}&body=${encodeURIComponent(bugBody())}`;
             setTimeout(() => { closeModal('bugModal'); showToast('Köszönjük a bejelentést!'); }, 800);
         }
