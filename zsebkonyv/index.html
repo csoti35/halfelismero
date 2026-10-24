@@ -1381,7 +1381,8 @@ Először írd le, mit látsz ténylegesen (testforma, színek, mintázat, úsz�
 Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 {"lathato":"<amit látsz>","tipus":"hal|gerinctelen|noveny|alga|betegseg|egyeb","magyar_nev":"<a magyar akvarisztikában bevett név; killiknél fogasponty, zárójelben killi>","latin":"<latin név, ha van>","biztossag":<0-100>,
 "alternativak":[{"magyar_nev":"","latin":"","kulonbseg":"<miben különbözik a képen látottól>"}],
-"leiras":"<2-3 mondat: természet, tartás vagy (algánál/betegségnél) ok és teendő>","max_meret_cm":<szám vagy null>,"termeszet":"bekes|teruletvedo|agressziv|null"}`;
+"leiras":"<2-3 mondat: természet, tartás vagy (algánál/betegségnél) ok és teendő>","max_meret_cm":<szám vagy null>,"termeszet":"bekes|teruletvedo|agressziv|null",
+"ar_ft_min":<szokásos magyarországi bolti ár forintban darabonként (növénynél csomagonként/cserepenként), alsó érték, vagy null>,"ar_ft_max":<felső érték vagy null>}`;
 
         async function fileToJpegBase64(file) {
             const url = URL.createObjectURL(file);
@@ -1468,6 +1469,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${conf < 80 ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]">Nem biztos felismerés. Fotózz közelebbről, oldalról, vagy válassz a lehetséges fajok közül.</div>` : ''}
                 ${alts.length ? `<div class="text-[11px] text-slate-400">Lehet még:</div>` + alts.slice(0, 3).map((a, i) => `<button onclick="pickAlternative(${i})" class="w-full text-left p-2 rounded border border-slate-700 hover:border-teal-500 text-[11px]"><strong class="text-slate-100">${esc(a.magyar_nev || a.latin)}</strong> <span class="italic text-slate-400">${esc(a.latin || '')}</span><br><span class="text-slate-400">${esc(a.kulonbseg || '')}</span></button>`).join('') : ''}
                 ${kb && kb.type !== 'noveny' ? stockFitHtml(kb) : ''}
+                ${['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? shopHtml(name, (kb && kb.latin) || d.latin, d) : ''}
                 ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}`;
             window.lastScan = d;
             const type = ['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? d.tipus : null;
@@ -1491,11 +1493,32 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             return `<div class="p-2 rounded border ${bad ? 'sev-bad text-rose-200' : 'sev-warn text-amber-200'} text-[11px] space-y-1"><strong>${bad ? '<i class="fa-solid fa-circle-xmark mr-1"></i>Nem ajánlott az akváriumodba' : '<i class="fa-solid fa-triangle-exclamation mr-1"></i>Vigyázat az akváriumodban'}</strong>${msgs.map(m => `<div>• ${esc(m[1])}</div>`).join('')}</div>`;
         }
 
+        // Ár és beszerzés: az ár az AI becslése (tájékoztató), a linkek valódi keresésekre visznek.
+        function fmtFt(n) { return Math.round(n).toLocaleString('hu-HU') + ' Ft'; }
+        function shopHtml(name, latin, d) {
+            const lo = Number(d.ar_ft_min) || 0, hi = Number(d.ar_ft_max) || 0;
+            const price = lo && hi ? (lo === hi ? fmtFt(lo) : `${fmtFt(lo)} – ${fmtFt(hi)}`) : (lo || hi) ? fmtFt(lo || hi) : '';
+            const q = encodeURIComponent(name.replace(/\s*\(.*?\)\s*/g, ' ').trim());
+            const ql = encodeURIComponent(latin || name);
+            const link = (href, icon, label) => `<a href="${href}" target="_blank" rel="noopener" class="flex items-center gap-2 p-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100"><i class="${icon} w-4 text-center text-teal-400"></i>${label}</a>`;
+            return `<div class="p-3 rounded-xl border border-teal-500/30 bg-teal-500/5 space-y-2 text-[11px]">
+                <div class="font-semibold text-teal-300"><i class="fa-solid fa-tag mr-1"></i>Ár és beszerzés</div>
+                ${price ? `<div class="text-slate-100 text-sm font-bold">${price} <span class="text-[10px] font-normal text-slate-400">/ db, becsült bolti ár</span></div>` : '<div class="text-slate-400">Az árat a lenti keresésekkel nézd meg.</div>'}
+                <div class="grid grid-cols-1 gap-1.5">
+                    ${link('https://www.google.com/maps/search/akvarisztika', 'fa-solid fa-location-dot', 'Akvarisztikák a közelben (térkép)')}
+                    ${link('https://www.google.com/search?tbm=shop&q=' + ql, 'fa-solid fa-cart-shopping', 'Webshopok és árak')}
+                    ${link('https://www.jofogas.hu/magyarorszag?q=' + q, 'fa-solid fa-handshake', 'Jófogás – hirdetések, tenyésztők')}
+                    ${link('https://www.google.com/search?q=' + q + '+elad%C3%B3+akv%C3%A1rium', 'fa-solid fa-magnifying-glass', 'Keresés: eladó ' + esc(name))}
+                </div>
+                <div class="text-[10px] text-slate-500">Az ár tájékoztató; boltonként és mérettől függően eltérhet. Vétel előtt kérdezd meg a halak korát, egészségét és a víz paramétereit.</div>
+            </div>`;
+        }
+
         function pickAlternative(i) {
             const a = (window.lastScan && window.lastScan.alternativak || [])[i];
             if (!a) return;
             const kb = findSpecies(a.latin) || findSpecies(a.magyar_nev);
-            showScanResult({ ...window.lastScan, magyar_nev: (kb && kb.name) || a.magyar_nev, latin: (kb && kb.latin) || a.latin, biztossag: 100, leiras: (kb && kb.desc) || 'A te választásod alapján.', alternativak: [] });
+            showScanResult({ ...window.lastScan, magyar_nev: (kb && kb.name) || a.magyar_nev, latin: (kb && kb.latin) || a.latin, biztossag: 100, leiras: (kb && kb.desc) || 'A te választásod alapján.', alternativak: [], ar_ft_min: null, ar_ft_max: null });
         }
 
         function addScannedToStock() {
