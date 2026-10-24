@@ -15,6 +15,7 @@ print("::add-mask::" + GROQ_KEY)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIST = os.path.join(ROOT, "scripts", "fajlista.txt")
+NAMES = os.path.join(ROOT, "scripts", "magyar_nevek.txt")
 OUT = os.path.join(ROOT, "data", "species")
 INDEX = os.path.join(ROOT, "data", "species.json")
 BATCH = 4
@@ -36,7 +37,7 @@ Fajok (tipus;latin név):
 {fajok}
 
 Szabályok:
-- Válasz: KIZÁRÓLAG egy JSON tömb, fajonként egy objektum, ugyanebben a sorrendben.
+- Válasz: KIZÁRÓLAG egy JSON tömb, fajonként egy objektum, ugyanebben a sorrendben. Minden objektumba tedd bele a "lista_nev" mezőt is, pontosan úgy, ahogy a listában szerepel.
 - Mezők halnál és gerinctelennél: {mezok_hal}
 - Mezők növénynél: {mezok_noveny}
 - "id": a latin név kisbetűvel, ékezet nélkül, szóközök és jelek helyett kötőjel (pl. "betta-splendens"). "tipus": hal / noveny / gerinctelen (a listából).
@@ -67,6 +68,34 @@ def load_list():
         tipus, latin = line.split(";", 1)
         items.append((tipus.strip(), latin.strip()))
     return items
+
+def load_names():
+    names = {}
+    if os.path.exists(NAMES):
+        for line in open(NAMES, encoding="utf8"):
+            line = line.strip()
+            if line and not line.startswith("#") and ";" in line:
+                latin, hu = line.split(";", 1)
+                names[latin.strip()] = hu.strip()
+    return names
+
+def apply_name(rec, names):
+    hu = names.get(rec.get("lista_nev", ""))
+    if hu:
+        if rec.get("magyar_nev") and rec["magyar_nev"] != hu:
+            old = rec["magyar_nev"]
+            if old not in (rec.get("egyeb_nevek") or []) and old.lower() not in hu.lower():
+                pass  # a modell által kitalált nevet nem tartjuk meg
+        rec["magyar_nev"] = hu
+        rec["magyar_nev_bizonytalan"] = False
+        rec["magyar_nev_kuralt"] = True
+    return rec
+
+def same_species(requested, returned):
+    """A modell tényleg a kért fajról írt-e (nemzetség és fajnév egyezés, a tenyésztett változatokat figyelmen kívül hagyva)."""
+    req = re.sub(r"'.*?'", "", requested).lower().split()
+    ret = (returned or "").lower()
+    return bool(req) and req[0] in ret and (len(req) < 2 or req[1] in ("sp.", "var.") or req[1] in ret)
 
 def parse_array(text):
     text = re.sub(r"(?s)<think>.*?</think>", "", text)
@@ -113,6 +142,7 @@ def groq(prompt):
 def main():
     os.makedirs(OUT, exist_ok=True)
     items = load_list()
+    names = load_names()
     todo = [(t, l) for t, l in items if not os.path.exists(os.path.join(OUT, slug(l) + ".json"))]
     print(f"Összesen {len(items)} faj, hiányzik: {len(todo)}")
     providers = [gemini, groq]
@@ -132,9 +162,17 @@ def main():
             requests_done += 1
             continue
         requests_done += 1
-        for (tipus, latin), rec in zip(batch, data):
-            if not isinstance(rec, dict) or not rec.get("magyar_nev"):
+        by_name = {}
+        for rec in data if isinstance(data, list) else []:
+            if isinstance(rec, dict):
+                by_name[(rec.get("lista_nev") or "").strip()] = rec
+        for i, (tipus, latin) in enumerate(batch):
+            rec = by_name.get(latin) or (data[i] if isinstance(data, list) and i < len(data) and isinstance(data[i], dict) else None)
+            if not rec or not rec.get("magyar_nev"):
                 print("Hiányos adatlap:", latin)
+                continue
+            if not same_species(latin, rec.get("latin")) and not same_species(latin, rec.get("lista_nev")):
+                print("Nem a kért fajról írt, kihagyva:", latin, "->", rec.get("latin"))
                 continue
             for k in ["regi_latin_nevek", "egyeb_nevek", "tarsithato", "kerulendo", "szaporitas_lepesek", "felismeres_jegyek", "gyakori_betegsegek", "tippek"]:
                 v = rec.get(k)
@@ -148,10 +186,21 @@ def main():
             rec["forras"] = source
             rec["ellenorzott"] = False
             rec["frissitve"] = TODAY
+            apply_name(rec, names)
             with open(os.path.join(OUT, rec["id"] + ".json"), "w", encoding="utf8") as f:
                 json.dump(rec, f, ensure_ascii=False, indent=1)
             print("Kész:", latin, "->", rec.get("magyar_nev"), f"({source})")
-        time.sleep(8)
+        time.sleep(70 if providers and providers[0] is groq else 8)
+
+    # A kurált magyar nevek a meglévő adatlapokon is frissülnek
+    for name in os.listdir(OUT):
+        if name.endswith(".json"):
+            path = os.path.join(OUT, name)
+            rec = json.load(open(path, encoding="utf8"))
+            before = rec.get("magyar_nev")
+            apply_name(rec, names)
+            if rec.get("magyar_nev") != before:
+                json.dump(rec, open(path, "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
     # Összesítő a gyors kereséshez (rövid mezők)
     keys = ["id", "tipus", "latin", "magyar_nev", "egyeb_nevek", "regi_latin_nevek", "csalad", "csoport", "max_meret_cm",

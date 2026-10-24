@@ -1,0 +1,149 @@
+# Bevett magyar nevek (felülírják a modell által adott nevet). Formátum: latin név (a fajlista szerint);magyar név
+# Javítani vagy bővíteni itt lehet; a következő futás után a meglévő adatlapokon is frissül.
+Poecilia reticulata;Guppi
+Poecilia wingei;Endler guppi
+Poecilia sphenops;Molli
+Poecilia latipinna;Vitorlás molli
+Poecilia velifera;Óriás vitorlás molli
+Xiphophorus maculatus;Platti
+Xiphophorus hellerii;Kardfarkú hal
+Gambusia holbrooki;Keleti szúnyogirtó fogasponty
+Paracheirodon innesi;Neonhal
+Paracheirodon axelrodi;Vörös neonhal (kardinálishal)
+Paracheirodon simulans;Zöld neonhal
+Hyphessobrycon amandae;Parázs pontylazac
+Hyphessobrycon herbertaxelrodi;Fekete neon
+Hyphessobrycon megalopterus;Fekete fantomlazac
+Hyphessobrycon sweglesi;Vörös fantomlazac
+Hyphessobrycon erythrostigma;Vérfoltos pontylazac
+Hemigrammus erythrozonus;Izzófény pontylazac
+Hemigrammus rhodostomus;Vörösorrú pontylazac
+Hemigrammus bleheri;Bleher-vörösorrú pontylazac
+Hemigrammus ocellifer;Lámpásszemű pontylazac
+Gymnocorymbus ternetzi;Gyászpontylazac
+Thayeria boehlkei;Pingvinhal (ferdén úszó pontylazac)
+Pristella maxillaris;Röntgenhal
+Moenkhausia sanctaefilomenae;Vörösszemű pontylazac
+Nematobrycon palmeri;Császárpontylazac
+Phenacogrammus interruptus;Kongói pontylazac
+Carnegiella strigata;Márványos baltahal
+Gasteropelecus sternicla;Ezüst baltahal
+Danio rerio;Zebradánió
+Danio margaritatus;Gyöngydánió (galaxis razbóra)
+Trigonostigma heteromorpha;Ékfoltos razbóra
+Boraras brigittae;Szúnyograzbóra
+Puntigrus tetrazona;Szumátrai díszmárna
+Pethia conchonius;Rózsás márna
+Puntius titteya;Cseresznyemárna
+Sahyadria denisonii;Denison-márna
+Balantiocheilos melanopterus;Ezüst cápamárna
+Crossocheilus oblongus;Sziámi algaevő márna
+Carassius auratus;Aranyhal
+Cyprinus rubrofuscus 'Koi';Koi ponty
+Chromobotia macracanthus;Bohóccsík
+Pangio kuhlii;Kuhl-csík
+Corydoras paleatus;Foltos páncélosharcsa
+Corydoras aeneus;Bronz páncélosharcsa
+Corydoras sterbai;Sterba-páncélosharcsa
+Corydoras pygmaeus;Törpe páncélosharcsa
+Corydoras panda;Panda páncélosharcsa
+Ancistrus cirrhosus;Antennás algaevő harcsa
+Hypancistrus zebra;Zebraharcsa (L046)
+Otocinclus affinis;Törpe algaevő harcsa (otocinclus)
+Kryptopterus vitreolus;Üvegharcsa
+Synodontis nigriventris;Fejjel lefelé úszó harcsa
+Betta splendens;Sziámi harcoshal
+Trichogaster lalius;Törpegurámi
+Trichogaster chuna;Mézgurámi
+Trichopodus trichopterus;Foltos gurámi (kék gurámi)
+Trichopodus leeri;Gyöngygurámi
+Trichopodus microlepis;Holdfény gurámi
+Macropodus opercularis;Paradicsomhal
+Helostoma temminckii;Csókolózó gurámi
+Trichopsis pumila;Törpe korgó gurámi
+Pterophyllum scalare;Skalár
+Pterophyllum altum;Altum skalár
+Symphysodon aequifasciatus;Diszkosz
+Mikrogeophagus ramirezi;Pillangósügér (ramirezi)
+Apistogramma cacatuoides;Kakadu törpesügér
+Apistogramma agassizii;Agassiz-törpesügér
+Astronotus ocellatus;Oszkár (pávasügér)
+Amatitlania nigrofasciata;Zebrasügér
+Heros severus;Severum sügér
+Thorichthys meeki;Tűztorkú sügér
+Herichthys cyanoguttatus;Texasi sügér
+Amphilophus citrinellus;Citromsügér
+Pelvicachromis pulcher;Bíborsügér (kribensis)
+Labidochromis caeruleus;Sárga sügér (yellow labido)
+Melanochromis auratus;Aranysügér
+Pseudotropheus demasoni;Demasoni sügér
+Neolamprologus brichardi;Tündérsügér (brichardi)
+Neolamprologus multifasciatus;Csigaházlakó sügér
+Julidochromis regani;Regan-julisügér
+Cyphotilapia frontosa;Frontosa púpossügér
+Tropheus moorii;Tropheus moorii
+Astatotilapia latifasciata;Aranyos zebrasügér
+Melanotaenia boesemani;Boeseman-szivárványhal
+Melanotaenia praecox;Neon szivárványhal
+Iriatherina werneri;Fonalas szivárványhal
+Pseudomugil gertrudae;Pettyes kékszemű
+Oryzias latipes;Japán rizshal (medaka)
+Austrolebias nigripinnis;Argentin gyöngyfogasponty (gyöngyös killi)
+Aphyosemion australe;Lantfarkú fogasponty (killi)
+Badis badis;Kaméleonhal
+Dario dario;Skarlát badis
+Parambassis ranga;Üveghal
+Monodactylus argenteus;Ezüst holdhal
+Scatophagus argus;Pettyes argushal
+Toxotes jaculatrix;Lövőhal
+Gnathonemus petersii;Elefántorrú hal
+Pantodon buchholzi;Pillangóhal
+Polypterus senegalus;Szenegáli bichir
+Erpetoichthys calabaricus;Nádihal (kígyóhal)
+Mastacembelus erythrotaenia;Tűzangolna
+Carinotetraodon travancoricus;Törpe gömbhal
+Dichotomyctere nigroviridis;Zöld gömbhal
+Apteronotus albifrons;Fekete késhal
+Neocaridina davidi;Cseresznyegarnéla
+Caridina cantonensis;Kristálygarnéla
+Caridina multidentata;Amano-garnéla
+Atyopsis moluccensis;Szűrőgarnéla
+Procambarus clarkii;Vörös mocsári rák
+Procambarus virginalis;Márványrák
+Cambarellus patzcuarensis;Narancssárga törperák
+Cherax quadricarinatus;Vörösollós rák
+Vittina natalensis;Zebra csiga (nerita)
+Clithon corona;Koronás csiga
+Planorbella duryi;Vörös tányércsiga
+Physella acuta;Hólyagcsiga
+Melanoides tuberculata;Maláj talajcsiga
+Pomacea diffusa;Almacsiga
+Anentome helena;Csigaevő csiga
+Anubias barteri var. nana;Törpe anubiasz
+Microsorum pteropus;Jávai páfrány
+Taxiphyllum barbieri;Jávai moha
+Vesicularia montagnei;Karácsonyfamoha
+Riccia fluitans;Úszó májmoha (riccia)
+Aegagropila linnaei;Marimó (mohalabda)
+Cryptocoryne wendtii;Wendt-vízikehely
+Echinodorus grisebachii;Amazonas kardlevél
+Sagittaria subulata;Törpe nyílfű
+Cabomba caroliniana;Karolinai tündérhínár (kabomba)
+Egeria densa;Sűrű átokhínár
+Elodea canadensis;Kanadai átokhínár
+Ceratophyllum demersum;Érdes tócsagaz
+Limnophila sessiliflora;Ambulia
+Bacopa monnieri;Bacopa (vízi izsóp)
+Ludwigia repens;Kúszó tóalma
+Rotala rotundifolia;Kereklevelű rotala
+Alternanthera reineckii;Vörös alternanthera
+Hemianthus callitrichoides;Gyöngyfű (HC Cuba)
+Eleocharis acicularis;Tűlevelű csetkáka
+Lilaeopsis brasiliensis;Brazil mikrokard
+Pistia stratiotes;Kagylótutaj (vízisaláta)
+Salvinia natans;Rucaöröm
+Lemna minor;Apró békalencse
+Limnobium laevigatum;Amazonas békatutaj
+Ceratopteris thalictroides;Szarvaspáfrány
+Hydrocotyle leucocephala;Brazil gázló
+Nymphaea lotus;Tigrislótusz
