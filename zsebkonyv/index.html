@@ -122,7 +122,10 @@
         <!-- TABS NAV -->
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 border-t border-slate-800">
             <nav class="flex space-x-1 overflow-x-auto py-2 custom-scrollbar text-xs font-medium" id="mainTabNav">
-                <button onclick="switchTab('tab1')" id="nav-tab1" class="tab-btn active px-4 py-2.5 rounded-lg whitespace-nowrap flex items-center gap-2 transition text-slate-300 hover:text-white hover:bg-slate-800/60">
+                <button onclick="switchTab('tab5')" id="nav-tab5" class="tab-btn active px-4 py-2.5 rounded-lg whitespace-nowrap flex items-center gap-2 transition text-slate-300 hover:text-white hover:bg-slate-800/60 bg-teal-500/10 border border-teal-500/30">
+                    <i class="fa-solid fa-camera text-teal-400"></i> 📷 Fotós felismerés
+                </button>
+                <button onclick="switchTab('tab1')" id="nav-tab1" class="tab-btn px-4 py-2.5 rounded-lg whitespace-nowrap flex items-center gap-2 transition text-slate-300 hover:text-white hover:bg-slate-800/60">
                     <i class="fa-solid fa-seedling text-emerald-400"></i> Akvakertész & Növények
                 </button>
                 <button onclick="switchTab('tab2')" id="nav-tab2" class="tab-btn px-4 py-2.5 rounded-lg whitespace-nowrap flex items-center gap-2 transition text-slate-300 hover:text-white hover:bg-slate-800/60">
@@ -134,9 +137,6 @@
                 <button onclick="switchTab('tab4')" id="nav-tab4" class="tab-btn px-4 py-2.5 rounded-lg whitespace-nowrap flex items-center gap-2 transition text-slate-300 hover:text-white hover:bg-slate-800/60">
                     <i class="fa-solid fa-calendar-check text-purple-400"></i> Időzítő & Költségek
                 </button>
-                <button onclick="switchTab('tab5')" id="nav-tab5" class="tab-btn px-4 py-2.5 rounded-lg whitespace-nowrap flex items-center gap-2 transition text-slate-300 hover:text-white hover:bg-slate-800/60 bg-teal-500/10 border border-teal-500/30">
-                    <i class="fa-solid fa-camera text-teal-400"></i> AI Foto Scanner
-                </button>
             </nav>
         </div>
     </header>
@@ -144,8 +144,85 @@
     <!-- MAIN CONTAINER -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 flex-grow">
 
+        <!-- ==================== TAB 5: AI FOTO & KAMERA SCANNER ==================== -->
+        <section id="tab5" class="tab-content block space-y-6">
+
+            <div class="glass-panel p-6 rounded-2xl space-y-6 max-w-4xl mx-auto">
+                <div class="text-center space-y-2 border-b border-slate-700/50 pb-4">
+                    <h2 class="text-xl font-bold text-white flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-camera-retro text-teal-400"></i> AI Fotós Felismerés
+                    </h2>
+                    <p class="text-xs text-slate-300">Fényképezz le egy halat, növényt vagy algát a telefonoddal, és az AI azonnal azonosítja!</p>
+                </div>
+
+                <!-- Scanner Viewport / Upload Box -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+
+                    <!-- Image Upload / Camera Area -->
+                    <div class="relative bg-slate-900 border-2 border-dashed border-teal-500/40 rounded-2xl h-64 flex flex-col items-center justify-center text-center p-4 overflow-hidden group hover:border-teal-400 transition" id="scannerViewport">
+
+                        <!-- Scan Line (Hidden by default, active during scan) -->
+                        <div id="scanLine" class="scan-line hidden"></div>
+
+                        <!-- Preview Image -->
+                        <img id="scanPreview" class="hidden absolute inset-0 w-full h-full object-cover rounded-2xl" alt="Preview">
+
+                        <!-- Default Upload UI -->
+                        <div id="uploadPrompt" class="space-y-3">
+                            <div class="w-14 h-14 mx-auto rounded-full bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 text-2xl group-hover:scale-110 transition">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-semibold text-white">Fotózz le egy halat, növényt vagy algát</p>
+                                <p class="text-[11px] text-slate-400">Hal, növény, garnéla, alga</p>
+                            </div>
+                            <div class="flex gap-2 justify-center relative z-10">
+                                <label class="bg-teal-600 hover:bg-teal-500 text-white px-3 py-2 rounded-lg text-xs font-semibold cursor-pointer"><i class="fa-solid fa-camera mr-1"></i>Fotó<input type="file" accept="image/*" capture="environment" onchange="handleImageScan(event)" class="hidden"></label>
+                                <label class="bg-slate-700 hover:bg-slate-600 text-white px-3 py-2 rounded-lg text-xs font-semibold cursor-pointer"><i class="fa-solid fa-image mr-1"></i>Galéria<input type="file" accept="image/*" onchange="handleImageScan(event)" class="hidden"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI Analysis Result Panel -->
+                    <div class="glass-card p-5 rounded-2xl space-y-3 min-h-[256px] flex flex-col justify-between border border-slate-700/50">
+                        <div>
+                            <div class="flex items-center justify-between border-b border-slate-700/50 pb-2 mb-2">
+                                <span class="text-xs font-bold text-teal-400 flex items-center gap-1">
+                                    <i class="fa-solid fa-microchip"></i> AI Elemzési Eredmény
+                                </span>
+                                <span id="scanAccuracy" class="text-[10px] bg-teal-500/20 text-teal-300 border border-teal-500/30 px-2 py-0.5 rounded-full hidden"></span>
+                            </div>
+
+                            <div id="scanResultContent" class="text-xs text-slate-300 space-y-2">
+                                <p class="text-slate-400 italic text-center py-8">
+                                    <i class="fa-solid fa-arrow-left mr-1 hidden md:inline"></i>
+                                    Tölts fel egy fotót az elemzés elindításához!
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons after scan -->
+                        <div id="scanActions" class="hidden pt-2 border-t border-slate-800 flex gap-2">
+                            <button onclick="addScannedToStock()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-medium py-2 rounded-lg text-xs flex items-center justify-center gap-1 shadow">
+                                <i class="fa-solid fa-plus"></i> Hozzáadás az Állományomhoz
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Scanner info -->
+                <div class="border-t border-slate-800 pt-4 text-[11px] text-slate-400 space-y-1">
+                    <p><i class="fa-solid fa-circle-info text-teal-400 mr-1"></i> A felismerést a Google Gemini végzi. Tipp: fotózz közelről, oldalról, vaku nélkül.</p>
+                    <p>A mesterséges intelligencia tévedhet – a 3 lehetséges faj közül válaszd ki a tiédet, és vásárlás előtt kérdezd meg az eladót is.</p>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
         <!-- ==================== TAB 1: AKVAKERTÉSZ & NÖVÉNYEK ==================== -->
-        <section id="tab1" class="tab-content block space-y-6">
+        <section id="tab1" class="tab-content hidden space-y-6">
             <!-- Top Controls Grid -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <!-- Light & CO2 Calculator -->
@@ -346,7 +423,8 @@
 
                     <!-- Quick Preset Buttons for Beginners -->
                     <div>
-                        <span class="text-xs text-slate-400 block mb-1">Gyakori kezdő fajok egy kattintással:</span>
+                        <button type="button" onclick="switchTab('tab5'); window.scrollTo(0,0)" class="w-full mb-3 bg-teal-600 hover:bg-teal-500 text-white font-semibold py-2.5 rounded-lg text-sm flex items-center justify-center gap-2 shadow"><i class="fa-solid fa-camera"></i> Hozzáadás fotóval (a legegyszerűbb)</button>
+                        <span class="text-xs text-slate-400 block mb-1">Vagy válassz a gyakori fajok közül:</span>
                         <div class="flex flex-wrap gap-1.5" id="presetButtons">
                             <!-- Populated via JS -->
                         </div>
@@ -644,82 +722,6 @@
 
         </section>
 
-        <!-- ==================== TAB 5: AI FOTO & KAMERA SCANNER ==================== -->
-        <section id="tab5" class="tab-content hidden space-y-6">
-
-            <div class="glass-panel p-6 rounded-2xl space-y-6 max-w-4xl mx-auto">
-                <div class="text-center space-y-2 border-b border-slate-700/50 pb-4">
-                    <h2 class="text-xl font-bold text-white flex items-center justify-center gap-2">
-                        <i class="fa-solid fa-camera-retro text-teal-400"></i> AI Fotós Felismerés
-                    </h2>
-                    <p class="text-xs text-slate-300">Fényképezz le egy halat, növényt vagy algát a telefonoddal, és az AI azonnal azonosítja!</p>
-                </div>
-
-                <!-- Scanner Viewport / Upload Box -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-
-                    <!-- Image Upload / Camera Area -->
-                    <div class="relative bg-slate-900 border-2 border-dashed border-teal-500/40 rounded-2xl h-64 flex flex-col items-center justify-center text-center p-4 overflow-hidden group hover:border-teal-400 transition" id="scannerViewport">
-
-                        <!-- Scan Line (Hidden by default, active during scan) -->
-                        <div id="scanLine" class="scan-line hidden"></div>
-
-                        <!-- Preview Image -->
-                        <img id="scanPreview" class="hidden absolute inset-0 w-full h-full object-cover rounded-2xl" alt="Preview">
-
-                        <!-- Default Upload UI -->
-                        <div id="uploadPrompt" class="space-y-3">
-                            <div class="w-14 h-14 mx-auto rounded-full bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 text-2xl group-hover:scale-110 transition">
-                                <i class="fa-solid fa-cloud-arrow-up"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs font-semibold text-white">Fotózz le egy halat, növényt vagy algát</p>
-                                <p class="text-[11px] text-slate-400">Hal, növény, garnéla, alga</p>
-                            </div>
-                            <div class="flex gap-2 justify-center relative z-10">
-                                <label class="bg-teal-600 hover:bg-teal-500 text-white px-3 py-2 rounded-lg text-xs font-semibold cursor-pointer"><i class="fa-solid fa-camera mr-1"></i>Fotó<input type="file" accept="image/*" capture="environment" onchange="handleImageScan(event)" class="hidden"></label>
-                                <label class="bg-slate-700 hover:bg-slate-600 text-white px-3 py-2 rounded-lg text-xs font-semibold cursor-pointer"><i class="fa-solid fa-image mr-1"></i>Galéria<input type="file" accept="image/*" onchange="handleImageScan(event)" class="hidden"></label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- AI Analysis Result Panel -->
-                    <div class="glass-card p-5 rounded-2xl space-y-3 min-h-[256px] flex flex-col justify-between border border-slate-700/50">
-                        <div>
-                            <div class="flex items-center justify-between border-b border-slate-700/50 pb-2 mb-2">
-                                <span class="text-xs font-bold text-teal-400 flex items-center gap-1">
-                                    <i class="fa-solid fa-microchip"></i> AI Elemzési Eredmény
-                                </span>
-                                <span id="scanAccuracy" class="text-[10px] bg-teal-500/20 text-teal-300 border border-teal-500/30 px-2 py-0.5 rounded-full hidden"></span>
-                            </div>
-
-                            <div id="scanResultContent" class="text-xs text-slate-300 space-y-2">
-                                <p class="text-slate-400 italic text-center py-8">
-                                    <i class="fa-solid fa-arrow-left mr-1 hidden md:inline"></i>
-                                    Tölts fel egy fotót az elemzés elindításához!
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Action buttons after scan -->
-                        <div id="scanActions" class="hidden pt-2 border-t border-slate-800 flex gap-2">
-                            <button onclick="addScannedToStock()" class="w-full bg-teal-600 hover:bg-teal-500 text-white font-medium py-2 rounded-lg text-xs flex items-center justify-center gap-1 shadow">
-                                <i class="fa-solid fa-plus"></i> Hozzáadás az Állományomhoz
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Scanner info -->
-                <div class="border-t border-slate-800 pt-4 text-[11px] text-slate-400 space-y-1">
-                    <p><i class="fa-solid fa-circle-info text-teal-400 mr-1"></i> A felismerést a Google Gemini végzi. Tipp: fotózz közelről, oldalról, vaku nélkül.</p>
-                    <p>A mesterséges intelligencia tévedhet – a 3 lehetséges faj közül válaszd ki a tiédet, és vásárlás előtt kérdezd meg az eladót is.</p>
-                </div>
-            </div>
-            </div>
-
-        </section>
 
     </main>
 
@@ -1451,11 +1453,28 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${kb ? `<div class="bg-slate-900 p-2 rounded text-[11px] border border-slate-800 text-slate-300">Max. ${kb.size} cm • min. ${kb.minTank || '?'} liter • ${kb.temp && kb.temp[0] ? kb.temp[0] + '–' + kb.temp[1] + ' °C' : ''} • pH ${kb.ph && kb.ph[0] ? kb.ph[0] + '–' + kb.ph[1] : '?'} • ${(AGGRO_LABEL[kb.aggro] || ['?'])[0]}</div>` : ''}
                 ${conf < 80 ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]">Nem biztos felismerés. Fotózz közelebbről, oldalról, vagy válassz a lehetséges fajok közül.</div>` : ''}
                 ${alts.length ? `<div class="text-[11px] text-slate-400">Lehet még:</div>` + alts.slice(0, 3).map((a, i) => `<button onclick="pickAlternative(${i})" class="w-full text-left p-2 rounded border border-slate-700 hover:border-teal-500 text-[11px]"><strong class="text-slate-100">${esc(a.magyar_nev || a.latin)}</strong> <span class="italic text-slate-400">${esc(a.latin || '')}</span><br><span class="text-slate-400">${esc(a.kulonbseg || '')}</span></button>`).join('') : ''}
+                ${kb && kb.type !== 'noveny' ? stockFitHtml(kb) : ''}
                 ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}`;
             window.lastScan = d;
             const type = ['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? d.tipus : null;
             appState.scannedTempItem = type ? { name, latin: (kb && kb.latin) || d.latin || '', type, count: 1, size: (kb && kb.size) || Number(d.max_meret_cm) || 3, aggro: (kb && kb.aggro) || (['bekes', 'teruletvedo', 'agressziv'].includes(d.termeszet) ? d.termeszet : 'bekes') } : null;
             document.getElementById('scanActions').classList.toggle('hidden', !appState.scannedTempItem);
+        }
+
+        // Összefér-e a felismert faj a meglévő állománnyal? (azonnal, a fotó után)
+        function stockFitHtml(sp) {
+            const msgs = [];
+            if (sp.minTank && tankVolume && tankVolume < sp.minTank) msgs.push(['warn', `Legalább ${sp.minTank} literes akvárium kell (a tiéd kb. ${Math.round(tankVolume)} liter).`]);
+            appState.stock.filter(i => i.type !== 'noveny').forEach(item => {
+                const other = findSpecies(item.latin || item.name);
+                if (!other) return;
+                compareSpecies(sp, other).issues.filter(x => x.level !== 'ok').forEach(x => msgs.push([x.level, x.text]));
+            });
+            const animals = appState.stock.filter(i => i.type !== 'noveny').length;
+            if (!animals) return `<div class="p-2 rounded border sev-ok text-emerald-200 text-[11px]">Az akváriumod még üres – vedd fel az első lakóként.</div>`;
+            if (!msgs.length) return `<div class="p-2 rounded border sev-ok text-emerald-200 text-[11px]"><i class="fa-solid fa-circle-check mr-1"></i><strong>Összefér az akváriumoddal</strong> (${animals} meglévő faj alapján).</div>`;
+            const bad = msgs.some(m => m[0] === 'bad');
+            return `<div class="p-2 rounded border ${bad ? 'sev-bad text-rose-200' : 'sev-warn text-amber-200'} text-[11px] space-y-1"><strong>${bad ? '<i class="fa-solid fa-circle-xmark mr-1"></i>Nem ajánlott az akváriumodba' : '<i class="fa-solid fa-triangle-exclamation mr-1"></i>Vigyázat az akváriumodban'}</strong>${msgs.map(m => `<div>• ${esc(m[1])}</div>`).join('')}</div>`;
         }
 
         function pickAlternative(i) {
@@ -1470,8 +1489,12 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             appState.stock.push({ id: Date.now(), ...appState.scannedTempItem });
             saveToLocalStorage(); renderStock(); calculateAquascape();
             const b = document.querySelector('#scanActions button');
-            b.innerHTML = '<i class="fa-solid fa-check"></i> Hozzáadva az állományhoz';
-            setTimeout(() => { b.innerHTML = '<i class="fa-solid fa-plus"></i> Hozzáadás az Állományomhoz'; }, 2500);
+            b.innerHTML = '<i class="fa-solid fa-check"></i> Hozzáadva – megnyitom az állományt…';
+            setTimeout(() => {
+                b.innerHTML = '<i class="fa-solid fa-plus"></i> Hozzáadás az Állományomhoz';
+                switchTab('tab2');
+                document.getElementById('stockCheckBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 900);
         }
 
         // ================= MENTÉS, EXPORT =================
