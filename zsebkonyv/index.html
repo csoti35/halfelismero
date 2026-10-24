@@ -793,7 +793,7 @@
         <div class="glass-panel w-full max-w-md rounded-2xl p-5 space-y-3 border border-slate-700">
             <div class="flex items-center justify-between"><h3 class="text-white font-bold text-sm"><i class="fa-solid fa-bug text-rose-300 mr-1"></i>Hiba bejelentése</h3>
                 <button onclick="closeModal('bugModal')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button></div>
-            <p class="text-[11px] text-slate-400">Írd le, mi nem működik, vagy mit szeretnél másképp. Egy gombnyomással elküldjük, semmi nem nyílik meg. Automatikusan hozzátesszük a telefonod típusát és az utolsó hibaüzenetet, hogy gyorsan javítani tudjuk.</p>
+            <p class="text-[11px] text-slate-400">Írd le, mi nem működik, vagy mit szeretnél másképp. Egy gombnyomással elküldjük, semmi nem nyílik meg. Rossz felismerésnél automatikusan hozzátesszük, mit ismert fel az app, és a fotót.</p>
             <div class="grid grid-cols-2 gap-1.5 text-[11px]" id="bugKinds">
 
             </div>
@@ -1811,7 +1811,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v19';
+        const APP_VERSION = 'v20';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
@@ -1851,7 +1851,9 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 const add = (k, v) => { const i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = v; f.appendChild(i); };
                 add('_subject', 'AquaFaj – ' + doc.kind + (doc.photo ? ' (fotóval)' : ''));
                 add('_captcha', 'false'); add('_template', 'box');
-                add('Bejelentés', doc.text); add('Típus', doc.kind); add('Felhasználó', doc.email || 'nincs belépve'); add('Részletek', doc.meta);
+                add('Bejelentés', doc.text); add('Felhasználó', doc.email || 'nincs belépve');
+                if (doc.kind === 'Rossz felismerés' && doc.scan) add('Az app ezt ismerte fel', doc.scan);
+                if (doc.kind === 'Hiba' && doc.err) add('Hibaüzenet', doc.err);
                 if (doc.photo) {
                     try {
                         const bin = atob(doc.photo); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
@@ -1872,7 +1874,10 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             if (!navigator.onLine) { showToast('Nincs internet – megnyitom az e-mailt.', true); openMailFallback(); return; }
             const lbl = document.getElementById('bugSendLabel'); const old = lbl.innerText; lbl.innerText = 'Küldés…';
             const b64 = bugPhotoB64();
-            const doc = { kind: bugKind, text: text.slice(0, 2900), meta: bugBody().split('----').pop().trim().slice(0, 1500), createdAt: Date.now() };
+            const doc = { kind: bugKind, text: text.slice(0, 2900), createdAt: Date.now() };
+            let ls = window.lastScan; if (!ls) { try { ls = JSON.parse(localStorage.getItem('aquaFajLastScan') || 'null'); } catch (e) {} }
+            if (ls && ls.magyar_nev) doc.scan = `${ls.magyar_nev}${ls.latin ? ' (' + ls.latin + ')' : ''}, ${ls.biztossag || '?'}% biztos`;
+            if (window.lastAppError) doc.err = window.lastAppError;
             if (fbUser) { doc.uid = fbUser.uid; doc.email = fbUser.email || ''; }
             if (b64 && document.getElementById('bugWithPhoto').checked && !document.getElementById('bugHint').classList.contains('hidden')) { doc.photo = b64; }
             const ok = await emailInBackground(doc);
