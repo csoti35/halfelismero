@@ -1437,7 +1437,8 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 "viselkedes":"<természet, kikkel társítható, kikkel ne>","uszasi_zona":"felso|kozepso|also|mindenhol",
 "taplalkozas":"<mit eszik, főeleség; és ha valami kifejezetten TILOS vagy ártalmas neki, azt is írd>",
 "medence":"<minimum literszám>","allomany":"<javasolt létszám, pl. 90 literre 1 hím és 3 nőstény, vagy legalább 10 fős raj>",
-"berendezes":"<dekoráció, búvóhely, növényzet, aljzat, áramlás>","homerseklet":"<pl. 25-28 °C>","ph":"<pl. 6,0-7,0>","keménység":"<pl. 2-15 NK°>","eletkor":"<várható élettartam>"},
+"berendezes":"<dekoráció, búvóhely, növényzet, aljzat, áramlás>","homerseklet":"<pl. 25-28 °C>","ph":"<pl. 6,0-7,0>","keménység":"<pl. 2-15 NK°>","eletkor":"<várható élettartam>",
+"megjegyzes":"<5-7 mondatos, saját szavaiddal írt ismertető: részletes megjelenés (test, csíkok, úszók színe), hím-nőstény különbség, mire figyelj a tartásnál, mit TILOS adni vagy tenni>"},
 "szaporodas":{"mod":"<pl. elevenszülő, szabadívó, ikráit lerakja és őrzi, szájköltő, buborékfészek-építő, barlangi ívó; garnélánál: a nőstény a potrohán hordja az ikrát>",
 "nehezseg":"konnyu|kozepes|nehez|akvariumban_szinte_lehetetlen",
 "ivarok":"<hogyan különböztethető meg a hím és a nőstény>",
@@ -1626,16 +1627,56 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${link2map()}`;
         }
         function link2map() { return `<a href="https://www.google.com/maps/search/akvarisztika" target="_blank" rel="noopener" class="flex items-center gap-2 p-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 text-[11px]"><i class="fa-solid fa-location-dot w-4 text-center text-teal-400"></i>Akvarisztikák a közelben (szakember tanácsa, gyógyszer)</a>`; }
+        // Fajfotók az iNaturalistról (szabad licencű természetfotók, a szerző feltüntetésével)
+        const photoCache = {};
+        async function loadSpeciesPhotos(latin) {
+            const box = () => document.getElementById('speciesPhotos');
+            const key = latinKey(latin); if (!key) return;
+            try {
+                let photos = photoCache[key];
+                if (!photos) {
+                    const q = await (await fetch('https://api.inaturalist.org/v1/taxa?rank=species,subspecies,variety&per_page=1&q=' + encodeURIComponent(latin))).json();
+                    const t = (q.results || [])[0]; if (!t || latinKey(t.name) !== key && !latinKey(t.name).startsWith(key.split(' ').slice(0, 2).join(' '))) return;
+                    const full = await (await fetch('https://api.inaturalist.org/v1/taxa/' + t.id)).json();
+                    photos = ((full.results || [])[0]?.taxon_photos || []).map(x => x.photo).filter(p => p && p.license_code && p.medium_url).slice(0, 6);
+                    photoCache[key] = photos;
+                }
+                if (!photos.length || !box()) return;
+                box().innerHTML = `<div class="flex gap-1.5 overflow-x-auto pb-1">${photos.map((p, i) => `<a href="${p.medium_url.replace('/medium.', '/large.')}" target="_blank" rel="noopener" class="shrink-0"><img src="${p.medium_url}" loading="lazy" class="h-24 w-32 object-cover rounded-lg border border-slate-700" alt="fajfotó ${i + 1}"></a>`).join('')}</div>
+                    <div class="text-[9px] text-slate-500 truncate">Fotók: iNaturalist – ${esc([...new Set(photos.map(p => (p.attribution || '').replace(/\(c\)\s*/i, '').split(',')[0].trim()).filter(Boolean))].slice(0, 3).join(', '))} (${esc(photos[0].license_code.toUpperCase())})</div>`;
+            } catch (e) { /* nincs net vagy nincs fotó – nem baj */ }
+        }
         function factSheetHtml(d) {
             const a = d.adatlap || {}; const Z = { felso: 'felső', kozepso: 'középső', also: 'alsó (talaj)', mindenhol: 'mindenhol' };
             const rows = [['Tudományos név', (d.latin || '') + (a.szerzo ? ` (${a.szerzo})` : '')], ['Magyar név', d.magyar_nev], ['Szinonimák', a.szinonimak], ['Csoport', a.csoport], ['Származás', a.szarmazas],
                 ['Testhossz', a.testhossz], ['Természetes élőhely', a.elohely], ['Viselkedés', a.viselkedes], ['Úszási zóna', Z[a.uszasi_zona]], ['Táplálkozás', a.taplalkozas],
+                ['Szaporítás', ({ konnyu: 'Könnyű', kozepes: 'Közepesen nehéz', nehez: 'Nehéz', akvariumban_szinte_lehetetlen: 'Akváriumban szinte lehetetlen' })[(d.szaporodas || {}).nehezseg]],
                 ['Medence', a.medence], ['Halnépesség', a.allomany], ['Berendezés', a.berendezes], ['Hőmérséklet', a.homerseklet], ['pH', a.ph], ['Keménység', a.keménység || a.kemenyseg], ['Várható életkor', a.eletkor], ['Megjelenés', a.kulso]]
                 .filter(r => r[1] && String(r[1]).toLowerCase() !== 'null');
             if (rows.length < 3) return '';
             return `<details class="rounded-xl border border-sky-500/30 bg-sky-500/5 text-[11px]" open>
                 <summary class="cursor-pointer p-3 font-semibold text-sky-200"><i class="fa-solid fa-book-open mr-1"></i>Adatlap</summary>
-                <div class="px-3 pb-3 divide-y divide-slate-800">${rows.map(r => `<div class="py-1.5 grid grid-cols-[7.5rem_1fr] gap-2"><span class="text-slate-400">${r[0]}</span><span class="text-slate-100 ${r[0] === 'Tudományos név' ? 'italic' : ''}">${esc(r[1])}</span></div>`).join('')}</div></details>`;
+                <div class="px-3 pb-3 divide-y divide-slate-800">${rows.map(r => `<div class="py-1.5 grid grid-cols-[7.5rem_1fr] gap-2"><span class="text-slate-400">${r[0]}</span><span class="text-slate-100 ${r[0] === 'Tudományos név' ? 'italic' : ''}">${esc(r[1])}</span></div>`).join('')}</div>
+                ${a.megjegyzes ? `<div class="px-3 pb-3 text-slate-200 leading-relaxed"><strong class="text-sky-200">Megjegyzés:</strong> ${esc(a.megjegyzes)}</div>` : ''}</details>
+                ${similarSpeciesHtml(d)}`;
+        }
+        // Hasonló vízparamétereket igénylő fajok (a beépített + felhős adatbázisból)
+        function nums(t) { return String(t || '').replace(/,/g, '.').match(/\d+(\.\d+)?/g)?.map(Number) || []; }
+        function similarSpeciesHtml(d) {
+            const kb = findSpecies(d.latin) || findSpecies(d.magyar_nev);
+            const a = d.adatlap || {};
+            let t = kb && kb.temp && kb.temp[0] ? kb.temp : nums(a.homerseklet).slice(0, 2);
+            let ph = kb && kb.ph && kb.ph[0] ? kb.ph : nums(a.ph).slice(0, 2);
+            if (t.length < 2 || ph.length < 2) return '';
+            const me = latinKey(d.latin || '');
+            const hits = KB.filter(k => k.type !== 'noveny' && latinKey(k.latin) !== me && k.temp && k.temp[0] && k.ph && k.ph[0])
+                .map(k => ({ k, ov: Math.min(t[1], k.temp[1]) - Math.max(t[0], k.temp[0]) + 2 * (Math.min(ph[1], k.ph[1]) - Math.max(ph[0], k.ph[0])) }))
+                .filter(x => Math.min(t[1], x.k.temp[1]) - Math.max(t[0], x.k.temp[0]) >= 2 && Math.min(ph[1], x.k.ph[1]) - Math.max(ph[0], x.k.ph[0]) >= 0.5)
+                .filter(x => !compareSpecies(kb || { size: Number(d.max_meret_cm) || 5, aggro: 'bekes', flags: '', temp: t, ph }, x.k).issues.some(i => i.level === 'bad'))
+                .sort((x, y) => y.ov - x.ov).slice(0, 8);
+            if (!hits.length) return '';
+            return `<div class="rounded-xl border border-slate-700 bg-slate-900/60 p-3 text-[11px] space-y-2"><div class="font-semibold text-teal-300"><i class="fa-solid fa-droplet mr-1"></i>Hasonló vízparamétereket igénylő, vele tartható fajok</div>
+                <div class="flex flex-wrap gap-1.5">${hits.map(x => `<span class="px-2 py-1 rounded-full bg-slate-800 border border-slate-700 text-slate-200">${esc(x.k.name)}</span>`).join('')}</div></div>`;
         }
         function breedingHtml(b) {
             const NEH = { konnyu: ['Könnyű', 'sev-ok text-emerald-200'], kozepes: ['Közepes', 'sev-warn text-amber-200'], nehez: ['Nehéz', 'sev-bad text-rose-200'], akvariumban_szinte_lehetetlen: ['Akváriumban szinte lehetetlen', 'sev-bad text-rose-200'] }[b.nehezseg];
@@ -1669,6 +1710,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 <p class="text-slate-300">${esc(d.leiras || '')}</p>
                 ${['betegseg', 'alga'].includes(d.tipus) ? treatmentHtml(d, name) : ''}
                 ${d.tipus === 'noveny' ? plantInfoHtml(d) : ''}
+                ${['hal', 'gerinctelen', 'noveny'].includes(d.tipus) && d.latin ? `<div id="speciesPhotos" class="space-y-1"></div>` : ''}
                 ${['hal', 'gerinctelen'].includes(d.tipus) && d.adatlap ? factSheetHtml(d) : ''}
                 ${['hal', 'gerinctelen'].includes(d.tipus) && d.szaporodas ? breedingHtml(d.szaporodas) : ''}
                 ${kb ? `<div class="bg-slate-900 p-2 rounded text-[11px] border border-slate-800 text-slate-300">Max. ${kb.size} cm • min. ${kb.minTank || '?'} liter • ${kb.temp && kb.temp[0] ? kb.temp[0] + '–' + kb.temp[1] + ' °C' : ''} • pH ${kb.ph && kb.ph[0] ? kb.ph[0] + '–' + kb.ph[1] : '?'} • ${(AGGRO_LABEL[kb.aggro] || ['?'])[0]}</div>` : ''}
@@ -1679,6 +1721,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}
                 <button type="button" onclick="reportWrongScan()" class="text-[10px] text-slate-500 underline"><i class="fa-solid fa-flag mr-1"></i>Rossz a felismerés? Jelezd nekünk</button>`;
             window.lastScan = d;
+            if (d.latin) loadSpeciesPhotos(d.latin);
             try { localStorage.setItem('aquaFajLastScan', JSON.stringify({ magyar_nev: d.magyar_nev, latin: d.latin, biztossag: d.biztossag, tipus: d.tipus, mod: scanMode, ido: new Date().toLocaleString('hu-HU') })); } catch (e) {}
             const type = ['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? d.tipus : null;
             appState.scannedTempItem = type ? { name, latin: (kb && kb.latin) || d.latin || '', type, count: 1, size: (kb && kb.size) || Number(d.max_meret_cm) || 3, aggro: (kb && kb.aggro) || (['bekes', 'teruletvedo', 'agressziv'].includes(d.termeszet) ? d.termeszet : 'bekes') } : null;
@@ -1856,7 +1899,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v23';
+        const APP_VERSION = 'v24';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
