@@ -147,3 +147,4 @@ Limnobium laevigatum;Amazonas békatutaj
 Ceratopteris thalictroides;Szarvaspáfrány
 Hydrocotyle leucocephala;Brazil gázló
 Nymphaea lotus;Tigrislótusz
+Xenotoca eiseni;Xenotoca eiseni (vörösfarkú goodea)

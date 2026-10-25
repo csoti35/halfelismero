@@ -24,7 +24,7 @@ LIST = os.path.join(ROOT, "scripts", "fajlista.txt")
 NAMES = os.path.join(ROOT, "scripts", "magyar_nevek.txt")
 OUT = os.path.join(ROOT, "data", "species")
 INDEX = os.path.join(ROOT, "data", "species.json")
-BATCH = 4
+BATCH = 3
 MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "25"))
 TODAY = datetime.date.today().isoformat()
 
@@ -120,7 +120,7 @@ def _gemini(prompt, key, label):
         req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                                      data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
         try:
-            d = json.load(urllib.request.urlopen(req, timeout=240))
+            d = json.load(urllib.request.urlopen(req, timeout=480))
             return parse_array(d["candidates"][0]["content"]["parts"][0]["text"]), f"Google {model} ({label})"
         except urllib.error.HTTPError as e:
             msg = e.read().decode()[:200]
