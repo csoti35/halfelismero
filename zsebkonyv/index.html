@@ -85,6 +85,9 @@
         }
         .grid > *, main, section { min-width: 0; }
         .overflow-x-auto { max-width: 100%; }
+        select, input, textarea { max-width: 100%; min-width: 0; }
+        section { max-width: 100%; }
+        body > main, body > header, body > footer { width: 100%; }
         html, body { max-width: 100vw; overflow-x: hidden; }
         .scan-again { position: absolute !important; bottom: 10px; left: 0; right: 0; }
         .scan-again > div:first-child, .scan-again > div:nth-child(2) { display: none; }
@@ -1288,15 +1291,39 @@
                 if (sp.minTank && tankVolume && tankVolume < sp.minTank) out.push(['warn', `${sp.name}: legalább ${sp.minTank} literes akvárium kell (a tiéd kb. ${Math.round(tankVolume)} liter).`]);
                 if ((sp.flags || '').includes('R') && item.count < 6) out.push(['warn', `${sp.name}: rajhal, legalább 6–10 egyed kell (most ${item.count}).`]);
             });
+            const okNotes = [];
             for (let i = 0; i < animals.length; i++) for (let j = i + 1; j < animals.length; j++) {
                 const A = animals[i].sp, B = animals[j].sp;
                 if (!A || !B) continue;
-                compareSpecies(A, B).issues.filter(x => x.level !== 'ok').forEach(x => out.push([x.level, x.text]));
+                const iss = compareSpecies(A, B).issues.filter(x => x.level !== 'ok');
+                if (!iss.length) continue;
+                const key = pairKey(A, B);
+                if (isOkPair(key)) { okNotes.push([A.name, B.name, appState.okPairs[key]]); continue; }
+                iss.forEach(x => out.push([x.level, x.text, key, A.name, B.name]));
             }
-            if (!out.length) { box.innerHTML = `<div class="p-3 rounded-xl border sev-ok text-emerald-200"><i class="fa-solid fa-circle-check mr-1"></i> Nem találtam összeférhetetlenséget. Az állományod rendben van.</div>`; return; }
+            const okHtml = okNotes.length ? `<div class="p-3 rounded-xl border border-slate-700 bg-slate-900/60 text-slate-400 text-[11px] space-y-1"><div class="font-semibold text-slate-300"><i class="fa-solid fa-user-check mr-1"></i>A gazdi szerint nála működik:</div>${okNotes.map(([a, b, since]) => `<div>• ${esc(a)} + ${esc(b)}${since ? ` <span class="text-slate-500">(${esc(since)} óta)</span>` : ''} <button onclick="unmarkOkPair('${pairKey(findSpecies(a), findSpecies(b))}')" class="underline ml-1">visszavon</button></div>`).join('')}</div>` : '';
+            if (!out.length) { box.innerHTML = `<div class="p-3 rounded-xl border sev-ok text-emerald-200"><i class="fa-solid fa-circle-check mr-1"></i> Nem találtam összeférhetetlenséget. Az állományod rendben van.</div>` + okHtml; return; }
             const order = { bad: 0, warn: 1 };
-            box.innerHTML = out.sort((x, y) => order[x[0]] - order[y[0]]).map(([lv, t]) =>
-                `<div class="p-3 rounded-xl border ${lv === 'bad' ? 'sev-bad text-rose-200' : 'sev-warn text-amber-200'}"><i class="fa-solid ${lv === 'bad' ? 'fa-circle-xmark' : 'fa-triangle-exclamation'} mr-1"></i> ${esc(t)}</div>`).join('');
+            box.innerHTML = out.sort((x, y) => order[x[0]] - order[y[0]]).map(([lv, t, key, a, b]) =>
+                `<div class="p-3 rounded-xl border ${lv === 'bad' ? 'sev-bad text-rose-200' : 'sev-warn text-amber-200'}"><i class="fa-solid ${lv === 'bad' ? 'fa-circle-xmark' : 'fa-triangle-exclamation'} mr-1"></i> ${esc(t)}
+                ${key ? `<button onclick="markOkPair('${key}')" class="block mt-1.5 text-[11px] px-2 py-1 rounded-lg border border-current opacity-80 hover:opacity-100"><i class="fa-solid fa-check mr-1"></i>Nálam működik (${esc(a)} + ${esc(b)})</button>` : ''}</div>`).join('')
+                + (out.some(o => o[0] === 'bad') ? adviceButtonHtml() : '') + okHtml;
+        }
+        // "Nálam működik" jelölések: a gazdi saját tapasztalata felülírja a tankönyvi figyelmeztetést.
+        function pairKey(A, B) { return [latinKey((A && A.latin) || (A && A.name) || ''), latinKey((B && B.latin) || (B && B.name) || '')].sort().join('|'); }
+        function isOkPair(key) { return !!(appState.okPairs && appState.okPairs[key]); }
+        function markOkPair(key) {
+            appState.okPairs = appState.okPairs || {};
+            appState.okPairs[key] = new Date().toLocaleDateString('hu-HU', { year: 'numeric', month: 'long' });
+            saveToLocalStorage(); renderStockCheck(); showToast('Megjegyeztem: nálad ez a párosítás működik.');
+        }
+        function unmarkOkPair(key) { if (appState.okPairs) delete appState.okPairs[key]; saveToLocalStorage(); renderStockCheck(); }
+        function adviceButtonHtml() {
+            return `<button onclick="askAdvice()" class="w-full p-2.5 rounded-xl border border-sky-500/40 bg-sky-500/10 text-sky-200 text-[11px] font-semibold hover:bg-sky-500/20"><i class="fa-solid fa-comments mr-1"></i>Ilyen vegyes akváriumot szeretnél? Kérj tanácsot tapasztalt tartótól</button>`;
+        }
+        function askAdvice(extra) {
+            const fish = appState.stock.filter(i => i.type !== 'noveny').map(i => `${i.name} (${i.count} db)`).join(', ');
+            openBugReport({ kind: 'Tanácskérés', text: `Ezeket szeretném együtt tartani: ${extra ? extra + ', ' : ''}${fish}.\nAkvárium: kb. ${Math.round(tankVolume || 0)} liter.\nMire figyeljek, működhet-e? ` });
         }
 
         // ================= 3. FÜL: VÍZÉRTÉKEK =================
@@ -1770,13 +1797,14 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             appState.stock.filter(i => i.type !== 'noveny').forEach(item => {
                 const other = findSpecies(item.latin || item.name);
                 if (!other) return;
+                if (isOkPair(pairKey(sp, other))) return;
                 compareSpecies(sp, other).issues.filter(x => x.level !== 'ok').forEach(x => msgs.push([x.level, x.text]));
             });
             const animals = appState.stock.filter(i => i.type !== 'noveny').length;
             if (!animals) return `<div class="p-2 rounded border sev-ok text-emerald-200 text-[11px]">Az akváriumod még üres – vedd fel az első lakóként.</div>`;
             if (!msgs.length) return `<div class="p-2 rounded border sev-ok text-emerald-200 text-[11px]"><i class="fa-solid fa-circle-check mr-1"></i><strong>Összefér az akváriumoddal</strong> (${animals} meglévő faj alapján).</div>`;
             const bad = msgs.some(m => m[0] === 'bad');
-            return `<div class="p-2 rounded border ${bad ? 'sev-bad text-rose-200' : 'sev-warn text-amber-200'} text-[11px] space-y-1"><strong>${bad ? '<i class="fa-solid fa-circle-xmark mr-1"></i>Nem ajánlott az akváriumodba' : '<i class="fa-solid fa-triangle-exclamation mr-1"></i>Vigyázat az akváriumodban'}</strong>${msgs.map(m => `<div>• ${esc(m[1])}</div>`).join('')}</div>`;
+            return `<div class="p-2 rounded border ${bad ? 'sev-bad text-rose-200' : 'sev-warn text-amber-200'} text-[11px] space-y-1"><strong>${bad ? '<i class="fa-solid fa-circle-xmark mr-1"></i>Nem ajánlott az akváriumodba' : '<i class="fa-solid fa-triangle-exclamation mr-1"></i>Vigyázat az akváriumodban'}</strong>${msgs.map(m => `<div>• ${esc(m[1])}</div>`).join('')}${bad ? `<button onclick="askAdvice('${esc(sp.name).replace(/'/g, '')}')" class="mt-1 underline text-sky-200"><i class="fa-solid fa-comments mr-1"></i>Mégis szeretnéd? Kérj tanácsot</button>` : ''}</div>`;
         }
 
         // Ár és beszerzés: az ár az AI becslése (tájékoztató), a linkek valódi keresésekre visznek.
@@ -1979,13 +2007,13 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v30';
+        const APP_VERSION = 'v32';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
         let bugKind = 'Hiba';
         function openBugReport(prefill) {
-            const kinds = ['Hiba', 'Rossz felismerés', 'Javaslat', 'Egyéb'];
+            const kinds = ['Hiba', 'Rossz felismerés', 'Tanácskérés', 'Javaslat'];
             document.getElementById('bugKinds').innerHTML = kinds.map(k => `<button type="button" onclick="bugKind='${k}';openBugReport.mark();openBugReport.hint()" data-k="${k}" class="bug-k p-2 rounded-lg border">${k}</button>`).join('');
             openBugReport.mark = () => document.querySelectorAll('.bug-k').forEach(b => b.className = 'bug-k p-2 rounded-lg border ' + (b.dataset.k === bugKind ? 'bg-teal-500/20 border-teal-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'));
             if (prefill) { bugKind = prefill.kind || 'Hiba'; document.getElementById('bugText').value = prefill.text || ''; }
@@ -2022,6 +2050,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 add('Bejelentés', doc.text); add('Felhasználó', doc.email || 'nincs belépve');
                 if (doc.kind === 'Rossz felismerés' && doc.scan) add('Az app ezt ismerte fel', doc.scan);
                 if (doc.kind === 'Hiba' && doc.err) add('Hibaüzenet', doc.err);
+                if (doc.kind === 'Tanácskérés') add('Teljes állomány', appState.stock.map(i => `${i.name} – ${i.count} db`).join('\n'));
                 if (doc.photo) {
                     try {
                         const bin = atob(doc.photo); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
