@@ -294,6 +294,9 @@ hal;Heros severus
 hal;Mesonauta festivus
 hal;Hypselecara temporalis
 hal;Amatitlania nigrofasciata
+hal;Blood parrot (hibrid)
+hal;Arctic parrot (hibrid)
+hal;Flowerhorn (hibrid)
 hal;Andinoacara pulcher
 hal;Andinoacara rivulatus
 hal;Thorichthys meeki

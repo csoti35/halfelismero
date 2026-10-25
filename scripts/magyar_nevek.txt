@@ -151,3 +151,6 @@ Xenotoca eiseni;Xenotoca eiseni (vörösfarkú goodea)
 Maylandia lombardoi;Lombard sügér
 Melanochromis cyaneorhabdos;Maingano sügér
 Melanochromis johannii;Johanni sügér
+Blood parrot (hibrid);Vérpapagáj sügér
+Arctic parrot (hibrid);Sarki papagáj sügér
+Flowerhorn (hibrid);Virágszarvú sügér (flowerhorn)
