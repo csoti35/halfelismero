@@ -122,7 +122,7 @@ def _gemini(prompt, key, label):
             return parse_array(d["candidates"][0]["content"]["parts"][0]["text"]), f"Google {model} ({label})"
         except urllib.error.HTTPError as e:
             msg = e.read().decode()[:200]
-            print(f"Gemini {model} [{label}]: HTTP {e.code} {msg}")
+            print(f"::warning::Gemini {model} [{label}]: HTTP {e.code} {msg}")
             if e.code == 429 and "quota" in msg.lower():
                 continue
             if e.code in (500, 503, 504):
@@ -171,7 +171,7 @@ def main():
             todo = batch + todo
             continue
         except Exception as e:
-            print("Hiba, kihagyva a következő futásig:", batch, str(e)[:200])
+            print("::warning::Hiba, kihagyva a következő futásig:", batch, str(e)[:200])
             requests_done += 1
             continue
         requests_done += 1
