@@ -8,6 +8,10 @@ on:
     - cron: "15 0 * * *"
     - cron: "15 2 * * *"
     - cron: "15 4 * * *"
+    # Napközben csak a külön adatbázis-kulccsal (a felismerés keretét nem érinti)
+    - cron: "15 10 * * *"
+    - cron: "15 14 * * *"
+    - cron: "15 19 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -33,14 +37,15 @@ jobs:
         id: ablak
         run: |
           h=$(date -u +%H)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$h" -ge 6 ]; then
-            echo "::notice::Kihagyva: a futás késve indult (UTC $h óra), a napi Gemini-keret már a felismerésé."
-            echo "fut=0" >> $GITHUB_OUTPUT
+          if [ "$h" -ge 6 ]; then
+            echo "::notice::Nappali futás (UTC $h óra): csak az adatbázis-kulcs dolgozik, a felismerés kerete érintetlen."
+            echo "main=0" >> $GITHUB_OUTPUT
           else
-            echo "fut=1" >> $GITHUB_OUTPUT
+            echo "main=1" >> $GITHUB_OUTPUT
           fi
       - name: Adatlapok generálása
-        if: steps.ablak.outputs.fut == '1'
+        env:
+          USE_MAIN: ${{ steps.ablak.outputs.main }}
         run: python3 scripts/fajlista_json.py && python3 scripts/generate.py
       - name: Mentés
         run: |

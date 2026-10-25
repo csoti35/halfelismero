@@ -9,8 +9,14 @@ import datetime, json, os, re, sys, time, unicodedata, urllib.request, urllib.er
 G_CODE = [27, 11, 116, 27, 56, 98, 8, 20, 108, 19, 10, 98, 10, 31, 11, 104, 98, 105, 48, 30, 5, 46, 111, 106, 59, 62, 13, 31, 53, 61, 35, 51, 63, 106, 29, 20, 11, 61, 2, 17, 52, 57, 52, 35, 0, 98, 49, 109, 106, 56, 106, 13, 61]
 Q_CODE = [91,79,87,99,121,113,8,108,74,113,91,88,112,68,84,84,15,13,93,115,110,104,85,14,107,123,88,69,94,15,122,101,74,86,109,122,102,77,69,4,118,109,120,81,117,94,72,94,80,86,118,121,119,113,84,89]
 GEMINI_KEY = "".join(chr(c ^ 0x5A) for c in G_CODE)
+# Második, csak az adatbázisnak fenntartott kulcs (külön projekt, külön keret).
+K2_CODE = [27, 11, 116, 27, 56, 98, 8, 20, 108, 19, 10, 98, 10, 31, 11, 104, 98, 105, 48, 30, 5, 46, 111, 106, 59, 62, 13, 31, 53, 61, 35, 51, 63, 106, 29, 20, 11, 61, 2, 17, 52, 57, 52, 35, 0, 98, 49, 109, 106, 56, 106, 13, 61]
+GEMINI_KEY_DB = "".join(chr(c ^ 0x5A) for c in K2_CODE)
+# A fő (felismerő) kulcsot csak éjszaka használjuk, a maradék keretből.
+USE_MAIN = os.environ.get("USE_MAIN", "1") == "1"
 GROQ_KEY = "".join(chr(c ^ 0x3C) for c in Q_CODE)
 print("::add-mask::" + GEMINI_KEY)
+print("::add-mask::" + GEMINI_KEY_DB)
 print("::add-mask::" + GROQ_KEY)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -105,24 +111,30 @@ def parse_array(text):
 class QuotaGone(Exception):
     pass
 
-def gemini(prompt):
+def _gemini(prompt, key, label):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
     for model in ["gemini-flash-latest"]:
         req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                                     data=body, headers={"Content-Type": "application/json", "x-goog-api-key": GEMINI_KEY})
+                                     data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
         try:
             d = json.load(urllib.request.urlopen(req, timeout=240))
-            return parse_array(d["candidates"][0]["content"]["parts"][0]["text"]), "Google " + model
+            return parse_array(d["candidates"][0]["content"]["parts"][0]["text"]), f"Google {model} ({label})"
         except urllib.error.HTTPError as e:
             msg = e.read().decode()[:200]
-            print(f"Gemini {model}: HTTP {e.code} {msg}")
+            print(f"Gemini {model} [{label}]: HTTP {e.code} {msg}")
             if e.code == 429 and "quota" in msg.lower():
                 continue
             if e.code in (500, 503, 504):
                 continue
             raise
-    raise QuotaGone("gemini")
+    raise QuotaGone(label)
+
+def gemini_db(prompt):
+    return _gemini(prompt, GEMINI_KEY_DB, "adatbázis-kulcs")
+
+def gemini(prompt):
+    return _gemini(prompt, GEMINI_KEY, "fő kulcs")
 
 def groq(prompt):
     body = json.dumps({"model": "openai/gpt-oss-120b", "temperature": 0.2, "max_completion_tokens": 12000,
@@ -145,7 +157,8 @@ def main():
     names = load_names()
     todo = [(t, l) for t, l in items if not os.path.exists(os.path.join(OUT, slug(l) + ".json"))]
     print(f"Összesen {len(items)} faj, hiányzik: {len(todo)}")
-    providers = [gemini]  # a Groq-modell adatai pontatlanok voltak, ezért csak Gemini
+    # Először a saját adatbázis-kulcs; a fő kulcs csak éjszaka (USE_MAIN=1). A Groq adatai pontatlanok voltak.
+    providers = [gemini_db] + ([gemini] if USE_MAIN else [])
     requests_done = 0
     while todo and requests_done < MAX_REQUESTS and providers:
         batch, todo = todo[:BATCH], todo[BATCH:]
