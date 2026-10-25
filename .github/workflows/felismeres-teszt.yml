@@ -20,7 +20,7 @@ jobs:
           await p.goto('http://127.0.0.1:8080/zsebkonyv/index.html');await p.waitForTimeout(3000);
           await p.evaluate(()=>{document.querySelectorAll('[id$="Modal"]').forEach(m=>m.classList.add('hidden'));setScanMode('hal')});
           const i=await p.$$('input[type=file][accept^="image"]');await i[1].setInputFiles('test/lombardoi.jpg');
-          for(let k=0;k<90;k++){await p.waitForTimeout(1000);if(window&&await p.evaluate(()=>!!window.lastScan))break;}
+          for(let k=0;k<90;k++){await p.waitForTimeout(1000);if(await p.evaluate(()=>!!window.lastScan))break;}
           const d=await p.evaluate(()=>window.lastScan||{err:document.getElementById('scanResultContent').innerText});
           console.log('::notice::EREDMENY '+JSON.stringify({nev:d.magyar_nev,latin:d.latin,biz:d.biztossag,alt:(d.alternativak||[]).map(a=>a.latin),err:d.err}).slice(0,900));
           console.log('::notice::LATHATO '+String(d.lathato||'').slice(0,900));
