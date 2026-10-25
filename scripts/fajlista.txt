@@ -353,6 +353,7 @@ hal;Mylochromis lateristriga
 hal;Labidochromis caeruleus
 hal;Melanochromis auratus
 hal;Melanochromis cyaneorhabdos
+hal;Melanochromis johannii
 hal;Pseudotropheus saulosi
 hal;Maylandia estherae
 hal;Maylandia lombardoi

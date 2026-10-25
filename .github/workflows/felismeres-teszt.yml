@@ -1,0 +1,29 @@
+name: Felismerés teszt
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/felismeres-teszt.yml", "test/**"]
+jobs:
+  t:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: "22" }
+      - run: npm i -s playwright@1.48.2 >/dev/null && npx playwright install --with-deps chromium >/dev/null
+      - run: |
+          python3 -m http.server 8080 >/dev/null 2>&1 &
+          sleep 2
+          cat > t.js <<'JS'
+          const {chromium}=require('playwright');
+          (async()=>{const b=await chromium.launch();const p=await b.newPage();
+          await p.goto('http://127.0.0.1:8080/zsebkonyv/index.html');await p.waitForTimeout(3000);
+          await p.evaluate(()=>{document.querySelectorAll('[id$="Modal"]').forEach(m=>m.classList.add('hidden'));setScanMode('hal')});
+          const i=await p.$$('input[type=file][accept^="image"]');await i[1].setInputFiles('test/hal.jpg');
+          for(let k=0;k<90;k++){await p.waitForTimeout(1000);if(await p.evaluate(()=>!!window.lastScan))break;}
+          const d=await p.evaluate(()=>window.lastScan||{err:document.getElementById('scanResultContent').innerText});
+          console.log('::notice::EREDMENY '+JSON.stringify({nev:d.magyar_nev,latin:d.latin,biz:d.biztossag,alt:(d.alternativak||[]).map(a=>a.latin),err:d.err}).slice(0,900));
+          console.log('::notice::LATHATO '+String(d.lathato||'').slice(0,900));
+          await b.close()})();
+          JS
+          node t.js

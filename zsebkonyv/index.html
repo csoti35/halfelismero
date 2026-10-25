@@ -1430,7 +1430,7 @@
 Ha több állat van a képen, a legnagyobbat, legélesebbet határozd meg.
 Először írd le, mit látsz ténylegesen (testforma, színek, mintázat, harántsávok, úszók helye és színe, a hátúszó szegélye, hasúszó, farokúszó, száj, ikrafoltok), és CSAK ezek alapján döntsd el a fajt. Ne találgass olyan fajt, amelynek jellegzetes bélyegei nem látszanak.
 DÖNTÉS ELŐTT kötelező: vedd sorra a 2-3 leginkább hasonló fajt, és vesd össze a MEGKÜLÖNBÖZTETŐ bélyegeiket a képpel. Gondolj arra, hogy sok fajnál (főleg sügéreknél) a hím, a nőstény és a fiatal egészen más színű. Ha egy faj kötelező bélyege hiányzik a képről, az a faj nem lehet az első helyen. Ha két faj között a kép alapján nem dönthető el, a biztosság legfeljebb 65 legyen, és a másik legyen az első alternatíva.
-Gyakori összetévesztések (csak ha ilyen hal van a képen): sárga Malawi-sügérek – Labidochromis caeruleus (fekete sáv a hátúszó szélén, fekete hasúszók, nincsenek harántsávok), Maylandia lombardoi hím (narancssárga, halvány sötétebb harántsávok, a hátúszón nincs fekete sáv, ikrafoltok a farok alatti úszón), Melanochromis auratus nőstény (sárga test két fekete-fehér hosszanti csíkkal); kék csíkos Malawi-sügérek – Maylandia lombardoi nőstény / fiatal, Maylandia zebra, Pseudotropheus demasoni.
+Gyakori összetévesztések (csak ha ilyen hal van a képen): sárga Malawi-sügérek – Labidochromis caeruleus (fekete sáv a hátúszó szélén, fekete hasúszók, nincsenek harántsávok), Maylandia lombardoi hím (narancssárga, halvány sötétebb harántsávok, a hátúszón nincs fekete sáv, ikrafoltok a farok alatti úszón), Melanochromis auratus nőstény (sárga test két fekete-fehér hosszanti csíkkal); kék Malawi-sügérek – figyeld a csíkok IRÁNYÁT: HOSSZANTI (vízszintes, a testtel párhuzamos) világoskék csíkok sötétkék-lila testen = Melanochromis cyaneorhabdos (maingano) vagy Melanochromis johannii hím; FÜGGŐLEGES harántsávok = Maylandia zebra, Maylandia lombardoi nőstény/fiatal, Pseudotropheus demasoni, Maylandia callainos (sávtalan kék).
 Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 {"lathato":"<amit látsz, és melyik bélyeg alapján zártad ki a hasonló fajokat>","tipus":"hal|gerinctelen|egyeb","magyar_nev":"<a magyar akvarisztikában bevett név; killiknél fogasponty, zárójelben killi>","latin":"<latin név>","biztossag":<0-100>,
 "alternativak":[{"magyar_nev":"","latin":"","kulonbseg":"<miben különbözik a képen látottól>"}],
@@ -1915,7 +1915,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v26';
+        const APP_VERSION = 'v27';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });

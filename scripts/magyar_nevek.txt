@@ -149,3 +149,5 @@ Hydrocotyle leucocephala;Brazil gázló
 Nymphaea lotus;Tigrislótusz
 Xenotoca eiseni;Xenotoca eiseni (vörösfarkú goodea)
 Maylandia lombardoi;Lombard sügér
+Melanochromis cyaneorhabdos;Maingano sügér
+Melanochromis johannii;Johanni sügér
