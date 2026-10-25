@@ -1546,8 +1546,12 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             let last = '';
             for (const model of ['gemini-flash-latest', 'gemini-flash-lite-latest']) {
                 const cfg = { temperature: 0.2, responseMimeType: 'application/json' };
-                if (model === 'gemini-flash-latest') cfg.thinkingConfig = { thinkingLevel: 'low' };
-                const parts = b64 ? [{ inlineData: { mimeType: 'image/jpeg', data: b64 } }, { text: prompt }] : [{ text: prompt }];
+                if (model === 'gemini-flash-latest') cfg.thinkingConfig = { thinkingLevel: 'medium' };
+                const refs = (b64 && ['hal', 'noveny'].includes(scanMode)) ? pickRefs() : [];
+                const refParts = refs.length ? [{ text: 'A felhasználó SAJÁT, korábban már helyesen azonosított élőlényeinek referenciafotói következnek. A gazdi ezeket tartja, ezért nagy eséllyel ezek egyike van a vizsgálandó képen is – de csak akkor válaszd valamelyiket, ha a bélyegek egyeznek.' }]
+                    .concat(...refs.map(r => [{ inlineData: { mimeType: 'image/jpeg', data: r.img } }, { text: `Referencia: ${r.name}${r.latin ? ' (' + r.latin + ')' : ''}` }]))
+                    .concat([{ text: 'Most következik a VIZSGÁLANDÓ kép:' }]) : [];
+                const parts = b64 ? [...refParts, { inlineData: { mimeType: 'image/jpeg', data: b64 } }, { text: prompt }] : [{ text: prompt }];
                 const body = JSON.stringify({ contents: [{ parts }], generationConfig: cfg });
                 const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), model === 'gemini-flash-latest' ? 25000 : 30000);
                 const st = document.getElementById('scanStatus'); if (st) st.textContent = model === 'gemini-flash-latest' ? 'Pontos elemzés…' : 'A pontos elemzés lassú volt, most a gyors modellel próbálom…';
@@ -1591,6 +1595,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 // A bejelentéshez jobb minőségű példányt tartunk meg (a részletek látszódjanak).
                 const hq = await fileToJpegBase64(file, 2000, 0.9).catch(() => b64);
                 window.lastScanPhoto = hq; try { localStorage.setItem('aquaFajLastPhoto', hq); } catch (e) { try { localStorage.setItem('aquaFajLastPhoto', b64); } catch (e2) { try { localStorage.removeItem('aquaFajLastPhoto'); } catch (e3) {} } }
+                window.lastScanSmall = await fileToJpegBase64(file, 320, 0.7).catch(() => null);
                 const d = await geminiIdentify(b64, buildPrompt());
                 showScanResult(d);
             } catch (err) {
@@ -1735,6 +1740,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${kb && kb.type !== 'noveny' ? stockFitHtml(kb) : ''}
                 ${['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? shopHtml(name, (kb && kb.latin) || d.latin, d) : ''}
                 ${d.lathato ? `<details class="text-[11px] text-slate-400"><summary class="cursor-pointer">Mit látott a képen?</summary>${esc(d.lathato)}</details>` : ''}
+                ${['hal', 'gerinctelen', 'noveny'].includes(d.tipus) ? `<div id="fixBox"><button type="button" onclick="openFix()" class="w-full p-2 rounded-lg border border-amber-500/40 text-amber-200 hover:bg-amber-500/10 text-[11px] font-semibold"><i class="fa-solid fa-pen mr-1"></i>Nem ez? Add meg a helyeset – megtanulja</button></div>` : ''}
                 <button type="button" onclick="reportWrongScan()" class="text-[10px] text-slate-500 underline"><i class="fa-solid fa-flag mr-1"></i>Rossz a felismerés? Jelezd nekünk</button>`;
             window.lastScan = d;
             if (d.latin) loadSpeciesPhotos(d.latin);
@@ -1796,8 +1802,53 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             showScanResult({ ...window.lastScan, adatlap: null, szaporodas: null, feny: null, co2: null, novekedes: null, elhelyezes: null, max_magassag_cm: null, szaporitas: null, allapot: null, magyar_nev: (kb && kb.name) || a.magyar_nev, latin: (kb && kb.latin) || a.latin, biztossag: 100, leiras: (kb && kb.desc) || 'A te választásod alapján.', alternativak: [], ar_ft_min: null, ar_ft_max: null });
         }
 
+        // ===== Saját referenciafotók: a javított / állományba vett fajok fotóit a felismerés megkapja mintának =====
+        function loadRefs() { try { return JSON.parse(localStorage.getItem('aquaFajRefs') || '[]'); } catch (e) { return []; } }
+        function saveRef(latin, name) {
+            if (!window.lastScanSmall || !(latin || name)) return;
+            let refs = loadRefs().filter(r => r.img !== window.lastScanSmall);
+            refs.unshift({ latin: latin || '', name: name || latin, img: window.lastScanSmall, t: Date.now(), type: scanMode });
+            // fajonként legfeljebb 3 kép, összesen 24
+            const per = {}; refs = refs.filter(r => (per[latinKey(r.latin || r.name)] = (per[latinKey(r.latin || r.name)] || 0) + 1) <= 3).slice(0, 24);
+            for (let n = refs.length; n > 0; n--) { try { localStorage.setItem('aquaFajRefs', JSON.stringify(refs.slice(0, n))); break; } catch (e) {} }
+        }
+        function pickRefs() {
+            const refs = loadRefs().filter(r => (r.type || 'hal') === scanMode);
+            const seen = new Set(), out = [];
+            for (const r of refs) { const k = latinKey(r.latin || r.name); if (!seen.has(k)) { seen.add(k); out.push(r); } }
+            for (const r of refs) { if (out.length >= 12) break; if (!out.includes(r)) out.push(r); }
+            return out.slice(0, 12);
+        }
+        function openFix() {
+            const box = document.getElementById('fixBox'); if (!box) return;
+            const list = [...new Set([...(SPECIES_LIST ? (scanMode === 'noveny' ? SPECIES_LIST.noveny : SPECIES_LIST.hal) : []), ...KB.filter(k => scanMode === 'noveny' ? k.type === 'noveny' : k.type !== 'noveny').map(k => `${k.latin} (${k.name})`)])];
+            box.innerHTML = `<div class="p-3 rounded-xl border border-amber-500/40 bg-amber-500/5 space-y-2 text-[11px]">
+                <div class="text-amber-200 font-semibold">Mi van valójában a képen?</div>
+                <input id="fixInput" list="fixList" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-slate-100" placeholder="Kezdd el írni a nevét (magyarul vagy latinul)…">
+                <datalist id="fixList">${list.map(x => `<option value="${esc(x)}">`).join('')}</datalist>
+                <button onclick="applyFix()" class="w-full bg-amber-600 hover:bg-amber-500 text-white font-semibold py-2 rounded-lg">Ez az – javítsd és tanuld meg</button>
+                <div class="text-slate-400">A fotót megjegyzi mintának: legközelebb a te halaidat sokkal pontosabban felismeri.</div></div>`;
+            document.getElementById('fixInput').focus();
+        }
+        async function applyFix() {
+            const v = (document.getElementById('fixInput').value || '').trim(); if (!v) return;
+            const m = v.match(/^(.*?)\s*\((.*)\)\s*$/);
+            let latin = m ? m[1].trim() : '', name = m ? m[2].trim() : v;
+            const kb = findSpecies(latin || name); if (kb) { latin = latin || kb.latin; name = kb.name; }
+            if (!latin && /^[A-Z][a-z]+ [a-z]+/.test(name)) { latin = name; }
+            saveRef(latin, name);
+            const res = document.getElementById('scanResultContent');
+            res.innerHTML = `<div class="text-center py-6 space-y-2"><i class="fa-solid fa-circle-notch fa-spin text-teal-400 text-2xl"></i><p class="text-xs text-teal-300">Adatlap: ${esc(name)}…</p></div>`;
+            try {
+                const d = await geminiIdentify(null, buildPrompt() + `\nNincs kép: a felhasználó megerősítette, hogy ez a faj: ${latin ? latin + ' (' + name + ')' : name}. Erre a fajra add meg az összes mezőt, "biztossag" legyen 100, "alternativak" üres lista, "lathato" legyen "A gazdi megerősítése alapján".`);
+                d.biztossag = 100; d.alternativak = []; showScanResult(d);
+                showToast('Megjegyeztem! Legközelebb ezt a halat jobban felismerem.');
+            } catch (err) { res.innerHTML = errorBox(err.message); }
+        }
+
         function addScannedToStock() {
             if (!appState.scannedTempItem) return;
+            if (['hal', 'noveny'].includes(scanMode)) saveRef(appState.scannedTempItem.latin, appState.scannedTempItem.name);
             appState.stock.push({ id: Date.now(), ...appState.scannedTempItem });
             saveToLocalStorage(); renderStock(); calculateAquascape();
             const b = document.querySelector('#scanActions button');
@@ -1915,7 +1966,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v27';
+        const APP_VERSION = 'v28';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
