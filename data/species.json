@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-25",
-"darab": 31,
+"darab": 34,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -27,6 +27,33 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1000,
 "ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "belonesox-belizanus",
+"tipus": "hal",
+"latin": "Belonesox belizanus",
+"magyar_nev": "Hegyesfejű fogasponty",
+"egyeb_nevek": [
+"Csuka-fogasponty",
+"Csukafogasponty"
+],
+"regi_latin_nevek": [],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 20,
+"termeszet": "agressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.2,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 7500,
 "ellenorzott": false
 },
 {
@@ -367,6 +394,58 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 600,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-herbertaxelrodi",
+"tipus": "hal",
+"latin": "Hyphessobrycon herbertaxelrodi",
+"magyar_nev": "Fekete neon",
+"egyeb_nevek": [
+"Fekete neon"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 700,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-megalopterus",
+"tipus": "hal",
+"latin": "Hyphessobrycon megalopterus",
+"magyar_nev": "Fekete fantomlazac",
+"egyeb_nevek": [],
+"regi_latin_nevek": [
+"Megalamphodus megalopterus"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 900,
 "ellenorzott": false
 },
 {

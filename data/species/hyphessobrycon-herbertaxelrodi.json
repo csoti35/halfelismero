@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Hyphessobrycon herbertaxelrodi",
+ "id": "hyphessobrycon-herbertaxelrodi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon herbertaxelrodi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fekete neon",
+ "egyeb_nevek": [
+  "Fekete neon"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Paraguay-medence, Brazília)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, nyugodt rajhal. Fajtársaival szoros köteléket alkot, más fajokat soha nem bánt.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő: jó minőségű lemezes és mikropellet tápok, fagyasztott és élő kistestű eleségek (artémia, ciklop, daphnia).",
+ "tarsithato": true,
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy ragadozó halak (pl. nagy sügérek)",
+  "amelyek zsákmánynak tekinthetik."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy kis (10-20 literes), lágy (2-4 dGH) és enyhén savas (pH 6.0-6.5) vízzel töltött ívató medencét.",
+  "Használjunk ikrarácsot vagy finom levelű növényeket (pl. jávai moha), és árnyékoljuk le az akváriumot.",
+  "Helyezzünk ki egy jól táplált párt vagy kis csapatot az esti órákban; az ívás általában másnap reggel lezajlik.",
+  "Ívás után azonnal vegyük ki a szülőket az ikrafalás elkerülése érdekében.",
+  "A lárvák 24-36 óra múlva kelnek ki, további 3-4 nap múlva úsznak el, ekkor papucsállatkával és rotatóriával, majd friss artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, különösen ívási időben kerekebb a hasvonaluk; a hímek karcsúbbak és valamivel kisebbek.",
+ "felismeres_jegyek": [
+  "A testen végighúzódó világító, kékeszöld fluoreszkáló felső csík.",
+  "A világos csík alatt egy széles, bársonyos fekete sáv fut a kopoltyútól a farokúszóig.",
+  "A szem felső íve feltűnően élénkvörös színű.",
+  "Az úszók többnyire áttetszőek, enyhe sárgásfehér árnyalattal.",
+  "Kisméretű zsírúszó jelenléte."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paracheirodon innesi",
+   "magyar_nev": "Neonhal",
+   "kulonbseg": "Alteste élénkpiros, a felső csíkja kék, fekete sávja nincs."
+  },
+  {
+   "latin": "Nematobrycon palmeri",
+   "magyar_nev": "Királylazac",
+   "kulonbseg": "Nagyobb testű, a hímeknek díszes középső faroknyúlványa és kék szeme van."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darapkór (Ichthyophthirius multifiliis)",
+  "Pontylazac-betegség (Plistophora hyphessobryconis)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 700,
+ "tippek": [
+  "Sötét aljzat és tompított világítás mellett a legszebbek a színei.",
+  "Égerfa toboz vagy tőzeg kivonat jót tesz a víznek és kiemeli ragyogását.",
+  "Tartása sokkal könnyebb, mint a vörös neoné; ideális választás kezdő társas akváriumokba."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

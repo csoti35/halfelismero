@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Belonesox belizanus",
+ "id": "belonesox-belizanus",
+ "tipus": "hal",
+ "latin": "Belonesox belizanus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Hegyesfejű fogasponty",
+ "egyeb_nevek": [
+  "Csuka-fogasponty",
+  "Csukafogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika (Mexikótól Nicaraguáig)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten ragadozó, heves vadászösztönnel rendelkező hal. Kisebb halakat habozás nélkül zsákmányul ejti, fajtársaival szemben is agresszív lehet, a hímeket a jóval nagyobb nőstények elpusztíthatják. Elsősorban fajspecifikus akváriumot igényel.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 15,
+ "gh_max": 30,
+ "taplalek": "Kizárólag ragadozó: élő eleséghalak, nagyobb rovarlárvák, giliszták, apró rákok; száraztápot rendkívül nehezen fogad el.",
+ "tarsithato": false,
+ "kerulendo": [
+  "Minden olyan hal",
+  "amely elfér a szájában",
+  "valamint félénk",
+  "kistestű fajok. Csak hasonló méretű",
+  "robusztus és békés halfajokkal tartható együtt óriási akváriumban."
+ ],
+ "szaporodas_mod": "elevenszülő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk bőséges, vitaminban gazdag élő eleséget (kishalak, tubifex) a szülőknek.",
+  "Az akváriumot dúsan ültessük be növényzettel, a felszínen úszó növényekkel a kannibalizmus kivédésére.",
+  "A párzás a gonopódium segítségével történik; a vemhesség 4-6 hétig tart.",
+  "A nőstény egyszerre akár 80-100 viszonylag nagy méretű (1,5-2 cm-es) kishalat hoz világra.",
+  "A szülőket azonnal távolítsuk el az ellés után, mert saját ivadékaikat is elfogyasztják.",
+  "Az ivadékok rögtön nevelhetők frissen kelt artémiával, vízibolhával és apró kishalakkal."
+ ],
+ "ivari_kulonbseg": "A nőstények jelentősen nagyobbak (akár 20 cm), teltebb testűek. A hímek legfeljebb 10-12 cm-esek, karcsúbbak, és a farok alatti úszójuk párzószervvé (gonopódium) alakult.",
+ "felismeres_jegyek": [
+  "Hosszúkás, csukaszerű testalkat hegyes, csőrszerű szájjal.",
+  "Erőteljes, hegyes fogakkal teli, mélyen hasított állkapocs.",
+  "A hátúszó a test hátulsó harmadában helyezkedik el.",
+  "Olajzöldes-barnás alapszín, hosszanti apró sötét pontsorokkal az oldalán.",
+  "A farokúszó tövén gyakran egy sötét folt látható."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ctenolucius hujeta",
+   "magyar_nev": "Közönséges csukalazac",
+   "kulonbseg": "Nem elevenszülő fogasponty, hanem ikrázó ragadozó pontylazacféle, nincsen gonopódiuma és teste ezüstösebb."
+  },
+  {
+   "latin": "Dermogenys pusilla",
+   "magyar_nev": "Féleszméjű csőröske",
+   "kulonbseg": "Sokkal kisebb termetű, és csak az alsó állkapcsa nyúlik meg hegyesen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések a rossz vízminőség vagy sérülés miatt",
+  "Darapkór (Ichthyophthirius)",
+  "Emésztőrendszeri paraziták a fertőzött élő táplálék miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Kemény, enyhén lúgos vizet kedvel; némi tengeri só hozzáadása (1-2 g/l) jótékonyan hat az immunrendszerére.",
+  "Mindig legyen fedett az akvárium, mert préda után kapva vagy megriadva könnyen kiugorhat.",
+  "Gondoskodjunk folyamatos élő eleség utánpótlásról már a beszerzés előtt."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

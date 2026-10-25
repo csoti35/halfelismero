@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Hyphessobrycon megalopterus",
+ "id": "hyphessobrycon-megalopterus",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon megalopterus",
+ "regi_latin_nevek": [
+  "Megalamphodus megalopterus"
+ ],
+ "magyar_nev": "Fekete fantomlazac",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Guaporé és Paraguay folyórendszerei)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés rajhal, a hímek territoriális pózolással és egymás közötti békés erőfitogtatással imponálnak, de kárt nem tesznek egymásban vagy más fajokban.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 14,
+ "taplalek": "Mindenevő: finom szemcsés száraztápok, valamint fagyasztott és élő artémia, daphnia, szúnyoglárva.",
+ "tarsithato": true,
+ "kerulendo": [
+  "Uszonycsipkedő vagy agresszív",
+  "nagytestű fajok",
+  "mert a hímek vitorlaszerű úszói sérülékenyek."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (2-5 dGH), enyhén savas (pH 6.0-6.5) vízzel feltöltött, gyengén megvilágított ívató akváriumot rendezzünk be.",
+  "Aljzatként ikravédő hálót vagy finom levelű növénycsomókat (pl. jávai moha) használjunk.",
+  "Kondicionáljuk a tenyészpárt élő eleséggel, majd este helyezzük ki őket.",
+  "Az ívás reggel történik, amely után a szülőket azonnal ki kell emelni.",
+  "A lárvák kb. 24-30 óra múlva kelnek, az elúszás után papucsállatkával és naupliuszokkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója és farok alatti úszója látványosan nagyobb, vitorlaszerű és sötétszürke/fekete. A nőstények zsírúszója, hasúszói és farok alatti úszói vöröses színűek, testük teltebb.",
+ "felismeres_jegyek": [
+  "Magasított, oldalról erősen lapított testfelépítés.",
+  "A kopoltyúfedő mögött egy jellegzetes, nagy méretű, lekerekített fekete folt látható, melyet irizáló sáv vesz körül.",
+  "A hímek hatalmas, sötét vitorlaszerű hátúszóval rendelkeznek.",
+  "A nőstények hasi és páros úszói feltűnően vöröses árnyalatúak.",
+  "Füstszürke, áttetsző testalapszín."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon sweglesi",
+   "magyar_nev": "Vörös fantomlazac",
+   "kulonbseg": "Alapszíne vörösesbarna/rubinvörös, míg a fekete fantomlazac füstszürke."
+  },
+  {
+   "latin": "Hyphessobrycon roseus",
+   "magyar_nev": "Sárga fantomlazac",
+   "kulonbseg": "Sárgás-borostyánszínű test, hiányzik a hímek hatalmas fekete vitorlája."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darapkór (Ichthyophthirius multifiliis)",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Tartásánál ügyeljünk a nemek arányára: tartsunk több hímet is, hogy csodálatos fitogtató násztáncukban gyönyörködhessünk.",
+  "Dús növényesítés és úszónövények alatti szűrt fény mellett érzik leginkább biztonságban magukat.",
+  "Kifejezetten jól mutatnak élénk színű nano-halak (pl. vörös neonhalak) társaságában."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}
