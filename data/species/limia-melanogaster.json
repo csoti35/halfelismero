@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Limia melanogaster",
+ "id": "limia-melanogaster",
+ "tipus": "hal",
+ "latin": "Limia melanogaster",
+ "regi_latin_nevek": [
+  "Poecilia melanogaster"
+ ],
+ "magyar_nev": "Feketehasú limia",
+ "egyeb_nevek": [
+  "Feketehasú fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika (Jamaica)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 3.5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, élénk mozgású, társas elevenszülő faj. A hímek udvarlási tánca rendkívül attraktív, más kistestű, békés fajokkal ideális társasági hal.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 7.2,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, étlapján kötelező a növényi rész: algák, spirulina lemezek, kiegészítve artémiával, szúnyoglárvával és minőségi száraztápokkal.",
+ "tarsithato": [
+  "Más békés közép-amerikai elevenszülők",
+  "békés kistestű pontylazacok",
+  "dániók",
+  "páncélosharcsák (Corydoras)",
+  "algázó gébek."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek",
+  "csipkelődő márnák",
+  "valamint más Limia fajokkal sem ajánlott együtt tartani a hibridizáció veszélye miatt."
+ ],
+ "szaporodas_mod": "Elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Tartsuk őket tiszta, oxigéndús, középkemény vagy kemény vízben.",
+  "Háremben célszerű tartani, 1 hímhez 2-3 nőstényt helyezve.",
+  "A nőstények mintegy 4 hetes vemhességi idő után 20–40 kishalat ellenek.",
+  "Dús növényzet (hínárok, jávai moha) esetén a kishalak zöme a felnőttek mellett is felnő.",
+  "Az ivadék azonnal etethető artémia naupliuszokkal és finom porrá zúzott szárazeleséggel."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények nagyobbak, hasukon egy hatalmas, jól körülhatárolt, mélyfekete foltot viselnek, mely kékesen csillog; a hímek karcsúbbak, testükön acélkék pikkelyek ragyognak, úszóik sárgás-feketék, és gonopódiumuk van.",
+ "felismeres_jegyek": [
+  "A kifejlett nőstények hasoldalán feltűnő, nagy kiterjedésű, koromfekete folt található.",
+  "A testen és a faroknyélen fényes, acélkék vagy kékeszöld pikkelycsillogás látható.",
+  "A farokúszó töve és alsó-felső szegélye sárgás vagy narancsos, fekete szegéllyel kiegészülve.",
+  "A hímek teste karcsúbb, úszóik színesebbek, hátuk nem púposodik fel úgy, mint a L. nigrofasciata esetében."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limia nigrofasciata",
+   "magyar_nev": "Púpos limia",
+   "kulonbseg": "A hímek háta magasan púpos, testük függőlegesen sávozott, a nőstényekről hiányzik a hatalmas fekete hasfolt."
+  },
+  {
+   "latin": "Limia tridens",
+   "magyar_nev": "Háromfogú limia",
+   "kulonbseg": "Nincs markáns fekete folt a nőstény hasán, színezetük jóval egyszerűbb, ezüstösebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Oodinium)",
+  "Emésztőrendszeri panaszok rostszegény étrend miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Sötét aljzat és fekete háttér mellett pikkelyeik kék fénye és a nőstények kontrasztos hasfoltja rendkívül mutatós látványt nyújt.",
+  "Más Limia fajokkal ne tartsuk közös akváriumban, mert könnyen összeívnak és hibrid utódokat hoznak létre.",
+  "Rendszeres vízcserével és jó szűréssel segítsük megőrizni vitalitásukat és élénk szaporodókedvüket."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

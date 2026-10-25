@@ -1,7 +1,120 @@
 {
 "frissitve": "2026-10-25",
-"darab": 8,
+"darab": 12,
 "fajok": [
+{
+"id": "gambusia-holbrooki",
+"tipus": "hal",
+"latin": "Gambusia holbrooki",
+"magyar_nev": "Keleti szúnyogirtó fogasponty",
+"egyeb_nevek": [
+"Holbrook-szúnyogirtó fogasponty",
+"Szúnyogirtó hal"
+],
+"regi_latin_nevek": [
+"Gambusia affinis holbrooki"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 6.0,
+"termeszet": "agressziv",
+"nehezseg": 1,
+"kezdoknek": false,
+"min_akvarium_l": 50,
+"homerseklet_min": 12,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 8.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 500,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "heterandria-formosa",
+"tipus": "hal",
+"latin": "Heterandria formosa",
+"magyar_nev": "Törpe fogasponty",
+"egyeb_nevek": [
+"Formosa törpefogasponty",
+"Parányi fogasponty"
+],
+"regi_latin_nevek": [],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 18,
+"homerseklet_max": 26,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 800,
+"ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "limia-melanogaster",
+"tipus": "hal",
+"latin": "Limia melanogaster",
+"magyar_nev": "Feketehasú limia",
+"egyeb_nevek": [
+"Feketehasú fogasponty"
+],
+"regi_latin_nevek": [
+"Poecilia melanogaster"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 7.2,
+"ph_max": 8.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2800,
+"ellenorzott": false
+},
+{
+"id": "limia-nigrofasciata",
+"tipus": "hal",
+"latin": "Limia nigrofasciata",
+"magyar_nev": "Púpos limia",
+"egyeb_nevek": [
+"Púpos fogasponty",
+"Feketecsíkos limia"
+],
+"regi_latin_nevek": [
+"Poecilia nigrofasciata"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 6.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1000,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
 {
 "id": "poecilia-latipinna",
 "tipus": "hal",

@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Limia nigrofasciata",
+ "id": "limia-nigrofasciata",
+ "tipus": "hal",
+ "latin": "Limia nigrofasciata",
+ "regi_latin_nevek": [
+  "Poecilia nigrofasciata"
+ ],
+ "magyar_nev": "Púpos limia",
+ "egyeb_nevek": [
+  "Púpos fogasponty",
+  "Feketecsíkos limia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika (Hispaniola szigete: Haiti és Dominikai Köztársaság)",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 4.0,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, aktív és társas viselkedésű hal. A hímek látványosan imponálnak egymásnak és a nőstényeknek kiterjesztett vitorlaúszóval, de komoly sérülést nem okoznak.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de jelentős növényi táplálékot igényel: leforrázott spenót, spirulina, alga, mellette fagyasztott és élő szúnyoglárvák, tubifex, artémia és lemezes eleségek.",
+ "tarsithato": [
+  "Közép-amerikai elevenszülők (plattik",
+  "xifók)",
+  "békés pontylazacok",
+  "Corydoras páncélosharcsák",
+  "algaevő harcsák."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek",
+  "ragadozók és az úszócsipkedő fajok",
+  "amelyek a hímek vitorlaúszóját megrongálhatják."
+ ],
+ "szaporodas_mod": "Elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Tartsuk őket kemény, jól szűrt, 24–26 °C-os vízben.",
+  "Egy hímre legalább 2-3 nőstényt biztosítsunk a háremtartáshoz.",
+  "A nőstények 4-5 hetes vemhesség után 15–50 fejlett kishalat hoznak világra.",
+  "A növényzettel dúsított akváriumban a kishalak menedéket találnak, felnőttek mérsékelten bántják őket.",
+  "A kicsik morzsolt száraztáppal és frissen kelt sórákkal könnyen felnevelhetők."
+ ],
+ "ivari_kulonbseg": "A felnőtt hímek háta erősen ívelt, magas ('púpos'), hátúszójuk nagy és vitorlaszerű, feketés szegéllyel, gonopódiumuk van; a nőstények nagyobbak, hátuk nem púpos, testalkatuk kerekdedebb.",
+ "felismeres_jegyek": [
+  "A hímek kifejlett korukban jellegzetesen domború, púpos hátvonalat növesztenek.",
+  "Testoldalukon 6–10 függőleges, sötét vagy feketés keresztsáv húzódik.",
+  "Pikkelyeik fémes, zöldessárga vagy ezüstös fényben ragyognak.",
+  "A hím hátúszója feltűnően megnagyobbodott, legyezőszerű, sötét mintázattal díszített.",
+  "A nőstények kevésbé kontrasztosak, hasuk gömbölyded, terhességi folttal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limia melanogaster",
+   "magyar_nev": "Feketehasú limia",
+   "kulonbseg": "A hímek háta kevésbé púpos, a nőstények hasán pedig domináns fekete folt látható."
+  },
+  {
+   "latin": "Limia vittata",
+   "magyar_nev": "Kubai limia",
+   "kulonbseg": "Testén a csíkozás kevésbé szabályos, inkább szórt fekete pöttyökből és sávokból áll, háta nem annyira magas."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius)",
+  "Bélparaziták miatti lesoványodás rosthiányos táplálás esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A fiatal hímek teste még lapos, a lenyűgöző púpos forma csak a teljes ivarérettség elérésekor fejlődik ki.",
+  "Mindig adjunk nekik növényi kiegészítőt (spirulina, forrázott zöldségek), különben a finom levelű élőnövényeket csipkedhetik.",
+  "Kemény, enyhén lúgos vízben mutatják a legszebb színezetüket."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

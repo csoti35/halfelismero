@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Heterandria formosa",
+ "id": "heterandria-formosa",
+ "tipus": "hal",
+ "latin": "Heterandria formosa",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe fogasponty",
+ "egyeb_nevek": [
+  "Formosa törpefogasponty",
+  "Parányi fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Észak-Amerika (az USA délkeleti partvidéke, Észak-Karolinától Floridáig)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 2.5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, visszahúzódó nano hal. Apró mérete miatt védtelen, agressziót még a hímek rivalizálása során sem mutat. Békés törpe garnélákkal és nano halakkal tartható.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; apró szemű eleséget igényel: ivadéktápok, finomra tört lemezes eleség, apró élő táplálék (artémia naupliusz, mikroféreg, ciklopsz) és növényi algabevonat.",
+ "tarsithato": [
+  "Neocaridina garnélák",
+  "apró kistestű dániók és razbórák (Boraras fajok)",
+  "törpe páncélosharcsák (pl. Corydoras pygmaeus)",
+  "csigák."
+ ],
+ "kerulendo": [
+  "Bármilyen közepes vagy nagyobb testű hal (márnák",
+  "sügérek",
+  "nagyobb pontylazacok)",
+  "mert zsákmánynak tekintik."
+ ],
+ "szaporodas_mod": "Elevenszülő (szuperfötáció: a nőstény méhében egyszerre több különböző fejlődési stádiumú embrió fejlődik).",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Biztosítsunk dúsan beültetett növényzetet finom levelű növényekkel és mohákkal.",
+  "Tartsuk a vízhőmérsékletet 22–24 °C között, kemény vagy középkemény vízben.",
+  "A nőstények szuperfötáció révén 1-2 héten át szinte naponta hoznak világra 1-3 kishalat.",
+  "A szülők ritkán bántják a kicsiket, különösen ha bőségesen etetjük őket.",
+  "Az újszülött ivadék azonnal képes elfogadni az artémia naupliuszt és a porrá zúzott száraztápot."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen kisebbek (1,5–2 cm), és testméretükhöz képest feltűnően hosszú, előrenyúló gonopódiummal rendelkeznek; a nőstények nagyobbak (akár 3–3,5 cm), teltebbek, és ivaréretten látható náluk a sötét terhességi folt.",
+ "felismeres_jegyek": [
+  "Világviszonylatban is az egyik legkisebb ismert elevenszülő halfaj.",
+  "A testen hosszanti sötétbarna csík fut végig, melyet időnként halványabb függőleges keresztsávok kereszteznek.",
+  "A hátúszó tövében és a farok alatti úszó tövében jól kivehető fekete folt látható, világos szegéllyel.",
+  "A kifejlett hímek testükhöz képest aránytalanul hosszú párzószervvel (gonopódium) bírnak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neoheterandria elegans",
+   "magyar_nev": "Törpefogaspontyocska",
+   "kulonbseg": "Testoldalán hosszanti csík helyett aranysárga alapon szabályos, sötét függőleges sávok találhatók."
+  },
+  {
+   "latin": "Gambusia affinis",
+   "magyar_nev": "Szúnyogirtó fogasponty",
+   "kulonbseg": "Lényegesen nagyobb testű, hiányzik az úszókról a jellegzetes fekete petty, és agresszív viselkedésű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bakteriális fertőzések a túletetés miatti vízromlás esetén"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Fűtetlen szobai nanoakváriumokban kiválóan tartható, a 20–22 °C-os vizet kimondottan meghálálja.",
+  "Szájuk rendkívül apró, a táplálék méretére mindig fokozottan ügyelni kell.",
+  "Csak fajos vagy kizárólag apró garnélákkal berendezett medencében mutatja meg természetes viselkedését."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

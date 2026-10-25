@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Gambusia holbrooki",
+ "id": "gambusia-holbrooki",
+ "tipus": "hal",
+ "latin": "Gambusia holbrooki",
+ "regi_latin_nevek": [
+  "Gambusia affinis holbrooki"
+ ],
+ "magyar_nev": "Keleti szúnyogirtó fogasponty",
+ "egyeb_nevek": [
+  "Holbrook-szúnyogirtó fogasponty",
+  "Szúnyogirtó hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Észak-Amerika délkeleti része; inváziós fajként világszerte és Magyarország melegebb vizeibe is betelepült.",
+ "max_meret_cm": 6.0,
+ "elettartam_ev": 2.5,
+ "nehezseg": 1,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül agresszív, területvédő faj. Előszeretettel és kíméletlenül csipkedi más halak úszóit, a kisebb egyedeket elpusztítja. Invazív természete miatt kiengedése szigorúan tilos.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 12,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 30,
+ "taplalek": "Ragadozó hajlamú mindenevő: szúnyoglárvák, vízibolha, rovarok, halivadékok, de a száraz lemezes eleséget és granulátumokat is mohón falja.",
+ "tarsithato": [
+  "Társítása nem javasolt",
+  "kizárólag robusztus",
+  "gyors mozgású",
+  "nagyobb testű",
+  "úszócsipkedést eltűrő halakkal tartható."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú fajok (guppi",
+  "harcoshal)",
+  "lassú kistestű halak",
+  "törpe garnélák és más békés elevenszülők."
+ ],
+ "szaporodas_mod": "Elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Szinte bármilyen vízparaméter és minimális gondoskodás mellett szaporodik.",
+  "A nőstények 3-4 hetente 20–80 kishalat ellenek.",
+  "A felnőttek kifejezetten kannibálok, a szülőket érdemes elkülöníteni, vagy sűrű növényi menedéket biztosítani.",
+  "Az ivadékok rögtön szabadon úsznak, és azonnal elfogadják az apróra morzsolt tápokat."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen kisebbek (kb. 3-3,5 cm), vékonyak, gonopódiumuk van; a nőstények elérhetik a 6 cm-es méretet, teltebb testűek, és terhességi foltot viselnek.",
+ "felismeres_jegyek": [
+  "Áttetsző, szürkés-olíva alapszín, a testen gyakran elszórt fekete pöttyökkel.",
+  "A szem alatt jellegzetes feketés, könnycsepp alakú függőleges sáv húzódik.",
+  "A hátúszó jóval a test felezővonala mögé, a farok felé tolódott.",
+  "Lekerekített úszók, a hímek esetében feltűnő párzószerv."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gambusia affinis",
+   "magyar_nev": "Nyugati szúnyogirtó fogasponty",
+   "kulonbseg": "Külsőre szinte megkülönböztethetetlen, csupán az úszósugarak számában és a gonopódium mikroszkopikus felépítésében tér el."
+  },
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "Guppi (vad forma)",
+   "kulonbseg": "A nőstény guppik szeme alatt nincs lefelé futó sötét könnycsepp-folt, és békés természetűek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rendkívül szívós, betegségekkel szemben nagyon ellenálló; rossz tartásnál gombásodás előfordulhat."
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Szigorúan tilos kerti tóba tenni olyan helyen, ahonnan árvíz vagy elfolyó révén természetes vízbe juthat!",
+  "Agresszivitása miatt szinte csak faji biotóp akváriumban tartható etikai aggályok nélkül.",
+  "Kiválóan tolerálja az alacsony hőmérsékletet és az oxigénszegény vizet is."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}
