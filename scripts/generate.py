@@ -114,7 +114,9 @@ class QuotaGone(Exception):
 def _gemini(prompt, key, label):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
-    for model in ["gemini-flash-latest"]:
+    model = "gemini-flash-latest"
+    busy = 0
+    while True:
         req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                                      data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
         try:
@@ -122,13 +124,15 @@ def _gemini(prompt, key, label):
             return parse_array(d["candidates"][0]["content"]["parts"][0]["text"]), f"Google {model} ({label})"
         except urllib.error.HTTPError as e:
             msg = e.read().decode()[:200]
+            if e.code in (500, 503, 504) and busy < 6:
+                # A Google szerverei túlterheltek: várunk és újrapróbáljuk.
+                busy += 1
+                time.sleep(30 * busy)
+                continue
             print(f"::warning::Gemini {model} [{label}]: HTTP {e.code} {msg}")
-            if e.code == 429 and "quota" in msg.lower():
-                continue
-            if e.code in (500, 503, 504):
-                continue
+            if e.code == 429 or e.code in (500, 503, 504):
+                raise QuotaGone(label)
             raise
-    raise QuotaGone(label)
 
 def gemini_db(prompt):
     return _gemini(prompt, GEMINI_KEY_DB, "adatbázis-kulcs")
