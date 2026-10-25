@@ -6,7 +6,7 @@
  "regi_latin_nevek": [
   "Characodon eiseni"
  ],
- "magyar_nev": "Vörösfarkú magashátú fogasponty",
+ "magyar_nev": "Xenotoca eiseni (vörösfarkú goodea)",
  "egyeb_nevek": [
   "Eisen-fogasponty",
   "mexikói vörösfarkú fogasponty"
@@ -87,5 +87,6 @@
  ],
  "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
  "ellenorzott": false,
- "frissitve": "2026-10-25"
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
 }
