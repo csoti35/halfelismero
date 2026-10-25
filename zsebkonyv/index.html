@@ -966,7 +966,7 @@
                         size, minTank: Number(f.min_akvarium_l) || null,
                         temp: [Number(f.homerseklet_min) || null, Number(f.homerseklet_max) || null],
                         ph: [Number(f.ph_min) || null, Number(f.ph_max) || null],
-                        aggro, zone: f.uszasi_zona || '', flags, desc: '', src: 'felhő', id: f.id
+                        aggro, zone: f.uszasi_zona || '', flags, desc: f.termeszet_leiras || '', origin: f.szarmazas || '', src: 'felhő', id: f.id
                     });
                     added++;
                 });
@@ -1672,6 +1672,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
         // Hasonló vízparamétereket igénylő fajok (a beépített + felhős adatbázisból)
         function nums(t) { return String(t || '').replace(/,/g, '.').match(/\d+(\.\d+)?/g)?.map(Number) || []; }
         function similarSpeciesHtml(d) {
+            const origin = [((d.adatlap || {}).szarmazas || ''), ((d.adatlap || {}).elohely || ''), d.leiras || ''].join(' ');
             const kb = findSpecies(d.latin) || findSpecies(d.magyar_nev);
             const a = d.adatlap || {};
             let t = kb && kb.temp && kb.temp[0] ? kb.temp : nums(a.homerseklet).slice(0, 2);
@@ -1681,7 +1682,19 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const hits = KB.filter(k => k.type !== 'noveny' && latinKey(k.latin) !== me && k.temp && k.temp[0] && k.ph && k.ph[0])
                 .map(k => ({ k, ov: Math.min(t[1], k.temp[1]) - Math.max(t[0], k.temp[0]) + 2 * (Math.min(ph[1], k.ph[1]) - Math.max(ph[0], k.ph[0])) }))
                 .filter(x => Math.min(t[1], x.k.temp[1]) - Math.max(t[0], x.k.temp[0]) >= 2 && Math.min(ph[1], x.k.ph[1]) - Math.max(ph[0], x.k.ph[0]) >= 0.5)
-                .filter(x => !compareSpecies(kb || { size: Number(d.max_meret_cm) || 5, aggro: 'bekes', flags: '', temp: t, ph }, x.k).issues.some(i => i.level === 'bad'))
+                .filter(x => {
+                    const aggro = (kb && kb.aggro) || ({ agressziv: 'agressziv', teruletvedo: 'teruletvedo', felagressziv: 'teruletvedo' })[d.termeszet] || (/agressz|területvéd|territori/i.test((d.adatlap || {}).viselkedes || '') ? 'teruletvedo' : 'bekes');
+                    const size = (kb && kb.size) || Number(d.max_meret_cm) || nums((d.adatlap || {}).testhossz)[0] || 5;
+                    const me = kb || { size, aggro, flags: aggro === 'bekes' ? '' : 'K', temp: t, ph };
+                    // Afrikai tavi sügérekhez csak ugyanabból a tóból származó sügér ajánlható.
+                    const lake = /malawi/i.test(origin) ? /malawi/i : /tanganyika/i.test(origin) ? /tanganyika/i : /viktória|victoria/i.test(origin) ? /viktória|victoria/i : null;
+                    if (lake && !lake.test((x.k.desc || '') + ' ' + (x.k.origin || ''))) return false;
+                    if (aggro !== 'bekes' && /F/.test(x.k.flags || '')) return false;
+                    // Nem békés fajhoz csak hasonló méretű, szintén nem békés társ ajánlható (pl. Malawi-sügér mellé ne guppi).
+                    if (aggro !== 'bekes' && (x.k.aggro === 'bekes' || x.k.size < size * 0.6 || x.k.size > size * 1.7)) return false;
+                    if (aggro === 'bekes' && x.k.aggro === 'agressziv') return false;
+                    return !compareSpecies(me, x.k).issues.some(i => i.level === 'bad') && !compareSpecies(x.k, me).issues.some(i => i.level === 'bad');
+                })
                 .sort((x, y) => y.ov - x.ov).slice(0, 8);
             if (!hits.length) return '';
             return `<div class="rounded-xl border border-slate-700 bg-slate-900/60 p-3 text-[11px] space-y-2"><div class="font-semibold text-teal-300"><i class="fa-solid fa-droplet mr-1"></i>Hasonló vízparamétereket igénylő, vele tartható fajok</div>
@@ -1966,7 +1979,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v29';
+        const APP_VERSION = 'v30';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
