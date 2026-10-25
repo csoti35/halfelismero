@@ -82,7 +82,7 @@ Neolamprologus multifasciatus;Csigaházlakó sügér
 Julidochromis regani;Regan-julisügér
 Cyphotilapia frontosa;Frontosa púpossügér
 Tropheus moorii;Tropheus moorii
-Astatotilapia latifasciata;Aranyos zebrasügér
+Astatotilapia latifasciata;Aranyos sügér (aranyos zebrasügér)
 Melanotaenia boesemani;Boeseman-szivárványhal
 Melanotaenia praecox;Neon szivárványhal
 Iriatherina werneri;Fonalas szivárványhal
