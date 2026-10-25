@@ -22,7 +22,8 @@ jobs:
           for(const f of process.argv.slice(2)){await p.evaluate(()=>{window.lastScan=null});const i=await p.$$('input[type=file][accept^="image"]');await i[1].setInputFiles(f);
             for(let k=0;k<150;k++){await p.waitForTimeout(1000);if(await p.evaluate(()=>!!window.lastScan))break;}
             const d=await p.evaluate(()=>window.lastScan||{err:document.getElementById('scanResultContent').innerText});
-            console.log('::notice::'+f+' '+JSON.stringify({nev:d.magyar_nev,latin:d.latin,biz:d.biztossag,alt:(d.alternativak||[]).map(a=>a.latin),err:d.err}).slice(0,600));}
+            console.log('::notice::'+f+' '+JSON.stringify({nev:d.magyar_nev,latin:d.latin,biz:d.biztossag,alt:(d.alternativak||[]).map(a=>a.latin),err:d.err}).slice(0,600));
+            if(f.includes('p3')){await p.click('text=Nem ez?');await p.fill('#fixInput','Arctic parrot (hibrid) (Sarki papagáj sügér)');await p.evaluate(()=>{window.lastScan=null});await p.click('text=Ez az');for(let k=0;k<120;k++){await p.waitForTimeout(1000);if(await p.evaluate(()=>!!window.lastScan))break;}console.log('::notice::JAVITVA '+await p.evaluate(()=>lastScan&&lastScan.magyar_nev+' refs='+loadRefs().length));}}
           await b.close()})();
           JS
-          node t.js test/p3.jpg test/m.jpg
+          node t.js test/p3.jpg test/p2.jpg
