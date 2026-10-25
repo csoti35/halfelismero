@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Xiphophorus hellerii",
+ "id": "xiphophorus-hellerii",
+ "tipus": "hal",
+ "latin": "Xiphophorus hellerii",
+ "regi_latin_nevek": [
+  "Xiphophorus helleri"
+ ],
+ "magyar_nev": "Kardfarkú hal",
+ "egyeb_nevek": [
+  "Xifó",
+  "Mexikói kardfarkú hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika (Mexikótól Guatemaláig és Hondurasig)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Többnyire békés a többi halcsaláddal, de a hímek egymás között heves hierarchiaharcokat vívnak. A domináns hím a kisebb hímeket folyamatosan űzi, és olykor lassú halak úszóját is megcsipkedheti.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 21,
+ "homerseklet_max": 27,
+ "ph_min": 7.0,
+ "ph_max": 8.3,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; minőségi lemezes és granulált tápok, fagyasztott és élő szúnyoglárva, tubifex, artémia, kiegészítve növényi pelyhekkel, spirulinával.",
+ "tarsithato": [
+  "Platti",
+  "Mollik",
+  "Nagyobb testű pontylazacok",
+  "Páncélosharcsák",
+  "Márványrákok kivételével algázó gébek"
+ ],
+ "kerulendo": [
+  "Hosszú úszójú fátyolos halak (pl. hím sziámi harcoshal, fátyolos guppi)",
+  "Apró nanohalak",
+  "Erősen agresszív sügérek"
+ ],
+ "szaporodas_mod": "Elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Egy hímre legalább 2-3 nőstényt tervezzünk a stressz megosztására.",
+  "A nőstény 4-6 hetes vemhességet követően 30-100 fejlett ivadékot hoz a világra.",
+  "Mivel a szülők aktívan vadásznak a saját utódaikra, rengeteg felszíni és sűrű növényzetre van szükség.",
+  "Célszerű a várandós nőstényt külön ellető akváriumban elhelyezni, majd a szülés után rögtön visszatenni a társas medencébe.",
+  "Az ivadékok rögtön elfogadják a porított bébitápot, mikrót és az újonnan kelt sórákot."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek alsó farokúszósugara hosszú kardnyúlvánnyá fejlődik, és gonopodiumuk van. A nőstények kard nélküliek, teltebbek, kifejletten nagyobbak a hímeknél.",
+ "felismeres_jegyek": [
+  "A hímek farokúszójának alsó részéből kiinduló, feketével szegett kard alakú nyúlvány.",
+  "Hosszúkás, áramvonalas torpedó alakú test.",
+  "A hím hasoldalán található pálcaszerű gonopodium.",
+  "A nőstények vaskosabbak, kardnyúlvány nélkül, normál lekerekített farok alatti úszóval.",
+  "Gyakori tenyészváltozatok: élénkpiros, tuxedo, zöld, bécsi piros."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus maculatus",
+   "magyar_nev": "Platti",
+   "kulonbseg": "Zömökebb, rövidebb test, a hímek sosem viselnek kardnyúlványt a farkukon."
+  },
+  {
+   "latin": "Xiphophorus montezumae",
+   "magyar_nev": "Montezuma kardfarkú hal",
+   "kulonbseg": "Jóval magasabb, pettyezett hátúszó és lényegesen hosszabb, gyakran lefelé ívelő karddísz."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Bakteriális úszórothadás",
+  "Ugrásból adódó kiszáradás vagy mechanikai sérülések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kiváló és robusztus ugrók, ezért a medencét hézagmentesen le kell fedni.",
+  "Kis vagy közepes akváriumban soha ne tartsunk csupán 2 hímet, mert az erősebb elpusztítja a gyengébbet; vagy 1 hímet, vagy 4-5-nél többet tartsunk sok nősténnyel.",
+  "Gyakran előfordul az úgynevezett kései hímfejlődés, amikor a látszólag kifejlett nőstény egyedek idővel kardot és gonopodiumot növesztenek."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

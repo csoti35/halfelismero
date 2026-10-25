@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Xiphophorus variatus",
+ "id": "xiphophorus-variatus",
+ "tipus": "hal",
+ "latin": "Xiphophorus variatus",
+ "regi_latin_nevek": [
+  "Platypoecilus variatus"
+ ],
+ "magyar_nev": "Papagájplatti",
+ "egyeb_nevek": [
+  "Tarkaplatti",
+  "Változatos platti"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika (Mexikó keleti és déli vizei)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szívós és rendkívül aktív csapathal. Jól alkalmazkodik a környezetéhez, más fajokat sosem zaklat.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, kiemelten szereti az algabevonatokat; lemezes tápok, spirulina, zöldeleségek, fagyasztott szúnyoglárva és artémia.",
+ "tarsithato": [
+  "Közönséges platti",
+  "Kolibrihal",
+  "Páncélosharcsák",
+  "Zebradánió",
+  "Fekete tetra"
+ ],
+ "kerulendo": [
+  "Magas hőmérsékletet igénylő diszkoszhalak",
+  "Nagytestű, ragadozó sügérek",
+  "Hosszú úszójú fátyolos fajok"
+ ],
+ "szaporodas_mod": "Elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Háremben történő tartásnál (1 hím, 2-3 nőstény) a párzás magától bekövetkezik.",
+  "A nőstény vemhességi ideje 4-6 hét a vízhőmérséklettől függően.",
+  "A közeledő ellést a telt has és a sötét terhességi folt jelzi; ekkor érdemes a nőstényt külön elletőbe tenni.",
+  "A szülés után az anyát vegyük ki, hogy ne egye meg a kishalakat.",
+  "A kicsik azonnal keresik a táplálékot; finom lemezes eleséggel és sóráklárvával gyorsan nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, élénkebb színűek (gyakran citromsárga hátúszóval és vöröses farokúszóval), valamint gonopodiummal rendelkeznek. A nőstények nagyobbak, teltebbek, fakóbb alapszínűek.",
+ "felismeres_jegyek": [
+  "A közönséges plattinál némileg megnyúltabb, áramvonalasabb testforma.",
+  "A farokúszó nem tartalmaz kardnyúlványt.",
+  "A hím hátúszója gyakran élénksárga, farokúszója narancsos-vörös, teste kékes irizálású.",
+  "A hím átalakult párzószerve (gonopodium).",
+  "A nőstények testesebbek és nagyobbak a hímeknél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus maculatus",
+   "magyar_nev": "Platti",
+   "kulonbseg": "Zömökebb és magasabb hátú testalkat, a hűvösebb vizet kevésbé bírja."
+  },
+  {
+   "latin": "Xiphophorus hellerii",
+   "magyar_nev": "Kardfarkú hal",
+   "kulonbseg": "Nagyobb testű hal, és a kifejlett hímek farokúszójának alsó része hegyes karddá nyúlt meg."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Kopoltyúférgesség",
+  "Bakteriális fertőzések elhanyagolt vízben"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 1100,
+ "tippek": [
+  "Kiválóan viseli a hűvösebb vizet (akár 18-20 °C), így fűtetlen szobai akváriumban is biztonsággal tartható.",
+  "Gyakran csipegeti az akváriumban képződő zöldalgát, segítve a tisztán tartást.",
+  "Ne tartsuk együtt Xiphophorus maculatussal, ha meg akarjuk őrizni a tiszta törzsvonalat, mert könnyen kereszteződnek."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

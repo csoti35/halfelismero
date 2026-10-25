@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Xiphophorus maculatus",
+ "id": "xiphophorus-maculatus",
+ "tipus": "hal",
+ "latin": "Xiphophorus maculatus",
+ "regi_latin_nevek": [
+  "Platypoecilus maculatus"
+ ],
+ "magyar_nev": "Platti",
+ "egyeb_nevek": [
+  "Széleshátú fogasponty",
+  "Közönséges platti"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika (Mexikó déli része, Belize, Guatemala)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Teljesen békés, élénk, barátságos hal. Kiválóan illik vegyes társas akváriumokba, fajtársaival és más fajokkal is békésen megfér.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; minőségi lemezes és finom szemcsés tápok, spirulina, valamint élő és fagyasztott ciklopsz, dafnia, artémia.",
+ "tarsithato": [
+  "Guppi",
+  "Páncélosharcsák",
+  "Neonhal",
+  "Dániók",
+  "Ékfoltos razbóra"
+ ],
+ "kerulendo": [
+  "Nagytestű ragadozó sügérek",
+  "Uszonycsipkedő díszmárványok",
+  "Fojtogatóan forró vizet igénylő fajok (pl. diszkoszhal)"
+ ],
+ "szaporodas_mod": "Elevenszülő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Tartsuk 1 hímre 2-3 nőstény arányban normál társas vagy tenyészmedencében.",
+  "A megtermékenyített nőstény 4-5 hét vemhesség után 20-50 élő ivadékot hoz a világra.",
+  "Biztosítsunk sűrű növényzetet (jávai moha, úszó növények), ahol a kishalak elrejtőzhetnek a szülők elől.",
+  "Ha maximális utódszámot szeretnénk, a nőstényt szülés előtt tegyük külön ellető akváriumba, majd vegyük ki.",
+  "Az újszülött ivadékok rögtön nevelhetők porított lemezes eleséggel vagy frissen kelt sórákkal."
+ ],
+ "ivari_kulonbseg": "A hímek kisebbek, karcsúbbak, farok alatti úszójuk gonopodiummá módosult. A nőstények nagyobbak, teltebb testalkatúak, legyezőszerű farok alatti úszóval.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról lapított, viszonylag magas hátú testalkat.",
+  "A farokúszón soha nincs kard alakú alsó nyúlvány.",
+  "A hím módosult párzószerve (gonopodium).",
+  "Rendkívül változatos színek a nemesített formáknál (piros, tuxedo, korall, mickey mouse mintázat).",
+  "Lekerekített, közepes méretű hátúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xiphophorus variatus",
+   "magyar_nev": "Papagájplatti",
+   "kulonbseg": "Hosszúkásabb, alacsonyabb testalkat, gyakran kékes irizálással és sárgás hátúszóval."
+  },
+  {
+   "latin": "Xiphophorus hellerii",
+   "magyar_nev": "Kardfarkú hal",
+   "kulonbseg": "Nagyobb méretű, torpedó alakúbb test, a hímek kardnyúlványt viselnek a farokúszójukon."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Bakteriális úszórothadás",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 1000,
+ "tippek": [
+  "Mindig több nőstényt tartsunk, mint hímet, különben a hímek túlhajszolják a nőstényeket.",
+  "Könnyen kereszteződik a kardfarkú hallal (Xiphophorus hellerii), ezért tenyésztési célból ne tartsuk őket egy akváriumban.",
+  "Sűrűn növényesített akváriumban a szaporulat egy része külön gondozás nélkül is biztonságban felcseperedik."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

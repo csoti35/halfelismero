@@ -1,6 +1,6 @@
 {
-"frissitve": "2026-10-24",
-"darab": 4,
+"frissitve": "2026-10-25",
+"darab": 8,
 "fajok": [
 {
 "id": "poecilia-latipinna",
@@ -92,6 +92,35 @@
 "ellenorzott": false
 },
 {
+"id": "poecilia-velifera",
+"tipus": "hal",
+"latin": "Poecilia velifera",
+"magyar_nev": "Óriás vitorlás molli",
+"egyeb_nevek": [
+"Óriás vitorlásmolli",
+"Yucatáni vitorlás fogasponty"
+],
+"regi_latin_nevek": [
+"Mollienesia velifera"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "poecilia-wingei",
 "tipus": "hal",
 "latin": "Poecilia wingei",
@@ -116,6 +145,93 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 500,
 "ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "xiphophorus-hellerii",
+"tipus": "hal",
+"latin": "Xiphophorus hellerii",
+"magyar_nev": "Kardfarkú hal",
+"egyeb_nevek": [
+"Xifó",
+"Mexikói kardfarkú hal"
+],
+"regi_latin_nevek": [
+"Xiphophorus helleri"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 21,
+"homerseklet_max": 27,
+"ph_min": 7.0,
+"ph_max": 8.3,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "xiphophorus-maculatus",
+"tipus": "hal",
+"latin": "Xiphophorus maculatus",
+"magyar_nev": "Platti",
+"egyeb_nevek": [
+"Széleshátú fogasponty",
+"Közönséges platti"
+],
+"regi_latin_nevek": [
+"Platypoecilus maculatus"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 7.0,
+"ph_max": 8.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "xiphophorus-variatus",
+"tipus": "hal",
+"latin": "Xiphophorus variatus",
+"magyar_nev": "Papagájplatti",
+"egyeb_nevek": [
+"Tarkaplatti",
+"Változatos platti"
+],
+"regi_latin_nevek": [
+"Platypoecilus variatus"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 18,
+"homerseklet_max": 25,
+"ph_min": 7.0,
+"ph_max": 8.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 1100,
 "ellenorzott": false
 }
 ]

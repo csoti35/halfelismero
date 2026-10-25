@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Poecilia velifera",
+ "id": "poecilia-velifera",
+ "tipus": "hal",
+ "latin": "Poecilia velifera",
+ "regi_latin_nevek": [
+  "Mollienesia velifera"
+ ],
+ "magyar_nev": "Óriás vitorlás molli",
+ "egyeb_nevek": [
+  "Óriás vitorlásmolli",
+  "Yucatáni vitorlás fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Közép-Amerika (Mexikó, Yucatán-félsziget partvidéke)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nagy mozgásigényű csapathal. A hímek látványosan pózolnak és rivalizálnak egymással a nőstények kegyeiért, de komoly sérülést ritkán okoznak.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 15,
+ "gh_max": 35,
+ "taplalek": "Mindenevő, de jelentős növényi táplálékot igényel; algák, spirulina lemezek, forrázott zöldségek mellett élő és fagyasztott artémia, szúnyoglárva.",
+ "tarsithato": [
+  "Platti",
+  "Kardfarkú hal",
+  "Szivárványhalak",
+  "Kemény vizet kedvelő páncélosharcsák"
+ ],
+ "kerulendo": [
+  "Lágyvizes kistestű lazacok",
+  "Fátyolos úszójú díszhalak",
+  "Agresszív sügérek"
+ ],
+ "szaporodas_mod": "Elevenszülő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy hímhez tartsunk legalább 2-3 nőstényt egy tágas, jól szűrt akváriumban.",
+  "A stabil, 26-28 °C-os vízhőmérséklet, kemény vagy enyhén sózott víz elősegíti az ívási kedvet.",
+  "A vemhesség 5-8 hétig tart, a nőstény kerek hasáról és sötét terhességi foltjáról ismerhető fel.",
+  "A szüléshez helyezzük a nőstényt dús növényzetű külön medencébe, majd utána vegyük ki, megelőzve az ivadékkannibalizmust.",
+  "A megszülető 30-100 kishalat frissen kelt artémiával és finomra porított lemezes táppal nevelhetjük."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója hatalmas vitorlaszerűvé fejlődik (18-20 úszósugárral), és módosult farok alatti úszójuk gonopodiumot alkot. A nőstények nagyobbra nőnek, testük teltebb, hátúszójuk normál méretű.",
+ "felismeres_jegyek": [
+  "A hím rendkívül magas, vitorlaszerű hátúszója, amelyben 18–20 úszósugár található.",
+  "Az oldalakon hosszanti sorokba rendeződött világos, gyöngyházfényű pettyek.",
+  "A hím átalakult párzószerve (gonopodium).",
+  "Kifejletten testes, robusztus megjelenés.",
+  "Széles, lekerekített farokúszó finom mintázattal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia latipinna",
+   "magyar_nev": "Szélesúszójú molli",
+   "kulonbseg": "Kisebb végméret, valamint a hím hátúszójában kevesebb (12-14) úszósugár található."
+  },
+  {
+   "latin": "Poecilia sphenops",
+   "magyar_nev": "Black molli",
+   "kulonbseg": "Hátúszója jóval kisebb, nem vitorlaszerű, mindössze 8-10 úszósugarat tartalmaz."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Bársonybetegség (Oodinium)",
+  "Himbálózás/hidegrázás lágy vagy nem megfelelően tiszta vízben"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kifejezetten kemény, lúgos vizet igényel; a lágy, savas vízben legyengül az immunrendszere és himbálózni kezd.",
+  "A hímek impozáns vitorlája csak kellően hosszú (legalább 100-120 cm-es) úszótérben fejlődik ki tökéletesen.",
+  "Rendszeresen adjunk neki zöldeleséget, mert enélkül megrághatja a puhább levelű növényeket."
+ ],
+ "forras": "Google gemini-flash-latest",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}
