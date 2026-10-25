@@ -2,10 +2,12 @@ name: Fajadatbázis bővítése
 
 on:
   schedule:
-    # Naponta kétszer, közvetlenül a Gemini napi keretének újraindulása (magyar idő szerint kb. 9:00) ELŐTT,
-    # így csak az előző napból megmaradt keretet használja, és nem veszi el a felismerés elől.
-    - cron: "40 5 * * *"
-    - cron: "20 6 * * *"
+    # Éjszaka többször (UTC 0:15, 2:15, 4:15). A GitHub időzítője órákat késhet, ezért a futás
+    # magától kihagyja magát, ha már a Gemini napi keretének újraindulása (UTC kb. 7-8 óra) után indulna,
+    # így soha nem veszi el a napközbeni fotós felismerés elől a keretet.
+    - cron: "15 0 * * *"
+    - cron: "15 2 * * *"
+    - cron: "15 4 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -27,7 +29,18 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Időablak ellenőrzése
+        id: ablak
+        run: |
+          h=$(date -u +%H)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$h" -ge 6 ]; then
+            echo "::notice::Kihagyva: a futás késve indult (UTC $h óra), a napi Gemini-keret már a felismerésé."
+            echo "fut=0" >> $GITHUB_OUTPUT
+          else
+            echo "fut=1" >> $GITHUB_OUTPUT
+          fi
       - name: Adatlapok generálása
+        if: steps.ablak.outputs.fut == '1'
         run: python3 scripts/fajlista_json.py && python3 scripts/generate.py
       - name: Mentés
         run: |
