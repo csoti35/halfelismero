@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Hemigrammus bleheri",
+ "id": "hemigrammus-bleheri",
+ "tipus": "hal",
+ "latin": "Hemigrammus bleheri",
+ "regi_latin_nevek": [
+  "Petitella bleheri"
+ ],
+ "magyar_nev": "Bleher-vörösorrú pontylazac",
+ "egyeb_nevek": [
+  "Vörösorrú lazac",
+  "Bleher vörösfejű lazaca"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Rio Negro és Rio Meta medencéje)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szoros rajban úszó, folyamatosan mozgásban lévő hal. Kiválóan együtt úszik fajtársaival, az egyik legszebb rajviselkedésű akváriumi faj.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Mindenevő; finom lemezes eleségek, liofilizált és fagyasztott finom eleségek (artémia, daphnia, apró szúnyoglárvák).",
+ "tarsithato": [
+  "Diszkoszhalakkal",
+  "vitorláshalakkal",
+  "kistestű dél-amerikai törpesügérekkel",
+  "L-es harcsákkal és Corydoras fajokkal."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "territoriális sügérekkel",
+  "nagytestű ragadozókkal vagy csipkelődő halakkal."
+ ],
+ "szaporodas_mod": "Ikraszázó, szabadon ikrázó, ivadékgondozás nélkül",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Rendkívül lágy (1 dGH alatti vagy körüli) és savas (pH 5.0-6.0), mikrobiológiailag tiszta víz szükséges.",
+  "Ívató akváriumba jávai mohát és ikrahálót kell tenni, mert saját ikráit mohón felfalja.",
+  "A tenyészállatokat magas fehérjetartalmú élő eleséggel készítsük fel.",
+  "Ívás után a felnőtt halakat azonnal el kell távolítani a medencéből.",
+  "A fotofób ikrákat és a fejlődő lárvákat teljes sötétségben kell tartani az elúszásig."
+ ],
+ "ivari_kulonbseg": "A hímek némileg karcsúbbak és a vörös rajzolatuk gyakran mélyebb; a nőstények hasvonala kerekdedebb, különösen ívási időszakban.",
+ "felismeres_jegyek": [
+  "Élénk rubinvörös színű fej, amely mélyen a kopoltyúfedők mögé, a válltájékra is átterjed",
+  "A farokúszón öt kontrasztos sáv: középen fekete csík, felette és alatta fehér és fekete sávok",
+  "Ezüstösen áttetsző test, halvány zöldes-aranyos csillogással a hátvonalon",
+  "Zsírúszó jelenléte a hátúszó mögött",
+  "Orsó alakú, áramvonalas testalkat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus rhodostomus",
+   "magyar_nev": "Vörösszájú lazac",
+   "kulonbseg": "A rhodostomus vörös színe csak az orr- és szemtájékra korlátozódik, nem lépi át a kopoltyúvonalat."
+  },
+  {
+   "latin": "Petitella georgiae",
+   "magyar_nev": "Hamis vörösorrú lazac",
+   "kulonbseg": "Fején a vörös szín sokkal fakóbb, teste zömökebb és fekete folt díszíti a faroknyél felső részét."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vízminőség-ingadozásra adott stressz és úszórothadás",
+  "Darackór (különösen új betelepítésnél)",
+  "Bakteriális kopoltyú- és bőrfertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "A hazai boltokban 'vörösorrú lazac' néven leggyakrabban valójában ez a faj (Hemigrammus bleheri) kapható.",
+  "Meleg, kristálytiszta és bomlástermékektől mentes vizet igényel, a magas nitrátszintre nagyon érzékeny.",
+  "Sötét hátterű, növényekkel dúsan beültetett akváriumban érzi magát a legjobban, ahol szabad úszótér is marad."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

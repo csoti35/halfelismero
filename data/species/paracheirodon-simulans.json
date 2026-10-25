@@ -1,0 +1,98 @@
+{
+ "lista_nev": "Paracheirodon simulans",
+ "id": "paracheirodon-simulans",
+ "tipus": "hal",
+ "latin": "Paracheirodon simulans",
+ "regi_latin_nevek": [
+  "Cheirodon simulans",
+  "Hyphessobrycon simulans"
+ ],
+ "magyar_nev": "Zöld neonhal",
+ "egyeb_nevek": [
+  "Hamis neonhal",
+  "zöld neonhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "pontylazacok",
+ "szarmazas": "Dél-Amerika (a Rio Negro és a Rio Orinoco felső szakasza, sekély, növényzettel benőtt holtágak)",
+ "max_meret_cm": 3.0,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, ijedős nanohal. Kiváló rajképző viselkedést mutat, és a legkisebb zavarásra is szorosan összetömörül.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 45,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 4.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 6,
+ "taplalek": [
+  "nagyon finom szemű por- és mikrogranulátum",
+  "frissen kelt artémia",
+  "rotatória",
+  "fagyasztott cyclops"
+ ],
+ "tarsithato": [
+  "parázslazac",
+  "törpe páncélosharcsák (Corydoras habrosus, pygmaeus)",
+  "Otocinclus fajok",
+  "Caridina és Neocaridina garnélák"
+ ],
+ "kerulendo": [
+  "minden közepes és nagytestű díszhal",
+  "skalár",
+  "agresszív sügérek",
+  "erős vízáramlást kedvelő halak"
+ ],
+ "szaporodas_mod": "ikraszóró",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Rendkívül lágy (0.5-1.5 dGH alatti), erősen savas (pH 4.5-5.5), csersavakkal színezett tiszta vizet készítsünk elő.",
+  "Az ívató tartályt sterilizáljuk, az aljára tegyünk ikravédő hálót és sűrű finom levelű növényzetet vagy mesterséges perloncsomót.",
+  "Kondicionáljuk a tenyészállatokat apró élő eleséggel, majd este helyezzük ki őket a medencébe.",
+  "A reggeli ikrázást követően azonnal vegyük ki a szülőket, és a tartályt teljes fényszigeteléssel sötétítsük le.",
+  "A lárvák kelése 24-30 óra alatt megy végbe; elúszáskor kizárólag a legkisebb egysejtűekkel táplálhatók sikeresen."
+ ],
+ "ivari_kulonbseg": "A nőstények kissé zömökebbek, ivaréretten telt hasuk miatt testesebbek; a hímek kifejezetten vékonyak, nyúlánkak.",
+ "felismeres_jegyek": [
+  "A test teljes hosszában, a szájtól a farokúszó legvégéig végighúzódó fénylő zöldeskék sáv",
+  "A vörös szín sokkal halványabb, gyakran csak egy alig látható csíkra redukálódik a test alsó élén",
+  "Finomabb, karcsúbb testfelépítés rokonaival összehasonlítva",
+  "A zsírúszó gyakran teljesen hiányzik vagy csökevényes"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paracheirodon innesi",
+   "magyar_nev": "Neonhal",
+   "kulonbseg": "Nagyobb testű, vörös sávja határozottabb, és van jól fejlett zsírúszója."
+  },
+  {
+   "latin": "Paracheirodon axelrodi",
+   "magyar_nev": "Vörös neonhal",
+   "kulonbseg": "Intenzív, széles skarlátvörös alsó sávval rendelkezik, míg a kék neonon a zöldeskék ragyogás dominál."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "vízkeménység-ingadozás okozta ozmotikus sokk",
+  "darakór (Ichthyophthirius multifiliis)",
+  "bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 450,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Tökéletes lakója modern, növényes nano akváriumoknak, ahol kis termete miatt nem nyomja el a tájat.",
+  "Szüksége van a nagyon lágy, savanyú vízre; kemény, lúgos csapvízben fokozatosan leromlik az állapota és elpusztul.",
+  "Világítását érdemes úszónövényekkel tompítani, mert az erős fénytől félénkké válik."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

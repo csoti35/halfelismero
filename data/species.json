@@ -1,7 +1,64 @@
 {
 "frissitve": "2026-10-25",
-"darab": 12,
+"darab": 28,
 "fajok": [
+{
+"id": "ameca-splendens",
+"tipus": "hal",
+"latin": "Ameca splendens",
+"magyar_nev": "Lepkefogasponty",
+"egyeb_nevek": [
+"ameka",
+"fényes ameka"
+],
+"regi_latin_nevek": [],
+"csalad": "Goodeidae",
+"csoport": "Magashegyi elevenszülők (Goodeidák)",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 7.0,
+"ph_max": 8.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1000,
+"ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "dermogenys-pusilla",
+"tipus": "hal",
+"latin": "Dermogenys pusilla",
+"magyar_nev": "Ezüst féleszercsőrű csuka",
+"egyeb_nevek": [
+"törpe féleszercsőrű csuka",
+"féleszercsőrű hal"
+],
+"regi_latin_nevek": [
+"Dermogenys pusillus",
+"Hemirhamphus pusillus"
+],
+"csalad": "Zenarchopteridae",
+"csoport": "Féleszercsőrű csukafélék",
+"max_meret_cm": 7,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
 {
 "id": "gambusia-holbrooki",
 "tipus": "hal",
@@ -32,6 +89,122 @@
 "ellenorzott": false
 },
 {
+"id": "hemigrammus-bleheri",
+"tipus": "hal",
+"latin": "Hemigrammus bleheri",
+"magyar_nev": "Bleher-vörösorrú pontylazac",
+"egyeb_nevek": [
+"Vörösorrú lazac",
+"Bleher vörösfejű lazaca"
+],
+"regi_latin_nevek": [
+"Petitella bleheri"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 29,
+"ph_min": 5.0,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "hemigrammus-erythrozonus",
+"tipus": "hal",
+"latin": "Hemigrammus erythrozonus",
+"magyar_nev": "Izzófény pontylazac",
+"egyeb_nevek": [
+"Izzófényű lazac",
+"Glowlight tetra"
+],
+"regi_latin_nevek": [
+"Hemigrammus gracilis"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "hemigrammus-ocellifer",
+"tipus": "hal",
+"latin": "Hemigrammus ocellifer",
+"magyar_nev": "Lámpásszemű pontylazac",
+"egyeb_nevek": [
+"Lámpáslazac",
+"Parázsszemű lazac"
+],
+"regi_latin_nevek": [
+"Tetragonopterus ocellifer"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "hemigrammus-rhodostomus",
+"tipus": "hal",
+"latin": "Hemigrammus rhodostomus",
+"magyar_nev": "Vörösorrú pontylazac",
+"egyeb_nevek": [
+"Valódi vörösorrú lazac",
+"Vörösszájú pontylazac"
+],
+"regi_latin_nevek": [
+"Petitella rhodostoma"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
 "id": "heterandria-formosa",
 "tipus": "hal",
 "latin": "Heterandria formosa",
@@ -56,6 +229,142 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 800,
 "ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-amandae",
+"tipus": "hal",
+"latin": "Hyphessobrycon amandae",
+"magyar_nev": "Parázs pontylazac",
+"egyeb_nevek": [
+"Amanda-lazac",
+"parázs pontylazac",
+"törpe vöröslazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "pontylazacok",
+"max_meret_cm": 2.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 650,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-anisitsi",
+"tipus": "hal",
+"latin": "Hyphessobrycon anisitsi",
+"magyar_nev": "Buenos Aires-i pontylazac",
+"egyeb_nevek": [
+"zászlós pontylazac"
+],
+"regi_latin_nevek": [
+"Hemigrammus caudovittatus"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 7.0,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 18,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-columbianus",
+"tipus": "hal",
+"latin": "Hyphessobrycon columbianus",
+"magyar_nev": "kolumbiai lazac",
+"egyeb_nevek": [
+"kolumbiai pontylazac",
+"kék-vörös kolumbiai lazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 850,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-elachys",
+"tipus": "hal",
+"latin": "Hyphessobrycon elachys",
+"magyar_nev": "fátyolos törpepontylazac",
+"egyeb_nevek": [
+"paraguayi törpelazac",
+"törpe zászlós lazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-rosaceus",
+"tipus": "hal",
+"latin": "Hyphessobrycon rosaceus",
+"magyar_nev": "rózsás pontylazac",
+"egyeb_nevek": [
+"rózsalazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 900,
 "ellenorzott": false
 },
 {
@@ -113,6 +422,123 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1000,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "nomorhamphus-liemi",
+"tipus": "hal",
+"latin": "Nomorhamphus liemi",
+"magyar_nev": "Celebeszi féleszercsőrű csuka",
+"egyeb_nevek": [
+"celebeszi félcsőrös csuka",
+"fekete-piros féleszercsőrű hal"
+],
+"regi_latin_nevek": [],
+"csalad": "Zenarchopteridae",
+"csoport": "Féleszercsőrű csukafélék",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 100,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.8,
+"ph_max": 7.8,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "paracheirodon-axelrodi",
+"tipus": "hal",
+"latin": "Paracheirodon axelrodi",
+"magyar_nev": "Vörös neonhal (kardinálishal)",
+"egyeb_nevek": [
+"Vörös neon",
+"kardinális lazac"
+],
+"regi_latin_nevek": [
+"Cheirodon axelrodi",
+"Hyphessobrycon cardinalis"
+],
+"csalad": "Characidae",
+"csoport": "pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 23,
+"homerseklet_max": 29,
+"ph_min": 4.5,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 650,
+"ellenorzott": false
+},
+{
+"id": "paracheirodon-innesi",
+"tipus": "hal",
+"latin": "Paracheirodon innesi",
+"magyar_nev": "Neonhal",
+"egyeb_nevek": [
+"Közönséges neonhal",
+"neonlazac"
+],
+"regi_latin_nevek": [
+"Hyphessobrycon innesi",
+"Cheirodon innesi"
+],
+"csalad": "Characidae",
+"csoport": "pontylazacok",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 20,
+"homerseklet_max": 25,
+"ph_min": 5.5,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 250,
+"ar_ft_max": 450,
+"ellenorzott": false
+},
+{
+"id": "paracheirodon-simulans",
+"tipus": "hal",
+"latin": "Paracheirodon simulans",
+"magyar_nev": "Zöld neonhal",
+"egyeb_nevek": [
+"Hamis neonhal",
+"zöld neonhal"
+],
+"regi_latin_nevek": [
+"Cheirodon simulans",
+"Hyphessobrycon simulans"
+],
+"csalad": "Characidae",
+"csoport": "pontylazacok",
+"max_meret_cm": 3.0,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 45,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 4.0,
+"ph_max": 6.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 450,
+"ar_ft_max": 800,
 "ellenorzott": false
 },
 {
@@ -258,6 +684,35 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 500,
 "ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "xenotoca-eiseni",
+"tipus": "hal",
+"latin": "Xenotoca eiseni",
+"magyar_nev": "Vörösfarkú magashátú fogasponty",
+"egyeb_nevek": [
+"Eisen-fogasponty",
+"mexikói vörösfarkú fogasponty"
+],
+"regi_latin_nevek": [
+"Characodon eiseni"
+],
+"csalad": "Goodeidae",
+"csoport": "Magashegyi elevenszülők (Goodeidák)",
+"max_meret_cm": 8,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 18,
+"homerseklet_max": 26,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1000,
+"ar_ft_max": 2000,
 "ellenorzott": false
 },
 {

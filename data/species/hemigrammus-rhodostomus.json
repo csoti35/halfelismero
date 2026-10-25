@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Hemigrammus rhodostomus",
+ "id": "hemigrammus-rhodostomus",
+ "tipus": "hal",
+ "latin": "Hemigrammus rhodostomus",
+ "regi_latin_nevek": [
+  "Petitella rhodostoma"
+ ],
+ "magyar_nev": "Vörösorrú pontylazac",
+ "egyeb_nevek": [
+  "Valódi vörösorrú lazac",
+  "Vörösszájú pontylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Brazília, Alsó-Amazonas és Orinoco medence)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, élénk mozgású kifejezett rajhal. Kiváló bioindikátor: stressz vagy rossz vízminőség esetén fejének vörös színe gyorsan elhalványul.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő; minőségi lemezes tápok, apró mikropelletek, fagyasztott küklopsz, artémia, vízibolha.",
+ "tarsithato": [
+  "Diszkoszhalakkal",
+  "vitorláshalakkal",
+  "Apistogramma fajokkal",
+  "Corydorasokkal és egyéb békés dél-amerikai fajokkal."
+ ],
+ "kerulendo": [
+  "Agresszív sügérekkel",
+  "gyors úszású csipkelődő halakkal",
+  "amelyek megfélemlíthetik."
+ ],
+ "szaporodas_mod": "Ikraszázó, szabadon ikrázó, ivadékgondozás nélkül",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (1-3 dGH) és savas (pH 5.5-6.0), tőzeggel szűrt vagy csersavban gazdag vizet igényel.",
+  "Ívató akváriumba finom szálú növények és ikrarács szükséges a falánk szülők ellen.",
+  "Az ikrázás hajnalban zajlik le, a lezajlása után a tenyészpárt azonnal el kell különíteni.",
+  "Az ikrák fényérzékenyek, az akváriumot teljesen le kell sötétíteni.",
+  "A kikelt lárváknak apró mikroszkopikus élő eleségre van szükségük az elúszás után."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és kissé kisebbek; a nőstények gömbölyűbb hasvonalúak, különösen felülről nézve.",
+ "felismeres_jegyek": [
+  "Az orr- és szájrész intenzív vörös, de a pír ritkán terjed a kopoltyúfedők mögé",
+  "A farokúszón öt jellegzetes fekete-fehér vízszintes sáv található",
+  "Ezüstös, kissé áttetsző test",
+  "Faroktőnél nincs vagy csak nagyon halvány sötét sáv látható a testen",
+  "Karcsú, hidrodinamikus testfelépítés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus bleheri",
+   "magyar_nev": "Vörösfejű pontylazac",
+   "kulonbseg": "A bleheri fején a vörös szín jóval kiterjedtebb, mélyen a kopoltyúfedők mögé húzódik."
+  },
+  {
+   "latin": "Petitella georgiae",
+   "magyar_nev": "Hamis vörösorrú lazac",
+   "kulonbseg": "A faroktövén egy jól kivehető sötét folt/sáv húzódik, vörös maszkja kevésbé élénk."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Nitrát-érzékenység okozta stressz és színvesztés",
+  "Bakteriális fertőzések a vízminőség romlásakor"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Legalább 80 cm hosszú úszóteret biztosítsunk számukra, mert rendkívül aktív úszók.",
+  "Kiválóan mutatja az akvárium állapotát: ha feje fakó, azonnal ellenőrizzük a vízminőséget vagy cseréljünk vizet.",
+  "Érzékeny a magas nitrátszintre, a rendszeres, heti 20-30%-os részleges vízcsere kötelező."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Hyphessobrycon columbianus",
+ "id": "hyphessobrycon-columbianus",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon columbianus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "kolumbiai lazac",
+ "egyeb_nevek": [
+  "kolumbiai pontylazac",
+  "kék-vörös kolumbiai lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Kolumbia, Acandí folyó vízrendszere)",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Élénk, kifejezetten mutatós és masszív rajhal. Megfelelő méretű csapatban tartva békés, de kis létszám esetén olykor megcsipkedheti a lassú fajok úszóit.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kiváló étvágyú faj; lemezes, szemcsés tápokat, fagyasztott tubifexet, szúnyoglárvát és artémiát mohón fogyaszt.",
+ "tarsithato": [
+  "Közepes testű pontylazacokkal",
+  "páncélosharcsákkal",
+  "algázó harcsákkal és békésebb dél-amerikai sügérekkel."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú",
+  "lebegő mozgású kistestű halak (fátyolos guppi",
+  "sziámi harcoshal)."
+ ],
+ "szaporodas_mod": "szabadon ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Ívató medence berendezése ikraráccsal és finom levelű műfűvel vagy mohával.",
+  "Kissé lágy (5-8 dGH), semleges vagy gyengén savas kémhatású víz beállítása.",
+  "A tenyészállatokat bőséges élő eleséggel kondicionáljuk az ívatás előtt.",
+  "A csoportos vagy párban történő kihelyezést követően reggelre lerakják ragadós ikráikat.",
+  "Ívás után a szülők kivétele kötelező; a lárvák kelése 24-36 óra, elúszásuk további 3-4 nap."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója némileg megnyúltabb és színezete intenzívebb; a nőstények teltebb testalkatúak és robusztusabbak.",
+ "felismeres_jegyek": [
+  "Testének felső és középső része irizáló fémeskék vagy türkizkék fényű",
+  "Hát-, farok- és farokalatti úszói élénk skarlátvörösek",
+  "Magas, oldalról erősen lapított testforma",
+  "A farokúszó villás és teljesen piros színű"
+ ],
+ "hasonlo_fajok": [
+  "Hyphessobrycon pyrrhonotus",
+  "Hyphessobrycon anisitsi",
+  "Hyphessobrycon ecuadoriensis"
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 850,
+ "tippek": [
+  "Legalább 8-10 egyedből álló csapatban tartsuk, így egymással foglalkoznak és csodás rajviselkedést produkálnak.",
+  "Hagyjunk elegendő szabad kiúszóteret a medence közepén, mert gyors úszású, mozgékony hal.",
+  "A növényzetet nem bántja, így növényes akváriumokba is tökéletes választás."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

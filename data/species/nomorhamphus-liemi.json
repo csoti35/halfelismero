@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Nomorhamphus liemi",
+ "id": "nomorhamphus-liemi",
+ "tipus": "hal",
+ "latin": "Nomorhamphus liemi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Celebeszi féleszercsőrű csuka",
+ "egyeb_nevek": [
+  "celebeszi félcsőrös csuka",
+  "fekete-piros féleszercsőrű hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Zenarchopteridae",
+ "csoport": "Féleszercsőrű csukafélék",
+ "szarmazas": "Indonézia (Celebesz/Sulawesi)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek szigorúan territoriálisak a felszínen, egymás közt heves harcokat vívhatnak. Alsóbb szinteken úszó fajokkal békés.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.8,
+ "ph_max": 7.8,
+ "gh_min": 8,
+ "gh_max": 18,
+ "taplalek": "Rovarok, muslicák, fagyasztott fekete és fehér szúnyoglárva, jó minőségű lemezes és granulált tápok.",
+ "tarsithato": [
+  "Középső és alsó vízszintek békés lakóival",
+  "törpesügérekkel",
+  "pontylazacokkal",
+  "páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Agresszív fajok",
+  "csipkelődő halak",
+  "illetve túl kicsi hím-arány kis alapterületen."
+ ],
+ "szaporodas_mod": "elevenszulo",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A nőstényeket gazdag, élő rovar- és lárvaeledellel kondicionáljuk.",
+  "A hím andropodiumával termékenyíti meg a nőstényt.",
+  "A vemhesség körülbelül 6-8 hétig tart, ezután 10-30 fejlett ivadék születik.",
+  "Mivel hajlamosak a kannibalizmusra, sűrű növényzet szükséges vagy a nőstényt szülés után azonnal el kell különíteni.",
+  "Az ivadékok nagy méretűek, azonnal elfogadják az újonnan kelt artémiát és a mikrogranulátumot."
+ ],
+ "ivari_kulonbseg": "A hímek kisebbek, alsó állkapcsuk feltűnően visszahajló horgot visel, úszóik élénk piros és fekete mintájúak, módosult farok alatti úszójuk van.",
+ "felismeres_jegyek": [
+  "Az alsó állkapocs hegye lefelé, horogszerűen görbül (különösen kifejlett hímeknél)",
+  "Hátulsó állású hát- és farok alatti úszók",
+  "Úszókon kontrasztos élénkpiros és mélyfekete színezet",
+  "Megnyúlt, hengeres, ezüstös-bronzos testalkat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dermogenys pusilla",
+   "magyar_nev": "Ezüst féleszercsőrű csuka",
+   "kulonbseg": "Kisebb méretű, alsó állkapcsa teljesen egyenes, úszói kevésbé élénk színűek."
+  },
+  {
+   "latin": "Hemirhamphodon pogonognathus",
+   "magyar_nev": "Szakállas féleszercsőrű csuka",
+   "kulonbseg": "Lágy, bojtos tapogató látható az alsó állkapcsán, lágyabb vizet igényel."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Mechanikai sérülések a csőrön (akvárium falának ütközés miatt)",
+  "Bakteriális szájpenész és fertőzések",
+  "Darackór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Ügyeljünk a lefedésre, rendkívül robbanékonyan ugrik a repülő rovarok után.",
+  "Egy akváriumban célszerű egy hímet több nősténnyel tartani a rivalizálás elkerülésére.",
+  "Tiszta, oxigéndús, gyenge áramlású vizet igényel."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

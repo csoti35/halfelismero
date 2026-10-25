@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Hemigrammus ocellifer",
+ "id": "hemigrammus-ocellifer",
+ "tipus": "hal",
+ "latin": "Hemigrammus ocellifer",
+ "regi_latin_nevek": [
+  "Tetragonopterus ocellifer"
+ ],
+ "magyar_nev": "Lámpásszemű pontylazac",
+ "egyeb_nevek": [
+  "Lámpáslazac",
+  "Parázsszemű lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas, Orinoco és Guyana folyói)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, ellenálló és alkalmazkodó csapathal. Kezdő akvaristák számára is kiváló választás, társas akváriumban harmonikusan viselkedik.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; szívesen fogyaszt lemezes díszhaltápokat, granulátumokat, valamint fagyasztott szúnyoglárvát, cyclopsot és artémiát.",
+ "tarsithato": [
+  "Más békés pontylazacokkal",
+  "páncélosharcsákkal",
+  "dániókkal",
+  "elevenszülőkkel és törpesügérekkel."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív ragadozó halakkal",
+  "amelyek zsákmánynak tekinthetik."
+ ],
+ "szaporodas_mod": "Ikraszázó, szabadon ikrázó, ivadékgondozás nélkül",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy 15-20 literes ívató akváriumba tegyünk ikrarácsot vagy finom levelű hínárféléket (pl. Ceratophyllum, forrásmoha).",
+  "A víz legyen lágy (4-8 dGH), enyhén savas vagy semleges (pH 6.5-6.8), 26-27 °C hőmérsékletű.",
+  "Kiválasztott párt tegyünk ki este; az ívás általában reggeli órákban zajlik le.",
+  "Ikrázás után a szülőket vegyük ki, mivel előszeretettel megeszik a lehulló ikrákat.",
+  "A kikelt kishalak 24-30 óra múlva kelnek, majd az elúszást követően infuzóriával és frissen kelt sórákkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek valamivel karcsúbbak és végbélúszójukon apró, szabad szemmel nehezen látható horgok lehetnek; a nőstények teltebbek és nagyobbak.",
+ "felismeres_jegyek": [
+  "A szem felső része csillogó, élénk rézvörös vagy narancssárga ('parázsszem')",
+  "A faroktő felett és alatt egy-egy világító arany- vagy rézszínű folt látható, köztük fekete folttal ('lámpás')",
+  "Áttetsző, ezüstös-zöldes alapszínű test",
+  "A válltájékon, a kopoltyúfedő mögött gyakran halvány függőleges sötét folt látható",
+  "Tejes, fehér hegyű úszók (különösen a has- és végbélúszón)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus pulcher",
+   "magyar_nev": "Díszes pontylazac",
+   "kulonbseg": "A test hátsó felén széles, ék alakú fekete folt látható, teste mélyebb felépítésű."
+  },
+  {
+   "latin": "Hemigrammus stictus",
+   "magyar_nev": "Vérfoltos pontylazac",
+   "kulonbseg": "Faroktövi lámpásfoltja hiányzik, helyette a vállán van egy kifejezett vöröses-fekete folt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bakteriális fertőzések elhanyagolt vízcsere esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 750,
+ "tippek": [
+  "Gyengébb, szűrt világítás vagy úszónövények árnyékolása mellett a szem és a faroktő 'lámpás' csillogása rendkívül látványos.",
+  "Kifejezetten szívós pontylazac, amely keményebb csapvízben is jól tartható, ideális választás kezdőknek.",
+  "Érdemes legalább 8-10 egyedet együtt tartani a stabil csapathangulat érdekében."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

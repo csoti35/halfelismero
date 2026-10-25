@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Dermogenys pusilla",
+ "id": "dermogenys-pusilla",
+ "tipus": "hal",
+ "latin": "Dermogenys pusilla",
+ "regi_latin_nevek": [
+  "Dermogenys pusillus",
+  "Hemirhamphus pusillus"
+ ],
+ "magyar_nev": "Ezüst féleszercsőrű csuka",
+ "egyeb_nevek": [
+  "törpe féleszercsőrű csuka",
+  "féleszercsőrű hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Zenarchopteridae",
+ "csoport": "Féleszercsőrű csukafélék",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia, Indonézia)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A vízfelszín közvetlen közelében tartózkodik. A hímek hevesen verekedhetnek egymással a felszíni területekért, más békés, alsó vagy középső zónában élő fajokkal szemben békések.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Felszínen lebegő száraztápok, szúnyoglárva, muslica, ugróvillás, artémia.",
+ "tarsithato": [
+  "Békés díszmárnákkal",
+  "razbórákkal",
+  "páncélosharcsákkal",
+  "dániókkal."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú",
+  "agresszív felszíni halak",
+  "csipkelődő fajok vagy nagyméretű ragadozók."
+ ],
+ "szaporodas_mod": "elevenszulo",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Biztosítsunk bőséges élő eleséget a tenyészcsapat kondicionálásához.",
+  "A nőstények belső megtermékenyítéssel szaporodnak, a vemhesség 4-6 hétig tart.",
+  "A szüléshez sűrű úszónövényzetet kell biztosítani a kicsik búvóhelyéül.",
+  "Szülés után a szülőket különítsük el a kannibalizmus elkerülésére.",
+  "Az újszülötteket frissen keltetett artémiával és finom ivadéktáppal neveljük."
+ ],
+ "ivari_kulonbseg": "A hímek kisebbek, karcsúbbak, farok alatti úszójuk módosult párzószervvé (andropodium). A nőstények jóval testesebbek.",
+ "felismeres_jegyek": [
+  "Meghosszabbodott, merev alsó állkapocs, amely jóval túlnyúlik a felsőn",
+  "Hosszúkás, torpedó alakú test ezüstös-szürkés alapszínnel",
+  "Hát- és farok alatti úszó szokatlanul hátul, a faroktőhöz közel helyezkedik el",
+  "A hímek úszói enyhén vörösesek vagy sárgásak lehetnek fekete folttal"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nomorhamphus liemi",
+   "magyar_nev": "Celebeszi féleszercsőrű csuka",
+   "kulonbseg": "Nagyobb testű, alsó állkapcsa kampósan lefelé görbül, úszói élénkpiros-feketék."
+  },
+  {
+   "latin": "Dermogenys sumatrana",
+   "magyar_nev": "Szumátrai féleszercsőrű csuka",
+   "kulonbseg": "Kisebb eltérések az úszók mintázatában és a test színezetében, kissé zömökebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Állkapocs-sérülésből eredő bakteriális és gombás fertőzés (ugrálás miatt)",
+  "Oodinium (bársonybetegség)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert zsákmányszerzés közben vagy megijedve könnyen kiugranak.",
+  "Kedveli a kismértékű sózást (1-2 gramm só literenként jótékony hatású a nyálkarétegre).",
+  "Érdemes felszíni úszónövényeket (pl. Limnobium, Ceratopteris) tartani a stressz csökkentésére."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

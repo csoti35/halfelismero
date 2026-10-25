@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Ameca splendens",
+ "id": "ameca-splendens",
+ "tipus": "hal",
+ "latin": "Ameca splendens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Lepkefogasponty",
+ "egyeb_nevek": [
+  "ameka",
+  "fényes ameka"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Goodeidae",
+ "csoport": "Magashegyi elevenszülők (Goodeidák)",
+ "szarmazas": "Mexikó (Ameca folyó vízrendszere)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nagyon aktív, mozgékony hal. Időnként megcsipkedheti a lassú mozgású vagy hosszú úszójú fajok uszonyait, de tágas akváriumban, fajtársaival jól megfér.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; nagy arányban igényel növényi eleséget (spirulina, forrázott zöldségek, algák), kiegészítve fagyasztott és élő rovarlárvákkal.",
+ "tarsithato": [
+  "Gyors úszású",
+  "robusztus fajokkal (pl. dániók",
+  "márnák",
+  "más közép-amerikai elevenszülők)."
+ ],
+ "kerulendo": [
+  "Fátyolos úszójú halak (pl. guppik",
+  "sziámi harcoshal)",
+  "lassú vitorláshalak."
+ ],
+ "szaporodas_mod": "elevenszulo",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "A megtermékenyítés belsőleg történik a hím andropodiuma (módosult anális úszója) segítségével.",
+  "A nőstény méhében fejlődő embriók trophotaenián (embrionális köldökzsinóron) keresztül táplálkoznak.",
+  "A vemhességi idő 6-8 hét.",
+  "A megszülető 5-20 db kishal rendkívül nagy méretű (10-15 mm), ritkán esnek a szülők áldozatául.",
+  "Az ivadék azonnal képes fogyasztani finom lemezes eleséget és artémiát."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal színesebbek, testükön fémfényű pikkelyekkel, farokúszójuk szélén jellegzetes fekete szegéllyel határolt ragyogó sárga sávval. A nőstények fakóbbak, ezüstös-pettyesek.",
+ "felismeres_jegyek": [
+  "A kifejlett hímek farokúszójának végén élénksárga sáv látható, előtte fekete szegéllyel",
+  "Magas hátú, erőteljes testalkat",
+  "A testen szabálytalan ezüstös, zöldes-aranyos és fekete foltozottság",
+  "A hímek farok alatti úszójának elülső sugarai bevágottak (andropodium)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Xenotoca eiseni",
+   "magyar_nev": "Vörösfarkú magashátú fogasponty",
+   "kulonbseg": "Farokúszója és faroktöve vörös vagy narancssárga, hiányzik a sárga farokszegély."
+  },
+  {
+   "latin": "Zoogoneticus tequila",
+   "magyar_nev": "Tequila-fogasponty",
+   "kulonbseg": "Kisebb termetű, a hímek farokúszójának szélén vöröses-narancsos sáv húzódik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór",
+  "Oszlopos baktériumfertőzés (Columnaris)",
+  "Emésztőrendszeri gyulladás hiányos növényi táplálás esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Kiváló algafogyasztó, előszeretettel legeli a fonalalgát is.",
+  "Természetes élőhelyén kritikusan veszélyeztetett faj, akváriumi tartásával segítjük fennmaradását.",
+  "Nem igényel túl meleg vizet, a szobahőmérsékletet (21-23 °C) kifejezetten kedveli."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

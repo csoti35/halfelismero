@@ -1,0 +1,100 @@
+{
+ "lista_nev": "Paracheirodon axelrodi",
+ "id": "paracheirodon-axelrodi",
+ "tipus": "hal",
+ "latin": "Paracheirodon axelrodi",
+ "regi_latin_nevek": [
+  "Cheirodon axelrodi",
+  "Hyphessobrycon cardinalis"
+ ],
+ "magyar_nev": "Vörös neonhal (kardinálishal)",
+ "egyeb_nevek": [
+  "Vörös neon",
+  "kardinális lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "pontylazacok",
+ "szarmazas": "Dél-Amerika (a Rio Negro és az Orinoco vízrendszere, lassú folyású feketevizek)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szelíd, összetartó rajhal. Megfelelő méretű csapatban folyamatosan a nyílt vízben mutatkozik és látványosan együtt úszik.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 29,
+ "ph_min": 4.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": [
+  "minőségi granulátumok",
+  "lemezes táp",
+  "artémia",
+  "vörös és fehér szúnyoglárva",
+  "dafnia"
+ ],
+ "tarsithato": [
+  "diszkoszhal",
+  "vitorláshal (ha együtt nőttek fel)",
+  "Ramirezi törpesügér",
+  "Corydoras fajok",
+  "L-es harcsák"
+ ],
+ "kerulendo": [
+  "ragadozó sügérek",
+  "nagyméretű harcsák",
+  "élénk, csipkelődő márnák",
+  "hidegvizes fajok"
+ ],
+ "szaporodas_mod": "ikraszóró",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy rendkívül lágy (0.5-2 dGH), csersavakban gazdag, savas (pH 5.0-5.8), 26-27 °C-os vízzel feltöltött ívató medencét.",
+  "Helyezzünk be ikrarácsot és perlonvattát vagy mohacsomót a tojások védelmére.",
+  "Az ívatni kívánt tenyészpárt előzetesen bőséges élő eleséggel hozzuk kondícióba, majd este helyezzük ki őket.",
+  "A reggeli ívást követően a szülőket azonnal emeljük ki, a tartályt pedig borítsuk be fekete kartonnal a fényvédelem miatt.",
+  "A 24 óra elteltével kikelő, majd további 4 nap múlva elúszó lárvákat a legfinomabb infuzóriával és mikrotáppal neveljük."
+ ],
+ "ivari_kulonbseg": "Az ivarérett nőstények láthatóan gömbölydedebbek, teltebb testűek; a hímek karcsúbbak, a farok alatti úszójukon apró, mikroszkopikus horgocskák találhatók.",
+ "felismeres_jegyek": [
+  "Az alsó intenzív skarlátvörös sáv a kopoltyúktól a farokúszó tövéig folyamatosan végighúzódik",
+  "A vörös mező felett ragyogó, irizáló kék sáv látható",
+  "Nagyobb maximális testhossz a sima neonhalhoz képest",
+  "A hát sötétebb, olívabarna árnyalatú, jól kivehető zsírúszóval"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paracheirodon innesi",
+   "magyar_nev": "Neonhal",
+   "kulonbseg": "A vörös sáv csak a test hátsó felén látható, a has elülső része ezüstös, és jobban tolerálja a hűvös vizet."
+  },
+  {
+   "latin": "Paracheirodon simulans",
+   "magyar_nev": "Kék neonhal",
+   "kulonbseg": "Lényegesen kisebb, vékonyabb testű, a vörös sáv sokkal halványabb vagy hiányzik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "ál-neonhal betegség (bakteriális fertőzés)",
+  "darakór (Ichthyophthirius multifiliis)",
+  "bársonybetegség (Piscinoodinium)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 650,
+ "tippek": [
+  "Magasabb hőmérséklet-igénye miatt ideális választás diszkoszhalak mellé társításként.",
+  "A feketevizes jelleg (égertoboz, tőzegkivonat, Tebang-levél) kiemeli csodálatos ragyogását és támogatja immunrendszerét.",
+  "Kifejezetten érzékeny a víz ingadozó nitrát- és keménységszintjére, csak stabil vízparaméterek közé telepítsük."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

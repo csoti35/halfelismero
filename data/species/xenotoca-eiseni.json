@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Xenotoca eiseni",
+ "id": "xenotoca-eiseni",
+ "tipus": "hal",
+ "latin": "Xenotoca eiseni",
+ "regi_latin_nevek": [
+  "Characodon eiseni"
+ ],
+ "magyar_nev": "Vörösfarkú magashátú fogasponty",
+ "egyeb_nevek": [
+  "Eisen-fogasponty",
+  "mexikói vörösfarkú fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Goodeidae",
+ "csoport": "Magashegyi elevenszülők (Goodeidák)",
+ "szarmazas": "Mexikó (Nayarit, Jalisco államok)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nagyon robusztus, élénk hal. Domináns viselkedésű, fajtársaival és más lassúbb halakkal szemben csipkelődő lehet, előszeretettel rágja meg az úszókat.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; élő és fagyasztott lárvák, rákfélék, jó minőségű száraztápok, valamint növényi kiegészítés (spirulina, saláta).",
+ "tarsithato": [
+  "Erőteljes",
+  "fürge pontyfélékkel",
+  "nagyobb testű elevenszülőkkel",
+  "páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Fátyolos úszójú vagy békés",
+  "ijedős halak (vitorláshalak",
+  "betták",
+  "lassú labirintkopoltyúsok)."
+ ],
+ "szaporodas_mod": "elevenszulo",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Könnyen szaporodik normál vegyes vagy fajspecifikus akváriumban.",
+  "A megtermékenyítés belső, a hím andropodiummal rendelkezik.",
+  "Az anyaméhben a magzatok trophotaenián át fejlődnek mintegy 6-8 hétig.",
+  "A nőstény 10-30 nagyméretű (1-1.5 cm-es) kishalat hoz a világra.",
+  "A szülők általában nem bántják a nagyméretű utódokat, amelyek azonnal nevelhetők morzsolt lemezes táppal és artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek faroktöve és farokúszója élénk narancssárga vagy vörös, testük magasabb hátú és kékes-zöldes fényű. A nőstények nagyobbak, egyszerű barna-ezüstös színezetűek.",
+ "felismeres_jegyek": [
+  "A hímek ragyogó narancsvörös farokúszója és faroknyele",
+  "Magas, zömök, oldalról lapított testforma",
+  "A hímek testének elülső és oldalsó része kékes-fémes csillogású",
+  "A nőstényeknél hiányzik a vörös farokszín, testük barnás-szürke"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ameca splendens",
+   "magyar_nev": "Lepkefogasponty",
+   "kulonbseg": "Farokúszójának vége sárga szegélyű, nem vörös, teste ezüstösen foltosabb."
+  },
+  {
+   "latin": "Xenotoca doadrioi",
+   "magyar_nev": "San Marcos-i fogasponty",
+   "kulonbseg": "Korábban egy fajnak tekintették; a hímek vörös sávja még kiterjedtebb és intenzívebb árnyalatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór",
+  "Bakteriális úszórothadás",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Tágas, kövekkel és robusztus növényekkel tagolt akváriumot igényel a csipkelődések mérséklésére.",
+  "Kifejezetten szereti a hűvösebb vizet; fűtőtest nélkül, normál szobahőmérsékleten is tartható.",
+  "Érdemes csapatban tartani, ahol a hímek egymás közötti pózolása leköti felesleges energiáikat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

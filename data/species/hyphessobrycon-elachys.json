@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Hyphessobrycon elachys",
+ "id": "hyphessobrycon-elachys",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon elachys",
+ "regi_latin_nevek": [],
+ "magyar_nev": "fátyolos törpepontylazac",
+ "egyeb_nevek": [
+  "paraguayi törpelazac",
+  "törpe zászlós lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Paraguay és Paraná folyók vízrendszere)",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, finom felépítésű apró rajhal. A hímek látványosan fitogtatják megnyúlt úszóikat egymás előtt anélkül, hogy kárt tennének a másikban.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Kifejezetten apró méretű táplálékot igényel: apróra morzsolt lemezes tápok, cyclops, kisméretű daphnia, bébi artémia és mikroféreg.",
+ "tarsithato": [
+  "Törpe páncélosharcsákkal (pl. Corydoras pygmaeus",
+  "habrosus)",
+  "kisméretű törperasbórákkal és édesvízi törpegarnélákkal."
+ ],
+ "kerulendo": [
+  "Minden nagyobb testű",
+  "agresszív vagy gyors mozgású hal",
+  "amely tápláléknak tekintheti vagy elnyomja."
+ ],
+ "szaporodas_mod": "szabadon ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "10-15 literes kisméretű ívató medence előkészítése sűrű mohacsomókkal és ikraráccsal.",
+  "Lágy (2-5 dGH), semleges vagy enyhén savas víz és szűrt, tompa világítás biztosítása.",
+  "Egy jól táplált pár vagy kis csoport kihelyezése az esti órákban.",
+  "Az ikrák elszórása után a szülőket mihamarabb el kell távolítani.",
+  "Az ivadékok 24-36 óra múlva kelnek, és apró méretük miatt kizárólag papucsállatkákkal vagy folyékony ivadéktáppal indíthatók."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek hátúszója és hasúszói látványosan megnyúltak, zászlószerűek; a nőstények úszói normál méretűek, testük teltebb.",
+ "felismeres_jegyek": [
+  "Apró termet, áttetsző ezüstös-szürke alapszín",
+  "A felnőtt hímek hátúszója rendkívül hosszú, szálszerűen megnyúlt",
+  "A farokúszó tövén apró, de jól kivehető sötét folt található",
+  "Az úszók hegye finom fehér szegéllyel díszített"
+ ],
+ "hasonlo_fajok": [
+  "Corydoras hastatus",
+  "Hyphessobrycon amandae",
+  "Serrapinnus kriegi"
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "A természetben a törpe páncélosharcsával (Corydoras hastatus) alkot vegyes rajokat mimikriként; akváriumban is lenyűgöző látvány az együtt tartásuk.",
+  "Nano akváriumok és növényes garnélás medencék ideális lakója.",
+  "A finom áramlást és a tiszta, rendszeresen cserélt vizet hálálja meg a legszebb úszófejlődéssel."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

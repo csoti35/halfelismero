@@ -1,0 +1,98 @@
+{
+ "lista_nev": "Hyphessobrycon amandae",
+ "id": "hyphessobrycon-amandae",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon amandae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Parázs pontylazac",
+ "egyeb_nevek": [
+  "Amanda-lazac",
+  "parázs pontylazac",
+  "törpe vöröslazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "pontylazacok",
+ "szarmazas": "Dél-Amerika (Brazília, az Araguaia folyó medencéje, sűrű növényzetű sekély vizek)",
+ "max_meret_cm": 2.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Végtelenül békés, nyugodt természetű törpe rajhal, amely remekül érzi magát a növények közötti terekben.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": [
+  "apróra tört lemezes eleség",
+  "mikrogranulátum",
+  "frissen keltetett artémia naupliusz",
+  "cyclops",
+  "grindálféreg"
+ ],
+ "tarsithato": [
+  "kék neonhal",
+  "törpe páncélosharcsák",
+  "Neocaridina és Caridina garnélák",
+  "Otocinclus fajok",
+  "törpe dániók"
+ ],
+ "kerulendo": [
+  "minden nagyobb ragadozó vagy territoriális faj",
+  "skalár",
+  "díszmárnák",
+  "nagyobb testű sügérek"
+ ],
+ "szaporodas_mod": "ikraszóró",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Egy kisebb, 10-15 literes akváriumban készítsünk elő lágy (2-4 dGH), enyhén savas (pH 6.0-6.5), 26 °C körüli vizet.",
+  "Az akvárium aljára helyezzünk bőséges mennyiségű finom növényzetet (pl. forrásmoha vagy jávai moha), mely felfogja a lehulló ikrákat.",
+  "A jól táplált párt este helyezzük ki; a hímek élénk színükkel udvarolnak a kiszemelt nősténynek.",
+  "Az ikrázást követően a szülőket azonnal különítsük el az ikrafalás elkerülése érdekében.",
+  "Az apró lárvák kb. 24-36 óra alatt kelnek ki, elúszásuk után infuzóriával és microwormmal indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek színezete mélyebb borostyán- vagy rubinvörös, testük vékonyabb; a nőstények hasi része kerekded, alapszínük világosabb narancssárga.",
+ "felismeres_jegyek": [
+  "Apró, 2 cm-t ritkán meghaladó kompakt, oldalról enyhén lapított testforma",
+  "Egységes narancssárgától a mély rubinvörösig terjedő áttetsző testszín",
+  "A szem írisze ragyogó arany-narancs színben csillog",
+  "A testen nincsenek sötét foltok vagy vízszintes sávok, az úszók finoman színezettek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Axelrodia riesei",
+   "magyar_nev": "Rubinlazac",
+   "kulonbseg": "Hasonló méretű és vörös színű, de a faroktövén jól látható apró fekete és fehér folt található."
+  },
+  {
+   "latin": "Hyphessobrycon flammeus",
+   "magyar_nev": "Lángvörös pontylazac",
+   "kulonbseg": "Jóval nagyobb (4 cm körüli), és teste elülső felén két markáns sötét függőleges keresztcsík látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór (Ichthyophthirius multifiliis)",
+  "bakteriális hasvízkór",
+  "úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 650,
+ "tippek": [
+  "Intenzív színét a változatos, karotinoidokban gazdag élő eleséggel (pl. artémia) és sötét aljzattal hozhatjuk ki leginkább.",
+  "Kifejezetten nano akváriumokba termett faj, garnélás medencékben sem bántja a kifejlett egyedeket.",
+  "A hirtelen vízcsere és a hideg víz könnyen stresszt okoz náluk, ezért a cserélendő vizet mindig temperáljuk."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
+}

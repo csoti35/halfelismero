@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Hyphessobrycon rosaceus",
+ "id": "hyphessobrycon-rosaceus",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon rosaceus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "rózsás pontylazac",
+ "egyeb_nevek": [
+  "rózsalazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Guyana, Suriname folyói)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, csendes természetű rajhal. Kedveli a nyugodt környezetet és a növényekkel gazdagon beültetett akváriumokat.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; kedveli a kis méretű fagyasztott és élő eleségeket (artémia, cyclops, daphnia), de a minőségi lemezes tápokat is készségesen elfogadja.",
+ "tarsithato": [
+  "Dél-amerikai törpesügérekkel (pl. Apistogramma fajok)",
+  "páncélosharcsákkal",
+  "békés kistestű pontylazacokkal és törperasbórákkal."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "robusztus vagy agresszív halak",
+  "amelyek elorozzák előle a táplálékot vagy megfélemlítik."
+ ],
+ "szaporodas_mod": "szabadon ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (1-4 dGH), savas (pH 6.0-6.5) vízzel feltöltött, gyengén megvilágított ívató akvárium előkészítése.",
+  "Finom szálú növények (pl. jávai moha) és ikrarács elhelyezése.",
+  "A tenyészpár élő eleséggel való kondicionálása után esti kihelyezése.",
+  "A kora reggeli ívás befejeztével a szülőket haladéktalanul ki kell venni.",
+  "A medence sötétítése, mert az ikrák fényérzékenyek; a lárvák kelése kb. 24-30 óra múlva várható."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója jóval hosszabb, sarló alakú és hegyes, míg a nőstényeké rövidebb és kerekdedebb, emellett a nőstények teste mélyebb és teltebb.",
+ "felismeres_jegyek": [
+  "Áttetsző, meleg rózsaszínes-vöröses test alapszín",
+  "Hátúszóján markáns fekete folt látható, melynek csúcsa fehérrel szegett",
+  "A farokúszó karéjain és a farokalatti úszón vöröses sáv fut végig",
+  "Nincs sötét vállfoltja a kopoltyúfedő mögött (ez különbözteti meg a rokon fajoktól)"
+ ],
+ "hasonlo_fajok": [
+  "Hyphessobrycon erythrostigma",
+  "Hyphessobrycon bentosi",
+  "Hyphessobrycon megalopterus"
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Sötét aljzat és tőzeggel szűrt, enyhén teaszínű víz mellett mutatja legszebb rózsaszínes árnyalatait.",
+  "Úszónövényekkel tompítsuk a világítást, mert a túl erős fénytől félénkké válhat.",
+  "A hímek lenyűgöző pózolási viselkedést mutatnak egymás felé feszített úszókkal, ami sérülések nélkül zajlik le."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

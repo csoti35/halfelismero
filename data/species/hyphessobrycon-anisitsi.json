@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Hyphessobrycon anisitsi",
+ "id": "hyphessobrycon-anisitsi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon anisitsi",
+ "regi_latin_nevek": [
+  "Hemigrammus caudovittatus"
+ ],
+ "magyar_nev": "Buenos Aires-i pontylazac",
+ "egyeb_nevek": [
+  "zászlós pontylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Paraná és Uruguay folyórendszerei)",
+ "max_meret_cm": 7.0,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nagyon aktív, élénk és strapabíró rajhal. Hajlamos a lassú mozgású vagy hosszú úszójú fajok megcsipkedésére, és a finomabb vízinövényeket gyakran lelegeli.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; a száraz lemezes és granulált tápok mellett fagyasztott szúnyoglárvát, artémiát és növényi kiegészítést (spirulina, forrázott spenót) is szívesen fogyaszt.",
+ "tarsithato": [
+  "Robusztus",
+  "gyors úszású fajokkal (pl. márnák",
+  "dániók",
+  "páncélosharcsák",
+  "nagyobb testű pontylazacok)."
+ ],
+ "kerulendo": [
+  "Hosszú",
+  "fátyolos úszójú halak (pl. vitorláshalak",
+  "guppik",
+  "betták)",
+  "valamint lágy szárú dísznövények."
+ ],
+ "szaporodas_mod": "szabadon ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Külön 20-30 literes ívató akvárium berendezése ikraráccsal vagy sűrű jávai mohával.",
+  "Kissé savas vagy semleges, közepesen kemény víz és 24-25 °C-os hőmérséklet beállítása.",
+  "A jól táplált párt este helyezzük ki; az ívás általában a kora reggeli órákban történik.",
+  "Ikrázás után a szülőket azonnal távolítsuk el, mivel mohón falják saját ikráikat.",
+  "A kikelő lárvák 24-36 óra múlva bújnak ki, elúszás után papucsállatkával és frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek úszói élénkebb pirosak és testalkatuk karcsúbb; a nőstények teltebbek, különösen ikrázási időszakban.",
+ "felismeres_jegyek": [
+  "Ezüstösen csillogó, oldalról kissé lapított test",
+  "Faroktőnél jellegzetes fekete, kereszt vagy rombusz alakú folt, amely a farokúszóra is ráfut",
+  "Élénkpiros vagy narancsvörös hát-, farok- és farokalatti úszók",
+  "A mellúszók és hasúszók töve gyakran szintén vöröses árnyalatú"
+ ],
+ "hasonlo_fajok": [
+  "Hemigrammus unilineatus",
+  "Astyanax mexicanus",
+  "Aphyocharax anisitsi"
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Hidegtűrő képessége miatt fűtés nélküli szobai akváriumokban is sikeresen tartható.",
+  "Ha növényes akváriumban szeretnénk tartani, kemény levelű fajokat válasszunk (pl. Anubias, Microsorum, Cryptocoryne).",
+  "Mindig tartsuk legalább 6-8 fős csapatban, hogy csökkentsük az uszonycsipkedési hajlamát."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}
