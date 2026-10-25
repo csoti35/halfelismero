@@ -1753,6 +1753,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             return t;
         }
         function showScanResult(d) {
+            ['latin', 'magyar_nev'].forEach(k => { if (d[k] && /^(null|none|n\/a|ismeretlen)$/i.test(String(d[k]).trim())) d[k] = ''; });
             if (d.magyar_nev) d.magyar_nev = cleanHuName(d.magyar_nev, d.latin);
             (d.alternativak || []).forEach(a => { if (a && a.magyar_nev) a.magyar_nev = cleanHuName(a.magyar_nev, a.latin); });
             // Beteg hal / alga módban mindig mutassuk a kezelést, akkor is, ha a modell más típust írt.
@@ -2011,7 +2012,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v36';
+        const APP_VERSION = 'v37';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
