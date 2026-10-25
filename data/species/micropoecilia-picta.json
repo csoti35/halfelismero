@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Micropoecilia picta",
+ "id": "micropoecilia-picta",
+ "tipus": "hal",
+ "latin": "Micropoecilia picta",
+ "regi_latin_nevek": [
+  "Poecilia picta"
+ ],
+ "magyar_nev": "mocsári guppi",
+ "egyeb_nevek": [
+  "festett elevenszülő",
+  "tarka guppi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Dél-Amerika északi partvidéke (Trinidad és Tobago, Venezuela, Guyana, Francia Guyana, Észak-Brazília)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de kissé ijedős, érzékeny apró termetű faj. A hímek élénken udvarolnak, a fajtársakkal szemben sem lép fel agresszió.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.2,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de nagyon igényli a rendszeres apró élő eleséget (artémia naupliuszok, mikró, cyclops), valamint a minőségi növényi pelyheket.",
+ "tarsithato": [
+  "Legjobb faji akváriumban tartani",
+  "de békés",
+  "kis méretű harcsákkal (pl. törpe páncélosharcsák) és más apró elevenszülőkkel jól kijön."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "agresszív halak",
+  "nagyobb pontylazacok és sügérek",
+  "amelyek tápláléknak tekinthetik vagy elzavarják a tápláléktól."
+ ],
+ "szaporodas_mod": "elevenszulo",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Stabil, tiszta, enyhén sózott vízben (1-2 g/l tengeri só) tartsuk a tenyészcsapatot.",
+  "A nőstények vemhessége körülbelül 4 hétig tart.",
+  "Almonként kevés utód (8-20 kishal) születik, amelyek mérete meglehetősen apró.",
+  "A nőstény hajlamos lehet megenni a saját ivadékait, ezért dús növényzet (jávai moha, úszónövények) szükséges.",
+  "A kishalak neveléséhez elengedhetetlen a frissen kelt sórák és a mikroeleség az első hetekben."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal kisebbek (kb. 2,5-3 cm), rendkívül színesek vörös, narancs, fekete és irizáló kék foltokkal, és gonopódiumuk van; a nőstények nagyobbak (akár 5 cm), egyszerű szürkés-olíva színűek.",
+ "felismeres_jegyek": [
+  "A hímek testén és farokúszóján markáns vöröses-narancssárga és fekete szemfoltok, illetve minták találhatók",
+  "A hím hátúszója gyakran fekete szegéllyel vagy sötét foltokkal díszített",
+  "A vad típusú guppira emlékeztető testalkat, de kerekded, rövid farokúszóval",
+  "A nőstények teste áttetszően ezüstös, a hasi részen jól látható vemhességi folttal",
+  "Kifejezetten kistermetű, karcsú elevenszülő forma"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilia reticulata",
+   "magyar_nev": "guppi",
+   "kulonbseg": "A házi guppi kevésbé érzékeny a vízminőségre, hímjeinek úszói gyakran jóval nagyobbak, és nem igényli a félsós vizet."
+  },
+  {
+   "latin": "Poecilia wingei",
+   "magyar_nev": "Endler-guppi",
+   "kulonbseg": "Színezete még fémesebb, zöldes tónusú, tiszta édesvízben érzi jól magát, és sokkal szívósabb faj."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "bakteriális fertőzések sózatlan vagy elhanyagolt vízben",
+  "darakór",
+  "úszórothadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Brakkvízi torkolatok lakója, ezért 1-3 teáskanál jódmentes só vagy akváriumsó hozzáadása 10 literenként drasztikusan javítja az ellenállóképességét.",
+  "Nagyon érzékeny a vízminőség romlására és a felgyülemlő nitrátra; rendszeres, kisebb mértékű vízcsere kötelező nála."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

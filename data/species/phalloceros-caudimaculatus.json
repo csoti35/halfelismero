@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Phalloceros caudimaculatus",
+ "id": "phalloceros-caudimaculatus",
+ "tipus": "hal",
+ "latin": "Phalloceros caudimaculatus",
+ "regi_latin_nevek": [
+  "Girardinus caudimaculatus"
+ ],
+ "magyar_nev": "foltos phalloceros",
+ "egyeb_nevek": [
+  "foltos fogasponty",
+  "tarka fogasponty",
+  "párducos elevenszülő"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Poeciliidae",
+ "csoport": "Elevenszülők",
+ "szarmazas": "Dél-Amerika (Brazília délkeleti része, Uruguay, Paraguay, Észak-Argentína)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, szelíd és ellenálló hal. Más fajokat egyáltalán nem zaklat, a kifejezetten hűvösebb vizet részesíti előnyben.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 45,
+ "homerseklet_min": 16,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; szívesen fogyaszt növényi eredetű pelyheket, zöldalga-bevonatot, valamint élő vagy fagyasztott vízibolhát, artémiát és grindált.",
+ "tarsithato": [
+  "Kifejezetten jól társítható más hideg- és szubtrópusi vizeket kedvelő fajokkal",
+  "mint a bíborfejű márnák",
+  "vitorlás kardfarkúak",
+  "neonmárnák vagy zebra dániók."
+ ],
+ "kerulendo": [
+  "Magas hőmérsékletet igénylő trópusi díszhalak (pl. diszkoszhal",
+  "pillangótörpesügér) és nagytestű ragadozók."
+ ],
+ "szaporodas_mod": "elevenszulo",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Szobahőmérsékletű (18-22 °C), stabil vizű akváriumban maguktól szaporodnak.",
+  "A hím sajátos, kampós végű gonopódiumával termékenyíti meg a nőstényt.",
+  "A vemhesség 4-5 hétig tart a víz hőmérsékletétől függően.",
+  "A nőstény 10-30 utódot hoz világra; a szülők ritkán bántják a saját ivadékaikat.",
+  "Az ivadékok kezdetben mikróeleséggel, porított haltáppal és artémia naupliusszal gyorsan nevelhetők."
+ ],
+ "ivari_kulonbseg": "A nőstények jóval nagyobbak (akár 6 cm) és teltebbek; a hímek aprók (2,5-3,5 cm), karcsúak, és a gonopódiumuk végén apró, lefelé görbülő kampó található.",
+ "felismeres_jegyek": [
+  "A vad formán a faroktő közepén egy jellegzetes fekete, függőleges folt található",
+  "Az akváriumokban elterjedt 'reticulatus' változat egész testét szabálytalan fekete pettyek borítják",
+  "Átlátszó, kissé sárgás uszonyok",
+  "A hím gonopódiumának végén látható parányi horogszerű nyúlvány",
+  "A nőstények teste ezüstös, hasi részük gömbölyded"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gambusia holbrooki",
+   "magyar_nev": "szúnyogirtó fogasponty",
+   "kulonbseg": "Agresszív uszonycsipkedő, hiányzik a faroktő fekete foltja és a hím horgas gonopódium-vége."
+  },
+  {
+   "latin": "Girardinus metallicus",
+   "magyar_nev": "fémes girardinus",
+   "kulonbseg": "Fémes csillogású oldalcsíkok és a hímek fekete hasvonala különbözteti meg tőle."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór",
+  "bakteriális megbetegedések tartósan túl meleg vízben",
+  "hasvízkór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Télen kifejezetten kedveli a hűvösebb időszakot, fűtést nem igényel a lakásban tartva.",
+  "Tavasztól őszig kerti dézsában, mini tóban is sikeresen tartható és szaporítható a szabadban."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-25"
+}

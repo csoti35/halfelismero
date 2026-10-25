@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-25",
-"darab": 28,
+"darab": 31,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -86,6 +86,34 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 500,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "girardinus-metallicus",
+"tipus": "hal",
+"latin": "Girardinus metallicus",
+"magyar_nev": "fémes girardinus",
+"egyeb_nevek": [
+"fémes fogasponty"
+],
+"regi_latin_nevek": [
+"Girardinus denticulatus"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 7.0,
+"ph_max": 8.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1500,
 "ellenorzott": false
 },
 {
@@ -425,6 +453,35 @@
 "ellenorzott": false
 },
 {
+"id": "micropoecilia-picta",
+"tipus": "hal",
+"latin": "Micropoecilia picta",
+"magyar_nev": "mocsári guppi",
+"egyeb_nevek": [
+"festett elevenszülő",
+"tarka guppi"
+],
+"regi_latin_nevek": [
+"Poecilia picta"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.2,
+"ph_max": 8.2,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1000,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "nomorhamphus-liemi",
 "tipus": "hal",
 "latin": "Nomorhamphus liemi",
@@ -539,6 +596,36 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 450,
 "ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "phalloceros-caudimaculatus",
+"tipus": "hal",
+"latin": "Phalloceros caudimaculatus",
+"magyar_nev": "foltos phalloceros",
+"egyeb_nevek": [
+"foltos fogasponty",
+"tarka fogasponty",
+"párducos elevenszülő"
+],
+"regi_latin_nevek": [
+"Girardinus caudimaculatus"
+],
+"csalad": "Poeciliidae",
+"csoport": "Elevenszülők",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 45,
+"homerseklet_min": 16,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 500,
+"ar_ft_max": 1200,
 "ellenorzott": false
 },
 {
