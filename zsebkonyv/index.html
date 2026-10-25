@@ -1430,7 +1430,19 @@ Először írd le, mit látsz ténylegesen (testforma, színek, mintázat, úsz�
 Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 {"lathato":"<amit látsz>","tipus":"hal|gerinctelen|egyeb","magyar_nev":"<a magyar akvarisztikában bevett név; killiknél fogasponty, zárójelben killi>","latin":"<latin név>","biztossag":<0-100>,
 "alternativak":[{"magyar_nev":"","latin":"","kulonbseg":"<miben különbözik a képen látottól>"}],
-"leiras":"<2-3 mondat: természet, tartás>","max_meret_cm":<szám vagy null>,"termeszet":"bekes|teruletvedo|agressziv|null",${PRICE_FIELDS}}`,
+"leiras":"<2-3 mondat: természet, tartás>","max_meret_cm":<szám vagy null>,"termeszet":"bekes|teruletvedo|agressziv|null",
+"szaporodas":{"mod":"<pl. elevenszülő, szabadívó, ikráit lerakja és őrzi, szájköltő, buborékfészek-építő, barlangi ívó; garnélánál: a nőstény a potrohán hordja az ikrát>",
+"nehezseg":"konnyu|kozepes|nehez|akvariumban_szinte_lehetetlen",
+"ivarok":"<hogyan különböztethető meg a hím és a nőstény>",
+"ivarerettseg":"<hány hónaposan / mekkora méretben>",
+"tenyeszvíz":"<ideális hőmérséklet, pH, keménység az íváshoz>",
+"elokeszites":"<tenyészakvárium mérete, berendezés (pl. ívórács, moha, barlang, sűrű növényzet), párosítás aránya, kondicionáló etetés>",
+"lefolyas":"<hogyan zajlik az ívás vagy a szülés, vemhességi idő>",
+"utodok":"<ikra vagy ivadék száma, kelés ideje, mikor úszik szabadon>",
+"ivadekneveles":"<mivel és meddig etesd az ivadékot (pl. infuzórium, artemia lárva, porított táp), növekedés>",
+"szulok":"<megeszik-e a szülők az ikrát/ivadékot, mikor kell őket kiemelni, gondozzák-e>",
+"tippek":"<1-2 gyakorlati tipp vagy gyakori hiba>"},
+${PRICE_FIELDS}}`,
             noveny: `Tapasztalt akváriumi növényhatározó (akvakertész) vagy. A képen akváriumi, tavi vagy mocsári növény látható.
 Először írd le, mit látsz (levélforma, levélállás, szín, szár, gyökér, tő/rizóma, úszó vagy gyökerező), és CSAK ezek alapján döntsd el a fajt. Ha a növény rossz állapotú (sárgul, lyukas, elhal), azt is jelezd.
 Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
@@ -1607,6 +1619,14 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 ${link2map()}`;
         }
         function link2map() { return `<a href="https://www.google.com/maps/search/akvarisztika" target="_blank" rel="noopener" class="flex items-center gap-2 p-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 text-[11px]"><i class="fa-solid fa-location-dot w-4 text-center text-teal-400"></i>Akvarisztikák a közelben (szakember tanácsa, gyógyszer)</a>`; }
+        function breedingHtml(b) {
+            const NEH = { konnyu: ['Könnyű', 'sev-ok text-emerald-200'], kozepes: ['Közepes', 'sev-warn text-amber-200'], nehez: ['Nehéz', 'sev-bad text-rose-200'], akvariumban_szinte_lehetetlen: ['Akváriumban szinte lehetetlen', 'sev-bad text-rose-200'] }[b.nehezseg];
+            const rows = [['🧬 Szaporodás módja', b.mod], ['♂♀ Hím és nőstény', b.ivarok], ['📅 Ivarérettség', b.ivarerettseg], ['🌡️ Tenyészvíz', b.tenyeszvíz || b.tenyeszviz], ['🏠 Előkészítés', b.elokeszites], ['🥚 Ívás / szülés', b.lefolyas], ['🐣 Utódok', b.utodok], ['🍼 Ivadéknevelés', b.ivadekneveles], ['⚠️ Szülők', b.szulok], ['💡 Tipp', b.tippek]].filter(r => r[1]);
+            if (!rows.length) return '';
+            return `<details class="rounded-xl border border-pink-500/30 bg-pink-500/5 text-[11px]" open>
+                <summary class="cursor-pointer p-3 font-semibold text-pink-200 flex items-center justify-between gap-2"><span><i class="fa-solid fa-egg mr-1"></i>Szaporodás és tenyésztés</span>${NEH ? `<span class="px-2 py-0.5 rounded-full border ${NEH[1]} text-[10px]">${NEH[0]}</span>` : ''}</summary>
+                <div class="px-3 pb-3 space-y-1.5">${rows.map(r => `<div><span class="text-slate-400">${r[0]}</span><div class="text-slate-100">${esc(r[1])}</div></div>`).join('')}</div></details>`;
+        }
         function plantInfoHtml(d) {
             const L = { alacsony: 'alacsony', kozepes: 'közepes', eros: 'erős', nem_kell: 'nem kell', ajanlott: 'ajánlott', szukseges: 'szükséges', lassu: 'lassú', gyors: 'gyors', eloter: 'előtér', kozepter: 'középtér', hatter: 'háttér', uszo: 'úszó', dekoracio_ko_fa: 'kőre/fára kötve' };
             const rows = [['💡 Fény', L[d.feny]], ['🫧 CO2', L[d.co2]], ['🌱 Növekedés', L[d.novekedes]], ['📍 Helye', L[d.elhelyezes]], ['📏 Magasság', d.max_magassag_cm ? `max. ${d.max_magassag_cm} cm` : ''], ['✂️ Szaporítás', d.szaporitas]].filter(r => r[1]);
@@ -1631,6 +1651,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 <p class="text-slate-300">${esc(d.leiras || '')}</p>
                 ${['betegseg', 'alga'].includes(d.tipus) ? treatmentHtml(d, name) : ''}
                 ${d.tipus === 'noveny' ? plantInfoHtml(d) : ''}
+                ${['hal', 'gerinctelen'].includes(d.tipus) && d.szaporodas ? breedingHtml(d.szaporodas) : ''}
                 ${kb ? `<div class="bg-slate-900 p-2 rounded text-[11px] border border-slate-800 text-slate-300">Max. ${kb.size} cm • min. ${kb.minTank || '?'} liter • ${kb.temp && kb.temp[0] ? kb.temp[0] + '–' + kb.temp[1] + ' °C' : ''} • pH ${kb.ph && kb.ph[0] ? kb.ph[0] + '–' + kb.ph[1] : '?'} • ${(AGGRO_LABEL[kb.aggro] || ['?'])[0]}</div>` : ''}
                 ${conf < 80 ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]">${['betegseg', 'alga'].includes(d.tipus) ? 'Nem biztos a megállapítás. Írd le pontosabban a tüneteket, nézd meg a lenti lehetőségeket is, és kérdezz meg egy tapasztalt akvaristát.' : 'Nem biztos felismerés. Fotózz közelebbről, oldalról, vagy válassz a lehetséges fajok közül.'}</div>` : ''}
                 ${alts.length ? `<div class="text-[11px] text-slate-400">${['betegseg', 'alga'].includes(d.tipus) ? 'Más lehetőség (koppints rá, ha inkább ez):' : 'Lehet még:'}</div>` + alts.slice(0, 3).map((a, i) => `<button onclick="pickAlternative(${i})" class="w-full text-left p-2 rounded border border-slate-700 hover:border-teal-500 text-[11px]"><strong class="text-slate-100">${esc(a.magyar_nev || a.latin)}</strong> <span class="italic text-slate-400">${esc(a.latin || '')}</span><br><span class="text-slate-400">${esc(a.kulonbseg || '')}</span></button>`).join('') : ''}
@@ -1694,7 +1715,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 return;
             }
             const kb = findSpecies(a.latin) || findSpecies(a.magyar_nev);
-            showScanResult({ ...window.lastScan, feny: null, co2: null, novekedes: null, elhelyezes: null, max_magassag_cm: null, szaporitas: null, allapot: null, magyar_nev: (kb && kb.name) || a.magyar_nev, latin: (kb && kb.latin) || a.latin, biztossag: 100, leiras: (kb && kb.desc) || 'A te választásod alapján.', alternativak: [], ar_ft_min: null, ar_ft_max: null });
+            showScanResult({ ...window.lastScan, szaporodas: null, feny: null, co2: null, novekedes: null, elhelyezes: null, max_magassag_cm: null, szaporitas: null, allapot: null, magyar_nev: (kb && kb.name) || a.magyar_nev, latin: (kb && kb.latin) || a.latin, biztossag: 100, leiras: (kb && kb.desc) || 'A te választásod alapján.', alternativak: [], ar_ft_min: null, ar_ft_max: null });
         }
 
         function addScannedToStock() {
@@ -1816,7 +1837,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v21';
+        const APP_VERSION = 'v22';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
