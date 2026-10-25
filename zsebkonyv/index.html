@@ -1428,9 +1428,11 @@
         const SCAN_PROMPTS = {
             hal: `Tapasztalt akvarisztikai halhatározó vagy. A képen akváriumi hal, garnéla, rák vagy csiga látható.
 Ha több állat van a képen, a legnagyobbat, legélesebbet határozd meg.
-Először írd le, mit látsz ténylegesen (testforma, színek, mintázat, úszók helye, hasúszó, farokúszó, száj), és CSAK ezek alapján döntsd el a fajt. Ne találgass olyan fajt, amelynek jellegzetes bélyegei nem látszanak.
+Először írd le, mit látsz ténylegesen (testforma, színek, mintázat, harántsávok, úszók helye és színe, a hátúszó szegélye, hasúszó, farokúszó, száj, ikrafoltok), és CSAK ezek alapján döntsd el a fajt. Ne találgass olyan fajt, amelynek jellegzetes bélyegei nem látszanak.
+DÖNTÉS ELŐTT kötelező: vedd sorra a 2-3 leginkább hasonló fajt, és vesd össze a MEGKÜLÖNBÖZTETŐ bélyegeiket a képpel. Gondolj arra, hogy sok fajnál (főleg sügéreknél) a hím, a nőstény és a fiatal egészen más színű. Ha egy faj kötelező bélyege hiányzik a képről, az a faj nem lehet az első helyen. Ha két faj között a kép alapján nem dönthető el, a biztosság legfeljebb 65 legyen, és a másik legyen az első alternatíva.
+Gyakori összetévesztések (csak ha ilyen hal van a képen): sárga Malawi-sügérek – Labidochromis caeruleus (fekete sáv a hátúszó szélén, fekete hasúszók, nincsenek harántsávok), Maylandia lombardoi hím (narancssárga, halvány sötétebb harántsávok, a hátúszón nincs fekete sáv, ikrafoltok a farok alatti úszón), Melanochromis auratus nőstény (sárga test két fekete-fehér hosszanti csíkkal); kék csíkos Malawi-sügérek – Maylandia lombardoi nőstény / fiatal, Maylandia zebra, Pseudotropheus demasoni.
 Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
-{"lathato":"<amit látsz>","tipus":"hal|gerinctelen|egyeb","magyar_nev":"<a magyar akvarisztikában bevett név; killiknél fogasponty, zárójelben killi>","latin":"<latin név>","biztossag":<0-100>,
+{"lathato":"<amit látsz, és melyik bélyeg alapján zártad ki a hasonló fajokat>","tipus":"hal|gerinctelen|egyeb","magyar_nev":"<a magyar akvarisztikában bevett név; killiknél fogasponty, zárójelben killi>","latin":"<latin név>","biztossag":<0-100>,
 "alternativak":[{"magyar_nev":"","latin":"","kulonbseg":"<miben különbözik a képen látottól>"}],
 "leiras":"<2-3 mondat: természet, tartás>","max_meret_cm":<szám vagy null>,"termeszet":"bekes|teruletvedo|agressziv|null",
 "adatlap":{"szerzo":"<leíró és év, pl. Eigenmann & Kennedy, 1903>","szinonimak":"<régi/szinonim latin nevek vagy null>","csoport":"<pl. Sügérek, Pontylazacok, Elevenszülő fogasponty, Páncélosharcsák, Garnélák>",
@@ -1521,7 +1523,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const stock = appState.stock.map(i => i.name).join(', ');
             let p = SCAN_PROMPTS[scanMode];
             const list = SPECIES_LIST && (scanMode === 'hal' ? SPECIES_LIST.hal : scanMode === 'noveny' ? SPECIES_LIST.noveny : null);
-            if (list && list.length) p += `\n\nA Magyarországon kapható ${scanMode === 'noveny' ? 'növények' : 'halak és gerinctelenek'} listája (latin név, zárójelben a bevett magyar név):\n${list.join('; ')}\n\nSZABÁLY: ha a képen látható élőlény a listában szerepel, PONTOSAN a listában szereplő latin nevet írd a "latin" mezőbe, és ha van, a zárójeles magyar nevet a "magyar_nev" mezőbe. Az alternatívákat is elsősorban ebből a listából válaszd. Csak akkor adj meg listán kívüli fajt, ha biztosan egyik sem illik rá – ilyenkor a biztosság legfeljebb 70 legyen.`;
+            if (list && list.length) p += `\n\nA Magyarországon kapható ${scanMode === 'noveny' ? 'növények' : 'halak és gerinctelenek'} listája (latin név, zárójelben a bevett magyar név):\n${list.join('; ')}\n\nSZABÁLY: ha a képen látható élőlény a listában szerepel, PONTOSAN a listában szereplő latin nevet írd a "latin" mezőbe; a "magyar_nev" mezőbe CSAK a zárójelben lévő magyar név kerüljön (latin név és zárójel nélkül), ha nincs ilyen, a bevett magyar név. A lista nem jelenti, hogy a hal biztosan rajta van: a látott bélyegek döntenek. Az alternatívákat is elsősorban ebből a listából válaszd. Csak akkor adj meg listán kívüli fajt, ha biztosan egyik sem illik rá – ilyenkor a biztosság legfeljebb 70 legyen.`;
             if (note) p += scanMode === 'beteg'
                 ? `\n\nA gazdi saját megfigyelései (NAGYON FONTOS: a tünetek a fotón gyakran nem látszanak jól, ezért a leírást ugyanolyan súllyal vedd figyelembe, mint a képet; ha a kép nem egyértelmű, főleg a leírásra támaszkodj, és a "lathato" mezőben jelezd, mi jött a képből és mi a leírásból): "${note.slice(0, 1200)}"`
                 : `\n\nA felhasználó leírása (vedd figyelembe, de a kép az elsődleges, ha van): "${note.slice(0, 600)}"`;
@@ -1695,7 +1697,15 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
                 + (d.allapot ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]"><strong>A növény állapota:</strong> ${esc(d.allapot)}</div>` : '');
         }
 
+        function cleanHuName(n, latin) {
+            let t = String(n || '').trim();
+            const L = String(latin || '').trim();
+            if (L && t.toLowerCase().startsWith(L.toLowerCase())) { const m = t.slice(L.length).trim().match(/^\((.*)\)$/); t = m ? m[1].trim() : (t.slice(L.length).trim() || t); }
+            return t;
+        }
         function showScanResult(d) {
+            if (d.magyar_nev) d.magyar_nev = cleanHuName(d.magyar_nev, d.latin);
+            (d.alternativak || []).forEach(a => { if (a && a.magyar_nev) a.magyar_nev = cleanHuName(a.magyar_nev, a.latin); });
             // Beteg hal / alga módban mindig mutassuk a kezelést, akkor is, ha a modell más típust írt.
             if (scanMode === 'beteg' && d.tipus !== 'betegseg' && (d.teendok || d.gyogyszerek || !['hal', 'gerinctelen', 'noveny'].includes(d.tipus))) d.tipus = 'betegseg';
             if (scanMode === 'alga' && d.tipus !== 'alga' && (d.teendok || d.gyogyszerek)) d.tipus = 'alga';
@@ -1905,7 +1915,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v25';
+        const APP_VERSION = 'v26';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
