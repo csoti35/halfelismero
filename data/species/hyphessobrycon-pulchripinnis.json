@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Hyphessobrycon pulchripinnis",
+ "id": "hyphessobrycon-pulchripinnis",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon pulchripinnis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "citromlazac",
+ "egyeb_nevek": [
+  "citromtetra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Brazília, Tapajós folyó medencéje)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés és társas életmódot folytató csapathal, nem hajlamos az úszócsipkedésre, a vízoszlop középső részét lakja be.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; minőségi lemezes tápok, apró granulátumok, valamint fagyasztott és élő kistestű gerinctelenek (daphnia, artémia, cyclops).",
+ "tarsithato": [
+  "páncélosharcsák",
+  "más kistestű pontylazacok",
+  "törpe szívóharcsák",
+  "békés labirintkopoltyúsok",
+  "dél-amerikai törpesügérek"
+ ],
+ "kerulendo": [
+  "nagytestű sügérek",
+  "ragadozó harcsák",
+  "agresszív díszmárnák"
+ ],
+ "szaporodas_mod": "Szabadon ikrázó, ikrafaló",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "10-20 literes ívató medence berendezése ikraráccsal és finom szálú mohákkal.",
+  "Nagyon lágy (2-4 dGH), tőzeggel enyhén barnított, savas (pH 6,0-6,5), 26 °C-os víz biztosítása.",
+  "Válasszunk ki egy ívásra kész, kerekded nőstényt és egy élénk sárga hímet, akiket előzőleg élő eleséggel kondicionáltunk.",
+  "A kora reggeli ikrázást követően azonnal vegyük ki a szülőket, mivel agresszív ikrafalók.",
+  "A tartályt sötétítsük be a kelésig; az elúszó kishalaknak papucsállatkát, majd mikroméretű sóráklárvákat adjunk."
+ ],
+ "ivari_kulonbseg": "A hímek anális úszóján futó fekete szegély jóval vastagabb és határozottabb, testük citromsárga árnyalata mélyebb; a nőstények zömökebbek, úszószegélyük csupán finom vonal.",
+ "felismeres_jegyek": [
+  "Áttetsző, finom pasztell citromsárga alapszínű test",
+  "A szem felső része jellegzetes, ragyogó rubinvörös színű",
+  "A hátúszó és a farokalatti úszó elülső sugarai élénksárgák",
+  "A farokalatti úszót markáns, fekete szegély határolja",
+  "Oldalról lapított, enyhén ovális testalkat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon erythrostigma",
+   "magyar_nev": "Izzófényű pontylazac",
+   "kulonbseg": "Testmérete jóval nagyobb, oldalán vörös folt található, színe nem sárgás, hanem rózsás-ezüstös."
+  },
+  {
+   "latin": "Pristella maxillaris",
+   "magyar_nev": "Áttetsző pontylazac",
+   "kulonbseg": "Hátúszóján és farokalatti úszóján sárga-fekete-fehér foltmintázat van, teste ezüstösebb, szeme nem vörös felül."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór (Ichthyophthirius multifiliis)",
+  "baktériumos fertőzések",
+  "hasi vízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 850,
+ "tippek": [
+  "A boltokban a stressz miatt sokszor fakó, színtelen hal benyomását kelti, igazi pompáját csak növényes, nyugodt akváriumban mutatja meg.",
+  "Égerfa tobozzal vagy tőzegkivonattal kezelt, enyhén sárgásbarna vízben látványosan felerősödik a citromsárga színezete.",
+  "Nagyobb, 10-15 fős csapatban a hímek csodálatos feszítő pózolásokkal versengenek, miközben nem tesznek kárt egymásban."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-26"
+}

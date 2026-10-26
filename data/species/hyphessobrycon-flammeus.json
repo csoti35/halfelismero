@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Hyphessobrycon flammeus",
+ "id": "hyphessobrycon-flammeus",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon flammeus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "lángvörös pontylazac",
+ "egyeb_nevek": [
+  "vörös tetra",
+  "Rio-tetra",
+  "riói lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Brazília, Rio de Janeiro környéke)",
+ "max_meret_cm": 4.0,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szelíd és kifejezetten aktív rajhal. Más fajokat sohasem bánt, a hímek egymás közötti apró pózolásai teljesen ártalmatlanok.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 54,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; örömmel fogyaszt jó minőségű száraz lemezes tápokat, granulátumokat, valamint fagyasztott és élő artémiát, cyclopsot, szúnyoglárvát.",
+ "tarsithato": [
+  "páncélosharcsák",
+  "más békés pontylazacok",
+  "törpe szívóharcsák",
+  "apistogramma törpesügérek",
+  "dániók"
+ ],
+ "kerulendo": [
+  "nagytestű vagy ragadozó sügérek",
+  "nagyméretű ragadozó harcsák"
+ ],
+ "szaporodas_mod": "Szabadon ikrázó, ikrafaló",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy 15-20 literes ívató akvárium előkészítése ikraráccsal és finom levelű növényekkel (pl. jávai moha).",
+  "Enyhén lágy (4-6 dGH), semleges vagy kissé savas (pH 6,5), 25-26 °C-os víz biztosítása gyenge szűréssel.",
+  "Egy alaposan feltáplált, kerekded nőstény és egy élénk színű hím kihelyezése az esti órákban.",
+  "A reggeli ívás után a tenyészpárt haladéktalanul el kell távolítani az ikraevés megelőzésére.",
+  "A 24-36 óra múlva kibújó lárvák elúszása után az etetés papucsállatkával, majd frissen kelt artémiával indítható."
+ ],
+ "ivari_kulonbseg": "A hímek anális úszóján markánsabb fekete szegély húzódik és apró horgok találhatók rajta, testük karcsúbb; a nőstények teltebb hasúak, úszóik halványabbak.",
+ "felismeres_jegyek": [
+  "A test elülső része fénylő ezüstös-bronzos, míg a hátsó rész és az úszók élénkpirosak",
+  "A kopoltyúfedő mögött két jól kivehető, sötét függőleges sáv húzódik",
+  "Oldalról lapított, viszonylag magas hátú pontylazac testalkat",
+  "A farokalatti úszó széles, alsó szegélye sötét, feketés tónusú",
+  "A farokúszó középső része gyakran áttetsző, szegélyei felé vörösödő"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon griemi",
+   "magyar_nev": "Aranyfoltos tetra",
+   "kulonbseg": "Két sötét foltja között jól látható aranyfényű folt található, a test hátsó vörös színezete sokkal halványabb."
+  },
+  {
+   "latin": "Hyphessobrycon callistus",
+   "magyar_nev": "Vérfoltos pontylazac",
+   "kulonbseg": "Egész teste mélyvörös árnyalatú, hátúszója nagyobb és feltűnő fekete folttal ellátott."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór (Ichthyophthirius multifiliis)",
+  "bársonybetegség (Oodinium)",
+  "baktériumos úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Sötét aljzat és dús növényzet alkalmazásával a halak színei sokkal tüzesebbé és kontrasztosabbá válnak.",
+  "Kifejezetten tág tűrésű faj a vízkeménység terén, így kezdő akvaristák számára is biztonságos választás.",
+  "Mindenképpen legalább 8-10 egyedet tartsunk együtt, mert magányosan elbújik és fakóvá válik."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-26"
+}

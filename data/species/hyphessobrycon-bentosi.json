@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Hyphessobrycon bentosi",
+ "id": "hyphessobrycon-bentosi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon bentosi",
+ "regi_latin_nevek": [
+  "Hyphessobrycon bentosi bentosi",
+  "Hyphessobrycon robertsi"
+ ],
+ "magyar_nev": "díszes pontylazac",
+ "egyeb_nevek": [
+  "Bentos-tetra",
+  "fehérfoltos tetra",
+  "Roberts-tetra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas felső medencéje, Brazília, Peru)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés rajhal, amely tágas térben méltóságteljesen mozog. A hímek rendszeresen szétfeszített úszókkal fitogtatják erejüket, de sohasem bántják egymást vagy lakótársaikat.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; kedveli a száraz lemezes eleségeket, mikropelleteket, de a ragyogó színek megőrzéséhez elengedhetetlen a fagyasztott és élő táplálék (artémia, cyclops, fehér szúnyoglárva).",
+ "tarsithato": [
+  "békés dél-amerikai törpesügérek",
+  "páncélosharcsák",
+  "más pontylazacok",
+  "törpe szívóharcsák",
+  "fátyolos úszójú nem agresszív fajok"
+ ],
+ "kerulendo": [
+  "agresszív és uszonycsipkedő fajok",
+  "nagyméretű ragadozók"
+ ],
+ "szaporodas_mod": "Szabadon ikrázó, ikrafaló",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "15-25 literes szaporító akvárium előkészítése ikrahálóval, jávai mohával vagy ívatócsomóval.",
+  "Lágy (2-5 dGH), enyhén savas (pH 6,2-6,6), 26 °C-os, tiszta víz biztosítása, nagyon tompa világítással.",
+  "Egy jól táplált párt vagy 2 hímet és 1 nőstényt helyezzünk ki késő délután.",
+  "Az ívás általában a reggeli órákban történik; közvetlenül utána a szülőket vegyük ki.",
+  "A 24-30 óra múlva kibújó kishalakat az elúszásuk után infuzóriával és frissen kelt artémia naupliuszokkal neveljük fel."
+ ],
+ "ivari_kulonbseg": "A felnőtt hímek hátúszója jóval hosszabb, sarlószerűen megnyúlt, színezetük sötétebb és élénkebb; a nőstények hátúszója rövidebb, testalkatuk teltebb, ikrával teli.",
+ "felismeres_jegyek": [
+  "Áttetsző, rózsaszínes-bordós árnyalatú, oldalról lapított test",
+  "Megnyúlt, magas hátúszó, melynek végén fekete folt és fehér csúcs díszeleg",
+  "A farokalatti és hasúszók hegyén feltűnő hófehér mintázat látható",
+  "A kopoltyúfedő mögött gyakran kivehető egy elmosódott, sötét vállfolt",
+  "A farokúszó karéjai enyhén vörösesek, szélük fehéres"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon rosaceus",
+   "magyar_nev": "Rózsás lazac",
+   "kulonbseg": "Hiányzik róla a sötét vállfolt, teste egyenletesebben telt rózsaszínű, úszói kissé finomabb mintázatúak."
+  },
+  {
+   "latin": "Hyphessobrycon erythrostigma",
+   "magyar_nev": "Izzófényű pontylazac",
+   "kulonbseg": "Sokkal robusztusabb, 6-7 cm-re növő faj, testoldalán élénkvörös 'vércsepp' folt található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór (Ichthyophthirius multifiliis)",
+  "baktériumos úszórothadás",
+  "bársonybetegség (Oodinium)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1100,
+ "tippek": [
+  "Gyakran keverik össze a kereskedelemben a rendkívül hasonló rózsás lazaccal (H. rosaceus), de mindkét faj igényei azonosak.",
+  "Úszó növényekkel tompított világítás mellett a hímek hátúszójának kontrasztos mintázata különösen jól érvényesül.",
+  "Az erős vízáramlást nem szereti, a lassú, lágy vízmozgás biztosítja számára a stresszmentes környezetet."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-26"
+}

@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-26",
-"darab": 34,
+"darab": 37,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -343,6 +343,37 @@
 "ellenorzott": false
 },
 {
+"id": "hyphessobrycon-bentosi",
+"tipus": "hal",
+"latin": "Hyphessobrycon bentosi",
+"magyar_nev": "díszes pontylazac",
+"egyeb_nevek": [
+"Bentos-tetra",
+"fehérfoltos tetra",
+"Roberts-tetra"
+],
+"regi_latin_nevek": [
+"Hyphessobrycon bentosi bentosi",
+"Hyphessobrycon robertsi"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 500,
+"ar_ft_max": 1100,
+"ellenorzott": false
+},
+{
 "id": "hyphessobrycon-columbianus",
 "tipus": "hal",
 "latin": "Hyphessobrycon columbianus",
@@ -397,6 +428,34 @@
 "ellenorzott": false
 },
 {
+"id": "hyphessobrycon-flammeus",
+"tipus": "hal",
+"latin": "Hyphessobrycon flammeus",
+"magyar_nev": "lángvörös pontylazac",
+"egyeb_nevek": [
+"vörös tetra",
+"Rio-tetra",
+"riói lazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.0,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 54,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
 "id": "hyphessobrycon-herbertaxelrodi",
 "tipus": "hal",
 "latin": "Hyphessobrycon herbertaxelrodi",
@@ -446,6 +505,32 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 450,
 "ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-pulchripinnis",
+"tipus": "hal",
+"latin": "Hyphessobrycon pulchripinnis",
+"magyar_nev": "citromlazac",
+"egyeb_nevek": [
+"citromtetra"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 850,
 "ellenorzott": false
 },
 {
