@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-26",
-"darab": 37,
+"darab": 40,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -428,6 +428,67 @@
 "ellenorzott": false
 },
 {
+"id": "hyphessobrycon-eques",
+"tipus": "hal",
+"latin": "Hyphessobrycon eques",
+"magyar_nev": "Serpalazac",
+"egyeb_nevek": [
+"Vérvörös pontylazac",
+"Kalliszto pontylazac"
+],
+"regi_latin_nevek": [
+"Hyphessobrycon serpae",
+"Hyphessobrycon callistus",
+"Cheirodon eques"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-erythrostigma",
+"tipus": "hal",
+"latin": "Hyphessobrycon erythrostigma",
+"magyar_nev": "Vérfoltos pontylazac",
+"egyeb_nevek": [
+"Izzófényű pontylazac",
+"Perez-lazac"
+],
+"regi_latin_nevek": [
+"Hemigrammus erythrostigma",
+"Hyphessobrycon callistus rubrostigma"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 5.8,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
 "id": "hyphessobrycon-flammeus",
 "tipus": "hal",
 "latin": "Hyphessobrycon flammeus",
@@ -553,6 +614,34 @@
 "homerseklet_max": 28,
 "ph_min": 5.5,
 "ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "hyphessobrycon-sweglesi",
+"tipus": "hal",
+"latin": "Hyphessobrycon sweglesi",
+"magyar_nev": "Vörös fantomlazac",
+"egyeb_nevek": [
+"Fantomlazac"
+],
+"regi_latin_nevek": [
+"Megalamphodus sweglesi"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 5.5,
+"ph_max": 7.2,
 "uszasi_zona": "kozepso",
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 500,

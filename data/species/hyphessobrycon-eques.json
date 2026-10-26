@@ -1,0 +1,92 @@
+{
+ "id": "hyphessobrycon-eques",
+ "lista_nev": "Hyphessobrycon eques",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon eques",
+ "regi_latin_nevek": [
+  "Hyphessobrycon serpae",
+  "Hyphessobrycon callistus",
+  "Cheirodon eques"
+ ],
+ "magyar_nev": "Serpalazac",
+ "egyeb_nevek": [
+  "Vérvörös pontylazac",
+  "Kalliszto pontylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Guaporé folyók vízrendszere, Paraguay medence)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Rendkívül fürge rajhal, de rossz társítás vagy kis egyedszám esetén hírhedt uszonycsipkedő. Nagy csapatban tartva energiáit a fajtársak kergetésére fordítja.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kiváló étvágyú faj; lemezes tápok, fagyasztott tubifex, szúnyoglárva és artémia egyaránt alkalmas számára.",
+ "tarsithato": [
+  "Gyors úszású",
+  "rövid úszójú pontylazacokkal",
+  "páncélosharcsákkal",
+  "dániókkal és algázó harcsákkal."
+ ],
+ "kerulendo": [
+  "Hosszú vagy fátyolos úszójú halakkal (pl. sziámi harcoshal",
+  "vitorláshal",
+  "fátyolos guppi)",
+  "valamint lassú mozgású labirintkopoltyúsokkal."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Finom levelű növényekkel vagy ikraráccsal ellátott, lágy (4-8 dGH), enyhén savas vagy semleges (pH 6,5-7,0) vízzel töltött 15-20 literes akvárium berendezése.",
+  "A jól táplált párt este helyezzük ki az ívatóba.",
+  "A reggeli órákban zajlik a heves udvarlás és ikraszórás.",
+  "Ívás után a szülőket azonnal távolítsuk el, mivel mohón falják saját ikráikat.",
+  "A kikelő ivadék 24-30 óra múlva kel, majd elúszás után infuzóriával és frissen kelt artémiával gyorsan nevelhető."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, színük jóval sötétebb, mélyebb vérvörös; a nőstények hasvonala kerekdedebb, teltebb, színezetük kissé fakóbb.",
+ "felismeres_jegyek": [
+  "Téglavörös, vérvörös testalapszín",
+  "Kopoltyúfedő mögött elhelyezkedő függőleges, fekete folt (egyes törzseknél elmosódott)",
+  "Széles fekete hátúszó, melynek csúcsa hófehér szegélyű",
+  "Hosszú, élénkpiros farok alatti úszó széles fekete alsó peremmel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon sweglesi",
+   "magyar_nev": "Vörös fantomlazac",
+   "kulonbseg": "Áttetszőbb, világosabb testű, békés természetű, és a hímek hátúszója jóval magasabb."
+  },
+  {
+   "latin": "Hyphessobrycon haraldschultzi",
+   "magyar_nev": "Kristályvörös lazac",
+   "kulonbseg": "Teste karcsúbb és világosabb, és nem csipkedi más halak úszóit."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daravkór (Ichthyophthirius)",
+  "Úszórothadás (sérülésekből eredően)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 750,
+ "tippek": [
+  "Mindig legalább 8-10 példányt vásároljunk belőle, így a csapaton belüli hierarchiaharc köti le a figyelmüket, nem más fajok.",
+  "Dús növényzetű, búvóhelyekben gazdag akváriumot igényel, ahol a gyengébb példányok el tudnak bújni.",
+  "Fátyolos uszonyú díszhalak mellé semmiképpen se telepítsük, mert könnyen megcsonkíthatja azokat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-26"
+}

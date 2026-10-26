@@ -1,0 +1,90 @@
+{
+ "id": "hyphessobrycon-erythrostigma",
+ "lista_nev": "Hyphessobrycon erythrostigma",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon erythrostigma",
+ "regi_latin_nevek": [
+  "Hemigrammus erythrostigma",
+  "Hyphessobrycon callistus rubrostigma"
+ ],
+ "magyar_nev": "Vérfoltos pontylazac",
+ "egyeb_nevek": [
+  "Izzófényű pontylazac",
+  "Perez-lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Felső-Amazonas vidéke, Peru és Kolumbia határterületei)",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, méltóságteljes mozgású rajhal. Mérete miatt látványos lakója a nagyobb dél-amerikai biotóp akváriumoknak, kisebb halakat sem bánt.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.8,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; minőségi lemezes és granulált eleségek mellett nagyon hálás a fagyasztott és élő szúnyoglárváért, artémiáért és tubifexért.",
+ "tarsithato": [
+  "Vitorláshalakkal",
+  "dél-amerikai törpesügérekkel (pl. Apistogramma)",
+  "páncélosharcsákkal és békés pontylazacokkal."
+ ],
+ "kerulendo": [
+  "Agresszív sügérekkel",
+  "nagytestű ragadozókkal és a vizet folyamatosan túró nagy halakkal."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (1-3 dGH), savas (pH 5,5-6,2), tőzeggel szűrt vizű, sötétített ívató akvárium előkészítése.",
+  "A tenyészpárt bőséges élő szúnyoglárvával és artémiával táplálva készítsük fel az ívásra.",
+  "Az ívató aljára ikrarácsot és finom szálú szintetikus pamutot vagy jávai mohát helyezzünk.",
+  "Ívás után a kifejlett halakat távolítsuk el, az akváriumot teljesen árnyékoljuk a fényérzékeny ikrák védelmében.",
+  "A kikelő lárvák számára elúszáskor papucsállatka, majd frissen kelt artémia biztosítandó indítóeleségként."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója és farok alatti úszója látványosan megnyúlt, sarló alakú; a nőstények robusztusabbak, teltebb hasúak és hátúszójuk rövidebb.",
+ "felismeres_jegyek": [
+  "Testközépen, a váll mögött egy feltűnő, rubinvörös folt ('vérző szív') látható",
+  "Magas, oldalról erősen lapított rombusz testalkat",
+  "Hímeknél a hátúszó rendkívül hosszú, ívelt, sarló formájú",
+  "Hátúszóján és farok alatti úszóján kontrasztos fehér és fekete rajzolat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon pyrrhonotus",
+   "magyar_nev": "Lánghátú pontylazac",
+   "kulonbseg": "Hátvonalán élénkpiros sáv húzódik, szívfoltja kevésbé határolt és kisebb."
+  },
+  {
+   "latin": "Hyphessobrycon socolofi",
+   "magyar_nev": "Socolof pontylazac",
+   "kulonbseg": "Kisebb végméretű faj, a hímek hátúszója nem nyúlik meg ennyire látványosan."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daravkór (Ichthyophthirius)",
+  "Úszórothadás",
+  "Bakteriális bőrfertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Égerfa toboz vagy tőzeg kivonat adagolásával enyhén teaszínű vizet teremtve a halak vörös és fehér színei rendkívül intenzívvé válnak.",
+  "Méretéből adódóan ne zsúfoljuk be kisméretű akváriumba, legalább 100 literes medencét igényel a megfelelő fejlődéshez.",
+  "Csapatban tartva a hímek békés pózolása lenyűgöző látványt nyújt a nyílt vízterekben."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-26",
+ "magyar_nev_kuralt": true
+}

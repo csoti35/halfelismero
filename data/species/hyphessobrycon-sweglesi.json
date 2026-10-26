@@ -1,0 +1,90 @@
+{
+ "id": "hyphessobrycon-sweglesi",
+ "lista_nev": "Hyphessobrycon sweglesi",
+ "tipus": "hal",
+ "latin": "Hyphessobrycon sweglesi",
+ "regi_latin_nevek": [
+  "Megalamphodus sweglesi"
+ ],
+ "magyar_nev": "Vörös fantomlazac",
+ "egyeb_nevek": [
+  "Fantomlazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Orinoco folyó medencéje, Kolumbia)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, élénk rajhal. A hímek rivalizálás közben látványosan kifeszítik úszóikat egymás előtt, de fizikai sérülést nem okoznak egymásban.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 5.5,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; kedveli az apró élő és fagyasztott eleségeket (artémia, cyclops, daphnia), de a jó minőségű lemezes és finom granulált tápokat is készséggel elfogadja.",
+ "tarsithato": [
+  "Kistestű",
+  "békés pontylazacokkal",
+  "törpesügérekkel",
+  "páncélosharcsákkal és békés dániókkal."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "ragadozó természetű halakkal",
+  "melegkedvelő fajokkal (pl. diszkoszhal) és agresszív uszonycsipkedőkkel."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (2-4 dGH), enyhén savas (pH 6,0-6,5) vízzel feltöltött, jávai mohával vagy ikráztató ráccsal ellátott ívató akvárium előkészítése.",
+  "A tenyészpárt vagy egy kisebb csapatot bőséges élő eleséggel kondicionáljuk, majd este helyezzük ki a félhomályos medencébe.",
+  "Az ívás reggel, finom növényzet közé történik.",
+  "Az ívást követően a szülőket azonnal távolítsuk el az ikrafalás elkerülése érdekében.",
+  "Az ikrák fényérzékenyek, ezért az akváriumot sötétítsük el; a kikelt lárvákat elúszás után papucsállatkákkal, majd frissen kelt artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója jóval magasabb, zászlószerű és hegyesebb. A nőstények kissé teltebb testűek, hátúszójuk csúcsán gyakran fehéres folt látható a fekete folt felett.",
+ "felismeres_jegyek": [
+  "Áttetsző, rubinvörös vagy narancsvörös alapszín",
+  "Kopoltyúfedő mögött elhelyezkedő ovális fekete vállfolt",
+  "Hátúszóján hangsúlyos, széles fekete folt látható",
+  "A hímek hátúszója látványosan megnyúlt és hegyesedő"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon megalopterus",
+   "magyar_nev": "Fekete fantomlazac",
+   "kulonbseg": "Alapszíne füstös szürkésfekete, nem vöröses árnyalatú."
+  },
+  {
+   "latin": "Hyphessobrycon eques",
+   "magyar_nev": "Serpalazac",
+   "kulonbseg": "Teste tömzsibb, mélyebb vörös, a farok alatti úszója széles fekete szegéllyel díszített, viselkedése agresszívabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daravkór (Ichthyophthirius)",
+  "Bársonybetegség (Oodinium)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "A túlzottan meleg vizet nem kedveli, 22-23 °C körüli hőmérsékleten él a legtovább és a színei is ekkor a legélénkebbek.",
+  "Sötét aljzat és tompított fényszórás mellett sokkal magabiztosabban mozog és szebb színeket produkál.",
+  "Tartásánál ügyeljünk a tágas szabad úszótérre, hogy a hímek zavartalanul fitogtathassák uszonyaikat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-26",
+ "magyar_nev_kuralt": true
+}
