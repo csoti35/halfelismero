@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Copella arnoldi",
+ "id": "copella-arnoldi",
+ "tipus": "hal",
+ "latin": "Copella arnoldi",
+ "regi_latin_nevek": [
+  "Pyrrhulina arnoldi"
+ ],
+ "magyar_nev": "Fecskendező lazac",
+ "egyeb_nevek": [
+  "Fecskendező pontylazac",
+  "Arnold-díszlazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lebiasinidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas-medence, Guyana, Suriname)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, a vízfelszín közelében tartózkodó kistestű faj. A hímek egymás közötti pózolása teljesen ártalmatlan. Lenyűgöző ugróképességgel bír.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Apró élő és fagyasztott eleségek (artémia, vízibolha, cyclops), a vízfelszínről száraz lemezes tápot és szárnyatlan muslicát is szívesen fogyaszt.",
+ "tarsithato": [
+  "Kistestű",
+  "békés pontylazacokkal",
+  "páncélosharcsákkal",
+  "törpe szívóharcsákkal és békés dél-amerikai törpesügérekkel."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "ragadozó",
+  "hevesen úszó vagy agresszív halakkal",
+  "amelyek elragadhatják vagy stresszelhetik."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Rendezzünk be egy alacsony vízszintű tenyésztartályt, amelyben a vízfelszín fölé hajló, széles levelű növények vagy ferdén beállított üveglap található.",
+  "Lágy (2-4 dGH), enyhén savas (pH 6,2-6,8), 26-28 °C-os vizet és szorosan záródó fedőüveget biztosítsunk.",
+  "A pár összehangoltan kiugrik a vízből a víz feletti levél fonákára, ahol lerakják és megtermékenyítik a ragadós ikrákat.",
+  "A hím a vízfelszín alól a farokúszójával rendszeresen vizet fröcsköl az ikrákra, hogy azok ne száradjanak ki.",
+  "A 36-48 óra múlva kikelő lárvák közvetlenül a vízbe potyognak; elúszás után papucsállatkával és frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója és a farokúszó felső lebenye jóval hosszabb és hegyesebb, színezete élénkebb narancsos-vöröses; a nőstények zömökebbek és fakóbbak.",
+ "felismeres_jegyek": [
+  "Hengeres, karcsú, torpedószerű testalkat",
+  "A hátúszó a test hátsó harmadában helyezkedik el, a hímeknél látványosan megnyúlt",
+  "Sötét folt a hátúszón, amelyet sárgás-fehéres szegély övez",
+  "Aszimmetrikus farokúszó, amelynek felső lebenye a hímeknél jelentősen hosszabb"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Copella nattereri",
+   "magyar_nev": "Natterer-díszlazac",
+   "kulonbseg": "Kisebb termetű faj, úszói rövidebbek, és ikráit a víz alatti növényzetre rakja."
+  },
+  {
+   "latin": "Pyrrhulina filamentosa",
+   "magyar_nev": "Fonalas díszlazac",
+   "kulonbseg": "Nagyobb testű faj, a hímek farokúszója erőteljesebb fonálszerű nyúlványokban végződik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális úszórothadás",
+  "Ugrásból eredő mechanikai sérülések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Az akváriumot résmentesen le kell fedni, mert a legapróbb nyíláson is képesek kiugrani.",
+  "Úszónövényekkel árnyékoljuk a felületet, hogy a halak biztonságban érezzék magukat és megmutassák természetes viselkedésüket.",
+  "Röpképtelen ecetmuslicával etetve stimulálhatjuk a természetes felszíni vadászösztönüket."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

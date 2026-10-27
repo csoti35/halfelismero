@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Hasemania nana",
+ "id": "hasemania-nana",
+ "tipus": "hal",
+ "latin": "Hasemania nana",
+ "regi_latin_nevek": [
+  "Hemigrammus nanus",
+  "Hasemania marginata"
+ ],
+ "magyar_nev": "Rézlazac",
+ "egyeb_nevek": [
+  "Ezüstös rézlazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Brazília - São Francisco folyó vízrendszere)",
+ "max_meret_cm": 4.0,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Rendkívül fürge, mozgékony csapathal. A hímek rendszeresen hierarchia-harcokat vívnak; kis létszámú csapatban vagy szűk helyen megcsipkedhetik a lassan úszó, fátyolos fajok úszóit.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, egyáltalán nem válogatós. A lemezes és granulált eleségeket mohón falja, de szívesen veszi a fagyasztott és élő ciklopszot, artémiát és szúnyoglárvát.",
+ "tarsithato": [
+  "Fürge mozgású pontylazacokkal",
+  "dániókkal",
+  "páncélosharcsákkal és békés algaevőkkel."
+ ],
+ "kerulendo": [
+  "Hosszú fátyolúszójú fajokkal (pl. betta",
+  "fátyolos guppi",
+  "vitorláshal) és félénk",
+  "lassú halakkal."
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó)",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy 10-15 literes, lágy (4-6 dGH), enyhén savas vizű ívató medencét ikraráccsal és jávai mohával.",
+  "A tenyészállatokat 7-10 napig tartsuk külön, és etessük bőségesen élő zsákmányállatokkal.",
+  "Este helyezzünk ki egy kerekded nőstényt és egy élénk színű hímet, a medencét ne világítsuk túl erősen.",
+  "A kora reggeli ívás után a felnőtteket távolítsuk el az ikrafalás miatt.",
+  "A kelési idő 24-36 óra; az elúszott lárvákat kezdetben papucsállatkával vagy mikróeleséggel, majd artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek feltűnő rézbarna, mély aranyszínűek és úszóik csúcsa vakító hófehér; a nőstények sokkal sápadtabbak, ezüstös-sárgásak, teltebb testalkatúak és úszócsúcsaik inkább sárgásak.",
+ "felismeres_jegyek": [
+  "Nincs zsírúszója (a pontylazacok között ez ritka bélyeg).",
+  "A hímek alapszíne élénk, fémfényű rézvörös vagy bronzbarna.",
+  "A hát-, farok- és farok alatti úszó csúcsán kontrasztos fehér petty/folt látható.",
+  "A farokúszó tövén egy fekete hosszanti sáv húzódik a farokközépig."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aphyocharax anisitsi",
+   "magyar_nev": "Vörösúszójú pontylazac",
+   "kulonbseg": "Teste ezüstös zöld, úszói vérvörösek, rendelkezik zsírúszóval."
+  },
+  {
+   "latin": "Hyphessobrycon amandae",
+   "magyar_nev": "Parázslazac",
+   "kulonbseg": "Sokkal kisebb méretű (kb. 2 cm), teste áttetsző narancsszínű, van zsírúszója és hiányoznak a fehér úszóvégek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 650,
+ "tippek": [
+  "Legalább 8-10 egyedes rajban érdemes tartani, így a hímek egymás közt intézik el villongásaikat, és nem bántják a többi lakót.",
+  "Hagyjunk elegendő szabad úszóteret a medence közepén, mert kifejezetten gyors és állandó mozgásban lévő hal.",
+  "Strapabíró faj, kitűnő választás keményebb csapvízzel rendelkező kezdők számára is."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

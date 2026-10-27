@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Gymnocorymbus ternetzi",
+ "id": "gymnocorymbus-ternetzi",
+ "tipus": "hal",
+ "latin": "Gymnocorymbus ternetzi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Gyászpontylazac",
+ "egyeb_nevek": [
+  "Fekete özvegy",
+  "Gyászlazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Paraguay, Guaporé és Río de la Plata medencéje)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kissé lomhább mozgású csapathal. Magányosan vagy túl kis csoportban tartva megcsipkedheti a fátyolos úszókat, de megfelelő létszámú rajban példás társasági lakó.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 18,
+ "taplalek": "Mindenevő, kiváló étvágyú; lemezes tápokat, granulátumokat, fagyasztott tubifexet, szúnyoglárvát és artémiát mohón fogyaszt.",
+ "tarsithato": [
+  "Hasonló méretű pontylazacokkal",
+  "páncélosharcsákkal",
+  "dániókkal",
+  "márványgurámival és békés törpesügérekkel."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú fátyolos guppikkal",
+  "sziámi harcoshallal",
+  "apró ivadékokkal."
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó)",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Állítsunk fel egy 20-30 literes ívató medencét 25-26 °C-os, közepesen lágy (5-8 dGH), semleges kémhatású vízzel.",
+  "Az aljzatra helyezzünk ikravédő rácsot vagy finom levelű növényköteget, mert a szülők mohón falják az ikrát.",
+  "Helyezzünk ki egy jól táplált párt vagy csapatot (pl. 2 hím, 1 nőstény) az esti órákban.",
+  "A reggeli ívás során a nőstény akár 500-1000 ikrát is elszórhat a vízben.",
+  "Ívást követően a tenyészállatokat azonnal távolítsuk el; az ikrák 24-30 óra múlva kelnek, és elúszás után apró élőeleséggel nevelhetők."
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan nagyobbak, teltebbek és kerekdedebb a hasvonaluk; a hímek kisebbek, farok alatti úszójuk szélesebb és a hátúszójuk hegyesebb.",
+ "felismeres_jegyek": [
+  "Jellegzetes, magas hátú, korongszerűen lapított testalkat.",
+  "Rendkívül széles, szoknyaszerűen lógó farok alatti úszó.",
+  "A testen két határozott, függőleges fekete sáv látható a kopoltyú mögött.",
+  "A test hátulsó része és a farok alatti úszó mélyfekete színű (idős korban szürkévé fakulhat)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gymnocorymbus ternetzi var.",
+   "magyar_nev": "Fátyolos fekete tetra",
+   "kulonbseg": "Mesterségesen szelektált tenyészváltozat, jóval hosszabb és hullámosabb úszókkal."
+  },
+  {
+   "latin": "Hyphessobrycon megalopterus",
+   "magyar_nev": "Fekete fantomlazac",
+   "kulonbseg": "Nyújtottabb testalkatú, áttetszőbb szürkés-fekete színű, keresztsávok helyett egyetlen nagy kerek folt díszíti."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 300,
+ "ar_ft_max": 600,
+ "tippek": [
+  "Kezdőknek az egyik leghálásabb, legellenállóbb pontylazac, amely széles vízparaméter-tartományban jól tartható.",
+  "Az öregedő példányok fekete színezete kissé kifakul és szürkéssé válik, ami természetes élettani jelenség.",
+  "Ne tartsuk magányosan, mert raj hiányában stresszessé válik és előszeretettel rágcsálja más halak úszóit."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27",
+ "magyar_nev_kuralt": true
+}

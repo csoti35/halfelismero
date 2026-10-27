@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Hemigrammus pulcher",
+ "id": "hemigrammus-pulcher",
+ "tipus": "hal",
+ "latin": "Hemigrammus pulcher",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Díszes pontylazac",
+ "egyeb_nevek": [
+  "Pulcher lazac",
+  "Ékfoltos pontylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Peru, Brazília, Kolumbia - Amazonas felső szakasza)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, kissé visszahúzódó csapathal. Sötétebb aljzatú, jól benövényesített medencében érzi igazán biztonságban magát, ahol szép rajban mozog.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; a jó minőségű száraz lemezes tápokat könnyen elfogadja, de igényli a fagyasztott és élő apró eleségeket (artémia, ciklop, daphnia).",
+ "tarsithato": [
+  "Kisebb békés pontylazacokkal",
+  "páncélosharcsákkal",
+  "törpe sügérekkel és apróbb márnásfélékkel."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy túlságosan élénk mozgású halakkal",
+  "amelyek elorozzák előle a táplálékot vagy megfélemlítik."
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Rendezzünk be egy 15-20 literes ívató akváriumot nagyon lágy (1-3 dGH) és enyhén savas (pH 5.8-6.5), 26-28 °C-os vízzel.",
+  "A medence aljára helyezzünk ikrarácsot vagy sűrű finomlevelű növényt (pl. jávai moha), és árnyékoljuk a tartályt.",
+  "Az ívatásra kiválasztott, élő eleséggel jól feljavított párt este helyezzük ki, az ívás másnap reggel várható.",
+  "Ívás után a felnőtt halakat azonnal vegyük ki, mert ikrafalók.",
+  "A fényérzékeny ikrák 24-36 óra alatt kelnek ki, elúszásuk után infusoriával, majd frissen kelt artémiával indíthatók."
+ ],
+ "ivari_kulonbseg": "A nőstények teste mélyebb és gömbölydedebb, különösen ívási időszakban; a hímek karcsúbbak és színezetük valamivel intenzívebb.",
+ "felismeres_jegyek": [
+  "Mély, viszonylag zömök testalkat, oldalról erősen lapított.",
+  "A test hátsó felén, a faroktő felé húzódó, lefelé kiszélesedő markáns fekete ékfolt.",
+  "Az ékfolt felett és a szem felső szélén világító vöröses-arany irizálás.",
+  "Átlátszó, enyhén sárgás tónusú úszók és apró zsírúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trigonostigma heteromorpha",
+   "magyar_nev": "Ékfoltos razbóra",
+   "kulonbseg": "Ázsiai pontyféle, teste narancsosabb alapszínű, ékfoltja kiterjedtebb és nincs zsírúszója."
+  },
+  {
+   "latin": "Hyphessobrycon herbertaxelrodi",
+   "magyar_nev": "Fekete neonhal",
+   "kulonbseg": "Testalkata jóval nyújtottabb, a sötét sáv a teljes testen végighúzódik, nem ék alakú foltként jelenik meg."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Bársonybetegség (Oodinium)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 450,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Tőzegkivonattal vagy égerterméssel lágyított, enyhén barnás vízben mutatja meg legszebb ragyogását.",
+  "Mindig tartsuk legalább 8 egyedes rajban; egyedül vagy párban félénk és rejtőzködő lesz.",
+  "Úszónövényekkel tompítsuk a világítást, mert a túlzott fényben kifakulnak a színei."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

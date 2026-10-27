@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-27",
-"darab": 46,
+"darab": 55,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -58,6 +58,34 @@
 "ellenorzott": false
 },
 {
+"id": "axelrodia-riesei",
+"tipus": "hal",
+"latin": "Axelrodia riesei",
+"magyar_nev": "Rubinlazac",
+"egyeb_nevek": [
+"Vörös rubinlazac",
+"Rubin tetra",
+"Borslazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 5.0,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 800,
+"ar_ft_max": 1600,
+"ellenorzott": false
+},
+{
 "id": "belonesox-belizanus",
 "tipus": "hal",
 "latin": "Belonesox belizanus",
@@ -82,6 +110,64 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 3500,
 "ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "boehlkea-fredcochui",
+"tipus": "hal",
+"latin": "Boehlkea fredcochui",
+"magyar_nev": "Kék perulazac",
+"egyeb_nevek": [
+"Kék lazac",
+"Kék tetra"
+],
+"regi_latin_nevek": [
+"Microbrycon fredcochui"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 5.8,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1100,
+"ellenorzott": false
+},
+{
+"id": "copella-arnoldi",
+"tipus": "hal",
+"latin": "Copella arnoldi",
+"magyar_nev": "Fecskendező lazac",
+"egyeb_nevek": [
+"Fecskendező pontylazac",
+"Arnold-díszlazac"
+],
+"regi_latin_nevek": [
+"Pyrrhulina arnoldi"
+],
+"csalad": "Lebiasinidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -172,6 +258,62 @@
 "ellenorzott": false
 },
 {
+"id": "gymnocorymbus-ternetzi",
+"tipus": "hal",
+"latin": "Gymnocorymbus ternetzi",
+"magyar_nev": "Gyászpontylazac",
+"egyeb_nevek": [
+"Fekete özvegy",
+"Gyászlazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 300,
+"ar_ft_max": 600,
+"ellenorzott": false
+},
+{
+"id": "hasemania-nana",
+"tipus": "hal",
+"latin": "Hasemania nana",
+"magyar_nev": "Rézlazac",
+"egyeb_nevek": [
+"Ezüstös rézlazac"
+],
+"regi_latin_nevek": [
+"Hemigrammus nanus",
+"Hasemania marginata"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.0,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 650,
+"ellenorzott": false
+},
+{
 "id": "hemigrammus-bleheri",
 "tipus": "hal",
 "latin": "Hemigrammus bleheri",
@@ -256,6 +398,33 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 400,
 "ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "hemigrammus-pulcher",
+"tipus": "hal",
+"latin": "Hemigrammus pulcher",
+"magyar_nev": "Díszes pontylazac",
+"egyeb_nevek": [
+"Pulcher lazac",
+"Ékfoltos pontylazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 450,
+"ar_ft_max": 800,
 "ellenorzott": false
 },
 {
@@ -842,6 +1011,91 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 400,
 "ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "nannostomus-beckfordi",
+"tipus": "hal",
+"latin": "Nannostomus beckfordi",
+"magyar_nev": "Díszes törpelazac",
+"egyeb_nevek": [
+"Beckford-törpelazac",
+"Díszes karcsúlazac"
+],
+"regi_latin_nevek": [
+"Nannostomus anomalus",
+"Nannostomus aripirangensis"
+],
+"csalad": "Lebiasinidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "nannostomus-trifasciatus",
+"tipus": "hal",
+"latin": "Nannostomus trifasciatus",
+"magyar_nev": "Háromsávos törpelazac",
+"egyeb_nevek": [
+"Háromsávos karcsúlazac"
+],
+"regi_latin_nevek": [
+"Poecilobrycon trifasciatus"
+],
+"csalad": "Lebiasinidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 900,
+"ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "nematobrycon-palmeri",
+"tipus": "hal",
+"latin": "Nematobrycon palmeri",
+"magyar_nev": "Császárpontylazac",
+"egyeb_nevek": [
+"Királylazac",
+"Palmer császárlazaca"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 900,
 "ellenorzott": false
 },
 {

@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Nannostomus trifasciatus",
+ "id": "nannostomus-trifasciatus",
+ "tipus": "hal",
+ "latin": "Nannostomus trifasciatus",
+ "regi_latin_nevek": [
+  "Poecilobrycon trifasciatus"
+ ],
+ "magyar_nev": "Háromsávos törpelazac",
+ "egyeb_nevek": [
+  "Háromsávos karcsúlazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lebiasinidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas, Rio Negro, Rio Branco medencéje)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, kissé visszahúzódó természetű rajhal. Nyugodt akváriumot, csendes vízáramlást és finom társítást igényel.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Apró élő és fagyasztott eleségek (artémia naupliusz, cyclops, banánféreg), finomra morzsolt minőségi lemezes tápok.",
+ "tarsithato": [
+  "Kistestű",
+  "békés pontylazacokkal (pl. parázslazac",
+  "vörös neonhal)",
+  "törpe páncélosharcsákkal és békés törpesügérekkel."
+ ],
+ "kerulendo": [
+  "Erőteljes",
+  "tolakodó",
+  "gyors mozgású halakkal",
+  "amelyek eleszik előle a táplálékot és megfélemlítik."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Állítsunk be lágy (1-3 dGH), savas (pH 5,5-6,2), tőzeggel szűrt vagy kezelt vizű, félhomályos szaporító akváriumot.",
+  "Helyezzünk be finom szálú növényzetet (jávai moha) vagy ikrarácsot a fenékre a ragadozó felnőttek ellen.",
+  "A bőséges élő táplálékkal előkészített tenyészpárt este helyezzük ki a medencébe.",
+  "A kora reggeli órákban zajlik a finom udvarlás és a szórványos ikrázás a növényszálak közé.",
+  "A kifejlett egyedeket az ívás után azonnal el kell távolítani; az ivadékok 24-36 óra múlva kelnek ki és infuzóriákkal indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek úszóin és a középső hosszanti sáv mentén a vörös foltok intenzívebbek, testalkatuk karcsúbb; a nőstények teltebbek és a vörös mintázatuk visszafogottabb.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres, karcsú testalkat kicsi szájjal",
+  "Három markáns, fekete hosszanti sáv a testoldalon (egy felső vékonyabb, egy vastag középső, egy alsó hasi sáv)",
+  "Világító piros foltok a hátúszón, a farokalatti úszón, a farokúszó tövén és a középső sáv mentén",
+  "Éjszakai álcaszín: a fekete sávok elhalványulnak, és szabálytalan ferde foltok jelennek meg"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nannostomus marginatus",
+   "magyar_nev": "Törpe törpelazac",
+   "kulonbseg": "Lényegesen tömzsibb, rövidebb testalkatú, és nincsenek piros foltjai a fekete sávok között a testoldalon."
+  },
+  {
+   "latin": "Nannostomus eques",
+   "magyar_nev": "Lovaglólazac",
+   "kulonbseg": "Ferde, felfelé néző pózban úszik a vízben, és egyetlen széles sötét alsó sávval rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Csersavakban gazdag, égertobozzal vagy tőzeggel színezett feketevízben mutatja meg legszebb ragyogó vörös színeit.",
+  "Ügyeljünk a mérsékelt áramlásra, mert az erős szűrősodrás kimeríti a halakat.",
+  "Lassú evő faj, ezért etetéskor ellenőrizzük, hogy a társbérlők mellett elegendő eleséghez jut-e."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

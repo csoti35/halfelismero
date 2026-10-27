@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Boehlkea fredcochui",
+ "id": "boehlkea-fredcochui",
+ "tipus": "hal",
+ "latin": "Boehlkea fredcochui",
+ "regi_latin_nevek": [
+  "Microbrycon fredcochui"
+ ],
+ "magyar_nev": "Kék perulazac",
+ "egyeb_nevek": [
+  "Kék lazac",
+  "Kék tetra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Peru: az Amazonas felső folyása és mellékfolyói)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Rendkívül fürge, hiperaktív rajhal. Kis csapatban vagy szűk helyen hajlamos csipkedni más halak (főként a hosszú, fátyolos úszójú fajok) úszóit, ezért csak tágas akváriumba, nagyobb rajban ajánlott.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 5.8,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő és rendkívül mohó; lemezes és finom granulált tápokat pillanatok alatt elkapkodja, fagyasztott és élő artémiát, cyclopst és szúnyoglárvát nagy kedvvel fogyaszt.",
+ "tarsithato": [
+  "gyors úszású pontylazacok",
+  "dániók",
+  "fenéklakó Corydoras páncélosharcsák",
+  "Loricariidae tepsifejűharcsák"
+ ],
+ "kerulendo": [
+  "fátyolos úszójú halak (pl. guppik, vitorláshalak, sziámi harcoshal)",
+  "lassú mozgású labirintkopoltyúsok (gurámik)"
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy (2–4 dGH), enyhén savas (pH 6.0 körül) víz beállítása az ívató medencében, ikraráccsal az alján.",
+  "Az akváriumot erősen sötétítsük be, mert az ikrák és a korai lárvák fényérzékenyek.",
+  "Egy jól táplált párt helyezzünk ki késő délután.",
+  "A kora reggeli ívás után a kifejlett egyedeket haladéktalanul távolítsuk el.",
+  "A lárvák kb. 24–36 óra múlva kelnek ki; szabad úszásuk után infuzóriával és rotatóriával kell indítani őket."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, testük liláskék fénye jóval intenzívebb, míg a nőstények zömökebb testalkatúak és tompább színezetűek.",
+ "felismeres_jegyek": [
+  "Világító acélkék vagy liláskék alapszínezet a test hátsó felén",
+  "Hosszirányú sötét sáv a faroknyél mentén, amely belefut a farokúszó közepébe",
+  "Az úszók csúcsán finom fehéres szegély figyelhető meg",
+  "Karcsú, áramvonalas testalkat és állandó, sebes mozgás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus coeruleus",
+   "magyar_nev": "Kék tetra",
+   "kulonbseg": "Nagyobb testű, vöröses úszójegyekkel díszített, ritkábban tartott faj."
+  },
+  {
+   "latin": "Inpaichthys kerri",
+   "magyar_nev": "Királylazac",
+   "kulonbseg": "Mélyebb testalkatú, lassabb mozgású, viselkedése sokkal békésebb, nem csipkedős."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór",
+  "uszórothadás (sérülésekből eredő)",
+  "szállítási stressz okozta bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1100,
+ "tippek": [
+  "Mindig tartsuk legalább 8–10 fős rajban: így energiájukat egymás közötti kergetőzésre fordítják, és nem a többi halat zaklatják.",
+  "Nagy, szabad kiúszótérre van szüksége, mert az egyik leggyorsabb kistestű pontylazac.",
+  "Az etetésnél ügyeljünk arra, hogy a fenéken táplálkozó vagy lassabb lakótársaknak is jusson élelem a mohóságuk mellett."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Nematobrycon palmeri",
+ "id": "nematobrycon-palmeri",
+ "tipus": "hal",
+ "latin": "Nematobrycon palmeri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Császárpontylazac",
+ "egyeb_nevek": [
+  "Királylazac",
+  "Palmer császárlazaca"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Kolumbia: San Juan és Atrato folyórendszere)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés rajhal, a hímek kisebb territóriumot alakíthatnak ki és látványos pózolásokkal vetélkednek, de komoly sérülést soha nem okoznak egymásnak.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, szívesen fogyasztja a jó minőségű száraztápokat (lemezes, apró granulátum), de élénk színeihez nélkülözhetetlen az élő és fagyasztott eleség (artémia, daphnia, szúnyoglárva).",
+ "tarsithato": [
+  "dél-amerikai békés pontylazacok",
+  "Corydoras páncélosharcsák",
+  "törpesügérek (pl. Apistogramma fajok)",
+  "békés dániók",
+  "razbórák"
+ ],
+ "kerulendo": [
+  "nagytestű vagy agresszív sügérek",
+  "uszonycsipkedő fajok",
+  "nagyméretű ragadozók"
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy 20–30 literes ívató akváriumot nagyon lágy (2–5 dGH), enyhén savas (pH 6.0–6.5) vízzel, alján finom levelű növénnyel (pl. jávai moha) vagy ikraráccsal.",
+  "A kiválasztott tenyészpárt vagy egy hímet két nősténnyel este helyezzük ki a gyengén megvilágított ívatóba.",
+  "A reggeli órákban a hím hevesen udvarol, az ikrák a finom növényzet közé szóródnak.",
+  "Az ívást követően a szülőket azonnal távolítsuk el, mert hajlamosak az ikrafalásra.",
+  "Az ikrák 24–36 órán belül kelnek ki; az elúszott ivadékokat papucsállatkával, majd frissen kelt artémiával tápláljuk."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, szemszínük feltűnő világító kék, a farokúszójuk középső sugarai meghosszabbodtak (háromágú farok). A nőstények zömökebbek, fakóbbak, szemszínük zöldes tónusú.",
+ "felismeres_jegyek": [
+  "Karakteres, háromágú farokúszó (a megnyúlt középső sugarak feketék)",
+  "A testen a kopoltyúfedőtől a farokig húzódó széles, fekete sáv",
+  "A hímek szeme ragyogó égszínkék, a nőstényeké sárgászöld",
+  "Zsírúszó hiánya (sok más pontylazaccal ellentétben nincs zsírúszójuk)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Inpaichthys kerri",
+   "magyar_nev": "Királylazac",
+   "kulonbseg": "Rendelkezik zsírúszóval, és a farokúszója egyszerű villás, nem háromágú."
+  },
+  {
+   "latin": "Nematobrycon lacortei",
+   "magyar_nev": "Szivárványos császárlazac",
+   "kulonbseg": "A hímek szeme vörös árnyalatú, és a test fekete sávja kevésbé éles lefutású."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór (Ichthyophthirius multifiliis)",
+  "úszórothadás",
+  "bársonybetegség (oodiniasis)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Sűrű növényzettel és sötét aljzattal berendezett akváriumban bontakoznak ki leginkább a csillogó színei.",
+  "Érdemes több nőstényt tartani egy hímre, így a hímek figyelme megoszlik, és a rivalizálás is békésebb mederben marad.",
+  "A tőzeges, huminsavakban gazdag víz kiemeli a szem és a pikkelyek kontrasztját."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27",
+ "magyar_nev_kuralt": true
+}
