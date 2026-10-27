@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-27",
-"darab": 40,
+"darab": 46,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -27,6 +27,34 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1000,
 "ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "aphyocharax-anisitsi",
+"tipus": "hal",
+"latin": "Aphyocharax anisitsi",
+"magyar_nev": "Vörösúszójú pontylazac",
+"egyeb_nevek": [
+"Vérfoltos pontylazac"
+],
+"regi_latin_nevek": [
+"Aphyocharax rubripinnis"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 18,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
 "ellenorzott": false
 },
 {
@@ -649,6 +677,33 @@
 "ellenorzott": false
 },
 {
+"id": "inpaichthys-kerri",
+"tipus": "hal",
+"latin": "Inpaichthys kerri",
+"magyar_nev": "Királylazac",
+"egyeb_nevek": [
+"Kék királylazac",
+"Kerr-lazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 500,
+"ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
 "id": "limia-melanogaster",
 "tipus": "hal",
 "latin": "Limia melanogaster",
@@ -732,6 +787,61 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 1000,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "moenkhausia-pittieri",
+"tipus": "hal",
+"latin": "Moenkhausia pittieri",
+"magyar_nev": "Gyémántlazac",
+"egyeb_nevek": [
+"Gyémántos tetszőpontylazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "moenkhausia-sanctaefilomenae",
+"tipus": "hal",
+"latin": "Moenkhausia sanctaefilomenae",
+"magyar_nev": "Vörösszemű pontylazac",
+"egyeb_nevek": [
+"Pirosszemű tetszőpontylazac",
+"Ollófarkú lazac"
+],
+"regi_latin_nevek": [
+"Tetragonopterus sanctaefilomenae"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 7.0,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
 "ellenorzott": false
 },
 {
@@ -1024,6 +1134,65 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 500,
 "ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "pristella-maxillaris",
+"tipus": "hal",
+"latin": "Pristella maxillaris",
+"magyar_nev": "Röntgenhal",
+"egyeb_nevek": [
+"Riddle-lazac",
+"X-ray tetra",
+"Röntgenlazac"
+],
+"regi_latin_nevek": [
+"Pristella riddlei"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 54,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 700,
+"ellenorzott": false
+},
+{
+"id": "thayeria-boehlkei",
+"tipus": "hal",
+"latin": "Thayeria boehlkei",
+"magyar_nev": "Pingvinhal (ferdén úszó pontylazac)",
+"egyeb_nevek": [
+"Feketesávos ferdénúszó lazac",
+"Böhlke-ferdénúszólazac"
+],
+"regi_latin_nevek": [
+"Thayeria obliqua (korábbi téves azonosítás)"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6.0,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 900,
 "ellenorzott": false
 },
 {

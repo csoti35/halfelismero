@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Inpaichthys kerri",
+ "id": "inpaichthys-kerri",
+ "tipus": "hal",
+ "latin": "Inpaichthys kerri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Királylazac",
+ "egyeb_nevek": [
+  "Kék királylazac",
+  "Kerr-lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Brazília, Aripuanã folyó medencéje)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés csapathal. A hímek látványosan, de sérülésmentesen rivalizálnak egymással a hierarchia felállításáért; más fajokat békén hagynak.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; finom lemezes eleséget, minőségi mikrogravitációs szemcséket, valamint élő/fagyasztott artémiát, cyclopsot és szúnyoglárvát igényel.",
+ "tarsithato": [
+  "Dél-amerikai törpesügérek (pl. Apistogramma fajok)",
+  "más kistestű pontylazacok",
+  "páncélosharcsák és Otocinclusok."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív halak",
+  "valamint kemény",
+  "lúgos vizet igénylő afrikai sügérek."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Állítsunk fel egy 15-20 literes ívató tartályt nagyon lágy (GH 2-4), tőzeggel enyhén savanyított vízzel (pH 6.0-6.5).",
+  "Helyezzünk az aljzatra ikrarácsot vagy sűrű növénycsomókat (pl. jávai mohát).",
+  "Tegyünk át egy ívásra kész párt vagy egy kisebb csapatot (2 hím, 3 nőstény) este.",
+  "A reggeli órákban zajló ikrázás után a szülőket haladéktalanul emeljük ki, mert mohó ikrafalók.",
+  "Az ikrák fényérzékenyek, sötétítsük el a tartályt; a kikelő lárvák elúszása után mikróférgekkel és friss artémiával neveljük őket."
+ ],
+ "ivari_kulonbseg": "A hímek szembetűnő kékes-ibolya vagy lilás fényben ragyognak és zsírúszójuk kék; a nőstények sárgásbarna alapszínűek, teltebb testűek és zsírúszójuk vörösesbarna.",
+ "felismeres_jegyek": [
+  "A kopoltyútól a farokúszó közepéig futó vastag, sötétkék-fekete hosszanti csík.",
+  "A hímek felső testfelén ragyogó ibolyakék irizálás látható.",
+  "Jól látható zsírúszóval rendelkezik a hátúszó és a farokúszó között.",
+  "A nőstények alapszíne jóval tompább, sárgás-bézses árnyalatú."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nematobrycon palmeri",
+   "magyar_nev": "Császárlazac",
+   "kulonbseg": "Nincs zsírúszója, a hímek farokúszójának közepe háromágú szigonyt formáz, és szemei világoskékek."
+  },
+  {
+   "latin": "Hyphessobrycon herbertaxelrodi",
+   "magyar_nev": "Fekete neonhal",
+   "kulonbseg": "A sötét sáv felett egy élénk neonzöld-fehér csík húzódik, szeme felső fele pedig piros."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium (bársonybetegség)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1000,
+ "tippek": [
+  "Tőzegkivonattal kezelt, enyhén teaszínű vízben és tompított világítás mellett mutatja a legkáprázatosabb kék színét.",
+  "Tartsunk több hímet is a csapatban, mert az egymás közötti ártalmatlan pózolás a faj legszebb viselkedési formája.",
+  "A lágy és enyhén savas vizet meghálálja, kemény vízben a színei kifakulhatnak."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

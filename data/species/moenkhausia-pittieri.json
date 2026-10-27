@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Moenkhausia pittieri",
+ "id": "moenkhausia-pittieri",
+ "tipus": "hal",
+ "latin": "Moenkhausia pittieri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Gyémántlazac",
+ "egyeb_nevek": [
+  "Gyémántos tetszőpontylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Venezuela: Valencia-tó és annak vízgyűjtő területe)",
+ "max_meret_cm": 6.0,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, látványos rajhal. A hímek gyakran rivalizálnak egymással kiterjesztett úszókkal pompázva, de soha nem tesznek kárt egymásban.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 14,
+ "taplalek": "Mindenevő; száraz lemezes eleségeket, granulátumokat, valamint fagyasztott és élő artémiát, vízibolhát, szúnyoglárvát mohón fogyaszt.",
+ "tarsithato": [
+  "Békés törpesügérekkel (pl. Apistogramma fajok)",
+  "más pontylazacokkal",
+  "páncélosharcsákkal",
+  "békés márnákkal és razbórákkal."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy ragadozó sügérekkel",
+  "amelyek tápláléknak tekinthetik."
+ ],
+ "szaporodas_mod": "ikraszoro",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy 20-30 literes ívató akváriumot lágy (2-4 dGH), enyhén savas (pH 6.2-6.8) vízzel, 26-27 °C-on.",
+  "Helyezzünk be finomlevelű vízinövényeket (pl. forrásmoha vagy perui süllőhínár) és ikrarácsot.",
+  "Válasszunk ki egy testes nőstényt és egy hosszú úszójú, domináns hímet, majd előző este helyezzük ki őket.",
+  "Az ívás a kora reggeli órákban történik, a szülők hevesen kergetőznek, miközben az ikrák a növényzet közé hullanak.",
+  "A felnőtt halakat ívás után azonnal vegyük ki, mivel mohón fogyasztják saját ikráikat.",
+  "Az ivadékok 30-36 óra alatt kelnek ki; elúszásuk után papucsállatkával és frissen kelt artémia naupliuszokkal etethetők."
+ ],
+ "ivari_kulonbseg": "A felnőtt hímek hátúszója és farok alatti úszója látványosan meghosszabbodott, sarló alakú, pikkelyeik szikrázóbbak; a nőstények teltebbek, úszóik rövidebbek és kerekítettebbek.",
+ "felismeres_jegyek": [
+  "Testét borító apró, irizáló, ezüstös-aranyos és kékesen csillogó fényfoltok, melyek gyémánthoz hasonlóan verik vissza a fényt.",
+  "A hímeknél nagyméretű, hosszan megnyúlt, sötéten füstös szegélyű hátúszó.",
+  "A szem felső része jellegzetes narancsvörös árnyalatú.",
+  "Magas, rombusz formájú, oldalról erősen lapított test."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon columbianus",
+   "magyar_nev": "Kolumbiai lazac",
+   "kulonbseg": "Teste egységesen kékesszürke, úszói élénkvörösek, hiányzik róla a gyémántos pikkelycsillogás."
+  },
+  {
+   "latin": "Hyphessobrycon pyrrhonotus",
+   "magyar_nev": "Lángvöröshátú pontylazac",
+   "kulonbseg": "Háta lángvörös sávot visel, testalkata nyújtottabb, és nincs megnyúlt sarlós hátúszója."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bakteriális úszórothadás",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Sötét színű talaj és háttér, valamint tompított világítás mellett mutatja meg legszebb fémes ragyogását.",
+  "A fiatal, boltban kapható példányok gyakran fakók és szürkék; felnőve, jó körülmények között válnak igazi ékszerré.",
+  "A lebegő növények (pl. békalencse, Salvinia) által vetett szórt fény növeli biztonságérzetüket."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

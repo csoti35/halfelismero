@@ -1,0 +1,94 @@
+{
+ "lista_nev": "Thayeria boehlkei",
+ "id": "thayeria-boehlkei",
+ "tipus": "hal",
+ "latin": "Thayeria boehlkei",
+ "regi_latin_nevek": [
+  "Thayeria obliqua (korábbi téves azonosítás)"
+ ],
+ "magyar_nev": "Pingvinhal (ferdén úszó pontylazac)",
+ "egyeb_nevek": [
+  "Feketesávos ferdénúszó lazac",
+  "Böhlke-ferdénúszólazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazónia: felső Amazonas és Araguaia folyórendszere Brazíliában és Peruban)",
+ "max_meret_cm": 6.0,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, szelíd és társas rajhal. Sajátos, ferde (fejjel 30-45 fokban felfelé néző) testtartásban úszik és lebeg a vízben.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; legszívesebben a vízfelszín közeléből táplálkozik lemezes eleséggel, apró granulátumokkal, élő vagy fagyasztott ciklopsszal, szúnyoglárvával és artémiával.",
+ "tarsithato": [
+  "Más békés pontylazacokkal",
+  "páncélosharcsákkal",
+  "törpesügérekkel",
+  "loricariidákkal",
+  "békés elevenszülőkkel."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halakkal",
+  "vagy olyan fajokkal",
+  "amelyek stresszelik folyamatos zaklatással."
+ ],
+ "szaporodas_mod": "ikraszoro",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Állítsunk fel egy 25-30 literes ívató tartályt nagyon lágy (GH 2-4), enyhén savas (pH 6.0-6.5) vízzel.",
+  "Aljzatként ikrarácsot vagy sűrű perlonvattát/finom növényzetet alkalmazzunk.",
+  "A jól tartott párt este helyezzük át, fokozatosan tompított fénynél.",
+  "A kora reggeli ívás során a nőstény akár 500-1000 rendkívül apró, ragadós ikrát szór el.",
+  "Ívás után a szülőket haladéktalanul el kell távolítani, és az akváriumot teljesen el kell sötétíteni, mivel az ikrák és a kikelt lárvák fényérzékenyek.",
+  "A lárvák mintegy 20-24 óra alatt kibújnak, elúszás után papucsállatkával vagy nagyon finom rotatóriával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A nőstények ívás idején észrevehetően teltebbek és gömbölyűbb hasvonalúak, a hímek karcsúbbak és kecsesebbek.",
+ "felismeres_jegyek": [
+  "A kopoltyúfedőtől induló, a testen végighúzódó és a farokúszó alsó lebenyébe mélyen befutó vastag, fekete hosszanti sáv.",
+  "A fekete sáv felett egy finom, csillogó aranysárga vagy zöldes vonal húzódik.",
+  "Aszimmetrikus farokúszó-mintázat: az alsó lebeny fekete sávos, míg a felső teljesen átlátszó.",
+  "Jellegzetes ferde, 30-45 fokban felfelé rézsútos úszási és lebegési póz."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Thayeria obliqua",
+   "magyar_nev": "Ferde lazac",
+   "kulonbseg": "A fekete sáv nála csak a hátúszó alól indul és ível le a farokúszóba, nem húzódik végig az egész testen."
+  },
+  {
+   "latin": "Nannostomus eques",
+   "magyar_nev": "Díszes törpelazac",
+   "kulonbseg": "Hasonlóan ferdén lebeg, de ceruzalazac-alkatú, vékonyabb testű és eltérő csíkozású faj."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Piscinoodinium)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Gondoskodjunk jól záródó akváriumfedélről, mert ijedtség esetén könnyen kiugorhat a vízfelszín közeléből.",
+  "Legalább 6-10 egyedet szerezzünk be; magányosan vagy párban tartva félénkké válik és elveszti jellegzetes csapathal-viselkedését.",
+  "Felszíni úszónövényekkel árnyékolt részek alatt sokkal bátrabban mozog és élénkebb a viselkedése."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27",
+ "magyar_nev_kuralt": true
+}

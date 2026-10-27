@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Aphyocharax anisitsi",
+ "id": "aphyocharax-anisitsi",
+ "tipus": "hal",
+ "latin": "Aphyocharax anisitsi",
+ "regi_latin_nevek": [
+  "Aphyocharax rubripinnis"
+ ],
+ "magyar_nev": "Vörösúszójú pontylazac",
+ "egyeb_nevek": [
+  "Vérfoltos pontylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Paraná medence, Paraguay, Argentína)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Mozgékony, szívós csapathal. Békés, de túl kis csapatban vagy ingerszegény környezetben hajlamos lehet megcsipkedni a lassú, fátyolos úszójú halak uszonyait.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; a felszínről és vízközről kapkodja el a lemezes eleségeket, de kiemelten szereti az élő vagy fagyasztott szúnyoglárvát és artémiát.",
+ "tarsithato": [
+  "Fürgébb pontylazacok",
+  "dániók",
+  "díszmárnák",
+  "páncélosharcsák és algázók."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú",
+  "lassú halak (pl. sziámi harcoshal",
+  "guppi)",
+  "valamint nagyméretű ragadozók."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy 20 literes ívató medencét ikraráccsal és finom növényzettel (pl. forrásmoha).",
+  "Lágy-közepes vízkeménység és 24-25 °C-os hőmérséklet mellett helyezzünk ki egy csapatot (több hímmel).",
+  "Az ívás a kora reggeli órákban, heves udvarlással zajlik, a halak gyakran felugranak a vízből, ezért az akváriumot jól le kell fedni.",
+  "Az ikrázást követően távolítsuk el a szülőket a tartályból.",
+  "Az ikrák 24-30 órán belül kelnek ki, elúszás után papucsállatkával és frissen kelt artémia naupliuszokkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek farok alatti úszóján apró, szabad szemmel nehezen látható kapaszkodó horgok találhatók, színük intenzívebb vérvörös, míg a nőstények hasa kerekdedebb és vaskosabb.",
+ "felismeres_jegyek": [
+  "Karcsú, enyhén lapított, ezüstösen csillogó zöldesfehér test.",
+  "Élénk vérvörös szín a farokúszón, a farok alatti úszón és a hátúszó tövén.",
+  "Az úszók hegye finom fehér szegélyt visel.",
+  "Felfelé irányuló, felső állású szájnyílás."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Prionobrama filigera",
+   "magyar_nev": "Üveglazac",
+   "kulonbseg": "Teste jóval áttetszőbb és üvegszerűbb, a piros szín kizárólag a farokúszó tövére korlátozódik."
+  },
+  {
+   "latin": "Hyphessobrycon flammeus",
+   "magyar_nev": "Lángvörös pontylazac",
+   "kulonbseg": "Magasabb, zömökebb testalkatú, és a törzs hátsó fele is vöröses színű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Szokatlanul jól tűri a hűvösebb vizet (akár 18-20 °C), ezért fűtetlen szobai akváriumban is biztonsággal tartható.",
+  "Az akváriumot gondosan le kell fedni, mert ijedtség esetén vagy etetéskor ugrálhat.",
+  "Tartsuk legalább 8 fős csapatban, így elkerülhető a más halakkal szembeni esetleges csipkelődés."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27"
+}

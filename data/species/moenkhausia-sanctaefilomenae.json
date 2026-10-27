@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Moenkhausia sanctaefilomenae",
+ "id": "moenkhausia-sanctaefilomenae",
+ "tipus": "hal",
+ "latin": "Moenkhausia sanctaefilomenae",
+ "regi_latin_nevek": [
+  "Tetragonopterus sanctaefilomenae"
+ ],
+ "magyar_nev": "Vörösszemű pontylazac",
+ "egyeb_nevek": [
+  "Pirosszemű tetszőpontylazac",
+  "Ollófarkú lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Paraguay, Paraná, Guaporé és Parnaíba folyórendszerei)",
+ "max_meret_cm": 7.0,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Aktív, mozgékony csapathal. Kis létszámú csoportban tartva vagy szűk helyen hajlamos lehet a lassú, hosszú úszójú fajok megcsipkedésére, de kellő méretű rajban teljesen békés.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő. Szívesen fogyasztja a száraz lemezes és granulált tápokat, fagyasztott és élő szúnyoglárvát, artémiát, vízibolhát, de a növényi kiegészítést is igényli.",
+ "tarsithato": [
+  "Más mozgékony pontylazacokkal",
+  "márványrákokkal és garnélákkal (kivéve apró ivadékok)",
+  "páncélosharcsákkal",
+  "törpesügérekkel",
+  "loricariidákkal."
+ ],
+ "kerulendo": [
+  "Lassú mozgású vagy fátyolos úszójú halak (pl. sziámi harcoshal",
+  "fátyolfarkú guppi)",
+  "mert kísértésbe eshet az úszók csipkedésére."
+ ],
+ "szaporodas_mod": "ikraszoro",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Rendezzünk be egy 20-30 literes ívató akváriumot lágy (3-6 dGH), enyhén savas vagy semleges (pH 6.5-7.0) vízzel.",
+  "Az aljzatra tegyünk ikrarácsot vagy vastag réteg jávai mohát, mivel a szülők mohón falják a saját ikráikat.",
+  "Válasszunk ki egy ikrával teli nőstényt és egy élénk hímet, majd este helyezzük át őket az ívatóba.",
+  "A reggeli órákban lezajló heves udvarlás után a nőstény több száz ragadós ikrát szór el a növényzetre.",
+  "Az ívást követően a szülőket azonnal távolítsuk el, és sötétítsük el a medencét az ikrák védelmében.",
+  "A lárvák 24-36 óra alatt kelnek ki; elúszásuk után papucsállatkával és frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek, teltebb hasvonalúak és némileg nagyobbak, míg a hímek karcsúbbak és színeik némileg élénkebbek.",
+ "felismeres_jegyek": [
+  "A szem felső felén látható ragyogó, élénk rubinvörös folt.",
+  "A farokúszó tövén elhelyezkedő széles, mélyfekete függőleges sáv, amelyet előtte egy fehér vagy világossárga zóna határol.",
+  "Ezüstös pikkelyek sötétebb szegéllyel, finom hálószerű mintázatot alkotva a testen.",
+  "Magas hátú, oldalról erősen lapított testfelépítés."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus ocellifer",
+   "magyar_nev": "Parázsszemű pontylazac",
+   "kulonbseg": "Kisebb termetű, a hátúszó alatt a vállán is világító foltot visel, és teste jóval áttetszőbb."
+  },
+  {
+   "latin": "Moenkhausia oligolepis",
+   "magyar_nev": "Nagy pikkelyű tetszőpontylazac",
+   "kulonbseg": "Nagyobbra növő faj, pikkelymintázata hangsúlyosabb, a szeme kevésbé élénkvörös."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Úszórothadás",
+  "Bársonybetegség (Piscinoodinium)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Mindenképpen legalább 6-8 egyedből álló rajban tartsuk a fajon belüli rangsor és a nyugodt viselkedés érdekében.",
+  "Nagy úszóteret hagyjunk a medence közepén, a széleket dúsan ültessük be háttérnövényekkel.",
+  "Kezdők számára az egyik legellenállóbb, legkönnyebben tartható pontylazacfaj."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Pristella maxillaris",
+ "id": "pristella-maxillaris",
+ "tipus": "hal",
+ "latin": "Pristella maxillaris",
+ "regi_latin_nevek": [
+  "Pristella riddlei"
+ ],
+ "magyar_nev": "Röntgenhal",
+ "egyeb_nevek": [
+  "Riddle-lazac",
+  "X-ray tetra",
+  "Röntgenlazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Venezuela, Guyana, Francia Guyana, Amazonas alsó medencéje)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, aktív és társas rajhal. Nem bántja a többi akváriumlakót, és nem csipkedi más fajok uszonyait sem.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 54,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.8,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; a jó minőségű száraz lemezes és szemcsés tápok mellett szívesen fogyasztja az apró élő és fagyasztott eleségeket (artémia, daphnia, cyclops).",
+ "tarsithato": [
+  "Más kistestű békés pontylazacok",
+  "dániók",
+  "törperasbórák",
+  "páncélosharcsák",
+  "békés törpesügérek és garnélák."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy ragadozó halak",
+  "amelyek tápláléknak tekinthetik."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Rendezzünk be egy 15-20 literes ívató akváriumot finom levelű növényekkel (pl. jávai moha) és ikraráccsal.",
+  "A víz legyen lágy vagy közepesen lágy (GH 4-8), semleges vagy enyhén savas (pH 6.5-7.0), a hőmérséklet 26 °C.",
+  "Helyezzünk át egy jól táplált párt az esti órákban.",
+  "A másnapi reggeli ívás után a szülőket azonnal távolítsuk el, mert ikrafalók.",
+  "Az ikrák 24-36 órán belül kikelnek, az elúszó kishalakat papucsállatkával, majd frissen kelt artémiával indítsuk."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, lekerekítettebb hasvonalúak, különösen ikrásodás idején; a hímek karcsúbbak és úszóik kissé élénkebb színezetűek.",
+ "felismeres_jegyek": [
+  "Jellegzetes áttetsző, üvegszerű test, amelyen átsejlik a gerincoszlop és a belső szervek.",
+  "A hátúszón és a farok alatti úszón feltűnő sárga-fekete-fehér sávozás látható.",
+  "A farokúszó finom vöröses vagy rózsaszínes árnyalatú.",
+  "Kopoltyúfedője és hasi része ezüstösen csillog."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hyphessobrycon bentosi",
+   "magyar_nev": "Foltosúszójú pontylazac",
+   "kulonbseg": "Teste nem teljesen áttetsző, inkább rózsaszínes alapszínű, és hiányzik a hátúszóról a sárga sáv."
+  },
+  {
+   "latin": "Gymnocorymbus ternetzi",
+   "magyar_nev": "Fekete tetra",
+   "kulonbseg": "Jóval magasabb hátú, korong alakú test, sötét függőleges keresztcsíkokkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 700,
+ "tippek": [
+  "Sötét színű aljzat és dús növényzet mellett sokkal élénkebb színeket és kontrasztot mutat.",
+  "Kiválóan viseli a keményebb csapvizet is, így az egyik legellenállóbb pontylazac kezdők számára.",
+  "Legalább 8-10 egyedet tartsunk együtt, hogy bátran és rajban mozogjon a vízközt."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-27",
+ "magyar_nev_kuralt": true
+}
