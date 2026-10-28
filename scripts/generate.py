@@ -25,7 +25,9 @@ NAMES = os.path.join(ROOT, "scripts", "magyar_nevek.txt")
 OUT = os.path.join(ROOT, "data", "species")
 INDEX = os.path.join(ROOT, "data", "species.json")
 BATCH = 3
-MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "25"))
+MAX_REQUESTS = int(os.environ.get("MAX_REQUESTS", "40"))
+TIME_BUDGET = int(os.environ.get("TIME_BUDGET", "1800"))  # mp; utána mentünk, hogy a futás ne vesszen el
+SINGLE = set()
 TODAY = datetime.date.today().isoformat()
 
 FIELDS_HAL = """"id","tipus","latin","regi_latin_nevek","magyar_nev","egyeb_nevek","magyar_nev_bizonytalan","csalad","csoport","szarmazas",
@@ -114,13 +116,15 @@ class QuotaGone(Exception):
 def _gemini(prompt, key, label):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
-    model = "gemini-flash-latest"
+    # Modellenként külön napi keret van: ha az egyik elfogy, a következővel folytatjuk.
+    models = ["gemini-flash-latest", "gemini-2.5-flash"]
+    model = models.pop(0)
     busy = 0
     while True:
         req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                                      data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
         try:
-            d = json.load(urllib.request.urlopen(req, timeout=480))
+            d = json.load(urllib.request.urlopen(req, timeout=300))
             return parse_array(d["candidates"][0]["content"]["parts"][0]["text"]), f"Google {model} ({label})"
         except urllib.error.HTTPError as e:
             msg = e.read().decode()[:200]
@@ -130,6 +134,9 @@ def _gemini(prompt, key, label):
                 time.sleep(30 * busy)
                 continue
             print(f"::warning::Gemini {model} [{label}]: HTTP {e.code} {msg}")
+            if (e.code in (429, 404) or e.code in (500, 503, 504)) and models:
+                model = models.pop(0); busy = 0
+                continue
             if e.code == 429 or e.code in (500, 503, 504):
                 raise QuotaGone(label)
             raise
@@ -164,8 +171,10 @@ def main():
     # Először a saját adatbázis-kulcs; a fő kulcs csak éjszaka (USE_MAIN=1). A Groq adatai pontatlanok voltak.
     providers = [gemini_db] + ([gemini] if USE_MAIN else [])
     requests_done = 0
-    while todo and requests_done < MAX_REQUESTS and providers:
-        batch, todo = todo[:BATCH], todo[BATCH:]
+    started = time.time()
+    while todo and requests_done < MAX_REQUESTS and providers and time.time() - started < TIME_BUDGET:
+        size = 1 if todo[0] in SINGLE else BATCH
+        batch, todo = todo[:size], todo[size:]
         prompt = PROMPT.format(fajok="\n".join(f"{t};{l}" for t, l in batch), mezok_hal=FIELDS_HAL, mezok_noveny=FIELDS_NOVENY)
         try:
             data, source = providers[0](prompt)
@@ -175,8 +184,14 @@ def main():
             todo = batch + todo
             continue
         except Exception as e:
-            print("::warning::Hiba, kihagyva a következő futásig:", batch, str(e)[:200])
             requests_done += 1
+            if len(batch) > 1:
+                # A hosszú válasz megszakadt: a csomagot egyenként próbáljuk újra.
+                print("Csomag szétbontva:", batch, str(e)[:120])
+                SINGLE.update(batch)
+                todo = batch + todo
+                continue
+            print("::warning::Hiba, kihagyva a következő futásig:", batch, str(e)[:200])
             continue
         requests_done += 1
         by_name = {}
