@@ -115,9 +115,10 @@ class QuotaGone(Exception):
 
 def _gemini(prompt, key, label):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
-                       "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
+                       "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json",
+                                            "thinkingConfig": {"thinkingLevel": "low"}}}).encode()
     # Modellenként külön napi keret van: ha az egyik elfogy, a következővel folytatjuk.
-    models = ["gemini-flash-latest", "gemini-2.5-flash"]
+    models = ["gemini-flash-latest", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.5-flash", "gemini-3-flash-preview"]
     model = models.pop(0)
     busy = 0
     while True:
