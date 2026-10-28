@@ -1,0 +1,95 @@
+{
+ "lista_nev": "Gasteropelecus sternicla",
+ "id": "gasteropelecus-sternicla",
+ "tipus": "hal",
+ "latin": "Gasteropelecus sternicla",
+ "regi_latin_nevek": [
+  "Salmo sternicla"
+ ],
+ "magyar_nev": "Ezüst baltahal",
+ "egyeb_nevek": [
+  "Közönséges baltahasú lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gasteropelecidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Guyana, Suriname, Amazonas-medence)",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, felszínközelben tartózkodó csapathal. Megriadva képes messzire kiugrani a vízből.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": [
+  "lebegő lemezes tápok",
+  "szárnyatlan muslica",
+  "fagyasztott szúnyoglárva",
+  "apró rovarok"
+ ],
+ "tarsithato": [
+  "középső zónában úszó pontylazacok",
+  "Corydoras fajok",
+  "Loricariidae algázók",
+  "békés törpesügérek"
+ ],
+ "kerulendo": [
+  "ugrálásra ingerlő gyors és zaklató halak",
+  "nagytestű ragadozó sügérek",
+  "felszínt uraló agresszív halfajok"
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy (2-5 dGH), enyhén savas (pH 6.0-6.5) víz biztosítása tompított fénnyel.",
+  "A tenyészállatok etetése élő rovarokkal és fekete szúnyoglárvával.",
+  "Lebegő növényszálak közé szórják ikráikat a kora reggeli órákban.",
+  "Az ívás végeztével a szülőket haladéktalanul el kell távolítani.",
+  "Az ikrák kb. 30-36 óra múlva kelnek, az ivadék kezdetben a legapróbb mikróeleséget igényli."
+ ],
+ "ivari_kulonbseg": "A hímek és nőstények színezete azonos, de felülről nézve az ikrával teli nőstények láthatóan gömbölydedebbek.",
+ "felismeres_jegyek": [
+  "Karakteres fejsze formájú, mély mellkas",
+  "Fémesen csillogó, egyszínű ezüst pikkelyzet",
+  "A kopoltyúfedőtől a faroktőig finom, sötét vagy aranyos hosszanti csík húzódik",
+  "Nagy méretű, szárnyszerű mellúszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carnegiella strigata",
+   "magyar_nev": "Csíkos baltahasú lazac",
+   "kulonbseg": "Kisebb termetű, testén sötétbarna ferde márványmintázat látható."
+  },
+  {
+   "latin": "Thoracocharax securis",
+   "magyar_nev": "Óriás baltahasú lazac",
+   "kulonbseg": "Lényegesen nagyobb (akár 8-9 cm), mellkasa még mélyebben lefelé ívelt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór (Ichthyophthirius multifiliis)",
+  "kiugrás okozta mechanikai sérülések",
+  "hasvízkór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Feltétlenül szükséges a szorosan záródó fedőüveg, a kábelfuratokat is érdemes lezárni.",
+  "Kerüljük az erős vízfelszíni áramlást; a nyugodt, úszónövényekkel fedett részeket keresik.",
+  "A süllyedő granulátumokat figyelmen kívül hagyják, csak a víz színén lebegő táplálékot fogadják el."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

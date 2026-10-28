@@ -1,0 +1,98 @@
+{
+ "lista_nev": "Phenacogrammus interruptus",
+ "id": "phenacogrammus-interruptus",
+ "tipus": "hal",
+ "latin": "Phenacogrammus interruptus",
+ "regi_latin_nevek": [
+  "Micralestes interruptus",
+  "Alesthes interruptus"
+ ],
+ "magyar_nev": "Kongói pontylazac",
+ "egyeb_nevek": [
+  "Kék kongólazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alestidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Afrika (Kongó-medence)",
+ "max_meret_cm": 8.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, élénk mozgású csapathal. Tágas térben látványosan együtt úszik a raj.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": [
+  "minőségi lemezes táp",
+  "granulátumok",
+  "szúnyoglárva",
+  "artémia",
+  "növényi táplálékkiegészítés"
+ ],
+ "tarsithato": [
+  "békés pontylazacok",
+  "törpesügérek",
+  "páncélosharcsák",
+  "nyugodt díszmárnák",
+  "szivárványhalak"
+ ],
+ "kerulendo": [
+  "uszonycsipkedő halak (pl. szumátrai díszmárna)",
+  "agresszív sügérek",
+  "lassú, félénk kistestű nano halak"
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó, ikraszóró)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön 50-80 literes ívató akvárium lágy (3-6 dGH), enyhén savas (pH 6.5) vízzel és ikraráccsal.",
+  "Tenyészcsapat bőséges etetése élő eleségekkel (szúnyoglárva, artémia).",
+  "A hímek kora reggeli fényben hevesen hajtják a nőstényeket a finom levelű növények közé.",
+  "A nagy mennyiségű (akár 200-300) ikra lerakása után a szülőket vissza kell helyezni a főmedencébe.",
+  "Az ikrák kb. 6 nap után kelnek ki; a lárvák elúszásakor frissen kelt artémia naupliusszal etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, pompás szivárványos színűek, hátúszójuk megnyúlt, farokúszójuk közepén pedig tollas nyúlvány fejlődik. A nőstények kisebbek, tompább árnyalatúak és úszóik lekerekítettek.",
+ "felismeres_jegyek": [
+  "Nagy, irizáló pikkelyek réz, arany és kékes színjátszással",
+  "Hímek farokúszójának közepén jellegzetes feketés, tollas nyúlvány",
+  "Hímek hátúszójának középső sugarai lebegően megnyúltak",
+  "Nagy szem, melynek felső része fényes kékkel szegélyezett"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Phenacogrammus aurantiacus",
+   "magyar_nev": "Arany kongólazac",
+   "kulonbseg": "Alapszíne markánsan aranysárga/narancs, úszónyúlványai kevésbé hangsúlyosak."
+  },
+  {
+   "latin": "Alestopetersius caudalis",
+   "magyar_nev": "Sárgafarkú kongólazac",
+   "kulonbseg": "Kisebb termetű, úszói sárgásfehérek, hiányzik a hímek farokúszójának középső tollas nyúlványa."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "úszórothadás (rossz vízminőség esetén)",
+  "darakór",
+  "bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Hosszanti kiúszótérre van szükségük, mert gyors mozgású, aktív halak.",
+  "Sötét talaj és szórt világítás mellett válnak láthatóvá igazi szivárványos színeik.",
+  "Kerüljük az uszonycsipkedő fajokkal való társítást, mert a hímek pompás úszói könnyen megsérülnek."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

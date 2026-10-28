@@ -1,0 +1,95 @@
+{
+ "lista_nev": "Carnegiella strigata",
+ "id": "carnegiella-strigata",
+ "tipus": "hal",
+ "latin": "Carnegiella strigata",
+ "regi_latin_nevek": [
+  "Gasteropelecus strigatus"
+ ],
+ "magyar_nev": "Márványos baltahal",
+ "egyeb_nevek": [
+  "Márványozott baltahasú lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gasteropelecidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco vízrendszere)",
+ "max_meret_cm": 4.0,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, ijedős felszíni rajhal. Veszély esetén a vízfelszín fölé ugorva menekül.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": [
+  "szárnyatlan muslica",
+  "szúnyoglárva",
+  "artémia",
+  "lebegő lemezes tápok"
+ ],
+ "tarsithato": [
+  "békés pontylazacok",
+  "páncélosharcsák",
+  "Otocinclus fajok",
+  "békés törpesügérek"
+ ],
+ "kerulendo": [
+  "agresszív sügérek",
+  "élénk felszíni úszók",
+  "uszonycsipkedő fajok"
+ ],
+ "szaporodas_mod": "ikrázó (szabadon ikrázó, növényzet közé)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy (1-4 dGH), savas (pH 5.5-6.2), tőzeggel szűrt víz és sűrű úszónövényzet beállítása.",
+  "A tenyészcsapat kondicionálása apró élő eleséggel (főleg muslica és szúnyoglárva).",
+  "Az ívás a felszín közelében történik, az ikrák a növényzet gyökerei közé tapadnak.",
+  "Ívás után a szülőket azonnal távolítsuk el az ikrafalás megelőzése érdekében.",
+  "A kikelő lárvák kb. 36 óra múlva jelennek meg, indításuk papucsállatkával és finom kerekesférgekkel lehetséges."
+ ],
+ "ivari_kulonbseg": "A nőstények felülről nézve jóval teltebbek és szélesebbek a hasi részen, különösen ikrával telten.",
+ "felismeres_jegyek": [
+  "Mélyen ívelt, fejsze formájú mellkas és hasvonal",
+  "Hátvonala teljesen egyenes, a felszíni táplálkozáshoz idomult",
+  "Testét szabálytalan, ferde sötétbarna vagy fekete márványcsíkok díszítik",
+  "Hosszú, szárnyszerű mellúszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gasteropelecus sternicla",
+   "magyar_nev": "Ezüst baltahasú lazac",
+   "kulonbseg": "Nagyobb testű, egyszínű ezüstös pikkelyzetű, hiányzik a sötét márványozott csíkozás."
+  },
+  {
+   "latin": "Carnegiella myersi",
+   "magyar_nev": "Myers baltahasú lazaca",
+   "kulonbseg": "Kisebb testméretű, mintázata jóval halványabb és finomabb pontokból áll."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "darakór (Ichthyophthirius multifiliis)",
+  "bársonybetegség (Oodinium)",
+  "ugrás okozta mechanikai sérülések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Az akváriumot résmentesen le kell fedni, mert a legkisebb nyíláson is képesek kiugrani.",
+  "Lebegő növényekkel (pl. békatutaj, rucaöröm) tompítsuk a világítást a stresszmentes környezet érdekében.",
+  "Kizárólag a felszínről táplálkoznak; az aljzatra hulló eleséget nem veszik fel."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,90 @@
+{
+ "id": "nannostomus-eques",
+ "tipus": "hal",
+ "lista_nev": "Nannostomus eques",
+ "latin": "Nannostomus eques",
+ "regi_latin_nevek": [
+  "Poecilobrycon eques"
+ ],
+ "magyar_nev": "Lovagceruzahal",
+ "egyeb_nevek": [
+  "Ferdeúszó ceruzahal",
+  "Ferde ceruzahal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lebiasinidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas- és Rio Negro medence)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, kissé visszahúzódó csapathal. Sajátos, 45 fokos szögben megdőlt, fejjel felfelé tartott pózban úszik a felszín közelében.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.2,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Mindenevő, felszíni táplálkozó; fagyasztott és élő apró rovarlárvák, cyclops, vízibolha, lebegő száraz eleségek és pelyhek.",
+ "tarsithato": [
+  "Dél-amerikai törpesügérek (pl. Apistogramma fajok)",
+  "Páncélosharcsák (Corydoras)",
+  "Békés felső- és középszinten úszó nanohalak",
+  "Otocinclus fajok"
+ ],
+ "kerulendo": [
+  "Gyors, tolakodó felszíni fajok (pl. felnőtt dániók, baltahasúak)",
+  "Nagy és agresszív halak",
+  "Erős vízáramlást kedvelő hegyi fajok"
+ ],
+ "szaporodas_mod": "ikraszázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy (1–3 dGH), savas (pH 5,5–6,2), csersavakban gazdag víz beállítása sötétített ívató medencében.",
+  "Felszínen lebegő, finom gyökerű vagy levelű növények elhelyezése (pl. Ceratopteris vagy Salvinia).",
+  "A tenyészállatokat bőséges élő táplálékkal készítjük fel.",
+  "Az ívás a lebegő növények leveleinek alsó felületére történik, sajátos ferde pózban.",
+  "Ikrarakás után a szülőket távolítsuk el; az ikrák fényérzékenyek, az ivadékok mikroszkopikus táplálékkal indíthatók."
+ ],
+ "ivari_kulonbseg": "A nőstények kerekdedebb testalkatúak és teltebbek, különösen ívás idején; a hímek karcsúbbak, farok alatti úszójuk szegélye fehéres-opálos csillogású.",
+ "felismeres_jegyek": [
+  "Jellegzetes, állandó, 45 fokos ferde testtartás pihenés és úszás közben.",
+  "Hosszanti, sötétbarna-fekete sáv a testen, amely belefut a farokúszó alsó lebenyébe.",
+  "Aszimmetrikusan színezett farokúszó: az alsó lebeny sötét pigmentált, míg a felső átlátszó.",
+  "Hosszúkás, lándzsa alakú test és apró, enyhén felső állású száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nannostomus unifasciatus",
+   "magyar_nev": "Egysávos ceruzahal",
+   "kulonbseg": "Szintén ferdén úszik, de a farokúszó alsó lebenye kevésbé kontrasztosan sötét, és teste még nyújtottabb."
+  },
+  {
+   "latin": "Thayeria boehlkei",
+   "magyar_nev": "Ferdeúszó lazac",
+   "kulonbseg": "Magasabb, robusztusabb testfelépítésű, nem karcsú ceruzahal, és fekete sávja lefelé ível a farokúszóba."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bársonybetegség (oodiniasis)",
+  "Bakteriális uszonyrothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Lebegő növényzettel tompítsuk a világítást, mert a nyílt felszínen félénk és stresszes lesz.",
+  "Gyenge vízáramlást biztosítsunk számára, mivel nem bírja az erős sodrást.",
+  "Mivel felülről táplálkozik, lassan süllyedő vagy víztetőn úszó apró eleséget kínáljunk."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

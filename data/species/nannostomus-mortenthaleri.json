@@ -1,0 +1,90 @@
+{
+ "id": "nannostomus-mortenthaleri",
+ "tipus": "hal",
+ "lista_nev": "Nannostomus mortenthaleri",
+ "latin": "Nannostomus mortenthaleri",
+ "regi_latin_nevek": [
+  "Nannostomus marginatus mortenthaleri"
+ ],
+ "magyar_nev": "Korallvörös ceruzahal",
+ "egyeb_nevek": [
+  "Vörös ceruzahal",
+  "Mortenthaler ceruzahala"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lebiasinidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Peru, Rio Nanay medence)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Más békés fajokkal jól összefér, de a hímek egymás között szigorúan territoriálisak és hevesen védelmezik revírjüket. Csak dúsan növényesített akváriumban tartható csapatban.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 6,
+ "taplalek": "Főként apró élő és fagyasztott eleségek (artémia naupliusz, cyclops, banánféreg), valamint prémium minőségű mikrogranulátumok.",
+ "tarsithato": [
+  "Törpe páncélosharcsák (Corydoras habrosus, pygmaeus)",
+  "Békés dél-amerikai törpesügérek (Apistogramma fajok)",
+  "Kistestű békés pontylazacok (pl. Paracheirodon simulans)",
+  "Otocinclus fajok"
+ ],
+ "kerulendo": [
+  "Más hasonló, kis életterű domináns ceruzahalak",
+  "Agresszív és túlzottan aktív márnák",
+  "Nagytestű halak, amelyek tápláléknak nézhetik"
+ ],
+ "szaporodas_mod": "ikraszázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (<3 dGH), savas (pH 5,2–6,0), tőzeggel barnított vizű tenyészmedence előkészítése.",
+  "Sűrű növénycsomók (pl. jávai moha) és ikravédő háló elhelyezése.",
+  "Egy hím és két nőstény, vagy egy szelektált tenyészpár behelyezése minőségi élő táplálás után.",
+  "Az ívást követően a szülőket haladéktalanul el kell távolítani a falánk ikrafogyasztás miatt.",
+  "A sötétben tartott ikrákból kibújó lárvákat szikzacskójuk felszívódása után infuzóriával és papucsállatkával kezdjük etetni."
+ ],
+ "ivari_kulonbseg": "A hímek egész teste vakító korallvörösben tündököl, és a hátúszó tövén egy tiszta fehér folt látható; a nőstények halványabbak, sárgás-rózsás árnyalatúak, és hasuk teltebb.",
+ "felismeres_jegyek": [
+  "Kompakt, törpe testalkat hegyes fejjel.",
+  "A kifejlett hímeken két sötét sáv között izzó korallvörös test- és úszószínezet.",
+  "Fehéres jelzés a hátúszó elején, amely a hímeknél különösen kontrasztos.",
+  "Éjszaka fakó, sávos álcaruhát vesz fel, a vörös szín nagyrészt visszahúzódik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nannostomus marginatus",
+   "magyar_nev": "Törpe ceruzahal",
+   "kulonbseg": "Alapszíne aranybarna, a vörös szín csak foltokban díszíti az úszókat és a test oldalát."
+  },
+  {
+   "latin": "Nannostomus rubrocaudatus",
+   "magyar_nev": "Lila ceruzahal",
+   "kulonbseg": "A hímeknél a vörös és lila árnyalatok főleg a test hátsó felére koncentrálódnak, a fej felé ezüstösebb a színezet."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (különösen érzékeny rá)",
+  "Bársonybetegség (Oodinium)",
+  "Úszósérülésekből fakadó gombásodás a hímek harcai után"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Csapatban mindig tartsunk több nőstényt, mint hímet a területvédelmi stressz enyhítésére.",
+  "Gyökerekkel, fadarabokkal és sűrű növényzettel osszuk fel az akváriumot több különálló revírre.",
+  "Lágy, savas, huminsavakban gazdag víz elengedhetetlen ragyogó színeik megtartásához."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

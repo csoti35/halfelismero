@@ -1,6 +1,6 @@
 {
-"frissitve": "2026-10-27",
-"darab": 55,
+"frissitve": "2026-10-28",
+"darab": 61,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -142,6 +142,34 @@
 "ellenorzott": false
 },
 {
+"id": "carnegiella-strigata",
+"tipus": "hal",
+"latin": "Carnegiella strigata",
+"magyar_nev": "Márványos baltahal",
+"egyeb_nevek": [
+"Márványozott baltahasú lazac"
+],
+"regi_latin_nevek": [
+"Gasteropelecus strigatus"
+],
+"csalad": "Gasteropelecidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.0,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "copella-arnoldi",
 "tipus": "hal",
 "latin": "Copella arnoldi",
@@ -227,6 +255,34 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 500,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "gasteropelecus-sternicla",
+"tipus": "hal",
+"latin": "Gasteropelecus sternicla",
+"magyar_nev": "Ezüst baltahal",
+"egyeb_nevek": [
+"Közönséges baltahasú lazac"
+],
+"regi_latin_nevek": [
+"Salmo sternicla"
+],
+"csalad": "Gasteropelecidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
 "ellenorzott": false
 },
 {
@@ -1044,6 +1100,91 @@
 "ellenorzott": false
 },
 {
+"id": "nannostomus-eques",
+"tipus": "hal",
+"latin": "Nannostomus eques",
+"magyar_nev": "Lovagceruzahal",
+"egyeb_nevek": [
+"Ferdeúszó ceruzahal",
+"Ferde ceruzahal"
+],
+"regi_latin_nevek": [
+"Poecilobrycon eques"
+],
+"csalad": "Lebiasinidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.2,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 900,
+"ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "nannostomus-marginatus",
+"tipus": "hal",
+"latin": "Nannostomus marginatus",
+"magyar_nev": "Törpe ceruzahal",
+"egyeb_nevek": [
+"Díszes törpeceruzahal",
+"Törpe karcsúszájú lazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Lebiasinidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.8,
+"ph_max": 7.4,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 700,
+"ar_ft_max": 1400,
+"ellenorzott": false
+},
+{
+"id": "nannostomus-mortenthaleri",
+"tipus": "hal",
+"latin": "Nannostomus mortenthaleri",
+"magyar_nev": "Korallvörös ceruzahal",
+"egyeb_nevek": [
+"Vörös ceruzahal",
+"Mortenthaler ceruzahala"
+],
+"regi_latin_nevek": [
+"Nannostomus marginatus mortenthaleri"
+],
+"csalad": "Lebiasinidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 3.5,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.0,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
 "id": "nannostomus-trifasciatus",
 "tipus": "hal",
 "latin": "Nannostomus trifasciatus",
@@ -1243,6 +1384,35 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 500,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "phenacogrammus-interruptus",
+"tipus": "hal",
+"latin": "Phenacogrammus interruptus",
+"magyar_nev": "Kongói pontylazac",
+"egyeb_nevek": [
+"Kék kongólazac"
+],
+"regi_latin_nevek": [
+"Micralestes interruptus",
+"Alesthes interruptus"
+],
+"csalad": "Alestidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 8.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {

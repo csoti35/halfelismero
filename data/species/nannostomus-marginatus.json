@@ -1,0 +1,89 @@
+{
+ "id": "nannostomus-marginatus",
+ "tipus": "hal",
+ "lista_nev": "Nannostomus marginatus",
+ "latin": "Nannostomus marginatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe ceruzahal",
+ "egyeb_nevek": [
+  "Díszes törpeceruzahal",
+  "Törpe karcsúszájú lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lebiasinidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Guyana, Suriname, Amazonas-medence)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kissé félénk rajhal. A hímek néha ártalmatlan erőfitogtató pózolást mutatnak be egymásnak, de sérülést nem okoznak. Kifejezetten békés nanohalakkal érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.8,
+ "ph_max": 7.4,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő; apró méretű fagyasztott és élő eleségek (artémia naupliusz, cyklopsz, mikroféreg), finomra porított lemezes tápok és minőségi mikrogranulátum.",
+ "tarsithato": [
+  "Törpe páncélosharcsák (pl. Corydoras pygmaeus, habrosus)",
+  "Békés kistestű pontylazacok (pl. vörösneon, zöld neonhal)",
+  "Otocinclus fajok",
+  "Neocaridina garnélák"
+ ],
+ "kerulendo": [
+  "Nagytestű vagy agresszív sügérek",
+  "Gyors úszású, domináns márnák",
+  "Skalárok",
+  "Fátyolos úszójú vagy csipkelődő fajok"
+ ],
+ "szaporodas_mod": "ikraszázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (2–4 dGH), enyhén savas (pH 6,0–6,5), 26–27 °C-os vízzel feltöltött külön ívató akvárium berendezése.",
+  "Finom szálú növények (pl. jávai moha) és ikrarács elhelyezése az akvárium alján.",
+  "A tenyészpárt vagy egy kisebb csapatot bőséges élő eleséggel kondicionáljuk az ívás előtt.",
+  "Az ívás reggel zajlik le; a szülőket az ikrázás befejeztével haladéktalanul el kell távolítani.",
+  "Az ikrák kb. 24–36 óra múlva kelnek ki; a szikzacskó felszívódása után papucsállatkákkal, majd frissen kelt artémiával indíthatók az ivadékok."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, élénkebb színezetűek, és a farok alatti úszójuk vörös foltja sokkal intenzívebb; a nőstények teste teltebb, hasuk kerekebb.",
+ "felismeres_jegyek": [
+  "Zömök, hengeres testalkat kisméretű, hegyes, csúcsba nyíló szájjal.",
+  "Három vastag, kontrasztos, hosszanti fekete csík az aranysárga vagy ezüstös alapon.",
+  "A hát-, has- és farokalatti úszókon élénkvörös mezők láthatók.",
+  "Éjszakai rejtőszínezeténél a fekete hosszanti csíkok elhalványulnak, és sötét függőleges foltok jelennek meg a testen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nannostomus mortenthaleri",
+   "magyar_nev": "Korallvörös ceruzahal",
+   "kulonbseg": "A hímek teste szinte teljesen ragyogó korallvörös, sokkal intenzívebb színű faj."
+  },
+  {
+   "latin": "Nannostomus trifasciatus",
+   "magyar_nev": "Háromsávos ceruzahal",
+   "kulonbseg": "Hosszabb, karcsúbb testfelépítésű, és az oldalsó sávok mentén plusz vörös pikkelysorok találhatók."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális fertőzések a nem megfelelő vízminőség miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1400,
+ "tippek": [
+  "Sötét talajjal és dús növényzettel hangsúlyozhatjuk ki legjobban élénk színeit.",
+  "Úszó növényekkel szűrt fényt alakítsunk ki, mert az erős megvilágítástól félénkké válik.",
+  "Apró szája miatt az eleség szemcseméretére fokozottan ügyelni kell."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}
