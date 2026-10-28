@@ -31,7 +31,7 @@ def main():
     out = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else {}
     done = 0
     for latin in items:
-        if latin in out and out[latin]:
+        if latin in out and (out[latin] or os.environ.get("CSAK_UJ") == "1"):
             continue
         q = key(latin)
         if "hibrid" in latin.lower() or len(q.split()) < 2:
@@ -39,7 +39,9 @@ def main():
             continue
         try:
             r = get("https://api.inaturalist.org/v1/taxa?rank=species,subspecies,variety,hybrid&per_page=3&q=" + urllib.parse.quote(q))
-            t = next((x for x in r.get("results", []) if key(x.get("name", "")) == q), None)
+            # A régi (szinonim) nevet is elfogadjuk, pl. Corydoras -> Hoplisoma, ha az iNaturalist erre talált rá.
+            t = next((x for x in r.get("results", []) if key(x.get("name", "")) == q), None) or \
+                next((x for x in r.get("results", []) if key(x.get("matched_term", "")) == q), None)
             if not t:
                 out[latin] = []
                 print("nincs találat:", latin); continue
