@@ -154,3 +154,6 @@ Melanochromis johannii;Johanni sügér
 Blood parrot (hibrid);Vérpapagáj sügér
 Arctic parrot (hibrid);Sarki papagáj sügér
 Flowerhorn (hibrid);Virágszarvú sügér (flowerhorn)
+Dermogenys pusilla;Félcsőrű csuka
+Barbonymus schwanenfeldii;Schwanenfeld-márna
+Boraras merah;Főnix razbóra
