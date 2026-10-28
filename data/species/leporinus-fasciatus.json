@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Leporinus fasciatus",
+ "id": "leporinus-fasciatus",
+ "tipus": "hal",
+ "latin": "Leporinus fasciatus",
+ "regi_latin_nevek": [
+  "Salmo fasciatus"
+ ],
+ "magyar_nev": "Sávos nyúllazac",
+ "egyeb_nevek": [
+  "Csíkos leporinus",
+  "Sávos leporinus"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Anostomidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco vízrendszere)",
+ "max_meret_cm": 27,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nagyon mozgékony, határozott fellépésű hal. Fiatalon békésebb, de felnőve territoriálissá válik, és hírhedt úszócsipkedő. Más fajok hosszú úszóit lecsipkedi, és fajtársaival szemben is összeférhetetlen lehet szűk helyen.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 450,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de étrendjében elengedhetetlen a növényi táplálék (forrázott zöldségek, spirulina, algás tabletták), kiegészítve fagyasztott és élő rovarlárvákkal, rákokkal.",
+ "tarsithato": [
+  "Nagyobb testű",
+  "robusztus és gyors sügérekkel (pl. Geophagus fajok)",
+  "nagyobb harcsákkal (pl. Loricariidae",
+  "Doradidae)",
+  "illetve más nagytestű pontylazacokkal."
+ ],
+ "kerulendo": [
+  "Kistestű halak (eleségnek tekinti őket)",
+  "hosszú úszójú fajok (vitorláshalak",
+  "betták)",
+  "lassú",
+  "félénk halak",
+  "valamint lágy szárú élő növényekkel betelepített akváriumok."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumi körülmények között szaporítása szinte lehetetlen, a kereskedelembe kerülő példányokat hormonkezeléssel szaporítják nagy telepeken.",
+  "A természetben az esős évszak áradásai indítják be az ívási viselkedést hatalmas víztereken.",
+  "Több ezer apró ikrát szórnak szét a nyílt vízben, szülői gondoskodást nem mutatnak.",
+  "A kikelő ivadék mikroszkopikus méretű élő eleséggel (pl. kerekesférgek, rotatória) nevelhető fel."
+ ],
+ "ivari_kulonbseg": "Kifejlett korban az ivarérett nőstények észrevehetően teltebb hasvonalúak és némileg vaskosabbak a karcsúbb hímeknél.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres, hidrodinamikus torpedó testalkat.",
+  "Sárgás vagy aranybarna alapszínen futó 10 éles, függőleges fekete sáv (a sávok száma a hal növekedése során osztódással nő).",
+  "Lefelé irányuló, apró, vastag ajkú 'nyúlszáj' erős metszőfogakkal.",
+  "Gyakran ferde, 45 fokos szögben lefelé mutató testtartásban úszik vagy pásztázza az aljzatot."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Leporinus affinis",
+   "magyar_nev": "Közönséges nyúllazac",
+   "kulonbseg": "Szinte megtévesztésig hasonló, de a sávok pontos elhelyezkedése és az úszók mintázata finoman eltér."
+  },
+  {
+   "latin": "Leporinus desmotes",
+   "magyar_nev": "Szalagos nyúllazac",
+   "kulonbseg": "Kevesebb, szélesebb és ritkább sötét keresztsávval rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kiugrás okozta mechanikai sérülések és kiszáradás",
+  "Darakór stressz vagy rossz vízminőség esetén",
+  "Bélrendszeri panaszok nem megfelelő, növényi rostokban szegény táplálás miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2800,
+ "ar_ft_max": 6500,
+ "tippek": [
+  "Az akváriumot kiválóan záró fedővel kell ellátni, mert rendkívül robbanékony úszó, és a legkisebb nyíláson is képes kiugrani.",
+  "Élő növények helyett dekoráljunk uszadékfákkal, gyökerekkel és sima kövekkel, mert a növényzetet szisztematikusan elfogyasztja vagy széttépi.",
+  "Csak egyetlen egyedet tartsunk, hacsak nem rendelkezünk 800-1000 liter feletti óriásakváriummal, ahol kisebb csoportjuk is tartható."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

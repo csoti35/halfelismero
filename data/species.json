@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-28",
-"darab": 61,
+"darab": 62,
 "fajok": [
 {
 "id": "ameca-splendens",
@@ -926,6 +926,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 500,
 "ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "leporinus-fasciatus",
+"tipus": "hal",
+"latin": "Leporinus fasciatus",
+"magyar_nev": "Sávos nyúllazac",
+"egyeb_nevek": [
+"Csíkos leporinus",
+"Sávos leporinus"
+],
+"regi_latin_nevek": [
+"Salmo fasciatus"
+],
+"csalad": "Anostomidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 27,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 450,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2800,
+"ar_ft_max": 6500,
 "ellenorzott": false
 },
 {
