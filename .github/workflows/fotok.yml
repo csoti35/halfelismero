@@ -1,0 +1,26 @@
+name: Fajfotók gyűjtése
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/fotok.py", "scripts/fajlista.txt", ".github/workflows/fotok.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: fotok
+jobs:
+  fotok:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - name: Fotók gyűjtése (iNaturalist, szabad licenc)
+        run: python3 scripts/fotok.py
+      - name: Mentés
+        run: |
+          git config user.name "csoti35"
+          git config user.email "djcsoti@gmail.com"
+          git add data/fotok.json
+          if git diff --cached --quiet; then echo "Nincs változás."; exit 0; fi
+          git commit -m "Fajfotók frissítése"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin main && break; sleep 5; done

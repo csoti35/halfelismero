@@ -1669,11 +1669,18 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
         function link2map() { return `<a href="https://www.google.com/maps/search/akvarisztika" target="_blank" rel="noopener" class="flex items-center gap-2 p-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 text-[11px]"><i class="fa-solid fa-location-dot w-4 text-center text-teal-400"></i>Akvarisztikák a közelben (szakember tanácsa, gyógyszer)</a>`; }
         // Fajfotók az iNaturalistról (szabad licencű természetfotók, a szerző feltüntetésével)
         const photoCache = {};
+        // Előre összegyűjtött fotólista (data/fotok.json) – gyorsabb, mint minden alkalommal keresni.
+        let PHOTO_INDEX = null;
+        const photoIndexReady = fetch('../data/fotok.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).then(j => {
+            PHOTO_INDEX = {};
+            Object.entries(j || {}).forEach(([k, v]) => { if (k !== '_taxon' && Array.isArray(v) && v.length) PHOTO_INDEX[latinKey(k.replace(/\s*['"(].*$/, ''))] = v.map(p => ({ medium_url: p.u, attribution: p.a, license_code: p.l })); });
+        }).catch(() => { PHOTO_INDEX = {}; });
         async function loadSpeciesPhotos(latin) {
             const box = () => document.getElementById('speciesPhotos');
             const key = latinKey(latin); if (!key) return;
             try {
-                let photos = photoCache[key];
+                await Promise.race([photoIndexReady, new Promise(r => setTimeout(r, 2500))]);
+                let photos = photoCache[key] || (PHOTO_INDEX && PHOTO_INDEX[key]);
                 if (!photos) {
                     const q = await (await fetch('https://api.inaturalist.org/v1/taxa?rank=species,subspecies,variety&per_page=1&q=' + encodeURIComponent(latin))).json();
                     const t = (q.results || [])[0]; if (!t || latinKey(t.name) !== key && !latinKey(t.name).startsWith(key.split(' ').slice(0, 2).join(' '))) return;
@@ -2012,7 +2019,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v37';
+        const APP_VERSION = 'v38';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
