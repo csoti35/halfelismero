@@ -15,13 +15,13 @@ for it in items:
         ii = page["imageinfo"][0]; md = ii.get("extmetadata", {})
         lic = (md.get("LicenseShortName", {}).get("value") or "").strip()
         if not re.search(r"^(CC|Public domain|PD)", lic, re.I) or re.search(r"fair use|non-free", lic, re.I):
-            bad += 1; print("kihagyva (licenc):", fn, lic); continue
+            bad += 1; print("::warning::licenc:", fn, lic); continue
         photo = {"u": ii.get("thumburl") or ii["url"], "a": strip(md.get("Artist", {}).get("value"))[:60] or "Wikimedia Commons", "l": lic, "src": "Wikimedia Commons"}
         cur = [p for p in fot.get(it["latin"], []) if p.get("u") != photo["u"]]
         fot[it["latin"]] = [photo] + cur[:5]
         ok += 1
     except Exception as e:
-        bad += 1; print("hiba:", fn, e)
-    time.sleep(0.3)
+        bad += 1; print("::warning::hiba:", fn, str(e)[:80]); time.sleep(3)
+    time.sleep(1.2)
 json.dump(fot, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"::notice::Wikimedia: {ok} kép felvéve, {bad} kihagyva")
