@@ -1,0 +1,22 @@
+name: Modellek
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/modellek.yml"]
+jobs:
+  m:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          python3 - <<'PY'
+          import json,urllib.request,sys
+          sys.path.insert(0,'scripts')
+          src=open('scripts/generate.py').read()
+          ns={}
+          exec(src.split('ROOT =')[0], ns)
+          k=ns['GEMINI_KEY_DB']
+          d=json.load(urllib.request.urlopen(urllib.request.Request('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200',headers={'x-goog-api-key':k})))
+          names=[m['name'].split('/')[-1] for m in d.get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])]
+          print('::notice::'+', '.join(n for n in names if 'gemini' in n)[:3000])
+          PY
