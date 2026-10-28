@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/fotok.py", "scripts/fajlista.txt", ".github/workflows/fotok.yml"]
+    paths: ["scripts/fotok.py", "scripts/wikimedia_fotok.py", "scripts/wikimedia_kepek.json", "scripts/fajlista.txt", ".github/workflows/fotok.yml"]
 permissions:
   contents: write
 concurrency:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Fotók gyűjtése (iNaturalist, szabad licenc)
-        run: python3 scripts/fotok.py
+        run: CSAK_UJ=1 python3 scripts/fotok.py && python3 scripts/wikimedia_fotok.py
       - name: Mentés
         run: |
           git config user.name "csoti35"

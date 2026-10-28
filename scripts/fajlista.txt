@@ -649,3 +649,23 @@ hal;Chromis atripectoralis
 hal;Premnas biaculeatus
 hal;Aphyosemion calliurum
 hal;Hypsolebias faouri
+
+# --- Akváriumi halak (saját lista, 2. csomag) ---
+hal;Hemichromis bimaculatus
+hal;Gyrinocheilus aymonieri
+hal;Colossoma macropomum
+hal;Rasbora espei
+hal;Sawbwa resplendens
+hal;Pomacanthus imperator
+hal;Centropyge loricula
+hal;Chrysiptera parasema
+hal;Dascyllus aruanus
+hal;Labroides dimidiatus
+hal;Pseudanthias squamipinnis
+hal;Hippocampus kuda
+hal;Oxymonacanthus longirostris
+hal;Chelmon rostratus
+hal;Valenciennea strigata
+hal;Elacatinus oceanops
+hal;Pseudochromis fridmani
+hal;Lythrypnus dalli

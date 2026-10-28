@@ -173,3 +173,21 @@ Chromis viridis;Kék-zöld korallsügér
 Sphaeramia nematoptera;Pizsamás ajakoshal
 Chromis atripectoralis;Zöld korallsügér
 Premnas biaculeatus;Tengeri bohóchal, maroon
+Hemichromis bimaculatus;Ékszersügér
+Gyrinocheilus aymonieri;Moszatevő márna
+Colossoma macropomum;Pacu (gyümölcsevő pirája)
+Rasbora espei;Espei-razbóra
+Sawbwa resplendens;Sawbwa-razbóra
+Pomacanthus imperator;Színváltó császárhal
+Centropyge loricula;Lángvörös császárhal
+Chrysiptera parasema;Sárgafarkú korallsügér
+Dascyllus aruanus;Háromsávos korallsügér
+Labroides dimidiatus;Tisztogatóhal
+Pseudanthias squamipinnis;Zászlós tündérsügér
+Hippocampus kuda;Sárga csikóhal
+Oxymonacanthus longirostris;Pettyes reszelőhal
+Chelmon rostratus;Közönséges csipeszhal
+Valenciennea strigata;Sárgafejű alvógéb
+Elacatinus oceanops;Neongéb
+Pseudochromis fridmani;Orchidea álsügér
+Lythrypnus dalli;Kalifornia-géb
