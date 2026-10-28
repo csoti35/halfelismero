@@ -1,0 +1,88 @@
+{
+ "id": "corydoras-schwartzi",
+ "tipus": "hal",
+ "latin": "Corydoras schwartzi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Schwartz páncélosharcsája",
+ "lista_nev": "Corydoras schwartzi",
+ "egyeb_nevek": [
+  "Schwartz-páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae (Páncélosharcsák)",
+ "csoport": "Harcsák",
+ "szarmazas": "Brazília (Rio Purus)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, társas fenéklakó, amely jól érzi magát más békés halak társaságában.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; süllyedő tabletták, élő és fagyasztott tubifex, artémia, vörös szúnyoglárva.",
+ "tarsithato": [
+  "Pontylazacok",
+  "törperasborák",
+  "békés sügérek",
+  "más páncélosharcsák."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív sügérek",
+  "területvédő fenéklakók."
+ ],
+ "szaporodas_mod": "Szabadon ívó (ikraragasztó)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és bőséges élő eleség az anyahalak felkészítéséhez.",
+  "Hűvösebb vízzel végzett jelentős vízcsere az esős évszak imitálására.",
+  "Az ikrákat az üvegre vagy növényi levelekre ragasztják.",
+  "A szülőket az ívás után el kell távolítani.",
+  "Az ivadékok 3-4 nap múlva kelnek ki, frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek és szélesebbek, felülről nézve robusztusabbak.",
+ "felismeres_jegyek": [
+  "Ezüstös alapszín fekete pöttyökkel, amelyek vízszintes sorokba rendeződnek.",
+  "Jellegzetes fekete sáv fut át a szemen (álarc).",
+  "A hátúszó első sugara fehéres vagy világos krémszínű.",
+  "Zömök, páncélozott testfelépítés.",
+  "Rövid bajuszszálak a száj körül."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras surinamensis",
+   "magyar_nev": "Surinami páncélosharcsa",
+   "kulonbseg": "A mintázata kevésbé rendeződik szabályos sorokba, és a hátúszója nem világos."
+  },
+  {
+   "latin": "Corydoras agassizii",
+   "magyar_nev": "Agassiz páncélosharcsája",
+   "kulonbseg": "A pofája hosszabb, és a pöttyei elszórtabbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszrothadás (éles aljzat miatt)",
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Használjunk finom szemcséjű homokot aljzatnak, hogy megóvjuk érzékeny bajuszukat.",
+  "Szeretik a dús növényzetet és a búvóhelyeket (pl. égertokmány, gyökerek).",
+  "Érzékenyek a nitrátra, a rendszeres vízcsere elengedhetetlen."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

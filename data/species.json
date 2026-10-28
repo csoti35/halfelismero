@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-28",
-"darab": 160,
+"darab": 163,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -1042,6 +1042,32 @@
 "ellenorzott": false
 },
 {
+"id": "corydoras-arcuatus",
+"tipus": "hal",
+"latin": "Corydoras arcuatus",
+"magyar_nev": "Áramvonalas páncélosharcsa",
+"egyeb_nevek": [
+"Íves páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae (Páncélosharcsák)",
+"csoport": "Harcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1100,
+"ar_ft_max": 1900,
+"ellenorzott": false
+},
+{
 "id": "corydoras-duplicareus",
 "tipus": "hal",
 "latin": "Corydoras duplicareus",
@@ -1249,6 +1275,58 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 600,
 "ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "corydoras-schwartzi",
+"tipus": "hal",
+"latin": "Corydoras schwartzi",
+"magyar_nev": "Schwartz páncélosharcsája",
+"egyeb_nevek": [
+"Schwartz-páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae (Páncélosharcsák)",
+"csoport": "Harcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "corydoras-similis",
+"tipus": "hal",
+"latin": "Corydoras similis",
+"magyar_nev": "Ibolyafoltos páncélosharcsa",
+"egyeb_nevek": [
+"Similis páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae (Páncélosharcsák)",
+"csoport": "Harcsák",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 2800,
 "ellenorzott": false
 },
 {

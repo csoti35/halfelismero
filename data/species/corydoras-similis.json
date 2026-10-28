@@ -1,0 +1,86 @@
+{
+ "id": "corydoras-similis",
+ "tipus": "hal",
+ "latin": "Corydoras similis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Ibolyafoltos páncélosharcsa",
+ "lista_nev": "Corydoras similis",
+ "egyeb_nevek": [
+  "Similis páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae (Páncélosharcsák)",
+ "csoport": "Harcsák",
+ "szarmazas": "Brazília (Rio Madeira)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, aktív csoportos hal, amely állandóan az aljzatot túrja.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő; kedveli az élő eleséget, de elfogadja a jó minőségű harcsatablettákat is.",
+ "tarsithato": [
+  "Kisebb pontylazacok",
+  "törpesügérek",
+  "törperasborák."
+ ],
+ "kerulendo": [
+  "Durva szemcséjű aljzat",
+  "agresszív halak."
+ ],
+ "szaporodas_mod": "Szabadon ívó (ikraragasztó)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium lágy vízzel.",
+  "Bőséges etetés élő eleséggel (pl. tubifex).",
+  "Hűvösebb vizes frissítés az ívás beindításához.",
+  "Az ikrákat általában a növények leveleire rakják.",
+  "Az ivadékok felnevelése sórákkal lehetséges."
+ ],
+ "ivari_kulonbseg": "A nőstények kerekdedebbek, a hímek karcsúbbak és valamivel kisebbek.",
+ "felismeres_jegyek": [
+  "A faroktőnél egy nagy, sötét, kékes-ibolya színű folt található.",
+  "A test többi részén apró, sötét pöttyözöttség látható.",
+  "Az alapszín sárgás-szürkés.",
+  "Rövid, zömök testalkat.",
+  "A hátúszó és a farokúszó finoman mintázott."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras caudimaculatus",
+   "magyar_nev": "Farkfoltos páncélosharcsa",
+   "kulonbseg": "A faroktőnél lévő folt kerekebb és élesebb kontúrú, a test pöttyei nagyobbak."
+  },
+  {
+   "latin": "Corydoras ourastigma",
+   "magyar_nev": "Ourastigma páncélosharcsa",
+   "kulonbseg": "A pofája hosszabb, megnyúltabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombásodás",
+  "Bélparaziták",
+  "Bajuszsérülés"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "A sötétebb aljzat kiemeli az ibolyaszínű foltot a faroktőnél.",
+  "Szeretik az áramló, oxigéndús vizet.",
+  "Érdemes legalább 8-10 fős csapatban tartani a természetes viselkedéshez."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

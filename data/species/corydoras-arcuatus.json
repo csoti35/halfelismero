@@ -1,0 +1,87 @@
+{
+ "id": "corydoras-arcuatus",
+ "tipus": "hal",
+ "latin": "Corydoras arcuatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Áramvonalas páncélosharcsa",
+ "lista_nev": "Corydoras arcuatus",
+ "egyeb_nevek": [
+  "Íves páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae (Páncélosharcsák)",
+ "csoport": "Harcsák",
+ "szarmazas": "Brazília, Peru, Ecuador (Amazonas medence)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, félénkebb faj, amely igényli a fajtársak közelségét.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; süllyedő tabletták, fagyasztott és élő eleségek.",
+ "tarsithato": [
+  "Békés dél-amerikai halak",
+  "pontylazacok",
+  "baltahasú halak."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "területvédő fajok",
+  "túl meleg víz (28°C felett tartósan)."
+ ],
+ "szaporodas_mod": "Szabadon ívó (ikraragasztó)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Kiváló kondícióba hozás élő eleséggel.",
+  "Lágy, tiszta víz biztosítása.",
+  "Hűvösebb vizes vízcsere (2-3 fokos csökkenés).",
+  "Az ikrákat általában védett helyre, levelek fonákjára ragasztják.",
+  "Az ivadékok érzékenyek a vízminőségre, napi kis vízcserék szükségesek."
+ ],
+ "ivari_kulonbseg": "A nőstények kerekdedebbek, a hímek úszói néha hegyesebbek.",
+ "felismeres_jegyek": [
+  "Krémfehér vagy ezüstös alapszín.",
+  "Egy vastag, fekete sáv fut az orrtól a szemen át, a hát ívét követve egészen a farokúszóig.",
+  "A fekete sáv nem ér bele a farokúszó sugaraiba.",
+  "Zömök, oldalról lapított test.",
+  "Nincsenek pöttyök a testen, csak az íves sáv."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras narcissus",
+   "magyar_nev": "Narcissus páncélosharcsa",
+   "kulonbseg": "Sokkal hosszabb az orra és nagyobb testű."
+  },
+  {
+   "latin": "Corydoras granti",
+   "magyar_nev": "Grant páncélosharcsája",
+   "kulonbseg": "A fekete sáv a farokúszó tövénél megszakad vagy másképp végződik (korábban gyakran összetévesztették az arcuatusszal)."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszrothadás",
+  "Darakór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1100,
+ "ar_ft_max": 1900,
+ "tippek": [
+  "Nagyon fontos a homokos aljzat, mert az éles kövek között a bajuszuk elkopik és elfertőződik.",
+  "Csoportban sokkal bátrabbak, egyedül vagy párban félénkek maradnak.",
+  "Kedvelik a növényekkel sűrűn beültetett részeket és a nyílt homokos tereket is."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}
