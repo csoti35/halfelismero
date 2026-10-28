@@ -1,0 +1,87 @@
+{
+ "id": "rasbora-borapetensis",
+ "tipus": "hal",
+ "latin": "Rasbora borapetensis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vörösfarkú razbóra",
+ "lista_nev": "Rasbora borapetensis",
+ "egyeb_nevek": [
+  "Feketesávos razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia, Kambodzsa)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, aktív úszó, amely csapatban érzi jól magát. Más békés fajokkal jól társítható.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, elfogadja a jó minőségű lemezes tápokat, de igényli az élő és fagyasztott eleséget (artémia, daphnia).",
+ "tarsithato": [
+  "Más razbórák",
+  "dániók",
+  "békés pontylazacok",
+  "páncélos harcsák",
+  "törpe sügérek."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív halak",
+  "amelyek zsákmánynak nézhetik."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz (pH 6.0-6.5) szükséges az ívató medencébe.",
+  "Finom levelű növények vagy ikrarács behelyezése az ikrafalás megakadályozására.",
+  "A szülőket bőséges élő eleséggel kell kondicionálni.",
+  "Ívás után a szülőket azonnal el kell távolítani.",
+  "Az ivadékok 24-36 óra múlva kelnek ki, és infuzóriával etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények kerekdedebbek és valamivel nagyobbak, a hímek karcsúbbak és színeik intenzívebbek.",
+ "felismeres_jegyek": [
+  "Ezüstös alapszín, oldalán végigfutó sötét fekete sáv.",
+  "A fekete sáv felett egy vékony, aranyosan csillogó csík látható.",
+  "A farokúszó töve élénkvörös színű.",
+  "A test megnyúlt, oldalról enyhén lapított.",
+  "Az úszók nagy része átlátszó, kivéve a faroktövet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rasbora agilis",
+   "magyar_nev": "Fürge razbóra",
+   "kulonbseg": "Hiányzik a faroktő intenzív vörös színezete."
+  },
+  {
+   "latin": "Rasbora einthovenii",
+   "magyar_nev": "Díszrazbóra",
+   "kulonbseg": "A fekete sáv vastagabb és végigfut az egész testen a szájcsúcsig."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Halpenész",
+  "Darackór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Sötét aljzat és dús növényzet mellett mutatják meg legszebb színeiket.",
+  "Érdemes fedett akváriumban tartani, mert kiváló ugrók."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

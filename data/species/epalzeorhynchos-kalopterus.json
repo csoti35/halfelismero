@@ -1,0 +1,83 @@
+{
+ "id": "epalzeorhynchos-kalopterus",
+ "tipus": "hal",
+ "latin": "Epalzeorhynchos kalopterus",
+ "regi_latin_nevek": [
+  "Barbus kalopterus"
+ ],
+ "magyar_nev": "Díszmárna",
+ "egyeb_nevek": [
+  "Sujtásos díszmárna",
+  "repülő róka"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Indonézia, Malajzia, Thaiföld",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fiatalon békés, de kifejlett korára területvédővé válik, főleg a hasonló kinézetű halakkal szemben.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Elsősorban algaevő, de elfogad mindenféle száraz és élő eleséget is.",
+ "tarsithato": [
+  "Gyorsabb pontyfélékkel",
+  "dániókkal",
+  "nagyobb lazacokkal."
+ ],
+ "kerulendo": [
+  "Sziámi ormányoshal (hasonlóság miatt)",
+  "más Epalzeorhynchos fajok."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi szaporítása nem megoldott. Kereskedelmi forgalomba hormonkezeléssel szaporított példányok kerülnek."
+ ],
+ "ivari_kulonbseg": "Nincs szembeötlő különbség, a nőstények általában valamivel testesebbek.",
+ "felismeres_jegyek": [
+  "Aranybarna test",
+  "széles fekete sáv az orrtól a farokig",
+  "felette vékony aranyszínű csík",
+  "az úszókon fekete és fehér foltok/szegélyek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Crossocheilus oblongus",
+   "magyar_nev": "Sziámi ormányoshal",
+   "kulonbseg": "Nincs aranyszínű csík a fekete sáv felett, úszói áttetszőek."
+  },
+  {
+   "latin": "Garra cambodgiensis",
+   "magyar_nev": "Kambodzsai algaevő",
+   "kulonbseg": "Szájfelépítése és úszómintázata eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Gyakran összetévesztik a sziámi ormányoshallal, de ez a faj agresszívabb.",
+  "Kedveli az oxigéndús, áramló vizet.",
+  "Kiválóan tisztítja a tereptárgyakat az algától."
+ ],
+ "lista_nev": "Epalzeorhynchos kalopterus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

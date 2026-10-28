@@ -1,0 +1,86 @@
+{
+ "id": "rhodeus-amarus",
+ "tipus": "hal",
+ "latin": "Rhodeus amarus",
+ "regi_latin_nevek": [
+  "Rhodeus sericeus amarus"
+ ],
+ "magyar_nev": "Szivárványos ökle",
+ "egyeb_nevek": [
+  "Ökle"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Acheilognathidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Európa, Magyarország vizei",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű, de a szaporodási időszakban a hímek területvédők a kagylók környékén.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 4,
+ "homerseklet_max": 22,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, kedveli az algákat, planktont és az apró férgeket.",
+ "tarsithato": [
+  "Más hazai hidegvízi halakkal",
+  "pl. fürge csellével."
+ ],
+ "kerulendo": [
+  "Trópusi halak a hőmérsékleti igények eltérése miatt."
+ ],
+ "szaporodas_mod": "Speciális (kagylóba ívó)",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Élő tavi kagylók (Unio vagy Anodonta fajok) behelyezése szükséges.",
+  "A nőstény hosszú tojócsövet növeszt.",
+  "A tojócsővel a kagyló kopoltyúüregébe juttatja az ikrákat.",
+  "A hím a kagyló vízáramába engedi a spermát.",
+  "Az ivadékok a kagyló belsejében fejlődnek ki.",
+  "A kagylók életben tartása az akváriumban nehéz feladat."
+ ],
+ "ivari_kulonbseg": "Nászidőben a hímek gyönyörű szivárványos színt öltenek, a nőstényeknek tojócsövük van.",
+ "felismeres_jegyek": [
+  "Magas",
+  "oldalról lapított test",
+  "oldalvonal csak a test elején",
+  "ezüstös alapszín",
+  "kékes sáv a faroknyélen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rhodeus sericeus",
+   "magyar_nev": "Amuri ökle",
+   "kulonbseg": "Földrajzi elterjedés, apró pikkelyszerkezeti eltérések."
+  },
+  {
+   "latin": "Carassius carassius",
+   "magyar_nev": "Széles kárász",
+   "kulonbseg": "Sokkal nagyobb test, hiányzik a kékes oldalsáv."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Halszíjács",
+  "Kopoltyúféreg"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Magyarországon védett faj, gyűjtése tilos, csak tenyészetből szerezzük be.",
+  "A kagylók szűrő életmódja miatt tiszta, oxigéndús vizet igényelnek.",
+  "Hidegvízi akváriumban tartsuk, nyáron hűtést igényelhet."
+ ],
+ "lista_nev": "Rhodeus amarus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

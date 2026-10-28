@@ -1,0 +1,77 @@
+{
+ "id": "carassius-auratus-shubunkin",
+ "lista_nev": "Carassius auratus 'Shubunkin'",
+ "tipus": "hal",
+ "latin": "Carassius auratus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Subunkin",
+ "egyeb_nevek": [
+  "Kalikó aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Hidegvízi halak",
+ "szarmazas": "Japán (tenyésztett változat)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Aktív, mozgékony hal, kiválóan alkalmas kerti tavakba is. Békés, de falánk.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 4,
+ "homerseklet_max": 22,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, kedveli a növényi kiegészítést és a jó minőségű granulátumokat.",
+ "tarsithato": [
+  "Közönséges aranyhal",
+  "üstökösfarkú aranyhal",
+  "koi ponty"
+ ],
+ "kerulendo": [
+  "Érzékeny",
+  "lassú mozgású osztottfarkú aranyhalak (pl. teleszkópszemű)"
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Nagyobb víztömegben (tóban) könnyebben ívik",
+  "a hímek kergetik a nőstényt a növények közé",
+  "az ikrák a növényzetre tapadnak."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, íváskor nászkiütéseik vannak.",
+ "felismeres_jegyek": [
+  "Tarka (kalikó) mintázat: kék",
+  "vörös",
+  "fekete és fehér foltok",
+  "áttetsző pikkelyek",
+  "megnyúlt testalkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus 'Comet'",
+   "magyar_nev": "Üstökösfarkú aranyhal",
+   "kulonbseg": "Egyszínű vagy piros-fehér, és sokkal hosszabb a farokúszója."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Kerti tavakban a legszebb, ahol felülről is jól látszik a mintázata.",
+  "A kék alapszínű példányok a legértékesebbek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

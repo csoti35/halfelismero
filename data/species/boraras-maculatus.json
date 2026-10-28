@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Boraras maculatus",
+ "id": "boraras-maculatus",
+ "tipus": "hal",
+ "latin": "Boraras maculatus",
+ "regi_latin_nevek": [
+  "Rasbora maculata"
+ ],
+ "magyar_nev": "Törpe razbóra",
+ "egyeb_nevek": [
+  "Foltos törperazbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Malaaj-félsziget, Szumátra, Szingapúr",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, törpe termetű rajhal, amely csapatban érzi magát biztonságban.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Apró élő és fagyasztott ételek (artémia, rotatoria), valamint finomra őrölt száraztápok.",
+ "tarsithato": [
+  "Garnélákkal",
+  "más Boraras fajokkal",
+  "apró törpe dániókkal és békés talajlakókkal."
+ ],
+ "kerulendo": [
+  "Bármilyen hal",
+  "ami képes elnyelni apró mérete miatt."
+ ],
+ "szaporodas_mod": "Szabadon ívó, ikráit növények közé szórja.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy, savanyú vízű ívató akváriumot rendezzünk be jávai mohával.",
+  "Bőséges élő eleséggel készítsük fel a halakat az ívásra.",
+  "Helyezzünk be egy hím-nőstény párt vagy egy kis csoportot.",
+  "Az ívást követően távolítsuk el a felnőtt halakat.",
+  "Az ivadékokat a szikzacskó felszívódása után papucsállatkával és rotatoriával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek intenzívebb piros színűek és karcsúbbak, a nőstények teste kerekdedebb és vöröses-narancssárga.",
+ "felismeres_jegyek": [
+  "Apró, vöröses-rózsaszínes testalapszín.",
+  "A kopoltyúfedő mögött a testen egy kerek, sötét fekete folt látható.",
+  "A farokúszó tövében és a farokalatti úszó tövében apróbb fekete foltok találhatók.",
+  "Testhossza legfeljebb 2-2.5 cm."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Boraras urophthalmoides",
+   "magyar_nev": "Törpe dánió",
+   "kulonbseg": "A B. urophthalmoides oldalán hosszanti sáv húzódik kerek fekete folt helyett, alapszíne sárgásabb."
+  },
+  {
+   "latin": "Boraras brigittae",
+   "magyar_nev": "Zsilipező törperazbóra",
+   "kulonbseg": "A B. brigittae oldalán folyamatos sötét sáv húzódik piros szegéllyel, nem pedig stacionárius kerek folt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium",
+  "Baktériumos szövődmények"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 850,
+ "tippek": [
+  "Sűrű növényzetű, tőzeggel lágyított akváriumban tartandó.",
+  "A túlzottan erős áramlást kerüljük az akváriumban.",
+  "Sötét aljzat használatával kiemelhető a vöröses színezetük."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "barbodes-semifasciolatus",
+ "tipus": "hal",
+ "latin": "Barbodes semifasciolatus",
+ "regi_latin_nevek": [
+  "Puntius semifasciolatus",
+  "Barbus sachsii",
+  "Capoeta semifasciolata"
+ ],
+ "magyar_nev": "Arany márna",
+ "egyeb_nevek": [
+  "Kínai díszmárna",
+  "Brokátmárna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Kína, Vietnam, Laosz",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, barátságos csapathal. Jól alkalmazkodik a különböző vízviszonyokhoz.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, nem válogatós. Szívesen fogyasztja a növényi alapú tápokat és az élő eleséget is.",
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal",
+  "pl. dániókkal",
+  "lazacokkal",
+  "páncélos harcsákkal."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív sügérek",
+  "amelyek zsákmánynak nézhetik."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Tegyünk egy párt egy 20-30 literes ívatóba. 2. Használjunk ikrarácsot vagy sűrű növényzetet. 3. Az ívás általában kora reggel történik. 4. A szülőket ívás után távolítsuk el. 5. Az ivadékok 2-3 nap múlva úsznak el."
+ ],
+ "ivari_kulonbseg": "A hímek kisebbek, karcsúbbak és vörösesebb az úszójuk. A nőstények sárgábbak és teltebbek.",
+ "felismeres_jegyek": [
+  "Aranysárga test (a vad forma zöldes)",
+  "szabálytalan fekete foltok az oldalon",
+  "vöröses úszók",
+  "két rövid bajuszszál."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pethia conchonius",
+   "magyar_nev": "Rózsás márna",
+   "kulonbseg": "Színe inkább rózsaszínes-ezüstös, és nincs rajta annyi apró fekete folt."
+  },
+  {
+   "latin": "Barbodes schwanenfeldii",
+   "magyar_nev": "Tenyérnyi márna",
+   "kulonbseg": "Sokkal nagyobbra nő (30+ cm) és teste ezüstösebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór (túletetés vagy rossz víz esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 850,
+ "tippek": [
+  "A kereskedésekben kapható példányok szinte mind az 'Arany' (Schuberti) tenyészváltozathoz tartoznak.",
+  "Kedveli a hűvösebb vizet, fűtés nélküli szobai akváriumban is tartható.",
+  "Szeret az aljzaton turkálni, ezért a finom szemcséjű homok ideális számára."
+ ],
+ "lista_nev": "Barbodes semifasciolatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

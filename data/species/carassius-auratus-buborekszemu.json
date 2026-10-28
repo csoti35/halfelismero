@@ -1,0 +1,82 @@
+{
+ "id": "carassius-auratus-buborekszemu",
+ "tipus": "hal",
+ "latin": "Carassius auratus",
+ "regi_latin_nevek": [
+  "Carassius auratus auratus"
+ ],
+ "magyar_nev": "Buborékszemű aranyhal",
+ "lista_nev": "Carassius auratus 'Buborékszemű'",
+ "egyeb_nevek": [
+  "Hólyagszemű aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Aranyhalak",
+ "szarmazas": "Kína (tenyésztett változat)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 15,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, lassú mozgású hal. Sérülékenysége miatt csak hasonlóan lassú és békés fajtársakkal tartható.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, jó minőségű süllyedő pellet, forrázott zöldségek.",
+ "tarsithato": [
+  "Kizárólag más lassú mozgású aranyhal változatokkal (pl. Égszínnéző)."
+ ],
+ "kerulendo": [
+  "Gyors úszású halak",
+  "csipkedős fajok",
+  "éles tereptárgyak."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium lágy szárú növényekkel.",
+  "Hőmérséklet emelése 2-3 fokkal az ívás serkentésére.",
+  "A szülők az ikrákat falják, ezért ívás után el kell távolítani őket.",
+  "Az ikrák 3-4 nap alatt kelnek ki.",
+  "Az ivadékok frissen keltetett artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "Ívási időszakban a hímek kopoltyúfedőjén fehér nászkiütések (darázs) jelennek meg.",
+ "felismeres_jegyek": [
+  "A szemek alatt nagyméretű, folyadékkal telt tömlők találhatók.",
+  "Nincs hátúszója.",
+  "Tojásdad, zömök testalkat.",
+  "Osztott farokúszó.",
+  "Lassú, imbolygó mozgás."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus 'Celestial'",
+   "magyar_nev": "Égszínnéző aranyhal",
+   "kulonbseg": "A szemek felfelé néznek, de nincsenek alattuk hatalmas folyadéktömlők."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Szemtömlő sérülése és elfertőződése",
+  "Úszóhólyag-problémák",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Szigorúan kerülni kell minden éles követ, ágat vagy dekorációt, ami kiszúrhatja a szemtömlőt.",
+  "Erős szűrés szükséges, de az áramlás ne legyen túl erős.",
+  "Süllyedő tápot használjunk, hogy ne nyeljenek levegőt evés közben."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

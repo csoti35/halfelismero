@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Puntius titteya",
+ "id": "puntius-titteya",
+ "tipus": "hal",
+ "latin": "Puntius titteya",
+ "regi_latin_nevek": [
+  "Capoeta titteya",
+  "Barbus titteya"
+ ],
+ "magyar_nev": "Cseresznyemárna",
+ "egyeb_nevek": [
+  "Meggyfa márna",
+  "Vörös márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Srí Lanka",
+ "max_meret_cm": 5.0,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nyugodt természetű márnaféle. Nem csipkedi más halak úszóit, így kiváló társas akváriumi hal.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő. A jó minőségű lemezes és granulált tápok mellett nagyon kedveli a fagyasztott és élő eleségeket (pl. szúnyoglárva, artémia).",
+ "tarsithato": [
+  "Más békés márnák",
+  "pontylazacok",
+  "törpegurámik",
+  "páncélosharcsák",
+  "dániók."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív sügérek."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Külön ívatóakvárium előkészítése ikraráccsal és finom levelű növényekkel (pl. moha).",
+  "A szülők bőséges fagyasztott/élő eleséggel történő kondicionálása.",
+  "Egy jól beszíneződött hím és egy telt nőstény kihelyezése este.",
+  "Az ívás általában másnap reggel megtörténik, ami után a szülőket ki kell fogni.",
+  "Az ikrák kb. 24-48 óra alatt kelnek ki, az ivadékok rotatoriával és artémia naupliusszal etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek teste élénk cseresznyepiros (különösen íváskor), míg a nőstények sárgásbarna tónusúak, teltesebbek.",
+ "felismeres_jegyek": [
+  "Orrtól a farokúszóig húzódó sötétbarna/fekete hosszsáv",
+  "A hímek mély meggypiros/cseresznyepiros színezetűek",
+  "Kisméretű, lefelé álló bajuszszálak a száj szélén",
+  "A nőstények teste sárgásbarna, ezüstös hassal"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Puntius tetrazona",
+   "magyar_nev": "Szumátrai márna",
+   "kulonbseg": "A szumátrai márna magasabb testű, vertikális fekete csíkjai vannak és agresszívabb."
+  },
+  {
+   "latin": "Puntius oligolepis",
+   "magyar_nev": "Kockás márna",
+   "kulonbseg": "A kockás márna pikkelyein fekete mintázat van, ami kockás rácsozatot alkot."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Növényekkel sűrűn beültetett, árnyékosabb akváriumban a hímek színe lenyűgözően élénk piros lesz.",
+  "Érdemes több nőstényt tartani egy hímre vetítve, hogy a hímek udvarlási kedve megoszoljon."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

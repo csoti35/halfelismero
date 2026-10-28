@@ -1,0 +1,82 @@
+{
+ "id": "epalzeorhynchos-frenatum",
+ "tipus": "hal",
+ "latin": "Epalzeorhynchos frenatum",
+ "regi_latin_nevek": [
+  "Labeo frenatus"
+ ],
+ "magyar_nev": "Szivárványos cápa",
+ "egyeb_nevek": [
+  "Vörösúszójú cápa",
+  "zöld rojtosszájú hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Kambodzsa)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, de valamivel kevésbé agresszív, mint a bicolor. Fajtársaival szemben összeférhetetlen.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 18,
+ "taplalek": "Mindenevő, kedveli az algákat, forrázott zöldségeket és az élő eleséget.",
+ "tarsithato": [
+  "Közepes és nagyobb testű pontyfélékkel",
+  "gurámikkal."
+ ],
+ "kerulendo": [
+  "Más Epalzeorhynchos fajok",
+  "lassú vagy félénk halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban nem szaporodik spontán. Hormonális indukcióval tenyésztik távol-keleti farmokon."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, a nőstények hasa íváskor kikerekedik. A hímek farokúszóján fekete szegély lehet.",
+ "felismeres_jegyek": [
+  "Szürkésbarna vagy sötétzöldes test",
+  "minden úszója narancsvörös",
+  "fekete folt a faroktőnél",
+  "sötét csík a szemen keresztül."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Epalzeorhynchos bicolor",
+   "magyar_nev": "Labeo",
+   "kulonbseg": "Csak a farokúszója vörös, teste mélyfekete."
+  },
+  {
+   "latin": "Crossocheilus oblongus",
+   "magyar_nev": "Sziámi ormányoshal",
+   "kulonbseg": "Úszói színtelenek, békésebb természetű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1300,
+ "tippek": [
+  "Létezik albínó változata is, amely népszerű a kereskedésekben.",
+  "Sok növényt és búvóhelyet igényel a stressz csökkentése érdekében.",
+  "Jó algaevő, de nem helyettesíti a karbantartást."
+ ],
+ "lista_nev": "Epalzeorhynchos frenatum",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

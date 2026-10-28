@@ -1,0 +1,91 @@
+{
+ "id": "carassius-auratus-fatyolfarku-ryukin",
+ "tipus": "hal",
+ "latin": "Carassius auratus auratus",
+ "regi_latin_nevek": [
+  "Carassius auratus 'Ryukin'"
+ ],
+ "magyar_nev": "Ryukin aranyhal",
+ "egyeb_nevek": [
+  "Fátyolfarkú aranyhal",
+  "Japán púpos aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Hidegvízi halak",
+ "szarmazas": "Kína (tenyésztett változat)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de lassú mozgású, a fürgébb halak elehetik előle az eleséget. Csoportosan érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (magas növényi tartalmú süllyedő pellet, forrázott zöldség, fagyasztott eleség)",
+ "tarsithato": [
+  "Más osztott farkú aranyhal változatokkal (pl. Oranda",
+  "Teleszkópszemű)"
+ ],
+ "kerulendo": [
+  "Trópusi halak",
+  "gyors mozgású márnák",
+  "agresszív sügérek",
+  "túl kicsi halak"
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium dús növényzettel vagy ívató kefével.",
+  "Hőmérséklet lassú emelése 20-22 fokra tavasszal.",
+  "Bőséges élő eleséggel való kondicionálás.",
+  "Az ívás után a szülőket el kell távolítani, mert megeszik az ikrákat.",
+  "Az ivadékok 3-5 nap múlva kelnek ki."
+ ],
+ "ivari_kulonbseg": "Ívási időszakban a hímek kopoltyúfedőjén és mellúszóin fehér nászkiütések (daraszerű pöttyök) jelennek meg.",
+ "felismeres_jegyek": [
+  "Rövid, tojásdad testforma.",
+  "Jellegzetes, magasra törő púp a fej mögött.",
+  "Osztott, fátyolos farokúszó.",
+  "Hosszú, lágyan omló hátúszó.",
+  "Széles, zömök testalkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus 'Fantail'",
+   "magyar_nev": "Fátyolfarkú aranyhal",
+   "kulonbseg": "Nincs meg a Ryukinra jellemző magas púp a fej mögött."
+  },
+  {
+   "latin": "Carassius auratus 'Oranda'",
+   "magyar_nev": "Oranda",
+   "kulonbseg": "Az Oranda fején húsos kinövés (wen) található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Úszóhólyag-problémák (lebegési zavarok)",
+  "Úszórothadás",
+  "Hasi vízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Kerüljük az éles dekorációkat, mert megsérthetik az úszóikat.",
+  "Erős szűrés szükséges a nagy anyagcsere miatt.",
+  "Ne tartsuk kerek akváriumban!",
+  "Süllyedő tápot adjunk, hogy ne nyeljenek levegőt evés közben."
+ ],
+ "lista_nev": "Carassius auratus 'Fátyolfarkú (Ryukin)'",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

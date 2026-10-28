@@ -1,7 +1,37 @@
 {
 "frissitve": "2026-10-28",
-"darab": 62,
+"darab": 133,
 "fajok": [
+{
+"id": "abramites-hypselonotus",
+"tipus": "hal",
+"latin": "Abramites hypselonotus",
+"magyar_nev": "Márványos fejet lefelé úszó lazac",
+"egyeb_nevek": [
+"Márványos magasúszójú lazac",
+"Magashátú lazac"
+],
+"regi_latin_nevek": [
+"Leporinus hypselonotus",
+"Abramites microcephalus"
+],
+"csalad": "Anostomidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 14,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
 {
 "id": "ameca-splendens",
 "tipus": "hal",
@@ -27,6 +57,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1000,
 "ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "anostomus-anostomus",
+"tipus": "hal",
+"latin": "Anostomus anostomus",
+"magyar_nev": "Csíkos fejreszövő hal",
+"egyeb_nevek": [
+"Fejjel lefelé úszó lazac",
+"Csíkos anostomus"
+],
+"regi_latin_nevek": [
+"Salmo anostomus"
+],
+"csalad": "Anostomidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 16,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.8,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
 "ellenorzott": false
 },
 {
@@ -58,6 +117,64 @@
 "ellenorzott": false
 },
 {
+"id": "arnoldichthys-spilopterus",
+"tipus": "hal",
+"latin": "Arnoldichthys spilopterus",
+"magyar_nev": "Nigériai lazac",
+"egyeb_nevek": [
+"Pirosszemű afrikai lazac",
+"Arnold-lazac"
+],
+"regi_latin_nevek": [
+"Petersius spilopterus"
+],
+"csalad": "Alestidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 10,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "astyanax-mexicanus",
+"tipus": "hal",
+"latin": "Astyanax mexicanus",
+"magyar_nev": "Vaklazac",
+"egyeb_nevek": [
+"Barlangi vaklazac",
+"Mexikói vaklazac"
+],
+"regi_latin_nevek": [
+"Astyanax fasciatus mexicanus"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 9,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 20,
+"homerseklet_max": 25,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
 "id": "axelrodia-riesei",
 "tipus": "hal",
 "latin": "Axelrodia riesei",
@@ -83,6 +200,95 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 800,
 "ar_ft_max": 1600,
+"ellenorzott": false
+},
+{
+"id": "balantiocheilos-melanopterus",
+"tipus": "hal",
+"latin": "Balantiocheilos melanopterus",
+"magyar_nev": "Ezüst cápamárna",
+"egyeb_nevek": [
+"Ezüst cápa"
+],
+"regi_latin_nevek": [
+"Barbus melanopterus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 30,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 500,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "barbodes-semifasciolatus",
+"tipus": "hal",
+"latin": "Barbodes semifasciolatus",
+"magyar_nev": "Arany márna",
+"egyeb_nevek": [
+"Kínai díszmárna",
+"Brokátmárna"
+],
+"regi_latin_nevek": [
+"Puntius semifasciolatus",
+"Barbus sachsii",
+"Capoeta semifasciolata"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "also, kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 850,
+"ellenorzott": false
+},
+{
+"id": "barbonymus-schwanenfeldii",
+"tipus": "hal",
+"latin": "Barbonymus schwanenfeldii",
+"magyar_nev": "Gyémántmárna",
+"egyeb_nevek": [
+"Schwanenfeld-márna",
+"Pirosúszójú márna"
+],
+"regi_latin_nevek": [
+"Puntius schwanenfeldii",
+"Barbodes schwanenfeldii"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 35,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 500,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.3,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -142,6 +348,369 @@
 "ellenorzott": false
 },
 {
+"id": "boraras-brigittae",
+"tipus": "hal",
+"latin": "Boraras brigittae",
+"magyar_nev": "Szúnyograzbóra",
+"egyeb_nevek": [
+"Moszkító razbóra"
+],
+"regi_latin_nevek": [
+"Rasbora brigittae"
+],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 2.0,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 4.5,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "boraras-maculatus",
+"tipus": "hal",
+"latin": "Boraras maculatus",
+"magyar_nev": "Törpe razbóra",
+"egyeb_nevek": [
+"Foltos törperazbóra"
+],
+"regi_latin_nevek": [
+"Rasbora maculata"
+],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 5.0,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 850,
+"ellenorzott": false
+},
+{
+"id": "boraras-merah",
+"tipus": "hal",
+"latin": "Boraras merah",
+"magyar_nev": "Főnix törpeponty",
+"egyeb_nevek": [
+"Merah törpeponty"
+],
+"regi_latin_nevek": [
+"Rasbora merah"
+],
+"csalad": "Danionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 2.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.0,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 450,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "boraras-urophthalmoides",
+"tipus": "hal",
+"latin": "Boraras urophthalmoides",
+"magyar_nev": "Törpe törpeponty",
+"egyeb_nevek": [
+"Farkfoltos törpeponty"
+],
+"regi_latin_nevek": [
+"Rasbora urophthalmoides"
+],
+"csalad": "Danionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 1.6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 450,
+"ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-buborekszemu",
+"tipus": "hal",
+"latin": "Carassius auratus",
+"magyar_nev": "Buborékszemű aranyhal",
+"egyeb_nevek": [
+"Hólyagszemű aranyhal"
+],
+"regi_latin_nevek": [
+"Carassius auratus auratus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Aranyhalak",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 8000,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-comet",
+"tipus": "hal",
+"latin": "Carassius auratus",
+"magyar_nev": "Üstökösfarkú aranyhal",
+"egyeb_nevek": [
+"Komét aranyhal"
+],
+"regi_latin_nevek": [],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Hidegvízi halak",
+"max_meret_cm": 30,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 250,
+"homerseklet_min": 4,
+"homerseklet_max": 22,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-fatyolfarku-ryukin",
+"tipus": "hal",
+"latin": "Carassius auratus auratus",
+"magyar_nev": "Ryukin aranyhal",
+"egyeb_nevek": [
+"Fátyolfarkú aranyhal",
+"Japán púpos aranyhal"
+],
+"regi_latin_nevek": [
+"Carassius auratus 'Ryukin'"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Hidegvízi halak",
+"max_meret_cm": 20,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 8000,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-gyongypikkelyes",
+"tipus": "hal",
+"latin": "Carassius auratus",
+"magyar_nev": "Gyöngypikkelyes aranyhal",
+"egyeb_nevek": [
+"Pearlscale aranyhal"
+],
+"regi_latin_nevek": [
+"Carassius auratus auratus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Aranyhalak",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 3500,
+"ar_ft_max": 10000,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-oranda",
+"tipus": "hal",
+"latin": "Carassius auratus auratus",
+"magyar_nev": "Oranda aranyhal",
+"egyeb_nevek": [
+"Sapkás aranyhal",
+"Oroszlánfejű aranyhal (tévesen)"
+],
+"regi_latin_nevek": [
+"Carassius auratus 'Oranda'"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Hidegvízi halak",
+"max_meret_cm": 25,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 2000,
+"ar_ft_max": 15000,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-oroszlanfeju-ranchu",
+"tipus": "hal",
+"latin": "Carassius auratus",
+"magyar_nev": "Ranchu aranyhal",
+"egyeb_nevek": [
+"Oroszlánfejű aranyhal"
+],
+"regi_latin_nevek": [
+"Carassius auratus auratus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Aranyhalak",
+"max_meret_cm": 18,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 3000,
+"ar_ft_max": 15000,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-shubunkin",
+"tipus": "hal",
+"latin": "Carassius auratus",
+"magyar_nev": "Subunkin",
+"egyeb_nevek": [
+"Kalikó aranyhal"
+],
+"regi_latin_nevek": [],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Hidegvízi halak",
+"max_meret_cm": 25,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 200,
+"homerseklet_min": 4,
+"homerseklet_max": 22,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 5000,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus-teleszkopszemu",
+"tipus": "hal",
+"latin": "Carassius auratus auratus",
+"magyar_nev": "Teleszkópszemű aranyhal",
+"egyeb_nevek": [
+"Demekin",
+"Sárkányszemű aranyhal"
+],
+"regi_latin_nevek": [
+"Carassius auratus 'Telescope Eye'"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Hidegvízi halak",
+"max_meret_cm": 18,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 10000,
+"ellenorzott": false
+},
+{
+"id": "carassius-auratus",
+"tipus": "hal",
+"latin": "Carassius auratus",
+"magyar_nev": "Aranyhal",
+"egyeb_nevek": [
+"Közönséges aranyhal"
+],
+"regi_latin_nevek": [
+"Cyprinus auratus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Hidegvízi halak",
+"max_meret_cm": 30,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 4,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "carnegiella-strigata",
 "tipus": "hal",
 "latin": "Carnegiella strigata",
@@ -167,6 +736,32 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "chilodus-punctatus",
+"tipus": "hal",
+"latin": "Chilodus punctatus",
+"magyar_nev": "Pöttyös fejel lefelé úszó lazac",
+"egyeb_nevek": [
+"Pöttyös álló lazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Chilodontidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 8,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2200,
 "ellenorzott": false
 },
 {
@@ -196,6 +791,288 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "corynopoma-riisei",
+"tipus": "hal",
+"latin": "Corynopoma riisei",
+"magyar_nev": "Kopoltyús-pálcás lazac",
+"egyeb_nevek": [
+"Pálcás lazac",
+"Kopoltyús lazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 800,
+"ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "crenuchus-spilurus",
+"tipus": "hal",
+"latin": "Crenuchus spilurus",
+"magyar_nev": "Vitorlás pontylazac",
+"egyeb_nevek": [
+"Feketeúszójú pontylazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Crenuchidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.0,
+"ph_max": 6.8,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
+"id": "crossocheilus-oblongus",
+"tipus": "hal",
+"latin": "Crossocheilus oblongus",
+"magyar_nev": "Sziámi algaevő márna",
+"egyeb_nevek": [
+"Sziámi ormányosmárna"
+],
+"regi_latin_nevek": [
+"Crossocheilus siamensis",
+"Epalzeorhynchos siamensis"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "danio-albolineatus",
+"tipus": "hal",
+"latin": "Danio albolineatus",
+"magyar_nev": "Gyöngydánió",
+"egyeb_nevek": [
+"Gyöngyház dánió"
+],
+"regi_latin_nevek": [
+"Brachydanio albolineatus",
+"Nuria albolineata"
+],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfelék",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 20.0,
+"homerseklet_max": 25.0,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 600,
+"ellenorzott": false
+},
+{
+"id": "danio-choprae",
+"tipus": "hal",
+"latin": "Danio choprae",
+"magyar_nev": "Glowlight dánió",
+"egyeb_nevek": [
+"Rubin dánió"
+],
+"regi_latin_nevek": [
+"Devario choprae",
+"Celestichthys choprae"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Dániók és razkórák",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 20.0,
+"homerseklet_max": 26.0,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "danio-erythromicron",
+"tipus": "hal",
+"latin": "Danio erythromicron",
+"magyar_nev": "Smaragd törpedánió",
+"egyeb_nevek": [
+"Smaragdsávos törpedánió"
+],
+"regi_latin_nevek": [
+"Microrasbora erythromicron",
+"Celestichthys erythromicron"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Dániók és razkórák",
+"max_meret_cm": 2.0,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 20.0,
+"homerseklet_max": 24.0,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "danio-kyathit",
+"tipus": "hal",
+"latin": "Danio kyathit",
+"magyar_nev": "Narancssávos dánió",
+"egyeb_nevek": [
+"Kyathit dánió"
+],
+"regi_latin_nevek": [],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfelék",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 16.0,
+"homerseklet_max": 26.0,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 600,
+"ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "danio-margaritatus",
+"tipus": "hal",
+"latin": "Danio margaritatus",
+"magyar_nev": "Gyöngydánió (galaxis razbóra)",
+"egyeb_nevek": [
+"Microrasbora sp. Galaxy",
+"Galaxis dánió"
+],
+"regi_latin_nevek": [
+"Celestichthys margaritatus"
+],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfelék",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 20.0,
+"homerseklet_max": 26.0,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 700,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "danio-rerio",
+"tipus": "hal",
+"latin": "Danio rerio",
+"magyar_nev": "Zebradánió",
+"egyeb_nevek": [
+"Dánió"
+],
+"regi_latin_nevek": [
+"Brachydanio rerio"
+],
+"csalad": "Cyprinidae",
+"csoport": "Márnok és pontyfélék",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 18,
+"homerseklet_max": 25,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 300,
+"ar_ft_max": 600,
+"ellenorzott": false
+},
+{
+"id": "dawkinsia-filamentosa",
+"tipus": "hal",
+"latin": "Dawkinsia filamentosa",
+"magyar_nev": "Filamentosa márna",
+"egyeb_nevek": [
+"Fonalas márna",
+"Tollasúszójú márna"
+],
+"regi_latin_nevek": [
+"Puntius filamentosus",
+"Barbus filamentosus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 200,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1800,
 "ellenorzott": false
 },
 {
@@ -229,6 +1106,233 @@
 "ellenorzott": false
 },
 {
+"id": "desmopuntius-pentazona",
+"tipus": "hal",
+"latin": "Desmopuntius pentazona",
+"magyar_nev": "Ötsávos márna",
+"egyeb_nevek": [
+"Ötsávos díszmárna"
+],
+"regi_latin_nevek": [
+"Puntius pentazona",
+"Capoeta pentazona",
+"Barbus pentazona"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 850,
+"ellenorzott": false
+},
+{
+"id": "devario-aequipinnatus",
+"tipus": "hal",
+"latin": "Devario aequipinnatus",
+"magyar_nev": "Óriás dánió",
+"egyeb_nevek": [
+"Óriásdánió"
+],
+"regi_latin_nevek": [
+"Danio aequipinnatus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Dániók és razkórák",
+"max_meret_cm": 10.0,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 20.0,
+"homerseklet_max": 25.0,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "devario-malabaricus",
+"tipus": "hal",
+"latin": "Devario malabaricus",
+"magyar_nev": "Malabári dánió",
+"egyeb_nevek": [
+"Óriás dánió"
+],
+"regi_latin_nevek": [
+"Danio malabaricus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák és dániók",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "distichodus-sexfasciatus",
+"tipus": "hal",
+"latin": "Distichodus sexfasciatus",
+"magyar_nev": "Hatcsíkos disztichódusz",
+"egyeb_nevek": [
+"Hatcsíkos gepárdlazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Distichodontidae",
+"csoport": "Afrikai pontylazacok",
+"max_meret_cm": 35,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 500,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
+"id": "epalzeorhynchos-bicolor",
+"tipus": "hal",
+"latin": "Epalzeorhynchos bicolor",
+"magyar_nev": "Labeo",
+"egyeb_nevek": [
+"Feketecápa",
+"vörösfarkú cápa",
+"vörösfarkú rojtosszájú hal"
+],
+"regi_latin_nevek": [
+"Labeo bicolor"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Pontyfélék",
+"max_meret_cm": 15,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "epalzeorhynchos-frenatum",
+"tipus": "hal",
+"latin": "Epalzeorhynchos frenatum",
+"magyar_nev": "Szivárványos cápa",
+"egyeb_nevek": [
+"Vörösúszójú cápa",
+"zöld rojtosszájú hal"
+],
+"regi_latin_nevek": [
+"Labeo frenatus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Pontyfélék",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 700,
+"ar_ft_max": 1300,
+"ellenorzott": false
+},
+{
+"id": "epalzeorhynchos-kalopterus",
+"tipus": "hal",
+"latin": "Epalzeorhynchos kalopterus",
+"magyar_nev": "Díszmárna",
+"egyeb_nevek": [
+"Sujtásos díszmárna",
+"repülő róka"
+],
+"regi_latin_nevek": [
+"Barbus kalopterus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Pontyfélék",
+"max_meret_cm": 15,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 900,
+"ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "exodon-paradoxus",
+"tipus": "hal",
+"latin": "Exodon paradoxus",
+"magyar_nev": "Kétszínű fogaslazac",
+"egyeb_nevek": [
+"Exodon",
+"Sarkos fogaslazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 12,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "gambusia-holbrooki",
 "tipus": "hal",
 "latin": "Gambusia holbrooki",
@@ -255,6 +1359,32 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 500,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "garra-rufa",
+"tipus": "hal",
+"latin": "Garra rufa",
+"magyar_nev": "Doktorhal",
+"egyeb_nevek": [
+"Pirosas szívogató márna"
+],
+"regi_latin_nevek": [],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 15,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
 "ellenorzott": false
 },
 {
@@ -958,6 +2088,32 @@
 "ellenorzott": false
 },
 {
+"id": "leucaspius-delineatus",
+"tipus": "hal",
+"latin": "Leucaspius delineatus",
+"magyar_nev": "Kurta baing",
+"egyeb_nevek": [
+"Baing"
+],
+"regi_latin_nevek": [],
+"csalad": "Leuciscidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 9,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 10,
+"homerseklet_max": 22,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 500,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
 "id": "limia-melanogaster",
 "tipus": "hal",
 "latin": "Limia melanogaster",
@@ -1015,6 +2171,63 @@
 "ellenorzott": false
 },
 {
+"id": "metynnis-hypsauchen",
+"tipus": "hal",
+"latin": "Metynnis hypsauchen",
+"magyar_nev": "Sima ezüstdollár hal",
+"egyeb_nevek": [
+"Ezüstdollár hal"
+],
+"regi_latin_nevek": [
+"Myletes hypsauchen"
+],
+"csalad": "Serrasalmidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 300,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "microdevario-kubotai",
+"tipus": "hal",
+"latin": "Microdevario kubotai",
+"magyar_nev": "Smaragdzöld razbóra",
+"egyeb_nevek": [
+"Neon zöld razbóra",
+"Kubotai razbóra"
+],
+"regi_latin_nevek": [
+"Microrasbora kubotai"
+],
+"csalad": "Danionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 2.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
 "id": "micropoecilia-picta",
 "tipus": "hal",
 "latin": "Micropoecilia picta",
@@ -1041,6 +2254,33 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 1000,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "microrasbora-rubescens",
+"tipus": "hal",
+"latin": "Microrasbora rubescens",
+"magyar_nev": "Vörös törperazbóra",
+"egyeb_nevek": [
+"Rubinrazbóra",
+"Inle-tavi törperazbóra"
+],
+"regi_latin_nevek": [],
+"csalad": "Danionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 3.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 6.8,
+"ph_max": 8.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 700,
+"ar_ft_max": 1400,
 "ellenorzott": false
 },
 {
@@ -1096,6 +2336,34 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 400,
 "ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "myloplus-rubripinnis",
+"tipus": "hal",
+"latin": "Myloplus rubripinnis",
+"magyar_nev": "Horogúszójú piranha",
+"egyeb_nevek": [
+"Pirosúszójú ezüstdollár"
+],
+"regi_latin_nevek": [
+"Myleus rubripinnis"
+],
+"csalad": "Serrasalmidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 25,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 450,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
 "ellenorzott": false
 },
 {
@@ -1269,6 +2537,34 @@
 "ellenorzott": false
 },
 {
+"id": "neolebias-ansorgii",
+"tipus": "hal",
+"latin": "Neolebias ansorgii",
+"magyar_nev": "Afrikai törpelazac",
+"egyeb_nevek": [
+"Ansorge-törpelazac"
+],
+"regi_latin_nevek": [
+"Nannaethiops ansorgii"
+],
+"csalad": "Distichodontidae",
+"csoport": "Afrikai pontylazacok",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 5.5,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "nomorhamphus-liemi",
 "tipus": "hal",
 "latin": "Nomorhamphus liemi",
@@ -1293,6 +2589,37 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 1800,
 "ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "oliotius-oligolepis",
+"tipus": "hal",
+"latin": "Oliotius oligolepis",
+"magyar_nev": "Kurze-márna",
+"egyeb_nevek": [
+"Kockamárna",
+"Pikkelyfoltos márna"
+],
+"regi_latin_nevek": [
+"Puntius oligolepis",
+"Capoeta oligolepis",
+"Barbus oligolepis"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 20,
+"homerseklet_max": 25,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 400,
+"ar_ft_max": 750,
 "ellenorzott": false
 },
 {
@@ -1383,6 +2710,122 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 450,
 "ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "pethia-conchonius",
+"tipus": "hal",
+"latin": "Pethia conchonius",
+"magyar_nev": "Rózsás márna",
+"egyeb_nevek": [
+"Rózsás márna"
+],
+"regi_latin_nevek": [
+"Barbus conchonius",
+"Puntius conchonius"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 8,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 18,
+"homerseklet_max": 25,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "pethia-gelius",
+"tipus": "hal",
+"latin": "Pethia gelius",
+"magyar_nev": "Arany díszmárna",
+"egyeb_nevek": [
+"Törpe díszmárna"
+],
+"regi_latin_nevek": [
+"Puntius gelius",
+"Barbus gelius"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 450,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "pethia-nigrofasciata",
+"tipus": "hal",
+"latin": "Pethia nigrofasciata",
+"magyar_nev": "Bíbormárna",
+"egyeb_nevek": [
+"Fekete márna"
+],
+"regi_latin_nevek": [
+"Barbus nigrofasciatus",
+"Puntius nigrofasciatus"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "pethia-padamya",
+"tipus": "hal",
+"latin": "Pethia padamya",
+"magyar_nev": "Odessza-márna",
+"egyeb_nevek": [
+"Odessza díszmárna"
+],
+"regi_latin_nevek": [
+"Puntius padamya",
+"Puntius sp. 'Odessa'"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
 "ellenorzott": false
 },
 {
@@ -1590,6 +3033,60 @@
 "ellenorzott": false
 },
 {
+"id": "poecilocharax-weitzmani",
+"tipus": "hal",
+"latin": "Poecilocharax weitzmani",
+"magyar_nev": "Fekete killi pontylazac",
+"egyeb_nevek": [
+"Weitzman pontylazaca"
+],
+"regi_latin_nevek": [],
+"csalad": "Crenuchidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 4,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 4.0,
+"ph_max": 6.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "prionobrama-filigera",
+"tipus": "hal",
+"latin": "Prionobrama filigera",
+"magyar_nev": "Üveglazac",
+"egyeb_nevek": [
+"Pirosfarkú üveglazac"
+],
+"regi_latin_nevek": [
+"Aphyocharax filigerus"
+],
+"csalad": "Characidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 500,
+"ar_ft_max": 900,
+"ellenorzott": false
+},
+{
 "id": "pristella-maxillaris",
 "tipus": "hal",
 "latin": "Pristella maxillaris",
@@ -1620,6 +3117,426 @@
 "ellenorzott": false
 },
 {
+"id": "puntigrus-tetrazona",
+"tipus": "hal",
+"latin": "Puntigrus tetrazona",
+"magyar_nev": "Szumátrai díszmárna",
+"egyeb_nevek": [
+"Szumi"
+],
+"regi_latin_nevek": [
+"Barbus tetrazona",
+"Capoeta tetrazona",
+"Puntius tetrazona"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 7,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "puntius-titteya",
+"tipus": "hal",
+"latin": "Puntius titteya",
+"magyar_nev": "Cseresznyemárna",
+"egyeb_nevek": [
+"Meggyfa márna",
+"Vörös márna"
+],
+"regi_latin_nevek": [
+"Capoeta titteya",
+"Barbus titteya"
+],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 5.0,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "pygocentrus-nattereri",
+"tipus": "hal",
+"latin": "Pygocentrus nattereri",
+"magyar_nev": "Vöröshasú pirája",
+"egyeb_nevek": [
+"Pirája"
+],
+"regi_latin_nevek": [
+"Serrasalmus nattereri"
+],
+"csalad": "Serrasalmidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 30,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 400,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 5000,
+"ellenorzott": false
+},
+{
+"id": "rasbora-borapetensis",
+"tipus": "hal",
+"latin": "Rasbora borapetensis",
+"magyar_nev": "Vörösfarkú razbóra",
+"egyeb_nevek": [
+"Feketesávos razbóra"
+],
+"regi_latin_nevek": [],
+"csalad": "Danionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 450,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "rasbora-dorsiocellata",
+"tipus": "hal",
+"latin": "Brevibora dorsiocellata",
+"magyar_nev": "Szemfoltos razbóra",
+"egyeb_nevek": [
+"Jelzőlámpás razbóra"
+],
+"regi_latin_nevek": [
+"Rasbora dorsiocellata"
+],
+"csalad": "Danionidae",
+"csoport": "Pontyfelék",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 21,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 400,
+"ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "rasbora-einthovenii",
+"tipus": "hal",
+"latin": "Rasbora einthovenii",
+"magyar_nev": "Díszsávos razbóra",
+"egyeb_nevek": [
+"Einthoven-razbóra"
+],
+"regi_latin_nevek": [
+"Leuciscus einthovenii"
+],
+"csalad": "Danionidae",
+"csoport": "Pontyfelék",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 5.0,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 450,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "rasbora-pauciperforata",
+"tipus": "hal",
+"latin": "Trigonopoma pauciperforatum",
+"magyar_nev": "Vörössávos razbóra",
+"egyeb_nevek": [
+"Izzólámpás razbóra"
+],
+"regi_latin_nevek": [
+"Rasbora pauciperforata"
+],
+"csalad": "Danionidae",
+"csoport": "Pontyfelék",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 5.0,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 450,
+"ar_ft_max": 850,
+"ellenorzott": false
+},
+{
+"id": "rasbora-trilineata",
+"tipus": "hal",
+"latin": "Rasbora trilineata",
+"magyar_nev": "Ollósfarkú razbóra",
+"egyeb_nevek": [
+"Háromsávos razbóra"
+],
+"regi_latin_nevek": [],
+"csalad": "Danionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 13.0,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 700,
+"ellenorzott": false
+},
+{
+"id": "rasboroides-vaterifloris",
+"tipus": "hal",
+"latin": "Rasboroides vaterifloris",
+"magyar_nev": "Pompás razbóra",
+"egyeb_nevek": [
+"Lángrazbóra"
+],
+"regi_latin_nevek": [
+"Rasbora vaterifloris"
+],
+"csalad": "Danionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 50,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 5.5,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "rhodeus-amarus",
+"tipus": "hal",
+"latin": "Rhodeus amarus",
+"magyar_nev": "Szivárványos ökle",
+"egyeb_nevek": [
+"Ökle"
+],
+"regi_latin_nevek": [
+"Rhodeus sericeus amarus"
+],
+"csalad": "Acheilognathidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 8,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 100,
+"homerseklet_min": 4,
+"homerseklet_max": 22,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 800,
+"ar_ft_max": 2000,
+"ellenorzott": false
+},
+{
+"id": "sahyadria-denisonii",
+"tipus": "hal",
+"latin": "Sahyadria denisonii",
+"magyar_nev": "Denison-márna",
+"egyeb_nevek": [
+"Denison-márna",
+"Indiai díszmárna"
+],
+"regi_latin_nevek": [
+"Puntius denisonii",
+"Barbus denisonii",
+"Crossocheilus denisonii"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 18,
+"homerseklet_max": 25,
+"ph_min": 6.5,
+"ph_max": 7.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 5500,
+"ellenorzott": false
+},
+{
+"id": "semaprochilodus-taeniurus",
+"tipus": "hal",
+"latin": "Semaprochilodus taeniurus",
+"magyar_nev": "Zászlós farokúszójú lazac",
+"egyeb_nevek": [
+"Zászlós prochilodus",
+"Sávosfarkú lazac"
+],
+"regi_latin_nevek": [
+"Prochilodus taeniurus"
+],
+"csalad": "Prochilodontidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 25,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 400,
+"homerseklet_min": 23,
+"homerseklet_max": 29,
+"ph_min": 5.8,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 3500,
+"ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "sundadanio-axelrodi",
+"tipus": "hal",
+"latin": "Sundadanio axelrodi",
+"magyar_nev": "Axelrod-törperazbóra",
+"egyeb_nevek": [
+"Kék törperazbóra"
+],
+"regi_latin_nevek": [
+"Rasbora axelrodi"
+],
+"csalad": "Sundadanionidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 23,
+"homerseklet_max": 26,
+"ph_min": 4.0,
+"ph_max": 6.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 900,
+"ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "tanichthys-albonubes",
+"tipus": "hal",
+"latin": "Tanichthys albonubes",
+"magyar_nev": "Kolibrihal",
+"egyeb_nevek": [
+"Kínai neonhal"
+],
+"regi_latin_nevek": [],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Dániófélék és rokonai",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 14,
+"homerseklet_max": 22,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 300,
+"ar_ft_max": 600,
+"ellenorzott": false
+},
+{
+"id": "tanichthys-micagemmae",
+"tipus": "hal",
+"latin": "Tanichthys micagemmae",
+"magyar_nev": "Vietnámi kolibrihal",
+"egyeb_nevek": [
+"Törpe kolibrihal"
+],
+"regi_latin_nevek": [],
+"csalad": "Leuciscidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 3,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
 "id": "thayeria-boehlkei",
 "tipus": "hal",
 "latin": "Thayeria boehlkei",
@@ -1646,6 +3563,90 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 450,
 "ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "trigonostigma-espei",
+"tipus": "hal",
+"latin": "Trigonostigma espei",
+"magyar_nev": "Karcsú ékfoltos razbóra",
+"egyeb_nevek": [
+"Espe razbóra"
+],
+"regi_latin_nevek": [
+"Rasbora espei"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák és dániók",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "trigonostigma-hengeli",
+"tipus": "hal",
+"latin": "Trigonostigma hengeli",
+"magyar_nev": "Hengel ékfoltos razbórája",
+"egyeb_nevek": [
+"Fényes ékfoltos razbóra"
+],
+"regi_latin_nevek": [
+"Rasbora hengeli"
+],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "trigonostigma-heteromorpha",
+"tipus": "hal",
+"latin": "Trigonostigma heteromorpha",
+"magyar_nev": "Ékfoltos razbóra",
+"egyeb_nevek": [
+"Ékfoltos razbora"
+],
+"regi_latin_nevek": [
+"Rasbora heteromorpha"
+],
+"csalad": "Cyprinidae (Pontyfélék)",
+"csoport": "Márnák és dániók",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 700,
 "ellenorzott": false
 },
 {

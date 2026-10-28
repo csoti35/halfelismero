@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Danio rerio",
+ "id": "danio-rerio",
+ "tipus": "hal",
+ "latin": "Danio rerio",
+ "regi_latin_nevek": [
+  "Brachydanio rerio"
+ ],
+ "magyar_nev": "Zebradánió",
+ "egyeb_nevek": [
+  "Dánió"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Márnok és pontyfélék",
+ "szarmazas": "Ázsia (India, Pakisztán, Banglades)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon aktív, mozgékony és békés rajhal. Folyamatosan úszik, gyors mozgásával élénkíti az akváriumot.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, probléma nélkül elfogadja a lemezes, granulált, fagyasztott és élő tápokat is.",
+ "tarsithato": [
+  "Más dániók",
+  "Békés pontylazacok",
+  "Páncélosharcsák",
+  "Márnokok"
+ ],
+ "kerulendo": [
+  "Hosszú úszójú, lassú halak (pl. sziámi harcoshal)",
+  "Nagytestű ragadozók"
+ ],
+ "szaporodas_mod": "Szabadon ívó ikraszORÓ",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Helyezzünk egy pár vagy csapatos dániót ívató ráccsal ellátott akváriumba.",
+  "A reggeli fény hatására az ikrázás általában megtörténik.",
+  "Az ikrákat a szülők megeszik, ezért ívás után azonnal vegyük ki a felnőtteket.",
+  "Az ikrák 36-48 órán belül kikelnek.",
+  "A szikzacskó felszívódása után papucsállatkával, majd artémiával etessük a ivadékot."
+ ],
+ "ivari_kulonbseg": "A nőstények kerekdedebbek és teltebbek, a hímek karcsúbbak és aranyosabb árnyalatúak.",
+ "felismeres_jegyek": [
+  "Hosszanti kék és sárgásfehér/ezüst csíkok a testen",
+  "A csíkok kiterjednek a farokúszóra és a farokalatti úszóra is",
+  "Áramvonalas, hengeres testforma",
+  "Két pár apró bajuszszál a szájszegletben"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Danio nigrofasciatus",
+   "magyar_nev": "Pettyes dánió",
+   "kulonbseg": "A test alsó részén csíkok helyett pettyek láthatók."
+  },
+  {
+   "latin": "Danio kyathit",
+   "magyar_nev": "Rubin dánió",
+   "kulonbseg": "Narancssárgás alapszín, csíkok helyett gyakran szaggatott mintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darafórtság",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 300,
+ "ar_ft_max": 600,
+ "tippek": [
+  "Mindig jól fedjük le az akváriumot, mert kiváló ugrók.",
+  "Biztosítsunk számukra kiadós kiúszóteret és közepes áramlást."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

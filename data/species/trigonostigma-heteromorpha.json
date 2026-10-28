@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Trigonostigma heteromorpha",
+ "id": "trigonostigma-heteromorpha",
+ "tipus": "hal",
+ "latin": "Trigonostigma heteromorpha",
+ "regi_latin_nevek": [
+  "Rasbora heteromorpha"
+ ],
+ "magyar_nev": "Ékfoltos razbóra",
+ "egyeb_nevek": [
+  "Ékfoltos razbora"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák és dániók",
+ "szarmazas": "Thaiföld, Malajzia, Szingapúr, Szumátra",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, nyugodt rajhal, tökéletes társas akváriumi lakó. Népes csapatban mutatja meg legszebb viselkedését.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, apró méretű lemezes és granulált tápokat, valamint fagyasztott eleségeket (pl. artémia, ciklop) örömmel fogyaszt.",
+ "tarsithato": [
+  "Más békés kistestű halakkal",
+  "pl. dániókkal",
+  "törpe szívóharcsákkal",
+  "páncélos harcsákkal",
+  "gurámikkal és kistestű tétrákkal."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy ragadozó halak",
+  "amelyek tápláléknak tekinthetik."
+ ],
+ "szaporodas_mod": "Ikrázó, az ikrákat széles levelű növények leveleinek fonákára tapasztja.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Készítsünk elő lágy (1-5 dGH), savas (pH 5.5-6.5) vízzel feltöltött ívató akváriumot Cryptocoryne vagy más széles levelű növényekkel.",
+  "Kondicionáljuk a tenyészpárt minőségi élő eleséggel.",
+  "A pár a növény levelének fonákára hátukra fordulva tapasztja az ikrákat.",
+  "Ívás után távolítsuk el a szülőket az akváriumból.",
+  "Az ikrák kb. 24-48 óra múlva kelnek ki, az elúszó ivadékot indítóeleséggel (papucsállatka, rotatoria), majd artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, színük intenzívebb, és a fekete ékfolt elülső alsó csúcsa hegyesebb, mélyebbre nyúlik fel a has irányába. A nőstények kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Rózsaszínes-narancssárgás alapszín",
+  "A test hátsó felén található jól kivehető, fekete, háromszög vagy ék alakú folt",
+  "Magas, oldalról lapított testforma",
+  "Átlátszó, enyhén narancsos árnyalatú úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trigonostigma espei",
+   "magyar_nev": "Karcsú ékfoltos razbóra",
+   "kulonbseg": "Testalkata karcsúbb, színe élénkebb narancssárga, fekete foltja keskenyebb és lámpás alakú."
+  },
+  {
+   "latin": "Trigonostigma hengeli",
+   "magyar_nev": "Hengel ékfoltos razbórája",
+   "kulonbseg": "A fekete folt felett egy neonfényű, világító narancssárga csík húzódik, teste áttetszőbb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daraszórtság (Ichthyophthiriasis)",
+  "Halgümőkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 700,
+ "tippek": [
+  "Sötét aljzat és dús növényzet mellett mutatják ki legszebb színeiket.",
+  "Tartsuk őket legalább 8-10 fős csapatban a biztonságérzetük érdekében."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

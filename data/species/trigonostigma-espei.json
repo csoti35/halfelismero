@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Trigonostigma espei",
+ "id": "trigonostigma-espei",
+ "tipus": "hal",
+ "latin": "Trigonostigma espei",
+ "regi_latin_nevek": [
+  "Rasbora espei"
+ ],
+ "magyar_nev": "Karcsú ékfoltos razbóra",
+ "egyeb_nevek": [
+  "Espe razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák és dániók",
+ "szarmazas": "Thaiföld, Kambodzsa",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, kissé félénk rajhal. Kifejezetten jól mutat növényes (aquascaping) akváriumokban.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 10,
+ "taplalek": "Apró szemű lemezes, granulált tápok, kiegészítve kisméretű élő vagy fagyasztott eleséggel (artémia nauplii, ciklop).",
+ "tarsithato": [
+  "Kistestű",
+  "békés fajokkal: törpe razbórák",
+  "neonhalak",
+  "páncélos harcsák",
+  "törpe szívóharcsák",
+  "garnélák."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "agresszív vagy gyors mozgású halak",
+  "amelyek elrémisztik vagy bekaphatják."
+ ],
+ "szaporodas_mod": "Ikrázó, a levél fonákára tapasztja az ikrákat.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, savas vízzel (pH 5.5-6.0) feltöltött ívató akváriumot rendezzünk be széles levelű növényekkel (pl. Cryptocoryne).",
+  "A tenyészállatokat bőséges élő eleséggel kondicionáljuk.",
+  "Az ívás a levél fonákán történik, a pár fejjel lefelé úszva tapasztja oda az ikrákat.",
+  "Az ívást követően a szülőket azonnal el kell távolítani.",
+  "A kikelő ivadékokat apró indítóeleséggel (infuzória), majd frissen kelt artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és elképesztően élénk rézvörös/narancssárga színűek, a nőstények kerekdedebbek és kicsit halványabbak.",
+ "felismeres_jegyek": [
+  "Intenzív rézvörös vagy élénk narancssárga alapszín",
+  "A testen lévő fekete rajzolat keskenyebb, „lámpás” vagy pipa alakú, nem éri el a has alját",
+  "A T. heteromorpha-nál karcsúbb, nyújtottabb testforma",
+  "Kisméretű, maximum 3.5 cm-es kifejlett hossz"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trigonostigma heteromorpha",
+   "magyar_nev": "Ékfoltos razbóra",
+   "kulonbseg": "Magasabb testű, a fekete ékfoltja lényegesen nagyobb és szélesebb."
+  },
+  {
+   "latin": "Trigonostigma hengeli",
+   "magyar_nev": "Hengel ékfoltos razbórája",
+   "kulonbseg": "Alapszíne szürkésebb-áttetszőbb, de a fekete csík felett egy szembetűnő, neon-narancs vonal látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daraszórtság (Ichthyophthiriasis)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "A lágy és enyhén savas vízben hozzák ki a legszebb vöröses-narancssárga színeiket.",
+  "Növényekkel sűrűn beültetett akváriumban érzik magukat a legnagyobb biztonságban."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

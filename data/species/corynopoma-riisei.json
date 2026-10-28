@@ -1,0 +1,81 @@
+{
+ "lista_nev": "Corynopoma riisei",
+ "id": "corynopoma-riisei",
+ "tipus": "hal",
+ "latin": "Corynopoma riisei",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kopoltyús-pálcás lazac",
+ "egyeb_nevek": [
+  "Pálcás lazac",
+  "Kopoltyús lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Trinidad és Tobago, Venezuela",
+ "max_meret_cm": 7,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, érdekes viselkedésű rajhal. Különlegessége a belső megtermékenyítés és a hímek kopoltyúfedőjén található sajátos pálcaszerű nyúlvány.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; apró lemezes tápok, fagyasztott és élő artémia, ciklop, szúnyoglárva.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés fajokkal: páncélosharcsák",
+  "törpe szívóharcsák",
+  "más kisebb pontylazacok",
+  "dániók."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív vagy úszócsipkedő fajok (pl. szumátrai dánió",
+  "sügérek)."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A hím belső megtermékenyítéssel adja át a spermatofórát a nősténynek a udvarlási tánc során.",
+  "A megtermékenyített nőstény később egyedül raka le az ikrákat a növények leveleire.",
+  "Ívás után a nőstényt távolítsuk el az ikrák védelmében.",
+  "Az ivadékok apró méretűek, indítóként papucsállatkával vagy mikroplanktonnal etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek kopoltyúfedőjén egy hosszú, korongban végződő pálcaszerű nyúlvány található, valamint hát- és farok alatti úszójuk lényegesen megnyúltabb.",
+ "felismeres_jegyek": [
+  "Áttetsző, ezüstös-sárgás test.",
+  "A hím kopoltyúfedőjéből kiinduló vékony, pálcaszerű nyúlvány.",
+  "A hímek hatalmasra megnőtt, fátyolos hát- és farok alatti úszói.",
+  "Ikarosz-szárnyszerűen szétálló mellúszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mimagoniates barberi",
+   "magyar_nev": "Kékpántos pontylazac",
+   "kulonbseg": "Testén kék sáv húzódik, hiányzik a hímek kopoltyúpálcája."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Dara-kór",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Hagyjunk elegendő szabad úszóteret a vízfelszín közelében, de ültessünk sűrű növényzetet is a hátőtérbe.",
+  "Szeretik az enyhe áramlást és a tiszta, oxigéndús vizet."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

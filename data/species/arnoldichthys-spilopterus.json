@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Arnoldichthys spilopterus",
+ "id": "arnoldichthys-spilopterus",
+ "tipus": "hal",
+ "latin": "Arnoldichthys spilopterus",
+ "regi_latin_nevek": [
+  "Petersius spilopterus"
+ ],
+ "magyar_nev": "Nigériai lazac",
+ "egyeb_nevek": [
+  "Pirosszemű afrikai lazac",
+  "Arnold-lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alestidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Afrika (Nigéria, Niger-delta)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Módszeres, de békés csapathal. Aktív úszó, nem bántja a többi halat, de a túlságosan kicsi ivadékokat bekaphatja. Félénk lehet, ha túl kevesen vannak.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő. Száraz lemezes, granulált tápokat örömmel elfogadja, de igényli a fagyasztott és élő eleséget (artémia, szúnyoglárva, mysis).",
+ "tarsithato": [
+  "Hasonló méretű",
+  "békés afrikai vagy dél-amerikai halakkal (pl. Kongólazac",
+  "csendesebb sügérek",
+  "páncélosharcsák",
+  "algaevők)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak (pl. törpe razbórák",
+  "neonhalak)",
+  "agresszív sügérek és lassú",
+  "fátyolos úszójú fajok."
+ ],
+ "szaporodas_mod": "Ikrarakó, ikrafaló.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium előkészítése lágy, enyhén savas (pH 6.2-6.5) vízzel és ikraráccsal vagy sűrű növényzettel (pl. jávai moha).",
+  "A szülőket élő eleséggel bőségesen táplálva kondicionáljuk, majd egy párként vagy kis csapatként helyezzük át őket este.",
+  "Az ikrázás általában a kora reggeli órákban történik; a szülőket az ikrázás után azonnal el kell távolítani.",
+  "Az ikrák fényérzékenyek, ezért az ívató akváriumot sötétíteni kell.",
+  "A kishalak kb. 30-36 óra múlva kelnek ki, és a szikzacskó felszívódása után papucsállatkával vagy frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek szembetűnően színesebbek, a farok alatti úszójuk sárgás-fehéren sávos és lekerekítettebb, míg a nőstényeké egyenesebb, fakóbb, testük teltebb.",
+ "felismeres_jegyek": [
+  "Nagy, pikkelyes ezüstös-fémes test, a pikkelyek közepén sötét pettyekkel.",
+  "Szembetűnő, piros felső féltekéjű szem.",
+  "A hátúszó tetején egy jól látható, kifejezett fekete folt található.",
+  "A hímek farok alatti úszója párhuzamos, fekete és sárgás csíkokkal díszített."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Phenacogrammus interruptus",
+   "magyar_nev": "Kongólazac",
+   "kulonbseg": "A kongólazac úszói fátyolosabbak, pikkelyei szivárványosabbak, hiányzik a hátúszó éles fekete foltja."
+  },
+  {
+   "latin": "Brycinus longipinnis",
+   "magyar_nev": "Hosszúúszójú afrikai lazac",
+   "kulonbseg": "A Brycinus longipinnis úszói hosszabbak, színezete kevésbé pikkelymintás, nincs fekete folt a hátúszóján."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombás fertőzések (ikráknál és sérüléseknél)",
+  "Úszórohadás rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kiváló ugrók, ezért az akváriumot szorosan le kell fedni.",
+  "A tágas, legalább 100-120 cm hosszú úszótér elengedhetetlen számukra, mert nagy mozgásigényű, gyors halak.",
+  "Sötétebb aljzat és úszó növények mellett a színük sokkal intenzívebbé válik."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

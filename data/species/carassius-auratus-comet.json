@@ -1,0 +1,75 @@
+{
+ "id": "carassius-auratus-comet",
+ "lista_nev": "Carassius auratus 'Comet'",
+ "tipus": "hal",
+ "latin": "Carassius auratus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Üstökösfarkú aranyhal",
+ "egyeb_nevek": [
+  "Komét aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Hidegvízi halak",
+ "szarmazas": "USA (tenyésztett változat)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon gyors úszó, mozgékonyabb az alapfajnál. Nagy úszóteret igényel.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 4,
+ "homerseklet_max": 22,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, minden típusú aranyhaltápot elfogad.",
+ "tarsithato": [
+  "Hasonlóan gyors mozgású aranyhalak",
+  "koi ponty"
+ ],
+ "kerulendo": [
+  "Lassú",
+  "dülledt szemű vagy túltenyésztett úszójú változatok",
+  "mert eleszik előlük a táplálékot."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Csoportos ívatás dús növényzetű medencében vagy kerti tóban",
+  "bőséges élő eleség adása az ívás előtt."
+ ],
+ "ivari_kulonbseg": "A hímek nászkiütései és karcsúbb testalkata.",
+ "felismeres_jegyek": [
+  "Hosszú",
+  "mélyen villás farokúszó",
+  "megnyúlt test",
+  "gyakran piros-fehér (Sarasa) vagy tiszta narancs szín."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus",
+   "magyar_nev": "Közönséges aranyhal",
+   "kulonbseg": "Rövidebb és kevésbé villás farokúszó."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Mivel nagyon gyors, ügyeljünk, hogy ne legyenek éles tárgyak az akváriumban.",
+  "Tóban tartva télen is kint maradhat, ha a víz elég mély."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

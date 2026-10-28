@@ -1,0 +1,87 @@
+{
+ "id": "rasboroides-vaterifloris",
+ "tipus": "hal",
+ "latin": "Rasboroides vaterifloris",
+ "regi_latin_nevek": [
+  "Rasbora vaterifloris"
+ ],
+ "magyar_nev": "Pompás razbóra",
+ "lista_nev": "Rasboroides vaterifloris",
+ "egyeb_nevek": [
+  "Lángrazbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Srí Lanka",
+ "max_meret_cm": 4,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Félénk, békés rajhal. Csak hasonló méretű és temperamentumú halakkal tartható együtt.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 6.8,
+ "gh_min": 2,
+ "gh_max": 8,
+ "taplalek": "Igényli az apró élő eleséget (Cyclops, frissen kelt artémia), a száraz tápokat nehezebben fogadja el.",
+ "tarsithato": [
+  "Más kistestű Srí Lanka-i fajok",
+  "pl. vörös karcsú díszmárna",
+  "vagy békés törperazbórák."
+ ],
+ "kerulendo": [
+  "Gyors mozgású",
+  "domináns halak",
+  "amelyek eleszik előlük a táplálékot."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (2-4 dGH) és savas víz szükséges.",
+  "Akváriumi körülmények között ritkán szaporodik, nyugodt környezet kell.",
+  "Az ívást gyakran a reggeli napsütés stimulálja.",
+  "Az ikrák a növények közé hullanak, a szülőket utána ki kell venni.",
+  "Az ivadékok rendkívül aprók, papucsállatkával indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek színe sokkal intenzívebb narancssárga vagy vöröses, úszóik hosszabbak. A nőstények teltebbek és halványabbak.",
+ "felismeres_jegyek": [
+  "Magasabb testfelépítés a többi razbórához képest.",
+  "Alapszíne a narancssárgától az aranyig terjed.",
+  "Az úszók gyakran vöröses árnyalatúak.",
+  "Nincsenek markáns sötét foltok vagy sávok a testen.",
+  "Nagy szemek és finom pikkelyzet jellemzi."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trigonostigma espei",
+   "magyar_nev": "Espei razbóra",
+   "kulonbseg": "Az Espei razbórán fekete ék alakú folt található."
+  },
+  {
+   "latin": "Rasbora wilpita",
+   "magyar_nev": "Wilpita razbóra",
+   "kulonbseg": "Ezüstösebb test és fekete oldalvonal jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Vízminőségre való érzékenység"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Tőzeges szűréssel és sötétített vízzel érhető el a legjobb közérzetük.",
+  "Nagyon érzékenyek a nitrátra, rendszeres, kis mennyiségű vízcsere ajánlott."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

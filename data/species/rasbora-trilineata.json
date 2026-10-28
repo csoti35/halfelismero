@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Rasbora trilineata",
+ "id": "rasbora-trilineata",
+ "tipus": "hal",
+ "latin": "Rasbora trilineata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Ollósfarkú razbóra",
+ "egyeb_nevek": [
+  "Háromsávos razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Délkelet-Ázsia (Mianmar, Thaiföld, Malajzia, Indonézia)",
+ "max_meret_cm": 13.0,
+ "elettartam_ev": 6,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon aktív, békés rajhal. Gyors úszó, amely folyamatos mozgásban van az akvárium középső és felső vízrétegeiben.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő: kiváló minőségű lemezes és szemcsés tápok, élő és fagyasztott szúnyoglárva, artémia, daphnia.",
+ "tarsithato": [
+  "Más békés razbórák",
+  "Márvány gurámi",
+  "Dániók",
+  "Páncélosharcsák",
+  "Dél-amerikai lazacok"
+ ],
+ "kerulendo": [
+  "Nagy testű, agresszív sügérek",
+  "Nagyon lassú mozgású vagy túlzottan félénk fajok"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Különálló, legalább 40-50 literes ívató akvárium előkészítése ikraráccsal és finom levelű növényekkel.",
+  "Lágy (4-8 GH) és enyhén savanyú (pH 6.2-6.8) víz biztosítása.",
+  "Egy jól táplált hím és nőstény kihelyezése este.",
+  "Az ívás általában kora reggel történik, a szülőket az ívás után azonnal el kell távolítani.",
+  "Az ikrák 24-36 óra múlva kelnek ki, az ivadékok az szikzacskó felszívódása után artémia nauplival etethetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények láthatóan testesebbek és nagyobbak, a hímek karcsúbbak és kissé élénkebb mintázatúak.",
+ "felismeres_jegyek": [
+  "Ezüstös, félig áttetsző testforma.",
+  "Mélyen villás farokúszó, amelynek mindkét lebenyén egy-egy fekete és fehér keresztirányú sáv található.",
+  "Úszás közben a farokúszó jellegzetes, ollószerű mozgása.",
+  "Az oldalvonal mentén a test hátsó részén egy vékony sötét csík húzódik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Brevibora dorsiocellata",
+   "magyar_nev": "Szemfoltos razbóra",
+   "kulonbseg": "A B. dorsiocellata jóval kisebb, és a hátúszóján van egy jól látható fekete folt, míg a farkán nincs olló mintázat."
+  },
+  {
+   "latin": "Rasbora borapetensis",
+   "magyar_nev": "Pirosfarkú razbóra",
+   "kulonbseg": "A R. borapetensis faroktöve piros, és a testén egy világító arany-fekete sáv húzódik végig."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Ugrási hajlam miatti kiszáradás (akváriumon kívül)",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 700,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert kitűnő ugrók.",
+  "Nagy, nyílt úszótérre van szükségük, ezért hosszú kiépítésű akváriumot válasszunk számukra."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

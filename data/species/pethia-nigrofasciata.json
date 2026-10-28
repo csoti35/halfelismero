@@ -1,0 +1,88 @@
+{
+ "id": "pethia-nigrofasciata",
+ "tipus": "hal",
+ "latin": "Pethia nigrofasciata",
+ "regi_latin_nevek": [
+  "Barbus nigrofasciatus",
+  "Puntius nigrofasciatus"
+ ],
+ "magyar_nev": "Bíbormárna",
+ "lista_nev": "Pethia nigrofasciata",
+ "egyeb_nevek": [
+  "Fekete márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Srí Lanka",
+ "max_meret_cm": 6,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de nagyon mozgékony csapathal. Időnként kergetőznek, de nem bántják a többi halat.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, kedveli a jó minőségű lemezes tápokat és az élő eleséget.",
+ "tarsithato": [
+  "Más békés ázsiai halak",
+  "dániók",
+  "kisebb márnák",
+  "gurámik"
+ ],
+ "kerulendo": [
+  "Nagyon agresszív vagy túl nagy testű ragadozó halak"
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (5-8 GH) és enyhén savas víz szükséges az ívatáshoz.",
+  "Sűrű növényzetet vagy ívatórácsot használjunk az ikrák védelmében.",
+  "A hímek nászszíne sötétvörösre/feketére változik íváskor.",
+  "Ívás után a szülőket távolítsuk el.",
+  "Az ivadékok 24-48 óra múlva kelnek ki, apró eleséggel indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek feje és teste nászidőben mélyvörös, majdnem fekete, a nőstények sárgásabbak, fekete sávokkal.",
+ "felismeres_jegyek": [
+  "Zömök, magas testforma",
+  "3-4 függőleges sötét sáv az oldalon",
+  "A hímek feje és mellső része bíborvörösre színeződik",
+  "Az úszók sötétek, feketések",
+  "Nincs bajuszszála"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Puntigrus tetrazona",
+   "magyar_nev": "Szumátrai díszmárna",
+   "kulonbseg": "A szumátrai márna teste nyúlánkabb, és sosem lesz bíborvörös a feje."
+  },
+  {
+   "latin": "Pethia cumingii",
+   "magyar_nev": "Cuming-márna",
+   "kulonbseg": "Kisebb, és a sávok helyett inkább foltjai vannak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakkór",
+  "Bélgyulladás (rossz minőségű táp esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1000,
+ "tippek": [
+  "A hímek rivalizálása során mutatják a legszebb színeiket, tartsunk több hímet.",
+  "A gyengébb megvilágítás és a sötét háttér kiemeli a színeiket.",
+  "Érzékenyebbek a vízminőségre, mint a rózsás márna."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

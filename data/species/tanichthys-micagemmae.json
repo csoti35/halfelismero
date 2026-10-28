@@ -1,0 +1,85 @@
+{
+ "id": "tanichthys-micagemmae",
+ "tipus": "hal",
+ "latin": "Tanichthys micagemmae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vietnámi kolibrihal",
+ "egyeb_nevek": [
+  "Törpe kolibrihal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Leuciscidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Vietnám (Ben Hai folyó)",
+ "max_meret_cm": 3,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, élénk mozgású csapathal, amely jól érzi magát más kistestű fajok társaságában.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, apró szemű száraztápok, artémia, cyclops.",
+ "tarsithato": [
+  "Kistestű dániókkal",
+  "razborákkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy melegkedvelő sügérek."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és finom levelű növények biztosítása.",
+  "A szülőket bőséges élő eleséggel kondicionáljuk.",
+  "Párban vagy kis csapatban ívassuk őket.",
+  "Az ikrákat a növények közé szórják, nem gondozzák.",
+  "Az ívás után a szülőket távolítsuk el az ikrafalás elkerülése érdekében.",
+  "Az ivadékok 48-72 óra múlva kelnek ki."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és színesebbek, úszóik vörösesebbek, a nőstények hasa kerekdedebb.",
+ "felismeres_jegyek": [
+  "Ezüstös test",
+  "az oldalán végigfutó sötét csík felett világító neonkék sáv",
+  "vörös folt a faroktőnél",
+  "apró termet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Tanichthys albonubes",
+   "magyar_nev": "Kolibrihal",
+   "kulonbseg": "Nagyobb termet, hiányzik a test alsó felén látható finom pontozás."
+  },
+  {
+   "latin": "Paracheirodon innesi",
+   "magyar_nev": "Neonhal",
+   "kulonbseg": "Intenzívebb kék és piros színek, más testfelépítés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Ne tartsuk túl meleg vízben, mert lerövidül az élettartama.",
+  "Sűrű növényzet mellett jobban érvényesülnek a színei.",
+  "Kiváló választás fűtetlen szobai akváriumokba is."
+ ],
+ "lista_nev": "Tanichthys micagemmae",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

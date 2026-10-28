@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Neolebias ansorgii",
+ "id": "neolebias-ansorgii",
+ "tipus": "hal",
+ "latin": "Neolebias ansorgii",
+ "regi_latin_nevek": [
+  "Nannaethiops ansorgii"
+ ],
+ "magyar_nev": "Afrikai törpelazac",
+ "egyeb_nevek": [
+  "Ansorge-törpelazac"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Distichodontidae",
+ "csoport": "Afrikai pontylazacok",
+ "szarmazas": "Nyugat-Afrika (Kamerun, Gabon, Kongó)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, de ijedős és félénk törpe rajhal. Csak kifejezetten apró, nem agresszív fajokkal tartható együtt.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 6.8,
+ "gh_min": 2,
+ "gh_max": 8,
+ "taplalek": "Kisméretű élő és fagyasztott eleségek (artémia, cyclops), kiváló minőségű finom szemcséjű száraztápok.",
+ "tarsithato": [
+  "Kisméretű razbórák",
+  "törpe dániók",
+  "törpe páncélosharcsák",
+  "édesvízi garnélák."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "gyors vagy agresszív halak",
+  "amelyek megfélemlítik vagy megeszik."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (1-4 dGH) és savas (pH 5.5-6.0) víz beállítása a kis méretű ívató akváriumban.",
+  "Sűrű növényzet (pl. javai moha) vagy ikrarács elhelyezése.",
+  "A szülőpár kihelyezése és lassú aklimatizálása.",
+  "Ívás után a szülők azonnali eltávolítása.",
+  "A kikelő ivadékok etetése papucsállatkával, majd friss artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen színesebbek, pirosas árnyalatúak, a nőstények fakóbbak és gömbölydedebbek.",
+ "felismeres_jegyek": [
+  "Kistermetű, zömök pontylazac formájú test.",
+  "Aranyló-zöldes fényű hosszanti sáv a test középvonalában.",
+  "A hímek testén és úszóin megjelenő pirosas-narancssárga elszíneződés.",
+  "Sötét folt a faroktőnél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nannaethiops unitaeniatus",
+   "magyar_nev": "Egycsíkos afrikai pontylazac",
+   "kulonbseg": "Nagyobbra nő, és a hosszanti sávja feketébb, kontrasztosabb."
+  },
+  {
+   "latin": "Neolebias trilineatus",
+   "magyar_nev": "Háromcsíkos törpelazac",
+   "kulonbseg": "Három finom sötét vonal húzódik az oldalán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium (bársonybetegség)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Sötét aljzatú, sűrűn benövényesített, tőzeggel lágyított vizű akváriumban mutatja meg igazi színeit.",
+  "Kerüljük a túl erős áramlást és a túlzott világítást."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

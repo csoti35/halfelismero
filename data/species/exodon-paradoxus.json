@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Exodon paradoxus",
+ "id": "exodon-paradoxus",
+ "tipus": "hal",
+ "latin": "Exodon paradoxus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kétszínű fogaslazac",
+ "egyeb_nevek": [
+  "Exodon",
+  "Sarkos fogaslazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Guyana, Brazília, Amazónia)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül fürge, agresszív és csipkedős faj. Természetes élőhelyén pikkelyevő (lepidophagous), más halak pikkelyeit és úszóit tépdesi. Nagy rajban tartva a fajtársak közötti agresszió megoszlik.",
+ "rajhal": true,
+ "min_csoport": 12,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Ragadozó/pikkelyevő; elfogadja a fagyasztott és élő csontit, tubifexet, krillt, húst, magas fehérjetartalmú granulátumokat.",
+ "tarsithato": [
+  "Fajakváriumban ajánlott nagy rajban. Esetleg gyors",
+  "robusztus harcsákkal (pl. Loricariidae) tartható együtt."
+ ],
+ "kerulendo": [
+  "Minden lassú",
+  "fátyolos úszójú vagy kisebb hal",
+  "illetve más pontylazacok",
+  "mert letépik a pikkelyeiket."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Jól táplált szülőket különítsünk el egy sötétített ívató akváriumban lágy, enyhén savanyú vízben.",
+  "Használjunk rácsot vagy növénycsomókat az ikrák védelmére, mert a szülők erősen ikrafogyasztók.",
+  "Az ívás után a szülőket azonnal el kell távolítani.",
+  "Az ikrák kb. 24-36 óra alatt kelnek ki, a szikzacskó felszívódása után artémia naupliuszokkal etethetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények testesebbek, a hímek karcsúbbak és hát- valamint farok alatti úszójuk kissé nyújtottabb lehet.",
+ "felismeres_jegyek": [
+  "Ezüstös alapszín sárgás-vöröses árnyalattal az úszókon.",
+  "Két nagyon jól látható, nagy fekete folt: egy a test közepén, egy pedig a faroktőnél.",
+  "Sárgás-pirosas úszók, különösen a farok- és hátúszó tövénél.",
+  "Jól látható, éles fogak a szájban (ragadozó felépítés)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Roeboides occidentalis",
+   "magyar_nev": "Pikkelyevő lazac",
+   "kulonbseg": "Testformája jóval púposabb, hiányzik a két markáns, kerek fekete folt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Dara-kór",
+  "Fajtársak miatti sérülések és elfertőződések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Soha ne tartsuk kis létszámú csoportban (pl. 3-5 példány), mert a leggyengébb egyedeket elpusztítják; legalább 10-12 fős raj szükséges.",
+  "Akváriumát szorosan fedjük, mert nagyon gyorsak és hajlamosak kiugrani."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

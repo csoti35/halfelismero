@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Danio kyathit",
+ "id": "danio-kyathit",
+ "tipus": "hal",
+ "latin": "Danio kyathit",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Narancssávos dánió",
+ "egyeb_nevek": [
+  "Kyathit dánió"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfelék",
+ "szarmazas": "Mianmar (Kachin állam)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szorgalmas rajhal. Nagyon aktív, a vízfelszín és a középső vízrétegek lakója.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 16.0,
+ "homerseklet_max": 26.0,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; elfogadja a minőségi száraztápokat, de a jó színeződéshez elengedhetetlen a rendszeres élő/fagyasztott eleség (pl. artemia, cyclops).",
+ "tarsithato": [
+  "Kisméretű",
+  "békés pontyfélékkel",
+  "razbórákkal",
+  "törpe csíkokkal és páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak és túlságosan meleg vizet igénylő fajok."
+ ],
+ "szaporodas_mod": "Szabadon ívó, petéit szabadon a növényzet közé szórja.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy ívató akváriumot hűvösebb, 22-24 °C-os vízzel és ikraráccsal.",
+  "Bőséges élő eleséggel tápláljuk a kiválasztott tenyészpárt vagy kis csoportot.",
+  "Helyezzük be a halakat este az ívatóba.",
+  "Ívás után távolítsuk el a szülőket az ikrák védelmében.",
+  "A kikelő ivadékokat apró élő eleséggel (papucsállatka, friss artemia) etessük."
+ ],
+ "ivari_kulonbseg": "A hímek úszói (különösen a farok alatti és a hasúszó) élénk narancssárga szegéllyel rendelkeznek, és a testük karcsúbb, míg a nőstények teltebbek.",
+ "felismeres_jegyek": [
+  "Testén hosszanti megszakadó csíkok vagy pöttyökből álló mintázat látható.",
+  "Az úszók széle élénk narancssárga vagy sárgás szegélyű.",
+  "Két változata létezik: csíkos (striped) és pettyes (spotted).",
+  "Kisméretű, karcsú dánió alak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Danio rerio",
+   "magyar_nev": "Zebradánió",
+   "kulonbseg": "A zebradánió csíkjai teljesen egybefüggőek és sötétkékek, hiányzik róla a narancssárga úszószél."
+  },
+  {
+   "latin": "Danio nigrofasciatus",
+   "magyar_nev": "Párduc dánió",
+   "kulonbseg": "A párduc dánió kisebb méretű, mintázata eltérő és nem mutat narancssárga úszószegélyt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1000,
+ "tippek": [
+  "A szoba-hőmérsékletű, hűvösebb vizet jobban kedveli, mint a trópusi meleg vizet.",
+  "Gondoskodjunk jó szűrésről és mérsékelt áramlásról az akváriumban."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

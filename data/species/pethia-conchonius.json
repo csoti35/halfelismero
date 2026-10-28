@@ -1,0 +1,90 @@
+{
+ "id": "pethia-conchonius",
+ "tipus": "hal",
+ "latin": "Pethia conchonius",
+ "regi_latin_nevek": [
+  "Barbus conchonius",
+  "Puntius conchonius"
+ ],
+ "magyar_nev": "Rózsás márna",
+ "lista_nev": "Pethia conchonius",
+ "egyeb_nevek": [
+  "Rózsás márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Dél-Ázsia (India, Pakisztán, Banglades)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Élénk, békés csapathal, de a hosszú úszójú halakat megcsipkedheti, ha túl kevesen vannak.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (lemezestáp, fagyasztott szúnyoglárva, artémia)",
+ "tarsithato": [
+  "Dániók",
+  "más márnák",
+  "nagyobb testű pontylazacok",
+  "fenéklakó harcsák"
+ ],
+ "kerulendo": [
+  "Vitorláshalak",
+  "sziámi harcoshal (úszócsipkedés veszélye)"
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Különítsük el a párt egy növényekkel (pl. jávai moha) teli ívató akváriumba.",
+  "A reggeli napsütés vagy lágyabb víz serkenti az ívást.",
+  "Az ívás után a szülőket azonnal távolítsuk el, mert megeszik az ikrákat.",
+  "Az ikrák 24-30 óra alatt kelnek ki.",
+  "Az ivadékokat infuzóriával, majd frissen kelt artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek intenzívebb vöröses-rózsaszín színűek, a nőstények teltebbek és sárgásabbak.",
+ "felismeres_jegyek": [
+  "Magas, oldalról lapított test",
+  "Ezüstös-rózsaszín alapszín",
+  "Fekete folt a faroknyél közelében",
+  "Nincs bajuszszála",
+  "Az úszók széle feketés lehet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pethia padamyas",
+   "magyar_nev": "Odessza-márna",
+   "kulonbseg": "Az Odessza-márna oldalán széles vörös sáv fut végig, nem az egész teste rózsaszín."
+  },
+  {
+   "latin": "Puntius titteya",
+   "magyar_nev": "Meggyvörös márna",
+   "kulonbseg": "Sokkal kisebb és nyúlánkabb testalkatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakkór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Kedveli a dús növényzetet, de hagyjunk neki nagy kiúszóteret.",
+  "Hűvösebb vizet igényel, ne tartsuk tartósan 25 fok felett.",
+  "Létezik fátyolos úszójú tenyészváltozata is."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Danio margaritatus",
+ "id": "danio-margaritatus",
+ "tipus": "hal",
+ "latin": "Danio margaritatus",
+ "regi_latin_nevek": [
+  "Celestichthys margaritatus"
+ ],
+ "magyar_nev": "Gyöngydánió (galaxis razbóra)",
+ "egyeb_nevek": [
+  "Microrasbora sp. Galaxy",
+  "Galaxis dánió"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfelék",
+ "szarmazas": "Mianmar (Inle-tó környéke, Hopong)",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, apró testű hal. Kezdetben félénk lehet, de megfelelő növényes környezetben és népes csapatban bátran mutatkozik.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 20.0,
+ "homerseklet_max": 26.0,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Kisméretű élő és fagyasztott eleséget (kikelő artemia, cyclops) részesíti előnyben, de a finom szemcséjű száraztápokat is megeszi.",
+ "tarsithato": [
+  "Más törpe fajokkal",
+  "pl. Boraras fajokkal",
+  "törpe szívóharcsákkal (Otocinclus) és garnélákkal (Neocaridina)."
+ ],
+ "kerulendo": [
+  "Bármilyen közepes vagy nagy testű hal",
+  "ami bekaphatja",
+  "valamint agresszív területtartók."
+ ],
+ "szaporodas_mod": "Szabadon ívó, apró ikráit mohák közé rejti.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy kis ívató akváriumot sűrű javai mohával.",
+  "Etessük a szülőket bőségesen élő artémiával az ívási kedv meghozatalához.",
+  "Helyezzünk át egy hímet és két nőstényt az ívató tankba.",
+  "Az ívás folyamatos, naponta pár ikrát raknak a moha közé; a szülőket érdemes néhány nap múlva kivenni.",
+  "Az apró ivadékokat indító eleséggel (infuzória, mikroelemek), majd friss artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek oldala sötétebb acélkék, pöttyözöttségük élénkebb, úszóikon lévő narancs-vörös sávok sokkal intenzívebbek. A nőstények fakóbbak és kerekdedebb hasúak.",
+ "felismeres_jegyek": [
+  "Sötétkék/sötétzöld alapszínű testen szóródó, apró cream-sárga vagy arany pöttyök (mint az éjszakai égbolt).",
+  "Az úszókban élénk piros/narancssárga és fekete párhuzamos csíkozás látható.",
+  "Nagyon kicsi, legfeljebb 2-2,5 cm-es kifejlett méret.",
+  "A hímek hasa ívási időszakban rőtes árnyalatot vesz fel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Danio erythromicron",
+   "magyar_nev": "Smaragd törpedánió",
+   "kulonbseg": "A D. erythromicron testén függőleges kék csíkok vannak a pöttyök helyett, és a faroktövén egy fekete pont található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Lefogyás/belső paraziták (új import halaknál)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Növényekkel sűrűn beültetett akváriumban érzik magukat biztonságban, ahol sok a búvóhely.",
+  "Ne tartsuk túlságosan meleg vízben; a 22-24 °C ideális számukra.",
+  "Törpe garnélák mellé tökéletes választás nanó akváriumokba."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

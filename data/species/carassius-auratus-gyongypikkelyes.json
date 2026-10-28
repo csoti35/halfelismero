@@ -1,0 +1,81 @@
+{
+ "id": "carassius-auratus-gyongypikkelyes",
+ "tipus": "hal",
+ "latin": "Carassius auratus",
+ "regi_latin_nevek": [
+  "Carassius auratus auratus"
+ ],
+ "magyar_nev": "Gyöngypikkelyes aranyhal",
+ "lista_nev": "Carassius auratus 'Gyöngypikkelyes'",
+ "egyeb_nevek": [
+  "Pearlscale aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Aranyhalak",
+ "szarmazas": "Kína (tenyésztett változat)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, de rendkívül esetlen úszó. Nem bírja a versenyt semmilyen gyorsabb fajjal.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, süllyedő pellet, növényi kiegészítés.",
+ "tarsithato": [
+  "Csak más nagyon lassú aranyhalakkal."
+ ],
+ "kerulendo": [
+  "Bármilyen gyors úszású hal",
+  "agresszív fajok."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Külön ívató medence szükséges.",
+  "Hőmérséklet-ingadozással stimulálható az ívás.",
+  "Ikrarács használata kötelező a falánkságuk miatt.",
+  "Az ikrák kikelése után az ivadékok apró élő eleséget igényelnek.",
+  "A pikkelyek speciális formája csak később alakul ki."
+ ],
+ "ivari_kulonbseg": "Hímeknél nászkiütések, nőstényeknél az amúgy is kerek test még teltebb.",
+ "felismeres_jegyek": [
+  "Szinte teljesen golyó alakú test.",
+  "A pikkelyek közepén mészlerakódás van, amitől gyöngyszerűen kiemelkednek.",
+  "Rövid úszók (bár létezik fátyolos változata is).",
+  "Van hátúszója.",
+  "Nagyon lassú, dülöngélő úszásmód."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus 'Fantail'",
+   "magyar_nev": "Fátyolfarkú aranyhal",
+   "kulonbseg": "A pikkelyei simák, teste kevésbé golyószerű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Pikkelysérülés (a leesett gyöngypikkely nem nő vissza eredeti formájában)",
+  "Úszóhólyag-betegség",
+  "Bélgyulladás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 10000,
+ "tippek": [
+  "A pikkelyek sérülékenyek, kerüljük a durva hálókat és éles dekorációkat.",
+  "A testalkatuk miatt nagyon hajlamosak az emésztési zavarokra, rostos táplálás fontos.",
+  "Vízminőségre érzékenyebbek az átlagos aranyhalnál."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

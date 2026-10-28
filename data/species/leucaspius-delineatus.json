@@ -1,0 +1,82 @@
+{
+ "id": "leucaspius-delineatus",
+ "tipus": "hal",
+ "latin": "Leucaspius delineatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kurta baing",
+ "egyeb_nevek": [
+  "Baing"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Leuciscidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Közép- és Kelet-Európa",
+ "max_meret_cm": 9,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Félénk, csapatban élő hal, amely a vízfelszín közelében tartózkodik.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 10,
+ "homerseklet_max": 22,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Apró rovarok a vízfelszínről, plankton, finom szemcsés műtáp.",
+ "tarsithato": [
+  "Más békés hidegvízi halakkal."
+ ],
+ "kerulendo": [
+  "Ragadozó halak",
+  "trópusi fajok."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Növényi szárakat vagy leveleket igényel az íváshoz.",
+  "A nőstény spirálvonalban ragasztja az ikrákat a szárakra.",
+  "A hím őrzi az ikrákat és friss vizet hajt feléjük.",
+  "Az ívatáshoz alacsonyabb vízszint és sok növény szükséges.",
+  "Az ivadékok apró planktonnal indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek nászidőben nászkiütéseket viselnek a fejükön, a nőstények teltebbek.",
+ "felismeres_jegyek": [
+  "Rövid oldalvonal (csak az első 5-12 pikkelyen)",
+  "felső állású száj",
+  "ezüstös test",
+  "kékes csík a test hátsó részén."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Alburnus alburnus",
+   "magyar_nev": "Szélhajtó küsz",
+   "kulonbseg": "Az oldalvonal végigfut a teljes testen, teste nyújtottabb."
+  },
+  {
+   "latin": "Pseudorasbora parva",
+   "magyar_nev": "Ezüstös razbora",
+   "kulonbseg": "Sötétebb pikkelyszegélyek, más szájfelépítés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Nagyon ugrálós, az akváriumot szorosan le kell fedni.",
+  "Érzékeny a víz oxigéntartalmára és a hirtelen hőmérséklet-változásra.",
+  "Magyarországon védett, tartása engedélyhez kötött lehet."
+ ],
+ "lista_nev": "Leucaspius delineatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

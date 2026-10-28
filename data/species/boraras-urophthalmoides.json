@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Boraras urophthalmoides",
+ "id": "boraras-urophthalmoides",
+ "tipus": "hal",
+ "latin": "Boraras urophthalmoides",
+ "regi_latin_nevek": [
+  "Rasbora urophthalmoides"
+ ],
+ "magyar_nev": "Törpe törpeponty",
+ "egyeb_nevek": [
+  "Farkfoltos törpeponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Kambodzsa, Vietnám)",
+ "max_meret_cm": 1.6,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, apró termetű rajhal. Mérete miatt kizárólag apró, nem ragadozó fajokkal vagy garnélákkal tartható együtt.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Kisméretű élő- és fagyasztott eleségek (pl. artémia nauplii, rotatoria), morzsolt lemezes tápok.",
+ "tarsithato": [
+  "Neocaridina garnélák",
+  "Más Boraras fajok",
+  "Kis termetű törpe razbórák",
+  "Otocinclus"
+ ],
+ "kerulendo": [
+  "Nagyobb vagy agresszív halak",
+  "Vitorláshal",
+  "Márvány gurámi"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Savanyú (pH 5.5-6.5), lágy vízű külön ívató akvárium berendezése finom levelű növényekkel (pl. javai moha).",
+  "Egy jól táplált pár vagy kis csapat kihelyezése a szaporító akváriumba.",
+  "A halak naponta néhány ikrát szórnak a növények közé, az ikrákat nem gondozzák.",
+  "Az ikrázókat néhány nap után távolítsuk el, hogy ne egyék meg a petéket.",
+  "Az ivadékok 24-48 óra múlva kelnek ki, és papucsállatkával vagy legfinomabb poreleséggel etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és élénkebb narancsos-pirosas színűek, a nőstények kerekdedebb hasúak és halványabbak.",
+ "felismeres_jegyek": [
+  "Rendkívül apró, 1.5 cm körüli kifejlett méret.",
+  "A testen végighúzódó sötét, kékes-fekete csík, felette aranyos-narancssárga világító sávval.",
+  "A faroktőnél egy jól elkülönülő sötét folt látható.",
+  "Áttetsző úszók kis sötét vagy narancssárga elszíneződéssel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Boraras brigittae",
+   "magyar_nev": "Zöldsávos törpeponty",
+   "kulonbseg": "A B. brigittae teste sokkal intenzívebb vörös színű, és a sötét sáv törtebb, nem olyan folytonos lineáris."
+  },
+  {
+   "latin": "Boraras maculatus",
+   "magyar_nev": "Foltos törpeponty",
+   "kulonbseg": "A B. maculatus oldalán csík helyett határozott kerek sötét foltok találhatók."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium (bársonybetegség)",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 450,
+ "ar_ft_max": 750,
+ "tippek": [
+  "Sötét aljzatú, növényekkel sűrűn beültetett nano akváriumokban érzik magukat a legnagyobb biztonságban.",
+  "Mindig legalább 10-15 egyedből álló csapatban tartsuk, különben félénkek maradnak.",
+  "A vízáramlást tartsuk alacsony szinten."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

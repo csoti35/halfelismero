@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Boraras merah",
+ "id": "boraras-merah",
+ "tipus": "hal",
+ "latin": "Boraras merah",
+ "regi_latin_nevek": [
+  "Rasbora merah"
+ ],
+ "magyar_nev": "Főnix törpeponty",
+ "egyeb_nevek": [
+  "Merah törpeponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Indonézia (Borneó)",
+ "max_meret_cm": 2.0,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Teljesen békés, kis termetű rajhal. Kiválóan alkalmas növényes nano akváriumokba és garnélák mellé.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Apró élő és fagyasztott tápok (artémia nauplii, cyclops), finomra morzsolt minőségi lemezes táp.",
+ "tarsithato": [
+  "Törpe garnélák",
+  "Más Boraras fajok",
+  "Kis termetű páncélosharcsák (pl. Corydoras pygmaeus)",
+  "Törpe razbórák"
+ ],
+ "kerulendo": [
+  "Nagyobb testű és gyors mozgású halak",
+  "Sügérek",
+  "Márvány gurámi"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, tőzeggel lágyított és savanyított (pH 5.0-6.0) víz biztosítása az ívató akváriumban.",
+  "Dús növényzet (mohafélék) elhelyezése az ikrázási felület biztosítására.",
+  "A jó kondícióban lévő szülők kihelyezése.",
+  "Az ikrázás folyamatosan, naponta néhány ikrával történik.",
+  "A szülőket érdemes 5-7 nap után eltávolítani, a kishalakat apró élő táppal etetni."
+ ],
+ "ivari_kulonbseg": "A hímek alapszíne élénkebb vörös, míg a nőstények kerekebb hasformájúak és halványabb narancssárgák.",
+ "felismeres_jegyek": [
+  "Testének alapja vöröses-narancssárga tintájú.",
+  "Az oldalán egy ellipszis alakú sötét folt található, amelyet vörös szegély övez.",
+  "A faroktőnél és a hátúszó tövénél kisebb sötét pontok láthatók.",
+  "Kifejlett mérete alig éri el a 2 cm-t."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Boraras brigittae",
+   "magyar_nev": "Zöldsávos törpeponty",
+   "kulonbseg": "A B. brigittae vörös színe sokkal egységesebb és kiterjedtebb, az oldalsó foltja pedig csíkszerűen megnyúlt."
+  },
+  {
+   "latin": "Boraras maculatus",
+   "magyar_nev": "Foltos törpeponty",
+   "kulonbseg": "A B. maculatus testén a sötét folt kerekebb, és hiányzik róla az elmosódott vörös zóna."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór",
+  "Gombás fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 450,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Tőzegkivonattal vagy égerfagolyóval színezett, feketevizű jellegű akváriumban mutatják meg legszebb színeiket.",
+  "Rendszeres, kis mennyiségű vízcserét igényelnek a stabil vízparaméterek fenntartásához."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

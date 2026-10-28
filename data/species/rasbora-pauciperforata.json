@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Rasbora pauciperforata",
+ "id": "rasbora-pauciperforata",
+ "tipus": "hal",
+ "latin": "Trigonopoma pauciperforatum",
+ "regi_latin_nevek": [
+  "Rasbora pauciperforata"
+ ],
+ "magyar_nev": "Vörössávos razbóra",
+ "egyeb_nevek": [
+  "Izzólámpás razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfelék",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia, Szumátra, Borneó)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, csapatos rajhal, amely kifejezetten igényli a fajtársak jelenlétét.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő, finom szemcséjű száraz tápokat, fagyasztott és élő kancsalrákot, ciklopszot, artémiát szívesen fogyaszt.",
+ "tarsithato": [
+  "Kisebb testű",
+  "békés pontyfélékkel",
+  "dániókkal",
+  "törpe gurámikkal",
+  "páncélosharcsákkal és békés törpesügérekkel."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "verekedős vagy ragadozó fajok."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy ívató akváriumot nagyon lágy (2 dGH alatti) és savanyú (pH 5.0-6.0) vízzel.",
+  "Használjunk ikrarácsot és javai mohát vagy finom levelű növényeket.",
+  "A jó kondícióba hozott párt este helyezzük át az ívatóba.",
+  "Sötétítsük be az akváriumot, mivel az ikrák és a szülők szaporodási kedve érzékeny lehet a fényre.",
+  "Ívás után távolítsuk el a szülőket.",
+  "Az ivadékok elúszása után mikroszkopikus élő eleséggel kezdjük meg a takarmányozást."
+ ],
+ "ivari_kulonbseg": "A nőstények észrevehetően testesebbek, nagyobbak és kerekebb a hasuk, a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Rendkívül karcsú, megnyúlt testforma.",
+  "Áttetsző, ezüstös-szürkés alapszín.",
+  "A orrhegytől a faroktőig húzódó ragyogó, neonfényű narancsvörös vagy rézszínű hosszsáv.",
+  "A vörös sáv alatt egy vékony, sötét vonal fut.",
+  "Az úszók teljesen átlátszóak és mintázatmentesek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemigrammus erythrozonus",
+   "magyar_nev": "Izzófényű lazac",
+   "kulonbseg": "Magasabb testfelépítésű pontylazac, zsírúszóval rendelkezik."
+  },
+  {
+   "latin": "Trigonopoma xanthurus",
+   "magyar_nev": "Sárgafarkú razbóra",
+   "kulonbseg": "Farokúszója sárgás árnyalatú és a csík mintázata eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 450,
+ "ar_ft_max": 850,
+ "tippek": [
+  "A tőzeggel szűrt, enyhén barnás vízben ragyognak fel igazán a színei.",
+  "Sötét aljzat és dús növényzet mellett bátrabban úsznak a nyílt vízben."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

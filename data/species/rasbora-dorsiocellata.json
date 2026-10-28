@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Rasbora dorsiocellata",
+ "id": "rasbora-dorsiocellata",
+ "tipus": "hal",
+ "latin": "Brevibora dorsiocellata",
+ "regi_latin_nevek": [
+  "Rasbora dorsiocellata"
+ ],
+ "magyar_nev": "Szemfoltos razbóra",
+ "egyeb_nevek": [
+  "Jelzőlámpás razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfelék",
+ "szarmazas": "Délkelet-Ázsia (Malaaj-félsziget, Szumátra, Borneó)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Igen békés, csapatos rajhal, amely folyamatosan együtt mozog a víz középső és felső rétegeiben.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, elfogadja az apró szemcséjű száraztápokat, mikropelleket, fagyasztott és élő kancsalrákot, artémiát.",
+ "tarsithato": [
+  "Kisebb békés pontyfélékkel",
+  "törpe gurámikkal",
+  "páncélosharcsákkal",
+  "törpe szívóharcsákkal."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "nagy testű vagy túlzottan mozgékony fajok."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Készítsünk elő ívató medencét lágy, enyhén savanyú vízzel és hálóval vagy ikraráccsal.",
+  "Helyezzünk el finom levelű növényeket az ikrázás helyszínéül.",
+  "Esetenként több hímet és nőstényt helyezzünk ki a leendő ívatóba.",
+  "Az ívás végeztével a szülőket távolítsuk el az ikrafogyasztás megelőzésére.",
+  "Az ivadékok 24-30 óra múlva kelnek ki, elúszás után papucsállatkával és artémia naupliuszokkal etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények éretten láthatóan gömbölyűbbek és kerekdedebbek, a hímek karcsúak.",
+ "felismeres_jegyek": [
+  "Ezüstös, áttetsző test szürkés-zöldes árnyalattal.",
+  "A hátúszón egy nagyon feltűnő, nagy méretű fekete folt található, amelyet fehér/sárgás szegély vesz körül.",
+  "Kicsi, oldalról benyomott testforma.",
+  "A szemek ragyogó kék vagy zöldes-ezüstös csillogásúak lehetnek.",
+  "Az farokúszó tiszta vagy enyhén sárgás árnyalatú."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Brevibora exilis",
+   "magyar_nev": "Karcsú szemfoltos razbóra",
+   "kulonbseg": "Karcsúbb testfelépítés és eltérő pikkelyszám."
+  },
+  {
+   "latin": "Trigonostigma espei",
+   "magyar_nev": "Munkásrazbóra",
+   "kulonbseg": "Narancssárga alapszín és ék alakú fekete folt az oldalán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszókorhadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 400,
+ "ar_ft_max": 750,
+ "tippek": [
+  "Legalább 10 fős csapatban tartsuk, így mutatják meg természetes rajviselkedésüket.",
+  "Nagyon látványosak növényes akváriumokban, ahol a sötét háttér kiemeli a hátúszó foltját."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

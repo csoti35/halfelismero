@@ -1,0 +1,80 @@
+{
+ "id": "balantiocheilos-melanopterus",
+ "tipus": "hal",
+ "latin": "Balantiocheilos melanopterus",
+ "regi_latin_nevek": [
+  "Barbus melanopterus"
+ ],
+ "magyar_nev": "Ezüst cápamárna",
+ "lista_nev": "Balantiocheilos melanopterus",
+ "egyeb_nevek": [
+  "Ezüst cápa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Szumátra, Borneó)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de rendkívül félénk és ugrálós hal. Hatalmas mérete miatt csak óriási akváriumba való.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, falánk. Minden élő, fagyasztott és száraz tápot elfogad.",
+ "tarsithato": [
+  "Hasonló méretű márnák",
+  "nagyobb lazacok",
+  "harcsák",
+  "sügérek."
+ ],
+ "kerulendo": [
+  "Nagyon kicsi halak (pl. neonhal)",
+  "mert véletlenül lenyelheti őket. Túl agresszív sügérek."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen a szaporítása a helyigénye miatt. Ázsiai haltenyészetekben hormonokkal szaporítják hatalmas medencékben."
+ ],
+ "ivari_kulonbseg": "Külsőleg szinte megkülönböztethetetlenek, a nőstények íváskor teltebbek.",
+ "felismeres_jegyek": [
+  "Hosszúkás",
+  "áramvonalas",
+  "cápára emlékeztető testalkat. Ragyogó ezüstös pikkelyek. Az összes úszója sárgásfehér",
+  "széles fekete szegéllyel. Nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Luciosoma setigerum",
+   "magyar_nev": "Hosszúúszójú dánió",
+   "kulonbseg": "Hasonló forma, de nincs fekete szegély az úszóin és kisebb marad."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Sérülések az ugrálás miatt",
+  "Stressz okozta immunlegyengülés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Soha ne tartsuk egyedül! A hirtelen mozdulatokra pánikszerűen reagál",
+  "ilyenkor nekimehet az üvegnek vagy kiugorhat",
+  "ezért fedett akvárium és nyugodt környezet kell neki."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Boraras brigittae",
+ "id": "boraras-brigittae",
+ "tipus": "hal",
+ "latin": "Boraras brigittae",
+ "regi_latin_nevek": [
+  "Rasbora brigittae"
+ ],
+ "magyar_nev": "Szúnyograzbóra",
+ "egyeb_nevek": [
+  "Moszkító razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Indonézia (Borneó déli része)",
+ "max_meret_cm": 2.0,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, de apró mérete miatt félénk rajhal. Kizárólag kistestű, nem fenyegető fajokkal tartható együtt.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 4.5,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Kizárólag a legkisebb szemcseméretű ételeket tudja megenni: apró fagyasztott eleségek (artémia naupliusz, rotatoria) és finomra morzsolt száraztáp.",
+ "tarsithato": [
+  "Törpe garnélákkal (pl. Neocaridina",
+  "Caridina fajok)",
+  "apró törpe razbórákkal és kis páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Minden közepes és nagy testű hal",
+  "mivel a törperazbórát könnyen megehetik."
+ ],
+ "szaporodas_mod": "Szabadon ívó, ikráit a finom levelű növények közé szórja.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Igen lágy (GH 1-3) és savanyú (pH 5.0-6.0) vizű, tőzeggel előkészített ívató akvárium szükséges.",
+  "Helyezzünk be finom levelű növényeket (pl. Jávai moha).",
+  "Kondicionáljuk a szülőket élő moina-val vagy artémiával.",
+  "Az ívás több napon át tart, folyamatosan néhány ikrát raknak.",
+  "A szülőket érdemes kivenni, vagy az ikrákat külön nevelőakváriumba szívni."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal élénkebb piros színűek és karcsúbbak, míg a nőstények narancssárgásabbak és teltebbek.",
+ "felismeres_jegyek": [
+  "Igen apró, 2 cm-t ritkán meghaladó testméret.",
+  "Intenzív meggypiros vagy élénkpiros testalapszín a kifejlett hímeknél.",
+  "Az oldalvonal mentén egy sötét feketés-kékes sáv húzódik, amit piros szegély kísér.",
+  "Az úszókon piros és fekete foltok/minták találhatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Boraras merah",
+   "magyar_nev": "Főnix törperazbóra",
+   "kulonbseg": "A B. merah oldalán a fekete sáv elmosódottabb, ovális folttá szűkül, és kevésbé egyenletesen piros a teste."
+  },
+  {
+   "latin": "Boraras maculatus",
+   "magyar_nev": "Törpe razbóra",
+   "kulonbseg": "A B. maculatus oldalán sáv helyett egy határozott, kerek fekete folt található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombás fertőzések",
+  "Baktériumos fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Kifejezetten szeretik a huminsavakban gazdag, teaszínű tőzeges vizet és a gyenge áramlást.",
+  "Sötét aljzaton és dús növényzet mellett nyújtják a legszebb színeiket.",
+  "Nanofish akváriumok és garnélás medencék ideális lakója."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

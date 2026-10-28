@@ -1,0 +1,88 @@
+{
+ "id": "pethia-padamya",
+ "tipus": "hal",
+ "latin": "Pethia padamya",
+ "regi_latin_nevek": [
+  "Puntius padamya",
+  "Puntius sp. 'Odessa'"
+ ],
+ "magyar_nev": "Odessza-márna",
+ "lista_nev": "Pethia padamya",
+ "egyeb_nevek": [
+  "Odessza díszmárna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Mianmar",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Aktív, békés csapathal. Csak akkor mutatja legszebb színeit, ha biztonságban érzi magát egy nagyobb csapatban.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget (vörös szúnyoglárva, daphnia).",
+ "tarsithato": [
+  "Más márnák",
+  "dániók",
+  "harcsák",
+  "robusztusabb pontylazacok"
+ ],
+ "kerulendo": [
+  "Nagyon lassú",
+  "hosszú úszójú halak"
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és finom levelű növények szükségesek.",
+  "A hímek násztánccal csalogatják a nőstényeket a növények közé.",
+  "Az ívás után a szülőket el kell távolítani.",
+  "Az ivadékok 24 óra múlva kelnek ki.",
+  "Indító eleségnek papucsállatka vagy infuzória javasolt."
+ ],
+ "ivari_kulonbseg": "A hímek oldalán ragyogó vörös sáv fut végig, a nőstények ezüstösek és teltebbek.",
+ "felismeres_jegyek": [
+  "Ezüstös alapszín sötét pikkelyszegélyekkel",
+  "A hímeknél széles, vízszintes vörös sáv az oldal közepén",
+  "Két fekete folt: egy a kopoltyú mögött, egy a faroknál",
+  "A hátúszó és a hasúszók feketével mintázottak"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pethia conchonius",
+   "magyar_nev": "Rózsás díszmárna",
+   "kulonbseg": "A rózsás márna egész teste rózsaszínes, nincs rajta éles vörös sáv."
+  },
+  {
+   "latin": "Pethia ticto",
+   "magyar_nev": "Kétfoltos márna",
+   "kulonbseg": "Hiányzik róla a hímekre jellemző vörös sáv."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakkór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Sötét aljzat mellett a hímek színei sokkal intenzívebbek.",
+  "Oxigéndús, tiszta vizet igényel.",
+  "Ne tartsuk túl meleg vízben, a szobahőmérséklet gyakran elegendő."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

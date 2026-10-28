@@ -1,0 +1,86 @@
+{
+ "id": "sundadanio-axelrodi",
+ "tipus": "hal",
+ "latin": "Sundadanio axelrodi",
+ "regi_latin_nevek": [
+  "Rasbora axelrodi"
+ ],
+ "magyar_nev": "Axelrod-törperazbóra",
+ "lista_nev": "Sundadanio axelrodi",
+ "egyeb_nevek": [
+  "Kék törperazbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Sundadanionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Indonézia (Borneó, Szumátra, Bangka)",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 3,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, de rendkívül félénk és érzékeny nano hal. Csak fajspecifikus vagy nagyon nyugodt akváriumba való.",
+ "rajhal": true,
+ "min_csoport": 12,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 23,
+ "homerseklet_max": 26,
+ "ph_min": 4.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Kizárólag apró élő vagy fagyasztott eleség (friss artémia, mikróeleség). A száraz tápot gyakran elutasítja.",
+ "tarsithato": [
+  "Csak más apró",
+  "békés fajokkal",
+  "mint a Boraras fajok vagy törpe garnélák."
+ ],
+ "kerulendo": [
+  "Bármilyen nagyobb vagy agresszív hal",
+  "még a közepes méretű razbórák is zavarhatják."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Extrém lágy és savas (fekete víz) környezet szükséges.",
+  "Sűrű növényzet (pl. jávai moha) az ívatáshoz.",
+  "A hímek revírt foglalnak és hívogatják a nőstényeket.",
+  "Az ívás után a szülőket el kell távolítani.",
+  "Az ivadékok nevelése mikroszkopikus eleséggel rendkívül nehéz."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal színesebbek (kék, zöld vagy vöröses irizálás), a nőstények fakóbbak és teltebbek.",
+ "felismeres_jegyek": [
+  "Apró, karcsú testalkat.",
+  "A test felső része irizáló kék, zöld vagy vörös (típustól függően).",
+  "A farok alatti úszón fekete folt vagy sáv látható.",
+  "A szem felső része gyakran fényvisszaverő.",
+  "A hímeknél a hátúszó első sugarai sötétek lehetnek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Boraras brigittae",
+   "magyar_nev": "Zöldsávos törperazbóra",
+   "kulonbseg": "A Boraras fajok színe inkább vöröses, és nincs kék irizálásuk."
+  },
+  {
+   "latin": "Microdevario kubotai",
+   "magyar_nev": "Neon zöld dánió",
+   "kulonbseg": "Élénkebb zöld szín és más testforma jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vízminőség-sokk",
+  "Bakteriális fertőzések (érzékeny bőr)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Csak beállt, stabil biológiájú akváriumba telepítsük.",
+  "A vízfelszínen úszó növények segítenek csökkenteni a fényt, amitől a halak bátrabbak lesznek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Oliotius oligolepis",
+ "id": "oliotius-oligolepis",
+ "tipus": "hal",
+ "latin": "Oliotius oligolepis",
+ "regi_latin_nevek": [
+  "Puntius oligolepis",
+  "Capoeta oligolepis",
+  "Barbus oligolepis"
+ ],
+ "magyar_nev": "Kurze-márna",
+ "egyeb_nevek": [
+  "Kockamárna",
+  "Pikkelyfoltos márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Indonézia (Szumátra)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, nyugodt és mozgékony rajhal, ideális társas akváriumokba.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, elfogad mindenféle minőségi műtápot, fagyasztott és élő élőlényeket (artémia, szúnyoglárva, daphnia).",
+ "tarsithato": [
+  "Kisméretű",
+  "békés fajokkal (pontylazacok",
+  "törpe gurámik",
+  "páncélosharcsák",
+  "más békés márnák)."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "ragadozó vagy túlságosan domináns halak."
+ ],
+ "szaporodas_mod": "Szabadon ívó ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Ívató akvárium felállítása finom szálú növényekkel (pl. Jávai moha) és ikraráccsal.",
+  "Lágy, enyhén savas víz és körülbelül 25 °C-os hőmérséklet beállítása.",
+  "Egy jól táplált pár kihelyezése az ívatóba este.",
+  "Reggeli ívás után a szülőket vissza kell helyezni a közösségi akváriumba.",
+  "Az ikrák kb. 36-48 óra múlva kelnek ki, az elúszó ivadékot artémia naupliuszokkal etethetjük."
+ ],
+ "ivari_kulonbseg": "A hímek úszói (különösen a hát- és farokúszó) élénk narancssárgák/vörösek, fekete szegéllyel. A nőstények színe fakóbb, sárgásabb, testük telt megnyúltabb.",
+ "felismeres_jegyek": [
+  "Pikkelyein fekete folt található, ami hálós/kockás mintázatot kölcsönöz a testnek",
+  "A hímek hát- és farokalatti úszója pirosas-narancssárga, fekete szegéllyel",
+  "Sárgás-barna, fémesen csillogó alapszín",
+  "Kifejletten kis méretű, lekerekített formájú úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Puntius titteya",
+   "magyar_nev": "Karcsú márna",
+   "kulonbseg": "Teste hosszanti sötét csíkkal díszített, nem hálós mintázatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 400,
+ "ar_ft_max": 750,
+ "tippek": [
+  "A túl meleg vizet nem kedveli hosszabb távon, érdemes 22-24 °C között tartani.",
+  "Növényesített, búvóhelyekkel teli akváriumban a hímek gyönyörűen rivalizálnak egymással sérülések okozása nélkül.",
+  "Csapatban tartsuk, mert magányosan félénkké és fakóvá válik."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

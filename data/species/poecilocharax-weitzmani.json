@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Poecilocharax weitzmani",
+ "id": "poecilocharax-weitzmani",
+ "tipus": "hal",
+ "latin": "Poecilocharax weitzmani",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fekete killi pontylazac",
+ "egyeb_nevek": [
+  "Weitzman pontylazaca"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Crenuchidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas, Rio Negro és Orinoco medence)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 3,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek territoriálisak egymással, miniatűr párviadalokat vívnak. Nagyon kényes, félénk faj, amely külön akváriumot igényel.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 4.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Kizárólag apró élő táplálékot (artémia, vízibolha, cyclops) fogad el megbízhatóan.",
+ "tarsithato": [
+  "Békés törpe rasborák",
+  "Páncélosharcsák",
+  "Kisméretű törpe szívóharcsák"
+ ],
+ "kerulendo": [
+  "Minden nagy vagy gyorsan úszó hal",
+  "Agresszív fajok"
+ ],
+ "szaporodas_mod": "Barlangban ívó ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (GH 1-2) és savanyú (pH < 5.5), sötét vizet kell biztosítani.",
+  "Búvóhelyként apró csöveket vagy kókuszdió héjat helyezzünk el.",
+  "A hím a barlangba csalogatja a nőstényt.",
+  "Az ikrákat a hím őrzi a kikikelésig.",
+  "Az apró ivadékot papucsállatkával és finom artémiával etethetjük."
+ ],
+ "ivari_kulonbseg": "A hímek jóval színesebbek, hát- és farokalatti úszójuk látványosan megnyúlt, míg a nőstények fakóbbak és kisebbek.",
+ "felismeres_jegyek": [
+  "Karcsú, elnyújtott, killiszerű testalak",
+  "Széles sötét/fekete vízszintes sáv a test középvonalán",
+  "A hímek hátúszója magas, mintás és rikító szélű",
+  "Ragyogó irizáló pöttyök a pikkelyeken",
+  "Apró termet (3-4 cm)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Crenuchus spilurus",
+   "magyar_nev": "Vitorlás pontylazac",
+   "kulonbseg": "Zömökebb testalkat, hiányzik a hosszirányú fekete sáv."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium",
+  "Bakteriális fertőzések a nem megfelelő vízminőség miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kifejezetten feketevizes (blackwater) biotóp akváriumban tartsuk.",
+  "Kezdőknek egyáltalán nem ajánlott a szigorú vízparaméter-igények miatt."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

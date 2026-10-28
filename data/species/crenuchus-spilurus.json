@@ -1,0 +1,80 @@
+{
+ "lista_nev": "Crenuchus spilurus",
+ "id": "crenuchus-spilurus",
+ "tipus": "hal",
+ "latin": "Crenuchus spilurus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vitorlás pontylazac",
+ "egyeb_nevek": [
+  "Feketeúszójú pontylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Crenuchidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco medence)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, sötét bujkálóhelyeket kedvelő faj. A hímek agresszívak lehetnek egymással, de más nyugodt, nem túlságosan kicsi fajokkal jól tartható.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Ragadozó, főként élő és fagyasztott tápokat (szúnyoglárva, artémia, daphnia) fogyaszt, száraz tápot nehezen fogad el.",
+ "tarsithato": [
+  "Kisebb békés pontylazacok",
+  "Páncélosharcsák",
+  "Törpesügérek"
+ ],
+ "kerulendo": [
+  "Agresszív fajok",
+  "Ivadékméretű apró halak",
+  "Nagytestű sügérek"
+ ],
+ "szaporodas_mod": "Barlangban ívó ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Biztosítsunk lágy, savanyú vizet (pH 5.5-6.0) és árnyékos ívató akváriumot.",
+  "Helyezzünk be kis cserépet vagy műanyag csövet barlangnak.",
+  "A hím a barlangba csábítja a nőstényt, majd az ikrákat a barlang plafonjára ragasztják.",
+  "A hím gondozza és legyezi az ikrákat a kelésig.",
+  "A kelés után a lárvákat friss artémia naupliuszokkal etessük."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen nagyobbak, hát- és farokalatti úszójuk megnyúlt és színesebb, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Mélyen bevágott, robusztus testalkat nagy fejjel",
+  "A hímek hatalmas, vitorlaszerű hátúszóval rendelkeznek",
+  "Sötét folt a faroktőnél",
+  "Barnás-vöröses alapszín finom mintázattal",
+  "Nagy szemek és széles szájnyílás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Poecilocharax weitzmani",
+   "magyar_nev": "Fekete killi pontylazac",
+   "kulonbseg": "Kisebb testméret, elnyújtottabb alak és hosszirányú sötét csík a testen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darafórtság",
+  "Gombás fertőzések lágy víz hiányában"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Használjunk tőzegkivonatot vagy faleveleket a víz színezésére és lágyítására.",
+  "Gondoskodjunk sok búvóhelyről és gyenge világításról."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

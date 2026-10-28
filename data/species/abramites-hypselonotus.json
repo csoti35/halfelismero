@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Abramites hypselonotus",
+ "id": "abramites-hypselonotus",
+ "tipus": "hal",
+ "latin": "Abramites hypselonotus",
+ "regi_latin_nevek": [
+  "Leporinus hypselonotus",
+  "Abramites microcephalus"
+ ],
+ "magyar_nev": "Márványos fejet lefelé úszó lazac",
+ "egyeb_nevek": [
+  "Márványos magasúszójú lazac",
+  "Magashátú lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Anostomidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Paraná vízrendszere)",
+ "max_meret_cm": 14,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Aktiv, jellegzetes fejjel lefelé ferdén úszó hal. Faj társakkal és más rokon fajokkal szemben területvédő és csipkelődő lehet, de nagyobb, robusztusabb halakkal jól társítható.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de főként növényi táplálékot igényel (forrázott zöldségek, algatabletta, lágy levelű növényeket megeheti).",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "sügérek",
+  "békés harcsák",
+  "páncélosharcsák."
+ ],
+ "kerulendo": [
+  "Fátyolos úszójú",
+  "lassú mozgású vagy kisméretű halak",
+  "valamint finom levelű akváriumi növények."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között a szaporítása rendkívül ritka és nehéz.",
+  "Lágy, enyhén savas víz és bőséges, jó minőségű élő/növényi eleség szükséges a kondicionáláshoz.",
+  "Ikráztató akváriumba ikrarács és finom levelű növénycsomó kell.",
+  "Az ikrázás után a szülőket azonnal el kell távolítani, mert megeszik az ikrákat.",
+  "Az ivadékok elúszásuk után frissen keltetett artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények teste láthatóan kerekdedebb és molettebb a hímekénél.",
+ "felismeres_jegyek": [
+  "Magas, oldalról lapított testforma megnyúlt, csúcsos fejjel.",
+  "Világosbarna/sárgás alapszínen sötétbarna, átlós keresztcsíkok.",
+  "Hegyesszögben, fejjel lefelé (kb. 45 fokos szögben) úszó póz.",
+  "Magas, csúcsos hátúszó.",
+  "Kis méretű zsírúszó jelenléte."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Anostomus anostomus",
+   "magyar_nev": "Sávos fejetlefelé úszó lazac",
+   "kulonbseg": "Hosszanti sötét csíkjai vannak, nem átlós keresztcsíkjai, és teste nyújtottabb."
+  },
+  {
+   "latin": "Leporinus fasciatus",
+   "magyar_nev": "Sávos leporinus",
+   "kulonbseg": "Jóval nagyobbra nő, teste hengeresebb és függőlegesen csíkozott."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Dara-kór",
+  "Úszórothadás (rossz vízminőség esetén)",
+  "Bélfertőzések hiányos táplálás miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Olyan akváriumba való, ahol műnövények vagy kemény levelű növények (pl. Anubias, Java páfrány) vannak, mert a finomabbakat megrágja.",
+  "Gondoskodjunk stabil fedélről, mert jó ugró.",
+  "Étrendjében mindig szerepeljen magas spirulina- és zöldségtartalmú eledel."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

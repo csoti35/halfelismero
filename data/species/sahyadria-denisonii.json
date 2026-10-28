@@ -1,0 +1,90 @@
+{
+ "id": "sahyadria-denisonii",
+ "tipus": "hal",
+ "latin": "Sahyadria denisonii",
+ "regi_latin_nevek": [
+  "Puntius denisonii",
+  "Barbus denisonii",
+  "Crossocheilus denisonii"
+ ],
+ "magyar_nev": "Denison-márna",
+ "lista_nev": "Sahyadria denisonii",
+ "egyeb_nevek": [
+  "Denison-márna",
+  "Indiai díszmárna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "India (Nyugati-Ghátok)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Aktív, békés rajhal, de nagy mozgásigénye miatt zavarhatja a lassabb halakat. Oxigéndús vizet igényel.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 6.5,
+ "ph_max": 7.8,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (fagyasztott eleségek, jó minőségű granulátum, növényi kiegészítés)",
+ "tarsithato": [
+  "Dániók",
+  "nagyobb márnák",
+  "díszcsíkok",
+  "békés sügérek"
+ ],
+ "kerulendo": [
+  "Nagyon kistestű halak",
+  "lassú gurámik",
+  "melegvízi diszkoszhalak"
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni körülmények között ritka",
+  "hormonális stimulációval szaporítják. Lágy",
+  "enyhén savas víz és dús növényzet szükséges. Az ívást a vízszint csökkentése",
+  "majd hirtelen emelése válthatja ki. Az ikrákat a növények közé szórják."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, a hímek színei intenzívebbek lehetnek az ívási időszakban.",
+ "felismeres_jegyek": [
+  "Ezüstös",
+  "torpedó alakú test. Az orrtól a test közepéig futó élénkvörös sáv. A vörös sáv alatt egy fekete csík fut végig a farokúszóig. A farokúszó két végén sárga és fekete folt található. A hátúszó első sugara vörös."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Sahyadria chalakkudiensis",
+   "magyar_nev": "Chalakkudi-márna",
+   "kulonbseg": "Kevésbé élénk vörös sáv, és fekete folt található a hátúszóján."
+  },
+  {
+   "latin": "Crossocheilus oblongus",
+   "magyar_nev": "Sziámi algázó",
+   "kulonbseg": "Nincs vörös sáv a testén, szájszerve tapadókorongos jellegű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oxigénhiányra való érzékenység",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5500,
+ "tippek": [
+  "Mivel kiváló ugró",
+  "az akváriumot szorosan le kell fedni. Szereti az áramló",
+  "tiszta vizet."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

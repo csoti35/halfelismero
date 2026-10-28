@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Chilodus punctatus",
+ "id": "chilodus-punctatus",
+ "tipus": "hal",
+ "latin": "Chilodus punctatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pöttyös fejel lefelé úszó lazac",
+ "egyeb_nevek": [
+  "Pöttyös álló lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Chilodontidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco medence)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kissé félénk rajhal. Idejének nagy részét 45 fokos szögben, fejjel lefelé lebegve tölti a növények között vagy a nyílt vízben.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő. A finom szemcsés száraztápok mellett nagyon kedveli a kisméretű élő és fagyasztott eledeleket (pl. cyclops, artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Kisméretű",
+  "békés pontylazacok",
+  "törpesügérek",
+  "páncélosharcsák",
+  "törpe szívóharcsák."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív vagy túlságosan tolakodó",
+  "gyors mozgású fajok."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy (3-6 GH), enyhén savas (pH 6.2-6.5), tőzeggel szűrt vizű ívató akvárium szükséges.",
+  "A pár kiválasztása bőséges élőeleséggel való kondicionálás után történik.",
+  "Finom szálú növények közé vagy ikrarácsra ívnak.",
+  "Ívás után a szülőket ki kell fogni.",
+  "Az kikelő ivadékok papucsállatkával és rotatóriával, majd friss artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója kissé nyújtottabb és hegyesebb, a nőstények ivaréretten teltebbek.",
+ "felismeres_jegyek": [
+  "Ezüstös-szürke alapszín sötét pöttyökből álló hosszanti és keresztirányú mintázattal.",
+  "Jellegzetes, fejjel lefelé történő ferde úszási testtartás.",
+  "A hátúszón egy látható sötét folt található.",
+  "Orrtól a szemig futó sötét vízszintes sáv."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Abramites hypselonotus",
+   "magyar_nev": "Márványos fejet lefelé úszó lazac",
+   "kulonbseg": "Nagyobb testű, átlós barna sávjai vannak, nem apró pöttyei."
+  },
+  {
+   "latin": "Nannostomus eques",
+   "magyar_nev": "Lovagtorpedólazac",
+   "kulonbseg": "Fejjel felfelé ferdén úszik, és sokkal karcsúbb, torpedó alakú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Dara-kór",
+  "Hasvízkór",
+  "Gombás fertőzések sérülések esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Biztosítsunk számára dús növényzetet és árnyékosabb, gyengébb megvilágítású zónákat.",
+  "Ne tartsuk egyedül vagy párban, legalább 6-8 példányos csapatban érzi biztonságban magát.",
+  "Szereti a finom homokos aljzatot, ahol szívesen csipeget a szerves törmelékből."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

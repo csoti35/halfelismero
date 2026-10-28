@@ -1,0 +1,77 @@
+{
+ "id": "garra-rufa",
+ "tipus": "hal",
+ "latin": "Garra rufa",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Doktorhal",
+ "egyeb_nevek": [
+  "Pirosas szívogató márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Közel-Kelet (Törökország, Szíria, Irak)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon kíváncsi és békés hal, csoportban érzi jól magát. Folyamatosan matat a tereptárgyakon.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 15,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Algák, biofilmek, apró gerinctelenek, süllyedő tabletták.",
+ "tarsithato": [
+  "Más békés",
+  "hasonló igényű halakkal",
+  "pl. dániókkal vagy más márnákkal."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek vagy nagyon lassú",
+  "nagy felületű halak (pl. diszkoszhal)",
+  "amiket csipkedhet."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyobb akvárium",
+  "erős áramlás és oxigéndús víz kell. Kavicsos aljzatra ívnak. Az ikrákat nem gondozzák. Az ivadékok apró eleséggel indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek fején nászidőszakban apró kiütések (nászkiütés) láthatók, a nőstények kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Hengeres test",
+  "alsó állású száj",
+  "barnás-szürkés márványozott szín",
+  "sötét folt a kopoltyúfedő mögött és a faroktőnél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Garra flavatra",
+   "magyar_nev": "Panda garra",
+   "kulonbseg": "Sárga-fekete sávos mintázata van, sokkal színesebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrférgesség",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Igényli a magas oxigénszintet és a tiszta vizet.",
+  "Kiválóan tisztítja az akvárium dekorációit az algától.",
+  "A kozmetikai iparban is használják elhalt hámsejtek eltávolítására."
+ ],
+ "lista_nev": "Garra rufa",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

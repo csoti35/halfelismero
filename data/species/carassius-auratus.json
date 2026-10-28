@@ -1,0 +1,89 @@
+{
+ "id": "carassius-auratus",
+ "lista_nev": "Carassius auratus",
+ "tipus": "hal",
+ "latin": "Carassius auratus",
+ "regi_latin_nevek": [
+  "Cyprinus auratus"
+ ],
+ "magyar_nev": "Aranyhal",
+ "egyeb_nevek": [
+  "Közönséges aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Hidegvízi halak",
+ "szarmazas": "Kelet-Ázsia (Kína)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 20,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű, de falánk hal. A kisebb halakat és ivadékokat véletlenül lenyelheti. Nagy helyigényű, sokat piszkít.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 4,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (lemezes táp, forrázott zöldség, fagyasztott eleség)",
+ "tarsithato": [
+  "Más aranyhal változatok",
+  "koi ponty (tóban)",
+  "fenékjáró küllő"
+ ],
+ "kerulendo": [
+  "Trópusi halak",
+  "lassú mozgású fátyolos változatok",
+  "apró halak"
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tavasszal a hőmérséklet emelése",
+  "dús növényzet biztosítása az ívató medencében",
+  "a szülők eltávolítása az ívás után",
+  "az ikrák 3-5 nap alatt kelnek ki."
+ ],
+ "ivari_kulonbseg": "Ívási időszakban a hímek kopoltyúfedőjén és mellúszóin fehér nászkiütések (darásodás) jelennek meg.",
+ "felismeres_jegyek": [
+  "Megnyúlt",
+  "oldalról lapított test",
+  "narancssárga vagy vöröses szín",
+  "hátúszója hosszú",
+  "farokúszója enyhén villás."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius carassius",
+   "magyar_nev": "Széles kárász",
+   "kulonbseg": "Színe barnás-arany, háta magasabb, úszói sötétebbek."
+  },
+  {
+   "latin": "Carassius gibelio",
+   "magyar_nev": "Ezüstkárász",
+   "kulonbseg": "Színe ezüstös-szürke, pikkelyei nagyobbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Soha ne tartsuk gömbakváriumban!",
+  "Erős szűrésre van szüksége a nagy anyagcsere miatt.",
+  "A növényeket gyakran kitúrja vagy megeszi, használjunk keményebb levelűeket."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

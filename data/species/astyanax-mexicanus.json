@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Astyanax mexicanus",
+ "id": "astyanax-mexicanus",
+ "tipus": "hal",
+ "latin": "Astyanax mexicanus",
+ "regi_latin_nevek": [
+  "Astyanax fasciatus mexicanus"
+ ],
+ "magyar_nev": "Vaklazac",
+ "egyeb_nevek": [
+  "Barlangi vaklazac",
+  "Mexikói vaklazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Mexikó, Texas (barlangi és felszíni formák)",
+ "max_meret_cm": 9,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Akváriumban kapható barlangi formája teljesen vak, szeme hiányzik, de oldalvonal-rendszerével tökéletesen tájékozódik. Aktív, békés rajhal, néha az élelemért tülekedve csipkelődhet.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 20,
+ "homerseklet_max": 25,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; granulátumot, lemezes tápot, fagyasztott szúnyoglárvát és artémiát szaglás és oldalvonal alapján azonnal megtalálja.",
+ "tarsithato": [
+  "Más békés",
+  "közepes méretű pontylazacokkal",
+  "márványgurámival",
+  "páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "ragadozó halak",
+  "vagy túlságosan apró halak",
+  "amiket véletlenül megehet."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy párt vagy kisebb csapatot 18-22 °C-os, közepesen kemény vízben.",
+  "Az ívás finom levelű növények közé vagy ikrarácsra történik.",
+  "Ívás után a szülőket el kell távolítani.",
+  "Az ikrák 24-48 órán belül kikelnek, az ivadék frissen kelt artémiával nevelhető."
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan gömbölyűbbek és testesebbek, a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Teljesen hiányzó vagy elcsökevényesedett, bőrrel fedett szemek (a barlangi formánál).",
+  "Rózsaszínes-fehéres, pikkelyes, áttetsző test pigmentáció nélkül.",
+  "Áttetsző, enyhén rózsaszínes úszók.",
+  "Hosszúkás, oldalról lapított pontylazac testforma."
+ ],
+ "hasonlo_fajok": [],
+ "gyakori_betegsegek": [
+  "Uszonyrothadás",
+  "Dara-kór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Ne tegyünk az akváriumukba éles köveket vagy díszeket, mert bár ügyesen elkerülik a tárgyakat, hirtelen megijedve megsérülhetnek.",
+  "Dekorációnak sziklákat, gyökereket használhatunk, a gyenge világítás jobban illik a barlangi életmódjukhoz."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

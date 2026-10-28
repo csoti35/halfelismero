@@ -1,0 +1,90 @@
+{
+ "id": "puntigrus-tetrazona",
+ "tipus": "hal",
+ "latin": "Puntigrus tetrazona",
+ "regi_latin_nevek": [
+  "Barbus tetrazona",
+  "Capoeta tetrazona",
+  "Puntius tetrazona"
+ ],
+ "magyar_nev": "Szumátrai díszmárna",
+ "egyeb_nevek": [
+  "Szumi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Indonézia (Szumátra, Borneó)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Rendkívül aktív, csipkelődős hal. Ha nincs elég nagy csapatban, zaklatja a többi halat, különösen a hosszú úszójúakat.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 19,
+ "taplalek": "Mindenevő, falánk. Bármilyen élő, fagyasztott vagy száraz tápot elfogyaszt.",
+ "tarsithato": [
+  "Gyors úszású halak",
+  "mint dániók",
+  "más márnák",
+  "nagyobb testű lazacok",
+  "harcsák."
+ ],
+ "kerulendo": [
+  "Vitorláshal",
+  "gurámik",
+  "sziámi harcoshal (minden hosszú úszójú faj)."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Jól táplált párt helyezzünk ki ívatórácsra vagy jávai mohára. 2. Lágy",
+  "enyhén savas víz serkenti az ívást. 3. Reggeli napsütés vagy lámpafény hatására ívnak. 4. A szülőket azonnal vegyük ki (ikrafalók). 5. Az ivadék frissen kelt artémiával indítható."
+ ],
+ "ivari_kulonbseg": "A hímek orra és úszóinak széle élénkvörös, testük karcsúbb. A nőstények testesebbek, fakóbbak.",
+ "felismeres_jegyek": [
+  "Négy függőleges fekete sáv a sárgás-narancssárga testen",
+  "magas hát",
+  "vöröses úszószélek",
+  "hiányzó bajuszszálak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Puntigrus partipentazona",
+   "magyar_nev": "Ötsávos díszmárna",
+   "kulonbseg": "Öt sávja van, és sokkal békésebb természetű."
+  },
+  {
+   "latin": "Systomus anchisporus",
+   "magyar_nev": "Sávos díszmárna",
+   "kulonbseg": "Nagyon hasonló, de az oldalvonala teljes, míg a tetrazonáé nem."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás (rossz vízminőség esetén)",
+  "Elhízás (túletetés miatt)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Mindig tartsuk legalább 8-10 fős csapatban, így egymással foglalkoznak, nem a társaikkal.",
+  "Létezik zöld (mohás) és albínó színváltozata is, ezek igényei megegyeznek.",
+  "Biztosítsunk számára nagy szabad úszóteret."
+ ],
+ "lista_nev": "Puntigrus tetrazona",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

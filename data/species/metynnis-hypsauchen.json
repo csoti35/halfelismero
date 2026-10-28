@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Metynnis hypsauchen",
+ "id": "metynnis-hypsauchen",
+ "tipus": "hal",
+ "latin": "Metynnis hypsauchen",
+ "regi_latin_nevek": [
+  "Myletes hypsauchen"
+ ],
+ "magyar_nev": "Sima ezüstdollár hal",
+ "egyeb_nevek": [
+  "Ezüstdollár hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Serrasalmidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco medence)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de nagyon gyors és ijedős rajhal. Növényeket pusztítja, ezért növénymentes vagy kemény levelű növényes akváriumot igényel.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "taplalek": "Növényevő, forrázott zöldségek (cuk anya, spenót), spirulina lemezes táp, növényi pehely.",
+ "tarsithato": [
+  "Hasonló méretű békés halakkal",
+  "sügérekkel",
+  "harcsákkal."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "amelyeket véletlenül bekaphat",
+  "valamint finom levelű akváriumi növények."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Tágas ívató akvárium biztosítása lágy, enyhén savas vízzel.",
+  "Dús növényzet vagy ikrarács elhelyezése a szülők ikrafogyasztása ellen.",
+  "A szülőket ívás után azonnal el kell távolítani.",
+  "Az kikelő ivadékokat artémiával és finom növényi porráppal etetjük."
+ ],
+ "ivari_kulonbseg": "A hímek farok alatti úszójának elülső széle pirosas és domborúbb, a nőstényeké egyenesebb.",
+ "felismeres_jegyek": [
+  "Kifejezetten korong alakú, oldalról erősen lapított test.",
+  "Fényes, ezüstös pikkelyezés.",
+  "Kicsi, apró zsírúszó a hátúszó mögött.",
+  "A farok alatti úszó elülső szegélye pirosas árnyalatú lehet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Metynnis argenteus",
+   "magyar_nev": "Ezüstdollárhal",
+   "kulonbseg": "Nagyon hasonló, de a M. hypsauchen zsírúszója hosszabb alappal rendelkezik."
+  },
+  {
+   "latin": "Myloplus rubripinnis",
+   "magyar_nev": "Horogúszójú piranha",
+   "kulonbseg": "A M. rubripinnis farok alatti úszója nyújtott, sarló/horog alakú és élénkpiros."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darasór",
+  "Sérülések ijedtség miatti ütközésekből"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Ne ültessünk lágy levelű élő növényeket az akváriumba, mert gyorsan elfogyasztják.",
+  "Biztosítsunk nagy kiúszóteret és tompított világítást a stressz csökkentésére."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

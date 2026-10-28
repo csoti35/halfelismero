@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Devario malabaricus",
+ "id": "devario-malabaricus",
+ "tipus": "hal",
+ "latin": "Devario malabaricus",
+ "regi_latin_nevek": [
+  "Danio malabaricus"
+ ],
+ "magyar_nev": "Malabári dánió",
+ "egyeb_nevek": [
+  "Óriás dánió"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák és dániók",
+ "szarmazas": "India, Srí Lanka",
+ "max_meret_cm": 12,
+ "elettartam_ev": 6,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül aktív, gyors mozgású, békés rajhal. Nagy mozgásigénye miatt a kisebb vagy lassan mozgó halakat zavarhatja, de nem bántja őket.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 18,
+ "taplalek": "Mindenevő, elfogadja a lemezes, granulált tápokat, de nagyon kedveli az élő és fagyasztott eleségeket (pl. szúnyoglárva, artémia).",
+ "tarsithato": [
+  "Hasonló méretű és temperamentumú békés halakkal (pl. más dániók",
+  "nagyobb márnák",
+  "tétrák",
+  "páncélos harcsák",
+  "dániófélék)."
+ ],
+ "kerulendo": [
+  "Lassú mozgású",
+  "hosszú úszójú halak (pl. vitorláshal",
+  "sziami harcoshal) és nagyon kistestű halak."
+ ],
+ "szaporodas_mod": "Ikrázó, az ikrákat szétszórja a növényzet közé, szülői gondoskodás nincs.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy külön ívató akváriumot lágy, enyhén savas vagy semleges vízzel és finom levelű növényekkel (vagy ikraráccsal).",
+  "Kondicionáljuk a szülőket bőséges élő eleséggel a kihelyezés előtt.",
+  "Helyezzünk át egy duzzadt nőstényt és egy-két élénk színes hímet az ívató akváriumba este.",
+  "A reggeli órákban bekövetkező ívás után a szülőket azonnal távolítsuk el, mert ikrafalók.",
+  "Az ikrák kb. 24-36 óra múlva kelnek ki, az elúszó ivadékot papucsállatkával, majd frissen keltett artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, színesebbek, az oldalukon futó kék csíkok egyenesek. A nőstények testesebbek, a kék csík a farokúszó tövénél felfelé ível.",
+ "felismeres_jegyek": [
+  "Megnyúlt, oldalról lapított, ezüstös-kék alapfejlesztésű test",
+  "Oldalán vízszintes, sárgás-arany és türkizkék csíkozás",
+  "Az úszók átlátszóak vagy enyhén rózsaszínes árnyalatúak",
+  "A felnőtt egyedek mérete akár a 10-12 cm-t is elérheti"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Devario aequipinnatus",
+   "magyar_nev": "Óriás dánió",
+   "kulonbseg": "Rendkívül hasonló, de mintázata kissé eltérő, ritkábban kapható a kereskedelemben."
+  },
+  {
+   "latin": "Danio rerio",
+   "magyar_nev": "Zebradánió",
+   "kulonbseg": "Sokkal kisebb testű (kb. 4-5 cm) és hosszanti sötétkék-fehér csíkos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daraszórtság (Ichthyophthiriasis)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Biztosítsunk számára hosszú, szabad kiúszótérrel rendelkező akváriumot és erős vízáramlást.",
+  "Az akváriumot mindenképpen fedjük le, mert kiváló ugró."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

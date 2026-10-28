@@ -1,0 +1,83 @@
+{
+ "id": "dawkinsia-filamentosa",
+ "tipus": "hal",
+ "latin": "Dawkinsia filamentosa",
+ "regi_latin_nevek": [
+  "Puntius filamentosus",
+  "Barbus filamentosus"
+ ],
+ "magyar_nev": "Filamentosa márna",
+ "lista_nev": "Dawkinsia filamentosa",
+ "egyeb_nevek": [
+  "Fonalas márna",
+  "Tollasúszójú márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "India",
+ "max_meret_cm": 15,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon aktív, békés csapathal. Fiatalon kevésbé látványos, de kifejletten gyönyörű.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget, de a növényi tápokat is.",
+ "tarsithato": [
+  "Más közepes testű márnák",
+  "dániók",
+  "harcsák",
+  "robusztusabb lazacok"
+ ],
+ "kerulendo": [
+  "Hosszú úszójú",
+  "lassú halak (pl. sziámi harcoshal)",
+  "mert megcsipkedhetik őket."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium lágy vízzel és ikraráccsal. A hímek násztáncot járnak. Ívás után a szülőket el kell távolítani. Az ivadékok apró élő eleséggel indíthatók."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek hátúszójának sugarai hosszú, fonalszerű nyúlványokat növesztenek, és színesebbek.",
+ "felismeres_jegyek": [
+  "Ezüstös test",
+  "a faroktőnél egy nagy fekete folt. A farokúszó végei vörösek és feketék. A hímek hátúszója fonalas. Fiatalon négy függőleges sáv látható rajtuk."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dawkinsia tambraparniei",
+   "magyar_nev": "Tambraparnie márna",
+   "kulonbseg": "A testén lévő foltok formája és elhelyezkedése eltérő."
+  },
+  {
+   "latin": "Puntius titteya",
+   "magyar_nev": "Meggyvörös márna",
+   "kulonbseg": "Sokkal kisebb termetű és vöröses alapszínű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Nagy úszóteret igényelnek",
+  "a növényzetet a szélekre telepítsük. Szeretik a rendszeres részleges vízcserét."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

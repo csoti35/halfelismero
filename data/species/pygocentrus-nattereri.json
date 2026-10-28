@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Pygocentrus nattereri",
+ "id": "pygocentrus-nattereri",
+ "tipus": "hal",
+ "latin": "Pygocentrus nattereri",
+ "regi_latin_nevek": [
+  "Serrasalmus nattereri"
+ ],
+ "magyar_nev": "Vöröshasú pirája",
+ "egyeb_nevek": [
+  "Pirája"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Serrasalmidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Paraná vízrendszere)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rajban élő, ragadozó és nagyon ijedős hal. Kisebb halakat vagy sérült fajtársakat elfogyasztja, ételhiány esetén agresszívvá válik.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Hús evő, halfilé, garnéla, szív, fagylalt ragadozó tápok.",
+ "tarsithato": [
+  "Kizárólag saját fajtársaival",
+  "azonos méretű csoportban."
+ ],
+ "kerulendo": [
+  "Minden más kisebb vagy lassabb hal faj."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Bőséges élő és fagyasztott élelemmel való kondicionálás.",
+  "A vízfejlesztés lágy, enyhén savas vízre való cserével.",
+  "A hím gödröt tisztít az aljzaton, majd odavonzza a nőstényt.",
+  "A hím őrzi az aljzatra ragadt ikrákat a kelésig."
+ ],
+ "ivari_kulonbseg": "A nőstények íváskor kerekebbek, a hímek színe sötétebbé válik ívási időszakban.",
+ "felismeres_jegyek": [
+  "Erőteljes, magas elülső testfelépítés és szögletes alsó állkapocs.",
+  "Éles, háromszög alakú, egymásba illeszkedő fogak.",
+  "Élénk narancssárga vagy vörös has- és torokrész.",
+  "Ezüstösen csillogó pikkelyek a hátoldalon apró fekete pöttyökkel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pygocentrus cariba",
+   "magyar_nev": "Feketefoltos pirája",
+   "kulonbseg": "Sötét folt található a kopoltyúfedő mögött."
+  },
+  {
+   "latin": "Myloplus rubripinnis",
+   "magyar_nev": "Horogúszójú piranha",
+   "kulonbseg": "Növényevő, fogsora lapos őrlőfogakból áll, nem éles tépőfogakból."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Harapási sérülések elfertőződése",
+  "Darasór",
+  "Uszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Mindig csoportban tartsuk őket, különben stresszesek és extrém ijedősek lesznek.",
+  "A rendszeres vízcsere elengedhetetlen a nagy mennyiségű fehérjedús táplálék miatti terhelés miatt."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

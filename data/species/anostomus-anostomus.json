@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Anostomus anostomus",
+ "id": "anostomus-anostomus",
+ "tipus": "hal",
+ "latin": "Anostomus anostomus",
+ "regi_latin_nevek": [
+  "Salmo anostomus"
+ ],
+ "magyar_nev": "Csíkos fejreszövő hal",
+ "egyeb_nevek": [
+  "Fejjel lefelé úszó lazac",
+  "Csíkos anostomus"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Anostomidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco medence)",
+ "max_meret_cm": 16,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fiatalon békésebb, de korosodva territóriumtartóvá és agresszívvá válhat. Fajtársaival és hasonló alakú halakkal gyakran csipkelődő, a többi hal úszóját megcsipkedheti.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.8,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, növényi dominanciával (főként algák, forrázott zöldségek, növényi lemezes tápok, kiegészítésként élő és fagyasztott tubifex, szúnyoglárva).",
+ "tarsithato": [
+  "Nagyobb",
+  "gyors",
+  "robusztus pontylazacokkal",
+  "sügérekkel",
+  "páncélosharcsákkal és algaevő harcsákkal."
+ ],
+ "kerulendo": [
+  "Lassú mozgású",
+  "fátyolos úszójú halak (pl. skalár",
+  "sziami harcoshal) és kisméretű fajok."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szaporítása rendkívül ritka és nehéz, többnyire hormonkezeléssel érik el.",
+  "Lágy, enyhén savanyú vizű, nagy méretű ívató akvárium szükséges finom levelű növényekkel.",
+  "Az ikrázás után a szülőket azonnal el kell távolítani, mert ikrafalók.",
+  "Az ikrák gombaásodása ellen lágy légzést és penészgátlót kell alkalmazni.",
+  "A kikelt ivadékot a szikzacskó felszívódása után rotatóriával és frissen keltett artémiával kell etetni."
+ ],
+ "ivari_kulonbseg": "A nőstények kifejletten testesebbek, a hímek karcsúbbak és színeik kissé élénkebbek lehetnek.",
+ "felismeres_jegyek": [
+  "Hosszúkás, henger alakú testfelepítés.",
+  "A száj nyílása felfelé néz (felső állású száj).",
+  "Vízszintes piros és fekete-sárga csíkozás a test teljes hosszában.",
+  "Jellemzően 45 fokos szögben, fejjel lefelé úszik.",
+  "Úszói pirosas szegélyűek vagy piros tővel rendelkeznek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Abramites hypselonotus",
+   "magyar_nev": "Márványos fejszövő hal",
+   "kulonbseg": "Magasabb hátú, testén függőleges márványos mintázat van, nem vízszintes csíkos."
+  },
+  {
+   "latin": "Nannostomus trifasciatus",
+   "magyar_nev": "Háromcsíkos törpeszájú hal",
+   "kulonbseg": "Sokkal kisebb termetű (max. 4-5 cm) és teljesen békés rajhal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás",
+  "Gombás fertőzések (főleg rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Tartásukhoz gondoskodjunk jól záródó akváriumfedőről, mert kiváló ugrók.",
+  "Kínáljunk nekik bőséges növényi táplálékot, különben megrághatják a puhább akváriumi növényeket.",
+  "Ne tartsuk párban: vagy egyedül, vagy legalább 5-6 fős csapatban érdemes tartani a területi agresszió megosztása érdekében."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

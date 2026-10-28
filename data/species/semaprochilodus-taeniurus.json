@@ -1,0 +1,80 @@
+{
+ "lista_nev": "Semaprochilodus taeniurus",
+ "id": "semaprochilodus-taeniurus",
+ "tipus": "hal",
+ "latin": "Semaprochilodus taeniurus",
+ "regi_latin_nevek": [
+  "Prochilodus taeniurus"
+ ],
+ "magyar_nev": "Zászlós farokúszójú lazac",
+ "egyeb_nevek": [
+  "Zászlós prochilodus",
+  "Sávosfarkú lazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Prochilodontidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de nagyra növő és rendkívül aktív úszó. Fajtársaival szemben néha rivalizálhat, de más fajokat teljesen figyelmen kívül hagy. Kiváló algaevő.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 23,
+ "homerseklet_max": 29,
+ "ph_min": 5.8,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Főként növényevő és detrituszevő. Nagy mennyiségű algát, növényi tápot, forrázott zöldséget, spirulinát igényel, de az elfogyasztott lemezes tápokat is elfogadja.",
+ "tarsithato": [
+  "Nagyobb dél-amerikai sügérek (pl. Diszkoszhal",
+  "Skalár",
+  "Geophagus)",
+  "nagy testű pontylazacok és tepsifejű harcsák."
+ ],
+ "kerulendo": [
+  "Kisméretű halak (amelyeket véletlenül lenyelhet) és lágy levelű akváriumi növények."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumban a szaporítása szinte lehetetlen a nagy helyigény és a természetes vándorlási ösztönök miatt.",
+  "A kereskedelemben kapható példányokat általában hormonkezeléssel szaporítják nagy tenyésztelepeken vagy vadon fogják."
+ ],
+ "ivari_kulonbseg": "A nemek külsőleg szinte megkülönböztethetetlenek; az ivarérett nőstények teste valamivel teltebb.",
+ "felismeres_jegyek": [
+  "Ezüstös, magas felépítésű, robusztus test.",
+  "A farokúszón éles, fekete-sárga (vagy fekete-narancs) vízszintes csíkozás (zászlós minta).",
+  "A farokalatti és hasúszók pirosas vagy narancssárga színezete.",
+  "Kicsi, lefelé álló, szívókorongra emlékeztető tapadó száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Semaprochilodus insignis",
+   "magyar_nev": "Közönséges zászlós lazac",
+   "kulonbseg": "Nagyon hasonló, de mintázata és az úszók színárnyalatai kissé eltérnek, fiatalon nehéz megkülönböztetni őket."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Dara-kór",
+  "Ugrási sérülések",
+  "Hiánybetegségek (a nem megfelelő növényi étrend miatt)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Kiválóan tisztítja a dekorációt az algától, de a puhább levelű növényeket tönkreteszi.",
+  "Rendkívül jó ugró, az akváriumot résmentesen le kell fedni!",
+  "Nagy úszóteret és erős szűrést, jó vízáramlást igényel."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

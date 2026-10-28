@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Rasbora einthovenii",
+ "id": "rasbora-einthovenii",
+ "tipus": "hal",
+ "latin": "Rasbora einthovenii",
+ "regi_latin_nevek": [
+  "Leuciscus einthovenii"
+ ],
+ "magyar_nev": "Díszsávos razbóra",
+ "egyeb_nevek": [
+  "Einthoven-razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfelék",
+ "szarmazas": "Délkelet-Ázsia (Malaaj-félsziget, Borneó, Szumátra)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, csapathoz ragaszkodó rajhal, amely remekül illik ázsiai biotóp vagy társas akváriumokba.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő, az apró száraztápokat, lemezes eledeleket elfogadja, de kedveli az élő és fagyasztott apró rákféléket.",
+ "tarsithato": [
+  "Más békés pontyfélékkel",
+  "dániókkal",
+  "kisebb gurámikkal",
+  "páncélosharcsákkal és békés törpe sügérekkel."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív vagy ragadozó halak",
+  "amelyek tápláléknak tekinthetik."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy külön ívató akváriumot lágy (1-4 dGH) és savanyú (pH 5.5-6.0) vízzel.",
+  "Helyezzünk az aljzatra ikrarácsot és finom levelű növényeket (pl. javai moha).",
+  "Helyezzünk át egy jó kondícióban lévő párt vagy egy kisebb csapatot este.",
+  "Az ikrázás általában kora reggel történik a növények közé.",
+  "Ívás után szedjük ki a szülőket, mert megeszik az ikrákat.",
+  "Az ikrák kb. 24-36 óra alatt kelnek ki, az ivadékok elúszás után infuzóriával és artémia naupliuszokkal etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek, kerekdedebb hasúak, a hímek karcsúbbak és színük kissé intenzívebb.",
+ "felismeres_jegyek": [
+  "Nyújtott, orsó alakú testforma.",
+  "A szájtól a farokúszó középső sugaraiig húzódó határozott, sötétfekete vagy sötétkék hosszsáv.",
+  "A fekete sáv felett keskeny, aranysárga vagy rézszínű világító vonal látható.",
+  "Az úszók átlátszóak, néha enyhe vöröses árnyalattal.",
+  "Az pikkelyek széle finoman szegélyezett hálós mintázatot ad."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rasbora borapetensis",
+   "magyar_nev": "Pirosfarkú razbóra",
+   "kulonbseg": "A fekete sáv csak a kopoltyúfedőtől indul, és a faroktő vörös színű."
+  },
+  {
+   "latin": "Rasbora taeniata",
+   "magyar_nev": "Sávos razbóra",
+   "kulonbseg": "A sáv vékonyabb és az úszók mintázata eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium",
+  "Gombás fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 450,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Sötét aljzattal és úszó növényekkel tompított világítással hozzuk ki igazán a színeiket.",
+  "A tőzeges vízszűrés javítja a közérzetüket és kiemeli a mintázatukat."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

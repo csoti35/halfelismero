@@ -1,0 +1,91 @@
+{
+ "id": "carassius-auratus-teleszkopszemu",
+ "tipus": "hal",
+ "latin": "Carassius auratus auratus",
+ "regi_latin_nevek": [
+  "Carassius auratus 'Telescope Eye'"
+ ],
+ "magyar_nev": "Teleszkópszemű aranyhal",
+ "egyeb_nevek": [
+  "Demekin",
+  "Sárkányszemű aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Hidegvízi halak",
+ "szarmazas": "Kína (tenyésztett változat)",
+ "max_meret_cm": 18,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, de látása korlátozott, mozgása bizonytalan. Érzékeny hal.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (könnyen emészthető süllyedő tápok, apró fagyasztott eleség)",
+ "tarsithato": [
+  "Kizárólag más lassú mozgású aranyhalakkal (pl. Égbenéző",
+  "Hólyagszemű)."
+ ],
+ "kerulendo": [
+  "Bármilyen gyors hal",
+  "agresszív fajok",
+  "vagy olyanok",
+  "amik csipkedhetik a szemét."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágyabb víz és tavaszi hőmérséklet-emelkedés imitálása.",
+  "Dús növényzet az ikráknak.",
+  "A hímek kitartóan kergetik a nőstényt.",
+  "Az ikrák 48-72 óra alatt kelnek ki.",
+  "Az ivadékok szeme kezdetben normális, csak hónapok múlva dülled ki."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszóin fehér nászkiütések láthatók íváskor.",
+ "felismeres_jegyek": [
+  "Oldalirányba erősen kidülledő, nagy szemek.",
+  "Rövid, zömök testalkat.",
+  "Osztott farokúszó.",
+  "A szemek csak 6 hónapos kor után kezdenek kidülledni.",
+  "Leggyakoribb a bársonyos fekete szín (Black Moor)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus 'Celestial'",
+   "magyar_nev": "Égbenéző aranyhal",
+   "kulonbseg": "A szemek felfelé néznek, és nincs hátúszója."
+  },
+  {
+   "latin": "Carassius auratus 'Black Moor'",
+   "magyar_nev": "Fekete teleszkóphal",
+   "kulonbseg": "Ez a teleszkópszemű aranyhal fekete színváltozata."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Szem sérülései és fertőzései",
+  "Gombásodás",
+  "Úszóhólyag-betegség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 10000,
+ "tippek": [
+  "Szigorúan tilos éles köveket vagy ágakat tenni az akváriumba a szemsérülések veszélye miatt.",
+  "Látása rossz, ezért figyelni kell, hogy jusson neki elég étel.",
+  "A fekete változat (Black Moor) a legellenállóbb a teleszkópok közül.",
+  "A szűrő szívóágát védjük szivaccsal, nehogy beszippantsa a szemét."
+ ],
+ "lista_nev": "Carassius auratus 'Teleszkópszemű'",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Desmopuntius pentazona",
+ "id": "desmopuntius-pentazona",
+ "tipus": "hal",
+ "latin": "Desmopuntius pentazona",
+ "regi_latin_nevek": [
+  "Puntius pentazona",
+  "Capoeta pentazona",
+  "Barbus pentazona"
+ ],
+ "magyar_nev": "Ötsávos márna",
+ "egyeb_nevek": [
+  "Ötsávos díszmárna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Délkelet-Ázsia (Kambodzsa, Malajzia, Szingapúr, Indonézia)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, félénk rajhal. A szumátrai márnától eltérően nem csipkedi más halak úszóit.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő. Jó minőségű lemezes és szemcsés tápok mellett nagyon kedveli az apró fagyasztott élő eledeleket (pl. cyclops, artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Kisméretű",
+  "békés fajokkal (pl. pontylazacok",
+  "dániók",
+  "törpe gurámik",
+  "páncélosharcsák)."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív vagy túlságosan mozgékony halak",
+  "amelyek megfélemlítik."
+ ],
+ "szaporodas_mod": "Szabadon ívó ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (2-5 dGH), savas (pH 6.0) vízzel teli külön ívató akvárium előkészítése finom levelű növényekkel vagy ikraráccsal.",
+  "A szülőket előzetesen bőséges élő táplálékkal kondicionáljuk.",
+  "Egy pár vagy egy kisebb csapat kihelyezése este az ívatóba.",
+  "Az ívás általában reggel történik a növények között.",
+  "Ívás után a szülőket azonnal távolítsuk el, a tartályt sötétítsük be.",
+  "A kikelő ivadékot elúszás után papucsállatkával, majd friss artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és úszóik (különösen a has alatti és farok alatti úszó) élénkebb vöröses színezetűek. A nőstények teste kerekdedebb.",
+ "felismeres_jegyek": [
+  "Vöröses-narancssárga alapszínű test",
+  "A testen pontosan 5 függőleges, függőleges fekete/sötétkék sáv húzódik",
+  "A hátúszó tövénél található az egyik sáv (nem terjed ki teljesen az úszó teljes magasságára)",
+  "Békés testtartás, rövidebb úszóformák"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Puntigrus tetrazona",
+   "magyar_nev": "Szumátrai márna",
+   "kulonbseg": "Csak 4 fekete sávja van, teste magasabb, agresszívabb és úszócsipkedő."
+  },
+  {
+   "latin": "Desmopuntius hexazona",
+   "magyar_nev": "Hatsávos márna",
+   "kulonbseg": "6 fekete sávja van, a hátúszó alatt egy plusz keskeny sáv látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasonló gombás fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 850,
+ "tippek": [
+  "Sötét aljzatú, növényekkel sűrűn beültetett akváriumban mutatják meg legszebb színeiket.",
+  "A lágyabb, tőzeggel szűrt vizet meghálálják.",
+  "Mindig legalább 8-10 egyedből álló csapatban tartsuk félénkségük csökkentése érdekében."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "carassius-auratus-oroszlanfeju-ranchu",
+ "tipus": "hal",
+ "latin": "Carassius auratus",
+ "regi_latin_nevek": [
+  "Carassius auratus auratus"
+ ],
+ "magyar_nev": "Ranchu aranyhal",
+ "lista_nev": "Carassius auratus 'Oroszlánfejű (Ranchu)'",
+ "egyeb_nevek": [
+  "Oroszlánfejű aranyhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Aranyhalak",
+ "szarmazas": "Japán / Kína (tenyésztett változat)",
+ "max_meret_cm": 18,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, társas hal, de lassú mozgása miatt nem versenyképes a táplálékért a gyorsabb fajokkal szemben.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, növényi alapú süllyedő tápok, fagyasztott eleség.",
+ "tarsithato": [
+  "Más osztott farkú",
+  "lassú aranyhalakkal."
+ ],
+ "kerulendo": [
+  "Közönséges aranyhal",
+  "üstökösfarkú aranyhal",
+  "trópusi díszhalak."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Nagyobb vízcserék és fehérjedús etetés az ívás előtt.",
+  "Ívató rács vagy dús növényzet az ikrák védelmére.",
+  "A szülők eltávolítása az ívás befejeztével.",
+  "Az ikrák gombásodás elleni kezelése.",
+  "Ivadékok etetése infuzóriával, majd artémiával."
+ ],
+ "ivari_kulonbseg": "A hímeknél nászkiütések a kopoltyún, a nőstények teste teltebb.",
+ "felismeres_jegyek": [
+  "Nincs hátúszója.",
+  "A fejen málna-szerű húsos kinövés (wen) található.",
+  "Erősen görbült hátvonal a faroktőnél.",
+  "Rövid, zömök test.",
+  "Osztott, rövid farokúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus 'Lionhead'",
+   "magyar_nev": "Oroszlánfejű aranyhal",
+   "kulonbseg": "A hátvonala egyenesebb, mint a Ranchu-é, és a faroktő szöge is eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Úszóhólyag-gyulladás",
+  "Kopoltyúférgesség",
+  "Bőrgombásodás a fejkinövések között"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "A fejkinövések (wen) elfertőződhetnek a lerakódó mulmtól, tiszta vizet igényel.",
+  "Ne etessük túl, mert hajlamos az elhízásra és az úszóhólyag-problémákra.",
+  "A Ranchu a 'vízi kutyaként' is ismert, felismeri gazdáját."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

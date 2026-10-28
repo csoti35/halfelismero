@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Danio erythromicron",
+ "id": "danio-erythromicron",
+ "tipus": "hal",
+ "latin": "Danio erythromicron",
+ "regi_latin_nevek": [
+  "Microrasbora erythromicron",
+  "Celestichthys erythromicron"
+ ],
+ "magyar_nev": "Smaragd törpedánió",
+ "egyeb_nevek": [
+  "Smaragdsávos törpedánió"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Dániók és razkórák",
+ "szarmazas": "Ázsia (Mianmar, Inle-tó)",
+ "max_meret_cm": 2.0,
+ "elettartam_ev": 3.0,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de rendkívül félénk, kistestű rajhal. A hímek egymás között néha fitogtatják erejüket, de nem okoznak sérülést. Más kisméretű, békés fajokkal tartható.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20.0,
+ "homerseklet_max": 24.0,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10.0,
+ "gh_max": 20.0,
+ "taplalek": "Mindevő, apró élő és fagyasztott táplálékot (artemia, daphnia) vagy apró szemcséjű száraztápot igényel.",
+ "tarsithato": [
+  "Más apró",
+  "békés fajokkal",
+  "mint a Cpd (Danio margaritatus)",
+  "kistestű törpe razbórák",
+  "édesvízi garnélák."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív vagy túlságosan mozgékony halak",
+  "amelyek megeszik vagy elijesztik."
+ ],
+ "szaporodas_mod": "Ikrarakó, ikraszóró",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Ivató akvárium berendezése mohákkal és ikraráccsal, lágyabb vagy középkemény, enyhén lúgos vízzel.",
+  "A jó kondícióban lévő hímeket és nőstényeket este helyezzük át az ívatóba.",
+  "Reggel, az első fények megjelenésekor ikráznak a növények közé.",
+  "Ívás után a szülőket azonnal távolítsuk el, mert ikrafalók.",
+  "Az ikrák kb. 72 óra múlva kelnek ki, az elúszó ivadékot papucsállatkával vagy mikroeleséggel etessük."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, színeződésük élénkebb, a függőleges sávok közötti részek és az úszók vöröses árnyalatúak. A nőstények gömbölydedebbek és fakóbbak.",
+ "felismeres_jegyek": [
+  "A test oldalán 10-15 sötétkék/smaragdzöld függőleges sáv húzódik.",
+  "A farokúszó tövében egy jól látható fekete pont található.",
+  "Nagyon kicsi, orsó alakú test, maximum 2 cm.",
+  "Az úszók töve és széle a kifejlett hímeknél narancsos-vöröses.",
+  "A nőstények hasa ívási időszakban kerekded és világos."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Danio margaritatus",
+   "magyar_nev": "Galaxis razbóra",
+   "kulonbseg": "Sötét alapon aranyszínű pöttyös mintázattal rendelkezik, nem függőleges sávokkal."
+  },
+  {
+   "latin": "Microdevario kubotai",
+   "magyar_nev": "Neon zöld razbóra",
+   "kulonbseg": "Áttetsző neon zöldes-sárgás testű, nincsenek rajta sötét kék sávok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombás fertőzések",
+  "Oodinium (bársonybetegség)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Sűrűn növényesített akváriumot igényel, ahol sok a búvóhely.",
+  "Kedveli a természetes élőhelyének megfelelő keményebb, enyhén lúgos vizet."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

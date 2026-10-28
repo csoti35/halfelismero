@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Barbonymus schwanenfeldii",
+ "id": "barbonymus-schwanenfeldii",
+ "tipus": "hal",
+ "latin": "Barbonymus schwanenfeldii",
+ "regi_latin_nevek": [
+  "Puntius schwanenfeldii",
+  "Barbodes schwanenfeldii"
+ ],
+ "magyar_nev": "Gyémántmárna",
+ "egyeb_nevek": [
+  "Schwanenfeld-márna",
+  "Pirosúszójú márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia, Szumátra, Borneó)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de rendkívül aktív, gyors mozgású és nagyra növő rajhal. Mérete miatt a kisebb halakat véletlenül vagy tápláléknak tekintve bekaphatja.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.3,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, erősen növényevő hajlamú. Előszeretettel fogyasztja a puhább akváriumi növényeket, a fagyasztott és száraz tápokat egyaránt.",
+ "tarsithato": [
+  "Hasonló méretű",
+  "robusztus és gyors úszású fajokkal (pl. nagyobb dániók",
+  "nagyobb harcsák",
+  "sügérek)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak (pl. neonhal",
+  "törpe szívóharcsa) és finom levelű növények."
+ ],
+ "szaporodas_mod": "Szabadon ívó ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Kereskedelmi célú szaporítása hatalmas medencékben vagy tavakban történik, otthoni akváriumban mérete miatt szinte lehetetlen.",
+  "Ívatáshoz nagy méretű, lágyabb és enyhén savas vizű medence szükséges rácsos aljzattal.",
+  "Az ikrázás gyors sodrású víz szimulálásával váltható ki.",
+  "Az ikrákat a szülők azonnal megeszik, ezért ívás után a szülőket el kell távolítani.",
+  "A kikelő ivadékot frissen keltett artémiával és finom porrá őrölt táppal lehet felnevelni."
+ ],
+ "ivari_kulonbseg": "A nőstények teste éretten lényegesen teltetbb és magasabb építésű, a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Nagy, ezüstösen csillogó pikkelyekkel borított magas test",
+  "Élénkpiros hát-, farok- és farok alatti úszók",
+  "A farokúszó felső és alsó szélén fekete szegély húzódik",
+  "A hátúszó csúcsán látható fekete folt"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Barbonymus altus",
+   "magyar_nev": "Pirosszárnyú márna",
+   "kulonbseg": "Kisebbre nő, hiányzik a fekete csík a farokúszó éleiről."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás",
+  "Sérülések a gyors mozgás miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kizárólag óriási akváriumokba vásároljuk, mert rendkívül gyorsan növekszik.",
+  "Erős szűrésről és jó vízáramlásról gondoskodjunk.",
+  "Növényesítéshez csak kemény levelű fajokat (pl. Anubias, Java páfrány) használjunk, mert a többit megeszik."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

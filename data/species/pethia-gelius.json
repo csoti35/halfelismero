@@ -1,0 +1,86 @@
+{
+ "id": "pethia-gelius",
+ "tipus": "hal",
+ "latin": "Pethia gelius",
+ "regi_latin_nevek": [
+  "Puntius gelius",
+  "Barbus gelius"
+ ],
+ "magyar_nev": "Arany díszmárna",
+ "egyeb_nevek": [
+  "Törpe díszmárna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "India, Pakisztán, Banglades",
+ "max_meret_cm": 4,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, félénk csapathal, amely csak hasonló méretű és nyugodt halak mellett érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli az apró élő és fagyasztott eleséget (artémia, cyclops), de a jó minőségű lemezes tápot is elfogadja.",
+ "tarsithato": [
+  "Törpe razborák",
+  "kis testű dániók",
+  "páncélos harcsák",
+  "garnélák."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív vagy túl mozgékony halak",
+  "sügérek."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Különítsünk el egy párt egy lágy vizes",
+  "finom levelű növényekkel teli ívató akváriumba. 2. A hőmérsékletet emeljük 24-25 fokra. 3. Az ívás reggel történik a növények közé. 4. A szülőket ívás után azonnal távolítsuk el. 5. Az ivadékok 24 óra múlva kelnek ki."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és intenzívebb aranysárga színűek, a nőstények teltebbek, hasuk kerekdedebb.",
+ "felismeres_jegyek": [
+  "Áttetsző aranysárga test",
+  "fekete foltok az oldalon és az úszók tövénél",
+  "viszonylag nagy pikkelyek",
+  "apró termet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pethia canius",
+   "magyar_nev": "Ezüstös díszmárna",
+   "kulonbseg": "Színe inkább ezüstös-bronzos, nem annyira élénksárga."
+  },
+  {
+   "latin": "Puntius titteya",
+   "magyar_nev": "Meggyvörös márna",
+   "kulonbseg": "Testalkata nyúlánkabb, színe vöröses, és vízszintes sötét csík fut végig rajta."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 450,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Ne tartsuk túl meleg vízben, a szobahőmérséklet (22°C) ideális számára.",
+  "Sűrű növényzetet igényel, hogy biztonságban érezze magát.",
+  "Sötét aljzat mellett a színei sokkal jobban érvényesülnek."
+ ],
+ "lista_nev": "Pethia gelius",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

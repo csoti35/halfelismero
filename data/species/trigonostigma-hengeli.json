@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Trigonostigma hengeli",
+ "id": "trigonostigma-hengeli",
+ "tipus": "hal",
+ "latin": "Trigonostigma hengeli",
+ "regi_latin_nevek": [
+  "Rasbora hengeli"
+ ],
+ "magyar_nev": "Hengel ékfoltos razbórája",
+ "egyeb_nevek": [
+  "Fényes ékfoltos razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Indonézia (Szumátra, Borneó)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, csapathoz ragaszkodó rajhal, amely kiválóan alkalmas növényes és társas akváriumokba.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő, az apró szemcséjű száraztápokat, lemezes eledeleket, fagyasztott és élő kisméretű eleségeket (pl. artémia, cyclops) örömmel fogyasztja.",
+ "tarsithato": [
+  "Más kis testű",
+  "békés pontyfélékkel",
+  "törpe lazacokkal",
+  "páncélos harcsákkal",
+  "törpe sügérekkel és békés gerinctelenekkel."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "ragadozó vagy túl mozgékony",
+  "agresszív halak",
+  "amelyek tápláléknak tekinthetik."
+ ],
+ "szaporodas_mod": "Szabadon ívó, petéit széles levelű növények leveleinek fonákjára tapasztja.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Készítsünk elő lágy (2-4 dGH), savanyú (pH 5.5-6.5) vízzel feltöltött ívató akváriumot széles levelű növényekkel (pl. Cryptocoryne, Anubias).",
+  "Kondicionáljuk a szülőket minőségi élő eleséggel.",
+  "Helyezzünk át egy kifejlett párt vagy egy kis csapatot este az ívató akváriumba.",
+  "Az ívás a levélfonák alatt fejjel lefelé úszva történik, ahova az ikrákat rátapasztják.",
+  "Ívás után a szülőket távolítsuk el, az akváriumot sötétítsük el a fényérzékeny ikrák védelmében."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és színeik élénkebbek, a nőstények teste kerekdedebb, különösen ívási időszakban.",
+ "felismeres_jegyek": [
+  "Fényes, élénknarancssárga csík húzódik a test oldalán.",
+  "A narancssárga csík alatt egy keskeny, sötét, ék alakú folt található.",
+  "Testalapszíne áttetsző, enyhén rózsaszínes vagy ezüstös.",
+  "A T. heteromorphánál jóval keskenyebb fekete ékfolttal rendelkezik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trigonostigma heteromorpha",
+   "magyar_nev": "Ékfoltos razbóra",
+   "kulonbseg": "A T. heteromorpha fekete ékfoltja sokkal szélesebb és nagyobb, teste magassabb, narancssárga sávja kevésbé neonos."
+  },
+  {
+   "latin": "Trigonostigma espei",
+   "magyar_nev": "Karcsú ékfoltos razbóra",
+   "kulonbseg": "A T. espei oldalán lévő narancssárga terület kiterjedtebb, a fekete folt formája kissé eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium (bársonybetegség)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "A legszebb színeket lágy, tőzeggel színezett feketevízben és sötét aljzaton mutatják.",
+  "Mindig legalább 8-10 egyedből álló csapatban tartsuk, mert magányosan bujkálóvá és stresszessé válnak.",
+  "Növényekkel dúsan beültetett akváriumban érzik magukat a legjobban."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

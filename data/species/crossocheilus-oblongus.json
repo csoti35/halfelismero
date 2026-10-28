@@ -1,0 +1,87 @@
+{
+ "id": "crossocheilus-oblongus",
+ "tipus": "hal",
+ "latin": "Crossocheilus oblongus",
+ "regi_latin_nevek": [
+  "Crossocheilus siamensis",
+  "Epalzeorhynchos siamensis"
+ ],
+ "magyar_nev": "Sziámi algaevő márna",
+ "egyeb_nevek": [
+  "Sziámi ormányosmárna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Márnák",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Alapvetően békés, de fajtársaival szemben területvédő lehet, ha nincs elég hely. Nagyon aktív úszó.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de főleg algák (ecsetalga is), forrázott zöldségek, tablettás tápok.",
+ "tarsithato": [
+  "Békés közepes és nagyobb testű halakkal",
+  "pontylazacokkal",
+  "dániókkal."
+ ],
+ "kerulendo": [
+  "Nagyon félénk vagy lassú halak",
+  "amelyek zavarhat az aktivitása."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen",
+  "hormonkezeléssel szaporítják nagyüzemben. Természetben az áradások váltják ki az ívást. Lágy",
+  "savas víz és nagy úszótér szükséges. Az ikrákat a növények közé szórják."
+ ],
+ "ivari_kulonbseg": "A nőstények kifejlett korukban teltebbek, a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Hosszúkás test",
+  "egyetlen fekete vízszintes csík a fejtől a farokúszó végéig",
+  "a csík széle cikkcakkos",
+  "átlátszó úszók",
+  "egy pár bajusz."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Epalzeorhynchos kalopterum",
+   "magyar_nev": "Díszes ormányosmárna",
+   "kulonbseg": "Az úszóin fehér és piros színek is vannak, a fekete csík felett egy világos sáv fut."
+  },
+  {
+   "latin": "Gyrinocheilus aymonieri",
+   "magyar_nev": "Moszatfaló márna",
+   "kulonbseg": "Szája tapadókorongos, teste vaskosabb, gyakran sárga színváltozatban kapható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Az egyetlen hal, amely hatékonyan fogyasztja az ecsetalgát.",
+  "Mindig legyen lefedve az akvárium, mert kiváló ugró.",
+  "Idősebb korában ellustulhat, ha túl sok mesterséges tápot kap."
+ ],
+ "lista_nev": "Crossocheilus oblongus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

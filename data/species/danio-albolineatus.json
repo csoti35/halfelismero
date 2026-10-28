@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Danio albolineatus",
+ "id": "danio-albolineatus",
+ "tipus": "hal",
+ "latin": "Danio albolineatus",
+ "regi_latin_nevek": [
+  "Brachydanio albolineatus",
+  "Nuria albolineata"
+ ],
+ "magyar_nev": "Gyöngydánió",
+ "egyeb_nevek": [
+  "Gyöngyház dánió"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfelék",
+ "szarmazas": "Délkelet-Ázsia (Mianmar, Thaiföld, Malajzia, Szumátra)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon aktív, csapatszerető és békés hal. Gyors úszása miatt óvatos, lassú mozgású halakat zavarhat, de senkit nem bánt.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20.0,
+ "homerseklet_max": 25.0,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; a minőségi lemezes és granulált tápokat örömmel elfogadja, fagyasztott és élő élőszervezeteket (daphnia, artemia) meghálál.",
+ "tarsithato": [
+  "Más békés",
+  "hasonló méretű pontyflékkel",
+  "tetrákkal",
+  "páncélosharcsákkal és törpe szívóharcsákkal."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "ragadozó halak",
+  "illetve nagyon lassú",
+  "fátyolos úszójú fajok",
+  "amelyeket zavarhat a dániók állandó mozgása."
+ ],
+ "szaporodas_mod": "Szabadon ívó, ikráit a növényzet közé szórja, a szülői gondoskodás teljesen hiányzik.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Helyezzünk el egy külön 15-20 literes ívató akváriumot lágy, enyhén savas vízzel és ívatóráccsal vagy finom levelű növényekkel (pl. javai moha).",
+  "Kondicionáljuk a szülőket bőséges élő és fagyasztott eleséggel 1-2 héten át külön tartva.",
+  "Este tegyünk át egy jól kerekedő nőstényt és két színes hímet az ívatóba.",
+  "A reggeli órákban a napsütés hatására megtörténik az ívás, ami után a szülőket azonnal távolítsuk el, mert ikrafalók.",
+  "Az ikrák kb. 36-48 óra alatt kelnek ki, az ivadék az szikzacskó felszívódása után infuzóriával és frissen keltett artémiával etethető."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és intenzívebb rózsaszínes-narancsos árnyalatúak; a nőstények testformája kerekdedebb, különösen ívás előtt.",
+ "felismeres_jegyek": [
+  "Oldalán gyöngyházfényű, rózsaszínes-kékes irizáló pikkelyek láthatók.",
+  "A test hátsó felén, a faroktő irányába egy narancssárga vagy aranyszínű hosszanti csík húzódik.",
+  "Karcsú, áramvonalas orsó alakú testforma.",
+  "Szájánál apró bajuszszálak találhatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Danio rerio",
+   "magyar_nev": "Zebradánió",
+   "kulonbseg": "A zebradánió teljes testén sötétkék és ezüstös-sárgás hosszanti csíkok húzódnak, nem gyöngyházfényű rózsaszín."
+  },
+  {
+   "latin": "Danio roseus",
+   "magyar_nev": "Rózsás dánió",
+   "kulonbseg": "A rózsás dánió hátrébb húzódó csíkja hiányzik vagy sokkal halványabb, színe egyöntetűbben rózsaszínes."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Halpenész (Saprolegniasis)",
+  "Darakór",
+  "Halgümőkór (tbc)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 600,
+ "tippek": [
+  "Nagyon szeretnek áramlásban úszni, ezért a szűrő kiömlőnyílását érdemes úgy beállítani, hogy legyen nyílt, áramló zóna az akváriumban.",
+  "Mindig jól fedjük le az akváriumot, mert kiváló ugrók.",
+  "Legalább 8-10 egyedből álló csapatban tartsuk, hogy természetes viselkedésüket mutassák."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Devario aequipinnatus",
+ "id": "devario-aequipinnatus",
+ "tipus": "hal",
+ "latin": "Devario aequipinnatus",
+ "regi_latin_nevek": [
+  "Danio aequipinnatus"
+ ],
+ "magyar_nev": "Óriás dánió",
+ "egyeb_nevek": [
+  "Óriásdánió"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Dániók és razkórák",
+ "szarmazas": "Ázsia (India, Srí Lanka)",
+ "max_meret_cm": 10.0,
+ "elettartam_ev": 6.0,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül energikus, gyorsan úszó, békés rajhal. Mérete és mozgékonysága miatt nagyobb akváriumot igényel.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 20.0,
+ "homerseklet_max": 25.0,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5.0,
+ "gh_max": 18.0,
+ "taplalek": "Mindevő, nagy étvágyú. Minőségi lemezes tápok, granulátumok, fagyasztott és élő szúnyoglárva, tubifex egyaránt jó.",
+ "tarsithato": [
+  "Közepes testű békés halakkal (márnák",
+  "nagyobb pontylazacok",
+  "békés sügérek",
+  "harcsák)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak (amelyeket bekaphat)",
+  "valamint nagyon nyugodt vagy fonalas úszójú fajok."
+ ],
+ "szaporodas_mod": "Ikrarakó, ikraszóró",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Nagyobb méretű ívató akvárium előkészítése ikraráccsal, lágy-középkemény vízzel.",
+  "A jó kondícióba hozott szülőket este tesszük át az ívatóba.",
+  "A kora reggeli órákban heves úszás kíséretében ikráznak.",
+  "Ívás után a felnőtteket távolítsuk el, különben megeszik az ikrákat.",
+  "Az ikrák kb. 24-36 óra alatt kikelnek, az ivadék artémiával jól nevelhető."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, a testükön lévő kék-sárga sávok egyenesebbek. A nőstények testesebbek, a sávok a test közepén kissé felfelé ívesek.",
+ "felismeres_jegyek": [
+  "Nagy, akár 10 cm-es, erőteljesen lapított, áramvonalas test.",
+  "Oldalán vízszintes kék és arany/sárga csíkok húzódnak.",
+  "A kopoltyúfedő mögött apró sárgás-kék foltok találhatók.",
+  "Az úszók enyhén rózsaszínes vagy sárgás árnyalatúak.",
+  "A száj felfelé irányuló."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Devario malabaricus",
+   "magyar_nev": "Malabári dánió",
+   "kulonbseg": "Nagyon hasonló, gyakran tévesztik össze; a malabári dánió sávjai kissé eltérő lefutásúak."
+  },
+  {
+   "latin": "Danio rerio",
+   "magyar_nev": "Zebradánió",
+   "kulonbseg": "Sokkal kisebb testméretű (max 5 cm), vékonyabb csíkozással."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór",
+  "Sérülések a gyors úszás miatti ütközésekből"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Hosszú, nagy úszóteret biztosító akváriumot rendezzünk be számukra.",
+  "Az akváriumot szorosan fedni kell, mert kiugorhatnak."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

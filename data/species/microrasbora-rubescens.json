@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Microrasbora rubescens",
+ "id": "microrasbora-rubescens",
+ "tipus": "hal",
+ "latin": "Microrasbora rubescens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vörös törperazbóra",
+ "egyeb_nevek": [
+  "Rubinrazbóra",
+  "Inle-tavi törperazbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Mianmar (Inle-tó)",
+ "max_meret_cm": 3.0,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, rajban élő apró hal. Más kistestű fajokkal és garnélákkal ideálisan tartható.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.8,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Kisméretű száraz lemezes tápok, morzsolt granulátumok, friss vagy fagyasztott artémia, cyclops.",
+ "tarsithato": [
+  "Kisméretű dániók",
+  "egyéb törperazbórák",
+  "törpe szívóharcsák",
+  "garnélák."
+ ],
+ "kerulendo": [
+  "Nagy testű vagy agresszív halak."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Ivatóakvárium berendezése finom levelű növényekkel (Jávai moha).",
+  "Közepesen kemény, enyhén lúgos víz biztosítása (az Inle-tó paramétereihez igazodva).",
+  "A hím és nőstény elhelyezése, élő eleséggel történő etetése.",
+  "Ívás után a kifejlett egyedek eltávolítása az ikrafogyasztás megelőzésére."
+ ],
+ "ivari_kulonbseg": "A hímek színe élénkebb narancssárgás-vöröses, testük karcsúbb; a nőstények fakóbbak és gömbölyűbb hasúak.",
+ "felismeres_jegyek": [
+  "Rózsaszínes-narancssárgás alapszín",
+  "Karcsú, kissé nyújtott testforma",
+  "A kopoltyúfedő mögött átsejlik a belső szervek vonala",
+  "Áttetsző, enyhén narancsos árnyalatú úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Celestichthys margaritatus",
+   "magyar_nev": "Galaxis razbóra",
+   "kulonbseg": "A galaxis razbóra teste sötétkék, világos pöttyökkel és piros-fekete sávos úszókkal."
+  },
+  {
+   "latin": "Boraras urophthalmoides",
+   "magyar_nev": "Törpe razbóra",
+   "kulonbseg": "A Boraras urophthalmoides kisebb termetű, oldalsávja aranysárga és sötét."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1400,
+ "tippek": [
+  "A természetes élőhelyéből (Inle-tó) adódóan a keményebb, enyhén lúgos vizet kedveli jobban, mint a többi ázsiai törperazbóra.",
+  "Ne tartsuk túl meleg vízben, a 22-24 °C az optimális számára."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Prionobrama filigera",
+ "id": "prionobrama-filigera",
+ "tipus": "hal",
+ "latin": "Prionobrama filigera",
+ "regi_latin_nevek": [
+  "Aphyocharax filigerus"
+ ],
+ "magyar_nev": "Üveglazac",
+ "egyeb_nevek": [
+  "Pirosfarkú üveglazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Characidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas medencéje)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, mozgékony rajhal, amely felszínközeli életmódot folytat. Más békés fajokkal kiválóan társítható.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, részesítse előnyben a jó minőségű száraztápokat, artémiát és szúnyoglárvát.",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "törpe sügérek",
+  "páncélos harcsák",
+  "razbórák."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív vagy ragadozó fajok."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (2-6 dGH) és enyhén savas (pH 6.2-6.8) vízzel teli ívató akvárium előkészítése ikraráccsal.",
+  "A szülőpár bőséges élő eleséggel történő kondicionálása a kihelyezés előtt.",
+  "A pár este történő kihelyezése a szaporító akváriumba.",
+  "Az ívást követően a szülők azonnali eltávolítása az ikrafogyasztás elkerülése érdekében.",
+  "Az ikrák árnyékolása, majd a kikelő ivadékok indítása papucsállatkával és frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek farok alatti úszójának első sugarai megnyúltak, fehérek és finoman kampósak; a nőstények testesebbek.",
+ "felismeres_jegyek": [
+  "Áttetsző, üvegszerű testlemez, amin átlátszanak a belső szervek.",
+  "Élénkpiros farokúszó.",
+  "Karcsú, oldalról lapított testforma.",
+  "A hímek farok alatti úszóján lévő megnyúlt fehér szegély."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paragoniates alburnus",
+   "magyar_nev": "Sárkánylazac",
+   "kulonbseg": "Testformája nyújtottabb, és hiányzik az élénkpiros farokúszó."
+  },
+  {
+   "latin": "Crenuchus spilurus",
+   "magyar_nev": "Vitorlás pontylazac",
+   "kulonbseg": "Nem áttetsző a teste, úszói jóval nagyobbak és mintázottak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórohadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 500,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Biztosítsunk számára nagy szabad úszóteret a vízfelszín közelében.",
+  "A jó kiugrási hajlam miatt az akváriumot szorosan le kell fedni."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

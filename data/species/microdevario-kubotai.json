@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Microdevario kubotai",
+ "id": "microdevario-kubotai",
+ "tipus": "hal",
+ "latin": "Microdevario kubotai",
+ "regi_latin_nevek": [
+  "Microrasbora kubotai"
+ ],
+ "magyar_nev": "Smaragdzöld razbóra",
+ "egyeb_nevek": [
+  "Neon zöld razbóra",
+  "Kubotai razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Mianmar, Thaiföld",
+ "max_meret_cm": 2.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, élénk mozgású, csapathoz ragaszkodó nanohal. Kisebb méretű, nyugodt fajokkal jól tartható együtt.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, de apró szemcseméretű száraztápot, frissen keltett artémiát és apró fagyasztott eleségeket igényel.",
+ "tarsithato": [
+  "Kisméretű pontyfélék",
+  "törpe szívóharcsák",
+  "törpe garnélák (pl. Neocaridina)",
+  "kis termetű dániók."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "agresszív vagy ragadozó halak",
+  "amelyek tápláléknak tekinthetik."
+ ],
+ "szaporodas_mod": "Ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savanyú vizű, finom levelű növényekkel (pl. mohákkal) beültetött külön ívató akvárium előkészítése.",
+  "A szülőpár vagy egy kisebb csapat bőséges élő eleséggel történő kondicionálása.",
+  "Ívás után a szülőket azonnal el kell távolítani, mert megeszik az ikrákat.",
+  "Az ikrák kb. 24-36 óra alatt kelnek ki, az ivadékok az szikzacskó felszívódása után papucsállatkával és finom porporcióval etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények kerekdedebbek és kismértékben nagyobbak, a hímek karcsúbbak és színük intenzívebb neon-zöld.",
+ "felismeres_jegyek": [
+  "Apró, átvilágított hatású, áttetsző test",
+  "Sárgászöldes, neonzölden világító háti és oldalsó sáv",
+  "Karcsú, oldalról kissé lapított testforma",
+  "Rövid, átlátszó úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trigonostigma espei",
+   "magyar_nev": "Munkásrazbóra",
+   "kulonbseg": "A munkásrazbóra narancssárga-rézvörös színű, ék alakú fekete folttal."
+  },
+  {
+   "latin": "Boraras brigittae",
+   "magyar_nev": "Zsinegrazbóra",
+   "kulonbseg": "A Boraras brigittae élénkpiros színű, sötét sávval az oldalán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Uszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Sötét aljzat és sűrű növényzet mellett színeik sokkal intenzívebbé válnak.",
+  "Mindig tartsuk legalább 8-10 fős csapatban a megfelelő komfortérzetükhöz."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

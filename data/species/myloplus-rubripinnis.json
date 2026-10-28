@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Myloplus rubripinnis",
+ "id": "myloplus-rubripinnis",
+ "tipus": "hal",
+ "latin": "Myloplus rubripinnis",
+ "regi_latin_nevek": [
+  "Myleus rubripinnis"
+ ],
+ "magyar_nev": "Horogúszójú piranha",
+ "egyeb_nevek": [
+  "Pirosúszójú ezüstdollár"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Serrasalmidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas, Orinoco és Guyanák folyói)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 12,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagytestű, békés rajhal. Növényevő életmódja miatt a növényzetet megeszi, de más halakkal nem agresszív.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 450,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Elsődlegesen növényi táplálék: forrázott saláta, spenót, uborka, növényi lemezes és granulált tápok.",
+ "tarsithato": [
+  "Közepes és nagytestű békés sügérekkel",
+  "harcsákkal",
+  "más nagyobb pontylazacokkal."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "törpe garnélák és finom levelű akváriumi növények."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagy méretű ívatóakvárium szükséges.",
+  "Lágy, enyhén savas víz és megfelelő hőmérséklet beállítása.",
+  "Bőséges növényi és kiegészítő fehérje etetés.",
+  "Ívás után a szülőket el kell választani az ikráktól."
+ ],
+ "ivari_kulonbseg": "A hímek farok alatti úszója hosszabb, kifejezettebben horog alakú és sötétebb piros szegélyű, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Korong alakú, magasan ívelt, ezüstös test.",
+  "Jellemzően piros, sarló vagy horog alakúan megnyúlt farok alatti úszó.",
+  "Kifejlett egyedeken halvány fekete pöttyök vagy függőleges sávok lehetnek.",
+  "A hátúszó sötét szegéllyel rendelkezhet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Metynnis hypsauchen",
+   "magyar_nev": "Sima ezüstdollár hal",
+   "kulonbseg": "Kisebb maximális méret, a farok alatti úszója nem alkot kifejezett horgot."
+  },
+  {
+   "latin": "Pygocentrus nattereri",
+   "magyar_nev": "Vöröshasú pirája",
+   "kulonbseg": "Ragadozó, alsó állkapcsa jóval robusztusabb, farok alatti úszója nem horog alakú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darasór",
+  "Ijedtségből adódó mechanikai sérülések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Nagy úszóteret igényel, a dekorációhoz használjunk gyökereket és köveket élő növények helyett.",
+  "Sötétebb aljzat és visszafogott világítás mellett szebb a halak színezete."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

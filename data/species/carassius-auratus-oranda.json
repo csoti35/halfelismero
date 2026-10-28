@@ -1,0 +1,90 @@
+{
+ "id": "carassius-auratus-oranda",
+ "tipus": "hal",
+ "latin": "Carassius auratus auratus",
+ "regi_latin_nevek": [
+  "Carassius auratus 'Oranda'"
+ ],
+ "magyar_nev": "Oranda aranyhal",
+ "egyeb_nevek": [
+  "Sapkás aranyhal",
+  "Oroszlánfejű aranyhal (tévesen)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Hidegvízi halak",
+ "szarmazas": "Kína / Japán (tenyésztett változat)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 12,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, társas lény. Lassú úszása miatt csak hasonlóan lomha halakkal tartható együtt.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (prémium aranyhal pelletek, fagyasztott vörös szúnyoglárva, növényi kiegészítés)",
+ "tarsithato": [
+  "Más osztott farkú aranyhalakkal",
+  "pl. Ryukin",
+  "Teleszkópszemű."
+ ],
+ "kerulendo": [
+  "Gyors úszású halak",
+  "amelyek csipkedhetik a fejdíszét vagy az úszóit."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagy méretű ívató medence szükséges.",
+  "Hőmérséklet emelése és friss víz adagolása stimulálja az ívást.",
+  "A hím kergeti a nőstényt, amíg az ki nem bocsátja az ikrákat.",
+  "Az ikrák ragadósak, növényekre tapadnak.",
+  "A szülőket ívás után azonnal távolítsuk el."
+ ],
+ "ivari_kulonbseg": "A hímeknél nászkiütések jelennek meg, a nőstények teste ívás előtt kerekdedebb.",
+ "felismeres_jegyek": [
+  "Húsos, málna-szerű kinövés (wen) a fejen.",
+  "Zömök, tojás alakú test.",
+  "Hosszú, osztott farokúszó.",
+  "Van hátúszója (szemben az oroszlánfejűvel).",
+  "Gyakran piros 'sapka' a fehér testen (Red Cap változat)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus 'Lionhead'",
+   "magyar_nev": "Oroszlánfejű aranyhal",
+   "kulonbseg": "Az oroszlánfejűnek nincs hátúszója."
+  },
+  {
+   "latin": "Carassius auratus 'Ranchu'",
+   "magyar_nev": "Ranchu",
+   "kulonbseg": "A Ranchu háta erősebben ívelt és szintén nincs hátúszója."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fejdísz (wen) befertőződése (gombásodás)",
+  "Úszóhólyag-gyulladás",
+  "Bőrférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "A fejdísz redői között megtelepedhet a piszok, tiszta vizet igényel.",
+  "Ne használjunk durva szemcséjű aljzatot.",
+  "A 'Red Cap' változat a legnépszerűbb Magyarországon.",
+  "Hajlamos az elhízásra, ne etessük túl."
+ ],
+ "lista_nev": "Carassius auratus 'Oranda'",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

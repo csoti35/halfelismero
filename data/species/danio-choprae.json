@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Danio choprae",
+ "id": "danio-choprae",
+ "tipus": "hal",
+ "latin": "Danio choprae",
+ "regi_latin_nevek": [
+  "Devario choprae",
+  "Celestichthys choprae"
+ ],
+ "magyar_nev": "Glowlight dánió",
+ "egyeb_nevek": [
+  "Rubin dánió"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae (Pontyfélék)",
+ "csoport": "Dániók és razkórák",
+ "szarmazas": "Ázsia (Mianmar)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 4.0,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül aktív, gyors mozgású, békés rajhal. Folyamatosan úszik a víz felső és középső rétegeiben.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20.0,
+ "homerseklet_max": 26.0,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5.0,
+ "gh_max": 15.0,
+ "taplalek": "Mindevő. Nagyon jó étvágyú, a jó minőségű száraz tápokat, lemezes eleséget és az élő/fagyasztott táplálékot egyaránt szívesen fogyasztja.",
+ "tarsithato": [
+  "Hasonló méretű",
+  "furge",
+  "békés fajokkal (más dániók",
+  "márnáik",
+  "törpesügérek",
+  "páncélosharcsák)."
+ ],
+ "kerulendo": [
+  "Lassú mozgású vagy hosszú úszójú halak (pl. sziámi harcoshal",
+  "gurámik)",
+  "mert a dániók mozgékonyságukkal zavarhatják őket."
+ ],
+ "szaporodas_mod": "Ikrarakó, ikraszóró",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium előkészítése ikraráccsal és finom levelű növényekkel (pl. jávai moha).",
+  "Bőséges élő eleséggel való táplálás a szülők jó kondícióba hozásához.",
+  "Egy pár vagy egy kisebb csapat áthelyezése az ívatóba este.",
+  "Ikrázás után a felnőtt halak azonnali eltávolítása.",
+  "Az ikrából kikelő lárvákat papucsállatkával, majd frissen keltett artémiával etethetjük."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és lényegesen élénkebb narancssárga/pirosas színezetűek, a nőstények kerekdedebb hasúak és kicsit fakóbbak.",
+ "felismeres_jegyek": [
+  "A test hossztengelyében világító narancssárga/vörös sáv húzódik.",
+  "Az oldalán függőleges, keskeny kék/szürke csíkok találhatók.",
+  "A hátúszón és a farokúszón sárgás-narancsos szegély látható.",
+  "Áramvonalas, karcsú testforma.",
+  "A faroktőnél intenzív narancs-vörös színeződés."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Danio rerio",
+   "magyar_nev": "Zebradánió",
+   "kulonbseg": "Hosszanti kék-fehér csíkos mintázatú, hiányzik a narancssárga hosszanti világító sáv."
+  },
+  {
+   "latin": "Trigonostigma heteromorpha",
+   "magyar_nev": "Ékfoltos razbóra",
+   "kulonbseg": "Magasabb testalkatú, testének hátsó részén fekete ék alakú folt van."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1000,
+ "tippek": [
+  "Gondoskodjunk jól záródó tetőről, mert kiváló ugrók.",
+  "Érdemes kiáramlást biztosítani, mert szeretik a mérsékelt vízáramlást."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}
