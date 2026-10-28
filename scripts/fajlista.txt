@@ -629,3 +629,23 @@ noveny;Phyllanthus fluitans
 noveny;Ceratopteris thalictroides
 noveny;Ceratopteris cornuta
 noveny;Hydrocotyle verticillata
+
+# --- Az Akváriumi halhatározó (saját adatcsomag) új fajai ---
+hal;Amphiprion ocellaris
+hal;Paracanthurus hepatus
+hal;Zebrasoma flavescens
+hal;Pterois volitans
+hal;Synchiropus splendidus
+hal;Pygoplites diacanthus
+hal;Cryptocentrus cinctus
+hal;Nemateleotris magnifica
+hal;Ostracion cubicus
+hal;Gramma loreto
+hal;Centropyge bispinosa
+hal;Pterapogon kauderni
+hal;Chromis viridis
+hal;Sphaeramia nematoptera
+hal;Chromis atripectoralis
+hal;Premnas biaculeatus
+hal;Aphyosemion calliurum
+hal;Hypsolebias faouri

@@ -157,3 +157,19 @@ Flowerhorn (hibrid);Virágszarvú sügér (flowerhorn)
 Dermogenys pusilla;Félcsőrű csuka
 Barbonymus schwanenfeldii;Schwanenfeld-márna
 Boraras merah;Főnix razbóra
+Amphiprion ocellaris;Bohóchal
+Paracanthurus hepatus;Kék doktorhal
+Zebrasoma flavescens;Sárga doktorhal
+Pterois volitans;Tűzhal
+Synchiropus splendidus;Mandarinhal
+Pygoplites diacanthus;Pajzshal / királyi angyalhal
+Cryptocentrus cinctus;Sárga őrszem géb
+Nemateleotris magnifica;Tűzgéb
+Ostracion cubicus;Pöttyös dobozhal
+Gramma loreto;Királyi gramma
+Centropyge bispinosa;Törpe sügérhal / korallőr
+Pterapogon kauderni;Pirospontú kardinalfish
+Chromis viridis;Kék-zöld korallsügér
+Sphaeramia nematoptera;Pizsamás ajakoshal
+Chromis atripectoralis;Zöld korallsügér
+Premnas biaculeatus;Tengeri bohóchal, maroon

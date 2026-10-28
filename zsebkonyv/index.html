@@ -951,8 +951,12 @@
 
         // Felhős fajadatbázis betöltése (ha elérhető) – a beépített adatokat bővíti
         async function loadCloudDatabase() {
+            await loadDbFile('../data/species.json', 'felhő');
+            await loadDbFile('../data/halhatarozo.json', 'halhatározó');
+        }
+        async function loadDbFile(url, src) {
             try {
-                const r = await fetch('../data/species.json', { cache: 'no-cache' });
+                const r = await fetch(url, { cache: 'no-cache' });
                 if (!r.ok) return;
                 const db = await r.json();
                 const known = new Set(KB.map(k => latinKey(k.latin)));
@@ -969,7 +973,7 @@
                         size, minTank: Number(f.min_akvarium_l) || null,
                         temp: [Number(f.homerseklet_min) || null, Number(f.homerseklet_max) || null],
                         ph: [Number(f.ph_min) || null, Number(f.ph_max) || null],
-                        aggro, zone: f.uszasi_zona || '', flags, desc: f.termeszet_leiras || '', origin: f.szarmazas || '', src: 'felhő', id: f.id
+                        aggro, zone: f.uszasi_zona || '', flags, desc: f.termeszet_leiras || '', origin: f.szarmazas || '', src, id: f.id, viz: f.viz || 'edesvizi'
                     });
                     added++;
                 });
@@ -1220,6 +1224,7 @@
             const issues = [];
             const add = (level, text) => issues.push({ level, text });
             const fa = a.flags || '', fb = b.flags || '';
+            if ((a.viz || 'edesvizi') !== (b.viz || 'edesvizi')) { add('bad', `${a.name} és ${b.name}: az egyik tengeri, a másik édesvízi hal – nem tarthatók együtt.`); return finish(issues); }
             if (latinKey(a.latin) === latinKey(b.latin)) {
                 if (fa.includes('H')) add('warn', `${a.name}: a hímek egymással harcolnak – több hímet ne tarts együtt (a harcoshalnál soha).`);
                 if (fa.includes('R')) add('ok', `${a.name}: rajhal, legalább 6–10 egyedet tarts.`);
@@ -2019,7 +2024,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v38';
+        const APP_VERSION = 'v39';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
