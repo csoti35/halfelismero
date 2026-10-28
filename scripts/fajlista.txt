@@ -669,3 +669,9 @@ hal;Valenciennea strigata
 hal;Elacatinus oceanops
 hal;Pseudochromis fridmani
 hal;Lythrypnus dalli
+
+# --- Akváriumi növényhatározó (saját adatcsomag) új növényei ---
+noveny;Cryptocoryne crispatula var. balansae
+noveny;Eichhornia crassipes
+noveny;Azolla filiculoides
+noveny;Callitriche palustris

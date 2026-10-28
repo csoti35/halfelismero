@@ -191,3 +191,7 @@ Valenciennea strigata;Sárgafejű alvógéb
 Elacatinus oceanops;Neongéb
 Pseudochromis fridmani;Orchidea álsügér
 Lythrypnus dalli;Kalifornia-géb
+Cryptocoryne crispatula var. balansae;Cryptocoryne balansae
+Eichhornia crassipes;Vízi jácint
+Azolla filiculoides;Azolla
+Callitriche palustris;Vízicsillag

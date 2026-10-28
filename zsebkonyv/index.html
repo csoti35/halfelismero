@@ -953,6 +953,7 @@
         async function loadCloudDatabase() {
             await loadDbFile('../data/species.json', 'felhő');
             await loadDbFile('../data/halhatarozo.json', 'halhatározó');
+            await loadDbFile('../data/novenyhatarozo.json', 'növényhatározó');
         }
         async function loadDbFile(url, src) {
             try {
@@ -973,7 +974,7 @@
                         size, minTank: Number(f.min_akvarium_l) || null,
                         temp: [Number(f.homerseklet_min) || null, Number(f.homerseklet_max) || null],
                         ph: [Number(f.ph_min) || null, Number(f.ph_max) || null],
-                        aggro, zone: f.uszasi_zona || '', flags, desc: f.termeszet_leiras || '', origin: f.szarmazas || '', src, id: f.id, viz: f.viz || 'edesvizi'
+                        aggro, zone: f.uszasi_zona || '', flags, desc: f.termeszet_leiras || '', origin: f.szarmazas || '', src, id: f.id, viz: f.viz || 'edesvizi', care: f.tipus === 'noveny' ? { csoport: f.csoport, feny: f.feny, co2: f.co2, novekedes: f.novekedes, elhelyezes: f.elhelyezes, gondozas: f.gondozas, megjegyzes: f.megjegyzes } : null
                     });
                     added++;
                 });
@@ -1755,6 +1756,8 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
             const L = { alacsony: 'alacsony', kozepes: 'közepes', eros: 'erős', nem_kell: 'nem kell', ajanlott: 'ajánlott', szukseges: 'szükséges', lassu: 'lassú', gyors: 'gyors', eloter: 'előtér', kozepter: 'középtér', hatter: 'háttér', uszo: 'úszó', dekoracio_ko_fa: 'kőre/fára kötve' };
             const rows = [['💡 Fény', L[d.feny]], ['🫧 CO2', L[d.co2]], ['🌱 Növekedés', L[d.novekedes]], ['📍 Helye', L[d.elhelyezes]], ['📏 Magasság', d.max_magassag_cm ? `max. ${d.max_magassag_cm} cm` : ''], ['✂️ Szaporítás', d.szaporitas]].filter(r => r[1]);
             return (rows.length ? `<div class="grid grid-cols-2 gap-1.5 text-[11px]">${rows.map(r => `<div class="p-2 rounded bg-slate-900 border border-slate-800 ${r[0].includes('Szaporítás') ? 'col-span-2' : ''}"><span class="text-slate-400">${r[0]}</span><br><span class="text-slate-100 font-semibold">${esc(r[1])}</span></div>`).join('')}</div>` : '')
+                + (() => { const k = findSpecies(d.latin) || findSpecies(d.magyar_nev); const c = k && k.care; if (!c) return '';
+                    return `<div class="p-2 rounded bg-slate-900 border border-emerald-700/40 text-[11px] space-y-1"><div class="font-semibold text-emerald-300"><i class="fa-solid fa-seedling mr-1"></i>A növényhatározó szerint</div>${[['Helye', c.csoport], ['Fény', c.feny], ['CO2', c.co2], ['Növekedés', c.novekedes], ['Ültetés', c.elhelyezes], ['Gondozás', c.gondozas], ['Figyelem', c.megjegyzes]].filter(r => r[1]).map(r => `<div><span class="text-slate-400">${r[0]}:</span> <span class="text-slate-100">${esc(r[1])}</span></div>`).join('')}</div>`; })()
                 + (d.allapot ? `<div class="p-2 rounded border sev-warn text-amber-200 text-[11px]"><strong>A növény állapota:</strong> ${esc(d.allapot)}</div>` : '');
         }
 
@@ -2024,7 +2027,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v39';
+        const APP_VERSION = 'v40';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
