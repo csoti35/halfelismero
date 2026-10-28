@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Corydoras pygmaeus",
+ "id": "corydoras-pygmaeus",
+ "tipus": "hal",
+ "latin": "Corydoras pygmaeus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe páncélosharcsa",
+ "egyeb_nevek": [
+  "Pygmy páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 3.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, apró termetű csapathal. A többi páncélosharcsával ellentétben sokat úszik a nyílt vízben, a középső vízrétegekben is.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, az apró szemcséjű száraztápokat, lemezes tápokat, valamint a finom élő és fagyasztott eleséget (pl. artemia, mikró) kedveli.",
+ "tarsithato": [
+  "Apró",
+  "békés pontylazacokkal",
+  "törpe razborákkal",
+  "garra fajokkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "agresszív vagy területtartó halak",
+  "amelyek könnyen zsákmánynak tekinthetik."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium előkészítése lágy, enyhén savas vízzel és finom levelű növényekkel (pl. Jávai moha).",
+  "A szülőpár vagy egy kisebb csapat bőséges etetése jó minőségű élő eleséggel.",
+  "Hűvösebb vízzel végzett vízcsere stimulálja az ívást.",
+  "Az ikrákat a növényekre és az üvegre ragasztják; az ívás után a szülőket el kell távolítani.",
+  "Az ikrák 3-4 nap alatt kelnek ki, az ivadékok szikzacskójuk felszívódása után papucsállatkával és artemia naupliuszokkal etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan testesebbek, kerekdedebbek és kicsit nagyobbak, mint a karcsúbb hímek.",
+ "felismeres_jegyek": [
+  "Rendkívül apró, 2.5-3 cm-es testhossz.",
+  "A test oldalán a kopoltyútól a farokúszó tövéig húzódó sötét, vízszintes csík.",
+  "Ezüstös-szürkés alapszín sötét háttal.",
+  "A faroktőnél egy kifejezettebb sötét folt található.",
+  "Rövid, lefelé álló bajuszszálak a száj körül."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras hastatus",
+   "magyar_nev": "Törpe sarlós páncélosharcsa",
+   "kulonbseg": "A C. hastatus oldalán nincs végighúzódó sötét csík, csak a faroktövön egy fekete-fehér folt."
+  },
+  {
+   "latin": "Corydoras habrosus",
+   "magyar_nev": "Pajkos páncélosharcsa",
+   "kulonbseg": "A C. habrosus mintázata foltos, mint a nagyobb páncélosharcsáké, és szinte csak a talajon tartózkodik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darafór, bajuszszálak fertőződése/vesztése az éles talaj miatt, úszórohadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1000,
+ "tippek": [
+  "Kizárólag finom, szemcsés homoktalajt használjunk, hogy ne sérüljenek az érzékeny bajuszszálaik.",
+  "Mindig tartsuk legalább 8-10 fős csapatban, különben félősek és rejtőzködők lesznek.",
+  "Biztosítsunk számukra növényekkel dúsan beültetett, árnyékos búvóhelyeket."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Misgurnus anguillicaudatus",
+ "id": "misgurnus-anguillicaudatus",
+ "tipus": "hal",
+ "latin": "Misgurnus anguillicaudatus",
+ "regi_latin_nevek": [
+  "Cobitis anguillicaudata"
+ ],
+ "magyar_nev": "Keleti időjóshal",
+ "egyeb_nevek": [
+  "Időjós hal",
+  "Kínai csík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cobitidae (Csíkfélék)",
+ "csoport": "Csíkok",
+ "szarmazas": "Kelet-Ázsia (Kína, Korea, Japán)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 10,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, mozgékony, kíváncsi fenéklakó hal. Légnyomásváltozásra (viharok előtt) rendkívül aktívvá és nyugtalanná válik.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 15,
+ "homerseklet_max": 23,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, elfogadja a süllyedő tápokat, fagylalt és élő tubifexet, szúnyoglárvát, növényi eredetű tápokat is.",
+ "tarsithato": [
+  "Hidegvizi halakkal (pl. aranyhal",
+  "dániók",
+  "hidegvizes kistestű fajok)."
+ ],
+ "kerulendo": [
+  "Melegkedvelő trópusi halak",
+  "valamint apró ivadékok és garnélák",
+  "amelyeket bekaphat."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Akváriumban ritkán szaporodik, kerti tavakban könnyebben beindul az ívás.",
+  "A hidegebb teleltetés utáni felmelegedés váltja ki a szaporodási kedvet.",
+  "A hím a nőstény teste köré fonódik az ívás során.",
+  "Az ikrákat sűrű növényzet közé szórják.",
+  "A kikelő ivadékok apró élő eleséget igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszói jóval nagyobbak, háromszög alakúak és vaskosabbak, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres, angolnaszerű test.",
+  "Száj körül 5 pár (összesen 10) bajuszszál található.",
+  "Sárgásbarna vagy szürkés alapon sötétebb márványozott mintázat.",
+  "Lélegzésre képes a bélrendszerén keresztül is (kiszippantja a levegőt a felszínről).",
+  "Kicsi, kerekded úszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Misgurnus fossilis",
+   "magyar_nev": "Réticsík",
+   "kulonbseg": "Őshonos védett faj, oldalán hosszirányú sötét sávok húzódnak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombás bőrfertőzések",
+  "Sérülések az éles aljzat miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Hidegvizes hal, fűtést nem igényel, nyáron figyelni kell a víz hűtésére.",
+  "Az akváriumot szorosan le kell fedni, mert hajlamos kiugrani vagy kimászni.",
+  "Homokos aljzatot igényel, mert szeret teljesen betemetőzni."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

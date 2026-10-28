@@ -1,0 +1,75 @@
+{
+ "id": "corydoras-julii",
+ "lista_nev": "Corydoras julii",
+ "tipus": "hal",
+ "latin": "Corydoras julii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Gyöngyös páncélosharcsa",
+ "egyeb_nevek": [
+  "Juli páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Brazília északkeleti része)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés fenéklakó, amely csapatban érzi jól magát. Érzékenyebb a vízminőségre, mint a panda.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; süllyedő tápok, fagyasztott vörös szúnyoglárva, tubifex.",
+ "tarsithato": [
+  "Kisebb lazacok",
+  "dániók",
+  "békés labirintkopoltyúsok."
+ ],
+ "kerulendo": [
+  "Durva szemcséjű aljzat és agresszív fenéklakók."
+ ],
+ "szaporodas_mod": "Szabadon ívó, ikráit ragasztja.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy víz és változatos élő eleség szükséges az ívási kedvhez.",
+  "Hőmérsékletcsökkenéssel egybekötött vízcsere stimulálja.",
+  "Az ikrákat tapadós felületekre helyezik.",
+  "Az ivadékok nevelése apró élő eleséggel történik."
+ ],
+ "ivari_kulonbseg": "A hímek kisebbek, a nőstények hasi része felülről nézve szélesebb.",
+ "felismeres_jegyek": [
+  "Ezüstös alapszín apró fekete pöttyökkel a fejen",
+  "a test oldalán a pöttyök nem állnak össze folytonos vonallá",
+  "hátúszó hegye fekete."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras trilineatus",
+   "magyar_nev": "Háromcsíkos páncélosharcsa",
+   "kulonbseg": "A trilineatus oldalán a mintázat összefüggő, labirintusszerű vonalakat alkot, nem különálló pöttyöket."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Nitrit-érzékenység",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A kereskedésekben gyakran a C. trilineatust árulják ezen a néven, alaposan nézzük meg a mintázatot.",
+  "Nagyon tiszta, nitrátmentes vizet igényel."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

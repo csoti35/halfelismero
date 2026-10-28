@@ -1,0 +1,83 @@
+{
+ "id": "corydoras-adolfoi",
+ "tipus": "hal",
+ "latin": "Corydoras adolfoi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Adolfo páncélosharcsája",
+ "egyeb_nevek": [
+  "Adolfo-páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Brazília, Rio Negro)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, félénkebb faj, amely igényli a fajtársak közelségét és a tiszta vizet.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Mindenevő; kedveli az élő eleséget (vörös szúnyoglárva, tubifex) és a jó minőségű tablettákat.",
+ "tarsithato": [
+  "Lágyvizes pontylazacok",
+  "baltahasú halak",
+  "békés törpesügérek."
+ ],
+ "kerulendo": [
+  "Kemény vizet kedvelő halak",
+  "agresszív fajok",
+  "nagytestű mindenevők."
+ ],
+ "szaporodas_mod": "Szabadon ívó (ikraragasztó)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "1. Lágy",
+  "savas víz beállítása. 2. Kondicionálás élő eleséggel. 3. Jelentős hűvös vizes csere. 4. Az ikrákat általában széles levelű növényekre rakják. 5. Az ivadékok indítása frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A nőstények felülről nézve sokkal szélesebbek, a hímek kisebbek.",
+ "felismeres_jegyek": [
+  "Fehér/krémszínű test",
+  "fekete szemmaszk",
+  "fekete sáv a háton",
+  "és egy jellegzetes narancssárga/arany folt a tarkón."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras duplicareus",
+   "magyar_nev": "Narancsfoltos páncélosharcsa",
+   "kulonbseg": "A fekete hátsáv szélesebb, a test zömökebb."
+  },
+  {
+   "latin": "Corydoras burgessi",
+   "magyar_nev": "Burgess-páncélosharcsa",
+   "kulonbseg": "A fekete sáv csak a hátúszó alatt látható foltként."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombásodás (rossz vízminőség esetén)",
+  "Bajuszrothadás",
+  "Nitrit-érzékenység"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Nagyon érzékeny a víz tisztaságára és a felhalmozódó bomlástermékekre.",
+  "A sötét aljzat és a tőzeges víz kiemeli a színeit.",
+  "Érdemesebb tenyésztőtől beszerezni, a vadon fogott példányok kényesek."
+ ],
+ "lista_nev": "Corydoras adolfoi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

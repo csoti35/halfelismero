@@ -1,0 +1,90 @@
+{
+ "id": "corydoras-paleatus",
+ "lista_nev": "Corydoras paleatus",
+ "tipus": "hal",
+ "latin": "Corydoras paleatus",
+ "regi_latin_nevek": [
+  "Callichthys paleatus"
+ ],
+ "magyar_nev": "Foltos páncélosharcsa",
+ "egyeb_nevek": [
+  "Márványos páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Brazília, Argentína, Uruguay)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 8,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, társas hal, amely idejének nagy részét az aljzaton tölti élelem után kutatva.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; süllyedő tabletták, fagyasztott és élő eleség (tubifex, artémia).",
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal (pontylazacok",
+  "dániók",
+  "elevenszülők)."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "amelyek zsákmánynak nézhetik."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Különítsük el a tenyészpárt vagy egy kis csapatot (több hím, egy nőstény).",
+  "Végezzünk jelentős (30-50%) hűvösebb vizes cserét az esős évszak szimulálására.",
+  "A nőstény az ikrákat a hasúszói között tartja, majd az üvegre vagy növényekre ragasztja.",
+  "Az ívás után a szülőket távolítsuk el, mert megehetik az ikrákat.",
+  "Az ivadékok 3-5 nap múlva kelnek ki, frissen keltetett artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek és nagyobbak, a hímek hátúszója hegyesebb és nyújtottabb.",
+ "felismeres_jegyek": [
+  "Ezüstös-szürkés alapszín sötét",
+  "szabálytalan foltokkal",
+  "fémes zöldes csillogás a kopoltyúfedőn",
+  "zömök testalkat",
+  "két pár bajuszszál."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras aeneus",
+   "magyar_nev": "Bronz páncélosharcsa",
+   "kulonbseg": "Egységesebb bronzos szín, nincsenek rajta nagy fekete foltok."
+  },
+  {
+   "latin": "Corydoras habrosus",
+   "magyar_nev": "Törpe foltos páncélosharcsa",
+   "kulonbseg": "Sokkal kisebb méretű, mintázata inkább vízszintes sávokba rendeződik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszrothadás (éles aljzat miatt)",
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Soha ne használjunk éles szélű kavicsot, mert felsérti az érzékeny bajuszukat.",
+  "Kedvelik a hűvösebb vizet, ne tartsuk őket tartósan 25 fok felett.",
+  "Biztosítsunk számukra árnyékos búvóhelyeket és dús növényzetet."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Pangio kuhlii",
+ "id": "pangio-kuhlii",
+ "tipus": "hal",
+ "latin": "Pangio kuhlii",
+ "regi_latin_nevek": [
+  "Acanthophthalmus kuhlii"
+ ],
+ "magyar_nev": "Kuhl-csík",
+ "egyeb_nevek": [
+  "Kuhl-csík",
+  "Kuhli csík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cobitidae (Csíkfélék)",
+ "csoport": "Csíkok",
+ "szarmazas": "Délkelet-Ázsia (Indonézia, Malajzia)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, bújós, éjszakai életmódot folytató fenéklakó hal. Társaival szívesen csoportosul, sosem agresszív.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 10,
+ "taplalek": "Mindenevő, az aljzatra süllyedő lemezes és tablettás tápokat, élő és fagyasztott tubifexet, szúnyoglárvát szívesen fogyasztja.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés rajhalakkal (dániók",
+  "razbórák",
+  "pontylazacok)",
+  "páncélosharcsákkal",
+  "törpe garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérekkel és olyan halakkal",
+  "amelyek összetéveszthetik a gilisztával és megpróbálhatják megenni."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szaporodása rendkívül ritka, általában véletlenszerű vagy hormonkezeléssel érhető el.",
+  "Lágy, enyhén savanyú vizet és nagyon dús növényzetet vagy úszó növények gyökérzetét igénylik.",
+  "Az ikrázás a felszín közelében történik, az ikrák zöldes színűek és a növényekre ragadnak.",
+  "A szülőket az ikrázás után azonnal el kell távolítani.",
+  "Az ivadékok nagyon aprók, indítónek infuzóriát és mikroféreg-tápot igényelnek."
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan testesebbek, különösen ikrásodáskor, amikor a zöldes ikrák átsejlenek a hasfalon. A hímek mellúszói kissé nagyobbak és szélesebbek.",
+ "felismeres_jegyek": [
+  "Kígyószerű, megnyúlt testforma.",
+  "Sárgás-narancssárga alapon sötétbarna vagy fekete függőleges sávok.",
+  "Száj körül 4 pár pofaszakáll található.",
+  "Szemek alatt apró, behúzható tüske helyezkedik el.",
+  "Úszói nagyon kicsik és a test hátsó részén találhatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pangio semicincta",
+   "magyar_nev": "Félsávos párducscsík",
+   "kulonbseg": "A sötét sávok nem érik el teljesen a hasi részt, gyakran nyereg alakúak."
+  },
+  {
+   "latin": "Pangio myersi",
+   "magyar_nev": "Óriás párducscsík",
+   "kulonbseg": "Testfelepítése vaskosabb, a fekete sávok sokkal szélesebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darázskór (pikkelytelensége miatt érzékeny a gyógyszerekre)",
+  "Bélféregfertőzés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Mindenképpen finom homok aljzatot használjunk, mert szeretnek az aljzatba fúrni magukat.",
+  "Biztosítsunk rengeteg bujkálót, köveket, gyökereket és dús növényzetet.",
+  "Ügyeljünk a szűrő beömlőire, mert a vékony halak könnyen belemászhatnak a szűrőbe."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,79 @@
+{
+ "id": "corydoras-trilineatus",
+ "lista_nev": "Corydoras trilineatus",
+ "tipus": "hal",
+ "latin": "Corydoras trilineatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Háromcsíkos páncélosharcsa",
+ "egyeb_nevek": [
+  "Leopárd páncélosharcsa (tévesen)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Aktív, békés csapathal, amely folyamatosan túrja az aljzatot.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 18,
+ "taplalek": "Mindenevő; mindenféle süllyedő eleséget elfogyaszt.",
+ "tarsithato": [
+  "Szinte bármilyen békés trópusi hallal."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív sügérek."
+ ],
+ "szaporodas_mod": "Szabadon ívó.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Kondicionálás élő eleséggel.",
+  "Lágyabb vízzel történő frissítő vízcsere.",
+  "Az ikrákat az üvegre vagy széles levelű növényekre rakják.",
+  "Az ivadékok 3-4 nap után kelnek ki."
+ ],
+ "ivari_kulonbseg": "A nőstények nagyobbak és robusztusabbak.",
+ "felismeres_jegyek": [
+  "Labirintusszerű sötét mintázat az ezüstös testen",
+  "az oldalvonal mentén egy vízszintes sötét sáv fut végig",
+  "a hátúszón nagy fekete folt található."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras julii",
+   "magyar_nev": "Gyöngyös páncélosharcsa",
+   "kulonbseg": "A julii mintázata finomabb pöttyökből áll, nem alkot összefüggő vonalakat."
+  },
+  {
+   "latin": "Corydoras leopardus",
+   "magyar_nev": "Leopárd páncélosharcsa",
+   "kulonbseg": "A leopardus orra hosszabb és hegyesebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések",
+  "Gombásodás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Gyakran Corydoras julii néven árulják, de ez a faj sokkal ellenállóbb és könnyebben tartható.",
+  "Szereti a dús növényzetet és a búvóhelyeket (pl. vasfa)."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

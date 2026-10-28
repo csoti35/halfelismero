@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-28",
-"darab": 142,
+"darab": 160,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -318,6 +318,35 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 800,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "beaufortia-kweichowensis",
+"tipus": "hal",
+"latin": "Beaufortia kweichowensis",
+"magyar_nev": "Pajzsos algázó",
+"egyeb_nevek": [
+"Kínai lepényhal",
+"Pillangócsík"
+],
+"regi_latin_nevek": [
+"Gastromyzon leveretti"
+],
+"csalad": "Gastromyzontidae",
+"csoport": "Csíkfélék",
+"max_meret_cm": 8,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
 "ellenorzott": false
 },
 {
@@ -955,6 +984,323 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-adolfoi",
+"tipus": "hal",
+"latin": "Corydoras adolfoi",
+"magyar_nev": "Adolfo páncélosharcsája",
+"egyeb_nevek": [
+"Adolfo-páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-aeneus",
+"tipus": "hal",
+"latin": "Corydoras aeneus",
+"magyar_nev": "Bronz páncélosharcsa",
+"egyeb_nevek": [
+"Réz páncélosharcsa",
+"Aranycsíkos páncélosharcsa (változat)"
+],
+"regi_latin_nevek": [
+"Hoplosoma aeneum"
+],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 21,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 350,
+"ar_ft_max": 700,
+"ellenorzott": false
+},
+{
+"id": "corydoras-duplicareus",
+"tipus": "hal",
+"latin": "Corydoras duplicareus",
+"magyar_nev": "Narancsfoltos páncélosharcsa",
+"egyeb_nevek": [
+"Hasonmás páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-habrosus",
+"tipus": "hal",
+"latin": "Corydoras habrosus",
+"magyar_nev": "Pajkos páncélosharcsa",
+"egyeb_nevek": [
+"Törpe foltos páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 700,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "corydoras-hastatus",
+"tipus": "hal",
+"latin": "Corydoras hastatus",
+"magyar_nev": "Törpe sarlós páncélosharcsa",
+"egyeb_nevek": [
+"Sarlós páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 900,
+"ar_ft_max": 1600,
+"ellenorzott": false
+},
+{
+"id": "corydoras-julii",
+"tipus": "hal",
+"latin": "Corydoras julii",
+"magyar_nev": "Gyöngyös páncélosharcsa",
+"egyeb_nevek": [
+"Juli páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-metae",
+"tipus": "hal",
+"latin": "Corydoras metae",
+"magyar_nev": "Meta-páncélosharcsa",
+"egyeb_nevek": [
+"Meta-folyami páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-paleatus",
+"tipus": "hal",
+"latin": "Corydoras paleatus",
+"magyar_nev": "Foltos páncélosharcsa",
+"egyeb_nevek": [
+"Márványos páncélosharcsa"
+],
+"regi_latin_nevek": [
+"Callichthys paleatus"
+],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "corydoras-panda",
+"tipus": "hal",
+"latin": "Corydoras panda",
+"magyar_nev": "Panda páncélosharcsa",
+"egyeb_nevek": [
+"Panda harcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 20,
+"homerseklet_max": 25,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-pygmaeus",
+"tipus": "hal",
+"latin": "Corydoras pygmaeus",
+"magyar_nev": "Törpe páncélosharcsa",
+"egyeb_nevek": [
+"Pygmy páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 3.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "corydoras-sterbai",
+"tipus": "hal",
+"latin": "Corydoras sterbai",
+"magyar_nev": "Sterba-páncélosharcsa",
+"egyeb_nevek": [
+"Narancsszárnyú páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 29,
+"ph_min": 6.0,
+"ph_max": 7.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-trilineatus",
+"tipus": "hal",
+"latin": "Corydoras trilineatus",
+"magyar_nev": "Háromcsíkos páncélosharcsa",
+"egyeb_nevek": [
+"Leopárd páncélosharcsa (tévesen)"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 900,
+"ar_ft_max": 1800,
 "ellenorzott": false
 },
 {
@@ -1605,6 +1951,33 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1500,
 "ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
+"id": "gastromyzon-punctulatus",
+"tipus": "hal",
+"latin": "Gastromyzon punctulatus",
+"magyar_nev": "Pöttyös durbincsalszívó",
+"egyeb_nevek": [
+"Pöttyös borneoi algaevő",
+"Pöttyös kövi csík"
+],
+"regi_latin_nevek": [],
+"csalad": "Gastromyzontidae",
+"csoport": "Csíkfélék",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -2476,6 +2849,35 @@
 "ellenorzott": false
 },
 {
+"id": "misgurnus-anguillicaudatus",
+"tipus": "hal",
+"latin": "Misgurnus anguillicaudatus",
+"magyar_nev": "Keleti időjóshal",
+"egyeb_nevek": [
+"Időjós hal",
+"Kínai csík"
+],
+"regi_latin_nevek": [
+"Cobitis anguillicaudata"
+],
+"csalad": "Cobitidae (Csíkfélék)",
+"csoport": "Csíkok",
+"max_meret_cm": 20,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 15,
+"homerseklet_max": 23,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "moenkhausia-pittieri",
 "tipus": "hal",
 "latin": "Moenkhausia pittieri",
@@ -2812,6 +3214,63 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 400,
 "ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "pangio-kuhlii",
+"tipus": "hal",
+"latin": "Pangio kuhlii",
+"magyar_nev": "Kuhl-csík",
+"egyeb_nevek": [
+"Kuhl-csík",
+"Kuhli csík"
+],
+"regi_latin_nevek": [
+"Acanthophthalmus kuhlii"
+],
+"csalad": "Cobitidae (Csíkfélék)",
+"csoport": "Csíkok",
+"max_meret_cm": 10,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "pangio-semicincta",
+"tipus": "hal",
+"latin": "Pangio semicincta",
+"magyar_nev": "Félsávos párducscsík",
+"egyeb_nevek": [
+"Félsávos csík"
+],
+"regi_latin_nevek": [
+"Pangio kuhlii semicincta"
+],
+"csalad": "Cobitidae (Csíkfélék)",
+"csoport": "Csíkok",
+"max_meret_cm": 10,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
 "ellenorzott": false
 },
 {
@@ -3646,6 +4105,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 3500,
 "ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "sewellia-lineolata",
+"tipus": "hal",
+"latin": "Sewellia lineolata",
+"magyar_nev": "Tigris mocsáriőrgéb",
+"egyeb_nevek": [
+"Vietnámi algázó csík",
+"Sávos mocsáriőrgéb"
+],
+"regi_latin_nevek": [
+"Balitora lineolata"
+],
+"csalad": "Gastromyzontidae",
+"csoport": "Csíkfélék és mocsáriőrgébek",
+"max_meret_cm": 6.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 3200,
 "ellenorzott": false
 },
 {

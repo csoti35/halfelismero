@@ -1,0 +1,84 @@
+{
+ "id": "beaufortia-kweichowensis",
+ "tipus": "hal",
+ "latin": "Beaufortia kweichowensis",
+ "regi_latin_nevek": [
+  "Gastromyzon leveretti"
+ ],
+ "magyar_nev": "Pajzsos algázó",
+ "egyeb_nevek": [
+  "Kínai lepényhal",
+  "Pillangócsík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gastromyzontidae",
+ "csoport": "Csíkfélék",
+ "szarmazas": "Kína (Kuanghszi és Kujcsou tartományok)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de területvédő lehet más hasonló alakú fajokkal szemben. Csoportban érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (alga, bio-film, apró rákok, süllyedő tabletták)",
+ "tarsithato": [
+  "Hegyi patakok halai (dániók",
+  "fehér felhő hegyi hal)",
+  "más csíkfélék"
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív halak",
+  "trópusi melegvizű fajok (pl. diszkoszhal)"
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között ritka. Erős áramlás és oxigéndús víz szükséges. Kavicsok közé rakják az ikrákat. Az ivadékok apró eleséget igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszói szögletesebbek, a nőstények teste felülről nézve teltebb.",
+ "felismeres_jegyek": [
+  "Lapos",
+  "korong alakú test",
+  "tapadókoronggá módosult mell- és hasúszók",
+  "sötétbarna alapon sárgás-krémszínű pöttyözött mintázat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gastromyzon punctulatus",
+   "magyar_nev": "Pöttyös tapadóhal",
+   "kulonbseg": "Kisebb méretű, a mintázata finomabb pöttyökből áll."
+  },
+  {
+   "latin": "Sewellia lineolata",
+   "magyar_nev": "Vietnámi tapadóhal",
+   "kulonbseg": "Hálószerű, csíkosabb mintázat a testen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oxigénhiány",
+  "bőrférgesség",
+  "darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Elengedhetetlen az erős szűrés és a magas oxigénszint. Szereti a sima felületű köveket",
+  "amelyeken algát legelhet. Ne tartsuk túl meleg vízben!"
+ ],
+ "lista_nev": "Beaufortia kweichowensis",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

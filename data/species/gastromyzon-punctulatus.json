@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Gastromyzon punctulatus",
+ "id": "gastromyzon-punctulatus",
+ "tipus": "hal",
+ "latin": "Gastromyzon punctulatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pöttyös durbincsalszívó",
+ "egyeb_nevek": [
+  "Pöttyös borneoi algaevő",
+  "Pöttyös kövi csík"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Gastromyzontidae",
+ "csoport": "Csíkfélék",
+ "szarmazas": "Indonézia, Borneó",
+ "max_meret_cm": 6,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, más fajokat nem bánt. Fajtársaival szemben területvédő lehet a jobb táplálkozóhelyekért, de sérülést nem okoznak egymásnak.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Alga, biofilmes bevonat, süllyedő növényi tabletták, fagyasztott apró rákok",
+ "tarsithato": [
+  "Kisméretű",
+  "békés",
+  "hűvösebb és erős sodrású vizet kedvelő halak (pl. dániók",
+  "kardinálishal)"
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak",
+  "melegvizű fajok (pl. diszkoszhal)",
+  "fátyolos úszójú fajok"
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumi szaporodása rendkívül ritka.",
+  "Szaporításhoz nagyon tiszta, oxigénben dús, hűvös, erős sodrású víz szükséges.",
+  "A padozatnak apró kavicsosnak kell lennie, ahová az ikrákat rázza.",
+  "Az ikrák elhullajtása után a szülőket ki kell fogni.",
+  "Az ivadékok mikroszkopikus alga- és infuzóriatáplálékot igényelnek."
+ ],
+ "ivari_kulonbseg": "A nőstények felülről nézve szélesebb testűek és kerekdedebbek, mint a hímek.",
+ "felismeres_jegyek": [
+  "Erősen lapított, hasi oldalán tapadókoronggá módosult testforma",
+  "Sötét alapon apró, világos pöttyökből álló mintázat",
+  "Széles, szárnyszerű mell- és hasúszók",
+  "Lefelé álló, szívó jellegű szájnyílás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gastromyzon ctenocephalus",
+   "magyar_nev": "Borneói algaevő csík",
+   "kulonbseg": "Mintázata sűrűbb, apróbb pöttyökből vagy csíkokból állhat, nehéz tőle megkülönböztetni."
+  },
+  {
+   "latin": "Sewellia lineolata",
+   "magyar_nev": "Hálózatos algázó csík",
+   "kulonbseg": "Testén hálózatos vagy csíkos mintázat látható, nem pöttyös."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oxygénhiány miatti fulladás",
+  "Darakór",
+  "Bélféregfertőzés (főleg import példányoknál)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Rendkívül fontos a magas oxigéntartalom és az erős vízmozgás, használjunk megnövelt teljesítményű szűrőt vagy áramoltatót.",
+  "Kedveli a sima, lapos köveket, amelyekről lelegelheti az algabevonatot.",
+  "A hőséget rosszul tűri, nyáron gondoskodni kell a víz hűtéséről 25 °C alatt."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

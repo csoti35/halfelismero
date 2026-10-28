@@ -1,0 +1,80 @@
+{
+ "id": "corydoras-panda",
+ "lista_nev": "Corydoras panda",
+ "tipus": "hal",
+ "latin": "Corydoras panda",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Panda páncélosharcsa",
+ "egyeb_nevek": [
+  "Panda harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Peru, Ucayali folyórendszer)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, társasági hal, amely idejének nagy részét az aljzaton tölti élelem után kutatva.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; kedveli a süllyedő tablettákat, élő és fagyasztott tubifexet, artémiát.",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "törperasborák",
+  "törpesügérek",
+  "garnélák."
+ ],
+ "kerulendo": [
+  "Nagy testű vagy agresszív sügérek",
+  "amelyek zsákmánynak nézhetik."
+ ],
+ "szaporodas_mod": "Szabadon ívó, ikráit növényekre vagy az üvegre ragasztja.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és bőséges élő eleség biztosítása.",
+  "Hűvösebb vízzel történő jelentős vízcsere az esős évszak imitálására.",
+  "Az ikrákat a szülők megehetik, ezért érdemes különválasztani őket.",
+  "Az ikrák 3-5 nap alatt kelnek ki.",
+  "Az ivadékok frissen keltetett sórákkal indíthatók."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek és kerekdedebbek, a hímek karcsúbbak és valamivel kisebbek.",
+ "felismeres_jegyek": [
+  "Világos bézs alapszín",
+  "fekete folt a szemen (maszk)",
+  "fekete folt a hátúszón",
+  "fekete folt a faroktőnél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras metae",
+   "magyar_nev": "Bandita páncélosharcsa",
+   "kulonbseg": "A fekete sáv a hátán végigfut a farokúszóig, nem csak egy folt a faroktőnél."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszrothadás (éles aljzat miatt)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Mindenképpen finom homokot használjunk aljzatnak, hogy ne sérüljön az érzékeny bajuszuk.",
+  "Ne tartsuk túl meleg vízben, a 22-23 fok az ideális számukra."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

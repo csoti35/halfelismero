@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Corydoras hastatus",
+ "id": "corydoras-hastatus",
+ "tipus": "hal",
+ "latin": "Corydoras hastatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe sarlós páncélosharcsa",
+ "egyeb_nevek": [
+  "Sarlós páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Amazonas és Paraguay folyó medencéje)",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, félénk, apró rajhal. A szabad vízben lebegve, csatlakozva a víz közepén úszó rajokhoz éli mindennapjait.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Kizárólag a legkisebb szemcseméretű tápokat képes megenni: mikró, frissen kelt artemia naupliusz, finom por- és lemezes tápok.",
+ "tarsithato": [
+  "Kizárólag apró",
+  "nem agresszív fajokkal",
+  "mint a törpe razborák",
+  "törpe lazacok vagy garnélák."
+ ],
+ "kerulendo": [
+  "Minden közepes vagy nagy testű hal",
+  "még a békésebbek is elijeszthetik vagy megehetik."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön ívató medence lágy (2-6 GH), enyhén savas vízzel és finom növényzettel.",
+  "A halak kondicionálása élő elemeleségekkel (pl. bébi artemia).",
+  "Kisebb lágy vizes vízcsere kiváltja a párzási viselkedést.",
+  "Egyesével rakják le ikráikat a növények leveleire.",
+  "Az ikrák 3-4 nap múlva kelnek ki, az ivadék nagyon apró, kikelés után papucsállatkákkal etethető."
+ ],
+ "ivari_kulonbseg": "A nőstények gömbölydedebbek és kissé nagyobbak, mint a rendkívül karcsú hímek.",
+ "felismeres_jegyek": [
+  "Kivételesen kicsi, ritkán haladja meg a 2.5 cm-t.",
+  "Áttetsző, ezüstös-sárgás testfajta.",
+  "A farokúszó tövén egy jól látható, fekete sarló vagy nyilhegy alakú folt, melyet fehéres szegély vesz körül.",
+  "Hátúszóján is lehet egy kisebb sötét folt.",
+  "A nyílt vízben lebegő, kolibri-szerű úszásmód."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras pygmaeus",
+   "magyar_nev": "Törpe páncélosharcsa",
+   "kulonbseg": "A C. pygmaeus testének teljes hosszában fekete csík húzódik."
+  },
+  {
+   "latin": "Aphyocharax anitsitsi",
+   "magyar_nev": "Vörösúszójú pontylazac",
+   "kulonbseg": "A mintázata és viselkedése hasonló lehet, de a pontylazacok teljesen más testfelépítésűek és nagyobbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éheztetés miatti elhullás (rossz táplálékválasztás), darafór, stressz miatti betegségek"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1600,
+ "tippek": [
+  "Olyan akváriumba való, ahol nincs erős áramlás és sok a búvóhely.",
+  "Különösen ügyeljünk a táplálék méretére, mert a normál méretű lemezes tápokat nem tudja bekapni."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

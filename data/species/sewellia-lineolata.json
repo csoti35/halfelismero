@@ -1,0 +1,95 @@
+{
+ "lista_nev": "Sewellia lineolata",
+ "id": "sewellia-lineolata",
+ "tipus": "hal",
+ "latin": "Sewellia lineolata",
+ "regi_latin_nevek": [
+  "Balitora lineolata"
+ ],
+ "magyar_nev": "Tigris mocsáriőrgéb",
+ "egyeb_nevek": [
+  "Vietnámi algázó csík",
+  "Sávos mocsáriőrgéb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gastromyzontidae",
+ "csoport": "Csíkfélék és mocsáriőrgébek",
+ "szarmazas": "Vietnám, Laosz",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Alapvetően békés, de a fajtársakkal és hasonló életmódú fenéklakókkal szemben revírféltő lehet. A hímek kisebb csatákat vívnak a legjobb áramlási helyekért és kövekért, de sérülést nem okoznak egymásnak.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, de főként az aljzat és kövek biofiljét, algabevonatát és benne élő apró élőlényeket fogyasztja. Elfogadja a süllyedő tablettás tápokat, fagyasztott szúnyoglárvát és artémiát.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés",
+  "hidegebb és gyors sodrású vizet kedvelő halakkal (pl. dániók",
+  "kardinálishal",
+  "Gastromyzon fajok)."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív halak",
+  "melegvizet igénylő fajok (pl. diszkoszhalak",
+  "skalárok)",
+  "valamint túlzottan lassan mozgó",
+  "hosszú úszójú halak."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Helyezzük el a szülőket egy érett, köves, nagyon erős áramlású és oxigéndús ívató akváriumba.",
+  "A bőséges élőtáplálás és a vízcserék stimulálják a párzást; a hímek udvarolnak a nőstényeknek a kövek tetején.",
+  "Az ikrák a kavicsok, kövek közé hullanak, ahol a szülők nem férnek hozzájuk.",
+  "Ívás után a szülőket érdemes eltávolítani, bár megfelelő rejtekhelyek esetén az ikrákat kevéssé bántják.",
+  "A kikelő ivadékok az aljzatban elbújnak, és a biofilből, valamint legfinomabb poreleségből és friss artémiából nevelhetők fel."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszóinak tövénél profilból jól látható szögletes 'váll' található, míg a nőstények elülső kontúrja folyamatosabb, lekerekítettebb és testük szemből szélesebb.",
+ "felismeres_jegyek": [
+  "Erősen lapított, korong alakú testforma, amely hozzátapad a sima felületekhez.",
+  "A mell- és hasúszók nagy terjedelműek, összeolvadva tapadókorongot képeznek.",
+  "Sárgás-bézs alapszínen hálózatos, csíkos, sötétbarna mintázat a háton és a testoldalon.",
+  "A mellúszókon szimmetrikus sötét sávok és minták futnak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gastromyzon ctenocephalus",
+   "magyar_nev": "Borneói algázó csík",
+   "kulonbseg": "Kerekebb testforma, sötétebb, pontozottabb mintázat, nem rendelkezik a Sewellia-kra jellemző hálós-csíkos rajzolattal."
+  },
+  {
+   "latin": "Beaufortia kweichowensis",
+   "magyar_nev": "Kínai algázó csík",
+   "kulonbseg": "Laposabb, korongszerűbb alkat, mintázata inkább apró foltokból és finomabb mintákból áll, mintsem határozott hálós csíkokból."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oxigénhiány miatti fulladás",
+  "Darakór (aklimatizációs stressz során)",
+  "Bőr- és kopoltyúparaziták",
+  "Éhenhalás (megfelelő algás/biofiles felület hiányában)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Kifejezetten erős áramlást és nagyon magas dissolved oxigénszintet igényel, használjunk plusz áramoltató pumpát.",
+  "Csak jól beállott, érett akváriumba telepítsük, ahol elegendő természetes alga és felületi bevonat képződött a köveken.",
+  "Ne tartsuk trópusi, 25 °C feletti átlaghőmérsékletű akváriumban, mert hosszabb távon leverté és betegségedővé válik."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

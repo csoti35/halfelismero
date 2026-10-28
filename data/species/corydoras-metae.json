@@ -1,0 +1,83 @@
+{
+ "id": "corydoras-metae",
+ "tipus": "hal",
+ "latin": "Corydoras metae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Meta-páncélosharcsa",
+ "egyeb_nevek": [
+  "Meta-folyami páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Kolumbia, Meta-folyó)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, társas hal, amely idejének nagy részét az aljzaton tölti élelem után kutatva.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; süllyedő tabletták, fagyasztott és élő eleségek (tubifex, artémia).",
+ "tarsithato": [
+  "Lazacok",
+  "törperasborák",
+  "békés törpesügérek",
+  "páncélosharcsák."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "falánk fenéklakók."
+ ],
+ "szaporodas_mod": "Szabadon ívó (ikraragasztó)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Bőséges etetés élő eleséggel. 2. Hűvösebb vizes csere (esőzés imitálása). 3. Az ikrákat az üvegre vagy növényekre ragasztják. 4. A szülőket el kell távolítani. 5. Az ivadékok 3-4 nap múlva kelnek ki."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek és szélesebbek, a hímek kisebbek és karcsúbbak.",
+ "felismeres_jegyek": [
+  "Világosbarna alapszín",
+  "a szemen átfutó fekete sáv",
+  "a hátúszó tövétől a farokúszóig tartó fekete csík",
+  "amely nem húzódik le a farok alatti úszóig."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras melini",
+   "magyar_nev": "Melini-páncélosharcsa",
+   "kulonbseg": "A fekete sáv a farokúszó alsó lebenyére is lehúzódik."
+  },
+  {
+   "latin": "Corydoras davidsandsi",
+   "magyar_nev": "Sands-páncélosharcsa",
+   "kulonbseg": "Nagyobb termetű és a fekete sáv szélesebb a háton."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszrothadás (éles aljzat miatt)",
+  "Darakór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Használjunk finom szemcséjű homokot, hogy ne sérüljön a bajuszuk.",
+  "Szeretik az árnyékos, növényekkel dúsan beültetett helyeket.",
+  "Érzékenyek a nitrátra, rendszeres vízcsere szükséges."
+ ],
+ "lista_nev": "Corydoras metae",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

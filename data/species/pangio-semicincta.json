@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Pangio semicincta",
+ "id": "pangio-semicincta",
+ "tipus": "hal",
+ "latin": "Pangio semicincta",
+ "regi_latin_nevek": [
+  "Pangio kuhlii semicincta"
+ ],
+ "magyar_nev": "Félsávos párducscsík",
+ "egyeb_nevek": [
+  "Félsávos csík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cobitidae (Csíkfélék)",
+ "csoport": "Csíkok",
+ "szarmazas": "Délkelet-Ázsia (Malajzia, Borneó, Szumátra)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, éjszakai életmódot folytató fenéklakó. A kereskedelemben leggyakrabban Pangio kuhlii néven árult faj valójában ez.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Süllyedő száraz tápok, fagyasztott és élő szúnyoglárva, tubifex, artémia.",
+ "tarsithato": [
+  "Kistermetű",
+  "békés felső- és középszinti halakkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív",
+  "territoriális halak és kemény aljzatot igénylő fajok."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumban szaporítása szinte sosem sikerül célzottan.",
+  "A természetben a monuszos esőzések és a vízszintváltozások váltják ki az ívást.",
+  "Dús növényzet közé ikráznak a felszín közelében.",
+  "Az ikrák zöldes színűek, a szülők hajlamosak megenni őket."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek, a hímek első mellúszó sugara vastagabb és merevebb.",
+ "felismeres_jegyek": [
+  "Kígyószerű, hosszúkás test.",
+  "Narancssárga alap alapon sötétbarna/fekete sávok.",
+  "A sötét mintázat félbeszakad, a hasi részig nem ér el teljesen.",
+  "Bajuszszálak a száj körül.",
+  "Apró úszók a test hátsó felén."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pangio kuhlii",
+   "magyar_nev": "Párducscsík",
+   "kulonbseg": "A sötét sávok teljesen körbeérik a testet a hasi oldalon is."
+  },
+  {
+   "latin": "Pangio oblonga",
+   "magyar_nev": "Jáva csík",
+   "kulonbseg": "Egyszínű sötétbarna/fekete, nincsenek rajta sávok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darázskór",
+  "Gombás fertőzések a bőr sérülései miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kizárólag finom szemcséjű homokot használjunk aljzatként a kopoltyúk védelme érdekében.",
+  "Éjszakai etetés javasolt, amikor a többi hal már nem aktív."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Corydoras habrosus",
+ "id": "corydoras-habrosus",
+ "tipus": "hal",
+ "latin": "Corydoras habrosus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pajkos páncélosharcsa",
+ "egyeb_nevek": [
+  "Törpe foltos páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Orinoco medence)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, aktív aljzatalakó csapathal. Ideje nagy részét a talaj kutatásával és élelemkereséssel tölti.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, lesüllyedő tablettás tápokat, apró szemű granulátumokat, fagyasztott és élő kishajós eleségeket szívesen fogyaszt.",
+ "tarsithato": [
+  "Más kis termetű",
+  "békés fajokkal",
+  "törpe razborákkal",
+  "pontylazacokkal",
+  "törpe sügérekkel és garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagyobb testű",
+  "agresszív vagy fenéklakó területtartó halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Szaporító akvárium beállítása lágy, kissé savas vízzel, finom aljzattal vagy aljzat nélkül.",
+  "A szülők bőséges etetése élő eleséggel (pl. tubifex, artemia).",
+  "Hidegebb vízzel végzett vízcsere ingerli őket az ívásra.",
+  "Az ikrákat a halak növényekre vagy az akvárium üvegére tapadják.",
+  "Ívás után a szülőket el kell távolítani, az ikrák 3-5 nap alatt kelnek ki."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények lényegesen testesebbek, szélesebbek felülnézetből, mint a hímek.",
+ "felismeres_jegyek": [
+  "Apró, maximum 3.5 cm-es testméret.",
+  "Világos szürkés-homokszínű alapon sötétbarna vagy fekete szabálytalan foltok az oldalán.",
+  "A farokúszón apró sötét pöttyökből álló függőleges sávok láthatók.",
+  "A többi törpe páncéloshoz képest zömökebb, tipikus Corydoras testforma.",
+  "Fején és kopoltyúján sötét mintázat húzódik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras pygmaeus",
+   "magyar_nev": "Törpe páncélosharcsa",
+   "kulonbseg": "A C. pygmaeus testén vízszintes csík húzódik, és sokat úszik a középső vízrétegben."
+  },
+  {
+   "latin": "Corydoras paleatus",
+   "magyar_nev": "Foltos páncélosharcsa",
+   "kulonbseg": "A C. paleatus jóval nagyobb (6-7 cm) kifejlett korában."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszszálak elhalása aljzatfertőzés miatt, darafór, hasvízkór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kifejezetten fontos a tiszta, apró szemcséjű homok, mert idejük 90%-át a talaj túrásával töltik.",
+  "A rendszeres aljzattisztítás elengedhetetlen a bakteriális fertőzések megelőzése érdekében."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

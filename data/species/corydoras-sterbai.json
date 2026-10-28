@@ -1,0 +1,84 @@
+{
+ "id": "corydoras-sterbai",
+ "lista_nev": "Corydoras sterbai",
+ "tipus": "hal",
+ "latin": "Corydoras sterbai",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sterba-páncélosharcsa",
+ "egyeb_nevek": [
+  "Narancsszárnyú páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Brazília, Bolívia)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, rajban élő hal. Más páncélosharcsákhoz képest jobban bírja a magasabb hőmérsékletet.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 6.0,
+ "ph_max": 7.6,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; kiváló minőségű tabletták, fagyasztott artémia, tubifex, vörös szúnyoglárva.",
+ "tarsithato": [
+  "Diszkoszhalakkal is tartható a hőtűrése miatt",
+  "egyébként bármilyen békés hallal."
+ ],
+ "kerulendo": [
+  "Durva",
+  "éles aljzat és agresszív területvédő halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és 28 fok körüli hőmérséklet szükséges.",
+  "Kondicionáljuk a halakat sok élő eleséggel.",
+  "A vízcserénél használt víz legyen 2-3 fokkal hűvösebb.",
+  "Az ikrákat gyakran a növények leveleinek fonákjára rakják.",
+  "Az ivadékok neveléséhez nagyon tiszta víz és frissen kelt artémia kell."
+ ],
+ "ivari_kulonbseg": "A nőstények kerekdedebbek és nagyobbak, a hímek mellúszói hegyesebbek.",
+ "felismeres_jegyek": [
+  "Sötét alapon apró fehér pöttyök a fejen",
+  "csíkozott testoldal",
+  "feltűnő narancssárga mellúszók",
+  "zömök test."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras haraldschultzi",
+   "magyar_nev": "Harald Schultz páncélosharcsája",
+   "kulonbseg": "Világos alapon sötét pöttyös (fordított mintázat), és hosszabb az orra."
+  },
+  {
+   "latin": "Corydoras gossei",
+   "magyar_nev": "Gosse páncélosharcsája",
+   "kulonbseg": "Sötétebb test, a pöttyözöttség kevésbé szabályos a testen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszsérülés",
+  "Bakteriális fertőzések a nem megfelelő vízminőség miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Ideális választás diszkoszhalas akváriumokba takarítóhalnak a hőtűrése miatt.",
+  "Nagyon érzékenyek a réztartalmú gyógyszerekre és a sóra.",
+  "A sötét aljzat kiemeli gyönyörű mintázatukat és narancssárga úszóikat."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}

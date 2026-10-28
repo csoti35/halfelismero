@@ -1,0 +1,82 @@
+{
+ "id": "corydoras-duplicareus",
+ "tipus": "hal",
+ "latin": "Corydoras duplicareus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Narancsfoltos páncélosharcsa",
+ "egyeb_nevek": [
+  "Hasonmás páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Brazília, Rio Poranga)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Aktív, békés fenéklakó, amely csapatban érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; mindenféle süllyedő eleséget elfogad, de igényli a fagyasztott táplálékot is.",
+ "tarsithato": [
+  "Szinte bármilyen békés",
+  "hasonló igényű hallal."
+ ],
+ "kerulendo": [
+  "Durva szemcséjű aljzat",
+  "agresszív halak."
+ ],
+ "szaporodas_mod": "Szabadon ívó (ikraragasztó)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Csoportos ívatás javasolt. 2. Intenzív etetés élő eleséggel. 3. Nagyobb arányú",
+  "hűvösebb vizes csere. 4. Az ikrákat üvegre vagy mohákra rakják. 5. Az ivadékok sórákkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek kisebbek, a nőstények hasi vonala kerekdedebb.",
+ "felismeres_jegyek": [
+  "Fekete szemmaszk",
+  "széles fekete sáv a háton",
+  "élénk narancssárga folt a tarkón",
+  "a mellúszók tüskéi enyhén fűrészeltek (mikroszkóp alatt látszik",
+  "de a test zömökebb az adolfoinál)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras adolfoi",
+   "magyar_nev": "Adolfo páncélosharcsája",
+   "kulonbseg": "A háton lévő fekete sáv vékonyabb, a test nyúlánkabb."
+  },
+  {
+   "latin": "Corydoras imitator",
+   "magyar_nev": "Imitátor páncélosharcsa",
+   "kulonbseg": "Hosszabb orrforma (hosszúorrú típus)."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszsérülés",
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Strapabíróbb, mint a C. adolfoi, ezért kezdőknek inkább ez ajánlott.",
+  "A homok aljzat elengedhetetlen a természetes viselkedésükhöz.",
+  "Szeretik a mérsékelt vízáramlást."
+ ],
+ "lista_nev": "Corydoras duplicareus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

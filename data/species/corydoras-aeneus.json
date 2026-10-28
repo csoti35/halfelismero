@@ -1,0 +1,86 @@
+{
+ "id": "corydoras-aeneus",
+ "lista_nev": "Corydoras aeneus",
+ "tipus": "hal",
+ "latin": "Corydoras aeneus",
+ "regi_latin_nevek": [
+  "Hoplosoma aeneum"
+ ],
+ "magyar_nev": "Bronz páncélosharcsa",
+ "egyeb_nevek": [
+  "Réz páncélosharcsa",
+  "Aranycsíkos páncélosharcsa (változat)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Kolumbiától Argentínáig)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 10,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés fenéklakó, amely csapatban érzi jól magát. Folyamatosan túrja az aljzatot.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 21,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; mindenféle süllyedő tápot elfogad, kedveli a vörös szúnyoglárvát.",
+ "tarsithato": [
+  "Szinte bármilyen békés hallal jól kijön."
+ ],
+ "kerulendo": [
+  "Agresszív fenéklakók (pl. nagyobb lochok vagy sügérek)."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Bőséges élő eleséggel készítsük fel a tenyészállatokat.",
+  "Esti órákban végezzünk 20-30%-os hűvösebb vizes cserét.",
+  "A hímek aktívan kergetik a nőstényt, majd T-pozícióban ívnak.",
+  "Az ikrákat az üvegre vagy széles levelű növényekre ragasztják.",
+  "Az ikrák penészedése ellen használjunk enyhe gombaölőt vagy égertobozt."
+ ],
+ "ivari_kulonbseg": "A nőstények felülről nézve sokkal szélesebbek, a hímek kisebbek és karcsúbbak.",
+ "felismeres_jegyek": [
+  "Egységes bronzos-barna alapszín",
+  "fémes zöldes-aranyos csillogás az oldalvonal mentén",
+  "nincsenek foltok",
+  "albínó változata is gyakori."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras paleatus",
+   "magyar_nev": "Foltos páncélosharcsa",
+   "kulonbseg": "A paleatus foltos, az aeneus egyszínű bronzos."
+  },
+  {
+   "latin": "Corydoras venezuelanus",
+   "magyar_nev": "Venezuelai páncélosharcsa",
+   "kulonbseg": "Intenzívebb vöröses-narancssárga folt a hátán és a feje mögött."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "Gombásodás",
+  "Nitritmérgezés (érzékenyek a rossz vízminőségre az aljzaton)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 350,
+ "ar_ft_max": 700,
+ "tippek": [
+  "Homokos aljzat a legideálisabb számukra, hogy ne sérüljön a bajuszuk.",
+  "Rendszeresen porszívózzuk az aljzatot, mert a felhalmozódó mulm betegségeket okozhat.",
+  "Az albínó változat fényérzékenyebb, több búvóhelyet igényel."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}
