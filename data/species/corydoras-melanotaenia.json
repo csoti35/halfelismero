@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Corydoras melanotaenia",
+ "id": "corydoras-melanotaenia",
+ "tipus": "hal",
+ "latin": "Corydoras melanotaenia",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Zöldessárga páncélosharcsa",
+ "egyeb_nevek": [
+  "Aranyhátú páncélosharcsa",
+  "Sárgás páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Dél-Amerika (Kolumbia, Meta folyó medencéje)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, barátságos csapathal, amely a nap nagy részét a talaj túrásával és táplálékkereséssel tölti. Semmilyen más halra nem jelent veszélyt.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 20,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; kedveli a süllyedő tablettás és granulált tápokat, valamint az élő és fagyasztott tubifexet, szúnyoglárvát és artémiát.",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "törpesügérek",
+  "kistestű dániók",
+  "márnákkal és egyéb harcsafélékkel remekül együtt tartható."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy ragadozó sügérekkel",
+  "csipkelődő fajokkal tilos társítani."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Kondicionáljuk a tenyészcsapatot (2-3 hímre 1 nőstény) fehérjedús élő vagy fagyasztott táplálékkal legalább 1-2 héten át.",
+  "Végezzünk egy nagyobb arányú (30-50%-os), a medencénél 2-3 °C-kal hűvösebb lágyvizes vízcserét, ami az esős évszakot utánozza.",
+  "A párzás a páncélosharcsákra jellemző T-pozícióban zajlik, a nőstény a hasúszói között hordozza az ikrákat, mielőtt az akvárium üvegére vagy finom levelű növényekre ragasztja azokat.",
+  "Ívás után a szülőket távolítsuk el, az ikrákat pedig penészedésgátlóval és enyhe légporlasztással védjük.",
+  "A kikelő ivadékok a szikzacskó felszívódása után frissen keltetett artémia-naupliusszal és apró poreleséggel nevelhetők."
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan testesebbek, teltebb hasúak és némileg hosszabbak; a hímek karcsúbbak, hátúszójuk hegyesebb lehet.",
+ "felismeres_jegyek": [
+  "A test alapszíne zöldessárga vagy fémes aranyos-bronzos ragyogású.",
+  "A hát vonalán és az oldal felső részén egy sötét, zöldesfekete hosszanti sáv húzódik.",
+  "A hátúszó és a farok alatti úszó töve jellegzetes rozsdasárga vagy narancssárga árnyalatú.",
+  "Két pár bajuszszál található a lekerekített, lefelé irányuló száj körül.",
+  "Az úszók többnyire áttetszők vagy enyhén sárgásak, finom pettyezéssel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras aeneus",
+   "magyar_nev": "Kékpáncélos harcsa",
+   "kulonbseg": "A C. aeneus teste inkább bronzos-zöldes fémes csillogású, hiányzik róla az úszótövek élénk sárgás-narancsos színezete."
+  },
+  {
+   "latin": "Corydoras rabauti",
+   "magyar_nev": "Rozsdacsíkos páncélosharcsa",
+   "kulonbseg": "A C. rabauti teste vörösesbarna alapszínű, hátán jóval szélesebb és sötétebb sáv húzódik a szemtől a farokúszóig."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bajuszszálak eróziója vagy bakteriális fertőzése (éles aljzat miatt)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kizárólag finom szemcséjű, lekerekített folyami homokot használjunk aljzatként, mert az éles bazaltzúzalék lekoptatja és felülfertőzi az érzékeny bajuszszálakat.",
+  "Kedveli az enyhe vízáramlást és a tiszta, oxigéndús, hűvösebb (21-24 °C-os) vizet.",
+  "Mivel béllégző, biztosítani kell számára a szabad hozzáférést a vízfelszínhez."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

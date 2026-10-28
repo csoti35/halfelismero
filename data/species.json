@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-28",
-"darab": 163,
+"darab": 165,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -1172,6 +1172,33 @@
 "ellenorzott": false
 },
 {
+"id": "corydoras-melanotaenia",
+"tipus": "hal",
+"latin": "Corydoras melanotaenia",
+"magyar_nev": "Zöldessárga páncélosharcsa",
+"egyeb_nevek": [
+"Aranyhátú páncélosharcsa",
+"Sárgás páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Harcsafélék",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 70,
+"homerseklet_min": 20,
+"homerseklet_max": 25,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "corydoras-metae",
 "tipus": "hal",
 "latin": "Corydoras metae",
@@ -1275,6 +1302,34 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 600,
 "ar_ft_max": 1000,
+"ellenorzott": false
+},
+{
+"id": "corydoras-rabauti",
+"tipus": "hal",
+"latin": "Corydoras rabauti",
+"magyar_nev": "Rozsdás páncélosharcsa",
+"egyeb_nevek": [
+"Rabaut páncélosharcsája"
+],
+"regi_latin_nevek": [
+"Corydoras myersi"
+],
+"csalad": "Callichthyidae (Páncélosharcsafélék)",
+"csoport": "Harcsaalakúak",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {

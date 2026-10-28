@@ -1,0 +1,90 @@
+{
+ "id": "corydoras-rabauti",
+ "lista_nev": "Corydoras rabauti",
+ "tipus": "hal",
+ "latin": "Corydoras rabauti",
+ "regi_latin_nevek": [
+  "Corydoras myersi"
+ ],
+ "magyar_nev": "Rozsdás páncélosharcsa",
+ "egyeb_nevek": [
+  "Rabaut páncélosharcsája"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae (Páncélosharcsafélék)",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Brazília, Peru - Amazonas medence)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, társas hal, amely idejének nagy részét az aljzaton tölti élelem után kutatva. Más fajokkal szemben nem mutat agressziót.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; kedveli a süllyedő tablettákat, élő és fagyasztott tubifexet, artémiát, vörös szúnyoglárvát.",
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal (pontylazacok",
+  "törperasborák",
+  "békés törpesügérek)."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "amelyek zsákmánynak tekinthetik",
+  "vagy zavarhatják a táplálkozásban."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium lágy, enyhén savas vízzel.",
+  "Bőséges élő eleséggel történő kondicionálás.",
+  "Nagyobb arányú (30-50%) hűvösebb vizes csere az esős évszak szimulálására.",
+  "A hímek kergetik a nőstényt, aki az ikrákat a hasúszói közé szorítja, majd tereptárgyakra ragasztja.",
+  "Az ívás után a szülőket el kell távolítani az ikrák mellől."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek, szélesebbek, különösen felülről nézve. A hímek karcsúbbak és valamivel kisebbek.",
+ "felismeres_jegyek": [
+  "Testszíne narancsos-rozsdabarna alapszínű.",
+  "A hátúszó alatt egy széles, sötétzöldes vagy feketés sáv húzódik a farokúszó tövéig.",
+  "A fejtető és a hát elülső része élénkebb narancssárga.",
+  "Zömök testfelépítés, két sorban elhelyezkedő csontlemezekkel.",
+  "Rövid bajuszszálak a száj körül."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras zygatus",
+   "magyar_nev": "Feketesávos páncélosharcsa",
+   "kulonbseg": "A C. zygatus szürkésebb alapszínű, és a sötét sáv nem húzódik rá annyira a fejre."
+  },
+  {
+   "latin": "Corydoras aeneus",
+   "magyar_nev": "Bronz páncélosharcsa",
+   "kulonbseg": "A bronz páncélosharcsa színe egyöntetűbb fémes zöld/barna, hiányzik a kontrasztos narancs-fekete sáv."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszrothadás (éles aljzat miatt)",
+  "Darakór",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Használjunk finom szemcséjű homokot aljzatnak, hogy ne sérüljön az érzékeny bajuszuk.",
+  "Szeretik a dús növényzetet és a búvóhelyeket (pl. vasfa, kerámia barlangok).",
+  "Mivel béltagoltak, néha felúsznak a felszínre levegőt nyelni, ez természetes viselkedés."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}
