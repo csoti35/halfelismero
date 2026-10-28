@@ -1,0 +1,82 @@
+{
+ "id": "alestopetersius-caudalis",
+ "tipus": "hal",
+ "latin": "Alestopetersius caudalis",
+ "regi_latin_nevek": [
+  "Phenacogrammus caudalis",
+  "Petersius caudalis"
+ ],
+ "magyar_nev": "Sárga kongólazac",
+ "egyeb_nevek": [
+  "Sárgaúszójú kongólazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alestidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Afrika (Kongó-medence)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, aktív rajhal, amely jól tartható más nem agresszív fajokkal.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (száraztápok, fagyasztott és élő eleség)",
+ "tarsithato": [
+  "Más afrikai lazacok",
+  "békés sügérek",
+  "páncélosharcsák"
+ ],
+ "kerulendo": [
+  "Agresszív vagy túl nagy testű ragadozók"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy",
+  "enyhén savas víz szükséges. Az ívató akváriumba tegyünk ikrarácsot vagy finom levelű növényeket. A szülőket az ívás után távolítsuk el. Az ivadékok apró élő eleséggel indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, úszóik (különösen a hát- és farokúszó) megnyúltabbak.",
+ "felismeres_jegyek": [
+  "Ezüstös test sárgás-narancsos árnyalattal",
+  "a farokúszó középső sugarai megnyúltak és feketék",
+  "a hímek úszói fátyolosak",
+  "nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Phenacogrammus interruptus",
+   "magyar_nev": "Kongólazac",
+   "kulonbseg": "Nagyobb termetű és irizálóbb kék-arany színezetű."
+  },
+  {
+   "latin": "Alestopetersius smykalai",
+   "magyar_nev": "Kék kongólazac",
+   "kulonbseg": "A test alapszíne kékesebb, úszói kevésbé sárgák."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Sötét aljzat mellett színei sokkal jobban érvényesülnek.",
+  "Érzékenyek a hirtelen vízminőség-változásra, rendszeres részleges vízcserét igényelnek."
+ ],
+ "lista_nev": "Alestopetersius caudalis",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

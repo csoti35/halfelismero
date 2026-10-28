@@ -7,7 +7,7 @@
   "Puntius schwanenfeldii",
   "Barbodes schwanenfeldii"
  ],
- "magyar_nev": "Gyémántmárna",
+ "magyar_nev": "Schwanenfeld-márna",
  "egyeb_nevek": [
   "Schwanenfeld-márna",
   "Pirosúszójú márna"
@@ -81,5 +81,6 @@
  ],
  "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
  "ellenorzott": false,
- "frissitve": "2026-10-28"
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
 }

@@ -1,0 +1,83 @@
+{
+ "id": "botia-almorhae",
+ "tipus": "hal",
+ "latin": "Botia almorhae",
+ "regi_latin_nevek": [
+  "Botia lohachata (tévesen)"
+ ],
+ "magyar_nev": "Pakisztáni díszcsík",
+ "egyeb_nevek": [
+  "Yoyo csík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Botiidae",
+ "csoport": "Díszcsíkok",
+ "szarmazas": "India, Pakisztán, Nepál, Banglades",
+ "max_meret_cm": 15,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Aktív, játékos hal, de fajtársaival és más fenéklakókkal szemben domináns és csipkelődő lehet. Magányosan tartva agresszívvá válhat.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, kedveli a csigákat, férgeket, tablettás tápokat és fagyasztott eleséget.",
+ "tarsithato": [
+  "Gyors úszású márnák",
+  "dániók",
+  "nagyobb lazacok."
+ ],
+ "kerulendo": [
+  "Lassú",
+  "hosszú úszójú halak",
+  "apró garnélák",
+  "talajlakó sügérek."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte csak hormonkezeléssel szaporítható. Természetben az áradások váltják ki az ívást. Az ikrákat nem gondozzák. Az ivadékok felnevelése apró élő eleséggel történik."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, a hímek karcsúbbak és az orruk vöröses árnyalatot ölthet ívási időszakban.",
+ "felismeres_jegyek": [
+  "Ezüstös-arany alapszín",
+  "sötét hálózatos mintázat",
+  "amely gyakran az 'Y' és 'O' betűkre emlékeztet. Alsó állású száj négy pár bajuszszállal. Mélyen villás farokúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Botia lohachata",
+   "magyar_nev": "Hálós díszcsík",
+   "kulonbseg": "A mintázata kevésbé hálós, inkább szabályosabb sötét sávokból áll."
+  },
+  {
+   "latin": "Botia kubotai",
+   "magyar_nev": "Burmai díszcsík",
+   "kulonbseg": "Sötétebb alapszín, nagy világos foltokkal a testen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (érzékeny a gyógyszerekre a pikkelytelenség miatt)",
+  "Bélférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kiváló csigairtó, de csak akkor tartsuk, ha hosszú távon is tudunk róluk gondoskodni.",
+  "Búvóhelyekben gazdag, homokos aljzatú akváriumot igényel.",
+  "Szeretnek klikkelő hangokat kiadni evés közben."
+ ],
+ "lista_nev": "Botia almorhae",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

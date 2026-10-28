@@ -1,0 +1,78 @@
+{
+ "id": "botia-kubotai",
+ "tipus": "hal",
+ "latin": "Botia kubotai",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Burmai díszcsík",
+ "egyeb_nevek": [
+  "Angyal díszcsík",
+  "Polka dot loach"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Botiidae",
+ "csoport": "Díszcsíkok",
+ "szarmazas": "Mianmar (Burma)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 12,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békésebb, mint a legtöbb Botia faj. Nagyon társas lény, igényli a fajtársak közelségét.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli a fagyasztott eleségeket, tablettákat és a csigákat.",
+ "tarsithato": [
+  "Békés közepes testű halak",
+  "dániók",
+  "razborák."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív halak",
+  "apró garnélák."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban természetes úton nem szaporodik. Kereskedelmi forgalomba hormonkezeléssel szaporított vagy vadon fogott példányok kerülnek."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények hasa kerekdedebb.",
+ "felismeres_jegyek": [
+  "Fekete alapszín nagy",
+  "szabálytalan sárgásfehér foltokkal. A mintázat az életkorral változik és bonyolódik. Karcsú testalkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Botia almorhae",
+   "magyar_nev": "Pakisztáni díszcsík",
+   "kulonbseg": "Világosabb alapszín, hálósabb mintázat."
+  },
+  {
+   "latin": "Botia histrionica",
+   "magyar_nev": "Arany díszcsík",
+   "kulonbseg": "Szabályosabb függőleges sávok jellemzik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Soványodás (belső paraziták miatt)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Éjszaka aktívabbak, érdemes lámpoltás előtt is etetni őket.",
+  "Nagyon kíváncsiak, minden rést felfedeznek, az akváriumot jól le kell fedni."
+ ],
+ "lista_nev": "Botia kubotai",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

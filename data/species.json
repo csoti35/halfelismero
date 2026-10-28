@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-28",
-"darab": 133,
+"darab": 142,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -30,6 +30,35 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 2500,
 "ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "alestopetersius-caudalis",
+"tipus": "hal",
+"latin": "Alestopetersius caudalis",
+"magyar_nev": "Sárga kongólazac",
+"egyeb_nevek": [
+"Sárgaúszójú kongólazac"
+],
+"regi_latin_nevek": [
+"Phenacogrammus caudalis",
+"Petersius caudalis"
+],
+"csalad": "Alestidae",
+"csoport": "Pontylazacok",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -265,7 +294,7 @@
 "id": "barbonymus-schwanenfeldii",
 "tipus": "hal",
 "latin": "Barbonymus schwanenfeldii",
-"magyar_nev": "Gyémántmárna",
+"magyar_nev": "Schwanenfeld-márna",
 "egyeb_nevek": [
 "Schwanenfeld-márna",
 "Pirosúszójú márna"
@@ -407,7 +436,7 @@
 "id": "boraras-merah",
 "tipus": "hal",
 "latin": "Boraras merah",
-"magyar_nev": "Főnix törpeponty",
+"magyar_nev": "Főnix razbóra",
 "egyeb_nevek": [
 "Merah törpeponty"
 ],
@@ -457,6 +486,113 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 450,
 "ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "botia-almorhae",
+"tipus": "hal",
+"latin": "Botia almorhae",
+"magyar_nev": "Pakisztáni díszcsík",
+"egyeb_nevek": [
+"Yoyo csík"
+],
+"regi_latin_nevek": [
+"Botia lohachata (tévesen)"
+],
+"csalad": "Botiidae",
+"csoport": "Díszcsíkok",
+"max_meret_cm": 15,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 30,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "botia-kubotai",
+"tipus": "hal",
+"latin": "Botia kubotai",
+"magyar_nev": "Burmai díszcsík",
+"egyeb_nevek": [
+"Angyal díszcsík",
+"Polka dot loach"
+],
+"regi_latin_nevek": [],
+"csalad": "Botiidae",
+"csoport": "Díszcsíkok",
+"max_meret_cm": 13,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "botia-lohachata",
+"tipus": "hal",
+"latin": "Botia lohachata",
+"magyar_nev": "Hálós díszcsík",
+"egyeb_nevek": [
+"Lohachata díszcsík"
+],
+"regi_latin_nevek": [],
+"csalad": "Botiidae",
+"csoport": "Díszcsíkok",
+"max_meret_cm": 11,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 120,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "botia-striata",
+"tipus": "hal",
+"latin": "Botia striata",
+"magyar_nev": "Sávos díszcsík",
+"egyeb_nevek": [
+"Zebra díszcsík"
+],
+"regi_latin_nevek": [],
+"csalad": "Botiidae",
+"csoport": "Csíkfélék",
+"max_meret_cm": 9,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -765,6 +901,34 @@
 "ellenorzott": false
 },
 {
+"id": "chromobotia-macracanthus",
+"tipus": "hal",
+"latin": "Chromobotia macracanthus",
+"magyar_nev": "Bohóccsík",
+"egyeb_nevek": [
+"Bohóccsík"
+],
+"regi_latin_nevek": [
+"Botia macracantha"
+],
+"csalad": "Botiidae",
+"csoport": "Csíkfélék",
+"max_meret_cm": 30,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 400,
+"homerseklet_min": 24,
+"homerseklet_max": 30,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
 "id": "copella-arnoldi",
 "tipus": "hal",
 "latin": "Copella arnoldi",
@@ -873,6 +1037,34 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 600,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "cyprinus-rubrofuscus-koi",
+"tipus": "hal",
+"latin": "Cyprinus rubrofuscus",
+"magyar_nev": "Koi ponty",
+"egyeb_nevek": [
+"Nishikigoi"
+],
+"regi_latin_nevek": [
+"Cyprinus carpio (tévesen)"
+],
+"csalad": "Cyprinidae",
+"csoport": "Pontyfélék",
+"max_meret_cm": 90,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 5000,
+"homerseklet_min": 4,
+"homerseklet_max": 25,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 500000,
 "ellenorzott": false
 },
 {
@@ -1079,7 +1271,7 @@
 "id": "dermogenys-pusilla",
 "tipus": "hal",
 "latin": "Dermogenys pusilla",
-"magyar_nev": "Ezüst féleszercsőrű csuka",
+"magyar_nev": "Félcsőrű csuka",
 "egyeb_nevek": [
 "törpe féleszercsőrű csuka",
 "féleszercsőrű hal"
@@ -3763,6 +3955,63 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 450,
 "ar_ft_max": 1100,
+"ellenorzott": false
+},
+{
+"id": "yasuhikotakia-modesta",
+"tipus": "hal",
+"latin": "Yasuhikotakia modesta",
+"magyar_nev": "Kék díszcsík",
+"egyeb_nevek": [
+"Szürke díszcsík"
+],
+"regi_latin_nevek": [
+"Botia modesta"
+],
+"csalad": "Botiidae",
+"csoport": "Csíkfélék",
+"max_meret_cm": 18,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 30,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "yasuhikotakia-sidthimunki",
+"tipus": "hal",
+"latin": "Ambastaia sidthimunki",
+"magyar_nev": "Törpe díszcsík",
+"egyeb_nevek": [
+"Sakk táblás díszcsík"
+],
+"regi_latin_nevek": [
+"Yasuhikotakia sidthimunki",
+"Botia sidthimunki"
+],
+"csalad": "Botiidae",
+"csoport": "Csíkfélék",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
 "ellenorzott": false
 }
 ]

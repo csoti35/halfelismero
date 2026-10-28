@@ -1,0 +1,86 @@
+{
+ "id": "botia-striata",
+ "tipus": "hal",
+ "latin": "Botia striata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sávos díszcsík",
+ "lista_nev": "Botia striata",
+ "egyeb_nevek": [
+  "Zebra díszcsík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Botiidae",
+ "csoport": "Csíkfélék",
+ "szarmazas": "India",
+ "max_meret_cm": 9,
+ "elettartam_ev": 12,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de élénk mozgású hal. Fajon belül kialakítanak egy hierarchiát, de nem bántják egymást komolyan. Más fajokkal szemben teljesen békés.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, kedveli a csigákat, fagyasztott eleségeket és a talajra süllyedő tablettákat.",
+ "tarsithato": [
+  "Dániók",
+  "márnák",
+  "nagyobb pontylazacok",
+  "más békés csíkfélék."
+ ],
+ "kerulendo": [
+  "Nagyon lassú",
+  "fátyolos úszójú halak (ritkán megcsipkedhetik)",
+  "apró garnélák."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen a szaporítása.",
+  "Hormonális indukcióval szaporítják nagyüzemi körülmények között.",
+  "Lágy, enyhén savas víz és bőséges élő eleség szükséges az ívási kedvhez.",
+  "Az ikrákat a talajra szórják, a szülők nem gondozzák az ivadékot."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, különösen ívási időszakban, a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Testét sűrű, vékony, függőleges sárgás és sötétbarna csíkok borítják.",
+  "Az úszók is csíkozottak.",
+  "Szája körül négy pár bajuszszál található.",
+  "Teste oldalról lapított, áramvonalas.",
+  "Szemük alatt felmereszthető tüske található."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Botia lohachata",
+   "magyar_nev": "Pakisztáni díszcsík",
+   "kulonbseg": "Mintázata hálószerű, nem sűrűn csíkozott."
+  },
+  {
+   "latin": "Botia almorhae",
+   "magyar_nev": "Y-csíkú díszcsík",
+   "kulonbseg": "Mintázata Y alakú foltokból áll, nagyobb termetű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (érzékenyek a gyógyszerekre a pikkelytelenség miatt)",
+  "Bélférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kiváló csigairtó, de csak akkor tartsuk, ha hosszú távon is gondoskodunk róla.",
+  "Szeretnek búvóhelyekre (csövekbe, kövek közé) bebújni.",
+  "Érzékenyek a vízminőségre és a hirtelen változásokra."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

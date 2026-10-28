@@ -1,0 +1,80 @@
+{
+ "id": "botia-lohachata",
+ "tipus": "hal",
+ "latin": "Botia lohachata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Hálós díszcsík",
+ "egyeb_nevek": [
+  "Lohachata díszcsík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Botiidae",
+ "csoport": "Díszcsíkok",
+ "szarmazas": "India, Pakisztán",
+ "max_meret_cm": 11,
+ "elettartam_ev": 12,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Élénk, néha tolakodó hal. A hierarchia fontos számukra, ezért csoportban kell tartani őket.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, minden típusú süllyedő tápot és élő eleséget elfogad.",
+ "tarsithato": [
+  "Márnák",
+  "nagyobb dániók",
+  "robusztusabb lazacok."
+ ],
+ "kerulendo": [
+  "Fátyolos úszójú halak",
+  "törpe sügérek",
+  "garnélák."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Házilag nem megoldott a szaporítása. Hormonális stimulációval szaporítják nagyüzemi körülmények között."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, a nőstények ívás előtt látványosan meghíznak.",
+ "felismeres_jegyek": [
+  "Ezüstös alapszín",
+  "sötét 'Y' alakú sávokkal",
+  "amelyek nem alkotnak olyan sűrű hálót",
+  "mint az almorhae esetében. Kisebb termetű marad."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Botia almorhae",
+   "magyar_nev": "Pakisztáni díszcsík",
+   "kulonbseg": "Nagyobbra nő és a mintázata sokkal sűrűbb, hálósabb."
+  },
+  {
+   "latin": "Botia rostrata",
+   "magyar_nev": "Gangeszi díszcsík",
+   "kulonbseg": "A sávok dupla vonalakból állnak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bőrférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Sokszor összetévesztik a B. almorhae-val a kereskedésekben.",
+  "Szeretnek szűk helyekre bebújni, ügyeljünk, ne szoruljanak be a dekoráció mögé."
+ ],
+ "lista_nev": "Botia lohachata",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

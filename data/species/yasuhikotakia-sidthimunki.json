@@ -1,0 +1,89 @@
+{
+ "id": "yasuhikotakia-sidthimunki",
+ "tipus": "hal",
+ "latin": "Ambastaia sidthimunki",
+ "regi_latin_nevek": [
+  "Yasuhikotakia sidthimunki",
+  "Botia sidthimunki"
+ ],
+ "magyar_nev": "Törpe díszcsík",
+ "lista_nev": "Yasuhikotakia sidthimunki",
+ "egyeb_nevek": [
+  "Sakk táblás díszcsík"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Botiidae",
+ "csoport": "Csíkfélék",
+ "szarmazas": "Thaiföld",
+ "max_meret_cm": 6,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, játékos és rendkívül aktív hal. Csapatban érzi jól magát, sokat úszik a középső vízrétegekben is, nem csak a talajon.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, apró élő és fagyasztott eleségek, jó minőségű száraztápok.",
+ "tarsithato": [
+  "Kisebb pontylazacok",
+  "dániók",
+  "razborák",
+  "békés törpesügérek."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak",
+  "amelyek zsákmánynak nézhetik."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi szaporítása véletlenszerű és ritka.",
+  "Nagyüzemben hormonokkal szaporítják.",
+  "Dús növényzet és tiszta, oxigéndús víz szükséges.",
+  "Az ikrákat a növények közé szórják."
+ ],
+ "ivari_kulonbseg": "A nőstények valamivel nagyobbak és kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Apró termet, maximum 6 cm.",
+  "Aranyos-ezüstös alapszín, fekete hálós/sakk-szerű mintázattal.",
+  "Hátán sötét csík fut végig.",
+  "Úszói átlátszóak.",
+  "Aktívabb úszó, mint a többi díszcsík."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ambastaia nigrolineata",
+   "magyar_nev": "Feketecsíkos törpe díszcsík",
+   "kulonbseg": "A mintázata inkább két vízszintes csíkból áll, nem hálós."
+  },
+  {
+   "latin": "Botia kubotai",
+   "magyar_nev": "Birmany díszcsík",
+   "kulonbseg": "Sokkal nagyobb és foltosabb a mintázata."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Soványodás (belső paraziták miatt)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Mivel veszélyeztetett faj, csak tenyésztett példányokat vásároljunk.",
+  "Nagyon szeretik a dús növényzetet és a finom szemcséjű aljzatot.",
+  "Bár drága hal, csak csapatban mutatja meg valódi viselkedését."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

@@ -7,7 +7,7 @@
   "Dermogenys pusillus",
   "Hemirhamphus pusillus"
  ],
- "magyar_nev": "Ezüst féleszercsőrű csuka",
+ "magyar_nev": "Félcsőrű csuka",
  "egyeb_nevek": [
   "törpe féleszercsőrű csuka",
   "féleszercsőrű hal"
@@ -87,5 +87,6 @@
  ],
  "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
  "ellenorzott": false,
- "frissitve": "2026-10-25"
+ "frissitve": "2026-10-25",
+ "magyar_nev_kuralt": true
 }

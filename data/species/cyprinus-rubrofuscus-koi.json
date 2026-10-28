@@ -1,0 +1,88 @@
+{
+ "id": "cyprinus-rubrofuscus-koi",
+ "tipus": "hal",
+ "latin": "Cyprinus rubrofuscus",
+ "regi_latin_nevek": [
+  "Cyprinus carpio (tévesen)"
+ ],
+ "magyar_nev": "Koi ponty",
+ "egyeb_nevek": [
+  "Nishikigoi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Kelet-Ázsia (nemesített változat)",
+ "max_meret_cm": 90,
+ "elettartam_ev": 30,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés óriás, de mérete miatt a kisebb halakat véletlenül lenyelheti. Társas lény.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 5000,
+ "homerseklet_min": 4,
+ "homerseklet_max": 25,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (speciális koi pelletek, növényi anyagok, rovarok)",
+ "tarsithato": [
+  "Aranyhalak",
+  "tokhalak",
+  "más nagyobb tavi halak"
+ ],
+ "kerulendo": [
+  "Trópusi díszhalak (hőmérséklet miatt)",
+  "apró halak"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Tavaszi felmelegedéskor ívnak sekély",
+  "növényekkel teli vízben. Az ikrákat különítsük el a felnőttektől. Az ivadékok gyorsan nőnek",
+  "bőséges etetést igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, ívási időszakban nászkiütések (darázs) jelennek meg a kopoltyúfedőn.",
+ "felismeres_jegyek": [
+  "Két pár bajuszszál",
+  "robusztus testalkat",
+  "rendkívül változatos színmintázat (piros",
+  "fehér",
+  "fekete",
+  "sárga)",
+  "nagy pikkelyek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carassius auratus",
+   "magyar_nev": "Aranyhal",
+   "kulonbseg": "Nincsenek bajuszszálai és kisebbre nő."
+  },
+  {
+   "latin": "Cyprinus carpio",
+   "magyar_nev": "Ponty",
+   "kulonbseg": "Vad színezetű (szürkés-barna), nem díszváltozat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Koi herpeszvírus (KHV)",
+  "Tavi tetű",
+  "Horgasférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 500000,
+ "tippek": [
+  "Kizárólag kerti tóba javasolt, akváriumi tartása hosszú távon nem megoldható.",
+  "Erős szűrésre van szükségük a nagy mennyiségű ürülék miatt."
+ ],
+ "lista_nev": "Cyprinus rubrofuscus 'Koi'",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28",
+ "magyar_nev_kuralt": true
+}
