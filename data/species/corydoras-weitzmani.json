@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Corydoras weitzmani",
+ "id": "corydoras-weitzmani",
+ "tipus": "hal",
+ "latin": "Corydoras weitzmani",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Weitzman páncélosharcsa",
+ "egyeb_nevek": [
+  "Kéttenyves páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Peru, Madre de Dios folyóvidék)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, csapatkedvelő aljzatlakó hal. Kis termete és szelíd természete miatt ideális közösségi akváriumokba, de lassabb táplálkozása miatt ne tartsuk túlságosan agresszívan táplálkozó fajokkal.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő, de preferálja az apró élő és fagyasztott eledeleket (pl. artémia, tubifex, vörös szúnyoglárva), valamint a minőségi süllyedő tablettákat.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés pontylazacokkal",
+  "törpe sügérekkel",
+  "dániókkal és más páncélosharcsa-fajokkal."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "nagy harcsák",
+  "vagy túl meleg vizet igénylő fajok."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Hűvösebb, lágy és enyhén savas vízzel végzett bőséges vízcserével szimuláljuk az esős évszakot.",
+  "A jó kondíció elérése érdekében etessük a szülőket bőségesen élő táplálékkal (tubifex, artémia).",
+  "Az ikrákat a nőstény a tiszta akváriumi üvegre vagy finom levelű növényekre tapasztja.",
+  "Ívás után a szülőket el kell távolítani, mert megehetik az ikrákat.",
+  "Az ikrák 4-5 nap alatt kelnek ki, az ivadékokat a szikzacskó felszívódása után frissen keltett artémiával etethetjük."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények láthatóan testesebbek, szélesebbek és kerekdedebbek felülről nézve, míg a hímek karcsúbbak és kissé kisebbek.",
+ "felismeres_jegyek": [
+  "Világos, krém- vagy aranybarna alapszín.",
+  "Három markáns sötét folt: egy a szemen keresztül húzódó függőleges sáv, egy nagy folt a hátúszó alatt, és egy a faroknyélen.",
+  "A hátúszó első sugarai sötéten pigmentáltak.",
+  "Rövid, zömök testforma és lefelé álló bajuszszálak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras panda",
+   "magyar_nev": "Panda páncélosharcsa",
+   "kulonbseg": "A C. panda hátán lévő folt kisebb, csak a hátúszóra terjed ki, és hiányzik a hát alatti nagy középső folt."
+  },
+  {
+   "latin": "Corydoras adolfoi",
+   "magyar_nev": "Adolfo páncélosharcsa",
+   "kulonbseg": "A C. adolfoi háta mentén fekete sáv húzódik, a feje tetején pedig élénk narancssárga folt található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszszálak eróziója (éles talaj miatt)",
+  "Darakór",
+  "Gombás fertőzések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Mindenképpen finom szemcséjű, élekmentes homokot használjunk aljzatként, hogy megóvjuk érzékeny bajuszszálait.",
+  "A hűvösebb, oxigéndús vizet kedveli, ne tartsuk 25 °C feletti tartós hőmérsékleten.",
+  "Biztosítsunk számára árnyékos búvóhelyeket és növényekkel dúsan beültetett részeket."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

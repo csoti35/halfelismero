@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-28",
-"darab": 165,
+"darab": 170,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -1068,6 +1068,32 @@
 "ellenorzott": false
 },
 {
+"id": "corydoras-axelrodi",
+"tipus": "hal",
+"latin": "Corydoras axelrodi",
+"magyar_nev": "Axelrod-páncélosharcsa",
+"egyeb_nevek": [
+"Feketecsíkú páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
 "id": "corydoras-duplicareus",
 "tipus": "hal",
 "latin": "Corydoras duplicareus",
@@ -1089,6 +1115,60 @@
 "ph_max": 7.5,
 "uszasi_zona": "also",
 "beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-elegans",
+"tipus": "hal",
+"latin": "Corydoras elegans",
+"magyar_nev": "Elegáns páncélosharcsa",
+"egyeb_nevek": [
+"Díszes páncélosharcsa"
+],
+"regi_latin_nevek": [
+"Corydoras pestai"
+],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "corydoras-gossei",
+"tipus": "hal",
+"latin": "Corydoras gossei",
+"magyar_nev": "Gosse páncélosharcsája",
+"egyeb_nevek": [
+"Aranyszőke páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
 "ar_ft_min": 1800,
 "ar_ft_max": 3500,
 "ellenorzott": false
@@ -1279,6 +1359,32 @@
 "ellenorzott": false
 },
 {
+"id": "corydoras-pulcher",
+"tipus": "hal",
+"latin": "Corydoras pulcher",
+"magyar_nev": "Királyi páncélosharcsa",
+"egyeb_nevek": [
+"Díszes páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 7,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 100,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 4500,
+"ar_ft_max": 8500,
+"ellenorzott": false
+},
+{
 "id": "corydoras-pygmaeus",
 "tipus": "hal",
 "latin": "Corydoras pygmaeus",
@@ -1434,6 +1540,32 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 900,
 "ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "corydoras-weitzmani",
+"tipus": "hal",
+"latin": "Corydoras weitzmani",
+"magyar_nev": "Weitzman páncélosharcsa",
+"egyeb_nevek": [
+"Kéttenyves páncélosharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Callichthyidae",
+"csoport": "Páncélosharcsák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2000,
+"ar_ft_max": 4000,
 "ellenorzott": false
 },
 {

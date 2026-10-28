@@ -1,0 +1,83 @@
+{
+ "id": "corydoras-pulcher",
+ "tipus": "hal",
+ "latin": "Corydoras pulcher",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Királyi páncélosharcsa",
+ "lista_nev": "Corydoras pulcher",
+ "egyeb_nevek": [
+  "Díszes páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Brazília (Rio Purus medence)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de mérete és igényei miatt inkább tapasztaltabb akvaristáknak ajánlott.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; kedveli a jó minőségű tablettákat és az élő eleséget (vörös szúnyoglárva).",
+ "tarsithato": [
+  "Dél-amerikai sügérek",
+  "nagyobb pontylazacok",
+  "L-es harcsák."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív halak",
+  "amelyek zavarhatják a táplálkozásban."
+ ],
+ "szaporodas_mod": "Szabadon ívó, ikráit rejtekhelyekre vagy üvegre helyezi.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "1. Lágy",
+  "enyhén savas víz szükséges. 2. Csoportos ívatás javasolt. 3. Jelentős vízhőmérséklet-csökkenés váltja ki az ívást. 4. Az ikrák penészedésre hajlamosak",
+  "kezelni kell a vizet. 5. Az ivadékok lassan fejlődnek."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója megnyúltabb és hegyesebb, a nőstények robusztusabbak.",
+ "felismeres_jegyek": [
+  "Magas hátúszó",
+  "az oldalon két-három párhuzamos sötét csík fut végig",
+  "a fej és a hátúszó töve sötéten pettyezett",
+  "robusztus testfelépítés."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras robustus",
+   "magyar_nev": "Óriás páncélosharcsa",
+   "kulonbseg": "A robustus sokkal nagyobbra nő és a mintázata kevésbé kontrasztos."
+  },
+  {
+   "latin": "Corydoras schwartzi",
+   "magyar_nev": "Schwartz páncélosharcsa",
+   "kulonbseg": "A schwartzi kisebb, és a hátúszója nem nő meg olyan magasra."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Nitráttal szembeni érzékenység",
+  "Úszórothadás",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 8500,
+ "tippek": [
+  "Különösen érzékeny a víz tisztaságára, heti rendszeres vízcsere kötelező.",
+  "A magas hátúszó épsége érdekében kerüljük a durva tereptárgyakat.",
+  "Érdemes tőzeges szűrést alkalmazni a természetes élőhely imitálásához."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

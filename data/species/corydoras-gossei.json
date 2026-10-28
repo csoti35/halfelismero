@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Corydoras gossei",
+ "id": "corydoras-gossei",
+ "tipus": "hal",
+ "latin": "Corydoras gossei",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Gosse páncélosharcsája",
+ "egyeb_nevek": [
+  "Aranyszőke páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Brazília, Mamoré-medence)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, társas, csapatait kedvelő fenéklakó hal. Semmilyen más fajban nem tesz kárt.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; kedveli a süllyedő tápokat, fagyasztott és élő finom eleségeket (pl. tubifex, árvaszúnyoglárva, artémia).",
+ "tarsithato": [
+  "Kisméretű",
+  "békés pontylazacokkal",
+  "törpesügérekkel",
+  "razbórákkal és más békés fenéklakókkal."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív vagy teritóriumot tartó sügérekkel",
+  "amelyek bántalmazhatják."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Bőséges élő és fagyasztott eleséggel kondicionáljuk a tenyészpárt vagy a kis csapatot.",
+  "Végezzünk nagyobb arányú (30-50%-os), lágyabb és hűvösebb vizes vízcserét az ívás stimulálására.",
+  "A nőstény az ikrákat a felületekre (üveg, széles levelű növények) ragasztja a t-pozíciós párzás után.",
+  "Ívás után a szülőket távolítsuk el az ikrák védelmében.",
+  "Az ikrák 4-5 nap múlva kelnek ki, az ivadékok a szikzacskó felszívódása után frissen keltett artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények láthatóan testesebbek, szélesebbek és kissé nagyobbak a hímeknél.",
+ "felismeres_jegyek": [
+  "Sötét szürke/barnás alapszín finom világos pöttyözéssel a testen.",
+  "Látványos, élénk narancssárga/sárga mellúszók és hátúszó tüskék.",
+  "Lekerekített páncélosharcsa testforma, jellegzetes bajuszszálakkal a száj körül.",
+  "A farokúszón függőleges sötét csíkozás látható."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras seussi",
+   "magyar_nev": "Seuss páncélosharcsája",
+   "kulonbseg": "A C. seussi orra lényegesen hosszabb és hegyesebb."
+  },
+  {
+   "latin": "Corydoras sterbai",
+   "magyar_nev": "Sterba páncélosharcsája",
+   "kulonbseg": "A C. sterbai testén határozottabb pöttyös minta van, és a mintázat a fejen is eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daraszórtság",
+  "Gombás fertőzések (ikránál és sérüléseknél)",
+  "Bajuszszálak elhalása vagy rothadása az éles aljzat miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kizárólag finom szemcséjű, élek nélküli homokot használjunk aljzatként, nehogy megsérüljenek az érzékeny bajuszszálai.",
+  "Tartsuk legalább 6-8 fős csapatban, mert egyedül nagyon bujkálós és stresszes lesz.",
+  "Nem kedveli a túl magas hőmérsékletet, a 23-25 °C az optimális számára."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}

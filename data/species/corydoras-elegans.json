@@ -1,0 +1,86 @@
+{
+ "id": "corydoras-elegans",
+ "tipus": "hal",
+ "latin": "Corydoras elegans",
+ "regi_latin_nevek": [
+  "Corydoras pestai"
+ ],
+ "magyar_nev": "Elegáns páncélosharcsa",
+ "lista_nev": "Corydoras elegans",
+ "egyeb_nevek": [
+  "Díszes páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Brazília, Peru, Kolumbia - Amazonas medence)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, társas hal, amely jól érzi magát más békés fajok mellett.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; kedveli a süllyedő tablettákat, élő és fagyasztott tubifexet, artémiát.",
+ "tarsithato": [
+  "Pontylazacok",
+  "törperasborák",
+  "békés törpesügérek",
+  "más páncélosharcsák."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív sügérek",
+  "területvédő fenéklakók."
+ ],
+ "szaporodas_mod": "Szabadon ívó, ikráit növényekre vagy üvegre ragasztja.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Külön ívató akvárium lágy vízzel. 2. Bőséges élő eleséggel történő kondicionálás. 3. Hűvösebb vízcsere a monszun szimulálására. 4. Az ikrákat a szülők elfogyaszthatják",
+  "ezért érdemes őket eltávolítani. 5. Az ivadékok frissen kelt artémiával indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és hátúszójuk mintázata díszesebb, a nőstények teltebbek és nagyobbak.",
+ "felismeres_jegyek": [
+  "Nyújtottabb testalkat a legtöbb Corydorashoz képest",
+  "sötét vízszintes sáv az oldalvonal mentén",
+  "a hímek hátúszója mintázott",
+  "apró pettyezés a fejen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras napoensis",
+   "magyar_nev": "Napo-páncélosharcsa",
+   "kulonbseg": "A napoensis hátúszóján sötét folt található, az elegansé inkább csíkozott."
+  },
+  {
+   "latin": "Corydoras nanus",
+   "magyar_nev": "Törpe páncélosharcsa",
+   "kulonbseg": "Kisebb termetű és a mintázata finomabb vonalakból áll."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszrothadás (éles aljzat miatt)",
+  "Darakór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Használjunk finom homokot aljzatnak, hogy ne sérüljön az érzékeny bajszuk.",
+  "Szeretik a dús növényzetet és a búvóhelyeket.",
+  "Több hím tartása esetén látványosabb a viselkedésük."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-28"
+}
