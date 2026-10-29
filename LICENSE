@@ -1,0 +1,18 @@
+AquaFaj – akvarisztikai zsebkönyv
+Copyright (c) 2026 Bogár Mátyás. Minden jog fenntartva. / All rights reserved.
+
+Ez a szoftver (forráskód, felület, szövegek, fajadatbázis és adatcsomagok) Bogár Mátyás
+szellemi tulajdona. A tulajdonos előzetes írásbeli engedélye nélkül tilos a szoftvert
+vagy annak bármely részét másolni, módosítani, terjeszteni, nyilvánosan közzétenni,
+értékesíteni, illetve más termékbe beépíteni. A forráskód megtekinthetősége nem jelent
+felhasználási engedélyt.
+
+Az alkalmazás magáncélú használata (a közzétett weboldalon keresztül) ingyenesen megengedett.
+
+Kivételek – harmadik felek tartalmai, amelyek a saját licencük alá tartoznak:
+- A fajfotók az iNaturalist és a Wikimedia Commons oldalairól származnak; szerzői jogaik
+  a fotósoké, és a feltüntetett Creative Commons / közkincs licenc szerint használjuk őket.
+- Felhasznált külső könyvtárak (Tailwind CSS, Chart.js, Font Awesome, Firebase) a saját
+  licencük alá tartoznak.
+
+Kapcsolat, engedélykérés: aquafajpro@freemail.hu

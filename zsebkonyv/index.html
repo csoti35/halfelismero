@@ -2,6 +2,8 @@
 <html lang="hu" class="dark">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Bogár Mátyás">
+    <meta name="copyright" content="© 2026 Bogár Mátyás. Minden jog fenntartva.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AquaFaj Pro</title>
     <meta name="description" content="Akvarisztikai zsebkönyv: halfelismerés fotóról, összeférhetőség, vízérték-napló, kalkulátorok.">
@@ -761,6 +763,7 @@
         <p>AquaFaj Pro – akvarisztikai zsebkönyv. A fajadatok tájékoztató jellegűek; fontos döntés előtt kérdezz meg egy tapasztalt akvaristát.</p>
         <button type="button" onclick="openBugReport()" class="mt-3 inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-xs font-semibold"><i class="fa-solid fa-bug text-rose-300"></i> Hiba bejelentése / javaslat</button>
         <p class="mt-1 text-[10px] text-slate-500">aquafajpro@freemail.hu</p>
+        <p class="mt-2 text-[10px] text-slate-500">© 2026 Bogár Mátyás – AquaFaj. Minden jog fenntartva. A fajfotók szerzői jogai a feltüntetett fotósoké.</p>
     </footer>
 
     <datalist id="speciesNames"></datalist>
@@ -2027,7 +2030,7 @@ Válaszolj KIZÁRÓLAG JSON-nal, magyarul:
 
         // ================= HIBABEJELENTÉS =================
         const BUG_EMAIL = 'aquafajpro@freemail.hu';
-        const APP_VERSION = 'v40';
+        const APP_VERSION = 'v41';
         window.lastAppError = '';
         window.addEventListener('error', e => { window.lastAppError = (e.message || '') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : ''); });
         window.addEventListener('unhandledrejection', e => { window.lastAppError = String(e.reason && e.reason.message || e.reason || ''); });
