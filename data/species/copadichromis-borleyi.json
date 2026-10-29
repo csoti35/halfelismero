@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Copadichromis borleyi",
+ "id": "copadichromis-borleyi",
+ "tipus": "hal",
+ "latin": "Copadichromis borleyi",
+ "regi_latin_nevek": [
+  "Haplochromis borleyi",
+  "Cyrtocara borleyi"
+ ],
+ "magyar_nev": "Borley-sisakossügér",
+ "egyeb_nevek": [
+  "Kadango sügér",
+  "Vörösfin sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek - Malawi-tó, Utaka)",
+ "szarmazas": "Afrika (Malawi-tó endemikus faja)",
+ "max_meret_cm": 16,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés természetű nyíltvízi Utaka faj, azonban ivási időszakban a hímek határozottan védik a kiválasztott sziklafelületet. Saját fajtársaival és hasonló színezetű halakkal szemben territoriális lehet.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 350,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, a természetben zooplanktont fogyaszt. Akváriumban jó minőségű lemezes és granulált tápok, artémia, mysis, krill adható neki, de a nehéz húsok (pl. marhaszív) kerülendők.",
+ "tarsithato": [
+  "Más békésebb Malawi-tavi sügérekkel (Utaka és nem túlzottan agresszív Mbuna fajok",
+  "mint a Labidochromis caeruleus)",
+  "Synodontis harcsákkal."
+ ],
+ "kerulendo": [
+  "Kisméretű pontylazacok és dániók (tápláléknak tekintheti őket)",
+  "túlzottan agresszív Mbuna sügérek (pl. Pseudotropheus lombardoi",
+  "Melanochromis auratus)."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk háremet: 1 hímre legalább 3-4 nőstény jusson a zaklatás megosztása érdekében.",
+  "A hím fészekként megtisztít egy lapos sziklafelületet vagy egy mélyedést ás a homokba.",
+  "Udvarlás után a nőstény lerakja az ikrákat, majd a hím megtermékenyíti azokat (ikrafolt-reflex segítségével).",
+  "A nőstény azonnal a szájába veszi az ikrákat, és kb. 21-28 napig forgatja őket anélkül, hogy táplálkozna.",
+  "Az elúszott, önálló kishalakat frissen keltetett artémiával és finom ivadéktáppal nevelhetjük fel."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek teste mélykék vagy acélkék, hasuk és úszóik élénkvörösek vagy narancssárgák, hasúszóik rendkívül megnyúltak, hegyesek. A nőstények és fiatalok egyszínű ezüstösszürkék, testükön három sötét folttal, úszóik narancsos árnyalatúak.",
+ "felismeres_jegyek": [
+  "Kifejlett hímeknél feltűnően hosszú, szinte a farokúszóig érő mell- és hasúszók",
+  "Hímeknél sötétkék fej és fénylő narancsvörös/rozsdavörös testoldal és úszók",
+  "Nőstények ezüstös alapszíne és a törzsön található három jellegzetes fekete folt",
+  "Magas hátú, enyhén oldalról lapított testforma, viszonylag nagy szemekkel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Copadichromis azureus",
+   "magyar_nev": "Azúrsügér",
+   "kulonbseg": "A hím azureus egységesen csillogó kék színű, hiányzik róla a Borleyi élénk narancsvörös teste."
+  },
+  {
+   "latin": "Protomelas taeniolatus",
+   "magyar_nev": "Pompás malawisügér",
+   "kulonbseg": "Teste kevésbé nyújtott hasúszójú, a nőstények csíkozottabbak, nem háromfoltosak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (nem megfelelő etetés miatti bélgyulladás)",
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Úszórothadás (rossz vízminőség következtében)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Építsünk nagy úszóteret szabadon hagyó, sziklás hátterű akváriumot, ahol a hímek territóriumot alakíthatnak ki.",
+  "A finom szemcsés homoktalaj kötelező, mert a sügérek előszeretettel turkálnak benne táplálék után.",
+  "A faj legnépszerűbb és legszebb színváltozata a 'Kadango' populációból származik."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

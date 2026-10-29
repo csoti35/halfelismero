@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Fossorochromis rostratus",
+ "id": "fossorochromis-rostratus",
+ "tipus": "hal",
+ "latin": "Fossorochromis rostratus",
+ "regi_latin_nevek": [
+  "Haplochromis rostratus"
+ ],
+ "magyar_nev": "Homokfúró sügér",
+ "egyeb_nevek": [
+  "Rostratus sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi sügérek (Utaka / Homoklakók)",
+ "szarmazas": "Afrika (Malawi-tó)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Természetes élőhelyén a finom homokot túrja táplálék után kutatva. Veszély esetén képes teljesen beásni magát a homokba. Területvédő, de más nagy testű fajokkal szemben kevésbé agresszív, mint a sziklalakók.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 600,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő/Ragadozó (fagyasztott rákfélék, szúnyoglárva, jó minőségű süllyedő sügértápok).",
+ "tarsithato": [
+  "Más békésebb",
+  "nagy testű Malawi-tói homoklakó vagy nyíltvízi sügérekkel."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "erőszakos Mbuna fajok",
+  "éles szemcséjű aljzat."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Hatalmas alapterületű akvárium szükséges 1 hímből és több nőstényből álló csapattal.",
+  "A hím egy nagy krátert ás a homokba a párzáshoz.",
+  "A nőstény a kikelő és megtermékenyített ikrákat a szájában gondozza 3-4 héten át.",
+  "A kishalak kiengedés után az aljzaton tartózkodnak, artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A nőstények és fiatalok ezüstösek, testükön fekete, háromszögletű foltokból álló mintázattal. A domináns hím teljesen átalakul: sötét kék-fekete színt ölt fémes pikkelyekkel.",
+ "felismeres_jegyek": [
+  "Igen nagy termetű, nyújtott testforma",
+  "Lefelé álló, túrásra specializálódott száj",
+  "Nőstényeknél/fiataloknál 3 sorba rendeződő sötét foltok az ezüstös testen",
+  "Nászruhás hímeknél lenyűgöző sötétkék-fekete, fémesen csillogó színeződés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyrtocara moorii",
+   "magyar_nev": "Delfinsügér",
+   "kulonbseg": "Mindkét nem egységesen kék, és a kifejlett egyedek homlokpúppal rendelkeznek."
+  },
+  {
+   "latin": "Nimbochromis livingstonii",
+   "magyar_nev": "Livingston-sügér",
+   "kulonbseg": "A livingstonii mintázata márványozott/foltos, nem rendeződik szabályos sorokba."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Aljzat okozta kopoltyúsérülések (ha éles a homok)",
+  "Malawi bloat",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 7000,
+ "tippek": [
+  "Kizárólag finom szemcséjű, kerekített homokot használjunk aljzatként, mert a halak átmossák a kopoltyújukon.",
+  "Nagy mérete miatt kiemelkedő teljesítményű biológiai és mechanikai szűrés szükséges."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

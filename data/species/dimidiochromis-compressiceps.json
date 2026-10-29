@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Dimidiochromis compressiceps",
+ "id": "dimidiochromis-compressiceps",
+ "tipus": "hal",
+ "latin": "Dimidiochromis compressiceps",
+ "regi_latin_nevek": [
+  "Haplochromis compressiceps"
+ ],
+ "magyar_nev": "Késcsuka sügér",
+ "egyeb_nevek": [
+  "Malawi késsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi sügérek (Utaka / Ragadozók)",
+ "szarmazas": "Afrika (Malawi-tó)",
+ "max_meret_cm": 23,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten specializálódott ragadozó. Extrémen oldalról lapított teste segíti a lesből támadást. Minden nálánál kisebb halat potenciális zsákmánynak tekint.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó (élő kishalak, fagyasztott halhús, garnéla, nagyszemű ragadozó tápok).",
+ "tarsithato": [
+  "Kizárólag hasonló méretű és temperamentumú Malawi-tói sügérekkel."
+ ],
+ "kerulendo": [
+  "Bármilyen kisebb hal",
+  "keskeny testű fajok",
+  "amelyeket könnyen bekaphat."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Egy hímhez tartsunk 2-4 nőstényt tágas akváriumban.",
+  "A hím a homokban gödröt ás vagy egy lapos követ választ ki az udvarláshoz.",
+  "Párzás során a nőstény felveszi az ikrákat, a hím pedig megtermékenyíti azokat a szájában.",
+  "A nőstény körülbelül 3-4 hétig forgatja a szájában a szaporulatot.",
+  "Az ivadékok kikelés után azonnal frissen keltett artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek gyönyörű, fémes kék színben pompáznak, míg a nőstények és a fiatalok ezüstösek, hosszanti sötét csíkkal.",
+ "felismeres_jegyek": [
+  "Rendkívül keskeny, pengeélszerűen oldalról lapított test",
+  "Hosszú, kiölthető csőrszerű száj",
+  "Kifejlett hímek ragyogó kék test- és fejfestése, pirosas úszószéllel",
+  "Ezüstös alapszín sötét hosszanti csíkkal a nőstényeknél"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Altolamprologus compressiceps",
+   "magyar_nev": "Lapos sügér",
+   "kulonbseg": "A Tanganyika-tóból származik, lényegesen kisebb méretű (10-12 cm) és harántcsíkos."
+  },
+  {
+   "latin": "Cyrtocara moorii",
+   "magyar_nev": "Delfinsügér",
+   "kulonbseg": "Magasabb, zömökebb testalkatú, homlokán jellegzetes púpot növeszt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Sérülések, úszórohadás",
+  "Bélparaziták rossz etetés miatt",
+  "Malawi bloat"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Hagyjunk nagy nyílt úszóteret, de a háttérben legyenek sziklahasadékok búvóhelynek.",
+  "Kerüljük az emlős eredetű húsok (pl. marhaszív) etetését, mert súlyos emésztési zavarokat okoz."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

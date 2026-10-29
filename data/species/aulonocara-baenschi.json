@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Aulonocara baenschi",
+ "id": "aulonocara-baenschi",
+ "tipus": "hal",
+ "latin": "Aulonocara baenschi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sárga császársügér",
+ "egyeb_nevek": [
+  "Benga császársügér",
+  "Nkhomo-benga császársügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Afrikai sügérek - Malawi-tó",
+ "szarmazas": "Afrika: Malawi-tó (Nkhomo-zátony)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, különösen íváskor. Más Aulonocara fajokkal szemben agresszív lehet, de alapvetően békésebb, mint sok más Malawi sügér.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (fagyasztott eleségek, jó minőségű sügérpellet, rákfélék)",
+ "tarsithato": [
+  "Hasonló méretű Malawi sügérekkel (pl. Labidochromis caeruleus)",
+  "kerülve a hasonló színezetű Aulonocarákat."
+ ],
+ "kerulendo": [
+  "Mbuna sügérek (túl agresszívak)",
+  "más Aulonocara fajok (hibridizáció veszélye)."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Harem tartása (1 hím, több nőstény).",
+  "A hím násztánccal egy lapos kőhöz vagy gödörhöz csalja a nőstényt.",
+  "A nőstény a szájába veszi a megtermékenyített ikrákat.",
+  "A nőstény 3 hétig forgatja az ikrákat/ivadékokat a szájában, ezalatt nem eszik.",
+  "Az elúszó ivadékok frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek élénksárgák, fejük kékes árnyalatú, úszóik hegyesek. A nőstények jellegtelen szürkésbarnák, függőleges csíkozással.",
+ "felismeres_jegyek": [
+  "A hím teste és úszói intenzív aranysárgák.",
+  "Az arc és a kopoltyúfedő környéke fémes kék.",
+  "Meredek homlokvonal, nagy szemek.",
+  "A hátúszó és a farok alatti úszó megnyúlt, hegyes.",
+  "A testen halvány, függőleges sötétebb sávok látszódhatnak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aulonocara stuartgranti",
+   "magyar_nev": "Császársügér",
+   "kulonbseg": "Nagyobb termetű, a kék szín dominánsabb rajta, a sárga árnyalata eltérő."
+  },
+  {
+   "latin": "Aulonocara korneliae",
+   "magyar_nev": "Kornélia-császársügér",
+   "kulonbseg": "A sárga szín csak a test alsó részére korlátozódik, a hát kékebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (helytelen táplálás miatt)",
+  "Darackór",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Aljzatnak használjunk finom homokot, mert imádják átrostálni eleség után.",
+  "Biztosítsunk sok barlangot és búvóhelyet a nőstények számára.",
+  "Rendszeres részleges vízcserével tartsuk alacsonyan a nitrátszintet."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

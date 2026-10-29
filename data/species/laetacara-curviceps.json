@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Laetacara curviceps",
+ "id": "laetacara-curviceps",
+ "tipus": "hal",
+ "latin": "Laetacara curviceps",
+ "regi_latin_nevek": [
+  "Aequidens curviceps"
+ ],
+ "magyar_nev": "Zászlós akara",
+ "egyeb_nevek": [
+  "Lekerekítettfejű akara"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas-medence)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kisméretű, többnyire békés törpesügér. Csupán ívási időszakban válik területvédővé és territoriálissá, egyébként társas akváriumba is jól illeszkedik.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; a fagyasztott és élő élőtápot (pl. szúnyoglárva, artémia) nagyon kedveli, de a minőségi granulátumot is elfogadja.",
+ "tarsithato": [
+  "Pontylazacok",
+  "Páncélos harcsák",
+  "Törpe szívóharcsák"
+ ],
+ "kerulendo": [
+  "Nagy testű, agresszív sügérek",
+  "Túlságosan tolakodó, gyors halak"
+ ],
+ "szaporodas_mod": "Ikrázó, nyíltan ívó (lapos kőre vagy növényi levélre ikrázik, mindkét szülő gondozza az ikrákat).",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy pár elkülönítése lágyabb, enyhén savas (pH 6.5) vízzel feltöltött ívató akváriumban.",
+  "Lapos kő vagy tereptárgy biztosítása az ikrázáshoz.",
+  "Ívás után a szülők közösen tisztogatják és őrzik az ikrákat.",
+  "Az ikrák 2-3 nap alatt kelnek ki, az elúszó ivadékot frissen keltett artémiával lehet felnevelni."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, hát- és farok alatti úszójuk megnyúltabb, hegyesebb végű, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról lapított kerekded testforma",
+  "Kékes zöldes irizáló pikkelyek a testen",
+  "Sötét vízszintes sáv a szemtől a test közepéig vagy a faroktőig",
+  "A hátúszó szegélyén gyakran pirosas vagy aranyszínű sáv látható"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Laetacara dorsigera",
+   "magyar_nev": "Vöröshasú akara",
+   "kulonbseg": "A L. dorsigera hasi része ívási időszakban és izgalmi állapotban élénk vöröses árnyalatot vesz fel."
+  },
+  {
+   "latin": "Cleithracara maronii",
+   "magyar_nev": "Kulcslyuksügér",
+   "kulonbseg": "A kulcslyuksügér testén jellegzetes, kulcslyuk alakú fekete folt látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daraszórtság",
+  "Hasonvízkór",
+  "Agyaglyuk-betegség (Hexamita, rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Bőséges növényzetet és búvóhelyeket nyújtó gyökereket rendezzünk be számukra.",
+  "Érzékenyek a magas nitrátszintre, ezért a rendszeres vízcsere elengedhetetlen."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

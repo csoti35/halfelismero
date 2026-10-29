@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Xystichromis phytophagus",
+ "id": "xystichromis-phytophagus",
+ "tipus": "hal",
+ "latin": "Xystichromis phytophagus",
+ "regi_latin_nevek": [
+  "Haplochromis phytophagus"
+ ],
+ "magyar_nev": "Karmazsin sügér",
+ "egyeb_nevek": [
+  "Viktória-tavi növényevő sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Afrikai sügérek (Viktória-tó)",
+ "szarmazas": "Afrika, Viktória-tó (Kanyaboli-tó)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek területvédők és fajtársaikkal, illetve hasonló színezésű sügérekkel szemben kifejezetten agresszívak lehetnek. Csapatban vagy háremben érdemes tartani.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Növényi alapú lemezes és granulált tápok, spirulina, kiegészítésként forrázott zöldségek és kevés élő/fagyasztott táp.",
+ "tarsithato": [
+  "Hasonló méretű és temperamentumú",
+  "kemény vizet kedvelő afrikai sügérekkel (pl. Viktória-tavi vagy Tanganyika-tavi fajok)."
+ ],
+ "kerulendo": [
+  "Kisméretű békés halak",
+  "finom levelű akváriumi növények",
+  "túl agresszív Mbuna sügérek."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím fészket tisztít vagy gödröt ás a homokban, majd odaudvarolja a nőstényt.",
+  "A nőstény lerakja az ikrákat, majd azonnal a szájába veszi őket.",
+  "A hím farokalatti úszóján lévő ikrafoltokra reagálva a nőstény bekapja a termékenyítő spermát.",
+  "A nőstény körülbelül 3 hétig a szájában forgatja az ikrákat és az ivadékokat, ezalatt nem táplálkozik.",
+  "A kiengedett ivadékok frissen keltetett artémiával és finom dörzsölésű növényi táppal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen színesebbek, testük alsó része és torkuk élénk karmazsinvörös, hátuk fémes zöldes-kék, farok alatti úszójukon ikrafoltok vannak. A nőstények sárgásbarna rejtőszínűek.",
+ "felismeres_jegyek": [
+  "Kompakt, oldalról lapított sügérforma.",
+  "Nászruhás hímeknél szembetűnő élénkvörös has- és torokrész.",
+  "Zöldes-kék fémes pikkelyfény a hátoldalon.",
+  "A nőstények egyszerű ezüstös-sárgás tónusúak, függőleges sávokkal.",
+  "A hímek farok alatti úszóján jól látható sárga ikrafoltok találhatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pundamilia nyererei",
+   "magyar_nev": "Nyerere-sügér",
+   "kulonbseg": "A Nyerere-sügér hímjeinek testén sokkal kifejezettebbek a fekete függőleges sávok és a hátuk narancssárga/vörös."
+  },
+  {
+   "latin": "Haplochromis sp. 'ruby green'",
+   "magyar_nev": "Rubinzöld sügér",
+   "kulonbseg": "A rubinzöld sügér hímjeinek hátoldala élénkebb zöld, hasa pedig mélyebb rubinvörös tónusú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hasvízkór (helytelen, túl fehérjedús táplálás miatt)",
+  "Darakór",
+  "Sérülésekből eredő gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Biztosítsunk számukra sok sziklából épített búvóhelyet, de hagyjunk elegendő nyílt teret is az úszáshoz.",
+  "Etetésüknél döntően növényi összetevőket (spirulina) használjunk, mert a túlzott állati fehérje emésztőrendszeri gyulladást okoz.",
+  "Egy hímhez mindig több nőstényt telepítsünk az udvarlási agresszió megosztása érdekében."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

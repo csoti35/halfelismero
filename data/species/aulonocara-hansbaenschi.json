@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Aulonocara hansbaenschi",
+ "id": "aulonocara-hansbaenschi",
+ "tipus": "hal",
+ "latin": "Aulonocara hansbaenschi",
+ "regi_latin_nevek": [
+  "Aulonocara stuartgranti 'Fort Maguire'"
+ ],
+ "magyar_nev": "Vörösvállú császársügér",
+ "egyeb_nevek": [
+  "Hansbaenschi császársügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Afrikai sügérek - Malawi-tó",
+ "szarmazas": "Afrika: Malawi-tó (Fort Maguire környéke)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Viszonylag békés sügér, de a hímek védik a revírjüket. Más kék színű fajokkal szemben dominánsabb.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 180,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (apró rákok, plankton, minőségi sügértápok)",
+ "tarsithato": [
+  "Más nem agresszív Malawi sügérekkel (pl. Copadichromis fajok)."
+ ],
+ "kerulendo": [
+  "Durva Mbunák",
+  "hasonló kinézetű Aulonocara hímek."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Megfelelő vízminőség és fehérjedús etetés.",
+  "A hím fészket készít a homokba vagy egy kőre.",
+  "Ívás után a nőstény a szájába veszi az ikrákat.",
+  "A forgatási idő kb. 21 nap.",
+  "Az ivadékok sórák lárvával indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek teste mély kék, a mellúszók mögött vöröses-narancssárga sávval. A nőstények ezüstös-barnák, függőleges csíkokkal.",
+ "felismeres_jegyek": [
+  "A hím alapszíne ragyogó acélkék.",
+  "Jellegzetes vöröses vagy narancssárga folt a vállrészen (mellúszók felett).",
+  "A hátúszó szegélye gyakran fehér vagy világoskék.",
+  "A farok alatti úszón ikrafoltok láthatóak.",
+  "Kisebb termetű, mint az átlagos Aulonocara fajok."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aulonocara stuartgranti",
+   "magyar_nev": "Császársügér",
+   "kulonbseg": "A stuartgranti változatai gyakran nagyobbak és a vörös folt elhelyezkedése eltérő."
+  },
+  {
+   "latin": "Aulonocara jacobfreibergi",
+   "magyar_nev": "Barlangi császársügér",
+   "kulonbseg": "Sokkal szélesebb úszószegélyek és agresszívabb viselkedés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "Gombás fertőzések a sérüléseken",
+  "Malawi-puffadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2800,
+ "ar_ft_max": 6500,
+ "tippek": [
+  "Ne tartsuk együtt más Aulonocara fajokkal, mert a nőstények megkülönböztethetetlenek és összeívnak.",
+  "A kék színek kiemeléséhez használjunk speciális sügér-fénycsöveket.",
+  "A hímek csak akkor mutatják teljes pompájukat, ha biztonságban érzik magukat."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

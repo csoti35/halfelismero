@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Astatotilapia latifasciata",
+ "id": "astatotilapia-latifasciata",
+ "tipus": "hal",
+ "latin": "Astatotilapia latifasciata",
+ "regi_latin_nevek": [
+  "Haplochromis latifasciatus"
+ ],
+ "magyar_nev": "Aranyos sügér (aranyos zebrasügér)",
+ "egyeb_nevek": [
+  "Zebra Viktória-sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Viktória-tó és környéke)",
+ "szarmazas": "Kelet-Afrika (Kyoga-tó és Nabugabo-tó rendszere)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő és élénk természetű afrikai sügér. A hímek egymással szemben agresszívak lehetnek, ezért háremben ajánlott tartani őket.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.2,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; minőségi lemezes és granulált sügértápok, fagyasztott rákfélék, artémia, szúnyoglárva.",
+ "tarsithato": [
+  "Más hasonló méretű és temperamentumú Viktória- vagy Malawi-tavi sügérek"
+ ],
+ "kerulendo": [
+  "Békés társas akváriumi halak",
+  "Kisméretű pontylazacok és garnélák",
+  "Hasonló mintázatú, de más fajba tartozó sügérek (a hibridizáció veszélye miatt)"
+ ],
+ "szaporodas_mod": "Anyai szájköltő.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy hímre több nőstényt (3-4) biztosítsunk az akváriumban.",
+  "Az ívás a kövek felett történik, ahol a nőstény felveszi az ikrákat a szájába.",
+  "A nőstény kb. 3 hétig a szájában forgatja és őrzi a fejlődő ikrákat és ivadékokat.",
+  "A kiengedett ivadékok azonnal elfogadják a frissen keltett artémiát és a finomra tört tápokat."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal színesebbek, testük alsó fele és a kopoltyútájék pirosas/narancssárgás színeződésű, hátúszójuk és farok alatti úszójuk élénkebb. A nőstények egyszerűbb, sárgás-szürke alapszínűek a fekete csíkokkal.",
+ "felismeres_jegyek": [
+  "Sárgás vagy narancsos alapszínen függőleges, vastag fekete sávok",
+  "A hímek hasi és mellkasi része élénk piros/vörös árnyalatú",
+  "A hím farok alatti úszóján narancssárga/sárga ikrafoltok találhatók",
+  "Nyújtott, sügérféle testalkat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pundamilia nyererei",
+   "magyar_nev": "Nyerere-sügér",
+   "kulonbseg": "A P. nyererei hímjeinek háta élénk piros, csíkozása sűrűbb és keskenyebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (helytelen táplálás esetén)",
+  "Daraszórtság"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Tartásukhoz kövekből épített sok barlangot és búvóhelyet tartalmazó akvárium szükséges.",
+  "Ne tartsuk együtt más Haplochromis fajokkal a hibridizáció elkerülése érdekében."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

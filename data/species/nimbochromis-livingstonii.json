@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Nimbochromis livingstonii",
+ "id": "nimbochromis-livingstonii",
+ "tipus": "hal",
+ "latin": "Nimbochromis livingstonii",
+ "regi_latin_nevek": [
+  "Haplochromis livingstonii"
+ ],
+ "magyar_nev": "Livingston-sügér",
+ "egyeb_nevek": [
+  "Foltos dögevősügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi sügérek (Utaka / Ragadozók)",
+ "szarmazas": "Afrika (Malawi-tó)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Területvédő és ragadozó hal. Kisebb halakat lenyeli, fajtársaival és hasonló mintázatú halakkal szemben nagyon agresszív lehet. Különleges vadászati stratégiája, hogy döglöttnek tetteti magát a homokon, majd lecsap az odacsalt kishalakra.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 450,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó (élő vagy fagyasztott halak, garneleák, jó minőségű sügértápok).",
+ "tarsithato": [
+  "Más nagy testű",
+  "robusztus Malawi tói sügérekkel (pl. Dimidiochromis",
+  "Cyrtocara fajok)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "Mbuna sügérek",
+  "lassú vagy fátyolos úszójú fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Biztosítsunk 1 hímhez legalább 2-3 nőstényt a zaklatások elkerülésére.",
+  "A hím az aljzaton megtisztít egy köves vagy homokos felületet az udvarláshoz.",
+  "A nőstény leikrázik, majd azonnal a szájába veszi a tojásokat, amelyeket a hím ikrafoltjai segítségével megtermékenyít.",
+  "A nőstény kb. 3 hétig forgatja az ikrákat és az ivadékokat a szájában, ezalatt nem táplálkozik.",
+  "Az elengedett ivadékok artémiával és zúzott lemezes táppal azonnal etethetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek nagyobbak, fejüknél és úszóiknál kék színárnyalat jelenik meg, míg a nőstények megőrzik a rejtőszínű, barna-fehér foltos mintázatukat.",
+ "felismeres_jegyek": [
+  "Nagy, robusztus, oldalról lapított testforma",
+  "Szabálytalan, barna és krémfehér/sárgás foltos mintázat (terepszínű)",
+  "Nagy száj, ragadozó alkat",
+  "Kifejlett hímeknél kékbe hajló fej és szegélyezett úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nimbochromis polystigma",
+   "magyar_nev": "Szeplős sügér",
+   "kulonbseg": "A polystigma testén apróbb, sűrűbb pöttyözött mintázat található a nagyobb foltok mellett."
+  },
+  {
+   "latin": "Nimbochromis venustus",
+   "magyar_nev": "Páva sügér",
+   "kulonbseg": "A venustus alapszíne sárgásabb, a hímek feje intenzív aranysárga és kék."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi bloat (hasvízkór/bélgyulladás)",
+  "Darakór",
+  "Sérülések verekedésből"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Biztosítsunk hatalmas úszóteret és sok sziklából épített búvóhelyet.",
+  "Erőteljes szűrés és magas oxigéntartalom elengedhetetlen a jó közérzetükhöz."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

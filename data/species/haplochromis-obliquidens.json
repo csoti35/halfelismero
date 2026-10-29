@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Haplochromis obliquidens",
+ "id": "haplochromis-obliquidens",
+ "tipus": "hal",
+ "latin": "Haplochromis obliquidens",
+ "regi_latin_nevek": [
+  "Haplochromis sp. 'thick skin'"
+ ],
+ "magyar_nev": "Haplochromis obliquidens",
+ "egyeb_nevek": [
+  "Viktória-tavi ferdefogú sügér",
+  "Sárgahasú Viktória-sügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Viktória-tó)",
+ "szarmazas": "Kelet-Afrika (Viktória-tó endemikus faja)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő sügér, fajtársaival és hasonló külsejű fajokkal agresszív. A hímek állandóan őrzik revírjüket.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 180,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 18,
+ "taplalek": "Növényi alapú mindenevő; a természetben kőbevonat- (aufwuchs) és algaevő, akváriumban spirulina, jó minőségű növényi sügértápok, kiegészítésként artémia.",
+ "tarsithato": [
+  "Más",
+  "nem kereszteződő Viktória-tavi vagy Tanganyika- és Malawi-tavi sziklalakó fajok."
+ ],
+ "kerulendo": [
+  "Kisméretű pontylazacok",
+  "dániók",
+  "lágy vizes békés fajok",
+  "túl agresszív ragadozó sügérek."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A domináns hím megtisztít egy lapos kőfelszínt vagy homokos aljzatrészt.",
+  "Intenzív testrezegtetéssel udvarol a nősténynek, odacsalva az ívóhelyre.",
+  "A nőstény lerakja az ikrákat, majd azonnal a szájába szippantja őket.",
+  "A hím ikrafoltjaira tett mozdulatok közben történik a szájban lévő ikrák megtermékenyítése.",
+  "A nőstény mintegy 3 hétig forgat, a kiköpött ivadékok porított eleséggel és sórákkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal élénkebb színűek (sárga test, vöröses úszók, kékesfej és sötét függőleges csíkok), a nőstények fakó szürkés-sárgásak, tompa csíkozással.",
+ "felismeres_jegyek": [
+  "Kompakt, kissé tömzsi testalkat, vastag ajkak és specializálódott vésőszerű fogazat (mikroszkopikus).",
+  "A kifejlett hímek élénksárga oldala sötét, függőleges keresztsávokkal.",
+  "A hátúszó és farok alatti úszó vöröses szegélye a hímeknél.",
+  "Jellegzetes ikrafoltok a hím farok alatti úszóján.",
+  "A nőstények egyszerűbb, tompa sárgásszürke színezetűek halvány mintázattal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pundamilia nyererei",
+   "magyar_nev": "Nyerere-sügér",
+   "kulonbseg": "A Nyererei háta ragyogó narancsvörös, agresszívabb alkatú, testarányai nyújtottabbak."
+  },
+  {
+   "latin": "Haplochromis latifasciatus",
+   "magyar_nev": "Zebra sügér (Kyoga)",
+   "kulonbseg": "Erősebb, kontrasztosabb függőleges fekete sávjai vannak és hiányzik az élénksárga alapszín."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélgyulladás túl sok állati/zsíros eleség hatására (aufwuchs-evő lévén növényi rostokat igényel)",
+  "Darakór",
+  "Harapási sérülések elfertőződése"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Ügyeljünk a helyes táplálásra: étrendjének nagy része növényi alapú (spirulina, alga) legyen a bélproblémák elkerülésére.",
+  "Építsünk sziklákból sok búvóhelyet, ahol a költő vagy hajtott nőstények megpihenhetnek.",
+  "Ne tartsuk együtt más Haplochromis fajokkal ugyanabban az akváriumban a könnyű kereszteződés és hibridizáció veszélye miatt."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

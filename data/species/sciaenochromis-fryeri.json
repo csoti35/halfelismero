@@ -1,0 +1,80 @@
+{
+ "id": "sciaenochromis-fryeri",
+ "lista_nev": "Sciaenochromis fryeri",
+ "tipus": "hal",
+ "latin": "Sciaenochromis fryeri",
+ "regi_latin_nevek": [
+  "Sciaenochromis ahli (tévesen)"
+ ],
+ "magyar_nev": "Jégkék sügér",
+ "egyeb_nevek": [
+  "Elektromos kék sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi-tavi sügérek (Utaka)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 16,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, különösen íváskor. Más fajokkal szemben viszonylag békés, de a hasonló színű hímeket és a kishalakat üldözi.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, de fehérjeigényes (ragadozó életmódú a természetben). Élő és fagyasztott eleség, jó minőségű sügérpellet.",
+ "tarsithato": [
+  "Hasonló méretű Malawi sügérekkel (Aulonocara",
+  "Copadichromis",
+  "Placidochromis)."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív Mbuna sügérekkel",
+  "apró halakkal (amiket megehet)."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Egy hímre több nőstényt tartsunk. 2. A hím egy lapos követ vagy gödröt tisztít meg. 3. Az ikrázás után a nőstény a szájába veszi a petéket. 4. A nőstény kb. 3 hétig forgatja az ikrákat/ivadékokat. 5. Az ivadékok frissen kelt artémiával indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek ragyogó kék színűek, hátúszójuk szegélye fehér. A nőstények jellegtelen ezüstösszürkék, oldalukon sötét foltokkal.",
+ "felismeres_jegyek": [
+  "Intenzív metálkék alapszín a hímeknél. Hosszúkás",
+  "áramvonalas testalkat. Fehér szegély a hátúszó felső részén. Hegyes fejforma",
+  "nagy száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Sciaenochromis ahli",
+   "magyar_nev": "Ahli sügér",
+   "kulonbseg": "Valódi S. ahli ritka a hobbiban, teste magasabb, színe kevésbé élénk."
+  },
+  {
+   "latin": "Aulonocara nyassae",
+   "magyar_nev": "Császársügér",
+   "kulonbseg": "Teste zömökebb, feje kerekebb, úszói más formájúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "úszórothadás (rossz vízminőség esetén)."
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Tartsuk háremben (1 hím",
+  "3-4 nőstény). Biztosítsunk számára tágas úszóteret és sok sziklás búvóhelyet."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

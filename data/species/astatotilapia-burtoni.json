@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Astatotilapia burtoni",
+ "id": "astatotilapia-burtoni",
+ "tipus": "hal",
+ "latin": "Astatotilapia burtoni",
+ "regi_latin_nevek": [
+  "Haplochromis burtoni",
+  "Tilapia burtoni"
+ ],
+ "magyar_nev": "Burton-szájköltő sügér",
+ "egyeb_nevek": [
+  "Burton szájköltője"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó / Kelet-Afrika)",
+ "szarmazas": "Kelet-Afrika (Tanganyika-tó vízrendszere és a környező folyók, mocsarak)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, a domináns hímek kifejezetten agresszívan hajtják a fajtársakat és a gyengébb hímeket. Háremben érdemes tartani, sok búvóhellyel.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 7.5,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; jó minőségű lemezes és granulált sügértápok, fagyasztott mysis, artémia, spirulina.",
+ "tarsithato": [
+  "Hasonló méretű és temperamentumú kelet-afrikai sügérek",
+  "Synodontis harcsák."
+ ],
+ "kerulendo": [
+  "Kistestű rajhalak",
+  "lassú vagy félénk fajok",
+  "hosszú úszójú halak."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "A domináns hím gödröt ás a finom homokos aljzatba, és látványos pózolással csalogatja a nőstényt.",
+  "Az ikrázás a homokgödörben történik, a nőstény azonnal a szájába veszi a lerakott ikrákat.",
+  "A hím farok alatti úszóján lévő ikrafoltok látványa készteti a nőstényt csipegetésre, ekkor termékenyíti meg az ikrákat a hím.",
+  "A nőstény 15-20 napig koplalva forgatja a fejlődő ikrákat és lárvákat.",
+  "A kiúszó ivadékok artémia naupliusszal és finomra porított táppal azonnal etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, testük kékes-aranyos fényű, a szemen átlós sötét sáv fut, farok alatti úszójukon élénk sárga ikrafoltok láthatók; a nőstények kisebbek, egyszínű szürkésbarna árnyalatúak.",
+ "felismeres_jegyek": [
+  "Erőteljes, oldalról lapított sügéralkat aránylag nagy fejjel.",
+  "A hímeken a szemtől a szájzugig húzódó ferde, fekete sáv.",
+  "A hímek farok alatti úszóján élénksárga ikrafoltok (egg spots).",
+  "Kékes vagy rezes irizálás a hímek pikkelyein agresszió vagy udvarlás során.",
+  "A nőstények egyszerű ezüstös-barnás rejtőszínezetűek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudocrenilabrus multicolor",
+   "magyar_nev": "Kis szájköltő sügér",
+   "kulonbseg": "Kisebb termetű, a hímek úszóvégei és ikrafoltjai eltérő elhelyezkedésűek, hiányzik az erőteljes szemcsík."
+  },
+  {
+   "latin": "Astatotilapia calliptera",
+   "magyar_nev": "Calliptera sügér",
+   "kulonbseg": "Gyakran élénkebb kék vagy sárga alapszínű, a Malawi-tóból származik, más mintázattal a kopoltyúfedőn."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Sügérhasvízkór (Malawi bloat helytelen etetés esetén)",
+  "Bakteriális uszonyrothadás harcok után"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Aljzatnak finom szemcséjű homokot válasszunk, mert a hímek mély gödröket ásnak a nász idején.",
+  "Egy hímhez feltétlenül 3-4 nőstényt tartsunk a hím heves hajtási kedvének eloszlatása érdekében.",
+  "Biztosítsunk bőséges kőrakást és búvóhelyet, hogy a megkergetett egyedek el tudjanak rejtőzni."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

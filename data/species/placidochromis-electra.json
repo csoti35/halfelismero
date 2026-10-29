@@ -1,0 +1,79 @@
+{
+ "id": "placidochromis-electra",
+ "lista_nev": "Placidochromis electra",
+ "tipus": "hal",
+ "latin": "Placidochromis electra",
+ "regi_latin_nevek": [
+  "Cyrtocara electra"
+ ],
+ "magyar_nev": "Deep Water Hap",
+ "egyeb_nevek": [
+  "Kék mélységi sügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi-tavi sügérek (Utaka)",
+ "szarmazas": "Afrika, Malawi-tó (mélyebb homokos zónák)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Az egyik legbékésebb Malawi sügér. Nem agresszív, még íváskor is viszonylag nyugodt marad.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 350,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 12,
+ "gh_max": 22,
+ "taplalek": "Mindenevő. A homokot túrja eleség után. Fagyasztott eleségek, jó minőségű sügértápok.",
+ "tarsithato": [
+  "Más békés Malawi sügérekkel (Aulonocara",
+  "Copadichromis",
+  "Lethrinops)."
+ ],
+ "kerulendo": [
+  "Agresszív Mbuna fajok",
+  "amelyek elnyomhatják."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Homokos aljzat szükséges az ívóhely kialakításához. 2. A hím násztánccal csalogatja a nőstényt. 3. Az ikrák megtermékenyítése a homokon történik. 4. A nőstény 20-25 napig tartja szájában az utódokat. 5. Az ivadékok porított táppal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, kékebbek, és fekete függőleges sáv látható a szemük mögött. A nőstények ezüstösebbek, de szintén mutathatnak némi kékes színt.",
+ "felismeres_jegyek": [
+  "Világoskék alapszín. Jellegzetes függőleges fekete sáv a kopoltyúfedő mögött. Megnyúlt",
+  "enyhén lapított test. Homoktúró életmódra utaló szájfelépítés."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyrtocara moorii",
+   "magyar_nev": "Delfinsügér",
+   "kulonbseg": "A delfinsügérnek jellegzetes zsírpúpja van a fején és teste magasabb."
+  },
+  {
+   "latin": "Placidochromis phenochilus",
+   "magyar_nev": "Csillogó kék sügér",
+   "kulonbseg": "A phenochilus testén fehér/ezüst pikkelyek (csillámok) láthatóak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "gombásodás (sérülések esetén)."
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Aljzatnak mindenképpen finom homokot használjunk",
+  "mert imádják szitálni. Nagy nyílt úszóteret igényelnek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

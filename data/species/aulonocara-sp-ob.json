@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Aulonocara sp. 'OB'",
+ "id": "aulonocara-sp-ob",
+ "tipus": "hal",
+ "latin": "Aulonocara sp. 'OB'",
+ "regi_latin_nevek": [],
+ "magyar_nev": "OB császársügér",
+ "egyeb_nevek": [
+  "Márványos császársügér",
+  "Calico Peacock"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Afrikai sügérek - Hibrid változatok",
+ "szarmazas": "Tenyésztett változat (Malawi sügérek keresztezéséből)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Hibrid eredete miatt temperamentuma változó, de általában robusztusabb és dominánsabb a tiszta vérvonalú Aulonocaráknál.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (szinte minden akváriumi tápot elfogad, fagyasztott eleséget is)",
+ "tarsithato": [
+  "Más Malawi sügérekkel",
+  "Mbunákkal is jobban bírja a versenyt."
+ ],
+ "kerulendo": [
+  "Nagyon félénk halak",
+  "mert az OB változat gyakran túl mozgékony."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Könnyen szaporodik vegyes akváriumban is.",
+  "A hím intenzíven udvarol a nősténynek.",
+  "Az ikrázás a homokos aljzaton történik.",
+  "A nőstény 3 hétig forgat.",
+  "Az ivadékok száma gyakran magasabb, mint a vad fajoknál."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek (narancs, kék, rózsaszín alapon foltosak). A nőstények is lehetnek foltosak (OB mintásak), de színeik sokkal halványabbak.",
+ "felismeres_jegyek": [
+  "Rendszertelen fekete vagy sötétkék foltok (Orange Blotched minta) a testen.",
+  "Az alapszín lehet narancssárga, rózsaszín, sárga vagy kék.",
+  "Erőteljesebb testfelépítés a vad Aulonocarákhoz képest.",
+  "Nincs két egyforma mintázatú egyed.",
+  "Az úszók gyakran tarkák vagy foltosak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Labeotropheus fuelleborni 'OB'",
+   "magyar_nev": "Vésőfogú sügér (OB változat)",
+   "kulonbseg": "Az orrformája teljesen más (lefelé álló száj), teste zömökebb."
+  },
+  {
+   "latin": "Aulonocara 'Firefish'",
+   "magyar_nev": "Tűzhal sügér",
+   "kulonbseg": "Egyszínű élénkvörös/narancs, nincsenek rajta sötét foltok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór",
+  "Bélgyulladás",
+  "Sérülésekből eredő fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 5500,
+ "tippek": [
+  "Mivel hibrid, ne adjuk el 'tiszta' fajként.",
+  "Nagyon látványos hal, kezdő Malawi-sügéres akváriumba kiváló választás.",
+  "Színfokozó tápokkal a narancssárga és vörös színek tovább mélyíthetők."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

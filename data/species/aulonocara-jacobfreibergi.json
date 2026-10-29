@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Aulonocara jacobfreibergi",
+ "id": "aulonocara-jacobfreibergi",
+ "tipus": "hal",
+ "latin": "Aulonocara jacobfreibergi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Császársügér",
+ "egyeb_nevek": [
+  "Freiberg-császársügér",
+  "Caves császársügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Afrikai sügérek (Malawi-tó)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Az Aulonocara nem egyik legagresszívabb és legterületvédőbb faja. Fajtársaival és hasonló színezésű hímekkel keményen rivalizál, de a teljesen eltérő fajú, nem Mbuna sügérekkel jól tartható.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Fagyasztott és élő táplálékok (mysis, krill, artémia, szúnyoglárva) és minőségi sügértápok.",
+ "tarsithato": [
+  "Más",
+  "közepes méretű Malawi-tavi nem-Mbuna sügérekkel (pl. Copadichromis",
+  "Protomelas fajok) vagy békésebb Utaka fajokkal."
+ ],
+ "kerulendo": [
+  "Durva",
+  "túlságosan agresszív Mbuna fajok (pl. Pseudotropheus)",
+  "kisméretű békés halak."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím a sziklák alatti barlangban vagy lapos kövön bemutatja násztáncát.",
+  "A nőstény lerakja az ikrákat a felületre, majd szájába veszi őket.",
+  "A nőstény a hím farok alatti úszóján lévő ikrafoltokat csipegetve megtermékenyítteti a szájában lévő ikrákat.",
+  "A nőstény körülbelül 21-25 napig forgatja a szájában lévő ikrákat és az utódokat.",
+  "A kiengedett ivadékok artémia naupliuszokkal és finom porított táppal felnevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen nagyobbak, hát- és farok alatti úszóik megnyúltak, testszínük élénk narancssárga/vörös és kék kombinációja. A nőstényok kisebbek, egyszerű szürke-barnás színűek.",
+ "felismeres_jegyek": [
+  "Szélesebb, robusztusabb testalkat a többi Aulonocara fajhoz képest.",
+  "Élénk narancssárga vagy sárgás-vörös test és kék mintázat a fejen, úszókon.",
+  "A hátúszó és a farok alatti úszó hátsó része hegyes, megnyúlt a hímeknél.",
+  "A hátúszó szegélye világos (fehéres-kék) sávval szegélyezett.",
+  "Fejen jól látható érzékelő pórusok."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aulonocara stuartgranti",
+   "magyar_nev": "Páva sügér",
+   "kulonbseg": "A stuartgranti testalkata karcsúbb, kevesebb benne a narancssárga/vörös tónus (főleg kék vagy sárga-kék változatok)."
+  },
+  {
+   "latin": "Aulonocara baenschi",
+   "magyar_nev": "Sárga császársügér",
+   "kulonbseg": "A baenschi feje és teste túlnyomórészt élénksárga, kék árnyalattal a pofán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi bloat (haspuffadás)",
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Barlanglakó faj lévén építsünk számára nagy sziklabarlangokat, ahol a hím saját territóriumot alakíthat ki.",
+  "Finom homok aljzatot használjunk, mert előszeretettel túrja a homokot táplálék után kutatva.",
+  "Egy hím mellé legalább 2-3 nőstényt helyezzünk el."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

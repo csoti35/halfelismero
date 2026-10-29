@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Pundamilia nyererei",
+ "id": "pundamilia-nyererei",
+ "tipus": "hal",
+ "latin": "Pundamilia nyererei",
+ "regi_latin_nevek": [
+  "Haplochromis nyererei"
+ ],
+ "magyar_nev": "Nyerere-sügér",
+ "egyeb_nevek": [
+  "Viktória-tavi Nyerere sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Viktória-tó)",
+ "szarmazas": "Kelet-Afrika (Viktória-tó sziklás zónái és szigetei)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen territoriális és fajtársaival agresszív faj. A domináns hím hevesen támad minden vetélytársat és könyörtelenül űzi a nőstényeket is.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.6,
+ "ph_max": 8.6,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, természetben rovarlárvákat és zooplanktont fogyaszt; lemezes sügértápok, artémia, krill, kevés spirulina.",
+ "tarsithato": [
+  "Hasonló méretű",
+  "robusztus egyéb Viktória-tavi sügérek vagy mbuna sügérek a Malawi-tóból."
+ ],
+ "kerulendo": [
+  "Nyugodt tanganyikai sügérek",
+  "kistestű békés halak",
+  "finom úszójú fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A domináns hím kiválaszt egy sziklás területet vagy barlangot, amit hevesen védelmez.",
+  "Az ikrák lerakása lapos kőfelületre vagy homokra történik, melyet a nőstény azonnal felvesz a szájába.",
+  "A megtermékenyítés az ikrafolt-reflex segítségével megy végbe a hím anális úszójánál.",
+  "A nőstény 18-21 napig forgatja az ikrákat a szájában, eközben nem táplálkozik.",
+  "A kiköpött ivadékok rögtön elfogadják a frissen kelt artémiát és a finom ivadéktápokat."
+ ],
+ "ivari_kulonbseg": "A hím rendkívül színpompás: háta és feje felső része narancsvörös/sárga, oldalán fekete függőleges sávok futnak, hasa feketés; a nőstény jellegtelen sárgásszürke vagy olajbarna, alig kivehető sávokkal.",
+ "felismeres_jegyek": [
+  "A kifejlett hímek ragyogó vörös-narancs háti része és sárgás oldala.",
+  "Jellegzetes, vastag fekete függőleges keresztsávok a hímek testén.",
+  "A hím hátúszója és farokúszója vöröses tónusú kék szegéllyel.",
+  "A farok alatti úszón határozott sárga ikrafoltok.",
+  "A nőstények tompa szürkés-olíva színűek, sokkal kisebbek és sávjaik halványak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Haplochromis latifasciatus",
+   "magyar_nev": "Zebra sügér (Kyoga)",
+   "kulonbseg": "Világosabb alapon nagyon vastag, kontrasztos zebra-csíkozás látható, hiányzik az intenzív vörös hátoldal."
+  },
+  {
+   "latin": "Pundamilia pundamilia",
+   "magyar_nev": "Kékesszürke Viktória-sügér",
+   "kulonbseg": "A hímek inkább kékes-szürkés fémfényűek, hiányzik a Nyererei-re jellemző domináns élénkvörös hát."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi bloat (bélgyulladás túlzott fehérje- vagy nem megfelelő etetéstől)",
+  "Bakteriális fertőzések a territoriális harcok sérüléseiből adódóan",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Mindig 1 hímre legalább 3-5 nőstényt számítsunk, különben a hím halálra hajszolhatja a párját.",
+  "A medencét tagoljuk bőséges kőrakásokkal egészen a vízfelszínig, vizuális gátakat képezve a hímek látóterében.",
+  "Erős szűrés és rendszeres részleges vízcsere elengedhetetlen a jó közérzetükhöz."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

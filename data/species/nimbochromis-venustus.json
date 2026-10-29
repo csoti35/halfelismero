@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Nimbochromis venustus",
+ "id": "nimbochromis-venustus",
+ "tipus": "hal",
+ "latin": "Nimbochromis venustus",
+ "regi_latin_nevek": [
+  "Haplochromis venustus",
+  "Cyrtocara venusta"
+ ],
+ "magyar_nev": "Pávacsászársügér",
+ "egyeb_nevek": [
+  "Zsiráfmintás sügér",
+  "Venustus sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek - Malawi-tó, Ragadozó Haplochromisok)",
+ "szarmazas": "Afrika (Malawi-tó homokos és átmeneti zónái)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "ragadozo",
+ "termeszet_leiras": "Lesből támadó ragadozó, mérete és vadászösztöne miatt kisebb halakkal nem tartható. Alapvetően békés a hasonló méretű fajokkal, de méretéből adódóan domináns fellépésű, territoriális sügér.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó és húsevő. Kisebb halak, fagyasztott krill, garnéla, kishal, valamint kifejezetten ragadozó sügéreknek szánt jó minőségű pelletek. Emlőshúsok adása szigorúan tilos.",
+ "tarsithato": [
+  "Kizárólag nagy testű",
+  "robusztus Malawi sügérekkel (pl. Dimidiochromis compressiceps",
+  "Fossorochromis rostratus",
+  "Cyrtocara moorii)."
+ ],
+ "kerulendo": [
+  "Minden kisméretű hal (pl. Aulonocara fiatalok",
+  "kis Mbunák",
+  "neonhalak stb.)",
+  "mert azonnal tápláléknak tekinti őket."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Nagy medencében (legalább 500-600 liter) hozzunk létre egy hímből és 2-3 nőstényből álló csoportot.",
+  "A hím a homokos zónában egy mélyedést ás, vagy egy nagyobb lapos szikla felszínét takarítja le.",
+  "Az udvarlás során a hím élénk kék fejjel és sárga testtel imponál a nősténynek.",
+  "Az ikrákat a nőstény a szájába gyűjti, ahol a megtermékenyítés történik.",
+  "A nőstény 3-4 hétig forgat, a fészekalj meglehetősen népes lehet (akár 60-120 ivadék), melyeket artémiával azonnal nevelhetünk."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek feje ragyogó fémkék, homlokukon és hátukon gyakran sárga sáv húzódik, sárgás testükön a barnás foltok elhalványulnak. A nőstények és fiatalok alapszíne ezüstös-sárgás, rajta jellegzetes barna, zsiráfra emlékeztető pettyezett foltmintázattal.",
+ "felismeres_jegyek": [
+  "Jellegzetes, nagy felületű, szabálytalan barna 'zsiráf' foltok a testen",
+  "Kifejlett hímeknél kontrasztos kék fej és homlok, valamint aranysárga test",
+  "Nagy, enyhén csúcsba futó ragadozó száj és lapított testalkat",
+  "Méretes, robusztus megjelenés (akváriumban elérheti a 20-25 cm-t is)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nimbochromis livingstonii",
+   "magyar_nev": "Livingstone-sügér",
+   "kulonbseg": "Foltjai nem zsiráfmintásak, hanem nagyobb, összefüggőbb 'katonai terepmintát' alkotnak, és testalkata kissé nyújtottabb."
+  },
+  {
+   "latin": "Nimbochromis polystigma",
+   "magyar_nev": "Sokpettyes császársügér",
+   "kulonbseg": "A nagy foltok mellett apró fekete pettyek sokasága borítja a testet (polka-dot minta)."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (nem megfelelő minőségű vagy túl zsíros táplálék miatt)",
+  "Fejlyuk-betegség (Hexamita / lyukfejűség a vízminőség romlása és vitaminhiány esetén)",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "A természetben a homokba ássa magát és halottnak tetteti magát, hogy lesből csapjon le a kishalakra; ezt a viselkedést tágas, homokos akváriumban is megfigyelhetjük.",
+  "Kiemelkedően erős szűrés szükséges a nagy tápanyag-terhelés és a halak mérete miatt.",
+  "Akkor vásároljuk meg, ha hosszú távon is tudunk biztosítani számára legalább 500-600 literes akváriumot."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

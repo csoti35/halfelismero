@@ -1,0 +1,76 @@
+{
+ "id": "otopharynx-lithobates",
+ "lista_nev": "Otopharynx lithobates",
+ "tipus": "hal",
+ "latin": "Otopharynx lithobates",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kénfejű sügér",
+ "egyeb_nevek": [
+  "Sárgahátú sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi-tavi sügérek (Utaka)",
+ "szarmazas": "Afrika, Malawi-tó (sziklás barlangok környéke)",
+ "max_meret_cm": 14,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Félénkebb, mint sok más Malawi sügér, de a hímek egymással és hasonló színű halakkal szemben agresszívek lehetnek.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő. A természetben a barlangok faláról és a talajról szedegeti az eleséget. Fagyasztott rákfélék, jó minőségű granulátumok.",
+ "tarsithato": [
+  "Békésebb Malawi sügérekkel (Aulonocara",
+  "Copadichromis)."
+ ],
+ "kerulendo": [
+  "Domináns",
+  "agresszív Mbuna fajok",
+  "amelyek elnyomják és megakadályozzák a színeződését."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Sziklás környezet biztosítása barlangokkal. 2. A hím egy barlangban vagy védett helyen alakít ki revírt. 3. Az ikrázás rejtett helyen történik. 4. A nőstény kb. 21-24 napig forgat. 5. Az ivadékok sórákkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek sötétkékek, a fejük tetejétől a hátúszó végéig élénksárga vagy narancssárga sáv húzódik. A nőstények barnás-szürkék, oldalukon három sötét folttal.",
+ "felismeres_jegyek": [
+  "Mélykék test. Élénksárga 'korona' a fejen és a háton (hímeknél). Három jellegzetes sötét folt az oldalvonal mentén (nőstényeknél és fiataloknál). Viszonylag nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Sciaenochromis fryeri",
+   "magyar_nev": "Jégkék sügér",
+   "kulonbseg": "A fryeri teste nyúlánkabb, és nincs rajta a sárga háti sáv."
+  },
+  {
+   "latin": "Aulonocara baenschi",
+   "magyar_nev": "Sárga császársügér",
+   "kulonbseg": "A baenschi teste szinte teljesen sárga, csak a feje kékes."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélgyulladás (nem megfelelő táplálás esetén)",
+  "stressz okozta betegségek."
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "A 'Zimbabwe Rock' változat a legnépszerűbb. Sok barlangot és búvóhelyet igényel",
+  "hogy biztonságban érezze magát és kiszínesedjen."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

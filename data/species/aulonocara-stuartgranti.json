@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Aulonocara stuartgranti",
+ "id": "aulonocara-stuartgranti",
+ "tipus": "hal",
+ "latin": "Aulonocara stuartgranti",
+ "regi_latin_nevek": [
+  "Aulonocara hansbaenschi"
+ ],
+ "magyar_nev": "Páva sügér",
+ "egyeb_nevek": [
+  "Stuartgrant-császársügér",
+  "Kék császársügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Afrikai sügérek (Malawi-tó)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Relatív békés faj más afrikai sügérekhez képest, de a hímek egymással rivalizálnak. Nyugodt Malawi-tavi sügérfajokkal jól tartható.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 25,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Élő és fagyasztott táplálékok (artémia, fagyasztott kancsalrák, szúnyoglárva) és magas minőségű lemezes/granulált sügértápok.",
+ "tarsithato": [
+  "Békésebb Malawi-tavi nem-Mbuna sügérekkel (Copadichromis",
+  "Placidochromis",
+  "Sciaenochromis)."
+ ],
+ "kerulendo": [
+  "Agresszív Mbuna fajok (pl. Labeotropheus",
+  "Pseudotropheus)",
+  "kisméretű lazacok vagy márnafélék."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím kifényesedett színekkel, kifeszített úszókkal rezegve udvarol a nősténynek.",
+  "Az ívás a homokba vájt mélyedésben vagy egy lapos kövön történik.",
+  "A nőstény lerakja az ikrákat, majd azonnal a szájába szedi őket.",
+  "A nőstény a hím farok alatti úszóján lévő ikrafoltok megközelítésével ösztönzi a hímet a sperma kiengedésére.",
+  "A nőstény körülbelül 3 hétig forgatja szájában az ikrákat és ivadékokat, amelyeket kiengedés után artémiával táplálhatunk."
+ ],
+ "ivari_kulonbseg": "A hímek pompás kék vagy kék-sárga (változattól függő) színűek, úszóik hosszabbak. A nőstények kisebbek és jelentéktelen szürke-barna színűek.",
+ "felismeres_jegyek": [
+  "Enyhén nyújtott, oldalról lapított testalkat.",
+  "A hímek ragyogó kék alapszínűek, a kopoltyú mögött vagy a vállrészen sárga/narancs árnyalattal (geográfiai színváltozattól függően).",
+  "A fejen jól látható érzékelő gödrök és pórusok jelenléte.",
+  "A nőstények világosbarna/szürke alapszínűek sötétebb keresztcsíkokkal.",
+  "Hátúszó felső szegélye fehéres-kék csíkkal díszített."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aulonocara jacobfreibergi",
+   "magyar_nev": "Császársügér",
+   "kulonbseg": "A jacobfreibergi teste zömökebb, és lényegesen több benne a narancssárga/vörös szín."
+  },
+  {
+   "latin": "Sciaenochromis fryeri",
+   "magyar_nev": "Ablakozó sügér",
+   "kulonbseg": "A fryeri teste nyújtottabb, feje hegyesebb, ragyogó elektromoskék színű, farok alatti úszója pirosas."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi bloat (hasvízkór jellegű megbetegedés)",
+  "Darakór",
+  "Gombás fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Soha ne tartsunk együtt több különböző Aulonocara fajt egy akváriumban, mert a nőstények nagyon hasonlók és könnyen összeívnak (hibridizáció).",
+  "Aljzatnak mindenképpen apró szemű, finom homokot válasszunk, mert a halak a szájukkal szűrik át a homokot táplálékot keresve.",
+  "Tartásukhoz 1 hímre legalább 2-4 nőstény jusson."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

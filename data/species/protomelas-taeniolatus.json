@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Protomelas taeniolatus",
+ "id": "protomelas-taeniolatus",
+ "tipus": "hal",
+ "latin": "Protomelas taeniolatus",
+ "regi_latin_nevek": [
+  "Haplochromis taeniolatus",
+  "Cyrtocara taeniolata"
+ ],
+ "magyar_nev": "Pompás malawisügér",
+ "egyeb_nevek": [
+  "Boadzulu sügér",
+  "Red Empress sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek - Malawi-tó, Haplochromis-félék)",
+ "szarmazas": "Afrika (Malawi-tó üledékmentes sziklás zónái)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Mérsékelten agresszív faj. A domináns hím hevesen védheti a revírjét más hímekkel és hasonló mintázatú fajokkal szemben, de más felépítésű sügérekkel szemben többnyire békés.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, természetes élőhelyén a sziklák algabevonatát (aufwuchs) és a benne élő apró gerincteleneket legeli. Növényi alapú spirulinás tápok és fagyasztott rákfélék keveréke ideális számára.",
+ "tarsithato": [
+  "Más mérsékelt temperamentumú Malawi-tavi Haplochromis és Utaka fajokkal",
+  "Aulonocara sügérekkel és Synodontis harcsákkal."
+ ],
+ "kerulendo": [
+  "Kifejezetten agresszív Mbuna fajok",
+  "apró testű díszhalak",
+  "lágyvizes fajok."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tartsuk háremben (1 hímre legalább 2-3 nőstény), tágas medencében.",
+  "A hím egy lapos sziklán vagy a homokban kialakított mélyedésben kezdi meg az udvarlást remegő mozdulatokkal.",
+  "Az ikrázás körkörös mozgásban zajlik, a nőstény kiengedi az ikrákat, majd a szájába kapja őket.",
+  "A hím farok alatti úszóján lévő ikrafoltokkal ingerli a nőstényt, így biztosítva a szájban történő megtermékenyítést.",
+  "A nőstény 3-4 hétig forgatja az ikrákat; a kishalak elengedése után ivadéktáppal és artémiával táplálhatók."
+ ],
+ "ivari_kulonbseg": "A hímek pompás fémkék fejjel és ragyogó piros/narancssárga oldallal rendelkeznek (Red Empress változat), hátúszójuk fehér/kékes szegélyű. A nőstények szürkésbarna alapszínűek, testükön két hosszanti sötét sáv és függőleges keresztsávok láthatók.",
+ "felismeres_jegyek": [
+  "A felnőtt hímek feje és háta fénylő kék, oldala intenzív vörös/narancs színű",
+  "A nőstények és fiatalok testén két vízszintes és több függőleges fekete sáv rácsos mintát alkot",
+  "Hátúszó szegélye fehéres vagy világoskék szegéllyel díszített",
+  "Közepesen magas, robusztus testalkat kissé lefelé irányuló szájjal"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Otopharynx lithobates",
+   "magyar_nev": "Sárgafejű malawisügér",
+   "kulonbseg": "Az O. lithobates teste sötétkék alapon élénksárga vagy narancssárga hátszegéllyel bír, nem vörös oldalú."
+  },
+  {
+   "latin": "Sciaenochromis fryeri",
+   "magyar_nev": "Harkálysügér (Ál-farkassügér)",
+   "kulonbseg": "Egységesen villanykék testű, oldalán nincs kiterjedt vörös színeződés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Kopoltyúférgesség",
+  "Bakteriális fertőzések a stressz vagy harcok okozta sérülésekből"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Etetésénél ügyeljünk a magas növényi/spirulina arányra, hogy elkerüljük az emésztési panaszokat.",
+  "Akváriumában biztosítsunk masszív sziklaépítményeket búvóhelyekkel és sok szabad úszóteret.",
+  "Csak egyetlen kifejlett hímet tartsunk azonos akváriumban, hacsak a medence nem haladja meg az 500 litert."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

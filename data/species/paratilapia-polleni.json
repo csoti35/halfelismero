@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Paratilapia polleni",
+ "id": "paratilapia-polleni",
+ "tipus": "hal",
+ "latin": "Paratilapia polleni",
+ "regi_latin_nevek": [
+  "Paratilapia bleekeri"
+ ],
+ "magyar_nev": "Madagaszkári márványsügér",
+ "egyeb_nevek": [
+  "Polleni sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Madagaszkár)",
+ "szarmazas": "Madagaszkár",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen territoriális és agresszív nagy testű sügér, különösen a fajtársaival és más fenéklakó halakkal szemben. Kisebb halakat zsákmánynak tekint.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Ragadozó/Mindenevő; minőségi sügértápok, fagyasztott haldarabok, garnéla, kagylóhús és nagyobb rovarlárvák.",
+ "tarsithato": [
+  "Hasonló méretű, robusztus más sügérfajok",
+  "Nagyobb robusztus harcsák"
+ ],
+ "kerulendo": [
+  "Kisebb halak (megeszi őket)",
+  "Békés, lassú mozgású fajok"
+ ],
+ "szaporodas_mod": "Ikrázó; tereptárgyra vagy barlang aljára ikrázik, az ikrákat fonálszerű kocsányok tartják össze.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Párképzés fiatal halak együtt nevelésével (a kifejlett halak fajaik közötti agressziója miatt nehéz a párba állítás).",
+  "Nagy méretű akvárium és lapos kövek vagy barlangok biztosítása.",
+  "Az ikrák lerakása után a szülők keményen védik a territóriumot.",
+  "Az kikelő ivadékokat naupliusz artémiával lehet etetni."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen nagyobbra nőnek, kifejlett korban homlokpúp alakulhat ki náluk, úszóik megnyúltabbak.",
+ "felismeres_jegyek": [
+  "Kadmium-fekete alapszín",
+  "Arany, ezüst vagy kékesfehér csillogó pöttyök az egész testen és az úszókon",
+  "Robusztus, mély testalkat",
+  "Nagy, erőteljes fej és száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ptychochromis oligacanthus",
+   "magyar_nev": "Madagaszkári csíkos sügér",
+   "kulonbseg": "Testmintázata csíkosabb és világosabb alapú, hiányzik róla a tömör fekete alapon pettyezett mintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Agyaglyuk-betegség",
+  "Akváriumi sérülésekből fakadó gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Nagyon erős szűrést és hatékony szellőztetést igényel nagy biológiai terhelése miatt.",
+  "Kőhalmokkal és gyökerekkel alakítsunk ki határozott területi határokat az akváriumban."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}
