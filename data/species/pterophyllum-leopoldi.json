@@ -1,0 +1,89 @@
+{
+ "id": "pterophyllum-leopoldi",
+ "tipus": "hal",
+ "latin": "Pterophyllum leopoldi",
+ "regi_latin_nevek": [
+  "Pterophyllum dumerilii"
+ ],
+ "magyar_nev": "Leopold-skalár",
+ "egyeb_nevek": [
+  "Hosszúorrú skalár"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas-medence, Brazília)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A legkisebb és legagresszívabb skalárfaj. Területvédő, különösen íváskor, és a kisebb halakat levadászhatja.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 5.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget (artémia, szúnyoglárva).",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "páncélosharcsák",
+  "törpesügérek."
+ ],
+ "kerulendo": [
+  "Apró halak (pl. neonhal)",
+  "agresszív sügérek",
+  "úszócsipkedő díszmárnák."
+ ],
+ "szaporodas_mod": "Szabadon ívó, függőleges felületre rakja ikráit.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy",
+  "savas víz biztosítása",
+  "bőséges élő eleség",
+  "függőleges tereptárgyak (levelek",
+  "pala)",
+  "a szülők gondozzák az ivadékot."
+ ],
+ "ivari_kulonbseg": "Külsőleg nehéz megkülönböztetni, íváskor a tojócső lekerekített, a hímé hegyes.",
+ "felismeres_jegyek": [
+  "Zömökebb test a többi skalárhoz képest",
+  "jellegzetes sötét folt a hátúszó alatt",
+  "az orr-rész enyhén felfelé ívelt",
+  "vízszintes sötét sáv a szemnél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pterophyllum scalare",
+   "magyar_nev": "Vitorláshal",
+   "kulonbseg": "Nagyobbra nő, teste kevésbé nyújtott, hiányzik a Leopoldira jellemző sötét folt a hátúszó alatt."
+  },
+  {
+   "latin": "Pterophyllum altum",
+   "magyar_nev": "Nagy vitorláshal",
+   "kulonbseg": "Sokkal magasabb testfelépítésű és kifejezetten meredek homlokvonala van."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Mivel alacsonyabb a többi skalárnál, nem igényel extrém magas akváriumot.",
+  "Nagyon érzékeny a vízminőségre és a nitrátra.",
+  "Sűrű növényzetet igényel a búvóhelyek biztosításához."
+ ],
+ "lista_nev": "Pterophyllum leopoldi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

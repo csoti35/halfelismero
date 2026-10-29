@@ -1,0 +1,86 @@
+{
+ "id": "symphysodon-discus",
+ "tipus": "hal",
+ "latin": "Symphysodon discus",
+ "regi_latin_nevek": [
+  "Symphysodon discus discus"
+ ],
+ "magyar_nev": "Valódi diszkoszhal",
+ "egyeb_nevek": [
+  "Heckel-diszkosz"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Rio Negro, Brazília)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon félénk és érzékeny hal. Csoportban érzi jól magát, a vízminőségre rendkívül kényes.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 28,
+ "homerseklet_max": 32,
+ "ph_min": 4.5,
+ "ph_max": 6.0,
+ "gh_min": 1,
+ "gh_max": 4,
+ "taplalek": "Élő és fagyasztott eleség, speciális diszkoszhal tápok.",
+ "tarsithato": [
+  "Csak hasonló igényű",
+  "nagyon békés halakkal (pl. vörös neonhal",
+  "baltahasú lazac)."
+ ],
+ "kerulendo": [
+  "Aktív",
+  "gyorsan úszó halak",
+  "alacsonyabb hőmérsékletet kedvelő fajok."
+ ],
+ "szaporodas_mod": "Szabadon ívó, az ivadékok a szülők bőrváladékát eszik.",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Extrém lágy és savas víz",
+  "nyugodt környezet",
+  "a szülőpár gondoskodása elengedhetetlen."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem látható, csak az ivarszervek alakja alapján íváskor.",
+ "felismeres_jegyek": [
+  "Korong alakú test",
+  "az 1.",
+  "5. és 9. függőleges sötét sáv sokkal hangsúlyosabb",
+  "a középső sáv (5.) mindig vastag és sötét."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Symphysodon aequifasciatus",
+   "magyar_nev": "Zöld diszkoszhal",
+   "kulonbseg": "Nincs kiemelkedően vastag középső függőleges sávja."
+  },
+  {
+   "latin": "Symphysodon tarzoo",
+   "magyar_nev": "Pettyes diszkoszhal",
+   "kulonbseg": "Az oldalán vörös pöttyök láthatóak, és hiányzik a Heckel-sáv."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "Kopoltyúférgesség",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 15000,
+ "ar_ft_max": 50000,
+ "tippek": [
+  "Ez a legnehezebben tartható diszkoszfaj, csak profiknak ajánlott.",
+  "A víz pH-értékét stabilan alacsonyan kell tartani (tőzeges szűrés javasolt).",
+  "Kerülni kell a hirtelen fényváltozásokat és zajokat, mert könnyen pánikba esik."
+ ],
+ "lista_nev": "Symphysodon discus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

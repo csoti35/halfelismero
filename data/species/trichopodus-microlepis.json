@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Trichopodus microlepis",
+ "id": "trichopodus-microlepis",
+ "tipus": "hal",
+ "latin": "Trichopodus microlepis",
+ "regi_latin_nevek": [
+  "Trichogaster microlepis"
+ ],
+ "magyar_nev": "Holdfény gurámi",
+ "egyeb_nevek": [
+  "Ezüstgurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae (Labirinthalak)",
+ "csoport": "Labirint-kopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Kambodzsa, Thaiföld, Vietnám)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Igen békés, kissé félénk, nagyra növő gurámifaj. A hímek íváskor területtartók, de alapvetően nem bántják a többi akváriumi lakót.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, lemezes és granulált tápokat, élő/fagyasztott eleségeket, valamint növényi kiegészítőket is szívesen fogyaszt.",
+ "tarsithato": [
+  "Más békés",
+  "hasonló méretű vagy kisebb halakkal (pl. pontylazacok",
+  "dániók",
+  "békés fenéklakók)."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "úszócsipkedő fajok és túl apró halak",
+  "amiket véletlenül bekaphat."
+ ],
+ "szaporodas_mod": "Habfészket épít",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A hím hatalmas méretű habfészket épít, melybe növényi darabkákat is beépít.",
+  "Lágy, enyhén savas vizű külön ívató akváriumban pároztassuk.",
+  "Az ívást követően a hím gondozza a fészket és az ikrákat.",
+  "A nőstényt eltávolítjuk az ívás után.",
+  "Kikelés után az ivadék finom élő eleséggel (infuzória, majd artémia) nevelhető."
+ ],
+ "ivari_kulonbseg": "A hímek fonalas hasúszója narancssárga vagy vöröses színű, míg a nőstényeké sárgás vagy színtelen. A hímek hátúszója hegyesebb.",
+ "felismeres_jegyek": [
+  "Selymes, ezüstös-fehér pikkelyzet minta nélkül.",
+  "Igen apró pikkelyek a testen (innen a latin név).",
+  "Kifejezetten hosszú, fonalas hasúszók.",
+  "Enyhén homorú fejprofil."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichopodus leeri",
+   "magyar_nev": "Gyöngygurámi",
+   "kulonbseg": "Sötét hosszanti csíkja és csillogó gyöngymintája van, míg a holdfénygurámi egyszínű ezüst."
+  },
+  {
+   "latin": "Trichopodus pectoralis",
+   "magyar_nev": "Márványos gurámi",
+   "kulonbseg": "Sokkal sötétebb, sávos mintázatú és lényegesen vaskosabb testfelépítésű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Nagy úszóteret igénylő faj, ezért hosszú akváriumban tartsuk.",
+  "Dús növényzetű, de nyílt vízfelületekkel is rendelkező medencét rendezzünk be számára."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

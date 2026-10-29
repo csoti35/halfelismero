@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Trichopodus leeri",
+ "id": "trichopodus-leeri",
+ "tipus": "hal",
+ "latin": "Trichopodus leeri",
+ "regi_latin_nevek": [
+  "Trichogaster leeri"
+ ],
+ "magyar_nev": "Gyöngygurámi",
+ "egyeb_nevek": [
+  "Mozaikgurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae (Labirinthalak)",
+ "csoport": "Labirint-kopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Indonézia, Malajzia)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, nyugodt természetű faj. Időnként a hímek territóriumot védhetnek az ívás időszakában, de sosem sérülésig menően agresszívak. Kis halakat nem bánt.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, elfogadja a minőségi száraztápokat, fagyasztott és élő tápokat (szúnyoglárva, artémia).",
+ "tarsithato": [
+  "Békés pontylazacokkal",
+  "razkórákkal",
+  "páncélosharcsákkal",
+  "törpe szívóharcsákkal."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "csipkelődő halakkal (pl. szumátrai dunsztmárna) és nagy testű sügérekkel."
+ ],
+ "szaporodas_mod": "Habfészket épít",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím habfészket épít a vízfelszínen lévő úszónövények közé.",
+  "Az ívás a fészek alatt történik, a hím átkarolja a nőstényt.",
+  "A hím a fészekbe gyűjti az ikrákat és egyedül őrzi őket.",
+  "Ívás után a nőstényt távolítsuk el az ívató akváriumból.",
+  "Az ikrák 24-36 óra alatt kelnek ki, az ivadék papucsállatkával és rotatoriával etethető."
+ ],
+ "ivari_kulonbseg": "A hímek hát- és farokalatti úszója hosszabb és hegyesebb, valamint a torkuk és hasuk élénk narancsvörös árnyalatú.",
+ "felismeres_jegyek": [
+  "Ezüstös-barna testen apró, csillogó gyöngyszerű pöttyök sokasága.",
+  "A szájtól a farokúszó tövéig húzódó szaggatott fekete vízszintes csík.",
+  "Hosszú, fonalassá módosult hasúszók.",
+  "Ivarérett hímeknél narancsvörös mell- és torokrész."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichopodus trichopterus",
+   "magyar_nev": "Kék gurámi",
+   "kulonbseg": "Testén nincsenek finom gyöngyszerű minták, hanem két nagy fekete folt vagy márványos minta található."
+  },
+  {
+   "latin": "Trichopodus microlepis",
+   "magyar_nev": "Holdfénygurámi",
+   "kulonbseg": "Egyszínű ezüstös-fehér, nincsenek rajta sötét csíkok vagy gyöngyminták."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Biztosítsunk számára dús növényzetet és vízfelszínen úszó növényeket, amik árnyékolják a vizet.",
+  "Mivel labirintszervvel lélegzik, az akvárium legyen lefedve, hogy a víz feletti levegő meleg és párás maradjon."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

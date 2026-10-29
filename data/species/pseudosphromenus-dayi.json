@@ -1,0 +1,87 @@
+{
+ "id": "pseudosphromenus-dayi",
+ "tipus": "hal",
+ "latin": "Pseudosphromenus dayi",
+ "regi_latin_nevek": [
+  "Polyacanthus dayi"
+ ],
+ "magyar_nev": "Vörös paradicsomhal",
+ "egyeb_nevek": [
+  "Day paradicsomhala"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "India (Kerala, Tamil Nadu)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű, de íváskor a hímek területvédők. Kisebb halakkal is jól tartható, nem agresszív.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget (artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "dániók",
+  "páncélos harcsák."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "csipkelődős díszmárnák."
+ ],
+ "szaporodas_mod": "habfészeképítő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és úszó növények biztosítása.",
+  "A hím habfészket épít a felszínre.",
+  "Nász után a hím gondozza az ikrákat.",
+  "Az ivadékok 24-36 óra múlva kelnek ki.",
+  "Indításuk papucsállatkával vagy frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek úszói hosszabbak és hegyesebbek, színük intenzívebb.",
+ "felismeres_jegyek": [
+  "Nyújtott testforma",
+  "vörösesbarna alapszín",
+  "sötét vízszintes sávok az oldalon",
+  "megnyúlt úszósugarak a farokúszón."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudosphromenus cupanus",
+   "magyar_nev": "Törpe paradicsomhal",
+   "kulonbseg": "Kisebb termetű, színei kevésbé élénkek, farka kevésbé nyújtott."
+  },
+  {
+   "latin": "Macropodus opercularis",
+   "magyar_nev": "Paradicsomhal",
+   "kulonbseg": "Sokkal nagyobb és agresszívabb, függőleges csíkozású."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium",
+  "úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Sűrű növényzetet igényel a búvóhelyek miatt.",
+  "Az akváriumot le kell fedni, mert ugrálós és szüksége van a meleg levegőre a víz felett.",
+  "Kerüljük az erős vízáramlást."
+ ],
+ "lista_nev": "Pseudosphromenus dayi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

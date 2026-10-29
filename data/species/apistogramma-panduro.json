@@ -1,0 +1,88 @@
+{
+ "id": "apistogramma-panduro",
+ "tipus": "hal",
+ "latin": "Apistogramma panduro",
+ "regi_latin_nevek": [
+  "Apistogramma pandurini"
+ ],
+ "magyar_nev": "Panduro törpesügér",
+ "egyeb_nevek": [
+  "Pandurini törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Peru, Ucayali folyó medencéje)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Erősen területvédő, különösen fajtársaival szemben. Szigorúan monogám, párban tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 5.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Főként élő és fagyasztott eleség (ciklop, artémia, daphnia). A száraz tápot nehezen fogadja el.",
+ "tarsithato": [
+  "Felső zónákban úszó békés halak",
+  "pl. fejszehalak vagy kisebb lazacok."
+ ],
+ "kerulendo": [
+  "Más Apistogramma fajok",
+  "agresszív sügérek",
+  "fenéklakó harcsák kis helyen."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy, savas víz (pH 5.5 körül) és teljes nyugalom szükséges.",
+  "A pár közötti erős kötelék kialakulása fontos.",
+  "Szűk bejáratú barlangok biztosítása.",
+  "Az ikrákat a nőstény őrzi, a hím a revírt védi.",
+  "Az ivadékok érzékenyek a víz tisztaságára."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, úszóik kékes árnyalatúak, farkukon narancssárga szegély van. A nőstények testén nagy fekete folt található, úszóik sárgásak.",
+ "felismeres_jegyek": [
+  "A farokúszó kerek, a hímeknél gyakran narancssárga vagy vörös szegéllyel.",
+  "A hímek teste kékes-szürkés irizálással rendelkezik.",
+  "A nőstények oldalán egy nagy, szabálytalan fekete folt látható.",
+  "A szemnél egy sötét, függőleges sáv húzódik.",
+  "Rövid, zömök testalkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma nijsseni",
+   "magyar_nev": "Nijsseni törpesügér",
+   "kulonbseg": "A nijsseni nőstényeinél a fekete foltok elrendezése más, a hímek farokúszója pedig erősebben szegélyezett."
+  },
+  {
+   "latin": "Apistogramma baenschi",
+   "magyar_nev": "Inka törpesügér",
+   "kulonbseg": "A baenschi hímjeinek hátúszója sokkal magasabb és sugarasabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "Bakteriális fertőzések",
+  "Érzékenység a felgyülemlett bomlástermékekre"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Csak jól beállt, stabil vízminőségű akváriumba telepítsük.",
+  "A párválasztás kritikus; érdemes együtt felnövő fiatalokból hagyni, hogy párba álljanak.",
+  "A víz szűréséhez használjunk tőzeget."
+ ],
+ "lista_nev": "Apistogramma panduro",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

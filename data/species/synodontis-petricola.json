@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Synodontis petricola",
+ "id": "synodontis-petricola",
+ "tipus": "hal",
+ "latin": "Synodontis petricola",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pikkelyesminta morogharcsa",
+ "egyeb_nevek": [
+  "Petricola harcsa",
+  "Tanganyika-tavi morogharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mochokidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Afrika (Tanganyika-tó)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, éjszakai életmódot folytató harcsa. Rejtőzködő alkat, de kisméretű rajban bátrabbá válik. Más sügérekkel vagy afrikai fajokkal jól tartható, a nagyon kicsi halakat éjjel megeheti.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.8,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; minőségi sügértápok, süllyedő tabletták, fagyasztott és élő szúnyoglárva, artémia.",
+ "tarsithato": [
+  "Tanganyika-tavi és Malawi-tavi sügérek",
+  "nagyobb termetű békés halak."
+ ],
+ "kerulendo": [
+  "Agresszív nagy testű sügérek",
+  "nagyon kisméretű halak és garnélák."
+ ],
+ "szaporodas_mod": "Ikrarakó (a természetben gyakran kakukkharcsaként más sügérekkel ívik, de akváriumban sziklahasadékokba is ikrázik).",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Külön ívató akvárium berendezése kövekkel, csövekkel vagy ikraráccsal elválasztott görgeteges aljzattal.",
+  "A szülők kondicionálása élő és fagyasztott eleségekkel.",
+  "A kemény, lúgos víz (pH 8.0-8.5) és a rendszeres frissítő vízcsere serkenti az ívást.",
+  "Ívás után a szülőket el kell távolítani, mert megehetik az ikrákat.",
+  "Az ikrák 24-48 órán belül kelnek ki, az ivadékok a szikzacskó felszívódása után frissen keltett artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények testesebbek, a hímek karcsúbbak és ivarszemölcsük láthatóbb.",
+ "felismeres_jegyek": [
+  "Világos vagy krémszínű alapon sötétbarna/fekete pöttyös mintázat",
+  "az úszók széle fehér",
+  "száj körül látható bajuszszálak",
+  "tömzsi harcsa alkak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Synodontis lucipinnis",
+   "magyar_nev": "Törpe morogharcsa",
+   "kulonbseg": "A Lucipinnis kisebb termetű, mintázata kevésbé hálózatos, mintái szabályosabb pöttyök."
+  },
+  {
+   "latin": "Synodontis multipunctatus",
+   "magyar_nev": "Kakukkharcsa",
+   "kulonbseg": "A Multipunctatus nagyobb testű, mintázata nagyobb, ritkább foltokból áll."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bőrgombásodás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Biztosítsunk számára sok barlangot és sziklahasadékot búvóhelyül.",
+  "Mivel a Tanganyika-tóból származik, elengedhetetlen a kemény és lúgos kémhatású víz."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

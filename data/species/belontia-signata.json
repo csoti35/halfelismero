@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Belontia signata",
+ "id": "belontia-signata",
+ "tipus": "hal",
+ "latin": "Belontia signata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Ceyloni makropóda",
+ "egyeb_nevek": [
+  "Ceyloni paradicsomhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirinthalak",
+ "szarmazas": "Srí Lanka",
+ "max_meret_cm": 12,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten területvédő és verekedős hal. Fajtársaival és más hasonló méretű vagy formájú halakkal szemben rendkívül agresszív lehet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Ragadozó beállítottságú mindenevő; kedveli az élő és fagyasztott tápokat (szúnyoglárva, artémia, tubifex), de a minőségi lemezes tápot is megeszi.",
+ "tarsithato": [
+  "Csak nagy testű",
+  "gyors és nem visszahúzódó halakkal tartható együtt elegendő búvóhellyel rendelkező medencében."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "fonalas úszójú halak (pl. gurámik)",
+  "más labirint- és paradicsomhalak."
+ ],
+ "szaporodas_mod": "Habfészeképítő (gyakran hanyag fészket épít a felszíni növények közé).",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Rendezzünk be egy dúsan benövényesített ívató akváriumot lebegő növényekkel és búvóhelyekkel.",
+  "A hímet és a nőstényt jó minőségű élő eledellel kondicionáljuk.",
+  "Íváskor a hím lazább habfészket épít, majd átkarolja a nőstényt.",
+  "Mindkét szülő részt vehet az ikrák védelmében, de a nőstényt érdemes eltávolítani, ha a hím bántja.",
+  "Az elúszó ivadékokat infuzóriával és artémia naupliuszokkal etessük."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, hát- és farok alatti úszójuk hegyesebb, fonalasan megnyúlt, míg a nőstények fakóbbak és kerekdedebb úszójúak.",
+ "felismeres_jegyek": [
+  "Vörösesbarna-narancssárga alapszín finom hálós mintázattal a pikkelyek szélén.",
+  "A farokúszó sugarai kissé túlnyúlnak az úszóhártyán (csipkés hatás).",
+  "Erőteljes, áramvonalas, de mély testalkat.",
+  "Szemének írisze feketés-vöröses árnyalatú."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Macropodus opercularis",
+   "magyar_nev": "Kínai paradicsomhal",
+   "kulonbseg": "Kifejezett kék-vörös függőleges sávos mintázat borítja a testét."
+  },
+  {
+   "latin": "Pseudosphromenus dayi",
+   "magyar_nev": "Barna törpemakropóda",
+   "kulonbseg": "Sokkal kisebb méretű, sötét hosszsávos mintázattal rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás",
+  "Gombás fertőzések sérülések miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Sok búvóhelyet, gyökeret és sűrű növényzetet biztosítsunk számukra az akváriumban.",
+  "Legjobb egyedül vagy egy jól bevált párban tartani egy fajtajellegű akváriumban."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

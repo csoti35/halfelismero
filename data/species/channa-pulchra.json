@@ -1,0 +1,87 @@
+{
+ "id": "channa-pulchra",
+ "tipus": "hal",
+ "latin": "Channa pulchra",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pompás kígyófejű hal",
+ "lista_nev": "Channa pulchra",
+ "egyeb_nevek": [
+  "Pulchra kígyófejű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Channidae",
+ "csoport": "Kígyófejű halak",
+ "szarmazas": "Ázsia (Mianmar)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Területvédő és ragadozó. Fajtársaival szemben agresszív, csak párban tartható nagy akváriumban. Kisebb halakat zsákmánynak tekinti.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Ragadozó (fagyasztott hal, rák, rovarlárva, speciális pelletek)",
+ "tarsithato": [
+  "Csak hasonló méretű",
+  "robusztus halakkal",
+  "de leginkább fajspecifikus akváriumban."
+ ],
+ "kerulendo": [
+  "Kisebb halak",
+  "lassú úszású fajok",
+  "más kígyófejűek."
+ ],
+ "szaporodas_mod": "Ivadékgondozó (szájköltő vagy fészeképítő fajtól függően, a pulchra barlangba/aljzatra ívik)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Harmonizáló pár kiválasztása",
+  "Hőmérséklet kismértékű emelése és bőséges etetés",
+  "Búvóhelyek és nyugodt környezet biztosítása",
+  "Az ikrákat és az ivadékokat mindkét szülő védi",
+  "Az ivadékok frissen kelt artémiával indíthatók"
+ ],
+ "ivari_kulonbseg": "A hímek feje szélesebb, hátúszójuk magasabb és több rajtuk a fémes kék csillogás.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres testforma",
+  "Kékesszürke alapszín narancssárga pöttyökkel",
+  "Hátúszón fekete szemfolt található",
+  "Mellúszókon fekete-fehér csíkozás",
+  "Széles, ragadozó száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Channa ornatipinnis",
+   "magyar_nev": "Díszes kígyófejű hal",
+   "kulonbseg": "Kevesebb narancssárga pötty, eltérő mintázat a mellúszón."
+  },
+  {
+   "latin": "Channa bleheri",
+   "magyar_nev": "Szivárványos kígyófejű hal",
+   "kulonbseg": "Jelentősen kisebb termetű, nincs szemfolt a hátúszón."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hámfertőzések",
+  "Paraziták",
+  "Sérülések az agresszió miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Az akváriumot szökésbiztosan le kell fedni, mert kiváló ugrók.",
+  "Szükségük van légköri levegőre (labirintszerv).",
+  "Kedvelik a dús növényzetet és a sok búvóhelyet."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

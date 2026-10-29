@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Trichopodus trichopterus",
+ "id": "trichopodus-trichopterus",
+ "tipus": "hal",
+ "latin": "Trichopodus trichopterus",
+ "regi_latin_nevek": [
+  "Trichogaster trichopterus"
+ ],
+ "magyar_nev": "Foltos gurámi (kék gurámi)",
+ "egyeb_nevek": [
+  "Márványgurámi",
+  "Aranygurámi",
+  "Kétfoltos gurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 12,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés társas hal, de a kifejlett hímek egymással szemben és kisebb halakkal erőszakosak, területtartók lehetnek.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; elfogad mindenféle gyári lemezes és szemcsés tápot, fagyasztott és élő eleséget, még a hidrákat is elfogyasztja.",
+ "tarsithato": [
+  "Közepes testű pontyfélék",
+  "márnáik",
+  "nagyobb razbórák",
+  "algaevő harcsák",
+  "páncélosharcsák."
+ ],
+ "kerulendo": [
+  "Apró halak",
+  "úszóscsipkedő fajok",
+  "más territoriális labirint- és sügérfajok hímjei."
+ ],
+ "szaporodas_mod": "Ikrarakó (a hím habfészket épít).",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Ívató akvárium feltöltése 15-20 cm magas vízzel, úszó növényekkel.",
+  "A hőmérséklet emelése 28 °C-ra.",
+  "A hím nagy méretű habfészket épít a felszínre.",
+  "Az ívást követően a nőstényt el kell távolítani.",
+  "A hím vigyáz a fészekre a kikelésig; a szabadon úszó ivadékot infuzóriával, majd frissen kelt artémiával etetjük."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója jóval hosszabb és hegyesedő; a nőstényeké rövidebb és kerekített.",
+ "felismeres_jegyek": [
+  "Oldalán két jellegzetes fekete folt (egy a test közepén",
+  "egy a faroktőnél - a szem a harmadik)",
+  "fonalas hasúszók",
+  "kék/márványos/arany színváltozatok."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichopodus leerii",
+   "magyar_nev": "Gyöngygurámi",
+   "kulonbseg": "A Gyöngygurámi testét apró, gyöngyszerű mintázat borítja és torka/hasa élénk narancssárga."
+  },
+  {
+   "latin": "Trichopodus pectoralis",
+   "magyar_nev": "Márványos gurámi",
+   "kulonbseg": "A Pectoralis sokkal nagyobb növésű (akár 20 cm) és sötétebb, csíkosabb mintázatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasvízkór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Nagyon szívós faj, kiváló választás kezdő akvaristáknak is.",
+  "Tartsuk sűrűn benövényesített akváriumban, hogy a zaklatott nőstények el tudjanak bújni."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

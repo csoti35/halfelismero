@@ -1,0 +1,81 @@
+{
+ "id": "channa-bleheri",
+ "tipus": "hal",
+ "latin": "Channa bleheri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Szivárványos kígyófejű hal",
+ "lista_nev": "Channa bleheri",
+ "egyeb_nevek": [
+  "Bleher kígyófejű hala"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Channidae",
+ "csoport": "Kígyófejű halak",
+ "szarmazas": "India (Assam)",
+ "max_meret_cm": 17,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A kisebb kígyófejűek közé tartozik. Fajtársaival szemben agresszív lehet, de párban tartható. Ragadozó, de méretéhez képest békésebb.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Ragadozó: rovarok, férgek, apró halak, fagyasztott húsos eleségek.",
+ "tarsithato": [
+  "Legjobb fajspecifikus akváriumban",
+  "párban tartani."
+ ],
+ "kerulendo": [
+  "Kisebb halak",
+  "más kígyófejű fajok."
+ ],
+ "szaporodas_mod": "Szabadon ívó (nem szájköltő)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Szükséges egy hidegebb pihenőidőszak (teleltetés) az ívás kiváltásához.",
+  "A pár a felszín közelében ívik, az ikrák lebegnek.",
+  "Mindkét szülő őrzi az ikrákat és az ivadékokat.",
+  "Az ivadékok frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek feje szélesebb, úszóik színesebbek, a nőstények felülről nézve teltebbek.",
+ "felismeres_jegyek": [
+  "Színpompás mintázat",
+  "narancssárga foltok a farokúszón",
+  "kékes árnyalat a testen",
+  "nincs hasúszója."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Channa andrao",
+   "magyar_nev": "Kék kígyófejű hal",
+   "kulonbseg": "Kevesebb vörös/narancs szín, intenzívebb kék úszók."
+  },
+  {
+   "latin": "Channa gachua",
+   "magyar_nev": "Törpe kígyófejű hal",
+   "kulonbseg": "Kevésbé színes, van hasúszója."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombásodás",
+  "Bőrférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Szüksége van évszakos hőmérséklet-ingadozásra a hosszú élethez.",
+  "Az akváriumot résmentesen le kell fedni, mert kiváló szökőművész."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

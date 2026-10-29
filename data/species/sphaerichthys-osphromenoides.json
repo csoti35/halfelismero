@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Sphaerichthys osphromenoides",
+ "id": "sphaerichthys-osphromenoides",
+ "tipus": "hal",
+ "latin": "Sphaerichthys osphromenoides",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Csokoládégurámi",
+ "egyeb_nevek": [
+  "Csokoládé gurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirint halak",
+ "szarmazas": "Malajzia, Szumátra, Borneó",
+ "max_meret_cm": 6,
+ "elettartam_ev": 5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, lassú mozgású, néha kifejezetten félénk hal. Fajtársaival csoportban érzi jól magát.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 25,
+ "homerseklet_max": 30,
+ "ph_min": 4.5,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 6,
+ "taplalek": "Igényes faj: főként élő és fagyasztott eleségeket (artémia, szúnyoglárva) fogad el, a száraz tápokat ritkán eszi meg.",
+ "tarsithato": [
+  "Kisméretű",
+  "nagyon békés feketevizi fajokkal (pl. ékfoltos razbóra",
+  "törpe razbórák)."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "tolakodó",
+  "agresszív vagy nagytestű halak."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyon lágy, savanyú és stabil vízviszonyok (pH < 6, GH < 4) szükségesek.",
+  "Az ívás a talaj közelében történik, a pár megtermékenyíti az ikrákat.",
+  "A nőstény a szájába veszi az ikrákat, és kb. 10-14 napig forgatja őket evés nélkül.",
+  "A kiengedett ivadékok már viszonylag nagyok, frissen keltett artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek torokrésze egyenesebb, míg az ívásra kész nőstényé domborúbb; a nőstények úszószegélyei gyakran sárgásabbak.",
+ "felismeres_jegyek": [
+  "Jellegzetes csokoládébarna alapszín",
+  "Testén függőleges, sárgásfehér vagy krémfajta csíkok húzódnak",
+  "Hegyesebebb, kissé felfelé álló szájfelepítés",
+  "Magas, oldalról lapított testforma"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Sphaerichthys vaillanti",
+   "magyar_nev": "Vaillant-csokoládégurámi",
+   "kulonbseg": "A nőstények teste csodás piros-zöld harántsávos mintázatú."
+  },
+  {
+   "latin": "Helostoma temminckii",
+   "magyar_nev": "Csókolózó gurámi",
+   "kulonbseg": "Sokkal nagyobb (20+ cm), tiszta rózsaszín vagy ezüstös színű hal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Bakteriális bőrfertőzések",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Rendkívül érzékeny a vízminőség ingadozására és a felhalmozódó bomlástermékekre, rendszeres kis mértékű vízcsere kötelező.",
+  "Leveles, tőzeges feketevizes akváriumot rendezzünk be számára, gyenge világítással."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

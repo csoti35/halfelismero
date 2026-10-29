@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Trichogaster labiosa",
+ "id": "trichogaster-labiosa",
+ "tipus": "hal",
+ "latin": "Trichogaster labiosa",
+ "regi_latin_nevek": [
+  "Colisa labiosa"
+ ],
+ "magyar_nev": "Ajkos gurámi",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Ázsia (Mianmar)",
+ "max_meret_cm": 9,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kissé félénk labirinthal. Párban vagy kisebb csapatban tartható. A hímek ívási időszakban területtartók lehetnek, de nem túlzottan agresszívak.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; száraz lemezes és granulált tápok, fagyasztott szúnyoglárva, artémia, daphnia.",
+ "tarsithato": [
+  "Békés pontyfélék",
+  "dániók",
+  "razbórák",
+  "páncélosharcsák",
+  "törpe szívóharcsák."
+ ],
+ "kerulendo": [
+  "Úszóscsipkedő halak (pl. szumátrai díszmárna) és nagy",
+  "agresszív sügérek."
+ ],
+ "szaporodas_mod": "Ikrarakó (a hím habfészket épít a vízfelszínre).",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Alacsony vízszintű (15-20 cm) ívató akvárium előkészítése úszó növényekkel.",
+  "A víz hőmérsékletének emelése 27-28 °C-ra.",
+  "A hím habfészket épít, majd a nőstényt a fészek alá csalja és átkarolva ívnak.",
+  "Az ívás után a nőstényt ki kell venni, a hím őrzi a fészket.",
+  "A kikelés után (kb. 24-36 óra) és a szabadon úszás megkezdésekor a hímet is el kell távolítani, az ivadékot papucsállatkával, majd artémiával kell etetni."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, hát- és farok alatti úszójuk hegyesebb; az ajkaik vastagabbak. A nőstények fakóbbak, hasuk kerekdedebb.",
+ "felismeres_jegyek": [
+  "Vastag",
+  "húsos ajkak",
+  "oldalán függőleges narancssárga és kékisháló csíkozás (a narancs/piros színváltozatoknál egyöntetűbb)",
+  "fonálszerű hasúszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichogaster lalia",
+   "magyar_nev": "Törpe gurámi",
+   "kulonbseg": "A Törpe gurámi kisebb testű, ajkai nem annyira duzzadtak, mintázata intenzívebb kék-piros."
+  },
+  {
+   "latin": "Trichogaster chuna",
+   "magyar_nev": "Mézgurámi",
+   "kulonbseg": "A Mézgurámi lényegesen kisebb, karcsúbb felépítésű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Akváriumi halgümőkór",
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Kedveli a dúsan benövényesített, gyenge áramlású akváriumot.",
+  "A vízfelszín feletti levegő legyen meleg és párás, hogy a labirintszervük ne károsodjon."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

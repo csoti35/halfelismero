@@ -1,0 +1,91 @@
+{
+ "id": "symphysodon-aequifasciatus",
+ "tipus": "hal",
+ "latin": "Symphysodon aequifasciatus",
+ "regi_latin_nevek": [
+  "Symphysodon aequifasciatus aequifasciatus"
+ ],
+ "magyar_nev": "Diszkosz",
+ "egyeb_nevek": [
+  "Barna diszkoszhal",
+  "Kék diszkoszhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas középső és alsó szakasza)",
+ "max_meret_cm": 18,
+ "elettartam_ev": 12,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, félénk csoportlakó hal. Rangsor kialakulhat a csoporton belül, de nem agresszív más fajokkal.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 27,
+ "homerseklet_max": 31,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 8,
+ "taplalek": "Igényes; fagyasztott eleségek (marhaszív keverék, artémia), minőségi granulátumok.",
+ "tarsithato": [
+  "Vörös neonhal",
+  "Corydoras fajok",
+  "békés törpesügérek."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "tolakodó halak (pl. nagyobb dániók)",
+  "agresszív sügérek",
+  "hidegvizű halak."
+ ],
+ "szaporodas_mod": "Szabadon ívó, a szülők testváladékukkal táplálják az ivadékot.",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Lágy",
+  "savas víz",
+  "stabil pár kialakulása",
+  "függőleges felületre ívás",
+  "az ivadékok a szülők oldaláról eszik a váladékot."
+ ],
+ "ivari_kulonbseg": "Külsőleg szinte lehetetlen megállapítani, csak íváskor a nemi szervek alapján.",
+ "felismeres_jegyek": [
+  "Korong alakú test",
+  "oldalról erősen lapított",
+  "9 függőleges sötét sáv (melyek elhalványulhatnak)",
+  "apró száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Symphysodon discus",
+   "magyar_nev": "Valódi diszkoszhal",
+   "kulonbseg": "A középső (ötödik) függőleges sáv sokkal erősebb és szélesebb a többinél."
+  },
+  {
+   "latin": "Heros severus",
+   "magyar_nev": "Szemfoltos sügér",
+   "kulonbseg": "Hasonló alak, de robusztusabb, és nem rendelkezik a diszkoszhalak jellegzetes úszóformájával."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hexamita (lyukbetegség)",
+  "Kopoltyúférgesség",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 8000,
+ "ar_ft_max": 35000,
+ "tippek": [
+  "A vízminőség fenntartása érdekében heti többszöri vízcsere javasolt.",
+  "A tenyésztett változatok (pl. Pigeon Blood) kevésbé érzékenyek, mint a vadon fogottak.",
+  "Magas hőmérsékletet igényel, amit a növényeknek is bírniuk kell."
+ ],
+ "lista_nev": "Symphysodon aequifasciatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

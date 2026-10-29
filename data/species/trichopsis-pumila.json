@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Trichopsis pumila",
+ "id": "trichopsis-pumila",
+ "tipus": "hal",
+ "latin": "Trichopsis pumila",
+ "regi_latin_nevek": [
+  "Trichopsis pumilus"
+ ],
+ "magyar_nev": "Törpe korgó gurámi",
+ "egyeb_nevek": [
+  "Törpe gurámi (tévesen)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirinthalak",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Laosz, Kambodzsa, Vietnám)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, ijedős kis hal. Izgatottság vagy udvarlás során halk, kattogó-morgó hangot bocsát ki.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Kisméretű élő és fagyasztott tápok (pl. cyclops, artemia, szúnyoglárva), minőségi mikropelletek.",
+ "tarsithato": [
+  "Kis testű, békés fajokkal (pl. törpe rasborák, kisméretű csíkok, törpe szívóharcsák, neocaridina garnélák)."
+ ],
+ "kerulendo": [
+  "Nagy, agresszív vagy túlságosan mozgékony halak, amelyek elrémisztik vagy táplálkozásban kiszorítják."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Kis méretű, sűrűn benövényesített ívató akvárium lágy, enyhén savas vízzel.",
+  "A hím kis méretű habfészket épít (gyakran növény levele alá, nem a nyílt felszínre).",
+  "Az ívás a fészek alatt történik, a párzás közben hallható a morgó hang.",
+  "A hím gondozza a fészket, a nőstényt érdemes eltávolítani.",
+  "Az ivadékok apró méretűek, indító tápnak papucsállatka vagy mikró szükséges."
+ ],
+ "ivari_kulonbseg": "A hímek úszói kissé hegyesebbek és nyújtottabbak, átvilágítva a nőstényeknél látható a petefészek vonala a hasüregben.",
+ "felismeres_jegyek": [
+  "Aptó, karcsú testméret (ritkán haladja meg a 3,5 cm-t)",
+  "Világító, türkizkék szemszín",
+  "Vízszintes sötét sáv a testen, felette és alatta fémes kékes-zöldes pöttyök",
+  "Úszók szegélye vöröses-kékesszürke, apró pöttyökkel díszített",
+  "Fonalassá nyúlt hasúszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichopsis vittata",
+   "magyar_nev": "Morgó gurámi",
+   "kulonbseg": "Lényegesen nagyobb (6-7 cm) és határozottabb hosszanti sávjai vannak."
+  },
+  {
+   "latin": "Trichopsis shaleri",
+   "magyar_nev": "Sávos morgó gurámi",
+   "kulonbseg": "Közepes méretű (5 cm), egyértelműen egy széles sötét sáv húzódik végig a testén."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Baktériumos fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Sűrűn növényesített, sötét talajú, nyugodt akváriumban érzik magukat a legnagyobb biztonságban.",
+  "Csendes szobában este jól hallható a halak által kiadott karakteres kattogó hang."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

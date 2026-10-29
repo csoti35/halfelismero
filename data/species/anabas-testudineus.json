@@ -1,0 +1,89 @@
+{
+ "id": "anabas-testudineus",
+ "tipus": "hal",
+ "latin": "Anabas testudineus",
+ "regi_latin_nevek": [
+  "Anthias testudineus",
+  "Perca scandens"
+ ],
+ "magyar_nev": "Ázsiai kúszóhal",
+ "lista_nev": "Anabas testudineus",
+ "egyeb_nevek": [
+  "Kúszóhal",
+  "Kúszó sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Anabantidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (India, Kína, Malajzia)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül szívós, de agresszív és ragadozó természetű hal. Kisebb halakat megeszi, fajtársaival és más nagyobb halakkal szemben is területvédő.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 22,
+ "homerseklet_max": 30,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, de főleg ragadozó (rovarok, kishalak, férgek, fagyasztott eledel).",
+ "tarsithato": [
+  "Csak hasonló méretű és habitusú",
+  "robusztus halakkal (pl. nagyobb harcsák",
+  "sügérek)."
+ ],
+ "kerulendo": [
+  "Kisebb halak",
+  "békés közösségi fajok",
+  "lassú úszású halak."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyobb méretű ívató medence szükséges úszó növényekkel.",
+  "A pár az éjszaka folyamán ívik, az ikrák a felszínre emelkednek.",
+  "Az ívás után a szülőket el kell távolítani, mert megehetik az ikrákat.",
+  "Az ikrák 24-36 órán belül kikelnek.",
+  "Az ivadékok apró élő eleséggel (papucsállatka, rotatória) indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója hegyesebb, a nőstények íváskor teltebbek.",
+ "felismeres_jegyek": [
+  "Zömök",
+  "erőteljes testfelépítés",
+  "nagy száj",
+  "sötét folt a kopoltyúfedőn és a faroknyélen",
+  "barnás-szürkés alapszín."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Anabas cobojius",
+   "magyar_nev": "Gangeszi kúszóhal",
+   "kulonbseg": "Kisebb méretű és a pikkelyezése eltérő."
+  },
+  {
+   "latin": "Ctenopoma acutirostre",
+   "magyar_nev": "Csíkos bozóthal",
+   "kulonbseg": "Pöttyös mintázatú és Afrikából származik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hámférgesség",
+  "Bakteriális fertőzések sérülések miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Az akváriumot szökésbiztosan le kell fedni, mert képes kimászni.",
+  "Biztosítsunk számára légköri levegőt, mert labirintszervével lélegzik."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

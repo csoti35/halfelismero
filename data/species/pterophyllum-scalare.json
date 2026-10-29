@@ -1,0 +1,86 @@
+{
+ "id": "pterophyllum-scalare",
+ "tipus": "hal",
+ "latin": "Pterophyllum scalare",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Skalár",
+ "lista_nev": "Pterophyllum scalare",
+ "egyeb_nevek": [
+  "Vitorláshal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés, de íváskor területvédő. A kisebb halakat (pl. neonhal) megeheti, ha beférnek a száján.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (lemezes táp, fagyasztott vörös szúnyoglárva, artémia)",
+ "tarsithato": [
+  "Nagyobb testű pontylazacokkal",
+  "páncélosharcsákkal",
+  "békés sügérekkel."
+ ],
+ "kerulendo": [
+  "Apró halak (neonhal)",
+  "úszócsipkedő fajok (pl. szumátrai díszmárna)."
+ ],
+ "szaporodas_mod": "Szabadon ívó, függőleges felületre (levél, kő) rakja ikráit, szülők gondozzák.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Párba állt egyedek különválasztása",
+  "Függőleges ívatófelület (pl. amazonasi kardfű levele) biztosítása",
+  "Lágy, enyhén savas víz",
+  "Az ikrák kikelése után az ivadékok sórákkal etethetők"
+ ],
+ "ivari_kulonbseg": "Nehéz megállapítani; íváskor a tojótojócsöve tompa, a hímé hegyes. A kifejlett hímek homloka púposabb lehet.",
+ "felismeres_jegyek": [
+  "Oldalról erősen lapított, korong alakú test",
+  "Megnyúlt, vitorlaszerű hát- és farok alatti úszó",
+  "Hosszú, fonalszerű hasúszók",
+  "Ezüstös alapszín függőleges fekete csíkokkal (vadas típus)",
+  "Nagy, kerek szemek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pterophyllum altum",
+   "magyar_nev": "Nagy skalár",
+   "kulonbseg": "Jelentősen nagyobb, meredekebb homlok, kifejezettebb 'nyereg' az orron."
+  },
+  {
+   "latin": "Mesonauta festivus",
+   "magyar_nev": "Zászlós sügér",
+   "kulonbseg": "Zömökebb test, ferde fekete sáv a szemtől a hátúszóig."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Akváriumuk legyen legalább 50 cm magas a megnyúlt úszók miatt.",
+  "Szeretik a dús növényzetet, de kell nekik szabad úszótér is.",
+  "Tartsuk őket csoportban, amíg párok nem alakulnak ki."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

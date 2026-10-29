@@ -1,0 +1,85 @@
+{
+ "id": "apistogramma-trifasciata",
+ "tipus": "hal",
+ "lista_nev": "Apistogramma trifasciata",
+ "latin": "Apistogramma trifasciata",
+ "regi_latin_nevek": [
+  "Apistogramma trifasciatum"
+ ],
+ "magyar_nev": "Háromsávos törpesügér",
+ "egyeb_nevek": [
+  "Háromcsíkos törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai törpesügérek",
+ "szarmazas": "Dél-Amerika (Paraguay, Guaporé folyók)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Kistermetű, de öntudatos hal. A hímek agresszíven védik a területüket, különösen íváskor.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 10,
+ "taplalek": "Igényli az apró élő eleséget (cyclops, artémia). A száraz tápot nehezebben fogadja el.",
+ "tarsithato": [
+  "Apró pontylazacok (pl. parázslazac)",
+  "törpe szívóharcsák."
+ ],
+ "kerulendo": [
+  "Más Apistogramma fajok",
+  "agresszív vagy nagytestű halak."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (2-5 NK) és savas víz szükséges.",
+  "Hőmérséklet emelése 26-27 fokra.",
+  "Sok rejtekhely és sötét aljzat.",
+  "A nőstény egyedül gondozza az ikrákat a barlangban.",
+  "Az ivadékok nagyon aprók, papucsállatkával vagy friss sórákkal indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek teste kékesebb, hátúszójuk első sugarai nagyon megnyúltak. A nőstények kisebbek, sárgák, fekete mintázattal.",
+ "felismeres_jegyek": [
+  "Három sötét sáv: egy az oldalon, egy a hátnál, egy a hason.",
+  "A hímek hátúszójának első sugarai filamentumszerűen megnyúltak.",
+  "Intenzív kék irizálás a hímek testén.",
+  "Kicsi, zömök testalkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma borellii",
+   "magyar_nev": "Sárga törpesügér",
+   "kulonbseg": "A borellii-nek nincs megnyúlt hátúszó-sugara és hiányoznak a sávok."
+  },
+  {
+   "latin": "Apistogramma macmasteri",
+   "magyar_nev": "Vörösmaszkos törpesügér",
+   "kulonbseg": "Sokkal nagyobb és robusztusabb, vörös mintázattal a fejen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hexamita",
+  "Vízminőségre való érzékenység (úszórothadás)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Érzékeny a vízben felhalmozódó bomlástermékekre, a heti vízcsere kötelező.",
+  "Akváriumát dekoráljuk égertobozzal vagy tőzeggel a savasítás érdekében.",
+  "A hímek közötti harcok elkerülése végett csak egy hímet tartsunk egy kisebb akváriumban."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

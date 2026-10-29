@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Trichopsis vittata",
+ "id": "trichopsis-vittata",
+ "tipus": "hal",
+ "latin": "Trichopsis vittata",
+ "regi_latin_nevek": [
+  "Osphronemus vittatus"
+ ],
+ "magyar_nev": "Morgó gurámi",
+ "egyeb_nevek": [
+  "Nagy morgógurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirint halak",
+ "szarmazas": "Délkelet-Ázsia (Indokína, Indonézia)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kissé félénk faj. Fenyegetéskor vagy párzási időszakban jól hallható morgó, kattogó hangot ad ki.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de leginkább az apró élő és fagyasztott tápokat (pl. artémia, szúnyoglárva) kedveli, elfogadja a lemezes tápot is.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés fajokkal (pl. kis pontyfélék",
+  "razbórák",
+  "páncélosharcsák)."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív vagy túlzottan mozgékony halak",
+  "amelyek megfélemlíthetik."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk lágy, kissé savanyú vizet és alacsony vízszintet (15-20 cm) a különálló ívató akváriumban.",
+  "Helyezzünk a vízfelszínre úszó növényeket, ahová a hím a habfészket építi.",
+  "Ívás után a nőstényt távolítsuk el, a fészket és az ikrákat a hím gondozza.",
+  "Az ikrák 24-36 óra alatt kelnek ki, a szabadon úszó ivadékot papucsállatkával és artémia naupliuszokkal etessük."
+ ],
+ "ivari_kulonbseg": "A hímek úszói hosszabbak, kihegyesedők, színeik élénkebbek, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Megnyúlt, oldalról lapított testforma",
+  "Testén hosszanti sötétcsíkok húzódnak",
+  "Az úszók kék és piros pettyezettségűek",
+  "Nagy, világító kékes-zöldes szemek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichopsis pumila",
+   "magyar_nev": "Törpe morgógurámi",
+   "kulonbseg": "Jelentősen kisebb méretű (max 4 cm) és zömökebb."
+  },
+  {
+   "latin": "Trichopsis schalleri",
+   "magyar_nev": "Schaller-morgógurámi",
+   "kulonbseg": "Kevésbé kifejezettek a hosszanti sávjai és a farokúszója kerekdedebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Biztosítsunk dús növényzetet és lassú áramlást, hogy biztonságban érezzék magukat.",
+  "Az akváriumot jól fedjük le, mert a labirint-szervük miatt meleg, párás levegőt kell beszívniuk a vízfelszínről."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

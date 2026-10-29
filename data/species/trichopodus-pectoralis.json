@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Trichopodus pectoralis",
+ "id": "trichopodus-pectoralis",
+ "tipus": "hal",
+ "latin": "Trichopodus pectoralis",
+ "regi_latin_nevek": [
+  "Trichogaster pectoralis"
+ ],
+ "magyar_nev": "Márványos gurámi",
+ "egyeb_nevek": [
+  "Kígyóbőr gurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae (Labirinthalak)",
+ "csoport": "Labirint-kopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Mekong és Chao Phraya medence)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagy mérete ellenére kifejezetten békés és nyugodt hal. Más fajokkal szemben elviselő, a hímek csak ívás idején védik a fészket.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.8,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, étvágya nagy. Elfogad száraz tápokat, fagyasztott és élő eleséget, valamint leforrázott zöldségeket is.",
+ "tarsithato": [
+  "Közepes és nagyobb testű békés halakkal (márnák",
+  "dániók",
+  "nagyobb pontylazacok",
+  "harcsák)."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek és a fonalas úszókat csipkedő kisebb halak."
+ ],
+ "szaporodas_mod": "Habfészket épít",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím nagyméretű habfészket épít a felszíni növények közé.",
+  "Párzás során az ikrák a fészekbe lebegnek, a hím segíti elhelyezkedésüket.",
+  "Az ívást követően a nőstényt érdemes különvenni.",
+  "A hím gondoskodik a fészekről a kikelésig.",
+  "Az apró ivadékok infuzóriával és frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója hosszabb, hegyesebb végű, míg a nőstényeké rövidebb és kerekítettebb.",
+ "felismeres_jegyek": [
+  "Szürkés-zöldes vagy barna alapszín kígyóbőrhöz hasonló sötét mintázattal.",
+  "A szájtól a farokig húzódó, néha szaggatott sötét vízszintes sáv.",
+  "Nagy, robusztus testalkat (a legnagyobb Trichopodus faj).",
+  "Megnyúlt, fonalas hasúszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichopodus trichopterus",
+   "magyar_nev": "Kék gurámi",
+   "kulonbseg": "Kisebb termetű, kék vagy sárgás színváltozatú, oldalán kerek sötét foltok vannak."
+  },
+  {
+   "latin": "Trichopodus microlepis",
+   "magyar_nev": "Holdfénygurámi",
+   "kulonbseg": "Teljesen ezüstös színű, hiányzik róla a kígyóbőrszerű mintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélféreg-fertőzés"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "A kifejlett példányok nagy mérete miatt mindenképpen tágas, legalább 200 literes akváriumot igényelnek.",
+  "A lassú vízáramlást és a növényekkel dúsan beültetett búvóhelyeket kedvelik."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

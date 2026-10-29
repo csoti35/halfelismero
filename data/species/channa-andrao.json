@@ -1,0 +1,83 @@
+{
+ "id": "channa-andrao",
+ "tipus": "hal",
+ "latin": "Channa andrao",
+ "regi_latin_nevek": [
+  "Channa sp. 'Lal Cheng'"
+ ],
+ "magyar_nev": "Kék kígyófejű hal",
+ "lista_nev": "Channa andrao",
+ "egyeb_nevek": [
+  "Andrao kígyófejű hala"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Channidae",
+ "csoport": "Kígyófejű halak",
+ "szarmazas": "India (Nyugat-Bengál)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Az egyik legkisebb kígyófejű faj. Párban tartható, de a területét védi. Ragadozó, minden mozgó élőlényre vadászik, ami befér a száján.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Rovarok, lárvák, apró rákok, fagyasztott eleség.",
+ "tarsithato": [
+  "Leginkább csak párban",
+  "fajspecifikus akváriumban."
+ ],
+ "kerulendo": [
+  "Bármilyen hal",
+  "ami kisebb nála",
+  "más kígyófejűek."
+ ],
+ "szaporodas_mod": "Apai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "A pár kialakulása után az ívás a víz alatt történik.",
+  "A hím a szájába veszi az ikrákat és ott költi ki őket.",
+  "A forgatás alatt a hím nem eszik.",
+  "Az ivadékok elúszás után apró élő eleséget igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója magasabb és több rajta a kék szín, a nőstények vörösesebb testűek.",
+ "felismeres_jegyek": [
+  "Hiányzó hasúszók",
+  "intenzív kék szegély a hát- és farokúszón",
+  "sötétbarna test vöröses foltokkal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Channa bleheri",
+   "magyar_nev": "Szivárványos kígyófejű hal",
+   "kulonbseg": "Nem szájköltő, több narancssárga szín a farokúszón."
+  },
+  {
+   "latin": "Channa orientalis",
+   "magyar_nev": "Ceylon-i kígyófejű hal",
+   "kulonbseg": "Kevésbé élénk kék színek, eltérő származási hely."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések",
+  "Vitaminhiány nem megfelelő táplálás esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 5000,
+ "ar_ft_max": 10000,
+ "tippek": [
+  "Dús növényzetet és sok búvóhelyet igényel.",
+  "A téli időszakban tartsuk hűvösebb vízben (18-20 fok) a természetes ciklus fenntartásához."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

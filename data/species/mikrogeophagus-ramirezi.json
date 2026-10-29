@@ -1,0 +1,93 @@
+{
+ "id": "mikrogeophagus-ramirezi",
+ "tipus": "hal",
+ "lista_nev": "Mikrogeophagus ramirezi",
+ "latin": "Mikrogeophagus ramirezi",
+ "regi_latin_nevek": [
+  "Apistogramma ramirezi",
+  "Papiliochromis ramirezi"
+ ],
+ "magyar_nev": "Pillangósügér (ramirezi)",
+ "egyeb_nevek": [
+  "Ramirezi",
+  "Pillangósügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Törpesügérek",
+ "szarmazas": "Dél-Amerika (Venezuela, Kolumbia - Orinoco vízrendszere)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de területvédő sügér. Párban tartható, íváskor agresszívabbá válhat a betolakodókkal szemben.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 5.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Mindenevő, de igényli az élő és fagyasztott eleséget (artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "páncélos harcsák",
+  "kisebb loricariidák."
+ ],
+ "kerulendo": [
+  "Durva",
+  "agresszív halak",
+  "nagytestű sügérek",
+  "hidegvizű fajok."
+ ],
+ "szaporodas_mod": "Szabadon ívó, kőre vagy levélre rakja az ikráit.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy (1-3 GH) és savas víz biztosítása.",
+  "Hőmérséklet emelése 28-29 fokra.",
+  "Lapos kő vagy széles levél biztosítása ívóhelynek.",
+  "A szülők közösen gondozzák az ikrákat és az ivadékot.",
+  "Az ivadékok frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszójának második sugara hosszabb, a nőstények hasa íváskor rózsaszínes-vöröses.",
+ "felismeres_jegyek": [
+  "Ovális, oldalról lapított test.",
+  "Sárgás-kékes irizáló pikkelyek.",
+  "Fekete függőleges sáv a szemen keresztül.",
+  "Fekete folt az oldal közepén.",
+  "Megnyúlt első hátúszósugarak a hímeknél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mikrogeophagus altispinosus",
+   "magyar_nev": "Bolíviai pillangótörpesügér",
+   "kulonbseg": "Nagyobb termetű, kevésbé élénk színezetű, de ellenállóbb."
+  },
+  {
+   "latin": "Apistogramma borellii",
+   "magyar_nev": "Sárga törpesügér",
+   "kulonbseg": "Más testforma, a hímek úszói sokkal fátyolosabbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hexamita (lyukbetegség)",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Nagyon érzékeny a nitrátra és a vízminőség ingadozására.",
+  "Csak beállt, biológiailag stabil akváriumba telepítsük.",
+  "A tenyésztett változatok (pl. Electric Blue) gyakran gyengébb szervezetűek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

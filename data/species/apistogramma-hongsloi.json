@@ -1,0 +1,86 @@
+{
+ "id": "apistogramma-hongsloi",
+ "tipus": "hal",
+ "latin": "Apistogramma hongsloi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vöröscsíkos törpesügér",
+ "egyeb_nevek": [
+  "Hongslo törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Kolumbia, Venezuela, Orinoco medence)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés, de a hímek egymással szemben területvédők. Párban vagy háremben tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Húsevő; kedveli az élő és fagyasztott eleségeket, de a jó minőségű granulátumot is elfogadja.",
+ "tarsithato": [
+  "Kisebb pontylazacok",
+  "baltahasú halak",
+  "békés fenéklakók."
+ ],
+ "kerulendo": [
+  "Domináns sügérfajok",
+  "agresszív díszmárnák."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (1-3 GH) és savas víz szükséges az ikrák kikeléséhez.",
+  "Sűrű növényzet és sok búvóhely biztosítása.",
+  "Változatos, élő eleséggel való etetés.",
+  "A nőstény a barlangba ikrázik, majd elűzi a hímet.",
+  "Az ivadékok 3-4 nap után úsznak el, ekkor sórákkal etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, testük alsó részén és a faroktőnél élénkvörös foltok találhatók. A nőstények kisebbek és sárgásak.",
+ "felismeres_jegyek": [
+  "A hímek testén, különösen a hasi részen vörös elszíneződés látható.",
+  "A hátúszó első sugarai nem nyúlnak meg látványosan.",
+  "A farokúszó lekerekített.",
+  "A hímek pofáján kékes-vöröses irizáló minták lehetnek.",
+  "A nőstényeknél fekete folt látható az oldalvonal közepén."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma macmasteri",
+   "magyar_nev": "Díszes törpesügér",
+   "kulonbseg": "A macmasteri robusztusabb, és a vörös szín inkább az úszók szegélyén dominál."
+  },
+  {
+   "latin": "Apistogramma hoignei",
+   "magyar_nev": "Hoigne törpesügér",
+   "kulonbseg": "A hoignei farokúszója vörös keretes, a hongsloi-nál a vörös szín a testre is kiterjed."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélgyulladás",
+  "Gombásodás",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2200,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "A tenyésztett változatok (pl. 'Red') sokkal színesebbek, mint a vadon élő példányok.",
+  "A víz nitráttartalmát tartsuk nagyon alacsonyan.",
+  "Használjunk sötét aljzatot, hogy a színeik jobban érvényesüljenek."
+ ],
+ "lista_nev": "Apistogramma hongsloi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

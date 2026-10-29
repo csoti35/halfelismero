@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Macropodus ocellatus",
+ "id": "macropodus-ocellatus",
+ "tipus": "hal",
+ "latin": "Macropodus ocellatus",
+ "regi_latin_nevek": [
+  "Macropodus chinensis"
+ ],
+ "magyar_nev": "Koreai paradicsomhal",
+ "egyeb_nevek": [
+  "Kerekfarkú paradicsomhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirinthalak",
+ "szarmazas": "Kelet-Ázsia (Kína, Korea, Oroszország távol-keleti része)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő faj, de a kínai paradicsomhalnál kissé nyugodtabb. Kerti tóban és kifejezetten hideg vízben is tartható.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 4,
+ "homerseklet_max": 22,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Aktiv ragadozó, fagyasztott és élő eleségeket, kisebb rovarokat, szúnyoglárvákat fogyaszt.",
+ "tarsithato": [
+  "Hidegvizi halakkal, mint a szivárványos cselle vagy kisebb aranyhalak, kerti tavi fajok."
+ ],
+ "kerulendo": [
+  "Trópusi, melegkedvelő halak, lassan mozgó fátyolos fajok, apró garnélák."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Teleltetés szükséges a sikeres íváshoz (pár hét 10 °C alatti hőmérsékleten).",
+  "Tavasszal a hőmérséklet emelésével (18-20 °C) stimulálható a szaporodás.",
+  "A hím habfészket épít a vízfelszíni növények közt.",
+  "Az ívást követően a nőstényt célszerű különvenni.",
+  "A hím őrzi az ikrákat és a kikelt ivadékokat az elúszásig."
+ ],
+ "ivari_kulonbseg": "A hímek színe szaporodási időszakban mély kékesszürke vagy barnás, úszóik hosszabbak és pontozottak, míg a nőstények fakóbbak.",
+ "felismeres_jegyek": [
+  "Kerek, nem villás farokúszó",
+  "Kopoltyúfedőn szembetűnő, sötét, világos szegélyű szemfolt (ocellusz)",
+  "Testszín szürkésbarna, szaporodáskor sötétkékbe hajló",
+  "A páratlan úszók világos pontokkal mintázottak",
+  "Mérsékelten megnyúlt testalkat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Macropodus opercularis",
+   "magyar_nev": "Kínai paradicsomhal",
+   "kulonbseg": "Villás farokúszója és kifejezett piros-kék csíkozása van."
+  },
+  {
+   "latin": "Macropodus erythropterus",
+   "magyar_nev": "Vöröshátú paradicsomhal",
+   "kulonbseg": "Vöröses háttájék és villás farokúszó jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Túl meleg víz miatti legyengülés és gombásodás",
+  "Grízbetegség"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kifejezetten hidegkedvelő hal, lakásban fűtött akváriumban nem tartható hosszabb távon sikeresen.",
+  "Kültéri kerti tóban Magyarországon is átteleltethető, ha a tó elég mély és nem fagy le az aljáig."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

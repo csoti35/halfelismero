@@ -1,0 +1,82 @@
+{
+ "id": "microctenopoma-ansorgii",
+ "tipus": "hal",
+ "latin": "Microctenopoma ansorgii",
+ "regi_latin_nevek": [
+  "Ctenopoma ansorgii"
+ ],
+ "magyar_nev": "Sávos törpebozóthal",
+ "egyeb_nevek": [
+  "Narancssávos bozóthal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Anabantidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Afrika (Kongó-medence)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Visszahúzódó, félénk hal. Fajon belül a hímek rivalizálhatnak, de nem okoznak kárt egymásban.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Igényes: főleg élő eleséget (vörös szúnyoglárva, tubifex) igényel, a száraz tápot nehezen fogadja el.",
+ "tarsithato": [
+  "Békés",
+  "kistestű afrikai lazacok",
+  "kisebb harcsák."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "agresszív halak",
+  "amelyek eleszik előle a táplálékot."
+ ],
+ "szaporodas_mod": "habfészeképítő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy, tőzeggel szűrt víz szükséges.",
+  "A hím kis habfészket épít, gyakran egy levél alá.",
+  "Az ívás során a hím átöleli a nőstényt.",
+  "A hím őrzi a fészket a kikelésig.",
+  "Az ivadékok nagyon aprók, infuzória szükséges az indításhoz."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal színesebbek, narancssárga és fekete sávjaik élénkek, úszóik hosszabbak.",
+ "felismeres_jegyek": [
+  "Zömök test",
+  "függőleges sötét és narancssárga sávok",
+  "lekerekített úszók",
+  "viszonylag nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Microctenopoma nanum",
+   "magyar_nev": "Törpe bozóthal",
+   "kulonbseg": "Kevésbé kontrasztos sávok, inkább barnás alapszín."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség",
+  "érzékeny a vízminőség romlására"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Sötét aljzat és sok növényzet mellett érzi magát biztonságban.",
+  "A víz legyen bomlástermékektől mentes, rendszeres részleges vízcsere fontos.",
+  "Érdemes fajspecifikus akváriumban tartani a félénksége miatt."
+ ],
+ "lista_nev": "Microctenopoma ansorgii",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

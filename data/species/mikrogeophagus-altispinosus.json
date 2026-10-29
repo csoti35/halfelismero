@@ -1,0 +1,87 @@
+{
+ "id": "mikrogeophagus-altispinosus",
+ "tipus": "hal",
+ "lista_nev": "Mikrogeophagus altispinosus",
+ "latin": "Mikrogeophagus altispinosus",
+ "regi_latin_nevek": [
+  "Papiliochromis altispinosus"
+ ],
+ "magyar_nev": "Bolíviai pillangótörpesügér",
+ "egyeb_nevek": [
+  "Bolíviai sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Törpesügérek",
+ "szarmazas": "Dél-Amerika (Bolívia, Brazília - Madeira folyó)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nyugodt természetű sügér. Kevésbé agresszív, mint rokona, a ramirezi.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, elfogadja a jó minőségű granulátumokat, de kedveli a fagyasztott eleséget.",
+ "tarsithato": [
+  "Szinte bármilyen békés közösségi hallal",
+  "lazacokkal",
+  "dániókkal."
+ ],
+ "kerulendo": [
+  "Domináns",
+  "agresszív nagy sügérek."
+ ],
+ "szaporodas_mod": "Szabadon ívó, kövekre vagy gödrökbe rakja ikráit.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Párválasztás megvárása egy kisebb csoportból.",
+  "Változatos etetés az ívási kedv meghozatalához.",
+  "Lapos kövek elhelyezése az akváriumban.",
+  "A szülők közösen őrzik az ikrákat.",
+  "Az ivadékok sórákkal indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, úszóik (hát- és farokúszó) végei hosszabbak, hegyesebbek.",
+ "felismeres_jegyek": [
+  "Ezüstös-szürkés alapszín sárgás árnyalattal.",
+  "Fekete folt az oldal közepén.",
+  "A farokúszó szélei vörösesek.",
+  "Sötét sáv a szemen keresztül.",
+  "Robusztusabb testalkat a ramirezinél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mikrogeophagus ramirezi",
+   "magyar_nev": "Pillangótörpesügér",
+   "kulonbseg": "Kisebb, színesebb, de sokkal érzékenyebb a vízre."
+  },
+  {
+   "latin": "Guianacara owroewefi",
+   "magyar_nev": "Guianai sügér",
+   "kulonbseg": "Jóval nagyobbra nő, robusztusabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Sokkal toleránsabb a vízkémiával szemben, mint a ramirezi.",
+  "Szereti a homokos aljzatot, amit szívesen túr át élelem után.",
+  "Növényekkel dúsan beültetett akváriumban érzi jól magát."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Macropodus opercularis",
+ "id": "macropodus-opercularis",
+ "tipus": "hal",
+ "latin": "Macropodus opercularis",
+ "regi_latin_nevek": [
+  "Labrus opercularis"
+ ],
+ "magyar_nev": "Paradicsomhal",
+ "egyeb_nevek": [
+  "Paradicsomhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirinthalak",
+ "szarmazas": "Kelet-Ázsia (Kína, Vietnám, Tajvan)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő és territóriumát agresszívan védi, különösen a hímek egymással szemben. A kisebb halak úszóit csipkedheti.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 16,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 19,
+ "taplalek": "Mindenevő, de a fagyasztott és élő eleségeket (pl. szúnyoglárva, tubifex) kifejezetten kedveli.",
+ "tarsithato": [
+  "Hasonló méretű, gyors mozgású, nem fátyolos úszójú halakkal (pl. nagyobb dániók, márna fajok, páncélosharcsák)."
+ ],
+ "kerulendo": [
+  "Más hím paradicsomhalak, fátyolos úszójú fajok (pl. sziami harcoshal, szkalár), apró neonhalak vagy garnélák."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Ivató akvárium előkészítése alacsony vízállással (15-20 cm) és úszó növényzettel.",
+  "A hím habfészket épít a vízfelszínen az úszónövények levelei között.",
+  "Párzás során a hím átkarolja a nőstényt, az ikrák a fészekbe lebegnek.",
+  "Ívás után a nőstényt el kell távolítani, mert a hím agresszívan védi a fészket.",
+  "Az ikrák kelése után (kb. 24-48 óra) és az ivadékok elúszásakor a hímet is ki kell venni, a kishalakat frissen keltett artémiával lehet etetni."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen színesebbek, páratlan úszóik (hát-, farok- és farokalatti úszó) hosszabbak és hegyesebben kihegyesedők.",
+ "felismeres_jegyek": [
+  "Megnyúlt, oldalról lapított testforma",
+  "Kék és narancsvörös függőleges sávok váltakozása a testen",
+  "A kopoltyúfedőn sötét, fémesen csillogó folt található",
+  "A hímek farokúszója mélyen villás és megnyúlt hegyekben végződik",
+  "Kihúzott, megnyúlt hasúszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Macropodus ocellatus",
+   "magyar_nev": "Koreai paradicsomhal",
+   "kulonbseg": "A farokúszója lekerekített, nem villás, és a hidegebb vizet jobban viseli."
+  },
+  {
+   "latin": "Macropodus spechti",
+   "magyar_nev": "Fekete paradicsomhal",
+   "kulonbseg": "Sötét, csaknem fekete testszín kék szegélyű úszókkal, hiányoznak a piros-kék csíkok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Grízbetegség",
+  "Úszórothadás",
+  "Labyrinth-szerv gyulladása (huzatos/hideg levegő miatt)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Az akváriumot mindig fedni kell, mert jó ugrók, és a felszín feletti hideg levegő beszívása megbetegítheti őket.",
+  "Szobahőmérsékleten, fűtés nélkül is tökéletesen tarthatók lakásban.",
+  "Sűrű növényzetet biztosítsunk számukra, hogy a nőstény el tudjon bújni a hím elől."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

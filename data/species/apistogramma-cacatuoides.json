@@ -1,0 +1,89 @@
+{
+ "id": "apistogramma-cacatuoides",
+ "tipus": "hal",
+ "lista_nev": "Apistogramma cacatuoides",
+ "latin": "Apistogramma cacatuoides",
+ "regi_latin_nevek": [
+  "Apistogramma borellii (tévesen)"
+ ],
+ "magyar_nev": "Kakadu törpesügér",
+ "egyeb_nevek": [
+  "Kakadu sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai törpesügérek",
+ "szarmazas": "Dél-Amerika (Amazonas-medence, Peru, Brazília)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés, de íváskor területvédő. A hímek háremet tartanak, és védelmezik a revírjüket más hímekkel szemben.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de igényli az élő és fagyasztott eleséget (artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Lazacok",
+  "páncélos harcsák",
+  "békés pontylazacok."
+ ],
+ "kerulendo": [
+  "Más agresszív sügérek",
+  "nagytestű halak",
+  "domináns talajlakók."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz biztosítása.",
+  "Megfelelő búvóhelyek, barlangok vagy felfordított cserép elhelyezése.",
+  "A nőstény a barlang mennyezetére ikrázik.",
+  "Az ikrákat és az ivadékokat a nőstény gondozza, a hím a területet védi.",
+  "Az ivadékok frissen kelt artémiával indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek jóval nagyobbak, úszóik (főleg a hátúszó első sugarai) megnyúltak és színesek. A nőstények kisebbek, sárgásabbak.",
+ "felismeres_jegyek": [
+  "Megnyúlt, kakastaréjszerű hátúszó sugarak a hímeknél.",
+  "Lant alakú farokúszó narancssárga-fekete mintázattal.",
+  "Széles, fekete hosszanti sáv az oldalon.",
+  "Nagy száj, robusztusabb fejforma a többi Apistogrammához képest."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma agassizii",
+   "magyar_nev": "Agassiz törpesügér",
+   "kulonbseg": "A farokúszója lándzsa alakú, nem lant alakú."
+  },
+  {
+   "latin": "Apistogramma nijsseni",
+   "magyar_nev": "Panda törpesügér",
+   "kulonbseg": "Zömökebb testalkat, a nőstényeken nagy fekete foltok vannak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélparaziták",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Érdemes egy hímet több nősténnyel tartani (hárem).",
+  "Aljzatnak használjunk finom homokot, mert szeretnek benne turkálni.",
+  "A rendszeres részleges vízcserék elengedhetetlenek a nitrátérzékenységük miatt."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

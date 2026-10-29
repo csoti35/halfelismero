@@ -1,0 +1,87 @@
+{
+ "id": "apistogramma-borellii",
+ "tipus": "hal",
+ "lista_nev": "Apistogramma borellii",
+ "latin": "Apistogramma borellii",
+ "regi_latin_nevek": [
+  "Apistogramma reitzigi"
+ ],
+ "magyar_nev": "Sárga törpesügér",
+ "egyeb_nevek": [
+  "Borelli törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai törpesügérek",
+ "szarmazas": "Dél-Amerika (Paraguay, Argentína, Brazília déli része)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Az egyik legbékésebb Apistogramma faj. Csak íváskor válik területvédővé, de akkor sem agresszív.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Húsevő; apró élő és fagyasztott eleségek, jó minőségű granulátumok.",
+ "tarsithato": [
+  "Kisebb pontylazacok",
+  "páncélos harcsák",
+  "baltahasú lazacok."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak",
+  "domináns sügérek."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lágy víz és 24-25 fokos hőmérséklet.",
+  "Búvóhelyek (cserép, kókuszdió) biztosítása.",
+  "A nőstény az ikrázás után élénksárga színt ölt.",
+  "Az ivadékokat a nőstény gondozza, gyakran a hím is részt vesz a védelemben.",
+  "Indítás sórák lárvával."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, testük kékes fényű, úszóik hosszabbak. A nőstények kisebbek és sárgásabbak.",
+ "felismeres_jegyek": [
+  "Magas hátúszó, amely a hímeknél vitorlaszerű.",
+  "A hímek feje és teste kékes-ezüstös, sárga arcrésszel.",
+  "Kerekített farokúszó.",
+  "Nincs markáns fekete oldalvonal a kifejlett hímeken."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma cacatuoides",
+   "magyar_nev": "Kakadu törpesügér",
+   "kulonbseg": "A kakadu nagyobb, és a hátúszója sugaras, nem vitorlaszerű."
+  },
+  {
+   "latin": "Apistogramma trifasciata",
+   "magyar_nev": "Háromsávos törpesügér",
+   "kulonbseg": "A trifasciata oldalán három jól látható sötét sáv fut."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3800,
+ "tippek": [
+  "Jól bírja az alacsonyabb hőmérsékletet is, nem igényel trópusi hőséget.",
+  "Sűrű növényzetet és sok búvóhelyet igényel a biztonságérzethez.",
+  "Párban vagy háremben is tartható."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

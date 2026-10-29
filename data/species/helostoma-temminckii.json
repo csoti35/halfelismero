@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Helostoma temminckii",
+ "id": "helostoma-temminckii",
+ "tipus": "hal",
+ "latin": "Helostoma temminckii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Csókolózó gurámi",
+ "egyeb_nevek": [
+  "Csókfajta gurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Helostomatidae",
+ "csoport": "Labirinthalak",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Indonézia, Malajzia)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő hal, amely fajtársaival gyakran összeméri az erejét: szájukat egymáshoz nyomva 'csókolóznak', ami valójában erőfitogtatás. Kisebb halakat bekaphat.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de jelentős növényi étrendet és algát igényel, emellett elfogadja a fagyasztott és száraz tápokat is.",
+ "tarsithato": [
+  "Hasonló méretű",
+  "nem túl agresszív fajokkal (pl. nagyobb márniákkal",
+  "harcsákkal",
+  "nagyobb gurámikkal)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "finom levelű akváriumi növények (mert megeszi őket)",
+  "nagyon agresszív sügérek."
+ ],
+ "szaporodas_mod": "Ikrázó, szabadon ívó (nem épít habfészket, ikrái a vízfelszínen lebegnek).",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Biztosítsunk egy nagy méretű (legalább 150-200 literes) külön ívató akváriumot lágy és enyhén savas vízzel.",
+  "Etessünk bőségesen élő és fagyasztott tápokkal az ívási kedv meghozásához.",
+  "Íváskor a halak egymás köré tekerednek, a felszínre úszó ikrákat nem gondozzák.",
+  "Ívás után a szülőket azonnal el kell távolítani, mert megehetik az ikrákat.",
+  "Az kikelő ivadékokat legfinomabb infuzóriával, majd frissen keltett artémiával etessük."
+ ],
+ "ivari_kulonbseg": "Külsőleg szinte megkülönböztethetetlenek, az ivarérett nőstények teste kerekdedebb, teltebb.",
+ "felismeres_jegyek": [
+  "Jellegzetes, előrenyújtható, vastag húsos ajkak belső apró fogakkal.",
+  "Akváriumi változata általában rózsaszínes-fehéres fényű, vadon élő alakja zöldes-ezüstös.",
+  "Oldalról erősen lapított, magas testfelépítés.",
+  "Hosszú hát- és farok alatti úszók, melyek majdnem elérik a kerekded farokúszót."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichopodus trichopterus",
+   "magyar_nev": "Kék gurámi",
+   "kulonbseg": "Mellúszói fonalassá nyúltak, szája normál felépítésű, testén foltok találhatók."
+  },
+  {
+   "latin": "Osphronemus goramy",
+   "magyar_nev": "Óriásgurámi",
+   "kulonbseg": "Sokkal nagyobbra nő, felnőttebb korában feje bütykös, szája nem 'csókolózó' típusú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Haskór",
+  "Bélféregtelenség hirtelen étrendváltáskor"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Fiatalon aprók és aranyosak, de nagyon gyorsan akkorára nőnek, hogy hatalmas akváriumot igényelnek.",
+  "A finom levelű élő növényeket lelegeli, ezért inkább kemény levelű fajokat (pl. Anubias) vagy műnövényeket használjunk."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

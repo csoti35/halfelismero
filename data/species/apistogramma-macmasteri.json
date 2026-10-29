@@ -1,0 +1,87 @@
+{
+ "id": "apistogramma-macmasteri",
+ "tipus": "hal",
+ "latin": "Apistogramma macmasteri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Díszes törpesügér",
+ "egyeb_nevek": [
+  "Macmaster törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Kolumbia, Meta-folyó medencéje)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés természetű, de íváskor és ivadékgondozáskor területvédővé válik. A hímek háremet tarthatnak.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 10,
+ "taplalek": "Mindenevő, de igényli az élő és fagyasztott eleséget (artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "páncélos harcsák",
+  "otocinclusok."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "túlságosan mozgékony halak."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz biztosítása.",
+  "Megfelelő búvóhelyek és barlangok (pl. kókuszdió) elhelyezése.",
+  "Bőséges élő eleséggel történő kondicionálás.",
+  "A nőstény az ikrákat a barlang falára ragasztja és egyedül gondozza.",
+  "Az ivadékok frissen kelt artémiával indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, színesebbek, úszóik megnyúltak. A nőstények kisebbek, sárgásabbak, különösen íváskor.",
+ "felismeres_jegyek": [
+  "Zömökebb testfelépítés más Apistogrammákhoz képest.",
+  "A hímek farkúszója és hátúszója vöröses szegélyű.",
+  "Sötét oldalvonal, amely gyakran foltokra szakad.",
+  "A hímek pofáján vörös mintázat látható.",
+  "A nőstények nászidőszakban élénksárgák, fekete foltokkal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma viejita",
+   "magyar_nev": "Viejita törpesügér",
+   "kulonbseg": "A viejita teste nyúlánkabb, a macmasteri zömökebb és a hímek hátúszója magasabb."
+  },
+  {
+   "latin": "Apistogramma hongsloi",
+   "magyar_nev": "Vöröscsíkos törpesügér",
+   "kulonbseg": "A hongsloi testének alsó részén és a faroktőnél intenzívebb a vörös szín."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélparaziták",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Érzékenyek a vízminőségre, a rendszeres részleges vízcsere elengedhetetlen.",
+  "Használjunk égertobozt vagy tőzeget a víz lágyításához és sötétítéséhez.",
+  "Aljzatnak finom szemcséjű homokot válasszunk."
+ ],
+ "lista_nev": "Apistogramma macmasteri",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

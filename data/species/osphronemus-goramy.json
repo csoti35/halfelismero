@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Osphronemus goramy",
+ "id": "osphronemus-goramy",
+ "tipus": "hal",
+ "latin": "Osphronemus goramy",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Óriásgurámi",
+ "egyeb_nevek": [
+  "Valódi gurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirinthalak",
+ "szarmazas": "Délkelet-Ázsia (Indonézia, Thaiföld, Vietnám)",
+ "max_meret_cm": 50,
+ "elettartam_ev": 20,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fiatalon békés, de növekedésével területhódítóvá és dominánssá válik. A kisebb halakat megeszi, fajtársaival szemben agresszív lehet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 700,
+ "homerseklet_min": 22,
+ "homerseklet_max": 30,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, felnőttként főleg növényi táplálékot, zöldségeket, gyümölcsöket fogyaszt, de a húsos tápokat is elfogadja.",
+ "tarsithato": [
+  "Más nagy testű",
+  "robusztus halakkal (pl. nagy pacuk",
+  "sügérek",
+  "nagyobb harcsák)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "lassú és kisterjedelmű akváriumi lakók",
+  "lágy növények."
+ ],
+ "szaporodas_mod": "Habfészeképítő.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Hatalmas méretű ívatómedencére van szükség bőséges növényi törmelékkel és lebegő növényekkel.",
+  "A hím nagy méretű habfészket épít növényi darabok és buborékok felhasználásával.",
+  "Párzás után a hím a fészekbe gyűjti az ikrákat.",
+  "Ívás után a nőstényt el kell távolítani, mert a hím agresszívan védi a fészket.",
+  "Az ivadékok kikelése után a hímet is ki kell venni."
+ ],
+ "ivari_kulonbseg": "Az idős hímek fején jellegzetes zsírpúp alakul ki, és hát- valamint farok alatti úszójuk hegyesebb.",
+ "felismeres_jegyek": [
+  "Hatalmas, robusztus, oldalról lapított test.",
+  "Idős példányoknál kifejezett homlokpúp és kiugró állkapocs.",
+  "Hosszú, fonalszerűen megnyúlt hasúszók.",
+  "Fiatalon csíkos és hegyes orrú, felnőttre egyszínűbbé, szürkés-barnássá változik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Helostoma temminckii",
+   "magyar_nev": "Csókolózó gurámi",
+   "kulonbseg": "Kisebb méretű, ajkai kifejezetten csókolózó szerkezetűek, nincsen homlokpúpja."
+  },
+  {
+   "latin": "Trichopodus leerii",
+   "magyar_nev": "Gyöngygurámi",
+   "kulonbseg": "Sokkal kisebb, testét gyöngyházfényű mintázat borítja."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bőrgombásodás sérülések után",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Csak rendkívül nagy akváriummal rendelkező akvaristáknak ajánlott, mert gyorsan megnő.",
+  "Kifejezetten intelligens hal, idővel felismeri a gondozóját és kézből is elfogadja az eledelt."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}
