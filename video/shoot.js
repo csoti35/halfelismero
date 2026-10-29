@@ -73,7 +73,7 @@ async function wireCss(page) {
   await page.addInitScript(() => {
     try { localStorage.setItem('aquaFajProSeenGuide', '1'); } catch (e) {}
   });
-  page.on('framenavigated', f => { if (f === page.mainFrame()) console.log('NAV ' + f.url().slice(0, 120)); });
+  page.on('framenavigated', f => { if (f === page.mainFrame()) console.log('::notice::NAV ' + f.url().slice(0, 160)); });
   await page.goto(APP); await page.waitForTimeout(2500);
   const hl = async sel => page.evaluate(s => { document.querySelectorAll('.demo-hl').forEach(e => { e.classList.remove('demo-hl'); e.style.outline = ''; e.style.boxShadow = ''; }); const e = s && document.querySelector(s); if (e) { e.classList.add('demo-hl'); e.style.outline = '3px solid #fbbf24'; e.style.outlineOffset = '3px'; e.style.boxShadow = '0 0 0 9px rgba(251,191,36,.25)'; e.style.borderRadius = '12px'; } }, sel);
   const prep = async () => { await page.evaluate(() => { document.querySelectorAll('[id$="Modal"]').forEach(m => m.classList.add('hidden')); }); await page.waitForTimeout(400); };
