@@ -113,7 +113,7 @@ async function wireCss(page) {
   for (const t of ['fehér pöttyök', 'dörzsölődik a tárgyakon', 'nem eszik', 'új halat tettem be nemrég']) await page.evaluate(t => addSymptom(t), t);
   await page.evaluate(() => { const n = document.getElementById('scanNote'); n.value += ', guppi, 2 napja kezdődött'; document.getElementById('scanModes').scrollIntoView({ block: 'start' }); scrollBy(0, -20); });
   await page.waitForTimeout(400); await hl('#scanNote'); await shot('symptoms'); await hl(null);
-  await page.evaluate(() => analyzeTextOnly()); await page.waitForTimeout(2500); await prep();
+  await page.waitForTimeout(500); await page.evaluate(d => showScanResult(d), SICK).catch(async e => { console.log('::warning::' + e.message.slice(0, 120)); await page.waitForTimeout(1500); await page.evaluate(d => { setScanMode('beteg'); showScanResult(d); }, SICK); }); await page.waitForTimeout(800); await prep();
   await page.evaluate(() => { const e = [...document.querySelectorAll('#scanResultContent div')].find(d => /Mit tegyél most/.test(d.textContent) && d.className.includes('rounded-xl')); e.scrollIntoView({ block: 'start' }); scrollBy(0, -260); }); await page.waitForTimeout(400);
   await shot('disease');
   await page.evaluate(() => { setScanMode('hal'); document.getElementById('scanNote').value = ''; document.getElementById('scanResultContent').innerHTML = ''; });
