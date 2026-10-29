@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-29",
-"darab": 211,
+"darab": 219,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -521,6 +521,58 @@
 "ellenorzott": false
 },
 {
+"id": "betta-albimarginata",
+"tipus": "hal",
+"latin": "Betta albimarginata",
+"magyar_nev": "Fehérszegélyes harcoshal",
+"egyeb_nevek": [
+"Fehérszegélyes betta"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 5.0,
+"ph_max": 6.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "betta-channoides",
+"tipus": "hal",
+"latin": "Betta channoides",
+"magyar_nev": "Kígyófejű harcoshal",
+"egyeb_nevek": [
+"Kígyófejű betta"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 4.5,
+"ph_max": 6.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 4000,
+"ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
 "id": "betta-imbellis",
 "tipus": "hal",
 "latin": "Betta imbellis",
@@ -547,6 +599,32 @@
 "ellenorzott": false
 },
 {
+"id": "betta-macrostoma",
+"tipus": "hal",
+"latin": "Betta macrostoma",
+"magyar_nev": "Nagyszájú harcoshal",
+"egyeb_nevek": [
+"Brunei harcoshal"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 11,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 100,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 4.5,
+"ph_max": 6.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 25000,
+"ar_ft_max": 60000,
+"ellenorzott": false
+},
+{
 "id": "betta-mahachaiensis",
 "tipus": "hal",
 "latin": "Betta mahachaiensis",
@@ -570,6 +648,32 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 4500,
 "ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
+"id": "betta-pugnax",
+"tipus": "hal",
+"latin": "Betta pugnax",
+"magyar_nev": "Közönséges szájköltő harcoshal",
+"egyeb_nevek": [
+"Erdei harcoshal"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 9,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 5500,
 "ellenorzott": false
 },
 {
@@ -622,6 +726,34 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1200,
 "ar_ft_max": 8000,
+"ellenorzott": false
+},
+{
+"id": "betta-unimaculata",
+"tipus": "hal",
+"latin": "Betta unimaculata",
+"magyar_nev": "Egyfoltos harcoshal",
+"egyeb_nevek": [
+"Sárkányharcoshal"
+],
+"regi_latin_nevek": [
+"Parophiocephalus unimaculatus"
+],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 120,
+"homerseklet_min": 21,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felső-középső",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 6000,
+"ar_ft_max": 14000,
 "ellenorzott": false
 },
 {
@@ -5655,6 +5787,92 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 450,
 "ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "trichogaster-chuna",
+"tipus": "hal",
+"latin": "Trichogaster chuna",
+"magyar_nev": "Mézgurámi",
+"egyeb_nevek": [
+"Mézszínű gurámi"
+],
+"regi_latin_nevek": [
+"Colisa chuna",
+"Colisa sota"
+],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
+"ar_ft_max": 2000,
+"ellenorzott": false
+},
+{
+"id": "trichogaster-fasciata",
+"tipus": "hal",
+"latin": "Trichogaster fasciata",
+"magyar_nev": "Sávos gurámi",
+"egyeb_nevek": [
+"Óriás törpegurámi",
+"Csíkos gurámi"
+],
+"regi_latin_nevek": [
+"Colisa fasciata"
+],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 11,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 21,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2600,
+"ellenorzott": false
+},
+{
+"id": "trichogaster-lalius",
+"tipus": "hal",
+"latin": "Trichogaster lalius",
+"magyar_nev": "Törpegurámi",
+"egyeb_nevek": [
+"Törpe lalia"
+],
+"regi_latin_nevek": [
+"Colisa lalia"
+],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {

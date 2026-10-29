@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Betta pugnax",
+ "id": "betta-pugnax",
+ "tipus": "hal",
+ "latin": "Betta pugnax",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Közönséges szájköltő harcoshal",
+ "egyeb_nevek": [
+  "Erdei harcoshal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Malajzia, Szingapúr, Szumátra)",
+ "max_meret_cm": 9,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű labirintkopoltyús, fajtársaival szemben a hímek ritkán mutatnak komoly agressziót, inkább csak pózolnak. Kis méretű garnélákat elfogyaszthat.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Mindenevő ragadozó hajlammal; fagyasztott és élő eleségek (szúnyoglárva, artémia, daphnia), de a száraz lemezes és granulált tápokat is hamar megszokja.",
+ "tarsithato": [
+  "Békés ázsiai pontyfélékkel (pl. ékfoltos razbóra)",
+  "dániókkal",
+  "békés csíkfélékkel és harcsákkal."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek",
+  "csipkelődő díszmárnák",
+  "apró garnélák."
+ ],
+ "szaporodas_mod": "Apai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Jól beállított, dús növényzetű akváriumban párban vagy kisebb csapatban tartsuk őket.",
+  "Kondicionáljuk a párt élő vagy fagyasztott eleségekkel.",
+  "Az ikrázási ölelés után a nőstény összeszedi az ikrákat és a hím felé köpi azokat.",
+  "A hím 10-14 napig költi az ikrákat a szájában, eközben rejtőzködik.",
+  "A kiengedett kishalak egyből elfogadják a frissen kelt artémiát vagy mikrót."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, fejük szélesebb, páratlan úszóik (különösen a farok alatti úszó) megnyúltak, kopoltyúfedőjükön és pikkelyeiken kékeszöld irizálás látható. A nőstények zömökebbek, színezetük fakóbb barna.",
+ "felismeres_jegyek": [
+  "Hosszúkás, kissé hengeres testalkat, tompa orr.",
+  "Barnás-szürkés alapszín a pikkelyeken és a kopoltyún kékeszöld csillogással.",
+  "A hímek farok alatti úszója hegyes és megnyúlt.",
+  "Gyakran látható sötét sáv a szemtől a kopoltyúfedő felé.",
+  "A nőstények mintázata egyszerűbb, fakó sávos."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta taeniata",
+   "magyar_nev": "Szalagos harcoshal",
+   "kulonbseg": "Kisebb termetű, testén markánsabb hosszanti sötét csíkok futnak végig."
+  },
+  {
+   "latin": "Betta breviobesus",
+   "magyar_nev": "Betta breviobesus",
+   "kulonbseg": "Zömökebb, rövidebb testalkatú faj."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bakteriális uszonyrothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5500,
+ "tippek": [
+  "Kiváló faj a szájköltő vadbetták tartásával ismerkedő akvaristáknak.",
+  "Biztosítsunk számára gyökerekből és száraz falevelekből kialakított búvóhelyeket.",
+  "Az akváriumot alaposan le kell fedni, mert ijedtében kiugorhat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

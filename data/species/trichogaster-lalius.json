@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Trichogaster lalius",
+ "id": "trichogaster-lalius",
+ "tipus": "hal",
+ "latin": "Trichogaster lalius",
+ "regi_latin_nevek": [
+  "Colisa lalia"
+ ],
+ "magyar_nev": "Törpegurámi",
+ "egyeb_nevek": [
+  "Törpe lalia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Dél-Ázsia (India, Pakisztán, Banglades)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Alapvetően békés, nyugodt faj, de a hímek egymással szemben territoriálisak lehetnek. Zavaros, túl gyors sodrású vízben vagy domináns fajok mellett félénkké válik.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; száraz lemezes és apró szemű granulátum, valamint fagyasztott és élő eleségek (szúnyoglárva, daphnia, artémia).",
+ "tarsithato": [
+  "Békés kistestű pontylazacok",
+  "dániók",
+  "razbórák",
+  "páncélosharcsák és békés törpesügérek."
+ ],
+ "kerulendo": [
+  "Úszócsipkedő fajok (pl. szumátrai díszmárna)",
+  "más domináns labirintkopoltyúsok",
+  "nagytestű vagy agresszív halak."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy 20-30 literes ívató akváriumot sekély, 15-20 cm-es vízszinttel és úszónövényzettel.",
+  "Emeljük a hőmérsékletet 26-28 °C-ra, és lágyítsuk enyhén a vizet.",
+  "Kondicionáljuk a párt élő vagy minőségi fagyasztott eleséggel.",
+  "A hím növényi törmelékkel kevert habfészket épít, majd a fészek alá csalja a nőstényt és átölelve kipréseli belőle az ikrákat.",
+  "Ívás után a nőstényt távolítsuk el; az ikrák kelése (24-36 óra) és az elúszás után a hímet is vegyük ki, a kishalakat pedig papucsállatkával és naupliusszal etessük."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal élénkebb színűek (kék-piros csíkosak), hátúszójuk vége hegyesebb; a nőstények fakóbb ezüstösszürkék és hátúszójuk lekerekített.",
+ "felismeres_jegyek": [
+  "Erősen lapított, tojásdad testalkat.",
+  "Fonalassá módosult, tapintásra használt hasúszók.",
+  "A vad típusú hímeken váltakozó élénkpiros és fénylő égszínkék függőleges sávok.",
+  "A hím hát- és farokalatti úszója a test színezethez hasonlóan díszített, sárgás-pirosas szegéllyel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichogaster chuna",
+   "magyar_nev": "Mézgurámi",
+   "kulonbseg": "Karcsúbb testalkatú, a nászruhás hím teste arany- vagy mézsárga, torka és hasa fekete, nincsenek kék-piros sávjai."
+  },
+  {
+   "latin": "Trichogaster fasciata",
+   "magyar_nev": "Sávos gurámi",
+   "kulonbseg": "Jelentősen nagyobb termetű (akár 10-12 cm), teste nyújtottabb, a csíkozása kevésbé élénk kontrasztú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Törpe gurámi iridovírus (DGIV / Dhav)",
+  "Daravkór (Ichthyophthirius multifiliis)",
+  "Bakteriális hasvízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A kereskedelemben kapható tenyésztett állományok genetikailag gyakran terheltek és érzékenyek az iridovírusra; gondosan válasszunk megbízható forrást.",
+  "Biztosítsunk bőséges úszónövényzetet (pl. riccia, békalencse) a felszínen, ami csökkenti a stresszt és menedéket ad.",
+  "Az akváriumot fedni kell, hogy a labirintszerv használatakor belélegzett levegő ne legyen hidegebb a víz hőmérsékleténél."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

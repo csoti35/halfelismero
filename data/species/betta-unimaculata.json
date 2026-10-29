@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Betta unimaculata",
+ "id": "betta-unimaculata",
+ "tipus": "hal",
+ "latin": "Betta unimaculata",
+ "regi_latin_nevek": [
+  "Parophiocephalus unimaculatus"
+ ],
+ "magyar_nev": "Egyfoltos harcoshal",
+ "egyeb_nevek": [
+  "Sárkányharcoshal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Kelet-Borneó)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nagy testű, erőteljes ragadozó. Fajtársaival szemben viszonylag toleráns, ha tágas a medence, de minden apróbb testű halat vagy gerinctelent megeszik.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felső-középső",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Ragadozó; fagyasztott és élő rovarok, szúnyoglárvák, viaszmoly lárva, kisebb tücskök, artémia, kishalak. Száraz tápra lassan szoktatható.",
+ "tarsithato": [
+  "Közepes méretű",
+  "robusztus",
+  "nem agresszív fajokkal (pl. nagyobb dániók",
+  "közepes díszmárnák",
+  "harcsafélék)."
+ ],
+ "kerulendo": [
+  "Kistestű rajhalak (neonok",
+  "kistestű razbórák)",
+  "garnélák",
+  "túlzottan meleg vizet igénylő fajok."
+ ],
+ "szaporodas_mod": "Apai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Biztosítsunk tágas, búvóhelyekkel (faágak, csövek) gazdagon ellátott akváriumot.",
+  "Kondicionáljuk a tenyészállatokat bőséges rovartáplálékkal.",
+  "A heves udvarlást követően a talaj közelében megtörténik az ikrázás.",
+  "A hím a szájába veszi a viszonylag nagyméretű ikrákat, és 12-18 napig forgatja azokat.",
+  "A kiköpött ivadékok nagyok és önállóak, azonnal elfogadják a frissen kelt artémiát és a vágott tubifexet."
+ ],
+ "ivari_kulonbseg": "A hímek feje lényegesen vaskosabb és szélesebb, testükön és úszóikon intenzívebb kékes-zöldes fény látható. A hátúszó tövénél elhelyezkedő sötét folt a nőstényeknél gyakran kontrasztosabb, míg a hímeknél az udvarlási színek elfedhetik.",
+ "felismeres_jegyek": [
+  "Hosszú, hengeres, kígyófejűekre emlékeztető testalkat.",
+  "Lekerekített, robusztus fej széles szájnyílással.",
+  "A hátúszó tövének hátsó részén látható sötét folt (bár időnként elhalványulhat).",
+  "Pikkelyeken és kopoltyúfedőn sárgásbarna vagy kékes-zöldes fémes csillogás.",
+  "Kerekded, nem megnyúlt farokúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta ocellata",
+   "magyar_nev": "Szemfoltos harcoshal",
+   "kulonbseg": "Nagyon közeli rokon, a pikkelyek csillogásának árnyalatában és elterjedési területében különbözik."
+  },
+  {
+   "latin": "Betta macrostoma",
+   "magyar_nev": "Nagyszájú harcoshal",
+   "kulonbseg": "Kifejezett narancsvörös alapszínű hímjei és eltérő úszómintázata van."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések a helytelen tartás következtében",
+  "Ugrásból adódó mechanikai sérülések és elhullás",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 14000,
+ "tippek": [
+  "Rendkívül akrobatikus ugró, a legkisebb nyílást is hermetikusan le kell zárni az akvárium tetején.",
+  "Jól tűri a kissé keményebb vizet is a többi vadbettához képest, de a tiszta, oxigéndús vizet meghálálja.",
+  "Ragadozó ösztönei miatt a felszínre dobott élő rovarokat villámgyorsan elkapja."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

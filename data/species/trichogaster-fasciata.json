@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Trichogaster fasciata",
+ "id": "trichogaster-fasciata",
+ "tipus": "hal",
+ "latin": "Trichogaster fasciata",
+ "regi_latin_nevek": [
+  "Colisa fasciata"
+ ],
+ "magyar_nev": "Sávos gurámi",
+ "egyeb_nevek": [
+  "Óriás törpegurámi",
+  "Csíkos gurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Dél-Ázsia (India, Nepál, Banglades, Mianmar)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kissé félénk természetű nagyobb gurámi. Párban vagy háremben tartható, a hímek egymás között revírt alakítanak ki, de ritkán tesznek kárt egymásban.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 21,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 18,
+ "taplalek": "Mindenevő; száraz lemezes és granulált tápok, bőséges élő és fagyasztott táplálék (szúnyoglárvák, artémia, tubifex).",
+ "tarsithato": [
+  "Közepes méretű békés pontylazacok",
+  "dániók",
+  "márnafélék (pl. rózsás díszmárna)",
+  "páncélosharcsák és békés algázók."
+ ],
+ "kerulendo": [
+  "Agresszív nagysügérek és úszócsipkedő fajok."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "40-50 literes ívató akváriumban csökkentsük a vízszintet 15-20 cm-re, helyezzünk el úszónövényeket.",
+  "Emeljük a vízhőmérsékletet 26-28 °C-ra, biztosítsunk lágy vagy középkemény vizet.",
+  "Etessük a tenyészpárt gazdagon élő eleséggel.",
+  "A hím terjedelmes habfészket épít, majd jellegzetes öleléssel préseli ki az ikrákat a nőstényből.",
+  "Ívás után a nőstényt fogjuk ki, kelés után a hímet is távolítsuk el; az ivadékok kezdetben infuzóriát, majd frissen kelt sórákot fogyasztanak."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, élénkebb színezetűek, hát- és farokalatti úszójuk csúcsos; a nőstények lekerekített úszójúak és halványabb alapszínűek.",
+ "felismeres_jegyek": [
+  "Nyújtott, ovális, oldalról lapított testforma.",
+  "A testen ferde, kékeszöld és narancsos-vörös sávok futnak végig.",
+  "Fonalassá alakult hasúszók, amelyek gyakran narancssárgás árnyalatúak.",
+  "A farokalatti úszó szegélye vöröses és kékes pettyekkel mintázott."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichogaster labiosa",
+   "magyar_nev": "Ajaktúró gurámi",
+   "kulonbseg": "Húsosabb, duzzadtabb ajkak, és kevésbé szabályos, ferde csíkozás a testoldalon."
+  },
+  {
+   "latin": "Trichogaster lalius",
+   "magyar_nev": "Törpe gurámi",
+   "kulonbseg": "Sokkal kisebb méretű (legfeljebb 6 cm) és jóval zömökebb testalkatú faj."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daravkór (Ichthyophthirius multifiliis)",
+  "Bakteriális úszórothadás",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2600,
+ "tippek": [
+  "Tágasabb, növényekkel sűrűn beültetett akváriumot igényel, ahol búvóhelyeket talál.",
+  "Nagyobb mérete miatt kevésbé érzékeny a vízparaméterek kisebb ingadozásaira, mint a törpe gurámi.",
+  "Ügyeljünk a lefedett medencére, mivel jó ugró és légköri levegőt lélegzik a labirintszervével."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Betta channoides",
+ "id": "betta-channoides",
+ "tipus": "hal",
+ "latin": "Betta channoides",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kígyófejű harcoshal",
+ "egyeb_nevek": [
+  "Kígyófejű betta"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Indonézia (Kelet-Kalimantan, Mahakam-folyó medencéje)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Visszahúzódó, békés természetű vad betta faj. Hímjei fajtársaikkal szemben minimális területvédő viselkedést mutathatnak, de komoly sérüléseket ritkán okoznak. Párokban vagy kisebb csapatban is jól tartható megfelelően strukturált medencében.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 4.5,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Kifejezetten ragadozó; apró élő és fagyasztott táplálékot (artémia, daphnia, szúnyoglárva) igényel, száraz tápot ritkán és nehezen fogad el.",
+ "tarsithato": [
+  "Kifejezetten fajspecifikus akvárium javasolt számára",
+  "de békés",
+  "kistestű rasbórákkal (pl. Boraras fajok) és törpe páncélosharcsákkal jól megfér."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív vagy gyors mozgású fajok",
+  "élénk díszmárnak",
+  "csipkelődő lazacok."
+ ],
+ "szaporodas_mod": "Apai szájköltő.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, savas víz (pH 5.0–6.0, GH 1–3) és nyugodt környezet biztosítása, sok rejtekhellyel és sötétített akváriummal.",
+  "Kondicionáljuk a szülőpárt változatos, minőségi élő eleséggel (fehér és fekete szúnyoglárva, grindál, artémia).",
+  "Az ikrázás után a hím a szájába veszi a megtermékenyített ikrákat, majd a nőstény elől is elvonul egy csendes sarokba.",
+  "A forgatási időszak 10–18 napig tart a vízhőmérséklettől függően, ezalatt a hímet tilos zaklatni.",
+  "A hím elengedi a teljesen kifejlett, szabadon úszó ivadékokat, melyeket frissen keltett artémiával és mikróval nevelhetünk fel."
+ ],
+ "ivari_kulonbseg": "A hímek színezete jóval intenzívebb téglavörös, hát-, farok- és farok alatti úszóik szegélye feltűnő fekete és fehér sávval díszített; fejük szélesebb. A nőstények fakóbb barnás színűek, úszóik mintázata jóval visszafogottabb.",
+ "felismeres_jegyek": [
+  "Lapos, kígyófejszerű fejforma és hengeres testalkat.",
+  "A hímek teste élénk vörösesbarna vagy téglavörös színű.",
+  "A páratlan úszók határozott, kontrasztos fehér szegéllyel rendelkeznek, alatta vékony fekete csíkkal.",
+  "A nőstények világosbarna alapszínűek, testükön néha finom, sötét sávok láthatók.",
+  "A farokúszó lekerekített legyező alakú."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta albimarginata",
+   "magyar_nev": "Fehérszegélyes harcoshal",
+   "kulonbseg": "Közeli rokon faj; a Betta albimarginata hátúszóján a fehér szegély szélesebb, és a fekete sáv elhelyezkedése kissé eltér, testalkatuk szinte azonos."
+  },
+  {
+   "latin": "Betta rubra",
+   "magyar_nev": "Vörös harcoshal",
+   "kulonbseg": "Testoldalán függőleges fekete sávok és foltok találhatók, nem mutatja a kígyófejű bettára jellemző fehér úszószegélyt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Úszórothadás",
+  "Gombás fertőzések kemény vagy nem megfelelően tiszta víz esetén"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert kiváló ugrók, és a labirintszervük miatt meleg, párás levegőt igényelnek a vízfelszín felett.",
+  "Használjunk sok száraz falevelet (indián mandulalevél, tölgy), égertobozt és tőzeget a feketevizes, savas közeg fenntartásához.",
+  "A hím forgatási ideje alatt biztosítsunk teljes nyugalmat, minimális világítással, hogy elkerüljük az ikrák lenyelését."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

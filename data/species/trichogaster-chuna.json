@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Trichogaster chuna",
+ "id": "trichogaster-chuna",
+ "tipus": "hal",
+ "latin": "Trichogaster chuna",
+ "regi_latin_nevek": [
+  "Colisa chuna",
+  "Colisa sota"
+ ],
+ "magyar_nev": "Mézgurámi",
+ "egyeb_nevek": [
+  "Mézszínű gurámi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Dél-Ázsia (India, Banglades)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, nyugodt és félénk halfaj. Párban vagy kisebb csapatban is jól tartható, nem agresszív fajtársaival sem.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; finom lemezes eleségek, mikrogel-tápok, valamint fagyasztott és élő artémia, cyclops, apró vízibolha.",
+ "tarsithato": [
+  "Kistestű",
+  "békés pontyfélék (pl. ékfoltos razbóra)",
+  "törperazbórák",
+  "békés harcsák (Corydoras",
+  "Otocinclus) és törpe garnélák."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "tolakodó halak",
+  "úszócsipkedők",
+  "nagytestű díszmárnák és sügérek."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Rendezzünk be egy 15-25 literes szaporító medencét lebegő növényekkel, alacsony vízáramlással.",
+  "Állítsuk a hőfokot 26-28 °C-ra, lágy, enyhén savas vízzel.",
+  "Kondicionáljuk a párt apró élő eleséggel; az udvarló hím színe mézsárgává, torka feketévé válik.",
+  "A hím laza habfészket épít, a lerakott ikrákat a fészekbe köpi.",
+  "Ívást követően a nőstényt, majd az ikrák elúszásakor a hímet is vegyük ki; az ivadékokat infuzóriával és apró rotatóriával neveljük fel."
+ ],
+ "ivari_kulonbseg": "A hím nászidőszakban ragyogó mézsárga-narancs testű, torka és hasi része mélyfekete; a nőstény egyszínű barnássárga, oldalán gyakran hosszanti sötét csík fut.",
+ "felismeres_jegyek": [
+  "Kisméretű, oldalról lapított, ovális test.",
+  "Vékony, tapogatóvá alakult hasúszók.",
+  "A hím hátúszójának felső éle sárga, nászban torka és hasalja kékesfekete.",
+  "A nőstény kevésbé színes, világosbarna vagy ezüstös testszínű."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trichogaster lalius",
+   "magyar_nev": "Törpe gurámi",
+   "kulonbseg": "Zömökebb test, a vad típus kék-piros függőleges csíkozással rendelkezik."
+  },
+  {
+   "latin": "Trichogaster labiosa",
+   "magyar_nev": "Ajaktúró gurámi",
+   "kulonbseg": "Jelentősen nagyobb testű faj (8-9 cm), vastag, duzzadt ajkakkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Daravkór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Piscinoodinium)",
+  "Bakteriális fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Ellenállóbb és egészségesebb alkatú a törpe guráminál, kezdőknek jobb labirintkopoltyús választás.",
+  "A gyenge szűrés és lassú vízáramlás létfontosságú számára, az erős sodrást rosszul viseli.",
+  "A tenyésztett 'gold' és 'red' változatok is népszerűek, de a vad típus színe nász idején a leglátványosabb."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

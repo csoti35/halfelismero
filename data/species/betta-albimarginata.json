@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Betta albimarginata",
+ "id": "betta-albimarginata",
+ "tipus": "hal",
+ "latin": "Betta albimarginata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fehérszegélyes harcoshal",
+ "egyeb_nevek": [
+  "Fehérszegélyes betta"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Indonézia (Borneó, Kelet-Kalimantan)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kis méretű, viszonylag békés természetű vad betta faj. A hímek védik a területüket, de agressziójuk csupán pózolásra és enyhe kergetőzésre korlátozódik. Párban vagy kisebb csoportban, sűrűn növényesített akváriumban jól tarthatók.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 6,
+ "taplalek": "Ragadozó; apró élő vagy fagyasztott táplálékot (artémia, daphnia, tubifex, szúnyoglárva) igényel, száraz eleséget ritkán vagy nehezen fogad el.",
+ "tarsithato": [
+  "Kifejezetten kistermetű",
+  "békés rasbórákkal (pl. Boraras fajok)",
+  "apró páncélosharcsákkal (pl. Corydoras pygmaeus)",
+  "kíméletes nano fajokkal."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív halak",
+  "gyors úszású vagy csipkelődő márnák",
+  "sügérek",
+  "valamint olyan fajok",
+  "amelyek konkurenciát jelentenek a táplálkozásban."
+ ],
+ "szaporodas_mod": "apás szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, savas vizű (pH 5,5–6,2, GH 1–4), gyengén megvilágított, búvóhelyekben gazdag akvárium biztosítása.",
+  "A tenyészpár felkészítése bőséges és változatos élő eleséggel.",
+  "Az ikrázás a fenék közelében zajlik; a hím a megtermékenyített ikrákat a szájába veszi.",
+  "A hím 10–14 napig költi a szájában az ikrákat, ezen időszak alatt nem táplálkozik és csendes búvóhelyet igényel.",
+  "A kiengedett, teljesen kifejlett ivadékok azonnal képesek frissen kelt artémia naupliuszokat fogyasztani."
+ ],
+ "ivari_kulonbseg": "A hímek intenzív téglavörös vagy barnásvörös színűek, úszóikon éles fekete sáv és feltűnő hófehér szegély húzódik; a nőstények szürkésbarna rejtőszínűek, testükön hosszanti sötét sávok lehetnek, fehér úszószegélyük sokkal keskenyebb és halványabb.",
+ "felismeres_jegyek": [
+  "Hengeres, karcsú, apró testalkat.",
+  "Hát-, farok- és farok alatti úszók szélén ragyogó, széles fehér szegély.",
+  "A fehér szegély előtt jól látható, kontrasztos fekete sáv az úszókon.",
+  "A kifejlett hímek teste élénk vörösesbarna árnyalatú.",
+  "Kicsi, kissé felfelé nyíló száj, tágulékony torokrész a szájköltéshez."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta channoides",
+   "magyar_nev": "Kígyófejű harcoshal",
+   "kulonbseg": "Rendkívül hasonló faj, de a Betta channoides hátúszóján a fehér szegély keskenyebb vagy hiányozhat, és a hímek teste homogénebb vörös."
+  },
+  {
+   "latin": "Betta rubra",
+   "magyar_nev": "Vörös harcoshal",
+   "kulonbseg": "A hím teste sötét, függőleges csíkokkal díszített vörös alapon, és úszómintázata eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Piscinoodinium)",
+  "Bakteriális fertőzések a nem megfelelő vízminőség miatt",
+  "Kopoltyú- és bőrparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert kitűnő ugró és hideg levegő belégzésekor megfázhat a labirintszerv.",
+  "Csersavakban gazdag, teaszínű vízben (égerfanyálka, ketapang/mandulalevél) érzi magát a legjobban és mutatja legszebb színeit.",
+  "Nem viseli el az erős vízáramlást, szivacsszűrő vagy enyhe felületi mozgatás javasolt a medencéjében."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Betta macrostoma",
+ "id": "betta-macrostoma",
+ "tipus": "hal",
+ "latin": "Betta macrostoma",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Nagyszájú harcoshal",
+ "egyeb_nevek": [
+  "Brunei harcoshal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Borneó: Brunei, Sarawak)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő és ragadozó természetű faj. Az apró halakat és rákokat tápláléknak tekinti. Fajtársaival szemben a hímek territoriálisak, de párban vagy tágas akváriumban megfelelően tarthatók.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 4.5,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Ragadozó; élő és fagyasztott eleségek (rovarlárvák, artémia, apró rákok, kishalak). Granulátumra nehezen szoktatható.",
+ "tarsithato": [
+  "Békés",
+  "hasonló vízigényű",
+  "nem túl apró fajokkal (pl. rasbórák",
+  "békés talajlakók)",
+  "de leginkább faji biotóp akváriumban érzi jól magát."
+ ],
+ "kerulendo": [
+  "Apró halak",
+  "garnélák",
+  "csipkelődő vagy agresszív nagyméretű halak",
+  "magas hőmérsékletet igénylő fajok."
+ ],
+ "szaporodas_mod": "Apai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy, savas (pH 5.0–6.0), tiszta és hűvösebb (kb. 24 °C) víz biztosítása sűrű növényzettel és búvóhelyekkel.",
+  "Kondicionáljuk a tenyészpárt minőségi élő eleséggel (rovarlárvák, grindal, artémia).",
+  "Az ívás a talaj közelében zajlik, a nőstény átadja az ikrákat a hímnek.",
+  "A hím a szájában forgatja és költi az ikrákat 14-21 napig, ezalatt nem táplálkozik és teljes nyugalmat igényel.",
+  "Az elúszó kishalak viszonylag nagyok, azonnal elfogadják a frissen kelt artémiát."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal élénkebb színezetűek: testük és úszóik narancsvörösek, a hátúszón és a farokúszón markáns fekete foltok és minták láthatók, szájuk jóval nagyobb. A nőstények szürkésbarna alapszínűek, sötét hosszanti sávokkal.",
+ "felismeres_jegyek": [
+  "Rendkívül széles, mélyen hasított száj.",
+  "A hím testoldala élénk narancsvörös vagy vörösesbarna.",
+  "A hím hátúszójának tövénél jellegzetes fekete szemfolt látható.",
+  "A farokúszón fekete-vörös mintázat és világos szegély fut végig.",
+  "A nőstény fakóbb, rejtőszínű, hosszirányú sötét sávokkal a testén."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta unimaculata",
+   "magyar_nev": "Egyfoltos harcoshal",
+   "kulonbseg": "Karcsúbb testalkatú, hiányzik róla a hím macrostoma élénk narancsvörös színe és mintázata."
+  },
+  {
+   "latin": "Betta ocellata",
+   "magyar_nev": "Szemfoltos harcoshal",
+   "kulonbseg": "Testszíne zöldes-kékes csillogású, nem narancsvörös, fejformája kevésbé robusztus."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális fertőzések a rossz vízminőség miatt",
+  "Gombás megbetegedések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 25000,
+ "ar_ft_max": 60000,
+ "tippek": [
+  "Az akváriumot résmentesen le kell fedni, mert rendkívül jó ugró.",
+  "Kerüljük a 26 °C feletti vízhőmérsékletet, mert a faj kifejezetten érzékeny a melegre.",
+  "A szájköltés ideje alatt a hímet semmiképp se zavarjuk, különben lenyelheti vagy kiköpheti az ikrákat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}
