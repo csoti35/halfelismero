@@ -7,6 +7,7 @@ const scenes = JSON.parse(fs.readFileSync(path.join(__dirname, 'scenes.json'), '
 const { spawn } = require('child_process');
 const srv = spawn('python3', ['-m', 'http.server', '8099', '--bind', '127.0.0.1'], { cwd: ROOT, stdio: 'ignore' });
 process.on('exit', () => srv.kill());
+process.on('unhandledRejection', e => { console.log('::error::' + String(e && e.stack || e).slice(0, 600).replace(/\n/g, ' | ')); process.exit(1); });
 const APP = 'http://127.0.0.1:8099/zsebkonyv/index.html';
 const ICON = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'icons/icon-512.png')).toString('base64');
 const URL_TXT = 'csoti35.github.io/halfelismero/zsebkonyv';
