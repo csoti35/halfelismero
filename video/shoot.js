@@ -4,7 +4,10 @@ const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(__dirname, 'out'); fs.mkdirSync(path.join(OUT, 'shots'), { recursive: true }); fs.mkdirSync(path.join(OUT, 'frames'), { recursive: true });
 const scenes = JSON.parse(fs.readFileSync(path.join(__dirname, 'scenes.json'), 'utf8'));
-const APP = 'file://' + path.join(ROOT, 'zsebkonyv/index.html');
+const { spawn } = require('child_process');
+const srv = spawn('python3', ['-m', 'http.server', '8099', '--bind', '127.0.0.1'], { cwd: ROOT, stdio: 'ignore' });
+process.on('exit', () => srv.kill());
+const APP = 'http://127.0.0.1:8099/zsebkonyv/index.html';
 const ICON = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'icons/icon-512.png')).toString('base64');
 const URL_TXT = 'csoti35.github.io/halfelismero/zsebkonyv';
 
@@ -25,7 +28,9 @@ const MOCK = { tipus: 'hal', magyar_nev: 'Neonhal', latin: 'Paracheirodon innesi
   lathato: 'Karcsú, kb. 3 cm-es hal, a testén világító kékeszöld csík, a hátsó alsó részén piros sáv.',
   alternativak: [{ magyar_nev: 'Vörös neonhal (kardinálishal)', latin: 'Paracheirodon axelrodi', kulonbseg: 'Ott a piros sáv a teljes has alján végigfut.' }],
   leiras: 'Békés, csapatban élő dél-amerikai pontylazac. Legalább 8–10 egyedet tarts belőle, sűrűn növényesített, enyhén savas vízben.',
-  max_meret_cm: 4, termeszet: 'bekes', ar_ft_min: 250, ar_ft_max: 450 };
+  max_meret_cm: 4, termeszet: 'bekes', ar_ft_min: 250, ar_ft_max: 450,
+  adatlap: { szerzo: 'Myers, 1936', csoport: 'Pontylazacok', szarmazas: 'Dél-Amerika, az Amazonas-medence', elohely: 'Lassú folyású, lágy, savas, sötét vizű erdei patakok', testhossz: '3–4 cm', viselkedes: 'Békés rajhal, hasonló méretű békés halakkal társítható.', uszasi_zona: 'kozepso', taplalkozas: 'Apró szemű lemezes táp, fagyasztott és élő apró eleség.', medence: 'min. 54 liter', allomany: 'legalább 10 fős raj', berendezes: 'Sűrű növényzet, gyökerek, tompa fény', homerseklet: '20–26 °C', ph: '5,5–7,5', keménység: '1–10 NK°', eletkor: '5–8 év', megjegyzes: 'Hosszúkás, karcsú testén fénylő kékeszöld csík fut a szemtől a zsírúszóig, alatta élénkpiros sáv a test hátsó felén. A nőstény teltebb. Hirtelen vízváltozásra érzékeny.' },
+  szaporodas: { mod: 'szabadívó, az ikrát nem gondozza', nehezseg: 'nehez', ivarok: 'A nőstény teltebb, a kék csíkja enyhén hajlott.', ivarerettseg: 'kb. 6 hónaposan', tenyeszvíz: '24–25 °C, pH 5,5–6,0, nagyon lágy víz', elokeszites: 'Kis, sötét ívató akvárium, ívórács vagy moha, tompa fény.', lefolyas: 'Hajnalban ívnak a növények közé.', utodok: '60–130 ikra, 24 óra múlva kel.', ivadekneveles: 'Infuzórium, majd artémia lárva.', szulok: 'Megeszik az ikrát – ívás után ki kell őket emelni.', tippek: 'Az ikra fényérzékeny, tartsd sötétben.' } };
 
 const PLANT = { tipus: 'noveny', magyar_nev: 'Törpe anubiasz', latin: 'Anubias barteri var. nana', biztossag: 91,
   lathato: 'Sötétzöld, kerekded, vastag levelek rövid száron, kúszó gyökértörzs.', alternativak: [],
@@ -76,17 +81,24 @@ async function wireCss(page) {
   // Mintaállomány: kerüljön bele egy skalár is, hogy látsszon a figyelmeztetés
   await page.evaluate(() => { appState.stock.push({ id: 9, name: 'Skalár', latin: 'Pterophyllum scalare', type: 'hal', count: 2, size: 15, aggro: 'teruletvedo' }); saveToLocalStorage && saveToLocalStorage(true); renderAll(); });
   await prep();
-  await tab('tab5'); await page.evaluate(() => scrollTo(0, 0)); await hl('#uploadPrompt'); await shot('scan');
+  await tab('tab5'); await page.evaluate(() => scrollTo(0, 0)); await page.evaluate(() => document.getElementById('scanModes').scrollIntoView({ block: 'start' })); await page.evaluate(() => scrollBy(0, -80)); await hl('#scanModes'); await shot('scan'); await hl(null);
   const inputs = await page.$$('input[type=file][accept^="image"]');
   await inputs[inputs.length - 1].setInputFiles(fishPng);
   await page.waitForTimeout(2500); await prep();
   await page.evaluate(() => { const e = document.getElementById('scanPreview'); e.scrollIntoView({ block: 'start' }); scrollBy(0, -130); }); await page.waitForTimeout(400);
   await page.evaluate(() => document.getElementById('uploadPrompt').classList.add('hidden'));
   await hl(null); await shot('result');
+  await page.waitForTimeout(2500);
+  await page.evaluate(() => { const e = document.getElementById('speciesPhotos'); (e && e.innerHTML ? e : document.getElementById('scanResultContent')).scrollIntoView({ block: 'start' }); scrollBy(0, -60); }); await page.waitForTimeout(800);
+  await hl('#speciesPhotos'); await shot('gallery'); await hl(null);
+  await page.evaluate(() => { const e = [...document.querySelectorAll('#scanResultContent summary')].find(x => /Adatlap/.test(x.textContent)); e.scrollIntoView({ block: 'start' }); scrollBy(0, -20); }); await page.waitForTimeout(400); await shot('factsheet');
+  await page.evaluate(() => { const e = [...document.querySelectorAll('#scanResultContent summary')].find(x => /Szaporodás/.test(x.textContent)); e.scrollIntoView({ block: 'start' }); scrollBy(0, -20); }); await page.waitForTimeout(400); await shot('breeding');
   await page.evaluate(() => { const e = [...document.querySelectorAll('#scanResultContent div')].find(d => /Ár és beszerzés/.test(d.textContent) && d.className.includes('rounded-xl')); e.scrollIntoView({ block: 'center' }); }); await page.waitForTimeout(400);
   await page.evaluate(() => { const e = [...document.querySelectorAll('#scanResultContent div')].find(d => /Ár és beszerzés/.test(d.textContent) && d.className.includes('rounded-xl')); e.classList.add('demo-target'); });
   await hl('.demo-target'); await shot('price');
   await hl(null);
+  await page.evaluate(() => { document.getElementById('fixBox').scrollIntoView({ block: 'center' }); }); await page.evaluate(() => openFix()); await page.fill('#fixInput', 'Paracheirodon innesi (Neonhal)'); await page.waitForTimeout(300);
+  await hl('#fixBox'); await page.evaluate(() => document.getElementById('fixBox').scrollIntoView({ block: 'center' })); await page.waitForTimeout(300); await shot('fix'); await hl(null);
   // Növény
   await page.evaluate(() => { setScanMode('noveny'); document.getElementById('uploadPrompt').classList.remove('hidden'); });
   { const ins = await page.$$('input[type=file][accept^="image"]'); await ins[ins.length - 1].setInputFiles(plantPng); }
@@ -104,11 +116,14 @@ async function wireCss(page) {
   await page.evaluate(() => { setScanMode('hal'); document.getElementById('scanNote').value = ''; document.getElementById('scanResultContent').innerHTML = ''; });
   await tab('tab1'); await page.evaluate(() => scrollTo(0, 0)); await shot('tab1');
   await tab('tab2'); await to('#stockCheckBox'); await hl('#stockCheckBox'); await shot('tab2'); await hl(null);
+  await page.evaluate(() => { const b = [...document.querySelectorAll('#stockCheckBox button')].find(x => /Nálam működik/.test(x.textContent)); b.classList.add('demo-ok'); b.scrollIntoView({ block: 'center' }); }); await hl('.demo-ok'); await page.waitForTimeout(300); await shot('okpair'); await hl(null);
   await tab('tab3'); await to('#waterChart'); await page.waitForTimeout(800); await shot('tab3');
   await tab('tab4'); await page.evaluate(() => scrollTo(0, 0)); await shot('tab4');
   await tab('tab5'); await page.evaluate(() => scrollTo(0, 0));
   await page.evaluate(() => { document.getElementById('cloudBtn').classList.remove('hidden'); document.getElementById('cloudBtnText').innerText = 'Belépés'; showToast('Adatok elmentve a felhőbe.'); });
-  await hl('#cloudBtn'); await page.waitForTimeout(300); await shot('cloud');
+  await hl('#cloudBtn'); await page.waitForTimeout(300); await shot('cloud'); await hl(null);
+  await page.evaluate(() => openBugReport({ kind: 'Rossz felismerés', text: 'Ez nem sárga sügér, hanem Lombard sügér.' })); await page.waitForTimeout(500); await shot('bug');
+  await page.evaluate(() => closeModal('bugModal'));
   await ctx.close();
 
   // Kompozíció: 1080x1920 keret, felirat + telefon
@@ -165,5 +180,5 @@ async function wireCss(page) {
     await comp.screenshot({ path: path.join(OUT, 'frames', s.id + '.png') });
   }
   await browser.close();
-  console.log('frames ok');
+  console.log('frames ok'); srv.kill(); process.exit(0);
 })();

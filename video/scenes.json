@@ -2,110 +2,145 @@
  {
   "id": "01",
   "kind": "title",
+  "say": "Szia! Ez az AquaFaj, egy ingyenes, magyar akvarisztikai zsebkönyv a telefonodra. Megmutatom, mit tud, és hogyan teheted fel pár koppintással.",
   "title": "AquaFaj",
-  "sub": "Ingyenes magyar akvarisztikai zsebkönyv",
-  "say": "Szia! Ez az AquaFaj, egy ingyenes, magyar akvarisztikai zsebkönyv a telefonodra. Megmutatom, mit tud, és hogyan teheted fel pár kattintással."
+  "sub": "Ingyenes magyar akvarisztikai zsebkönyv"
  },
  {
   "id": "02",
   "kind": "app",
+  "say": "A fotós felismerésnél először kiválasztod, mit vizsgálsz: halat vagy garnélát, növényt, beteg halat vagy algát. Aztán fotózol, vagy kiválasztasz egy képet a galériából, és a mesterséges intelligencia pár másodperc alatt megmondja, mi az.",
   "shot": "scan",
-  "caption": "📷 Fotós felismerés",
-  "say": "Az első fül a fotós felismerés. Felül kiválasztod, mit vizsgálsz: halat vagy garnélát, növényt, beteg halat, vagy algát. Aztán fotózz, vagy válassz egy képet a galériából, és a mesterséges intelligencia pár másodperc alatt megmondja, mi az."
+  "caption": "📷 Mit fotózol?"
  },
  {
   "id": "03",
   "kind": "app",
+  "say": "Kapsz egy rövid leírást, a hal méretét, a szükséges akváriumot, a hőmérsékletet és a pH-t, és azt, hogy békés-e. Ha nem biztos a dolgában, több lehetséges fajt is felajánl.",
   "shot": "result",
-  "caption": "Fajleírás és tartási adatok",
-  "say": "Kapsz egy rövid leírást, és látod a hal maximális méretét, a szükséges akváriumméretet, a hőmérsékletet, a pH-t, és azt, hogy békés-e. Ha a gép nem biztos a dolgában, több lehetséges fajt is felajánl, és te választod ki a tiédet."
+  "caption": "🐟 Felismerés"
  },
  {
   "id": "04",
   "kind": "app",
-  "shot": "price",
-  "caption": "🏷️ Ár és hol kapható",
-  "say": "Azt is azonnal látod, hogy összefér-e a meglévő halaiddal. Alatta ott a becsült bolti ár, és egy gombnyomással megrendelheted olcsón az Invital webshopból, ahol rengeteg növény és felszerelés van. Ha inkább személyesen vásárolnál, megnyílik a térkép a hozzád legközelebbi akvarisztikákkal, a webshopok árai és a Jófogás hirdetései is."
- },
- {
-  "id": "05a",
-  "kind": "app",
-  "shot": "plant",
-  "caption": "🌿 Növényfelismerés",
-  "say": "Növényt is felismer. Megmondja, mennyi fény és szén-dioxid kell neki, milyen gyorsan nő, hova való az akváriumban, és hogyan szaporíthatod. Ha a növény sárgul vagy lyukas, azt is elárulja, mi lehet a baj."
- },
- {
-  "id": "05b",
-  "kind": "app",
-  "shot": "symptoms",
-  "caption": "🩺 Beteg hal – tünetek",
-  "say": "És ami talán a legfontosabb: a beteg hal. Mivel a tünetek a fotón nem mindig látszanak jól, a saját tapasztalatodat is leírhatod. Koppints a jellemző tünetekre, például fehér pöttyök, dörzsölődik, nem eszik, és írd hozzá, mióta tart. Ha nem sikerül jó fotót csinálni, fotó nélkül, csak a leírás alapján is elemez."
- },
- {
-  "id": "05c",
-  "kind": "app",
-  "shot": "disease",
-  "caption": "💊 Kezelés és gyógyszer",
-  "say": "Megkapod a valószínű betegséget, hogy mennyire sürgős, és lépésről lépésre, mit tegyél. Megmondja a gyógyszer hatóanyagát és a nálunk kapható termékeket, egy gombnyomással megrendelheted, és szól, ha a szer veszélyes a garnéláidra vagy a csigáidra."
+  "say": "Minden fajhoz igazi fotókat is mutat, szabad felhasználású természetfotókból, a fotós nevével. Több mint hatszáz fajhoz van már kép.",
+  "shot": "gallery",
+  "caption": "📸 Fotók a fajról"
  },
  {
   "id": "05",
   "kind": "app",
-  "shot": "tab1",
-  "caption": "🌱 Akvakertész kalkulátor",
-  "say": "Az akvakertész fülön kiszámolhatod az akváriumod űrtartalmát, és a fényhez meg a szén-dioxidhoz illő növényeket is megtalálod."
+  "say": "Alatta egy teljes adatlap jön: származás, természetes élőhely, testhossz, viselkedés, táplálkozás, medenceméret, ajánlott létszám, berendezés, vízértékek és várható életkor.",
+  "shot": "factsheet",
+  "caption": "📖 Részletes adatlap"
  },
  {
   "id": "06",
   "kind": "app",
-  "shot": "tab2",
-  "caption": "🐟 Állomány és összeférhetőség",
-  "say": "Az állomány fülön vezeted, kik élnek az akváriumodban. A program folyamatosan figyeli, kik férnek össze, és szól, ha például egy nagyobb hal megenné a kisebbet."
+  "say": "A szaporodásról is mindent leír: milyen nehéz, hogyan különböztesd meg a hímet és a nőstényt, milyen víz kell az íváshoz, hány ikra lesz, és mivel neveld az ivadékot.",
+  "shot": "breeding",
+  "caption": "🥚 Szaporodás"
  },
  {
   "id": "07",
   "kind": "app",
-  "shot": "tab3",
-  "caption": "💧 Vízparaméterek",
-  "say": "A vízparaméter fülön rögzítheted a méréseidet. Grafikonon követed a változást, és ha valami veszélyes, például túl magas az ammónia, a program azonnal figyelmeztet, és megmondja, mit tegyél."
+  "say": "Azt is látod, hogy összefér-e a halaiddal. Ott a becsült bolti ár, egy gombnyomással megrendelheted az Invital webshopból, vagy megnyílik a térkép a hozzád közeli akvarisztikákkal.",
+  "shot": "price",
+  "caption": "🏷️ Ár és hol kapható"
  },
  {
   "id": "08",
   "kind": "app",
-  "shot": "tab4",
-  "caption": "✅ Teendők és költségek",
-  "say": "Az utolsó fülön a teendők és a költségek vannak: vízcsere, szűrőtisztítás, és az is, hogy eddig mennyit költöttél a hobbira."
+  "say": "Ha a gép téved, a Nem ez gombbal megadod a helyes fajt. A fotódat megjegyzi mintának, így legközelebb a te saját halaidat már sokkal biztosabban felismeri.",
+  "shot": "fix",
+  "caption": "✏️ Tanítsd meg!"
  },
  {
   "id": "09",
   "kind": "app",
-  "shot": "cloud",
-  "caption": "☁️ Mentés a felhőbe",
-  "say": "Ha a Belépés gombbal bejelentkezel a Google-fiókoddal, minden adatod automatikusan a felhőbe mentődik. Így a telefonodon és a gépeden is ugyanazt látod, és ha telefont cserélsz, akkor sem vész el semmi."
+  "say": "Növényt is felismer: megmondja a fény- és szén-dioxid-igényét, hova ültesd, milyen gyorsan nő, és hogyan szaporítsd. Ha sárgul vagy lyukas a levele, azt is, mi lehet a baj.",
+  "shot": "plant",
+  "caption": "🌿 Növények"
  },
  {
   "id": "10",
-  "kind": "install1",
-  "caption": "Telepítés · 1. lépés",
-  "say": "És most a telepítés. Koppints a linkre, amit tőlem kaptál. Ha nem a Chrome-ban nyílik meg, akkor a jobb felső sarokban válaszd a Megnyitás Chrome-ban lehetőséget."
+  "kind": "app",
+  "say": "Beteg halnál, mivel a tünetek a fotón nem mindig látszanak, a saját tapasztalatodat is leírhatod. Koppints a tünetekre, írd hozzá, mióta tart, és fotó nélkül is elemez.",
+  "shot": "symptoms",
+  "caption": "🩺 Beteg hal"
  },
  {
   "id": "11",
-  "kind": "install2",
-  "caption": "Telepítés · 2. lépés",
-  "say": "Koppints jobb felül a három pöttyre, majd válaszd az Alkalmazás telepítése, vagy a Hozzáadás a kezdőképernyőhöz lehetőséget, és erősítsd meg."
+  "kind": "app",
+  "say": "Megkapod a valószínű betegséget, a sürgősséget, a teendőket lépésről lépésre, a gyógyszer hatóanyagát és a kapható termékeket. Szól, ha a szer veszélyes a garnéláidra.",
+  "shot": "disease",
+  "caption": "💊 Kezelés"
  },
  {
   "id": "12",
-  "kind": "install3",
-  "caption": "Telepítés · 3. lépés",
-  "say": "Kész is! Az AquaFaj ikonja megjelenik a kezdőképernyőn, és úgy indul, mint bármelyik másik alkalmazás. iPhone-on a Safariban, a Megosztás gomb alatt találod a Főképernyőhöz adás pontot."
+  "kind": "app",
+  "say": "Az állomány fülön vezeted, kik élnek az akváriumodban, és a program figyeli, kik férnek össze.",
+  "shot": "tab2",
+  "caption": "🐠 Állomány"
  },
  {
   "id": "13",
+  "kind": "app",
+  "say": "Ha nálad egy vegyes társítás mégis jól működik, megjelölheted, hogy nálad működik. A tanácsokat a tapasztalt tartók trükkjeivel is kiegészíti, és tanácsot is kérhetsz.",
+  "shot": "okpair",
+  "caption": "✓ Nálam működik"
+ },
+ {
+  "id": "14",
+  "kind": "app",
+  "say": "Rögzítheted a vízméréseidet, grafikonon követed a változást, és ha valami veszélyes, például az ammónia, azonnal figyelmeztet.",
+  "shot": "tab3",
+  "caption": "💧 Vízértékek"
+ },
+ {
+  "id": "15",
+  "kind": "app",
+  "say": "Itt vannak a teendőid, a vízcsere, a szűrőtisztítás, és az is, mennyit költöttél eddig a hobbira.",
+  "shot": "tab4",
+  "caption": "✅ Teendők, költségek"
+ },
+ {
+  "id": "16",
+  "kind": "app",
+  "say": "A Belépés gombbal a Google-fiókoddal minden adatod a felhőbe mentődik, így telefoncserénél sem vész el semmi.",
+  "shot": "cloud",
+  "caption": "☁️ Felhőmentés"
+ },
+ {
+  "id": "17",
+  "kind": "app",
+  "say": "Ha valami nem jó, vagy rossz a felismerés, egy gombnyomással jelezheted, a fotóval együtt. Mi kijavítjuk.",
+  "shot": "bug",
+  "caption": "🐞 Hibabejelentő"
+ },
+ {
+  "id": "18",
+  "kind": "install1",
+  "say": "És most a telepítés. Koppints a linkre, amit kaptál. Ha nem a Chrome-ban nyílik meg, a jobb felső sarokban válaszd a Megnyitás Chrome-ban lehetőséget.",
+  "caption": "Telepítés · 1. lépés"
+ },
+ {
+  "id": "19",
+  "kind": "install2",
+  "say": "Koppints jobb felül a három pöttyre, és válaszd az Alkalmazás telepítése, vagy a Hozzáadás a kezdőképernyőhöz lehetőséget.",
+  "caption": "Telepítés · 2. lépés"
+ },
+ {
+  "id": "20",
+  "kind": "install3",
+  "say": "Kész! Az AquaFaj ott van a kezdőképernyőn, és úgy indul, mint bármelyik alkalmazás. iPhone-on a Safariban, a Megosztás gomb alatt találod a Főképernyőhöz adást.",
+  "caption": "Telepítés · 3. lépés"
+ },
+ {
+  "id": "21",
   "kind": "title",
+  "say": "Ennyi az egész. Próbáld ki, és ha tetszik, küldd tovább az akvarista barátaidnak is. Jó halazást!",
   "title": "Jó halazást! 🐠",
-  "sub": "Koppints a kapott linkre, és próbáld ki!",
-  "say": "Ennyi az egész. Koppints a linkre, próbáld ki, és ha tetszik, küldd tovább az akvarista barátaidnak is. Jó halazást!"
+  "sub": "Koppints a kapott linkre, és próbáld ki!<br>© 2026 Bogár Mátyás"
  }
 ]
