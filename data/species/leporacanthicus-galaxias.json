@@ -1,0 +1,86 @@
+{
+ "id": "leporacanthicus-galaxias",
+ "tipus": "hal",
+ "latin": "Leporacanthicus galaxias",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tejút-vámpírharcsa",
+ "egyeb_nevek": [
+  "L029",
+  "Galaxis pleco"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsák",
+ "szarmazas": "Dél-Amerika (Brazília, Rio Tocantins)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 12,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, különösen a fajtársaival és más hasonló testfelépítésű fenéklakókkal szemben. Erős állkapcsával sérülést okozhat.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (főleg húsos koszt: kagyló, rák, rovarlárva, de némi növényi táp is)",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "sügérek",
+  "robusztusabb harcsák"
+ ],
+ "kerulendo": [
+  "Apró halak",
+  "más barlanglakó harcsák kis helyen"
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Megfelelő méretű barlang biztosítása",
+  "Lágy, enyhén savas víz és erős áramlás",
+  "Bőséges, fehérjedús etetés",
+  "A hím őrzi az ikrákat a barlangban"
+ ],
+ "ivari_kulonbseg": "A hímek feje szélesebb, és több odontodes (bőrtüske) található a mellúszóikon és a testük hátsó részén.",
+ "felismeres_jegyek": [
+  "Fekete alapszín apró fehér pöttyökkel",
+  "Jellegzetes 'vámpírfogak' a felső állkapocsban",
+  "Hegyes, megnyúlt fejforma",
+  "Magas hátúszó",
+  "Zömök, tüskés test"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Leporacanthicus joselimai",
+   "magyar_nev": "L264 harcsa",
+   "kulonbseg": "Szürkésebb alapszín, nagyobb és ritkább pöttyök, fehér úszóvégek."
+  },
+  {
+   "latin": "Hypancistrus inspector",
+   "magyar_nev": "L102 harcsa",
+   "kulonbseg": "Kisebb termet, nagyobb szem, más szájfelépítés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrgomba",
+  "Hasi vízkór (rossz vízminőség esetén)",
+  "Darakkór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 12000,
+ "ar_ft_max": 25000,
+ "tippek": [
+  "Erős szűrést és oxigéndús vizet igényel.",
+  "Sok búvóhelyet, barlangot és fát igényel a stressz csökkentésére.",
+  "Vigyázzunk a hálóval, mert a tüskéi könnyen beleakadnak."
+ ],
+ "lista_nev": "Leporacanthicus galaxias",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

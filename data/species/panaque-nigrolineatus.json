@@ -1,0 +1,83 @@
+{
+ "id": "panaque-nigrolineatus",
+ "tipus": "hal",
+ "latin": "Panaque nigrolineatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Király algázóharcsa",
+ "lista_nev": "Panaque nigrolineatus",
+ "egyeb_nevek": [
+  "L027",
+  "Royal Pleco"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 40,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Felnőttként területvédő, más harcsákkal szemben agresszív lehet. Hatalmas mennyiségű ürüléket termel.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Növényevő, de elengedhetetlen számára a fa rágása (cellulóz).",
+ "tarsithato": [
+  "Nagyobb testű sügérekkel",
+  "lazacokkal."
+ ],
+ "kerulendo": [
+  "Kisméretű akváriumi lakótársak",
+  "mert a mozgásával zavarhatja őket."
+ ],
+ "szaporodas_mod": "Barlangba ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Hatalmas akvárium és rengeteg faanyag szükséges.",
+  "Nagyon erős szűrés és vízáramlás.",
+  "Akváriumi körülmények között ritkán szaporodik.",
+  "A hím őrzi az ikrákat a barlangban."
+ ],
+ "ivari_kulonbseg": "A hímek kopoltyúfedőjén és faroknyelén erősebb tüskék találhatók.",
+ "felismeres_jegyek": [
+  "Szürke alapszín sötét hosszanti csíkokkal.",
+  "Jellegzetes vörös szem.",
+  "Kanál alakú fogak a fa rágásához.",
+  "Robusztus, páncélozott testfelépítés.",
+  "Nagy, vitorlaszerű hátúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Panaque armbrusteri",
+   "magyar_nev": "Tapajós királyharcsa",
+   "kulonbseg": "A csíkozás mintázata és a testarányok kismértékben eltérnek."
+  },
+  {
+   "latin": "Panaque cf. nigrolineatus 'L190'",
+   "magyar_nev": "L190-es Panaque",
+   "kulonbseg": "Gyakran ezt a változatot hívják az alapfajnak, a csíkok vastagsága változó."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Emésztési zavarok fa hiánya esetén",
+  "Hasi vízkór rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 12000,
+ "ar_ft_max": 35000,
+ "tippek": [
+  "Mindig legyen az akváriumban puha fa (pl. mangrove), amit rágcsálhat.",
+  "Rendkívül erős külső szűrés szükséges a nagy mennyiségű ürülék miatt."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

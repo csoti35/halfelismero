@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Scleromystax barbatus",
+ "id": "scleromystax-barbatus",
+ "tipus": "hal",
+ "latin": "Scleromystax barbatus",
+ "regi_latin_nevek": [
+  "Corydoras barbatus"
+ ],
+ "magyar_nev": "Pofaszakállas páncélosharcsa",
+ "egyeb_nevek": [
+  "sakktábla páncélosharcsa",
+  "szakállas harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Délkelet-Brazília partvidéki folyói",
+ "max_meret_cm": 10.0,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően más halfajokkal békés fenéklakó, azonban a kifejlett hímek egymással szemben territoriálisak lehetnek és harcolnak a búvóhelyekért.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 14,
+ "taplalek": "Mindenevő, de fehérjeigényes; fagyasztott és élő tubifex, szúnyoglárva, artémia, valamint jó minőségű harcsatabletták.",
+ "tarsithato": [
+  "Hűvösebb vizet kedvelő fajok",
+  "pl. rézlazac",
+  "kardfarkú hal",
+  "különféle hegyi pataki dániók vagy más szubtrópusi kistestű halak."
+ ],
+ "kerulendo": [
+  "Kifejezetten melegkedvelő trópusi fajok (diszkoszhal",
+  "ramirezi)",
+  "nagytestű ragadozók."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Tágas, hideg vizes ívató akvárium berendezése homokos aljzattal és lapos kövekkel.",
+  "A tenyészcsapat kondicionálása élő eleséggel.",
+  "Hirtelen hideg vizes (akár 3-5 °C-os esés) vízcsere végrehajtása erős levegőztetés mellett.",
+  "A hímek hevesen udvarolnak, a megtermékenyített ikrákat az akvárium üvegére vagy kövekre ragasztják.",
+  "Az ikrák penészedésre hajlamosak, xantán vagy metilénkék adagolása javasolt a szülők kivétele után.",
+  "Az ivadékok artémia naupliuszokkal nevelhetők fel."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek fejoldalán jellegzetes serték ('bajusz/szakáll') találhatók, mellúszóik jóval hosszabbak és hátúszójuk is megnyúlt; a nőstények nagyobbak és kerekdedebbek, serték nélkül.",
+ "felismeres_jegyek": [
+  "Nagy, erőteljes testfelépítés a páncélosharcsák között.",
+  "A hímek fejének oldalán kefe- vagy sörteszerű bőrképletek találhatók.",
+  "Sárgásbarna testen márványozott, sakktáblaszerű fekete mintázat.",
+  "A hímek mell- és hátúszói hegyesek, megnyúltak.",
+  "A szemek magasan ülnek az enyhén megnyúlt fejen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Scleromystax kronei",
+   "magyar_nev": "Krone-páncélosharcsa",
+   "kulonbseg": "Nagyon hasonló, de mintázata kevésbé sakktáblaszerű és kissé eltérő foltozottságú a pofán."
+  },
+  {
+   "latin": "Corydoras paleatus",
+   "magyar_nev": "Foltos páncélosharcsa",
+   "kulonbseg": "Kisebb testméret, hiányoznak a hím pofájáról a serték, és szürkébb az alapszíne."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hőstressz (tartósan 25 °C feletti vízben legyengül az immunrendszerük)",
+  "Bakteriális hasvízkór",
+  "Oxigénhiány miatti fulladás magas hőmérsékleten"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Ne tartsuk meleg trópusi akváriumban, szobahőmérsékleten, fűtés nélkül érzi magát a legjobban.",
+  "Biztosítsunk erős áramlást és magas oldott oxigéntartalmat a medencében.",
+  "A hímek területhatárolásához alakítsunk ki különálló búvóhelyeket kövekből és fadarabokból."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

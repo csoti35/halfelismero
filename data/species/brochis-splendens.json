@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Brochis splendens",
+ "id": "brochis-splendens",
+ "tipus": "hal",
+ "latin": "Brochis splendens",
+ "regi_latin_nevek": [
+  "Corydoras splendens",
+  "Callichthys splendens"
+ ],
+ "magyar_nev": "Smaragd páncélosharcsa",
+ "egyeb_nevek": [
+  "Smaragdharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Dél-Amerika (Amazonas-medence, Peru, Brazília, Ecuador)",
+ "max_meret_cm": 8.5,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, társas fenéklakó hal. Fajtársaival szoros csapatot alkot, idejét a talaj túrásával és táplálékkereséssel tölti.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, előnyben részesíti a süllyedő harcsatablettákat, tubifexet, fagyasztott vörös szúnyoglárvát és artémiát.",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "törpesügérek",
+  "dániók",
+  "márványrákok kivételével a legtöbb nem agresszív társas faji hal."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "territoriális nagy testű sügérek",
+  "ragadozó harcsák",
+  "csipkelődő díszmárnák."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Egy csapat ivarérett egyed bőséges élő eleséggel (pl. tubifex, szúnyoglárva) való kondicionálása.",
+  "Ívató akváriumba helyezés, ahol dús növényzet vagy műszálas ikráztató csomó (mop) található.",
+  "Nagyobb arányú (30-50%-os) hidegvizes vízcsere és a légnyomásesés szimulálása az ívás beindításához.",
+  "A hím T-pozícióban termékenyíti meg a nőstény hasúszói közé szorított ikrákat, melyeket a nőstény felületekre tapaszt.",
+  "Az ikrázás után a szülőket el kell távolítani, és az ikrák penészedése ellen metilénkékkel vagy égerfapipaccsal kell védekezni."
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan testesebbek, kerekdedebbek és nagyobbra nőnek; a hímek karcsúbbak és hátúszójuk kissé hegyesebb.",
+ "felismeres_jegyek": [
+  "Jellegzetes smaragdzöldes-fémes irizálás a testen és a kopoltyúfedőn.",
+  "A Corydoras fajokénál jóval hosszabb hátúszó, amely 10-12 lágy sugarat számlál.",
+  "Robusztus, mély testalkat két sorban elhelyezkedő csontpajzsokkal.",
+  "Lefelé álló száj, bajuszszálakkal a táplálék felkutatására."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras aeneus",
+   "magyar_nev": "Kékpajzsos páncélosharcsa",
+   "kulonbseg": "Kisebb termetű, hátúszójában csupán 7-8 lágy sugár található, teste kevésbé zömök."
+  },
+  {
+   "latin": "Brochis multiradiatus",
+   "magyar_nev": "Hosszúorrú smaragdharcsa",
+   "kulonbseg": "Hosszabb, hegyesebb orr-rész és még több (akár 17) hátúszósugár jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bajuszszálak elrothadása vagy sérülése éles aljzat miatt",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Mindenképpen finom szemcséjű homokot használjunk aljzatként, hogy megelőzzük az érzékeny bajuszszálak sérülését és elfertőződését.",
+  "Biztosítsunk számukra szabad hozzáférést a vízfelszínhez, mivel béllégzők és időnként felugranak levegőt venni.",
+  "Csapatban érzik igazán jól magukat, minimum 5-6 példányt tartsunk együtt."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

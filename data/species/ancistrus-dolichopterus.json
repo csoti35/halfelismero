@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Ancistrus dolichopterus",
+ "id": "ancistrus-dolichopterus",
+ "tipus": "hal",
+ "latin": "Ancistrus dolichopterus",
+ "regi_latin_nevek": [
+  "L183"
+ ],
+ "magyar_nev": "Kék pajzsosharcsa",
+ "egyeb_nevek": [
+  "Fehérszegélyes algaevő harcsa",
+  "L183-as algaevő"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Tepsifejű harcsák",
+ "szarmazas": "Dél-Amerika (Rio Negro, Amazónia)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, éjszakai aktív faj. A hímek területtartók a barlangok környékén, de más halakat nem bántanak.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 10,
+ "taplalek": "Növényevő/algaevő; jó minőségű növényi tabletták, algák, forrázott zöldségek, fadarabok.",
+ "tarsithato": [
+  "Dél-amerikai lágyvizes halakkal",
+  "diszkoszhalakkal",
+  "pontylazacokkal",
+  "páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Agresszív nagy sügérek és keményvizes fajok."
+ ],
+ "szaporodas_mod": "Barlangba ívó, a hím őrzi és gondozza az ikrákat.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Biztosítsunk lágy, enyhén savas (pH 6.0 körüli) tiszta vizet és megfelelő méretű barlangot.",
+  "Kondicionáljuk a szülőket változatos növényi és némi fagyasztott táppal.",
+  "Az ívást követően a hím a barlangban marad és ventillálja az ikrákat.",
+  "Az ivadékok kikelése után fontos a nagyon jó vízminőség és a folyamatos növényi táplálék biztosítása."
+ ],
+ "ivari_kulonbseg": "A hímek fején és orrán erős, elágazó húsos nyúlványok találhatók, a nőstények feje sima vagy csak minimális nyúlványt visel.",
+ "felismeres_jegyek": [
+  "Nagyon sötét, szinte koromfekete vagy sötétkék alapszín.",
+  "Testén apró, csillagszerű fehér vagy kékessfehér pöttyök sűrűn szórva.",
+  "A hát- és farokúszó szélén éles, hófehér szegély húzódik (amely a kor előrehaladtával is megmarad a valódi L183-nál).",
+  "A hátúszóban 8-9 lágy úszósugár található (szemben a közönséges Ancistrus 7 sugarával)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ancistrus cirrhosus",
+   "magyar_nev": "Közönséges algaevő harcsa",
+   "kulonbseg": "Az A. cirrhosus barnás alapszínű, nincsen hófehér szegély az úszóin és toleránsabb a kemény vízre."
+  },
+  {
+   "latin": "Ancistrus hoplogenys",
+   "magyar_nev": "L059 algaevő",
+   "kulonbseg": "Az A. hoplogenys kifejlett korára elveszíti az úszók szegélyét és pöttyözése vöröses-barna árnyalatúvá válhat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malignus fertőzések rossz vízminőség esetén",
+  "Hasvízkór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Kifejezetten Igényli a lágy, savas vizet és a magasabb hőmérsékletet, ideális diszkoszhalak mellé.",
+  "Fafa (pl. vasfa) jelenléte elengedhetetlen az akváriumban."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

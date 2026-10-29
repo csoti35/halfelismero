@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Megalechis thoracata",
+ "id": "megalechis-thoracata",
+ "tipus": "hal",
+ "latin": "Megalechis thoracata",
+ "regi_latin_nevek": [
+  "Hoplosternum thoracatum",
+  "Callichthys thoracatus"
+ ],
+ "magyar_nev": "Tarka kéregpáncélosharcsa",
+ "egyeb_nevek": [
+  "Torakátum harcsa",
+  "Márványos páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Dél-Amerika északi és középső része (Amazonas, Orinoco medence)",
+ "max_meret_cm": 14.0,
+ "elettartam_ev": 10,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szelíd és aktív természetű páncélosharcsa. Bár nagyobbra nő és néha mohón mozog, más halakat nem bánt.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.8,
+ "gh_min": 4,
+ "gh_max": 20,
+ "taplalek": "Mindenevő és rendkívül mohó; elfogad lemezes tápokat, süllyedő pelleteket, élő és fagyasztott szúnyoglárvát, tubifexet.",
+ "tarsithato": [
+  "Közepes és nagyobb testű pontylazacok",
+  "sügérek",
+  "békés márnák",
+  "elevenszülők."
+ ],
+ "kerulendo": [
+  "Apró ivadékok vagy kifejlett mikroméretű halak",
+  "amelyeket tápláléknak nézhet",
+  "valamint agresszív ragadozók."
+ ],
+ "szaporodas_mod": "Habfészeképítő ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy ivarérett pár külön akváriumba helyezése és tápláló élő eleségekkel való etetése.",
+  "Úszó növények vagy lebegő műanyag lap elhelyezése a vízfelszínen a fészeképítés elősegítésére.",
+  "A vízszint csökkentése kb. 15-20 cm-re és a hőmérséklet enyhe emelése (26-28 °C).",
+  "A hím habfészket épít a felszíni tereptárgy alá, majd az ikrákat a fészekbe ragasztja és agresszíven őrzi azokat.",
+  "Ívás után a nőstényt érdemes eltávolítani, a kikelt ivadékok elúszásakor pedig a hímet is ki kell venni."
+ ],
+ "ivari_kulonbseg": "Az ivarérett hímek mellúszóinak első sugara vastag, kemény, tüskeszerű és vörösesbarna árnyalatú; a nőstények mellúszói lekerekítettek, testük teltebb.",
+ "felismeres_jegyek": [
+  "Hengerded, erőteljes testforma, barna alapszín sötétebb foltokkal, márványos mintázattal.",
+  "Két pár hosszú bajuszszál a felső ajkon.",
+  "Hímeknél megvastagodott, hegyes, merev mellúszótüske.",
+  "A farokúszó tövén függőleges sötét sáv húzódik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hoplosternum littorale",
+   "magyar_nev": "Parti kéregpáncélosharcsa",
+   "kulonbseg": "Nagyobbra nő, színezete egységesebb sötétszürke vagy acélkék, hiányoznak a kifejezett fekete márványos foltok."
+  },
+  {
+   "latin": "Callichthys callichthys",
+   "magyar_nev": "Laposfejű páncélosharcsa",
+   "kulonbseg": "Laposabb fejforma, hengeresebb test és jóval kisebb szemek jellemzik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bakteriális hasvízkór",
+  "Bőrférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Béllégző faj, ezért mindig biztosítani kell, hogy a fedőüveg alatt párás, meleg levegőréteg maradjon, különben megfázhat légvételkor.",
+  "Etetéskor nagyon vehemensen kavarhatja fel az aljzatot, érdemes erős szűrést alkalmazni.",
+  "Jól lefedett akvárium szükséges, mert a levegővételi rohamok közben könnyen kiugorhat a vízből."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

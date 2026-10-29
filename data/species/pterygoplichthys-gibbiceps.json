@@ -1,0 +1,78 @@
+{
+ "id": "pterygoplichthys-gibbiceps",
+ "tipus": "hal",
+ "latin": "Pterygoplichthys gibbiceps",
+ "regi_latin_nevek": [
+  "Glyptoperichthys gibbiceps"
+ ],
+ "magyar_nev": "Vitorlás óriás algaevő",
+ "egyeb_nevek": [
+  "Vitorlás algaevő harcsa",
+  "Leopárdminta harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae (Tepsifejű harcsák)",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco medence)",
+ "max_meret_cm": 50,
+ "elettartam_ev": 20,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Alapvetően békés óriás, de a területét védi. Más hímekkel szemben agresszív lehet. Éjszaka aktív.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 19,
+ "taplalek": "Mindenevő, de nagy hangsúlyt kell fektetni a növényi táplálékra és a fára.",
+ "tarsithato": [
+  "Nagyobb testű halakkal",
+  "sügérekkel",
+  "ezüstbalinnal."
+ ],
+ "kerulendo": [
+  "Kisméretű akváriumtársak",
+  "mert véletlenül kárt tehet bennük a mérete miatt."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban szinte lehetetlen. Ázsiában nagy tavi tenyészetekben szaporítják",
+  "ahol a partfalba fúrt lyukakba ívnak."
+ ],
+ "ivari_kulonbseg": "A hímek ivarszerve hegyesebb, a nőstényeké kerekebb. A hímek mellúszói vaskosabbak.",
+ "felismeres_jegyek": [
+  "Hatalmas",
+  "vitorlaszerű hátúszó (12-13 sugár)",
+  "jellegzetes barna leopárdmintázat (világosabb keretben sötét foltok)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pterygoplichthys pardalis",
+   "magyar_nev": "Óriás algaevő harcsa",
+   "kulonbseg": "A gibbiceps hátúszója sokkal magasabb és a mintázata szabályosabb foltokból áll."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrgomba",
+  "Hasi vízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "Hatalmas mennyiségű ürüléket termel, külső szűrő elengedhetetlen.",
+  "Fiatalon hatékony algaevő, de idősebb korában már kiegészítő etetést igényel.",
+  "A növényeket véletlenül kitúrhatja a helyükről."
+ ],
+ "lista_nev": "Pterygoplichthys gibbiceps",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

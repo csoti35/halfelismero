@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Otocinclus vittatus",
+ "id": "otocinclus-vittatus",
+ "tipus": "hal",
+ "latin": "Otocinclus vittatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Csíkos törpe szívóharcsa",
+ "egyeb_nevek": [
+  "Otocinclus",
+  "Törpe szívóharcsa",
+  "Csíkos törpeharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Amazonas, Orinoco, Paraná vízrendszere)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, ijedős rajhal. Napközben a tereptárgyakon, növények levelein vagy az üvegen pihenve legelészik.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "taplalek": "Növényi táplálék, kovamoszatok, biohártya (aufwuchs), forrázott zöldségek, spirulinás tabletták.",
+ "tarsithato": [
+  "Békés kistestű pontylazacok",
+  "törpe páncélosharcsák",
+  "dániók",
+  "édesvízi garnélák."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek",
+  "nagyobb ragadozók",
+  "csipkelődő márnák",
+  "aranyhalak."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Csak jól beállt, növényekkel sűrűn beültetett akváriumban szaporítható sikerrel.",
+  "Változatos, bőséges élő eleséggel és növényi táplálékkal kondicionáljuk a szülőket.",
+  "Hűvösebb, lágy vízzel végzett jelentős vízcsere szimulálja az esős évszakot.",
+  "Az ikrákat (napi néhány darabot) növények fonákjára vagy az üvegre ragasztják.",
+  "A kikelő lárvákat biohártyával, finom porított növényi táppal és spirulinával kell etetni."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények láthatóan testesebbek, kerekdedebbek felülről nézve, mint a karcsúbb hímek.",
+ "felismeres_jegyek": [
+  "Hosszanti, sötét sáv fut az orrcsúcstól a farokúszó tövéig",
+  "A hasi oldal ezüstösfehér vagy sárgásfehér",
+  "Lefelé álló, tapadókoronggá módosult száj",
+  "A faroktőnél a sötét sáv kismértékben kiszélesedik, majd a farokúszó közepén is folytatódik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Otocinclus macrospilus",
+   "magyar_nev": "Foltos törpe szívóharcsa",
+   "kulonbseg": "A faroktövén különálló, nagyobb rombusz alakú folt látható, nem folytonos a csík."
+  },
+  {
+   "latin": "Otocinclus affinis",
+   "magyar_nev": "Arany törpe szívóharcsa",
+   "kulonbseg": "Színezete aranyosabb, a háti rajzolat finomabban pettyezett, az akvarisztikában nagyon ritka."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhhalál az új, alga- és biohártya-mentes akváriumokban",
+  "Bélbaktérium-vesztés a szállítási koplalás miatt",
+  "Stressz okozta parazitás fertőzések (darakór)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Soha ne tegyük frissen indított, steril akváriumba; létfontosságú számára a felületeken megtelepedett biohártya.",
+  "Vásárláskor mindig ellenőrizzük, hogy a halak hasa gömbölyded-e, a beesett has biztos pusztulást jelez.",
+  "Rendszeresen kínáljunk nekik forrázott cukkinit vagy uborkát, amelyet tapadókoronggal rögzítünk."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

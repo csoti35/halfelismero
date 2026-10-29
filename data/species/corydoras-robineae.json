@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Corydoras robineae",
+ "id": "corydoras-robineae",
+ "tipus": "hal",
+ "latin": "Corydoras robineae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Robine-páncélosharcsa",
+ "egyeb_nevek": [
+  "zászlósfarkú páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Callichthyidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Dél-Amerika (Rio Negro medencéje)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, kissé félénk fenéklakó rajhal. Szinte folyamatosan a talajon keresgél, puha aljzatot igényel az érzékeny bajuszszálai miatt.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Mindenevő; kedveli a süllyedő harcsatablettákat, az élő és fagyasztott tubifexet, szúnyoglárvát és artémiát.",
+ "tarsithato": [
+  "Kistestű pontylazacok",
+  "törpesügérek",
+  "egyéb békés páncélosharcsák és nano halak."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "csipkelődő márnák",
+  "valamint túl kemény vizet igénylő fajok."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy, savas víz biztosítása és a tenyészcsapat bőséges etetése élő eleséggel (főleg tubifex, fekete szúnyoglárva).",
+  "Hideg vizes részleges vízcsere a monszunszerű esőzések imitálására.",
+  "A hím és a nőstény T-pozícióban termékenyíti meg az ikrákat.",
+  "Az ikrákat a nőstény finom levelű növényekre vagy az akvárium üvegére ragasztja.",
+  "Az ikrákat a szülők hajlamosak megenni, ezért a felnőtteket el kell távolítani.",
+  "A kikelő lárvákat szikzacskójuk felszívódása után frissen kelt artémiával vagy mikróval kell etetni."
+ ],
+ "ivari_kulonbseg": "A felnőtt nőstények testesebbek, felülről nézve szélesebb a hasuk, a hímek karcsúbbak és hátúszójuk kissé hegyesebb.",
+ "felismeres_jegyek": [
+  "A farkúszón jellegzetes vízszintes, sötét és világos csíkozás látható.",
+  "A test megnyúltabb, áramvonalasabb a legtöbb Corydoras fajnál.",
+  "Az oldaltengelyen apró pöttyökből álló hosszanti mintázat fut végig.",
+  "Szürkésfehér alapszín, sötét foltokkal a háti zónában.",
+  "Finom, érzékeny bajuszszálak az alsó állású száj körül."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Corydoras britskii",
+   "magyar_nev": "Britski-páncélosharcsa",
+   "kulonbseg": "Sokkal zömökebb és nagyobb testalkatú, hiányzik a farkúszó finom vízszintes csíkozása."
+  },
+  {
+   "latin": "Corydoras julii",
+   "magyar_nev": "Gyöngyös páncélosharcsa",
+   "kulonbseg": "Zömökebb test, a hátúszón nagy fekete folt van, farkúszója pettyezett, nem pedig vízszintesen sávozott."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bajuszszálak eróziója éles aljzat miatt",
+  "Darackór (Ichthyophthirius)",
+  "Bakteriális fertőzések a rossz vízminőségtől"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Kizárólag finom szemcséjű kvarchomokot használjunk aljzatként a bajuszszálak védelmében.",
+  "Érzékeny a vízminőségre és a nitrátra, a rendszeres lágy vizes vízcsere elengedhetetlen számára.",
+  "Kedveli a mérsékelt vízáramlást és az árnyékolt, búvóhelyekkel teli részeket."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

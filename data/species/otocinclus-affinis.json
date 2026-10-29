@@ -1,0 +1,87 @@
+{
+ "id": "otocinclus-affinis",
+ "tipus": "hal",
+ "latin": "Otocinclus affinis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe algaevő harcsa (otocinclus)",
+ "egyeb_nevek": [
+  "Otocinclus",
+  "Otó"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsák",
+ "szarmazas": "Dél-Amerika (Brazília)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, félénk csoportlakó hal. Soha nem bánt más fajokat.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Növényevő (főleg barna és zöld alga, bio-film, forrázott zöldség, algatabletta)",
+ "tarsithato": [
+  "Apró pontylazacok",
+  "garnélák",
+  "békés törpesügérek"
+ ],
+ "kerulendo": [
+  "Nagy szájú ragadozók",
+  "agresszív halak"
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyon tiszta, nitrátmentes víz",
+  "Bőséges növényzet (széles levelek)",
+  "Vízcsere lágy vízzel",
+  "Az ikrákat a levelek fonákjára vagy az üvegre tapaszthatják"
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan nagyobbak és szélesebbek felülről nézve.",
+ "felismeres_jegyek": [
+  "Apró, megnyúlt test",
+  "Sötét vízszintes sáv az orrtól a farokúszóig",
+  "Ezüstös-fehér has",
+  "Folt a faroktőnél",
+  "Szívószáj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Otocinclus vittatus",
+   "magyar_nev": "Közönséges törpe szívóharcsa",
+   "kulonbseg": "A sötét sáv és a farokfolt közötti rész fehérebb, gyakoribb a kereskedelemben."
+  },
+  {
+   "latin": "Otocinclus hoppei",
+   "magyar_nev": "Hoppe törpe szívóharcsája",
+   "kulonbseg": "A farokfolt alakja kerekebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés (behorpadt has)",
+  "Nitrit/Ammónia mérgezés (nagyon érzékeny)",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Csak beállt, algás akváriumba telepítsük, mert az új akváriumban éhen halhat.",
+  "Vásárláskor nézzük meg a hasát: ha befelé fordul, ne vegyük meg.",
+  "Nagyon érzékeny a hirtelen vízminőség-változásra."
+ ],
+ "lista_nev": "Otocinclus affinis",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

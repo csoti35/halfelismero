@@ -1,0 +1,84 @@
+{
+ "id": "pterygoplichthys-pardalis",
+ "tipus": "hal",
+ "latin": "Pterygoplichthys pardalis",
+ "regi_latin_nevek": [
+  "Liposarcus pardalis"
+ ],
+ "magyar_nev": "Óriás algaevő harcsa",
+ "egyeb_nevek": [
+  "Közönséges pleko",
+  "Leopárd algaevő"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae (Tepsifejű harcsák)",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 40,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Szívós hal, de felnőttként agresszív lehet más fenéklakókkal. Gyakran összetévesztik a valódi Hypostomus plecostomusszal.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kiváló algaevő, de elfogadja a tablettákat és a zöldségeket is.",
+ "tarsithato": [
+  "Nagyobb testű",
+  "robusztus halakkal."
+ ],
+ "kerulendo": [
+  "Lassú",
+  "lapos halak",
+  "apró fenéklakók."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban nem jellemző. Tenyésztelepeken",
+  "földmedrű tavakban szaporítják."
+ ],
+ "ivari_kulonbseg": "Nehéz megállapítani; a hímek ivarszervei alapján lehetséges csak biztosra menni.",
+ "felismeres_jegyek": [
+  "Hálózatos",
+  "foltos mintázat",
+  "a hátúszó 11-13 sugárból áll",
+  "a hasi rész is foltos."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hypostomus plecostomus",
+   "magyar_nev": "Óriás algaevő hal",
+   "kulonbseg": "A pardalis hátúszójában több sugár van (10+ vs 7-8)."
+  },
+  {
+   "latin": "Pterygoplichthys disjunctivus",
+   "magyar_nev": "Pikkelyes algaevő harcsa",
+   "kulonbseg": "A hasi mintázat eltérő, a disjunctivusnál a foltok összeolvadnak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 7000,
+ "tippek": [
+  "Ez a faj a leggyakoribb 'pleko' a kereskedésekben, bár gyakran rossz néven árulják.",
+  "Nagyon szívós, de a mérete miatt csak hatalmas akváriumba való.",
+  "Éjszaka érdemes etetni, amikor a többi hal már pihen."
+ ],
+ "lista_nev": "Pterygoplichthys pardalis",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

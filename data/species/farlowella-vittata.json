@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Farlowella vittata",
+ "id": "farlowella-vittata",
+ "tipus": "hal",
+ "latin": "Farlowella vittata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Közönséges tűharcsa",
+ "egyeb_nevek": [
+  "Tűharcsa",
+  "Ágacskaharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Kolumbia és Venezuela, Orinoco-medence)",
+ "max_meret_cm": 22.0,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, lassú mozgású, álcázó életmódot folytató hal. Vékony ágakra, fadarabokra vagy nádszálakra tapadva szinte láthatatlan marad.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 10,
+ "taplalek": "Algafélék, biohártya, forrázott zöldségek (spenót, cukkini), növényi alapú tabletták és eleségek.",
+ "tarsithato": [
+  "Nyugodt pontylazacok",
+  "ceruzahalak",
+  "páncélosharcsák",
+  "törpe sügérek."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "agresszív halak",
+  "uszonylecsípő márnák",
+  "nagytestű harcsák",
+  "amelyek eleszik előle az élelmet."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Jól táplált párt tartsunk tiszta, oxigénben gazdag, áramló vizű akváriumban.",
+  "Az ívás rendszerint éjszaka vagy kora reggel történik az akvárium üvegére vagy sima tereptárgyra.",
+  "A hím gondosan őrzi és legyezi az ikrákat a kelésig (kb. 6-9 nap).",
+  "Kelés után a hím felügyelete megszűnik; az ivadékokat külön nevelőmedencébe érdemes tenni.",
+  "Az ivadékok indításához kovamoszatok, biohártya és finomra őrölt spirulina paszta szükséges."
+ ],
+ "ivari_kulonbseg": "Az ivarérett hímek orrán (rostrum) apró sörték, fogacskák (odontódok) fejlődnek ki, míg a nőstények orra sima.",
+ "felismeres_jegyek": [
+  "Rendkívül vékony, pálcikaszerű, meghosszabbodott testalkat",
+  "Hosszú, hegyes orr-rész (rostrum)",
+  "Barna, fakéregre emlékeztető alapszín két sötét hosszanti sávval az oldalakon",
+  "A farokúszó felső és alsó sugara fonalszerűen megnyúlt"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Farlowella acus",
+   "magyar_nev": "Hegyesorrú tűharcsa",
+   "kulonbseg": "Rendkívül ritka, a kereskedelemben szinte mindig F. vittata-t árulnak ezen a néven; orrkiképzése enyhén eltér."
+  },
+  {
+   "latin": "Sturisoma panamense",
+   "magyar_nev": "Panamai boszorkányharcsa",
+   "kulonbseg": "Robusztusabb testfelépítés, szélesebb fej és jóval nagyobb, vitorlaszerű hátúszó."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés a táplálékkonkurencia miatt",
+  "Vízminőség-romlásra való érzékenység",
+  "Bakteriális bőrfertőzések szállítási sérülések után"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Gondoskodjunk sok vékony faágról és függőleges növényi szárról az akváriumban, hogy természetes környezetet biztosítsunk számára.",
+  "Lassú evő, ezért ügyeljünk arra, hogy a gyorsabb halfajok ne egyék el előle a növényi eleséget (etessünk lámpaoltás után).",
+  "Oxigéndús, folyamatosan szűrt vizet igényel; a felhalmozódó szerves anyagokra kifejezetten érzékeny."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

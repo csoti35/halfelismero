@@ -1,0 +1,84 @@
+{
+ "id": "hypostomus-plecostomus",
+ "tipus": "hal",
+ "latin": "Hypostomus plecostomus",
+ "regi_latin_nevek": [
+  "Plecostomus guacari"
+ ],
+ "magyar_nev": "Óriás algaevő hal",
+ "egyeb_nevek": [
+  "Pleko",
+  "Pontozott algaevő harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae (Tepsifejű harcsák)",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Suriname, Guyana)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés a legtöbb hallal, de fajtársaival és más hasonló testfelépítésű fenéklakókkal szemben területvédő és agresszív lehet. Éjszakai életmódot folytat.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (főleg alga, forrázott zöldségek, süllyedő tabletták, néha fagyasztott eleség)",
+ "tarsithato": [
+  "Nagyobb testű sügérekkel",
+  "pontylazacokkal",
+  "dániókkal."
+ ],
+ "kerulendo": [
+  "Más nagytestű Loricariidák",
+  "lapos testű halak (pl. diszkoszhal)",
+  "mert rátapadhat a testükre."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között ritkán szaporodik. Természetben folyóparti üregekbe ívik. Hatalmas medencét és speciális áramlást igényel."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszói tüskésebbek, a nőstények felülről nézve teltebbek.",
+ "felismeres_jegyek": [
+  "Sötétbarna alapszín sötétebb pöttyökkel",
+  "tapadókorongos száj",
+  "kemény csontpajzsok a testen",
+  "magas hátúszó 7-8 sugárral."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pterygoplichthys pardalis",
+   "magyar_nev": "Óriás algaevő harcsa",
+   "kulonbseg": "A hátúszó sugarainak száma több (10 felett), a mintázat hálózatosabb."
+  },
+  {
+   "latin": "Ancistrus sp.",
+   "magyar_nev": "Antisztrusz",
+   "kulonbseg": "Sokkal kisebb marad, a hímek fején húsos nyúlványok találhatók."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélgyulladás (nem megfelelő étrend esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Mindenképpen legyen faág az akváriumban, mert szüksége van a cellulózra az emésztéshez.",
+  "Ne vegyük meg kis akváriumba, mert rendkívül gyorsan növi ki a helyét.",
+  "Erős szűrést igényel a nagy mennyiségű ürülék miatt."
+ ],
+ "lista_nev": "Hypostomus plecostomus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "baryancistrus-xanthellus",
+ "tipus": "hal",
+ "latin": "Baryancistrus xanthellus",
+ "regi_latin_nevek": [
+  "Baryancistrus sp. L018",
+  "L081",
+  "L177"
+ ],
+ "magyar_nev": "Arany szegélyű algázóharcsa",
+ "lista_nev": "Baryancistrus xanthellus",
+ "egyeb_nevek": [
+  "Golden Nugget Pleco"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Brazília (Rio Xingu)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fajtársaival és más fenéklakókkal szemben területvédő. Érzékeny a vízminőségre.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de sok növényi táplálékot és algát igényel.",
+ "tarsithato": [
+  "Közepes testű",
+  "békés halakkal a felsőbb rétegekben."
+ ],
+ "kerulendo": [
+  "Más Baryancistrus fajok ugyanabban az akváriumban a területvédelem miatt."
+ ],
+ "szaporodas_mod": "Barlangba ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyon nehéz akváriumban szaporítani.",
+  "Extrém tiszta és oxigéndús víz szükséges.",
+  "Nagy méretű barlangok biztosítása.",
+  "A hím gondozza az ikrákat."
+ ],
+ "ivari_kulonbseg": "A hímek feje szélesebb és laposabb, mellúszóik tüskésebbek.",
+ "felismeres_jegyek": [
+  "Sötétbarna vagy fekete test sárga pöttyökkel.",
+  "A hátúszó és a farokúszó széle élénksárga szegélyű.",
+  "Széles, lapos fej.",
+  "Szívószája nagy és erős.",
+  "A pöttyök mérete fajtánként (L-szám) változik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Baryancistrus sp. L081",
+   "magyar_nev": "Aprópöttyös arany szegélyű harcsa",
+   "kulonbseg": "Sokkal kisebb és sűrűbb sárga pöttyök a testen."
+  },
+  {
+   "latin": "Baryancistrus sp. L177",
+   "magyar_nev": "Nagypöttyös arany szegélyű harcsa",
+   "kulonbseg": "Nagyobb, ritkásabb sárga foltok jellemzik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés (gyakran beesett hassal érkeznek a kereskedésekbe)",
+  "Nitrogén-vegyületekre való érzékenység"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 15000,
+ "ar_ft_max": 30000,
+ "tippek": [
+  "Vásárláskor ellenőrizzük, hogy ne legyen beesett a hasa.",
+  "Magas hőmérsékletet és nagyon erős vízmozgást igényel."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

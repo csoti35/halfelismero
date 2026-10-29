@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Dianema urostriatum",
+ "id": "dianema-urostriatum",
+ "tipus": "hal",
+ "latin": "Dianema urostriatum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Csíkosfarkú dianéma",
+ "egyeb_nevek": [
+  "Zászlósfarkú páncélosharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Páncélosharcsák",
+ "szarmazas": "Dél-Amerika (Amazónia, Brazília)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, társas harcsa. Bár a talaj közelében tartózkodik, sokat úszik a nyílt vízben is, nem bujkál folyamatosan.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; kedveli a süllyedő tablettákat, fagyasztott szúnyoglárvát, tubifexet és artémiát.",
+ "tarsithato": [
+  "Békés pontylazacokkal",
+  "törpesügérekkel",
+  "más páncélosharcsákkal és mólókkal."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "nagy testű sügérek",
+  "amelyek elnyomhatják vagy megcsipkedhetik."
+ ],
+ "szaporodas_mod": "Habfészket épít a vízfelszín alatt (pl. levelek vagy lebegő műanyag aljára).",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy párt egy legalább 60 literes ívató akváriumban, lebegő növényekkel vagy műanyag lapkával a felszínen.",
+  "Lágyítsuk a vizet és szimuláljunk esőzést friss, kissé hűvösebb víz cseréjével.",
+  "A hím habfészket épít a lebegő tárgy alá, ahová a nőstény elhelyezi az ikrákat.",
+  "Ívás után a nőstényt távolítsuk el, a hím őrzi a fészket az ikrák keléséig.",
+  "A kikelő ivadékokat elúszás után frissen keltetett artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszóinak első sugara vastagabb és barnás-vöröses árnyalatú, a nőstények testalkata kerekdedebb.",
+ "felismeres_jegyek": [
+  "Henger alakú, megnyúlt testformájú páncélosharcsa.",
+  "Ezüstös-barnás alapszín finom sötét pöttyökkel.",
+  "A farokúszón éles, fekete-fehér vízszintes csíkozás látható.",
+  "A szájszögletben két pár hosszú bajuszszál található."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dianema longibarbis",
+   "magyar_nev": "Hosszúbajszú dianéma",
+   "kulonbseg": "A D. longibarbis farokúszóján nincs fekete-fehér csíkozás, teste egyszínűbb barna."
+  },
+  {
+   "latin": "Megalechis thoracata",
+   "magyar_nev": "Tarkamintás harcsa",
+   "kulonbseg": "A Megalechis thoracata zömökebb, sokkal nagyobb testű (15-18 cm) és sötétebb mintázatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombás fertőzések az érzékeny bajuszszálakon (éles aljzat miatt)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Finom szemcséjű homok aljzatot használjunk, hogy ne sértse fel a bajuszszálait.",
+  "Biztosítsunk számára bőséges nyílt úszóteret a növényes részek mellett."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "peckoltia-vittata",
+ "tipus": "hal",
+ "latin": "Peckoltia vittata",
+ "regi_latin_nevek": [
+  "L015"
+ ],
+ "magyar_nev": "Díszes sávosharcsa",
+ "egyeb_nevek": [
+  "Sávos törpe algaevő",
+  "L015"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsák",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, félénk hal, napközben többnyire rejtőzködik. Fajon belül kisebb kergetőzések előfordulhatnak a búvóhelyekért.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 18,
+ "taplalek": "Mindenevő (alga, süllyedő tabletták, fagyasztott eleség, zöldségek)",
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal"
+ ],
+ "kerulendo": [
+  "Nagyon agresszív sügérek"
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Szűk barlangok biztosítása",
+  "Vízcsere lágyabb, hűvösebb vízzel",
+  "Változatos étrend",
+  "A hím őrzi az ikracsomót"
+ ],
+ "ivari_kulonbseg": "A hímek testének hátsó részén és a mellúszókon apró tüskék (odontodes) láthatók, a nőstények kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Világosbarna/sárgás alapszín sötétbarna függőleges sávokkal",
+  "A sávok az úszókon is folytatódnak",
+  "Lapos testalkat",
+  "Szívószáj",
+  "Kicsi, kompakt termet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Panaqolus maccus",
+   "magyar_nev": "Törpe díszharcsa",
+   "kulonbseg": "Vékonyabb csíkozás, több fát fogyaszt."
+  },
+  {
+   "latin": "Peckoltia brevis",
+   "magyar_nev": "L205 harcsa",
+   "kulonbseg": "Pöttyözöttebb fejforma, eltérő sávszélesség."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakkór",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 6500,
+ "tippek": [
+  "Dekoráljuk az akváriumot vasfával, amit szívesen rágcsálnak.",
+  "Éjszakai életmódja miatt lámpaoltás után is etessük."
+ ],
+ "lista_nev": "Peckoltia vittata",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

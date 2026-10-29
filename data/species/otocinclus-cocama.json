@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Otocinclus cocama",
+ "id": "otocinclus-cocama",
+ "tipus": "hal",
+ "latin": "Otocinclus cocama",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Zebra törpe szívóharcsa",
+ "egyeb_nevek": [
+  "Zebra otocinclus",
+  "Zebra oto"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Peru, Ucayali és Marañón folyórendszere)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, félénk törpeharcsa. Csapatban érzi jól magát, igényli a tiszta, oxigéndús vizet és a növényekkel dúsan beültetett környezetet.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Aufwuchs (biohártya), finom bevonat-algák, forrázott zöldségek, prémium spirulina- és növényi tabletták.",
+ "tarsithato": [
+  "Kisméretű rasbórák",
+  "parázslazacok",
+  "törpe páncélosharcsák",
+  "kistestű garnélák."
+ ],
+ "kerulendo": [
+  "Erős sodrást nem kedvelő kényes fajok",
+  "agresszív halak",
+  "nagytestű sügérek",
+  "elevenebb márnák."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban rendkívül ritkán szaporodik, kizárólag fajspecifikus tenyészmedencében érdemes próbálkozni.",
+  "Kiváló minőségű, lágy, enyhén savas vizet és folyamatos, bőséges természetes algás táplálást igényel.",
+  "Lágy vízcserékkel és hőmérséklet-ingadozással próbálható meg stimulálni a párzást.",
+  "Ikráit elszórtan növényi levelekre helyezi.",
+  "Az ivadékok rendkívül kényesek, azonnali biohártyát és infuzóriát igényelnek."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények valamivel nagyobbak, és felülnézetből jóval szélesebb, teltebb a hasi részük.",
+ "felismeres_jegyek": [
+  "Feltűnő, zebra-szerű függőleges és ferde fekete-fehér sávozás a testen",
+  "Világos, fehéres-ezüstös alapszín kontrasztos sötét foltokkal",
+  "Az úszókon fekete mintázat és foltozottság látható",
+  "Hátúszója előtt sötét nyeregszerű folt helyezkedik el"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Otocinclus vittatus",
+   "magyar_nev": "Csíkos törpe szívóharcsa",
+   "kulonbseg": "Hosszanti fekete csíkja van, nem zebraszerű keresztcsíkozása."
+  },
+  {
+   "latin": "Parotocinclus haroldoi",
+   "magyar_nev": "Harold-törpeharcsa",
+   "kulonbseg": "Foltos mintázatú, nem fekete-fehér zebrasávos, zsíruszonnyal rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tápanyaghiány és éhezés beállatlan akváriumban",
+  "Vízminőség-romlásra való érzékenység (ammónia/nitrit mérgezés)",
+  "Bakteriális hasvízkór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Csak stabil, legalább féléves akváriumba tegyük, ahol elegendő mikroszkopikus bevonat található a leveleken és fákon.",
+  "A kereskedelembe kerülő példányok szinte kizárólag vadbefogottak, ezért karanténozásuk és kíméletes beszoktatásuk kritikus.",
+  "Gondoskodjunk kiváló biológiai szűrésről és rendszeres részleges vízcserékről."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

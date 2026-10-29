@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Ancistrus cirrhosus",
+ "id": "ancistrus-cirrhosus",
+ "tipus": "hal",
+ "latin": "Ancistrus cirrhosus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Antennás algaevő harcsa",
+ "egyeb_nevek": [
+  "Ancistrus",
+  "Algaevő harcsa",
+  "Anci"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Tepsifejű harcsák",
+ "szarmazas": "Dél-Amerika (Paraná folyó medencéje)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 10,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Más fajokkal szemben teljesen békés, de a hímek egymással szemben territoriálisak lehetnek, búvóhelyeket védve.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 21,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.8,
+ "gh_min": 4,
+ "gh_max": 20,
+ "taplalek": "Növényevő/mindenevő; algák, süllyedő növényi tabletták, forrázott zöldségek (cuk anya, uborka), facsoportok emésztéshez.",
+ "tarsithato": [
+  "Kiválóan társítható szinte bármilyen békés közösségi hallal (pontylazacok",
+  "márna-félék",
+  "elevenszülők",
+  "sügérek többsége)."
+ ],
+ "kerulendo": [
+  "Kifejezetten nagy testű",
+  "agresszív predator halak."
+ ],
+ "szaporodas_mod": "Barlangba ívó, a hím gondoskodik az ikrákról és az ivadékokról.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Helyezzünk el szűk nyílású kerámia barlangot vagy fadarabot az akváriumban.",
+  "Egy jól táplált pár magától ívik barlangban a vízminőség fenntartása mellett.",
+  "A nőstény lerakja a sárga ikracsomót, majd a hím elkergeti és egyedül legyezi a vízmozgással az ikrákat.",
+  "Kikelés után az ivadékok a szikzacskó felszívódása után növényi tablettával és forrázott zöldséggel etethetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek orrán és fején elágazó, húsos tapogatók (agancsok) találhatók; a nőstényeknél ezek hiányoznak vagy csak a száj szélén aprók.",
+ "felismeres_jegyek": [
+  "Sötétbarna vagy feketés alapú test, világosabb pöttyökkel vagy hálózatos mintával.",
+  "Lapos testalkat, lefelé álló tapadókorongos száj.",
+  "A hímek fején feltűnő húsos nyúlványok láthatók.",
+  "Pikkelyek helyett kemény csontlemezek borítják a testét."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ancistrus dolichopterus",
+   "magyar_nev": "Kék pajzsosharcsa (L183)",
+   "kulonbseg": "Az A. dolichopterus úszóinak szélén hófehér szegély van, teste sötétebb és apróbb fehér pöttyös."
+  },
+  {
+   "latin": "Pterygoplichthys pardalis",
+   "magyar_nev": "Óriás algaevő harcsa",
+   "kulonbseg": "A Pterygoplichthys jóval nagyobbra nő (30-40 cm), és hiányoznak a fején lévő húsos nyúlványok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hasvízkór (helytelen, fehérjedús táplálás miatt)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Akváriumi gyökér (pl. mangrove, szőlőtőke) jelenléte elengedhetetlen az emésztésükhöz szükséges fadarabok miatt.",
+  "Rendszeresen etessük őket zöldséggel, különben ráfanyalodhatnak a puha levelű akváriumi növényekre."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

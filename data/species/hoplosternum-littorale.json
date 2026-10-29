@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Hoplosternum littorale",
+ "id": "hoplosternum-littorale",
+ "tipus": "hal",
+ "latin": "Hoplosternum littorale",
+ "regi_latin_nevek": [
+  "Callichthys littoralis",
+  "Cascadura macambira"
+ ],
+ "magyar_nev": "Parti kéregpáncélosharcsa",
+ "egyeb_nevek": [
+  "Közönséges hoploszternum",
+  "Páncélos partiharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callichthyidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Dél-Amerika (az Andoktól keletre eső mocsarak, folyók) és Trinidad",
+ "max_meret_cm": 22.0,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Alapvetően békés, nagy testű fenéklakó, de robusztus mérete és mozgása miatt a növényeket könnyen kitúrhatja. Íváskor a hím nagyon agresszíven védi a habfészket.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, szinte feneketlen étvágyú; megeszi a süllyedő pelleteket, fagyasztott eleségeket, gilisztát, rovarlárvákat és növényi tápokat.",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "közepes és nagy sügérek",
+  "nagyobb termetű páncélosharcsák és márnák."
+ ],
+ "kerulendo": [
+  "Apró termetű nano halak és garnélák",
+  "amelyeket véletlenül vagy táplálékként lenyelhet."
+ ],
+ "szaporodas_mod": "Habfészeképítő ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Egy kifejlett pár tágas, legalább 150-200 literes különálló ívató medencébe helyezése.",
+  "Felszínen lebegő növényi részek, falevelek vagy polisztirol lap biztosítása fészekalapként.",
+  "Vízszintcsökkentés és friss, lágyabb vízzel végzett bőséges vízcsere, a trópusi esős évszak szimulálására.",
+  "A hím növényi maradványokkal megerősített masszív habfészket épít a felszín alá, ahová a pár beikrázik.",
+  "Ívást követően a nőstényt el kell távolítani, mivel a hím ádázul védelmezi a fészket."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszótüskéje látványosan vastagabb, hosszabb és felfelé ívelő, ívási időszakban hasoldaluk kékes-ibolyás árnyalatot vesz fel.",
+ "felismeres_jegyek": [
+  "Erőteljes, zömök test, két sor kemény, szorosan záródó csontpajzzsal védve.",
+  "Színezete egységesebb szürke, olajzöld vagy kékesfekete, pettyezés nélkül.",
+  "Lefelé irányuló száj két pár hosszú bajuszszállal.",
+  "Ívelt, enyhén villás farokúszó sötét szegéllyel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Megalechis thoracata",
+   "magyar_nev": "Tarka kéregpáncélosharcsa",
+   "kulonbseg": "Kisebb maximális méret, kifejezetten foltos/márványos testmintázat jellemzi."
+  },
+  {
+   "latin": "Callichthys callichthys",
+   "magyar_nev": "Laposfejű páncélosharcsa",
+   "kulonbseg": "Kifejezetten lapított fej, kisebb szemek és kerekebb úszók."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bakteriális bőrfertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Nagy mérete és turkáló szokása miatt kizárólag jól gyökerező vagy kövekhez kötözött, kemény levelű növényeket (pl. Anubias) tartsunk mellette.",
+  "Nagy terhelést jelent a vízre, ezért túlméretezett külső szűrő alkalmazása feltétlenül indokolt.",
+  "A fészkét őrző hím a gondozó kezére is rátámadhat, karbantartáskor óvatosság szükséges."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}
