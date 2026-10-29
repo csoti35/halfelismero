@@ -64,7 +64,8 @@ async function wireCss(page) {
   await fp.setContent(`<body style="margin:0">${PLANT_SVG}</body>`); const plantPng = path.join(OUT, 'plant.png'); await fp.screenshot({ path: plantPng }); await fp.close();
 
   // App képernyőképek telefonméretben
-  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2.5, isMobile: true, hasTouch: true });
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2.5, isMobile: true, hasTouch: true, serviceWorkers: 'block' });
+  ctx.on('page', () => {}); 
   const page = await ctx.newPage(); await wireCss(page);
   await page.route(/generativelanguage/, r => { const pr = r.request().postData() || ''; const ans = /halorvos/.test(pr) ? SICK : /növényhatározó/.test(pr) ? PLANT : MOCK;
     setTimeout(() => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ candidates: [{ content: { parts: [{ text: JSON.stringify(ans) }] } }] }) }), 300); });
@@ -72,6 +73,7 @@ async function wireCss(page) {
   await page.addInitScript(() => {
     try { localStorage.setItem('aquaFajProSeenGuide', '1'); } catch (e) {}
   });
+  page.on('framenavigated', f => { if (f === page.mainFrame()) console.log('NAV ' + f.url().slice(0, 120)); });
   await page.goto(APP); await page.waitForTimeout(2500);
   const hl = async sel => page.evaluate(s => { document.querySelectorAll('.demo-hl').forEach(e => { e.classList.remove('demo-hl'); e.style.outline = ''; e.style.boxShadow = ''; }); const e = s && document.querySelector(s); if (e) { e.classList.add('demo-hl'); e.style.outline = '3px solid #fbbf24'; e.style.outlineOffset = '3px'; e.style.boxShadow = '0 0 0 9px rgba(251,191,36,.25)'; e.style.borderRadius = '12px'; } }, sel);
   const prep = async () => { await page.evaluate(() => { document.querySelectorAll('[id$="Modal"]').forEach(m => m.classList.add('hidden')); }); await page.waitForTimeout(400); };
