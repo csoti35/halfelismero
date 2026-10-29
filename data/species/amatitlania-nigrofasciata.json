@@ -1,0 +1,83 @@
+{
+ "id": "amatitlania-nigrofasciata",
+ "tipus": "hal",
+ "latin": "Amatitlania nigrofasciata",
+ "regi_latin_nevek": [
+  "Archocentrus nigrofasciatus",
+  "Cichlasoma nigrofasciatum"
+ ],
+ "magyar_nev": "Zebrasügér",
+ "egyeb_nevek": [
+  "Sávos sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Közép-amerikai sügérek",
+ "szarmazas": "Közép-Amerika (Guatemala, Salvador, Honduras)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül területvédő, különösen íváskor. Bármilyen halat elüldöz a fészke közeléből.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, nem válogatós (száraz tápok, fagyasztott eleség)",
+ "tarsithato": [
+  "Csak hasonlóan robusztus sügérekkel nagy akváriumban"
+ ],
+ "kerulendo": [
+  "Békés halak",
+  "kis testű fajok",
+  "lassú úszású halak"
+ ],
+ "szaporodas_mod": "Ikrát rakó (barlanglakó)",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Barlangba vagy cserépbe ívnak. A szülők agresszíven védik az ivadékot. Szinte bármilyen körülmények között szaporodnak."
+ ],
+ "ivari_kulonbseg": "A nőstények hasa íváskor narancssárga színűvé válik, a hímek nagyobbak és úszóik hegyesebbek.",
+ "felismeres_jegyek": [
+  "Szürkés alapszín",
+  "8-9 függőleges fekete sáv a testen",
+  "zömök testalkat",
+  "narancssárga folt a nőstények hasán."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amatitlania sajica",
+   "magyar_nev": "Sajica sügér",
+   "kulonbseg": "Kékebb úszók, kevésbé markáns sávok."
+  },
+  {
+   "latin": "Amatitlania siquia",
+   "magyar_nev": "Hondurasi vöröstorkú sügér",
+   "kulonbseg": "Kékesebb csillogás, eltérő származási hely."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Csak akkor szaporítsuk, ha tudunk helyet az ivadékoknak, mert rengeteg lesz.",
+  "Dekorációnak használjunk köveket és barlangokat.",
+  "Nagyon szívós faj, kezdőknek ideális sügér."
+ ],
+ "lista_nev": "Amatitlania nigrofasciata",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

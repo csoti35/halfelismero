@@ -1,0 +1,86 @@
+{
+ "id": "herichthys-cyanoguttatus",
+ "tipus": "hal",
+ "latin": "Herichthys cyanoguttatus",
+ "regi_latin_nevek": [
+  "Cichlasoma cyanoguttatum"
+ ],
+ "magyar_nev": "Texasi sügér",
+ "egyeb_nevek": [
+  "Gyöngyházsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Közép-amerikai sügérek",
+ "szarmazas": "USA (Texas), Mexikó",
+ "max_meret_cm": 30,
+ "elettartam_ev": 12,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen területvédő és agresszív faj, különösen fajtársaival szemben. Nagy helyet igényel.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, falánk. Élő eleség, fagyasztott húsos ételek, sügérpellet, némi növényi kiegészítés.",
+ "tarsithato": [
+  "Csak hasonlóan nagy és robusztus sügérekkel",
+  "nagy harcsákkal."
+ ],
+ "kerulendo": [
+  "Kisebb halak",
+  "békés közösségi halak",
+  "gyenge úszók."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Megfelelő pár kiválasztása. 2. Nagy",
+  "lapos kő biztosítása. 3. Íváskor a pár minden mást elüldöz. 4. Az ikrák száma az ezret is elérheti. 5. Az ivadékok nevelése könnyű",
+  "sórákkal indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, idősebb korban markáns homlokpúpot növesztenek, úszóik hegyesebbek.",
+ "felismeres_jegyek": [
+  "Szürkés-zöldes alapszín",
+  "az egész testet apró",
+  "világoskék vagy türkiz pettyek borítják",
+  "íváskor a test elülső része kivilágosodik",
+  "a hátsó befeketedik."
+ ],
+ "hasonlo_fajos": [
+  {
+   "latin": "Herichthys carpintis",
+   "magyar_nev": "Mexikói gyöngyházsügér",
+   "kulonbseg": "A kék pettyek nagyobbak és szabálytalanabbak rajta."
+  },
+  {
+   "latin": "Rocio octofasciata",
+   "magyar_nev": "Nyolcsávos sügér",
+   "kulonbseg": "Sötétebb alapszín, más típusú pettyezettség."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fejlyukasodás",
+  "Bélgyulladás a nem megfelelő táplálástól"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Mivel az USA déli részéről származik, jól bírja a hűvösebb vizet is.",
+  "Rendkívül intelligens hal, felismeri a gondozóját.",
+  "A növényeket szinte biztosan kitúrja vagy megeszi."
+ ],
+ "lista_nev": "Herichthys cyanoguttatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

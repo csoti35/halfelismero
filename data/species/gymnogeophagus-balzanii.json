@@ -1,0 +1,76 @@
+{
+ "id": "gymnogeophagus-balzanii",
+ "tipus": "hal",
+ "latin": "Gymnogeophagus balzanii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Búbosfejű földevősügér",
+ "lista_nev": "Gymnogeophagus balzanii",
+ "egyeb_nevek": [
+  "Balzani földevő"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Paraguay, Uruguay, Argentína",
+ "max_meret_cm": 18,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Sügérhez képest rendkívül békés, lomha mozgású hal. Csak íváskor válik területvédővé.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 20,
+ "homerseklet_max": 25,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli a fagyasztott eleséget, de elfogadja a jó minőségű sügértápokat is.",
+ "tarsithato": [
+  "Békés",
+  "hasonló hőmérsékleti igényű halakkal",
+  "pl. páncélos harcsákkal",
+  "nagyobb lazacokkal."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "agresszív halak",
+  "amelyek eleszik előle a táplálékot."
+ ],
+ "szaporodas_mod": "Késleltetett szájköltő (anyai).",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lapos kőre ívnak",
+  "majd 24-48 óra múlva a nőstény szájába veszi az ikrákat. Az ivadékok neveléséhez hűvösebb pihenőidőszak utáni hőmérséklet-emelés segíthet."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek fején hatalmas zsírpúp alakul ki, a nőstények kisebbek és nincs púpjuk.",
+ "felismeres_jegyek": [
+  "Zömök",
+  "magas testfelépítés. A hímek homloka meredeken emelkedik. Testük sárgás-barnás",
+  "oldalukon sötét foltokkal és függőleges sávokkal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gymnogeophagus rhabdotus",
+   "magyar_nev": "Csíkos földevősügér",
+   "kulonbseg": "Kisebb termetű, és hiányzik a Balzanii-ra jellemző extrém magas homlokpúp."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Szükségük van egy téli, hűvösebb (15-18 fokos) időszakra az egészségük megőrzéséhez.",
+  "Ne tartsuk túl meleg vízben tartósan, mert az lerövidíti az élettartamukat."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

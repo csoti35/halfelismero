@@ -1,0 +1,83 @@
+{
+ "id": "satanoperca-jurupari",
+ "tipus": "hal",
+ "latin": "Satanoperca jurupari",
+ "regi_latin_nevek": [
+  "Geophagus jurupari"
+ ],
+ "magyar_nev": "Démonfejű sügér",
+ "lista_nev": "Satanoperca jurupari",
+ "egyeb_nevek": [
+  "Jurupari földevő"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Amazonas medence",
+ "max_meret_cm": 20,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, félénk sügér. Csoportban érzi jól magát, nem agresszív más fajokkal szemben.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Apró élő és fagyasztott eleség, amit a homokból szűr ki. Kényes az étrendre.",
+ "tarsithato": [
+  "Diszkoszhalak",
+  "vitorláshalak",
+  "békés pontylazacok",
+  "Corydoras fajok."
+ ],
+ "kerulendo": [
+  "Durva",
+  "agresszív vagy túl gyorsan evő halak."
+ ],
+ "szaporodas_mod": "Azonnali vagy késleltetett szájköltő.",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyon lágy és savas víz szükséges. Az ikrákat gyakran homokba ásott gödörbe rakják",
+  "majd rövid időn belül szájba veszik. Az ivadékok lassan fejlődnek."
+ ],
+ "ivari_kulonbseg": "Külsőleg szinte megkülönböztethetetlenek, a hímek néha valamivel nagyobbak és nyúlánkabbak.",
+ "felismeres_jegyek": [
+  "Hosszúkás",
+  "hegyes pofa. Teste ezüstös-zöldes fényű",
+  "apró gyöngyházfényű pöttyökkel a fejen. Nincs sötét folt az oldalán (szemben a S. leucostictával)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Satanoperca leucosticta",
+   "magyar_nev": "Fehérfoltos démonfejű sügér",
+   "kulonbseg": "A leucosticta arcán sokkal több és fehérebb pötty található."
+  },
+  {
+   "latin": "Satanoperca pappaterra",
+   "magyar_nev": "Pappaterra földevő",
+   "kulonbseg": "Az oldalán sötét vízszintes sáv fut végig."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fejlyukacsosodás (nagyon érzékeny rá)",
+  "Bélgyulladás",
+  "Nitrogén-vegyületekre való érzékenység"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "A víznek kristálytisztának és baktériumszegénynek kell lennie, a rendszeres vízcsere létfontosságú.",
+  "Csak finom homok talajon tartható, mert a kopoltyúján keresztül engedi át az aljzatot."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

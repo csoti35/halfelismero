@@ -1,0 +1,81 @@
+{
+ "id": "taeniacara-candidi",
+ "tipus": "hal",
+ "latin": "Taeniacara candidi",
+ "regi_latin_nevek": [
+  "Apistogramma candidi"
+ ],
+ "magyar_nev": "Lándzsafarkú törpesügér",
+ "egyeb_nevek": [
+  "Candidi törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Brazília (Rio Negro és Rio Solimões)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Félénk, de fajtársaival szemben területvédő. Nagyon érzékeny a vízminőségre.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 4.0,
+ "ph_max": 6.0,
+ "gh_min": 0,
+ "gh_max": 3,
+ "taplalek": "Igényes, főleg élő eleséget (Cyclops, Artemia) fogyaszt.",
+ "tarsithato": [
+  "Apró pontylazacok (pl. neonhal)",
+  "békés talajlakók."
+ ],
+ "kerulendo": [
+  "Domináns sügérek",
+  "nagy testű vagy agresszív halak."
+ ],
+ "szaporodas_mod": "Ikrát rakó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Extrém lágy víz (0-1 GH) és alacsony pH szükséges. Barlangba ívnak. A nőstény gondozza az ivadékokat."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, farkúszójuk lándzsa alakú és színes, a nőstények kisebbek és sárgásabbak íváskor.",
+ "felismeres_jegyek": [
+  "Megnyúlt",
+  "karcsú test",
+  "vízszintes fekete sáv az oldalon",
+  "a hím farkúszója hegyes (lándzsás)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma agassizii",
+   "magyar_nev": "Agassiz törpesügér",
+   "kulonbseg": "A teste zömökebb, farkúszója más formájú."
+  },
+  {
+   "latin": "Apistogramma elizabethae",
+   "magyar_nev": "Erzsébet törpesügér",
+   "kulonbseg": "Hasonló testalkat, de eltérő úszómintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések",
+  "Paraziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Rendszeres, kis mennyiségű vízcsere szükséges pihentetett vízzel.",
+  "Érdemes faleveleket (pl. tölgy, bükk) tenni a vízbe a csersav miatt.",
+  "Csak beállt, biológiailag stabil akváriumba telepítsük."
+ ],
+ "lista_nev": "Taeniacara candidi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

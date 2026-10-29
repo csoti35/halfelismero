@@ -1,0 +1,85 @@
+{
+ "id": "etroplus-suratensis",
+ "tipus": "hal",
+ "latin": "Etroplus suratensis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sávos indiai sügér",
+ "lista_nev": "Etroplus suratensis",
+ "egyeb_nevek": [
+  "Zöld chromid"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Ázsia (India, Srí Lanka)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés természetű sügér, de nagy mérete és területvédő viselkedése miatt tágas helyet igényel. Csapatban érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 12,
+ "gh_max": 30,
+ "taplalek": "Elsősorban növényevő (alga, vízinövények), de elfogadja a fagyasztott és száraz eleséget is.",
+ "tarsithato": [
+  "Ázsiai brakkvízi halak",
+  "mint az árgushalak vagy lövőhalak."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "lágylevelű növények (megeszik)."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Brakkvízi körülmények (enyhén sós víz) biztosítása.",
+  "Stabil pár kialakulása egy nagyobb csapatból.",
+  "Ikrázás sima kövekre vagy tereptárgyakra.",
+  "Mindkét szülő gondozza az ikrákat és az ivadékokat.",
+  "Az ivadékok kezdetben a szülők testéről csipegetnek váladékot."
+ ],
+ "ivari_kulonbseg": "Szinte lehetetlen külsőleg megkülönböztetni őket; a hímek néha valamivel nagyobbak.",
+ "felismeres_jegyek": [
+  "Korong alakú, oldalról lapított test.",
+  "Zöldes-szürkés alapszín, 6-8 sötét függőleges sávval.",
+  "Apró, gyöngyszerű fehér pettyek a pikkelyeken.",
+  "Kicsi száj, nagy szemek.",
+  "Az úszók sötét szegélyűek lehetnek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudetroplus maculatus",
+   "magyar_nev": "Pettyes indiai sügér",
+   "kulonbseg": "Sokkal kisebb (max 8-10 cm) és sárgásabb alapszínű."
+  },
+  {
+   "latin": "Scatophagus argus",
+   "magyar_nev": "Árgushal",
+   "kulonbseg": "Nem sügérféle, teste pöttyös, nem sávos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Gombásodás (ha nem elég sós a víz)",
+  "Hexamita"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Hosszú távon brakkvizet (félsós vizet) igényelnek az egészségük megőrzéséhez.",
+  "Mivel nagyra nőnek és csapatban élnek, csak hatalmas akváriumban tarthatók.",
+  "Sok növényi táplálékot (spirulina, forrázott saláta) igényelnek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

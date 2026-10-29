@@ -1,0 +1,87 @@
+{
+ "id": "amphilophus-labiatus",
+ "tipus": "hal",
+ "latin": "Amphilophus labiatus",
+ "regi_latin_nevek": [
+  "Cichlasoma labiatum"
+ ],
+ "magyar_nev": "Vörös ajakos sügér",
+ "lista_nev": "Amphilophus labiatus",
+ "egyeb_nevek": [
+  "Vörös ördögsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Közép-Amerika (Nicaragua-tó, Managua-tó)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 12,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül territoriális és agresszív faj, különösen íváskor. Gyakran még a gondozó kezét is megtámadja. Csak nagyon nagy akváriumban tartható más robusztus sügérekkel.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (élő és fagyasztott eleség, sügérpellet, rákok, kisebb halak)",
+ "tarsithato": [
+  "Csak hasonló méretű és vérmérsékletű közép-amerikai sügérekkel",
+  "ha a hely elegendő."
+ ],
+ "kerulendo": [
+  "Kisebb halak",
+  "békés fajok",
+  "növények (kitépi őket)."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy összeszokott pár kiválasztása.",
+  "Lapos kő vagy cserép megtisztítása az ikrákhoz.",
+  "Az ikrák és az ivadékok agresszív védelme mindkét szülő részéről.",
+  "Az ivadékok frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbra nőnek, és kifejlett korban markáns zsírpúpot növesztenek a fejükön.",
+ "felismeres_jegyek": [
+  "Erőteljes, megnyúlt testalkat.",
+  "Húsos, vastag ajkak (vadon fogott példányoknál jellemzőbb).",
+  "Változatos szín: a narancssárgától a fehéren át a foltosig.",
+  "Hegyes hát- és farok alatti úszók.",
+  "Nagy, előreugró száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amphilophus citrinellus",
+   "magyar_nev": "Citromsügér",
+   "kulonbseg": "Kevésbé megnyúlt fejforma és vékonyabb ajkak jellemzik."
+  },
+  {
+   "latin": "Paraneetroplus synspilus",
+   "magyar_nev": "Tűzfejű sügér",
+   "kulonbseg": "Színvilága sokkal tarkább, vörös, lila és zöld árnyalatokkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fejlyukacsosodás (Hexamita)",
+  "Darackór",
+  "Sérülések az agresszió miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Biztosítsunk számára rengeteg búvóhelyet nagy kövekből és gyökerekből.",
+  "A berendezési tárgyakat rögzítsük, mert nagy erejű ásásra képes.",
+  "Erős szűrés szükséges a nagy anyagcsere miatt."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

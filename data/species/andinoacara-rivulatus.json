@@ -1,0 +1,83 @@
+{
+ "id": "andinoacara-rivulatus",
+ "tipus": "hal",
+ "latin": "Andinoacara rivulatus",
+ "regi_latin_nevek": [
+  "Aequidens rivulatus"
+ ],
+ "magyar_nev": "Arany akara",
+ "egyeb_nevek": [
+  "Zöld terror sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Ecuador, Peru",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Területvédő és agresszív hal, különösen ívás idején. Csak hasonló méretű és habitusú halakkal tartható együtt tágas akváriumban.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget, de a jó minőségű sügérpelletet is elfogadja.",
+ "tarsithato": [
+  "Más nagytestű sügérekkel (pl. Jaguársügér)",
+  "nagyobb harcsákkal",
+  "nagyobb pontylazacokkal."
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "békés fajok",
+  "más hím akarák szűk helyen."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Egy összeszokott pár kiválasztása. 2. A víz hőmérsékletének emelése 27-28 fokra. 3. Lapos kő vagy cserép biztosítása ívóhelynek. 4. Az ikrák és az ivadékok gondos őrzése mindkét szülő által. 5. Az ivadékok indítása frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, hát- és farokalatti úszójuk megnyúlt, idősebb korban zsírpúpot növesztenek a fejükön.",
+ "felismeres_jegyek": [
+  "Zöldesen csillogó pikkelyek",
+  "a farokúszó és a hátúszó széle élénk narancssárga vagy fehér",
+  "robusztus testfelépítés",
+  "sötét folt a test oldalának közepén."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Andinoacara pulcher",
+   "magyar_nev": "Kék akara",
+   "kulonbseg": "Kisebb termetű és kevésbé agresszív, hiányzik a narancssárga úszószegély."
+  },
+  {
+   "latin": "Andinoacara stalsbergi",
+   "magyar_nev": "Ezüst akara",
+   "kulonbseg": "Az úszók szegélye fehér/ezüstös, a pikkelyek mintázata sötétebb alapú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fejlyukasodás (Hexamita)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Erős szűrés szükséges a nagy anyagcsere miatt.",
+  "Dekorációnak használjunk nehéz köveket és gyökereket, mert a halak átrendezik az aljzatot.",
+  "A növényeket érdemes cserépbe ültetni és kövekkel körberakni."
+ ],
+ "lista_nev": "Andinoacara rivulatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

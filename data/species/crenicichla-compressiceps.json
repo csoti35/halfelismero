@@ -1,0 +1,86 @@
+{
+ "id": "crenicichla-compressiceps",
+ "tipus": "hal",
+ "latin": "Crenicichla compressiceps",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe csuka-sügér",
+ "lista_nev": "Crenicichla compressiceps",
+ "egyeb_nevek": [
+  "Sárga törpecsuka"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Brazília, Rio Tocantins",
+ "max_meret_cm": 8,
+ "elettartam_ev": 6,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Fajtársaival és más sügérekkel szemben rendkívül territoriális és agresszív. Ragadozó életmódot folytat, a kisebb halakat levadássza.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Élő és fagyasztott eleség, apró halak, garnélák, rovarlárvák.",
+ "tarsithato": [
+  "Nagyobb testű pontylazacokkal",
+  "páncélosharcsákkal",
+  "robusztusabb sügérekkel."
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "más Crenicichla fajok",
+  "lassú mozgású fajok."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy, savas víz és 28 fokos hőmérséklet beállítása.",
+  "Szűk barlangok, csövek biztosítása az ikrázáshoz.",
+  "A pár kiválasztódása után a nőstény a barlang mennyezetére ikrázik.",
+  "Az anya őrzi az ikrákat, az apa a territóriumot.",
+  "Az ivadékok kikelése után frissen kelt artémiával etessünk."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója és farok alatti úszója hosszabb, a nőstények hasa íváskor kipirosodik és úszóikon fekete szegély látható.",
+ "felismeres_jegyek": [
+  "Erősen megnyúlt, csukaszerű testalkat.",
+  "Oldalról lapított fejforma.",
+  "Sárgás-barnás alapszín függőleges sötét csíkokkal.",
+  "Nagy száj, amely mélyen hasított.",
+  "A hátúszó majdnem a teljes háton végighúzódik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Crenicichla regani",
+   "magyar_nev": "Regan törpecsukája",
+   "kulonbseg": "Kevésbé lapított fej, más mintázat a farokúszón."
+  },
+  {
+   "latin": "Crenicichla notophthalmus",
+   "magyar_nev": "Szemfoltos törpecsuka",
+   "kulonbseg": "Jellegzetes szemfolt a hátúszón."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélparaziták",
+  "Fejlyukacsosodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 8500,
+ "tippek": [
+  "Biztosítsunk sok búvóhelyet kövekből és gyökerekből a belső harcok csökkentésére.",
+  "Erős szűrés és rendszeres vízcsere elengedhetetlen a nitrogénvegyületek alacsonyan tartásához."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

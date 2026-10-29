@@ -1,0 +1,86 @@
+{
+ "id": "vieja-melanurus",
+ "tipus": "hal",
+ "latin": "Vieja melanurus",
+ "regi_latin_nevek": [
+  "Vieja synspila",
+  "Cichlasoma synspilum"
+ ],
+ "magyar_nev": "Tűzfejű sügér",
+ "lista_nev": "Vieja melanurus",
+ "egyeb_nevek": [
+  "Vörösfejű sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Közép-Amerika (Mexikó, Guatemala, Belize)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nagytestű, méltóságteljes hal. Fajon belül agresszív lehet, de más nagy sügérekkel szemben általában csak területvédő.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 450,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de nagy igénye van növényi táplálékra (spirulina, forrázott zöldségek, sügérpellet).",
+ "tarsithato": [
+  "Más nagytestű közép-amerikai sügérekkel (pl. Oscar sügér",
+  "Jaguársügér)."
+ ],
+ "kerulendo": [
+  "Növények (elfogyasztja őket)",
+  "kistestű halak."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A pár közösen megtisztít egy vízszintes felületet.",
+  "Az ikrák száma az ezret is elérheti.",
+  "A szülők intenzíven gondozzák az ivadékokat.",
+  "Az ivadékok gyorsan nőnek, sórákkal etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, homlokpúpjuk kifejezettebb, úszóik hosszabbak.",
+ "felismeres_jegyek": [
+  "A fej és a mellrész élénkvörös vagy narancssárga.",
+  "A test hátsó része zöldes, kékes vagy aranyos csillogású.",
+  "Sötét, vízszintes sáv vagy foltsor a faroknyélen.",
+  "Magas, zömök testfelépítés.",
+  "Apró sötét pöttyök a fejen és a testen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vieja fenestrata",
+   "magyar_nev": "Ablakos sügér",
+   "kulonbseg": "Több függőleges sáv és kevesebb vörös szín jellemzi."
+  },
+  {
+   "latin": "Vieja bifasciata",
+   "magyar_nev": "Kétcsíkos sügér",
+   "kulonbseg": "Két markáns vízszintes sáv fut a testén."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fejlyukacsosodás",
+  "Hasvízkór (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "A változatos étrend elengedhetetlen a szép színek megőrzéséhez.",
+  "Nagy teljesítményű külső szűrést igényel.",
+  "Dekorációnak használjunk nagy köveket és uszadékfákat, a növényeket felejtsük el."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

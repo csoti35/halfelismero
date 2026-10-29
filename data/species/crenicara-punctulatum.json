@@ -1,0 +1,81 @@
+{
+ "id": "crenicara-punctulatum",
+ "tipus": "hal",
+ "latin": "Crenicara punctulatum",
+ "regi_latin_nevek": [
+  "Crenicara filamentosa (tévesen)"
+ ],
+ "magyar_nev": "Kockás törpesügér",
+ "egyeb_nevek": [
+  "Pöttyös sakktáblasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Amazonas medence",
+ "max_meret_cm": 9,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű sügér, amely jól tartható közösségi akváriumban is. Csoportban érzi jól magát.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Fagyasztott és élő eleség, jó minőségű granulátum.",
+ "tarsithato": [
+  "Pontylazacok",
+  "páncélosharcsák",
+  "más békés törpesügérek."
+ ],
+ "kerulendo": [
+  "Durva",
+  "agresszív halak."
+ ],
+ "szaporodas_mod": "Ikrát rakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Növények leveleire vagy kövekre ívnak. Érdekességük a protogün hermafroditizmus (a domináns nőstény hímmé alakulhat)."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, úszóik hosszabbak. A nőstények hasúszója íváskor narancssárgás/vöröses lesz.",
+ "felismeres_jegyek": [
+  "Kétsoros sakktáblaszerű foltozás az oldalon",
+  "megnyúlt test",
+  "narancssárga szemgyűrű."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dicrossus filamentosus",
+   "magyar_nev": "Sakktáblasügér",
+   "kulonbseg": "Karcsúbb test, a hímek farkúszója hosszú szálakban végződik."
+  },
+  {
+   "latin": "Dicrossus maculatus",
+   "magyar_nev": "Foltos sakktáblasügér",
+   "kulonbseg": "Nagyobb, kerekebb foltok az oldalon."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "Gombásodás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7000,
+ "tippek": [
+  "Homokos aljzatot igényelnek, mert szeretik átrostálni azt.",
+  "Tartsuk őket kisebb csoportban, hogy természetes viselkedésüket mutassák.",
+  "A víz legyen tiszta és nitrátmentes."
+ ],
+ "lista_nev": "Crenicara punctulatum",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Apistogramma viejita",
+ "id": "apistogramma-viejita",
+ "tipus": "hal",
+ "latin": "Apistogramma viejita",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Viejita törpesügér",
+ "egyeb_nevek": [
+  "Vörösfoltos törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Dél-amerikai törpesügérek",
+ "szarmazas": "Dél-Amerika (Kolumbia, Meta- és Muco-folyó vízrendszere)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, alsó zónában mozgó törpesügér. Íváskor kifejezetten hevesen védi a barlangját és ivadékait a betolakodóktól, egyébként békés rajhalakkal jól tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 6.8,
+ "gh_min": 1,
+ "gh_max": 8,
+ "taplalek": "Ragadozó; apró élő és fagyasztott eleségek (artémia, daphnia, cyclops, fehér szúnyoglárva), jó minőségű granulátumok.",
+ "tarsithato": [
+  "Kistestű pontylazacok (pl. vörösfejű lazac",
+  "parázslazac)",
+  "békés páncélosharcsák",
+  "Otocinclus fajok."
+ ],
+ "kerulendo": [
+  "Agresszív nagysügérek",
+  "más fenéklakó területharcos fajok",
+  "csipkelődő márnák."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, anyai vagy kétoldalú ivadékgondozással.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy (1-4 dGH), savas (pH 5.5-6.2) és tiszta víz biztosítása.",
+  "Megfelelő méretű lapos kő, kókuszdióhéj vagy kerámia ikráztató barlang elhelyezése sűrű növényzet közt.",
+  "A pár bőséges etetése élő eleséggel (különösen szúnyoglárvával és artémiával).",
+  "Az ikrákat a nőstény a barlang mennyezetére ragasztja, majd egyedül gondozza a kelésig.",
+  "A kikelő és elúszó kishalakat frissen keltetett artémia naupliusszal etetjük."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen nagyobbak, hátúszójuk elülső sugarai meghosszabbodtak, vörös és kék mintázatuk élénkebb. A nőstények kisebbek, ívási időben élénksárga színt öltenek fekete jegyekkel.",
+ "felismeres_jegyek": [
+  "Nyújtott, sügéralkatú testforma",
+  "A hím kopoltyúfedőjén és torkán jellegzetes élénkvörös rajzolat/foltok láthatók",
+  "Hátúszó elülső sugarai megnyúltak, hegyesek",
+  "Farokúszó lekerekített, gyakran vöröses szegéllyel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma macmasteri",
+   "magyar_nev": "Macmaster törpesügér",
+   "kulonbseg": "A macmasteri teste zömökebb, a kereskedelemben 'viejita' néven árult halak nagy része valójában tenyésztett A. macmasteri változat."
+  },
+  {
+   "latin": "Apistogramma cacatuoides",
+   "magyar_nev": "Papagájsügér",
+   "kulonbseg": "Nagyobb száj, jóval erősebben megnyúlt hátúszó-sugarak és líra alakú farokúszó jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bélparazitózis / Hexamita (lyukbetegség)",
+  "Baktériumos úszórothadás rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5500,
+ "tippek": [
+  "Használjunk finom homoktalajt, mert a halak szívesen túrják át eleség után kutatva.",
+  "Tölgy- vagy égertoboz és falevelek behelyezésével csökkentsük a pH-t és növeljük a huminsavtartalmat.",
+  "Tartsuk párban vagy egy hímet több nősténnyel (háremben), ha elegendő búvóhely áll rendelkezésre."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

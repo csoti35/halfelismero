@@ -1,0 +1,81 @@
+{
+ "id": "geophagus-altifrons",
+ "lista_nev": "Geophagus altifrons",
+ "tipus": "hal",
+ "latin": "Geophagus altifrons",
+ "regi_latin_nevek": [
+  "Geophagus surinamensis (tévesen)"
+ ],
+ "magyar_nev": "Sárgafejű földevősügér",
+ "egyeb_nevek": [
+  "Altifrons sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek (Geophaginae)",
+ "szarmazas": "Dél-Amerika (Brazília, Amazonas-medence)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagy termete ellenére békés, de fajtársaival szemben kialakít egy hierarchiát. Folyamatosan a homokot szitálja élelem után.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 450,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 5.5,
+ "ph_max": 7.2,
+ "gh_min": 1,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (fagyasztott artémia, mysis, krill, jó minőségű süllyedő pelletek)",
+ "tarsithato": [
+  "Nagyobb pontylazacok",
+  "Heros fajok",
+  "békés harcsák",
+  "más Geophagusok"
+ ],
+ "kerulendo": [
+  "Kistestű halak (eleségnek nézheti)",
+  "agresszív közép-amerikai sügérek"
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "1. Nagy alapterületű akvárium és homokos aljzat. 2. A pár egy lapos kőre ívik. 3. Rövid idő után a nőstény a szájába veszi az ikrákat. 4. A nőstény kb. 10-14 napig forgatja az ikrákat/lárvákat. 5. Az ivadékok elúszás után apró élő eleséggel etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, színesebbek, és az úszóik (főleg a farokúszó) hosszabb szálakban végződnek.",
+ "felismeres_jegyek": [
+  "Magas hátú",
+  "nyújtott pofájú test. Irizáló kék és narancssárga hosszanti csíkok az oldalon. Apró sötét folt az oldal közepén. A farokúszó mintázata csíkos vagy foltos."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Geophagus surinamensis",
+   "magyar_nev": "Surinami földevősügér",
+   "kulonbseg": "Kisebbre nő, és az oldalfoltja általában nagyobb és máshol helyezkedik el."
+  },
+  {
+   "latin": "Geophagus abalios",
+   "magyar_nev": "Abalios földevősügér",
+   "kulonbseg": "A kopoltyúfedőn lévő jellegzetes sötét folt hiánya vagy megléte alapján különíthető el."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lyukbetegség (Hexamita)",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "A homokos aljzat kötelező, mert ezen keresztül táplálkoznak.",
+  "Nagyon hatékony szűrésre van szükség a nagy biológiai terhelés és a homok felkavarása miatt.",
+  "Érdemes meleg, 27-28 fokos vízben tartani őket."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "pelvicachromis-pulcher",
+ "tipus": "hal",
+ "latin": "Pelvicachromis pulcher",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Bíborsügér (kribensis)",
+ "lista_nev": "Pelvicachromis pulcher",
+ "egyeb_nevek": [
+  "Bíborhasú sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Afrikai sügérek (folyami)",
+ "szarmazas": "Nigéria, Kamerun",
+ "max_meret_cm": 10,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Általában békés, de íváskor a fészek környékét elszántan védi. Kezdők számára az egyik legjobb sügérfaj.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő: lemezes táp, granulátum, fagyasztott eleségek (vörös szúnyoglárva, artémia).",
+ "tarsithato": [
+  "Márnák",
+  "lazacok",
+  "páncélosharcsák",
+  "nagyobb dániók."
+ ],
+ "kerulendo": [
+  "Más barlanglakó sügérek kis helyen",
+  "agresszív nagy sügérek."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Helyezzünk be egy felfordított cserépcserepet vagy kókuszdiót.",
+  "A pár kitisztítja a barlangot és a mennyezetre ikrázik.",
+  "A nőstény bent marad az ikrákkal, a hím kívül őrködik.",
+  "A kikelő ivadékokat a szülők közösen vezetik az akváriumban.",
+  "Az ivadékok porított táppal vagy artémiával könnyen felnevelhetők."
+ ],
+ "ivari_kulonbseg": "A hím nagyobb és nyúlánkabb, úszói hegyesek. A nőstény kisebb, kerekdedebb, és hasa élénk bíborvörös.",
+ "felismeres_jegyek": [
+  "Hosszúkás testalkat.",
+  "Sötét vízszintes sáv a test közepén.",
+  "A nőstény hasán jellegzetes meggyvörös folt.",
+  "A farokúszó felső részén gyakran fekete szemfoltok láthatók.",
+  "Sárgás-barnás alapszín."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pelvicachromis taeniatus",
+   "magyar_nev": "Szalagos meggyhasú sügér",
+   "kulonbseg": "Kisebb termet, változatosabb színek a farokúszón."
+  },
+  {
+   "latin": "Pelvicachromis subocellatus",
+   "magyar_nev": "Szemfoltos meggyhasú sügér",
+   "kulonbseg": "A nőstény hátúszóján nagy fekete folt van."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasi vízkór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Mindenképpen biztosítsunk számukra legalább egy barlangot vagy búvóhelyet.",
+  "Társas akváriumban is jól szaporodik, ha van elég rejtekhely."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,83 @@
+{
+ "id": "biotodoma-cupido",
+ "lista_nev": "Biotodoma cupido",
+ "tipus": "hal",
+ "latin": "Biotodoma cupido",
+ "regi_latin_nevek": [
+  "Acara cupido"
+ ],
+ "magyar_nev": "Cupido-sügér",
+ "egyeb_nevek": [
+  "Smaragdfoltos sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek (Geophaginae)",
+ "szarmazas": "Dél-Amerika (Amazonas és Essequibo vízrendszere)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 7,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, csoportos sügér, amely érzékeny a vízminőségre. Ideje nagy részét az aljzat szitálásával tölti.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő (apró élő és fagyasztott eleségek, süllyedő granulátumok)",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "Corydoras fajok",
+  "más békés földevő sügérek"
+ ],
+ "kerulendo": [
+  "Durva",
+  "agresszív sügérek",
+  "nagytestű ragadozók"
+ ],
+ "szaporodas_mod": "Ivadékgondozó, gödörbe vagy rejtett felületre ívik",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "1. Stabil",
+  "nagyon tiszta",
+  "lágy és savas víz. 2. Megfelelő ivari arányú csoport tartása. 3. Finom homokos aljzat a fészekrakáshoz. 4. A szülők közösen őrzik a gödörbe hordott ikrákat. 5. Az ivadékok felnevelése apró eleséggel nehézkes."
+ ],
+ "ivari_kulonbseg": "A hímek úszói megnyúltabbak, és az arcukon több irizáló kék csík látható.",
+ "felismeres_jegyek": [
+  "Ezüstös-aranyos alapszín. Egy sötét folt a hátúszó alatt",
+  "az oldalvonal felett. Irizáló kék vonalak a szem alatt. Megnyúlt úszósugarak a farokúszón."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Biotodoma wavrini",
+   "magyar_nev": "Wavrin-sügér",
+   "kulonbseg": "Az oldalfolt az oldalvonalon vagy az alatt helyezkedik el, nem felette."
+  },
+  {
+   "latin": "Guianacara geayi",
+   "magyar_nev": "Guayanai sügér",
+   "kulonbseg": "Magasabb testfelépítés és markánsabb függőleges sáv az arcon."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hexamita (lyukbetegség)",
+  "Nitrogén-vegyületekre való érzékenység"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7000,
+ "tippek": [
+  "Kizárólag finom homok aljzatot használjunk, mert a kavics felsértheti a kopoltyújukat.",
+  "Rendszeres, nagy arányú vízcserék elengedhetetlenek a tartásukhoz.",
+  "Csoportban érzik jól magukat, egyedül vagy párban félénkek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

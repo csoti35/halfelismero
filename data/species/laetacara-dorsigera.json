@@ -1,0 +1,83 @@
+{
+ "id": "laetacara-dorsigera",
+ "tipus": "hal",
+ "latin": "Laetacara dorsigera",
+ "regi_latin_nevek": [
+  "Aequidens dorsiger",
+  "Parvacuidens dorsigera"
+ ],
+ "magyar_nev": "Vöröshasú törpesügér",
+ "egyeb_nevek": [
+  "Zászlós törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Dél-Amerika (Paraguay, Brazília, Argentína folyói)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Alapvetően békés, félénk sügérfaj. Csak ívás idején válik területvédővé, de akkor sem agresszív más fajokkal szemben.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (élő és fagyasztott eleség, jó minőségű granulátum)",
+ "tarsithato": [
+  "Lazacok",
+  "páncélosharcsák",
+  "más békés törpesügérek"
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív sügérek",
+  "túl mozgékony halak"
+ ],
+ "szaporodas_mod": "szabadon ivó, nyílt felületre ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Egy összeszokott pár kiválasztása. 2. A víz lágyítása és a hőmérséklet emelése 27-28 fokra. 3. Lapos kő vagy széles levél biztosítása ívóhelynek. 4. Mindkét szülő gondozza az ikrákat és az ivadékokat. 5. Az ivadékok frissen kelt artémiával indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, hát- és farokalatti úszójuk hosszabb, hegyesebb. A nőstények hasa íváskor intenzívebb vörös.",
+ "felismeres_jegyek": [
+  "Zömök",
+  "ovális testalkat. A szemtől a faroktőig sötét vízszintes sáv húzódik. A kopoltyúfedő alatt és a hason vöröses elszíneződés látható. A hátúszón egy sötét folt található."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Laetacara curviceps",
+   "magyar_nev": "Zászlós sügér",
+   "kulonbseg": "Kevésbé vöröses a hasa, és a testformája valamivel kerekdedebb."
+  },
+  {
+   "latin": "Mikrogeophagus altispinosus",
+   "magyar_nev": "Bolíviai pillangósügér",
+   "kulonbseg": "Megnyúltabb úszósugarak a hátúszón és eltérő színmintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Dús növényzetet és búvóhelyeket igényel, hogy biztonságban érezze magát.",
+  "Sötét aljzat mellett a színei sokkal intenzívebben érvényesülnek.",
+  "Érzékeny a vízminőségre, a rendszeres részleges vízcserék elengedhetetlenek.",
+  "lista_nev: hal;Laetacara dorsigera"
+ ],
+ "lista_nev": "Laetacara dorsigera",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

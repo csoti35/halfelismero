@@ -1,0 +1,83 @@
+{
+ "id": "hypselecara-temporalis",
+ "tipus": "hal",
+ "latin": "Hypselecara temporalis",
+ "regi_latin_nevek": [
+  "Cichlasoma temporale"
+ ],
+ "magyar_nev": "Smaragdsügér",
+ "egyeb_nevek": [
+  "Bíborsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas-medence)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés óriássügér, de íváskor területvédővé válik. Kisebb halakat tápláléknak tekinthet.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (élő, fagyasztott, jó minőségű sügérpellet)",
+ "tarsithato": [
+  "Nagyobb testű lazacok",
+  "más békésebb dél-amerikai sügérek",
+  "páncélos harcsák"
+ ],
+ "kerulendo": [
+  "Apró halak (pl. neonhal)",
+  "agresszív közép-amerikai sügérek"
+ ],
+ "szaporodas_mod": "Ikrát rakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Párválasztó faj. Lapos kőre vagy cserépre ívnak. Mindkét szülő gondozza az ivadékokat. Az ivadékok frissen kelt artémiával indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, idősebb korban zsírpúpot növeszthetnek a fejükön, úszóik megnyúltabbak.",
+ "felismeres_jegyek": [
+  "Zömök",
+  "magas testfelépítés",
+  "alapszíne smaragdzöld vagy barna",
+  "a szem mögött és a test közepén sötét folt",
+  "vöröses-bíboros árnyalat a hason."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hypselecara coryphaenoides",
+   "magyar_nev": "Csokoládésügér",
+   "kulonbseg": "Kisebb termetű és sötétebb, barnásabb színezetű."
+  },
+  {
+   "latin": "Heros severus",
+   "magyar_nev": "Szemfoltos sügér",
+   "kulonbseg": "Korong alakúbb test, más mintázat a testen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lyukbetegség (Hexamita)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Biztosítsunk számára sok búvóhelyet gyökerekből.",
+  "A lágy, enyhén savas víz kedvez a színeinek.",
+  "Nagyobb vízcserékkel tartsuk alacsonyan a nitrátszintet."
+ ],
+ "lista_nev": "Hypselecara temporalis",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

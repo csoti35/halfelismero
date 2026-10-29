@@ -1,0 +1,84 @@
+{
+ "id": "rocio-octofasciata",
+ "tipus": "hal",
+ "latin": "Rocio octofasciata",
+ "regi_latin_nevek": [
+  "Cichlasoma octofasciatum",
+  "Archocentrus octofasciatus"
+ ],
+ "magyar_nev": "Nyolcsávos sügér",
+ "lista_nev": "Rocio octofasciata",
+ "egyeb_nevek": [
+  "Jack Dempsey sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Közép-Amerika (Mexikótól Hondurasig)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 12,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, de a legtöbb közép-amerikai sügérnél nyugodtabb, kivéve ívási időszakban. Nevét a híres boxolóról kapta harciassága miatt.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "középső, alsó",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 15,
+ "taplalek": "Mindenevő: élő és fagyasztott eledelek, jó minőségű sügérpellet, némi növényi kiegészítés.",
+ "tarsithato": [
+  "Hasonló méretű sügérekkel",
+  "nagyobb harcsákkal",
+  "robusztusabb lazacokkal."
+ ],
+ "kerulendo": [
+  "Apró halak",
+  "félénk törpesügérek."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Pár kialakulása. 2. Gödör ásása vagy kő tisztítása. 3. Ikrák lerakása (akár 500-800 db). 4. Szülők gondosan őrzik az ikrákat és az ivadékokat. 5. Ivadékok sórákkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, úszóik hegyesebbek, több rajtuk a csillogó pötty. A nőstények kopoltyúfedőjén kevesebb a kék folt.",
+ "felismeres_jegyek": [
+  "Sötétbarna/fekete alapszín",
+  "testét ragyogó kék",
+  "arany vagy zöld pikkelyfoltok borítják",
+  "fiatalon 8 függőleges sáv látható",
+  "zömök testalkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rocio octofasciata 'Electric Blue'",
+   "magyar_nev": "Electric Blue Jack Dempsey",
+   "kulonbseg": "Tenyésztett változat, intenzív neonkék színű, kisebb és kényesebb."
+  },
+  {
+   "latin": "Amatitlania nigrofasciata",
+   "magyar_nev": "Gubancsügér",
+   "kulonbseg": "Sokkal kisebb, csíkozása hangsúlyosabb, nincsenek rajta színes pikkelypöttyök."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Biztosítsunk számára sok búvóhelyet gyökerekből és kövekből.",
+  "A sötét aljzat kiemeli a hal gyönyörű irizáló színeit.",
+  "Idősebb korára mogorvává válhat, ilyenkor érdemes egyedül vagy párban tartani."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

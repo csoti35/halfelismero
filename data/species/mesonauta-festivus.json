@@ -1,0 +1,84 @@
+{
+ "id": "mesonauta-festivus",
+ "tipus": "hal",
+ "latin": "Mesonauta festivus",
+ "regi_latin_nevek": [
+  "Cichlasoma festivum"
+ ],
+ "magyar_nev": "Zászlós sügér",
+ "lista_nev": "Mesonauta festivus",
+ "egyeb_nevek": [
+  "Ünnepi sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika: Paraguay és Amazonas medence",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Félénk, békés sügérfaj. Csak íváskor válik harciassá. Szeret növények között bujkálni.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli a rovarlárvákat, de elfogadja a jó minőségű száraztápokat is.",
+ "tarsithato": [
+  "Skalár",
+  "diszkoszhal",
+  "békés pontylazacok",
+  "Corydoras harcsák."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív vagy túl mozgékony halak",
+  "amelyek elnyomhatják."
+ ],
+ "szaporodas_mod": "Szabadon ívó, növényi levelekre vagy kövekre rakja az ikráit.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A pár kiválaszt egy helyet",
+  "amit megtisztítanak. Az ikrákat mindkét szülő őrzi. Az ivadékok 2-3 nap után kelnek ki",
+  "és artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek valamivel nagyobbak, úszóik hosszabbak és hegyesebbek.",
+ "felismeres_jegyek": [
+  "Oldalról lapított",
+  "rombusz alakú test. Egy markáns fekete sáv fut a szájtól a szemén keresztül a hátúszó hátsó részéig. Hosszú",
+  "fonalszerű hasúszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pterophyllum scalare",
+   "magyar_nev": "Vitorláshal",
+   "kulonbseg": "A vitorláshal teste sokkal magasabb, úszói függőlegesen megnyúltak."
+  },
+  {
+   "latin": "Heros severus",
+   "magyar_nev": "Szemes sügér",
+   "kulonbseg": "A szemes sügér teste kerekdedebb, és hiányzik róla a szemtől induló ferde sáv."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "gombásodás."
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Szereti a dús növényzetet és az úszó növényeket",
+  "amelyek tompítják a fényt. Gyakran tartják skalárok mellett",
+  "mert hasonló az igényük."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

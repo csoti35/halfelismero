@@ -1,0 +1,86 @@
+{
+ "id": "nanochromis-transvestitus",
+ "tipus": "hal",
+ "latin": "Nanochromis transvestitus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kongói törpesügér",
+ "lista_nev": "Nanochromis transvestitus",
+ "egyeb_nevek": [
+  "Keresztcsíkos törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Afrika (Kongó-medence, Mai-Ndombe-tó)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fajtársaival és más sügérekkel szemben területvédő, különösen íváskor. A hímek agresszívabbak lehetnek a nőstényekkel, ha azok nem készek a párzásra.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 4.5,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget (artémia, cyclops), de a jó minőségű granulátumot is elfogadja.",
+ "tarsithato": [
+  "Felszíni lazacok",
+  "kisebb kongói lazacok",
+  "békés fenéklakók."
+ ],
+ "kerulendo": [
+  "Más sügérek",
+  "agresszív vagy túl nagy testű halak."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy, savas víz (pH 5.5 alatt) és 26-27 fokos hőmérséklet beállítása.",
+  "Szűk barlangok, kerámia csövek vagy kókuszdió héj biztosítása.",
+  "A nőstény kezdeményezi az ívást a hasának mutogatásával.",
+  "Az ikrákat a nőstény gondozza a barlangban, a hím a területet védi.",
+  "Az ivadékok 3-4 nap után kelnek ki, és frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A nőstények színesebbek: hasuk élénk lila/vörös, hát- és farokúszójuk fekete-fehér csíkos. A hímek nagyobbak, de fakóbbak.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres testforma.",
+  "A nőstény hasa íváskor mélyvörös vagy lila.",
+  "Függőleges fekete-fehér sávok a farokúszón és a hátúszó hátsó részén.",
+  "Kicsi, alsó állású száj.",
+  "A hímek úszói hosszabbak és hegyesebbek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nanochromis nudiceps",
+   "magyar_nev": "Csupaszfejű törpesügér",
+   "kulonbseg": "Hiányoznak a farokúszó jellegzetes fekete-fehér sávjai."
+  },
+  {
+   "latin": "Pelvicachromis pulcher",
+   "magyar_nev": "Meggyhasú sügér",
+   "kulonbseg": "Sokkal nagyobb testű, robusztusabb felépítésű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések a rossz vízminőség miatt",
+  "Hexamita"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Nagyon érzékenyek a nitrátra, heti rendszeres vízcsere kötelező.",
+  "Sötét aljzat és sok búvóhely növeli a biztonságérzetüket.",
+  "Csak tapasztalt akvaristáknak ajánlott a speciális vízigényük miatt."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "arctic-parrot-hibrid",
+ "tipus": "hal",
+ "latin": "Amphilophus hybrid",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sarki papagáj sügér",
+ "egyeb_nevek": [
+  "Fehér papagájsügér",
+  "Polar parrot"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Mesterséges hibrid (Ázsia)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, különösen íváskor agresszív. Más robusztus sügérekkel tartható, de a kisebb halakat levadássza.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, jó minőségű sügérpellet, fagyasztott eleségek.",
+ "tarsithato": [
+  "Hasonló méretű közép-amerikai sügérekkel",
+  "nagyobb harcsákkal."
+ ],
+ "kerulendo": [
+  "Kistestű pontylazacok",
+  "garnélák",
+  "lassú úszású fátyolos halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lapos kőre vagy cserépbe ívnak. A szülők gondozzák az ikrákat és az ivadékokat. Gyakran ívnak akváriumban is."
+ ],
+ "ivari_kulonbseg": "A hímek általában nagyobbak, hát- és farokalatti úszójuk hegyesebb.",
+ "felismeres_jegyek": [
+  "Zömök",
+  "kerekded testforma",
+  "fehér vagy krémszínű alapszín",
+  "kékesszürke függőleges csíkozás",
+  "jellegzetes 'papagáj' szájforma",
+  "nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amatitlania nigrofasciata",
+   "magyar_nev": "Zebrasávos sügér",
+   "kulonbseg": "A zebra sügér teste nyújtottabb, nem hibrid jellegű a szája."
+  },
+  {
+   "latin": "Amphilophus hybrid",
+   "magyar_nev": "Vörös papagájsügér",
+   "kulonbseg": "A vörös változat színe narancssárga vagy piros, és nagyobbra nő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakkór",
+  "Úszóhólyag-problémák a testfelépítés miatt",
+  "Fejlyukacsosodás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Erős szűrés szükséges a nagy anyagcsere miatt.",
+  "Alakítsunk ki sok búvóhelyet kövekből és cserepekből.",
+  "A növényeket gyakran kitúrják, ezért rögzítsük őket alaposan."
+ ],
+ "lista_nev": "Arctic parrot (hibrid)",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

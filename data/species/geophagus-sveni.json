@@ -1,0 +1,81 @@
+{
+ "id": "geophagus-sveni",
+ "tipus": "hal",
+ "latin": "Geophagus sveni",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sven földevősügére",
+ "lista_nev": "Geophagus sveni",
+ "egyeb_nevek": [
+  "Sven-geofágus"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Brazília (Rio Tocantins medence)",
+ "max_meret_cm": 22,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés természetű, de területvédő, különösen íváskor. Fajon belül hierarchiát alakítanak ki, ezért csoportban tartsuk.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 450,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, de főként az aljzatból szűri ki az eleséget (fagyasztott és élő eleség, jó minőségű granulátum).",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "páncélos harcsák",
+  "L-es harcsák",
+  "más békés sügérek."
+ ],
+ "kerulendo": [
+  "Apró halak (eleségnek nézheti)",
+  "agresszív közép-amerikai sügérek."
+ ],
+ "szaporodas_mod": "Ivadékgondozó, anyai szájköltő.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy",
+  "enyhén savas víz és magas hőmérséklet szükséges. Lapos kőre ívnak",
+  "majd az anya a szájába veszi az ikrákat. Az ivadékok 10-14 nap után úsznak el."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, úszóik (hát- és farok alatti) hosszabbak, színük intenzívebb.",
+ "felismeres_jegyek": [
+  "Oldalán 5-6 függőleges sötét sáv található. Teste irizáló kék és vörös pikkelysorokkal díszített. Farokúszója vöröses",
+  "kékes mintázattal. Jellegzetes megnyúlt pofaszerkezet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Geophagus surinamensis",
+   "magyar_nev": "Surinami földevősügér",
+   "kulonbseg": "A sveni oldalán lévő sötét folt nagyobb és a sávok markánsabbak."
+  },
+  {
+   "latin": "Geophagus neambi",
+   "magyar_nev": "Neambi földevősügér",
+   "kulonbseg": "A neambi farokúszóján a mintázat inkább pöttyözött, nem csíkozott."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Fejlyukacsosodás (Hexamita)",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Aljzatnak kizárólag finom, éles szemcséktől mentes homokot használjunk, mert folyamatosan túrják.",
+  "Nagyon érzékenyek a vízminőségre, a nitrát szintet tartsuk alacsonyan gyakori vízcserékkel."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

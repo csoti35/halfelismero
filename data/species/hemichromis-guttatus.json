@@ -1,0 +1,82 @@
+{
+ "id": "hemichromis-guttatus",
+ "tipus": "hal",
+ "latin": "Hemichromis guttatus",
+ "regi_latin_nevek": [
+  "Hemichromis bimaculatus (tévesen)"
+ ],
+ "magyar_nev": "Bíborsügér",
+ "egyeb_nevek": [
+  "Kétfoltú bíborsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Nyugat-Afrika",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Területvédő, íváskor rendkívül agresszív, más halakat elüldöz vagy megöl. Párban tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget, de a jó minőségű granulátumot is elfogadja.",
+ "tarsithato": [
+  "Csak hasonló méretű és habitusú robusztus sügérekkel vagy nagyobb testű márnákal."
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "félénk fajok",
+  "más törpesügérek."
+ ],
+ "szaporodas_mod": "Aljzatra (kőre) ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Egy összeszokott pár kiválasztása. 2. Bőséges élő eleséggel történő kondicionálás. 3. Lapos kő biztosítása az íváshoz. 4. Az ikrákat és az ivadékokat mindkét szülő hevesen védi. 5. Az ivadékok frissen kelt artémiával indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek általában nagyobbak és színesebbek, a nőstények íváskor intenzívebb vörös színt öltenek.",
+ "felismeres_jegyek": [
+  "Zömök testalkat",
+  "élénkvörös alapszín",
+  "apró kékesen csillogó pettyek a testen",
+  "két sötét folt (egy a kopoltyúfedőn",
+  "egy a test közepén)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemichromis bimaculatus",
+   "magyar_nev": "Valódi kétfoltú sügér",
+   "kulonbseg": "Ritkább az akvarisztikában, teste nyújtottabb és kevésbé intenzív vörös."
+  },
+  {
+   "latin": "Hemichromis lifalili",
+   "magyar_nev": "Lifalili bíborsügér",
+   "kulonbseg": "Nincs fekete folt a faroktőnél, színe még élénkebb vörös."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Csak párban tartsuk őket, egyedül agresszívabbak lehetnek.",
+  "Biztosítsunk sok búvóhelyet kövekből és gyökerekből.",
+  "Növényeket csak cserépbe ültetve tegyünk melléjük, mert ásnak."
+ ],
+ "lista_nev": "Hemichromis guttatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

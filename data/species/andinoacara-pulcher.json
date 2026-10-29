@@ -1,0 +1,82 @@
+{
+ "id": "andinoacara-pulcher",
+ "tipus": "hal",
+ "latin": "Andinoacara pulcher",
+ "regi_latin_nevek": [
+  "Aequidens pulcher"
+ ],
+ "magyar_nev": "Kék akara",
+ "egyeb_nevek": [
+  "Pompás akara"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Közép- és Dél-Amerika (Trinidad, Venezuela)",
+ "max_meret_cm": 16,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Sügérhez képest békés, de íváskor agresszíven védi a területét. Kisebb halakat megehet.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "középső, alsó",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli a fagyasztott és élő eleséget, de elfogadja a granulátumot is.",
+ "tarsithato": [
+  "Hasonló méretű sügérekkel",
+  "nagyobb lazacokkal",
+  "harcsákkal."
+ ],
+ "kerulendo": [
+  "Nagyon kicsi halak (pl. neonhal)",
+  "agresszív nagy sügérek."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tisztított kőre ívnak. Mindkét szülő gondozza az ivadékokat. Könnyen szaporítható faj."
+ ],
+ "ivari_kulonbseg": "A hímek hát- és farokalatti úszója hosszabb, hegyesebb; a hímek valamivel nagyobbak.",
+ "felismeres_jegyek": [
+  "Ezüstös-kék alapszín",
+  "az pikkelyeken és a fejen irizáló kék foltok",
+  "sötét függőleges sávok (hangulattól függően)",
+  "sárgás-narancssárga szegély a hátúszón."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Andinoacara rivulatus",
+   "magyar_nev": "Arany akara",
+   "kulonbseg": "Sokkal nagyobb és agresszívabb, úszószegélye élénk narancs."
+  },
+  {
+   "latin": "Andinoacara sp. 'Electric Blue'",
+   "magyar_nev": "Neon kék akara",
+   "kulonbseg": "Teljes teste egységesen neonkék, nincsenek sötét sávjai."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakkór",
+  "Bőrférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Ideális választás azoknak, akik most ismerkednek az amerikai sügérekkel.",
+  "Növényes akváriumban is tartható, ha a növények erősek és jól rögzítettek.",
+  "A víz rendszeres részleges cseréje elengedhetetlen a jó közérzetükhöz."
+ ],
+ "lista_nev": "Andinoacara pulcher",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

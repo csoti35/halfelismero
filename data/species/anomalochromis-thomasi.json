@@ -1,0 +1,89 @@
+{
+ "id": "anomalochromis-thomasi",
+ "tipus": "hal",
+ "latin": "Anomalochromis thomasi",
+ "regi_latin_nevek": [
+  "Pelmatochromis thomasi"
+ ],
+ "magyar_nev": "Afrikai pillangósügér",
+ "egyeb_nevek": [
+  "Thomas-törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Törpesügérek",
+ "szarmazas": "Nyugat-Afrika (Sierra Leone, Libéria, Guinea)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Az egyik legbékésebb sügérfaj, csak íváskor védi a revírjét. Nem bántja a növényeket.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 70,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, elfogadja a száraz tápokat is, de az élő eleséget preferálja. Csigapusztító hírében áll.",
+ "tarsithato": [
+  "Lazacok",
+  "dániók",
+  "békés harcsák",
+  "más nyugat-afrikai törpesügérek."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív sügérek",
+  "nagyon apró ivadékok."
+ ],
+ "szaporodas_mod": "Nyíltan ívó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lapos kő vagy széles levél biztosítása ívóhelynek.",
+  "A víz lágyítása és a hőmérséklet kismértékű emelése.",
+  "A szülők közösen gondozzák az ikrákat és az ivadékokat.",
+  "Az ivadékok 2-3 nap után kelnek ki.",
+  "Frissen kelt artémiával indítható az etetésük."
+ ],
+ "ivari_kulonbseg": "Nehéz megkülönböztetni őket; a hímek általában valamivel nagyobbak és színesebbek, a nőstények kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról lapított test.",
+  "Világos alapszínen sötét függőleges sávok.",
+  "Csillogó kék pikkelyek az oldalon.",
+  "Fekete folt a kopoltyúfedőn.",
+  "Sötét sáv halad át a szemen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mikrogeophagus ramirezi",
+   "magyar_nev": "Pillangótörpesügér",
+   "kulonbseg": "A ramirezi dél-amerikai, színesebb és érzékenyebb a vízre."
+  },
+  {
+   "latin": "Pelvicachromis pulcher",
+   "magyar_nev": "Meggyhasú sügér",
+   "kulonbseg": "A pulcher barlangi ívó és más a testformája."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kiváló választás csigák túlszaporodása ellen.",
+  "Sűrű növényzetet és szabad úszóteret is igényel.",
+  "Békés közösségi akváriumba az egyik legjobb sügér."
+ ],
+ "lista_nev": "Anomalochromis thomasi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

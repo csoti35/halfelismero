@@ -1,0 +1,83 @@
+{
+ "id": "satanoperca-daemon",
+ "tipus": "hal",
+ "latin": "Satanoperca daemon",
+ "regi_latin_nevek": [
+  "Geophagus daemon"
+ ],
+ "magyar_nev": "Háromfoltú földevősügér",
+ "lista_nev": "Satanoperca daemon",
+ "egyeb_nevek": [
+  "Démon sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco vízrendszere)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de területvédő sügér. Fajtársaival szemben néha agresszív lehet, ha nincs elég hely. Aljzatlakó, folyamatosan túrja a homokot.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 450,
+ "homerseklet_min": 27,
+ "homerseklet_max": 30,
+ "ph_min": 4.5,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Mindenevő (fagyasztott eleségek, jó minőségű granulátumok, élő férgek)",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "békés sügérek",
+  "páncélosharcsák"
+ ],
+ "kerulendo": [
+  "Agresszív fajok",
+  "túl kemény víz",
+  "apró halak (amiket megehet)"
+ ],
+ "szaporodas_mod": "Ikrát rakó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyon lágy és savas víz szükséges. Gödröt ásnak a homokba az ikráknak. A szülők gondozzák az ivadékot. Gyakran sikertelen akváriumban."
+ ],
+ "ivari_kulonbseg": "A hímek úszói hosszabbak és hegyesebbek, a nőstények teltebbek.",
+ "felismeres_jegyek": [
+  "Három jellegzetes fekete folt az oldalán",
+  "megnyúlt hátúszó sugarak",
+  "vöröses árnyalat az úszókon",
+  "alsó állású száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Satanoperca jurupari",
+   "magyar_nev": "Sárgafejű földevősügér",
+   "kulonbseg": "Nincsenek sötét foltok az oldalán."
+  },
+  {
+   "latin": "Satanoperca lilith",
+   "magyar_nev": "Egfoltú földevősügér",
+   "kulonbseg": "Csak egyetlen sötét folt található az oldalán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lyukbetegség (Hexamita)",
+  "érzékenység a nitrátra",
+  "bélparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 8000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "Kizárólag finom homok aljzatot használjunk",
+  "mert a kavics felsértheti a kopoltyújukat szűrés közben. Elengedhetetlen a kiváló vízminőség."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

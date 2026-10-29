@@ -1,0 +1,79 @@
+{
+ "id": "astronotus-ocellatus",
+ "tipus": "hal",
+ "latin": "Astronotus ocellatus",
+ "regi_latin_nevek": [
+  "Acara ocellatus"
+ ],
+ "magyar_nev": "Oszkár (pávasügér)",
+ "lista_nev": "Astronotus ocellatus",
+ "egyeb_nevek": [
+  "Márványsügér",
+  "Pávaszemes sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas, Paraguay)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül intelligens, de falánk ragadozó. Mindent megeszik, ami befér a száján. Erősen átrendezi az akváriumot.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Ragadozó (halak, rovarok, giliszta, speciális sügérpellet)",
+ "tarsithato": [
+  "Hasonló méretű",
+  "robusztus sügérek",
+  "nagy harcsák",
+  "csontnyelvű halak"
+ ],
+ "kerulendo": [
+  "Kisebb halak",
+  "növények (kitépi őket)",
+  "gyenge szűrés"
+ ],
+ "szaporodas_mod": "Ikrát rakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lapos kőre ívnak. A pár közösen őrzi az ikrákat és az ivadékokat. Bőséges etetés és vízcsere serkenti őket."
+ ],
+ "ivari_kulonbseg": "Külsőleg szinte lehetetlen megkülönböztetni őket, csak íváskor a tojócső alapján.",
+ "felismeres_jegyek": [
+  "Robusztus test",
+  "hatalmas száj",
+  "narancssárga-fekete márványos mintázat",
+  "szemfolt a faroktőnél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Astronotus crassipinnis",
+   "magyar_nev": "Vastagúszójú oszkár",
+   "kulonbseg": "Ritkább, sötétebb alapszín, kevesebb narancs minta."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lyukbetegség (vitaminhiány miatt)",
+  "darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Nagyon erős szűrésre van szükség a nagy anyagcsere miatt. Felismerik a gazdájukat és kézből is ehetnek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

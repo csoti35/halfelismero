@@ -1,0 +1,86 @@
+{
+ "id": "uaru-amphiacanthoides",
+ "tipus": "hal",
+ "latin": "Uaru amphiacanthoides",
+ "regi_latin_nevek": [
+  "Pomotis fasciatus"
+ ],
+ "magyar_nev": "Uaru",
+ "lista_nev": "Uaru amphiacanthoides",
+ "egyeb_nevek": [
+  "Ékfoltos sügér",
+  "Szegény ember diszkoszhala"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika: Amazonas-medence, Guyana",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés természetű, de territoriális sügér. Csoportban érzi jól magát, de íváskor agresszívvá válhat. A növényeket előszeretettel fogyasztja.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Mindenevő, de nagy igénye van növényi táplálékra (saláta, spenót, forrázott zöldségek).",
+ "tarsithato": [
+  "Diszkoszhalak",
+  "nagyobb pontylazacok",
+  "békés dél-amerikai sügérek",
+  "harcsák."
+ ],
+ "kerulendo": [
+  "Kisméretű halak (elfogyasztja őket)",
+  "agresszív sügérek",
+  "finomlevelű növények."
+ ],
+ "szaporodas_mod": "Szabadon ívó, szubsztrátumra rakja az ikráit.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy",
+  "savas víz és magas hőmérséklet szükséges. A pár egy lapos követ vagy fát tisztít meg. Az ikrákat és az ivadékokat mindkét szülő gondozza. Az ivadékok az első napokban a szülők testváladékát is csipegetik."
+ ],
+ "ivari_kulonbseg": "Külsőleg nehéz megkülönböztetni őket; a hímek ivarszerve hegyesebb, a nőstényeké tompább íváskor.",
+ "felismeres_jegyek": [
+  "Korong alakú",
+  "oldalról lapított test. Felnőttkorban egy nagy",
+  "sötét",
+  "ék alakú folt az oldal közepén. Szemük narancssárga vagy vörös. Alapszínük szürkésbarna."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Symphysodon aequifasciatus",
+   "magyar_nev": "Diszkoszhal",
+   "kulonbseg": "A diszkoszhal színesebb, nincs rajta a jellegzetes nagy fekete ékfolt."
+  },
+  {
+   "latin": "Uaru fernandezyepezi",
+   "magyar_nev": "Panda uaru",
+   "kulonbseg": "Ritkább faj, mintázata kontrasztosabb, fekete-fehér foltos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lyukbetegség (Hexamita)",
+  "darakór",
+  "bélparaziták."
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Mivel falánk növényevő",
+  "csak kemény levelű növényekkel (pl. Anubias) vagy műnövényekkel dekoráljunk. Kiváló minőségű szűrést igényel."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

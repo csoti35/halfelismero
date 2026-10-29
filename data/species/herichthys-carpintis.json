@@ -1,0 +1,83 @@
+{
+ "id": "herichthys-carpintis",
+ "lista_nev": "Herichthys carpintis",
+ "tipus": "hal",
+ "latin": "Herichthys carpintis",
+ "regi_latin_nevek": [
+  "Cichlasoma carpinte",
+  "Neetroplus carpintis"
+ ],
+ "magyar_nev": "Texasi sügér",
+ "egyeb_nevek": [
+  "Zöld texasi sügér",
+  "Gyöngyházfényű sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Mexikó (Panuco-folyó medencéje)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 12,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Területvédő és agresszív, különösen ívás idején. Csak nagy testű halakkal tartható együtt tágas akváriumban.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (élő, fagyasztott, jó minőségű sügérpellet)",
+ "tarsithato": [
+  "Más nagy testű közép-amerikai sügérekkel",
+  "nagyobb harcsákkal",
+  "nagytestű pontylazacokkal."
+ ],
+ "kerulendo": [
+  "Kisebb halak",
+  "gyengébb sügérek",
+  "növények (kitúrja őket)."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Párválasztás után egy lapos követ megtisztítanak. Az ikrákat mindkét szülő gondozza. Az ivadékok 3-4 nap múlva kelnek ki",
+  "és sórákkal indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, hát- és farokalatti úszójuk hosszabb, hegyesebb. Idősebb hímeknél zsírpúp alakulhat ki.",
+ "felismeres_jegyek": [
+  "Zöldeskék vagy türkizkék gyöngyházfényű pettyek a sötétszürke testen. Robusztus testfelépítés. Magas hát. Sötét foltok az oldalvonal mentén."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Herichthys cyanoguttatus",
+   "magyar_nev": "Valódi texasi sügér",
+   "kulonbseg": "Kisebb és sűrűbb pettyezés, kevésbé intenzív zöldes szín."
+  },
+  {
+   "latin": "Rocio octofasciata",
+   "magyar_nev": "Gesztenyesügér",
+   "kulonbseg": "Sötétebb alapszín, más mintázat az arcon."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lyukbetegség (Hexamita)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Erős szűrés szükséges a nagy anyagcsere miatt.",
+  "Dekorációnak használjunk nagy köveket és gyökereket, a növényeket tönkreteszi.",
+  "A párok agressziója egymás ellen is irányulhat, ha nincs elég búvóhely."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "steatocranus-casuarius",
+ "tipus": "hal",
+ "latin": "Steatocranus casuarius",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Púposfejű sügér",
+ "egyeb_nevek": [
+  "Oroszlánfejű sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Kongó-medence",
+ "max_meret_cm": 12,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fajtársaival szemben területvédő, de más fajokkal szemben általában békés. Monogám, párban él.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, főként az aljzaton keresgél. Kedveli a fagyasztott eleséget és a süllyedő tablettákat.",
+ "tarsithato": [
+  "Felszíni halakkal",
+  "nagyobb lazacokkal",
+  "kongólazaccal."
+ ],
+ "kerulendo": [
+  "Más aljzatlakó sügérek",
+  "agresszív fenéklakók."
+ ],
+ "szaporodas_mod": "Barlangba ívó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Szűk barlang vagy cserép biztosítása. 2. A pár közösen tisztítja meg a helyet. 3. Az ikrákat a barlang falára ragasztják. 4. A nőstény bent marad az ikrákkal",
+  "a hím kívül őrködik. 5. Az ivadékok lassan fejlődnek",
+  "de szüleik sokáig gondozzák őket."
+ ],
+ "ivari_kulonbseg": "A hímek fején jellegzetes zsírpúp található, amely az életkorral növekszik. A nőstények kisebbek és púpjuk jelentéktelen.",
+ "felismeres_jegyek": [
+  "Sötétszürke vagy barnás szín",
+  "jellegzetes 'ugráló' úszásmód az úszóhólyag csökevényessége miatt",
+  "nagy fej",
+  "a hímeknél markáns homlokpúp."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Steatocranus tinanti",
+   "magyar_nev": "Nyúlánk púposfejű sügér",
+   "kulonbseg": "Teste sokkal nyújtottabb, áramvonalasabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Erős vízmozgást és oxigéndús vizet igényelnek, mivel gyors folyású vizekből származnak.",
+  "Sok barlangot és búvóhelyet kell biztosítani számukra.",
+  "Érdemes kőrakásokat építeni, amik között bujkálhatnak."
+ ],
+ "lista_nev": "Steatocranus casuarius",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

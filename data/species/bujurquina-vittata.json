@@ -1,0 +1,86 @@
+{
+ "id": "bujurquina-vittata",
+ "tipus": "hal",
+ "latin": "Bujurquina vittata",
+ "regi_latin_nevek": [
+  "Aequidens vittatus"
+ ],
+ "magyar_nev": "Szalagos akara",
+ "lista_nev": "Bujurquina vittata",
+ "egyeb_nevek": [
+  "Vittata akara"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Paraguay, Brazília, Argentína",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés sügér, de íváskor agresszíven védi a revírjét. Más hasonló méretű halakkal jól tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő: jó minőségű granulátum, fagyasztott szúnyoglárva, artémia.",
+ "tarsithato": [
+  "Nagyobb pontylazacok",
+  "páncélosharcsák",
+  "más békésebb sügérek."
+ ],
+ "kerulendo": [
+  "Apró halak (pl. neonhal)",
+  "nagyon agresszív sügérek."
+ ],
+ "szaporodas_mod": "Késleltetett szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lapos kőre vagy levélre ikráznak.",
+  "Az ikrákat mindkét szülő őrzi kb. 24-48 óráig.",
+  "Kikelés előtt a szülők a szájukba veszik az ikrákat/lárvákat.",
+  "A szabadon úszásig a szülők szájukban tartják az ivadékokat.",
+  "Az ivadékok sórákkal indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, úszóik hegyesebbek és megnyúltabbak.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról lapított test.",
+  "A szemen áthaladó sötét függőleges sáv.",
+  "Vízszintes sötét sáv a test oldalán.",
+  "Az úszók széle gyakran narancssárgás vagy vöröses.",
+  "Ezüstös-szürkés alapszín."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Andinoacara pulcher",
+   "magyar_nev": "Kék akara",
+   "kulonbseg": "Élénkebb kék pikkelyek, nem szájköltő."
+  },
+  {
+   "latin": "Cleithracara maronii",
+   "magyar_nev": "Akara (Maroni-sügér)",
+   "kulonbseg": "Kulcslyuk alakú folt az oldalán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bélgyulladás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Érdemes lapos köveket és széles levelű növényeket (pl. Anubias) tenni az akváriumba az íváshoz.",
+  "Párban tartsuk őket a harmonikus viselkedés érdekében."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

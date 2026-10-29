@@ -1,0 +1,87 @@
+{
+ "id": "parachromis-managuensis",
+ "tipus": "hal",
+ "latin": "Parachromis managuensis",
+ "regi_latin_nevek": [
+  "Cichlasoma managuense",
+  "Nandopsis managuense"
+ ],
+ "magyar_nev": "Jaguársügér",
+ "lista_nev": "Parachromis managuensis",
+ "egyeb_nevek": [
+  "Managuai sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Közép-Amerika (Nicaragua, Costa Rica, Honduras)",
+ "max_meret_cm": 55,
+ "elettartam_ev": 15,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül területvédő és ragadozó természetű. Csak nála nagyobb vagy hasonló méretű, robusztus halakkal tartható együtt hatalmas akváriumban.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 600,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Ragadozó: kishalak, rovarok, garnélák, fagyasztott húsos eledelek, sügérpellet.",
+ "tarsithato": [
+  "Más nagytestű közép-amerikai sügérekkel (pl. Citromsügér)",
+  "nagy algaevő harcsákkal."
+ ],
+ "kerulendo": [
+  "Bármilyen hal",
+  "ami befér a száján",
+  "félénk fajok."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Párválasztás (érdemes fiatal csoportból indulni). 2. Lapos kő megtisztítása. 3. Ikrázás a kőre. 4. Mindkét szülő agresszívan védi az ivadékokat. 5. Az ivadékok frissen kelt artémiával indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek jóval nagyobbak, hát- és farok alatti úszójuk hosszabb, hegyesebb. A nőstények mintázata kevésbé kontrasztos.",
+ "felismeres_jegyek": [
+  "Robusztus",
+  "megnyúlt test",
+  "hatalmas",
+  "előreugró alsó állkapocs",
+  "sárgás-ezüstös alapszínen sötét",
+  "jaguárszerű foltozás",
+  "nagy szem."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Parachromis friedrichsthalii",
+   "magyar_nev": "Sárga jaguársügér",
+   "kulonbseg": "Kisebb termetű és sárgásabb alapszínű."
+  },
+  {
+   "latin": "Parachromis dovii",
+   "magyar_nev": "Farkassügér",
+   "kulonbseg": "Még nagyobbra nő, színe kékesebb-zöldesebb, mintázata más."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Fejlyukacsosodás (Hexamita)",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Hatalmas szűrőkapacitás szükséges a nagy anyagcsere miatt.",
+  "Az akvárium berendezésekor rögzítsük a köveket, mert nagy erejű ásásra képesek.",
+  "Kizárólag tapasztalt akvaristáknak ajánlott a mérete és agressziója miatt."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

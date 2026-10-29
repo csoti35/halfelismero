@@ -1,0 +1,84 @@
+{
+ "id": "hypsophrys-nicaraguensis",
+ "tipus": "hal",
+ "latin": "Hypsophrys nicaraguensis",
+ "regi_latin_nevek": [
+  "Cichlasoma nicaraguense"
+ ],
+ "magyar_nev": "Nicaraguai sügér",
+ "lista_nev": "Hypsophrys nicaraguensis",
+ "egyeb_nevek": [
+  "Papagájsügér (nem összetévesztendő a hibrid papagájsügérrel)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Közép-Amerika (Nicaragua, Costa Rica)",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Közép-amerikai sügérhez képest viszonylag békés, de területvédő. Más sügérekkel jól tartható tágas helyen.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (csigák, rákok, növényi tabletták, jó minőségű granulátumok)",
+ "tarsithato": [
+  "Más közepes méretű közép-amerikai sügérekkel",
+  "nagyobb lazacokkal."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív fajok vagy túl kicsi halak."
+ ],
+ "szaporodas_mod": "Barlangba ikrázó (nem tapadó ikrák)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Gödör ásása vagy barlang kiválasztása.",
+  "Az ikrák nem tapadnak, a gödör alján hevernek.",
+  "A szülők gondosan őrzik az ikrákat és a kikelő lárvákat.",
+  "Az ivadékok sórákkal indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak és hátúszójuk hegyesebb, a nőstények színesebbek (arany/réz tónusok).",
+ "felismeres_jegyek": [
+  "Jellegzetes, lekerekített, 'papagájszerű' fejforma.",
+  "Arany, réz és türkizkék színek a testen.",
+  "Sötét vízszintes sáv az oldalvonal mentén (fiataloknál erősebb).",
+  "Fekete folt a test közepén.",
+  "Ívelt homlokvonal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amatitlania nigrofasciata",
+   "magyar_nev": "Zebrasügér",
+   "kulonbseg": "Sokkal kisebb és függőleges csíkozású."
+  },
+  {
+   "latin": "Thorichthys meeki",
+   "magyar_nev": "Gébicsügér",
+   "kulonbseg": "Hegyesebb fejforma és vörös torokrész jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Kedvelik a homokos aljzatot, mert szeretnek turkálni.",
+  "Érdemes barlangokat, kerámia csöveket biztosítani számukra.",
+  "A nőstények nászidőszakban rendkívül látványos színeket öltenek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

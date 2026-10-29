@@ -1,0 +1,88 @@
+{
+ "id": "cichla-ocellaris",
+ "tipus": "hal",
+ "latin": "Cichla ocellaris",
+ "regi_latin_nevek": [
+  "nincs jelentős"
+ ],
+ "magyar_nev": "Szemfoltos pávasügér",
+ "lista_nev": "Cichla ocellaris",
+ "egyeb_nevek": [
+  "Pávasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Dél-Amerika (Amazonas-medence, Guyana)",
+ "max_meret_cm": 70,
+ "elettartam_ev": 10,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül gyors, falánk ragadozó. Csak hatalmas bemutató akváriumokba való, fajtársaival és hasonló óriásokkal tartható.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "középső",
+ "min_akvarium_l": 1000,
+ "homerseklet_min": 25,
+ "homerseklet_max": 30,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Húsevő: kizárólag halak, rákok, nagyobb fagyasztott eleség. Nehezen szoktatható száraz tápra.",
+ "tarsithato": [
+  "Hasonló méretű Cichla fajokkal",
+  "nagy rájákkal",
+  "csontnyelvű halakkal (Arowana)."
+ ],
+ "kerulendo": [
+  "Minden",
+  "ami kisebb nála",
+  "agresszív",
+  "területvédő közép-amerikai sügérek",
+  "amelyek sérülést okozhatnak neki."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "1. Hatalmas (több ezer literes) medence szükséges. 2. A pár lapos kőre ikrázik. 3. A szülők védelmezik az ikrákat. 4. Az ivadékok rendkívül falánkak",
+  "apró élő eleséggel indíthatók."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek fején zsírpúp alakulhat ki. A hímek általában színesebbek.",
+ "felismeres_jegyek": [
+  "Megnyúlt",
+  "süllőszerű test",
+  "hatalmas száj",
+  "három függőleges fekete sáv az oldalon",
+  "a farokúszó tövén jellegzetes",
+  "sárga keretes fekete szemfolt."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cichla monoculus",
+   "magyar_nev": "Egyszemes pávasügér",
+   "kulonbseg": "A sávok rövidebbek, a színezetben több az arany tónus."
+  },
+  {
+   "latin": "Cichla temensis",
+   "magyar_nev": "Sávos pávasügér",
+   "kulonbseg": "Még nagyobbra nő (100 cm+), mintázata pöttyözöttebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélgyulladás (nem megfelelő táplálás)",
+  "Sérülésekből eredő gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 8000,
+ "ar_ft_max": 35000,
+ "tippek": [
+  "Csak akkor vásároljuk meg, ha hosszú távon tudunk biztosítani több ezer literes életteret.",
+  "Nagyon érzékeny a víz tisztaságára és az oxigénszintre.",
+  "A világítás legyen erős, hogy a színei érvényesüljenek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Dicrossus filamentosus",
+ "id": "dicrossus-filamentosus",
+ "tipus": "hal",
+ "latin": "Dicrossus filamentosus",
+ "regi_latin_nevek": [
+  "Crenicara filamentosa"
+ ],
+ "magyar_nev": "Sakktáblasügér",
+ "egyeb_nevek": [
+  "Lírafarkú sakktáblasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Dél-amerikai törpesügérek",
+ "szarmazas": "Dél-Amerika (Rio Negro és Orinoco medence: Brazília, Kolumbia, Venezuela)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, félénk, kissé visszahúzódó törpesügér. Csak fajtársakkal vagy nagyon nyugodt kistestű halakkal érzi jól magát.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 25,
+ "homerseklet_max": 30,
+ "ph_min": 4.5,
+ "ph_max": 6.2,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Apró ragadozó; élő vagy fagyasztott vízibolha, cyclops, artémia, tubifex; száraz eleséget csak ritkán fogad el.",
+ "tarsithato": [
+  "Vörös neonhal",
+  "fekete neonhal",
+  "Nannostomus fajok (ferdeszájú pontylazacok)",
+  "Corydoras habrosus."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "robusztus vagy falánk halak",
+  "amelyek eleszik előle a táplálékot",
+  "pl. élénk márnák vagy nagy sügérek."
+ ],
+ "szaporodas_mod": "Szabadon vagy lapos tereptárgyra (levél, kő) nyíltan ikrázó, anyai gondozással.",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Extrém lágy (GH/KH < 2 dGH) és erősen savas (pH 4.5-5.5) feketevíz biztosítása.",
+  "Széles levelű növények (pl. Echinodorus) vagy sima lapos kövek elhelyezése ikrázóhelyként.",
+  "Csak kis csoportban, bőséges élő táplálékkal kondicionálva állnak párba.",
+  "Az ikrákat a nőstény nyílt felületekre ragasztja és kitartóan legyezi, a hím jelenlétét elutasíthatja.",
+  "A rendkívül apró ivadékokat infuzóriával és kerekesférgekkel, majd friss naupliusszal kell etetni."
+ ],
+ "ivari_kulonbseg": "A hímek jóval nagyobbak, farokúszójuk látványosan nyújtott, líra alakú filamentumokban végződik, hasúszójuk hegyes. A nőstények kisebbek, úszóik lekerekítettek, ívási időben a hasúszójuk élénkvörösre vált.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres, karcsú testalkat",
+  "Két sorban elhelyezkedő négyszögletes fekete foltok alkotnak sakktáblaszerű mintázatot az oldalon",
+  "A felnőtt hím farokúszója mélyen villás, líra alakú fonalakkal",
+  "Íváskor a nőstény hasúszói feltűnő korallvörös színűvé válnak"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dicrossus maculatus",
+   "magyar_nev": "Pettyes sakktáblasügér",
+   "kulonbseg": "A maculatus teste mélyebb, a hím farokúszója lekerekített, nem növeszt líra alakú fonalakat."
+  },
+  {
+   "latin": "Dicrossus foirni",
+   "magyar_nev": "Foirni sakktáblasügér",
+   "kulonbseg": "Ritkább faj, a sakktáblamintázat kevésbé szabályos, a hímek úszóinak szegélye eltérő színű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Bakteriális fertőzések nem megfelelő (kemény, lúgos) vízben",
+  "Érzékenység gyógyszerekre és vegyi anyagokra"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Ozmovíz (RO) használata és tőzeges szűrés szinte kötelező a tartásához és hosszú távú egészségéhez.",
+  "Nagyon érzékeny a víz felgyülemlett bomlástermékeire, csak stabil, beállt akváriumba telepíthető.",
+  "Akváriumát tompa fénnyel, sok falevéllel és finom homoktalajjal rendezzük be."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

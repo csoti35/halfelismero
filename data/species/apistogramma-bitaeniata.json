@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Apistogramma bitaeniata",
+ "id": "apistogramma-bitaeniata",
+ "tipus": "hal",
+ "latin": "Apistogramma bitaeniata",
+ "regi_latin_nevek": [
+  "Apistogramma kleei",
+  "Apistogramma sweglesi"
+ ],
+ "magyar_nev": "Kétsávos törpesügér",
+ "egyeb_nevek": [
+  "Szalagos törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Dél-amerikai törpesügérek",
+ "szarmazas": "Dél-Amerika (Amazonas-medence: Brazília, Kolumbia, Peru)",
+ "max_meret_cm": 7.5,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, békés természetű rajhalakkal társítható faj. Hímek között komoly rivalizálás alakulhat ki szűk helyen.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 5.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 6,
+ "taplalek": "Főként apró ragadozó; élő és fagyasztott eleségek (artémia, vízibolha, ciklop), nehezen szoktatható száraztápra.",
+ "tarsithato": [
+  "Kistermetű békés pontylazacok (pl. zöld neonhal",
+  "törpe fejszehal)",
+  "kistestű páncélosharcsák."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "agresszív sügérek",
+  "gyors és tolakodó díszmárnák",
+  "mohó táplálékriválisok."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, anyai ivadékgondozással.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy (<3 dGH) és savas (pH 5.0-6.0), nitrátmentes víz beállítása.",
+  "Természetes rejtőzködő helyek (szűk kerámia barlangok, kókuszdió, félbevágott cserép) biztosítása.",
+  "Szülőpár kondicionálása kiváló minőségű élő eleségekkel.",
+  "A nőstény a barlang falára rakja az ikrákat, majd agresszíven őrzi a területet, a hímet gyakran el kell különíteni.",
+  "Az elúszott kishalak indítása papucsállatkával és frissen kelt sórákkal."
+ ],
+ "ivari_kulonbseg": "A hímek jóval nagyobbak, hátúszójuk elülső sugarai feltűnően zászlószerűen megnyúltak, farokúszójuk líra alakúvá fejlődik. A nőstények kisebbek, úszóik lekerekítettek, íváskor élénk citromsárgák fekete foltokkal.",
+ "felismeres_jegyek": [
+  "Oldalán kettős fekete hosszanti sáv fut végig (egy a test közepén, egy lejjebb a hasi részen)",
+  "A hím hátúszójának első pár sugara erősen megnyúlt, koronaszerű",
+  "Kifejlett hímek farokúszója határozottan líra alakú (felső és alsó sugarak megnyúltak)",
+  "Karcsúbb, nyújtottabb testalkat az átlagos Apistogrammákhoz képest"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Apistogramma agassizii",
+   "magyar_nev": "Agassiz törpesügér",
+   "kulonbseg": "Az agassizii farokúszója lándzsa alakú, oldalán csupán egyetlen domináns hosszanti sáv húzódik."
+  },
+  {
+   "latin": "Apistogramma trifasciata",
+   "magyar_nev": "Háromsávos törpesügér",
+   "kulonbseg": "A trifasciata zömökebb testű, hátúszó-tüskéi még hosszabbak, és három sötét hosszanti sávval rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lyukbetegség (Spironucleus / Hexamita)",
+  "Bakteriális fertőzések a felgyülemlett bomlástermékek miatt",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Kimondottan érzékeny a vízminőségre és a nitrátszintre, heti rendszeres vízcsere elengedhetetlen.",
+  "Kedveli a sötét, teaszínű vizet és a tompított világítást, amit úszónövényekkel könnyen elérhetünk.",
+  "A talaj mindenképpen finom szemcséjű homok legyen, mert imádják átforgatni."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

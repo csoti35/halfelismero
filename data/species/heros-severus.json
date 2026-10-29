@@ -1,0 +1,81 @@
+{
+ "id": "heros-severus",
+ "tipus": "hal",
+ "latin": "Heros severus",
+ "regi_latin_nevek": [
+  "Cichlasoma severum"
+ ],
+ "magyar_nev": "Severum sügér",
+ "lista_nev": "Heros severus",
+ "egyeb_nevek": [
+  "Severum sügér",
+  "Hamis diszkoszhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika: Orinoco és Amazonas folyórendszer",
+ "max_meret_cm": 20,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés, de mérete miatt a kisebb halakat megeheti. Íváskor területvédő. A növényeket néha megtépheti.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 29,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli a fagyasztott és élő eleséget, de a növényi táplálékot is igényli.",
+ "tarsithato": [
+  "Más közepes testű sügérekkel",
+  "nagyobb pontylazacokkal",
+  "páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Apró halak (pl. neonhal)",
+  "agresszív közép-amerikai sügérek."
+ ],
+ "szaporodas_mod": "Szabadon ívó, kövekre vagy gyökerekre rakja az ikráit.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A pár tisztára takarít egy felületet. Az ikrák száma elérheti az 1000-et. Mindkét szülő gondozza az ivadékokat. Az ivadékok frissen kelt artémiával indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek hát- és farok alatti úszója hosszabb, hegyesebb, fejükön vöröses pöttyözöttség lehet.",
+ "felismeres_jegyek": [
+  "Oldalról lapított",
+  "ovális test. A test hátsó részén függőleges sötét sávok láthatók. Szemük gyakran vöröses. Számos színváltozata létezik (pl. arany",
+  "türkiz)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Heros efasciatus",
+   "magyar_nev": "Smaragd szemes sügér",
+   "kulonbseg": "Gyakran összetévesztik őket a kereskedelemben, az efasciatus sávjai kevésbé kifejezettek felnőttkorban."
+  },
+  {
+   "latin": "Mesonauta festivus",
+   "magyar_nev": "Zászlós sügér",
+   "kulonbseg": "A zászlós sügér teste nyújtottabb, és egy ferde fekete sáv fut a szemétől a hátúszóig."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "bélgyulladás rossz táplálás esetén."
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Érdemes párban tartani őket. Az akváriumba tegyünk gyökereket és köveket búvóhelynek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

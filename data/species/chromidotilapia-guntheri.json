@@ -1,0 +1,78 @@
+{
+ "id": "chromidotilapia-guntheri",
+ "tipus": "hal",
+ "latin": "Chromidotilapia guntheri",
+ "regi_latin_nevek": [
+  "Pelmatogonium guntheri"
+ ],
+ "magyar_nev": "Günther-szájköltő sügér",
+ "egyeb_nevek": [
+  "Günther díszsügére"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Nyugat-Afrika",
+ "max_meret_cm": 15,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés, de íváskor területvédő. A hímek egymással szemben intoleránsak lehetnek.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, kedveli a fagyasztott és élő eleséget, de elfogadja a lemezes tápokat is.",
+ "tarsithato": [
+  "Nagyobb testű lazacokkal",
+  "márnákal",
+  "más nyugat-afrikai sügérekkel."
+ ],
+ "kerulendo": [
+  "Nagyon apró halak",
+  "agresszív közép-amerikai sügérek."
+ ],
+ "szaporodas_mod": "Szájköltő (apai)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Párképzés. 2. Az ikrákat a talajra rakják",
+  "majd a hím a szájába veszi őket. 3. A hím forgatja az ikrákat kb. 10-12 napig. 4. Az ivadékok elúszás után apró élő eleséggel etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, hátúszójuk megnyúltabb, a nőstények hasa íváskor rózsaszínes-lilás lesz.",
+ "felismeres_jegyek": [
+  "Nyújtott test",
+  "sárgásbarna alapszín",
+  "a hátúszón sötét szegély és fémes foltok láthatók",
+  "a nőstények hasa színesebb."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pelvicachromis pulcher",
+   "magyar_nev": "Meggyhasú sügér",
+   "kulonbseg": "Kisebb termetű, barlangban ívó, nem szájköltő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Homokos aljzatot igényelnek, mert szeretik átrostálni a talajt.",
+  "A hím nyugalmát biztosítani kell a szájköltés ideje alatt.",
+  "Lágyabb, enyhén savas vízben érzik magukat a legjobban."
+ ],
+ "lista_nev": "Chromidotilapia guntheri",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

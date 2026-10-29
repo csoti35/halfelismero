@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Nannacara anomala",
+ "id": "nannacara-anomala",
+ "tipus": "hal",
+ "latin": "Nannacara anomala",
+ "regi_latin_nevek": [
+  "Acara anomala"
+ ],
+ "magyar_nev": "Arany törpesügér",
+ "egyeb_nevek": [
+  "Zöld törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai törpesügérek",
+ "szarmazas": "Dél-Amerika (Guyana, Suriname)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Általában békés törpesügér, amely kisebb rajhalakkal jól tartható. Ívás idején viszont a nőstény rendkívül területvédővé és agresszívvá válik, még a nála jóval nagyobb hímet is elűzi a fészek közeléből.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Fagyasztott és élő eleségek (szúnyoglárva, artémia, daphnia), idővel a jó minőségű lemezes és granulált tápokat is elfogadja.",
+ "tarsithato": [
+  "Békés felső és középső szinten úszó rajhalak (pl. pontylazacok",
+  "törpe razbórák)",
+  "páncélos harcsák",
+  "törpe szívóharcsák."
+ ],
+ "kerulendo": [
+  "Más területvédő aljzati sügérek",
+  "nagy testű vagy agresszív fajok",
+  "csipkelődős halak."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk a párnak finom homok talajt és több sötét barlangot (kókuszhéj, agyagcserép).",
+  "Lágyítsuk és enyhén savanyítsuk a vizet (pH 6.2-6.8, GH 3-6), majd emeljük a hőmérsékletet 26-27 °C-ra.",
+  "A nőstény a barlang belső falára ikrázik, majd az ikrákat és a kikelő ivadékokat ádázan védi.",
+  "Ha a nőstény túlságosan elveri a hímet a kis akváriumban, a hímet az ívás után érdemes kiemelni.",
+  "Az elúszó ivadékokat frissen keltett artémia naupliuszokkal és mikróval etessük."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak (7-8 cm), fémes kékeszöldes-aranyos pikkelymintázatot viselnek, hát- és farokalatti úszójuk megnyúlt. A nőstények kisebbek (4-5 cm), sárgásbarna alapszínűek, íváskor domináns fekete sakktábla- vagy csíkos mintázatot öltenek.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról lapított törpesügér testforma.",
+  "A kifejlett hímek teste fémesen csillogó, kékeszöld és arany árnyalatú.",
+  "Ívási időszakban a nőstényen erős, hosszirányú fekete sáv és keresztcsíkok (sakktábla minta) jelennek meg.",
+  "A hímek hátúszója hosszan megnyúlt, narancssárga vagy vöröses szegéllyel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nannacara adoketa",
+   "magyar_nev": "Zebra törpesügér",
+   "kulonbseg": "Sokkal kifejezettebb sötét keresztcsíkozással rendelkezik a test teljes felületén."
+  },
+  {
+   "latin": "Apistogramma cacatuoides",
+   "magyar_nev": "Akaratörpesügér",
+   "kulonbseg": "A hím úszói erősen megnyúltak és mintázottak, a testformája karcsúbb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hasi vízkór",
+  "Gombás fertőzések az ikrákon"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kezdő sügéresként az egyik legajánlottabb faj, mert a vízparaméterekre kevéssé érzékeny.",
+  "Dús növényzettel és búvóhelyekkel (kókuszdió, gyökerek) csökkenthető a halak közötti stressz.",
+  "Érdemes párban vagy egy hímhez több nőstényt (háremben) tartani, ha elegendő a hely."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

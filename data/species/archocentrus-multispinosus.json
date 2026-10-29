@@ -1,0 +1,72 @@
+{
+ "id": "archocentrus-multispinosus",
+ "lista_nev": "Archocentrus multispinosus",
+ "latin": "Archocentrus multispinosus",
+ "regi_latin_nevek": [
+  "Herotilapia multispinosa"
+ ],
+ "magyar_nev": "Szivárványsügér",
+ "egyeb_nevek": [
+  "Soktüskés sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "tipus": "hal",
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Amerikai sügérek",
+ "szarmazas": "Közép-Amerika (Honduras, Nicaragua, Costa Rica)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békésebb sügérfaj, de íváskor védi a területét. Más halakkal szemben általában toleráns.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 22,
+ "homerseklet_max": 30,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, kedveli a növényi eredetű táplálékot is (alga, spirulina).",
+ "tarsithato": [
+  "Hasonló méretű sügérekkel",
+  "nagyobb elevenszülőkkel (pl. kardfarkú hal)."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív sügérek",
+  "apró halak."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A pár egy függőleges felületre vagy kőre ikrázik. Mindkét szülő gondozza az ivadékokat. Az ivadékok gyorsan nőnek."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak és úszóik hegyesebbek. Íváskor a színek felerősödnek.",
+ "felismeres_jegyek": [
+  "Sárgás-narancsos alapszín. Egy markáns fekete sáv fut végig az oldalán. Szemei narancssárgák. Testformája zömök."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amatitlania nigrofasciata",
+   "magyar_nev": "Bíborsügér",
+   "kulonbseg": "Függőleges csíkozás, agresszívabb természet."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Érdemes növényi táplálékot is adni nekik, hogy ne bántsák a puhább levelű növényeket.",
+  "Kiváló választás első közép-amerikai sügérnek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

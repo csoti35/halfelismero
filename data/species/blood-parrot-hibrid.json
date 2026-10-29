@@ -1,0 +1,87 @@
+{
+ "id": "blood-parrot-hibrid",
+ "tipus": "hal",
+ "latin": "Hybrid (Amphilophus citrinellus x Paraneetroplus synspilus)",
+ "regi_latin_nevek": [
+  "Nincs (mesterséges hibrid)"
+ ],
+ "magyar_nev": "Vérpapagáj sügér",
+ "egyeb_nevek": [
+  "Vörös papagájsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Hibrid sügérek",
+ "szarmazas": "Tenyésztett (Tajvan)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 12,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Bár sügér, a szája deformitása miatt nehezen tud kárt tenni másokban, de lökdösődhet és területvédő.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (speciális úszó pelletek, fagyasztott eleség)",
+ "tarsithato": [
+  "Hasonló méretű sügérek",
+  "nagyobb harcsák",
+  "nagyobb díszmárnák"
+ ],
+ "kerulendo": [
+  "Nagyon agresszív fajok",
+  "apró halak",
+  "lassú evők"
+ ],
+ "szaporodas_mod": "Ikrát rakó (többnyire steril)",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Ikrát raknak",
+  "de a hímek szinte minden esetben meddők. A nőstények néha más sügérfajokkal keresztezhetőek."
+ ],
+ "ivari_kulonbseg": "Nagyon nehéz megállapítani; a hímek ivarszerve csúcsosabb íváskor.",
+ "felismeres_jegyek": [
+  "Kerekded",
+  "deformált test",
+  "jellegzetes 'mosolygó' száj",
+  "amit nem tud bezárni",
+  "élénk narancssárga vagy vörös szín",
+  "nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amphilophus citrinellus",
+   "magyar_nev": "Citromsügér",
+   "kulonbseg": "Természetes testforma, normális szájfelépítés."
+  },
+  {
+   "latin": "Flowerhorn hybrid",
+   "magyar_nev": "Flowerhorn sügér",
+   "kulonbseg": "Hosszúkásabb test, hatalmas homlokpúp, más mintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Úszóhólyag-problémák (a testalkat miatt)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Olyan tápot adjunk, ami segíti a vörös szín megőrzését.",
+  "Kerüljük az éles dekorációkat, mert a hal mozgása néha koordinálatlan.",
+  "Ne tartsuk túl kis helyen, mert nagy mennyiségű bomlásterméket termel."
+ ],
+ "lista_nev": "Blood parrot (hibrid)",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

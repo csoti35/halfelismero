@@ -1,0 +1,88 @@
+{
+ "id": "pseudetroplus-maculatus",
+ "tipus": "hal",
+ "latin": "Pseudetroplus maculatus",
+ "regi_latin_nevek": [
+  "Etroplus maculatus"
+ ],
+ "magyar_nev": "Pettyes indiai sügér",
+ "lista_nev": "Pseudetroplus maculatus",
+ "egyeb_nevek": [
+  "Narancs chromid"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Sügérek",
+ "szarmazas": "Ázsia (India, Srí Lanka)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Sügérhez képest békés, de fajtársaival szemben kialakít egy hierarchiát. Íváskor agresszívabbá válik.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de jelentős növényi kiegészítést igényel. Kedveli az élő eleséget is.",
+ "tarsithato": [
+  "Békés brakkvízi halak",
+  "nagyobb testű díszmárnák",
+  "szivárványhalak."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív sügérek",
+  "apró garnélák."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Enyhén sós víz (1.002-1.005 fajsúly) serkenti az ívást.",
+  "A pár egy lapos követ vagy cserépdarabot tisztít meg.",
+  "Az ikrákat mindkét szülő őrzi és legyezi.",
+  "Kikelés után a szülők gödrökbe hordják az ivadékokat.",
+  "Az ivadékok a szülők oldaláról táplálkoznak az első napokban."
+ ],
+ "ivari_kulonbseg": "Nehéz megállapítani; íváskor a nőstény tojócsöve látható, a hímek színe ilyenkor intenzívebb.",
+ "felismeres_jegyek": [
+  "Ovális, oldalról lapított test.",
+  "Arany-narancssárga vagy sárgás alapszín (tenyészváltozatoknál élénkebb).",
+  "Három nagy fekete folt az oldal közepén.",
+  "Apró vörös pöttyök a testen.",
+  "A szem írisze gyakran vöröses."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Etroplus suratensis",
+   "magyar_nev": "Sávos indiai sügér",
+   "kulonbseg": "Sokkal nagyobb, zöldes színű és függőleges sávos."
+  },
+  {
+   "latin": "Mikrogeophagus ramirezi",
+   "magyar_nev": "Pillangótörpesügér",
+   "kulonbseg": "Lágyvizes, dél-amerikai faj, más színvilág."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések (ha a víz túl lágy vagy savas)",
+  "Gombásodás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Bár tartható édesvízben is, hosszú távon az enyhén sós (brakkvíz) vízben sokkal szebb és egészségesebb.",
+  "Érdemes csapatban tartani, hogy természetes viselkedésüket mutassák.",
+  "A narancssárga tenyészváltozat a leggyakoribb a kereskedésekben."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

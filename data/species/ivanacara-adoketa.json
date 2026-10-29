@@ -1,0 +1,83 @@
+{
+ "id": "ivanacara-adoketa",
+ "tipus": "hal",
+ "latin": "Ivanacara adoketa",
+ "regi_latin_nevek": [
+  "Nannacara adoketa"
+ ],
+ "magyar_nev": "Zebra akara",
+ "egyeb_nevek": [
+  "Adoketa törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Brazília (Rio Negro medence)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, különösen íváskor válik agresszívvá. Párban tartható, de a hím domináns lehet a nősténnyel szemben.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 4.5,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "taplalek": "Mindenevő, de igényli az élő és fagyasztott eleséget (artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "békés harcsafélék."
+ ],
+ "kerulendo": [
+  "Más törpesügérek",
+  "agresszív fajok",
+  "túl kicsi halak."
+ ],
+ "szaporodas_mod": "Ikrát rakó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Nagyon lágy és savas víz szükséges. Lapos kőre vagy barlangba ívnak. A szülők gondozzák az ivadékot",
+  "de a hím néha agresszívvá válhat."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, úszóik megnyúltabbak, színezetük intenzívebb, fejükön sötét maszk látható.",
+ "felismeres_jegyek": [
+  "Zömök testfelépítés",
+  "függőleges fekete sávok az oldalon",
+  "kék és vörös pikkelyszegélyek",
+  "sötét szemcsík."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nannacara anomala",
+   "magyar_nev": "Arany törpesügér",
+   "kulonbseg": "Kisebb termetű, hiányoznak az erős függőleges sávok."
+  },
+  {
+   "latin": "Ivanacara bimaculata",
+   "magyar_nev": "Kétfoltos akara",
+   "kulonbseg": "Ritkább, eltérő mintázat az úszókon."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 8000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "Használjunk tőzeges szűrést a víz lágyítására.",
+  "Sűrű növényzet és sok búvóhely elengedhetetlen.",
+  "Csak tapasztalt akvaristáknak ajánlott a speciális vízigénye miatt."
+ ],
+ "lista_nev": "Ivanacara adoketa",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

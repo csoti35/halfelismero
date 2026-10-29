@@ -1,0 +1,87 @@
+{
+ "id": "pelvicachromis-taeniatus",
+ "tipus": "hal",
+ "latin": "Pelvicachromis taeniatus",
+ "regi_latin_nevek": [
+  "Pelmatochromis taeniatus"
+ ],
+ "magyar_nev": "Szalagos meggyhasú sügér",
+ "egyeb_nevek": [
+  "Díszes meggyhasú sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Törpesügérek",
+ "szarmazas": "Nyugat-Afrika (Nigéria, Kamerun)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés természetű, de íváskor területvédő és agresszívvá válik. Párban tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget (artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Kongólazacok",
+  "nagyobb pontylazacok",
+  "békés harcsafélék."
+ ],
+ "kerulendo": [
+  "Más területvédő törpesügérek",
+  "agresszív nagy sügérek."
+ ],
+ "szaporodas_mod": "Barlangi ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz biztosítása.",
+  "Megfelelő barlangok (cserép, kókusz) elhelyezése.",
+  "A pár kiválasztása és bőséges etetése élő eleséggel.",
+  "Az ikrákat a nőstény őrzi a barlangban.",
+  "Az ivadékok kikelése után sórák hernyóval etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak és úszóik megnyúltabbak. A nőstények hasa íváskor élénkebb bíborvörös.",
+ "felismeres_jegyek": [
+  "Megnyúlt testforma.",
+  "A farokúszó felső részén fekete foltok lehetnek.",
+  "Hosszanti sötét sáv a testen.",
+  "A nőstény hasa színesebb (vöröses-lilás).",
+  "A hím hátúszója hegyesebb."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pelvicachromis pulcher",
+   "magyar_nev": "Meggyhasú sügér",
+   "kulonbseg": "A pulcher robusztusabb, a taeniatus színei és mintázata finomabb, változatosabb."
+  },
+  {
+   "latin": "Pelvicachromis subocellatus",
+   "magyar_nev": "Szemfoltos meggyhasú sügér",
+   "kulonbseg": "A nőstény hátúszóján jellegzetes szemfolt található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Sok búvóhelyet igényelnek kövekből és gyökerekből.",
+  "Érzékenyek a vízminőség romlására, rendszeres vízcsere szükséges.",
+  "Több színváltozata létezik a befogási helytől függően (pl. Moliwe, Kienke)."
+ ],
+ "lista_nev": "Pelvicachromis taeniatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

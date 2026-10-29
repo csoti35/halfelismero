@@ -1,0 +1,82 @@
+{
+ "id": "cleithracara-maronii",
+ "lista_nev": "Cleithracara maronii",
+ "tipus": "hal",
+ "latin": "Cleithracara maronii",
+ "regi_latin_nevek": [
+  "Aequidens maronii"
+ ],
+ "magyar_nev": "Maroni-akara",
+ "egyeb_nevek": [
+  "Kulcslyuksügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae (Sügérfélék)",
+ "csoport": "Dél-amerikai sügérek",
+ "szarmazas": "Dél-Amerika (Guyana, Suriname, Francia Guyana)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, félénk sügérfaj, amely csak íváskor válik területvédővé. Nem túrja a talajt és nem bántja a növényeket.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (élő, fagyasztott és jó minőségű száraz tápok)",
+ "tarsithato": [
+  "Pontylazacok",
+  "páncélosharcsák",
+  "törpesügérek",
+  "békés felszíni halak"
+ ],
+ "kerulendo": [
+  "Agresszív vagy túl mozgékony nagy sügérek",
+  "amelyek megfélemlítik"
+ ],
+ "szaporodas_mod": "Szabadon ívó, kőre vagy levélre rakja az ikráit",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Egy összeszokott pár kiválasztása. 2. Lágy",
+  "enyhén savas víz és 26-28 fok biztosítása. 3. Lapos kő vagy széles levél tisztítása a szülők által. 4. Az ikrák és az ivadékok közös gondozása. 5. Az ivadékok indítása frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek hát- és farok alatti úszója hosszabb, hegyesebb, testük valamivel nagyobb.",
+ "felismeres_jegyek": [
+  "Zömök",
+  "oldalról lapított test. Sárgásbarna alapszín. A szemén egy függőleges sötét sáv fut át. Az oldalán egy kulcslyukra emlékeztető sötét folt található."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amatitlania nigrofasciata",
+   "magyar_nev": "Zebrasávos sügér",
+   "kulonbseg": "Sokkal agresszívabb és az egész testén függőleges csíkok vannak."
+  },
+  {
+   "latin": "Aequidens tetramerus",
+   "magyar_nev": "Smaragdsügér",
+   "kulonbseg": "Nagyobbra nő és hiányzik róla a jellegzetes kulcslyuk folt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombásodás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Biztosítsunk számára sok búvóhelyet gyökerekből és növényekből.",
+  "Ne tartsuk túl élénk halakkal, mert visszahúzódóvá válik.",
+  "A sötét aljzat növeli a biztonságérzetét és kiemeli a színeit."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}
