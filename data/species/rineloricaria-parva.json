@@ -1,0 +1,99 @@
+{
+ "lista_nev": "Rineloricaria parva",
+ "id": "rineloricaria-parva",
+ "tipus": "hal",
+ "latin": "Rineloricaria parva",
+ "regi_latin_nevek": [
+  "Loricaria parva",
+  "Hemiloricaria parva"
+ ],
+ "magyar_nev": "Törpe boszorkányharcsa",
+ "egyeb_nevek": [
+  "Boszorkányharcsa",
+  "Pálcaharcsácska"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Loricariidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Paraguay és Paraná folyórendszere)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, nyugodt és félénk fenéklakó faj. Más halakat egyáltalán nem bánt, a talajon vagy a tereptárgyakon pihenve tölti a nap nagy részét.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de étrendjében fontosak a növényi eredetű tápanyagok; eleségtablettákat, forrázott zöldségeket, spirulinát, valamint fagyasztott és élő kisméretű gerincteleneket (szúnyoglárva, artémia) is szívesen fogyaszt.",
+ "tarsithato": [
+  "Kisméretű pontylazacok",
+  "dániók",
+  "páncélosharcsák",
+  "békés törpesügérek",
+  "törperákok és csigák."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "territoriális nagysügérek",
+  "csipkelődő márnák",
+  "valamint olyan gyors és falánk fenéklakók",
+  "amelyek elől nem jut elegendő táplálékhoz."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, apai ivadékgondozással.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Helyezzünk el az akváriumban szűk, mindkét végén nyitott vagy hátul zárt kerámiacsöveket, bambuszrudakat.",
+  "Tápláljuk a tenyészpárt bőségesen élő és fagyasztott eleségekkel, majd végezzünk egy kissé hűvösebb, lágy vizes vízcserét.",
+  "Az ikrázást követően (kb. 50-100 ikra) a nőstény elhagyja az ívóhelyet, a hím a csőbe húzódva úszóival legyezi és őrzi az ikrákat.",
+  "Az ikrák 4-6 nap múlva kelnek ki; a szikzacskó felszívódása után (további 2-3 nap) az ivadékok elhagyják a csövet.",
+  "A kishalakat porított spirulinával, mikroszkopikus méretű ivadéktáppal, forrázott spenótpéppel és frissen kelt artémiával nevelhetjük fel, fokozottan ügyelve a víz tisztaságára."
+ ],
+ "ivari_kulonbseg": "Az ivarérett hímek feje szélesebb, és a fejtetőn, valamint a mellúszók peremén sűrű, kefe-szerű sörték (odontódok) fejlődnek; a nőstények teste simább és felülről nézve teltebb, kerekdedebb.",
+ "felismeres_jegyek": [
+  "Rendkívül megnyúlt, lapított, pálcika alakú test csontpajzsokkal fedve.",
+  "Hosszú, fonálszerűen kihúzott farokúszó-felső sugár.",
+  "Világosbarna vagy homokszínű alapon sötétbarna keresztcsíkok és foltok.",
+  "Lefelé álló, tapadókoronggá módosult szájnyílás finom bajuszszálakkal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rineloricaria fallax",
+   "magyar_nev": "Közönséges boszorkányharcsa",
+   "kulonbseg": "Nagyobbra nő (akár 15 cm), és a test mintázata erőteljesebben sávozott, kevésbé finoman pettyezett."
+  },
+  {
+   "latin": "Farlowella acus",
+   "magyar_nev": "Tűharcsa",
+   "kulonbseg": "Sokkal vékonyabb, ág-szerű testforma, rendkívül hosszúra megnyúlt, hegyes orr-rész."
+  },
+  {
+   "latin": "Rineloricaria lanceolata",
+   "magyar_nev": "Lándzsás boszorkányharcsa",
+   "kulonbseg": "Robusztusabb testfelépítés, gyakran jóval sötétebb (akár vörösesbarna vagy csokoládébarna) alapszín."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés és táplálékhiány (lassú táplálkozásuk miatt könnyen lesoványodnak falánk társak mellett)",
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Oxigénhiányra és felhalmozódó szerves anyagokra való érzékenység"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Aljzatként finom szemcséjű homokot válasszunk, mert a harcsák szeretnek kissé beleolvadni a talajba, és a durva kavics koptathatja érzékeny hasi pajzsaikat.",
+  "Mindig biztosítsunk számukra megfelelő méretű búvócsöveket és uszadékfákat, ahol napközben biztonságban pihenhetnek.",
+  "Az etetést érdemes a világítás lekapcsolása után végezni, hogy a fürge nappali halak ne egyék el előlük a süllyedő tablettákat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

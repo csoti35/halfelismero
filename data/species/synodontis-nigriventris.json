@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Synodontis nigriventris",
+ "id": "synodontis-nigriventris",
+ "tipus": "hal",
+ "latin": "Synodontis nigriventris",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fejjel lefelé úszó harcsa",
+ "egyeb_nevek": [
+  "Feketehasú hátonúszóharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mochokidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Afrika (Kongó-medence)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, csapatkedvelő harcsa. Különleges viselkedése, hogy idejének jelentős részét háttal lefelé úszva tölti a tereptárgyak, falevelek alatt, valamint a vízfelszín közelében.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; a természetben a vízfelszínről hulló rovarokat és a tereptárgyak alján lévő mikroorganizmusokat legeli. Akváriumban jó minőségű lemezes, granulált és fagyasztott tápokat (szúnyoglárva, artémia) is elfogad.",
+ "tarsithato": [
+  "Kongólazac",
+  "díszmárnák",
+  "békés törpesügérek",
+  "páncélosharcsák és más nem agresszív társas halak."
+ ],
+ "kerulendo": [
+  "Agresszív és túlzottan territoriális sügérek",
+  "amelyek elűzhetik búvóhelyeiről."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Csapatban érdemes tartani, és lágy, enyhén savas vízzel (pH 6.5, GH < 8) serkenteni az ívást.",
+  "Hűvösebb vízcserékkel szimulálhatjuk az esős évszakot.",
+  "Barlangok mennyezetére vagy nagy növényi levelek fonákjára ragasztják le ikráikat fejjel lefelé úszva.",
+  "Az ikrázás után a felnőtt halakat ajánlott eltávolítani az ikraevés elkerülése érdekében.",
+  "A kikelt ivadékok kezdetben hasi úszásban fejlődnek, és csak néhány hét elteltével térnek át a háton úszásra."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények nagyobbak, teltebb testűek és kevésbé kontrasztos a mintázatuk, míg a hímek karcsúbbak és sötétebb színezetűek.",
+ "felismeres_jegyek": [
+  "Jellegzetes fordított árnyékoltság: a hasi rész sötétbarna vagy fekete, a hátrész világosabb (álcázás a háton úszáshoz).",
+  "Kompakt, oldalról enyhén lapított harcsaalkat.",
+  "Három pár érzékeny bajuszszál, melyből az alsók rojtosak.",
+  "Gyakran felfelé fordulva, lebegve pihen fagyökerek, lebegő levelek alatt."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Synodontis contractus",
+   "magyar_nev": "Zömök hátonúszóharcsa",
+   "kulonbseg": "Nagyobb fej és zömökebb testforma, mintázata szabálytalanabb foltokból áll."
+  },
+  {
+   "latin": "Mystus carcio",
+   "magyar_nev": "Hegyesfejű harcsa",
+   "kulonbseg": "Ázsiai faj, nem úszik tartósan háton és nincsenek rojtos bajuszszálai."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bőrparaziták",
+  "Bajuszszál-fertőzés durva aljzat miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Mindig legalább 4-6 egyedből álló csapatban tartsuk, különben félénk és rejtőzködő marad.",
+  "Építsünk be vízfelszínig nyúló uszadékfákat és tereptárgyakat, mert ezek fonákján érzi magát a legnagyobb biztonságban.",
+  "Finom homok vagy sima kavics javasolt, hogy megóvjuk érzékeny bajuszszálait."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

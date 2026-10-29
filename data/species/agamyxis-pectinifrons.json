@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Agamyxis pectinifrons",
+ "id": "agamyxis-pectinifrons",
+ "tipus": "hal",
+ "latin": "Agamyxis pectinifrons",
+ "regi_latin_nevek": [
+  "Doras flavopictus"
+ ],
+ "magyar_nev": "Pöttyös morgóharcsa",
+ "egyeb_nevek": [
+  "Fehérpettyes morgóharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Doradidae",
+ "csoport": "Harcsák",
+ "szarmazas": "Dél-Amerika (Amazonas felső vízrendszere, Peru, Ecuador)",
+ "max_meret_cm": 14,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, kissé rejtőzködő természetű fenéklakó harcsa. Nappal mozdulatlanul pihen a faágak és kövek alatt, szürkületkor és éjszaka indul táplálékot keresni.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 18,
+ "taplalek": "Mindenevő; kedveli a süllyedő tablettákat, fagyasztott és élő eleségeket (szúnyoglárva, artémia, tubifex).",
+ "tarsithato": [
+  "Bármilyen békés dél-amerikai hallal (pontylazacok",
+  "törpesügérek",
+  "vitorláshalak",
+  "páncélosharcsák)."
+ ],
+ "kerulendo": [
+  "Nagyméretű",
+  "agresszív ragadozó halak",
+  "amelyek megpróbálhatják lenyelni (a tüskéi miatt mindkét hal elpusztulhat)."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban véletlenszerű ikrázást ritkán figyeltek meg; kereskedelmi méretben hormonkezeléssel szaporítják.",
+  "Lágy, savas víz és hűvösebb vízcserék szimulálhatják a természetes ívási időszakot.",
+  "Az ikrák elszórtan tapadnak az aljzatra vagy a növények sűrűjébe.",
+  "Az ivadékok felnevelése sórák lárvákkal és mikroférgekkel lehetséges."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények észrevehetően teltebb testalkatúak, mint a hímek.",
+ "felismeres_jegyek": [
+  "Erősen páncélozott, vaskos, zömök testalkat",
+  "Sötétbarna vagy fekete alapszín szabálytalan fehér vagy krémszínű pettyekkel",
+  "Az úszók tüskések, pettyezettek vagy sávozottak",
+  "Az oldalvonal mentén tüskés csontlemezek sorakoznak",
+  "Haspáncélja lapos, a száj körül pöttyös bajuszszálak találhatók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Agamyxis albomaculatus",
+   "magyar_nev": "Fehérfoltos morgóharcsa",
+   "kulonbseg": "Gyakran szinonimaként kezelik, foltmérete és mintázatának sűrűsége finoman eltérhet."
+  },
+  {
+   "latin": "Platydoras armatulus",
+   "magyar_nev": "Morgóharcsa",
+   "kulonbseg": "Testét pettyek helyett markáns hosszanti sávok díszítik, valamint nagyobbra nő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hálóba akadás okozta sérülés",
+  "Darakór",
+  "Rossz vízminőség esetén bakteriális bőrelváltozások"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Kifogásakor a szákhálót kerülni kell a szétfeszülő mellúszótüskék miatt.",
+  "Hajlamos a túlevésre, figyeljünk a táplálék mennyiségére.",
+  "Finom homoktalajt és sötét búvóhelyeket biztosítsunk számára a stresszmentes élethez."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

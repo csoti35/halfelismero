@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Pangasianodon hypophthalmus",
+ "id": "pangasianodon-hypophthalmus",
+ "tipus": "hal",
+ "latin": "Pangasianodon hypophthalmus",
+ "regi_latin_nevek": [
+  "Pangasius sutchi",
+  "Pangasius hypophthalmus"
+ ],
+ "magyar_nev": "Cápaharcsa",
+ "egyeb_nevek": [
+  "Sziámi cápaharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pangasiidae",
+ "csoport": "Harcsák",
+ "szarmazas": "Délkelet-Ázsia (Mekong és Chao Phraya folyórendszerek)",
+ "max_meret_cm": 100,
+ "elettartam_ev": 20,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Alapvetően békés természetű, de rendkívül félénk, ijedős és folyton mozgásban lévő faj. Nagy méretéből adódóan a kisebb halakat tápláléknak tekinti és lenyeli. Pánikba esve nekicsapódhat az akvárium üvegének és berendezési tárgyainak.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 2000,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 18,
+ "taplalek": "Mindenevő; nagy méretű süllyedő pelletek, garnélarák, halfilé, rovarlárvák, valamint növényi források (spirulina, forrázott zöldségek).",
+ "tarsithato": [
+  "Kizárólag hasonlóan robusztus testű",
+  "békés óriáshalakkal (pl. nagy testű pontyfélék",
+  "arowanák",
+  "pacuk)."
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "nano fajok",
+  "agresszív sügérek",
+  "valamint kisméretű akváriumok."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumi körülmények között szinte lehetetlen a szaporítása hatalmas mérete és vándorló életmódja miatt.",
+  "Akvakultúrákban hatalmas mesterséges tavakban, hormonkezelés segítségével stimulálják az ívást.",
+  "A szabadon sodródó ikrákat elkülönítik és oxigéndús vízben keltetik ki.",
+  "A kikelő ivadékok kezdetben naupliusszal, majd apróra vágott fehérjedús eleséggel táplálhatók, de hajlamosak a kannibalizmusra."
+ ],
+ "ivari_kulonbseg": "A felnőtt nőstények testesebbek, teltebb hasúak és halványabb színezetűek a hímeknél.",
+ "felismeres_jegyek": [
+  "Cápaszerű, hidrodinamikus testfelépítés és villás farokúszó",
+  "Fiatal korban sötét, csillogó hosszanti csíkok az ezüstös testen",
+  "Felnőttkorra egyöntetű sötétszürke vagy acélkék felsőtest ezüstös hassal",
+  "Nagy, lefelé irányuló száj két pár bajuszszállal",
+  "Magasra törő, cápauszonyra emlékeztető hátúszó"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pangasius pangasius",
+   "magyar_nev": "Sárgaúszójú óriásharcsa",
+   "kulonbseg": "Sárgásabb úszók és eltérő fejszerkezet jellemzi."
+  },
+  {
+   "latin": "Ariopsis seemanni",
+   "magyar_nev": "Mini cápaharcsaféle",
+   "kulonbseg": "Félsós vízi faj, fekete szegélyű úszókkal és fehérebb hasoldallal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Mechanikai sérülésekből eredő gombásodás (ijedtség miatti ütközések)",
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bakteriális bőr- és úszófertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Lakásban szinte tarthatatlan faj; fiatalon megvásárolva gyorsan kinövi a normál méretű otthoni akváriumokat.",
+  "Csak hatalmas bemutató akváriumokba vagy beltéri medencékbe javasolt tartani.",
+  "Ijedős természete miatt tompa világítás és a hirtelen mozdulatok kerülése szükséges körülötte."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

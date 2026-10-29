@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Platydoras armatulus",
+ "id": "platydoras-armatulus",
+ "tipus": "hal",
+ "latin": "Platydoras armatulus",
+ "regi_latin_nevek": [
+  "Platydoras costatus"
+ ],
+ "magyar_nev": "Morgóharcsa",
+ "egyeb_nevek": [
+  "Csíkos morgóharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Doradidae",
+ "csoport": "Harcsák",
+ "szarmazas": "Dél-Amerika (Amazonas, Paraná és Orinoco medence)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, éjszakai életmódot folytató fenéklakó harcsa. Nappal szűk búvóhelyekre húzódik vissza. Ragadozó ösztönei minimálisak, de az apró ivadékokat vagy szájméreténél kisebb halakat éjszaka elfogyaszthatja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 23,
+ "homerseklet_max": 29,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; kiválóan fogyasztja a süllyedő harcsatablettákat, fagyasztott vörös szúnyoglárvát, tubifexet és lemezes tápokat.",
+ "tarsithato": [
+  "Közepes és nagyobb testű pontylazacokkal",
+  "sügérekkel",
+  "páncélosharcsákkal és békés nagyméretű fajokkal."
+ ],
+ "kerulendo": [
+  "Apró nanohalak (pl. mikrorazbórák",
+  "apró neonhalak)",
+  "amelyeket éjszaka lenyelhet."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban spontán módon szinte soha nem ívik, kereskedelmi szaporítása hormoninjekciókkal történik.",
+  "Kiterjedt vízcserékkel, esős évszakot szimulálva próbálkozhatunk a kondicionálással.",
+  "Bőséges élő eleséggel tápláljuk a tenyészállatokat.",
+  "Ha megtörténik az ívás, az ikrák a növények közé és a tereptárgyakra tapadnak, a szülőket azonnal el kell távolítani."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények felülről nézve jóval teltebbek és szélesebbek a hímeknél.",
+ "felismeres_jegyek": [
+  "Hengeres, vaskos testforma, csontos pajzsokkal megerősített oldalsávval",
+  "Éles, tüskés mellúszók és oldalvonal menti tüskesor",
+  "Erőteljes fekete-fehér vagy sötétbarna-sárgásfehér hosszanti csíkozás",
+  "Három pár hosszú bajuszszál",
+  "Stressz vagy kézbevétel esetén hallható morgó, ciripelő hangot ad ki"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Platydoras costatus",
+   "magyar_nev": "Harántcsíkos morgóharcsa",
+   "kulonbseg": "Ritkán importált rokon faj, amelynek elterjedése a Suriname-i partvidékre korlátozódik; a mintázat és a fejforma finoman eltér."
+  },
+  {
+   "latin": "Orinocodoras eigenmanni",
+   "magyar_nev": "Orinoco-morgóharcsa",
+   "kulonbseg": "Hosszabb és laposabb pofaszerkezet, eltérő zsíruszony-elhelyezkedés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Éles aljzat okozta bajuszsérülés és másodlagos fertőzés",
+  "Túltáplálás miatti elhízás és emésztési zavarok"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Soha ne fogjuk ki hagyományos szákkal, mert hegyes mellúszótüskéi beakadnak a hálóba és megsérülhet a hal.",
+  "Kifogáshoz használjunk műanyag dobozt vagy üvegpipát.",
+  "Biztosítsunk számára bőséges bujkálót gyökerekből, kerámiacsövekből vagy lapos kövekből."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

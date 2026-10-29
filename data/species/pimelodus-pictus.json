@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Pimelodus pictus",
+ "id": "pimelodus-pictus",
+ "tipus": "hal",
+ "latin": "Pimelodus pictus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Leopárdharcsa",
+ "egyeb_nevek": [
+  "Mintás antennásharcsa",
+  "Piktorharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pimelodidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco vízrendszere)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon aktív, mozgékony fenéklakó hal. Fajtársaival békés csapatot alkot, de a szája meglepően tágas, az apróbb lakótársakat lenyeli.",
+ "rajhal": true,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "taplalek": "Húsevő-mindenevő; mohón fogyasztja a süllyedő pelleteket, fagyasztott tubifexet, szúnyoglárvát, krillt és apróra vágott garnélát.",
+ "tarsithato": [
+  "Közepes testű pontylazacok",
+  "sügérek (pl. vitorláshal)",
+  "páncélosharcsák és robusztusabb márnák."
+ ],
+ "kerulendo": [
+  "Kistestű halak (pl. neonhal",
+  "mikrorazbóra)",
+  "édesvízi garnélák."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumi szaporodása rendkívül ritka és véletlenszerű.",
+  "Ipari méretekben hormonális indukcióval ívatják.",
+  "Lágy, enyhén savas víz és bőséges élő eleség szükséges a kondicionáláshoz.",
+  "Ikrafaló faj, az ikrák lerakása után a szülőket azonnal el kell különíteni."
+ ],
+ "ivari_kulonbseg": "A nőstények ivarérett korban teltebbek, kerekdedebb hasvonalúak, a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Ezüstfehér alapszínen sűrűn elhelyezkedő sötét foltok vagy pettyek.",
+  "Rendkívül hosszú, test hosszával vetekedő fehér bajuszszálak.",
+  "Erőteljes, hegyes tüskék a hát- és mellúszók elején.",
+  "Mélyen bemetszett, villás farokúszó foltokkal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pimelodus blochii",
+   "magyar_nev": "Bloch-antennásharcsa",
+   "kulonbseg": "Nagyobbra nő, színezete többnyire egyszínű ezüstös vagy csíkozott, nem pettyes."
+  },
+  {
+   "latin": "Pimelodella picta",
+   "magyar_nev": "Pettyes pimelodella",
+   "kulonbseg": "Karcsúbb felépítésű, sötét oldalsávja határozottabb a pettyek alatt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (pikkelytelensége miatt gyorsan elkapja és érzékeny a réztartalmú vegyszerekre)",
+  "Mechanikai sérülések hálóval történő kifogáskor"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5500,
+ "tippek": [
+  "Soha ne használjunk finom szövésű halászhálót a kifogásához, mert úszótüskéi beakadnak és lesérülhet; műanyag pohárral vagy edénnyel tereljük át.",
+  "Biztosítsunk számára tágas kiúszóteret a talaj mentén, mivel rendkívül gyors és dinamikus úszó.",
+  "Csapatban tartva sokkal bátrabb és természetesebben viselkedik napközben is."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

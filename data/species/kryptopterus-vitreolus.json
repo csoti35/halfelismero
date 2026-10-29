@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Kryptopterus vitreolus",
+ "id": "kryptopterus-vitreolus",
+ "tipus": "hal",
+ "latin": "Kryptopterus vitreolus",
+ "regi_latin_nevek": [
+  "Kryptopterus bicirrhis (tévesen alkalmazva a kereskedelemben)",
+  "Kryptopterus minor (tévesen)"
+ ],
+ "magyar_nev": "Üvegharcsa",
+ "egyeb_nevek": [
+  "Szelleminy harcsa",
+  "Törpe üvegharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Siluridae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Ázsia (Thaiföld)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, ijedős, félénk rajhal. A víz felső és középső rétegeiben egyhelyben lebegve csapatosan szeret tartózkodni.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Ragadozó természetű mikroplankton-fogyasztó; fagyasztott és élő vörös és fehér szúnyoglárva, artémia, daphnia, szárazeleséget nehezen fogad el.",
+ "tarsithato": [
+  "Békés kistestű pontylazacok",
+  "kistestű dániók",
+  "ékfoltos razbórák",
+  "békés labirintkopoltyúsok és Corydoras harcsák."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "csipkelődő fajok (pl. szumátrai díszmárna)",
+  "nagytestű ragadozók vagy túlzottan tolakodó",
+  "élénk halak."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban történő sikeres szaporodása rendkívül ritka esemény.",
+  "Lágy, tőzeggel átszűrt, enyhén savas víz és folyamatos élő eleséges táplálás szükséges.",
+  "A hirtelen vízcsere és hőmérséklet-csökkenés imitálhatja az esős évszakot.",
+  "A lebegő növények finom gyökérzetére rakják ikráikat, a szülőket az ívás után azonnal el kell távolítani.",
+  "A kikelő ivadék mikroszkopikus élőeleséggel etethető."
+ ],
+ "ivari_kulonbseg": "Szinte láthatatlan; a kifejlett nőstények hasürege enyhén teltebb és szélesebb lehet.",
+ "felismeres_jegyek": [
+  "Szinte teljesen átlátszó test, a gerincoszlop és a belső szervek jól láthatók.",
+  "Nagyon redukált, gyakran alig látható hátúszó.",
+  "Hosszú, szalagszerű alsó úszó, amely hullámzó mozgást végez.",
+  "Két hosszú, előre meredő bajuszszál a felső állkapcson."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Kryptopterus bicirrhis",
+   "magyar_nev": "Nagy üvegharcsa",
+   "kulonbseg": "Jóval nagyobbra nő (15 cm), teste jóval kevésbé átlátszó, inkább szürkés-opálos."
+  },
+  {
+   "latin": "Parambassis ranga",
+   "magyar_nev": "Indiai üvegsügér",
+   "kulonbseg": "Magas hátú, sügér formájú testfelépítés, két jól látható hátúszóval."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór és Oodinium (bársonybetegség)",
+  "Bakteriális fertőzések a rossz vízminőség miatt (a test opálossá, fehéressé válása)",
+  "Stressz okozta elhullás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Soha ne tartsuk magányosan vagy kis létszámban; legalább 6-8 fős csapatban érzi magát biztonságban.",
+  "Kedveli a dús növényzetet, a gyengébb, szűrt világítást és az enyhe, lamináris vízáramlást.",
+  "Ha a hal teste fehéressé, tejfehérré válik, az komoly stressz vagy bakteriális fertőzés egyértelmű jele."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

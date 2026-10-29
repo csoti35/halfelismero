@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Betta imbellis",
+ "id": "betta-imbellis",
+ "tipus": "hal",
+ "latin": "Betta imbellis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Békés harcoshal",
+ "egyeb_nevek": [
+  "Holdfény betta"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Malajzia, Thaiföld, Szumátra)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "A Betta nemzetség egyik legbékésebb tagja. A hímek territoriálisak lehetnek egymással szemben, de komoly sérüléseket ritkán okoznak, jól növényesített, tágas akváriumban akár párban vagy kisebb háremben is tarthatók.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Kifejezetten húsevő; élő és fagyasztott eleségek (artémia, szúnyoglárva, daphnia), de a jó minőségű mikrogranulátumokat is elfogadja.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés razbórákkal (pl. ékfoltos razbóra",
+  "törperazbórák)",
+  "békés páncélosharcsákkal",
+  "törpe szívóharcsákkal."
+ ],
+ "kerulendo": [
+  "Uszonycsipkedő fajok (pl. szumátrai díszmárna)",
+  "nagy testű vagy agresszív halak",
+  "valamint a Betta splendens hímek."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Az ívató akvárium vizének szintjét csökkentsük le 10-15 cm-re, emeljük a hőmérsékletet 26-28 °C-ra.",
+  "Helyezzünk a vízfelszínre úszó növényeket (pl. békalencse, Pistia), amelyek alá a hím habfészket építhet.",
+  "Kondicionáljuk a párt bőséges élő eleséggel, majd engedjük össze őket.",
+  "A párzás a habfészek alatt történik; a hím a lehulló ikrákat a fészekbe hordja.",
+  "Ívás után a nőstényt távolítsuk el, a hím gondozza a fészket a kikelésig (kb. 24-48 óra).",
+  "Az elúszó kishalakat papucsállatkával és frissen keltetett artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek színezete intenzív fémes kék vagy zöldes pikkelyekkel díszített, úszóik hosszabbak, a farokúszó szegélyén jellegzetes vörös félhold látható; a nőstények fakóbb barnásak, hosszirányú csíkokkal.",
+ "felismeres_jegyek": [
+  "Hengeres, karcsú testalkat sötétbarna alapszínnel.",
+  "A testen és az úszókon csillogó, fémes zöldeskék pettyek és mintázat.",
+  "Lekerekített farokúszó, amelynek külső peremén élénkpiros sáv és fekete szegély fut.",
+  "A kopoltyúfedőn kettős, fémesen irizáló függőleges sáv látható."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta splendens",
+   "magyar_nev": "Sziámi harcoshal",
+   "kulonbseg": "A vad Betta splendens hímek jóval agresszívabbak, kopoltyúfedőjükön vörös csíkok találhatók, farokúszójukon hiányzik a zárt vörös szegélyív."
+  },
+  {
+   "latin": "Betta smaragdina",
+   "magyar_nev": "Smaragd harcoshal",
+   "kulonbseg": "A smaragdina teste zöldesebb tónusú, farokúszóján hálózatos fémes mintázat van a vörös félhold helyett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Darakór (Ichthyophthirius)",
+  "Uszonyrothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Az akváriumot mindig gondosan fedjük le, mert a halak ugrálhatnak, és a labirintszervük miatt a víz feletti meleg levegő elengedhetetlen.",
+  "Kedveli a sötét, tőzeggel vagy égertobozzal színezett, csersavakban gazdag lágy vizet.",
+  "Dús növényzettel és búvóhelyekkel biztosítsunk számára nyugodt környezetet."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

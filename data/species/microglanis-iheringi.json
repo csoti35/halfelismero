@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Microglanis iheringi",
+ "id": "microglanis-iheringi",
+ "tipus": "hal",
+ "latin": "Microglanis iheringi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "nyerges törpeharcsa",
+ "egyeb_nevek": [
+  "darázsharcsa",
+  "dél-amerikai darázsharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pseudopimelodidae",
+ "csoport": "harcsák",
+ "szarmazas": "Dél-Amerika (Venezuela, Kolumbia - Orinoco és Turmero folyórendszerek)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, szelíd természetű harcsa, de a kifejezetten apró halivadékokat éjjel tápláléknak tekintheti. Rejtőzködő faj, napközben fák, kövek alatt pihen.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 14,
+ "taplalek": "Húsevő/mindenevő; fagyasztott és élő szúnyoglárva, tubifex, artémia és jó minőségű fenéklakóknak szánt granulátumok.",
+ "tarsithato": [
+  "Közepes méretű pontylazacok",
+  "páncélosharcsák",
+  "törpesügérek",
+  "elevenszülők."
+ ],
+ "kerulendo": [
+  "Apró garnélák (pl. Neocaridina)",
+  "újszülött kishalak",
+  "agresszív nagyméretű ragadozók."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Akváriumi szaporítása ritka és nehéz; külön ívató akvárium és élő eleségben gazdag kondicionálás kell hozzá.",
+  "Lágy, tőzeggel barnított víz és hirtelen hűvösebb vízcserék stimulálhatják az ívást.",
+  "Sűrű növényzet vagy üregek közé szórják le ragadós ikráikat.",
+  "Az ikrák kelése kb. 48 óra, a kishalak apró élő eleséggel indíthatók."
+ ],
+ "ivari_kulonbseg": "Az ivarérett nőstények felülről nézve jóval teltebbek és vaskosabbak, mint a karcsúbb hímek.",
+ "felismeres_jegyek": [
+  "Zömök, hengerded testforma, széles, lapos fejjel.",
+  "Kontrasztos sötétbarna-fekete és világosbarna/sárgás sávos-márványozott mintázat.",
+  "Jól látható, aránylag hosszú bajuszszálak az alsó és felső állkapcson.",
+  "Világos sáv a nyakszirt mögött és a faroktőnél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudomystus siamensis",
+   "magyar_nev": "ázsiai darázsharcsa",
+   "kulonbseg": "Ázsiai származású, nagyobbra nő (akár 12-15 cm) és jóval ragadozóbb természetű."
+  },
+  {
+   "latin": "Microglanis parahybae",
+   "magyar_nev": "Parahyba-törpeharcsa",
+   "kulonbseg": "Nagyon hasonló, de mintázata kevésbé élesen kontrasztos, más elterjedési területről származik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrparazitózisok",
+  "Ételhiányból fakadó leromlás a lassú, éjszakai táplálkozás miatt társas medencében"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Gondoskodjunk elegendő barlangról, kerámia csőről és uszadékfáról, ahol biztonságban érzi magát.",
+  "Csapatban bátrabban viselkedik, érdemes legalább 3-4 egyedet együtt tartani.",
+  "Győződjünk meg róla, hogy a gyorsabb felszíni halak mellett neki is jut elegendő élelem a fenékre."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

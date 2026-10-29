@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Phractocephalus hemioliopterus",
+ "id": "phractocephalus-hemioliopterus",
+ "tipus": "hal",
+ "latin": "Phractocephalus hemioliopterus",
+ "regi_latin_nevek": [
+  "Silurus hemioliopterus"
+ ],
+ "magyar_nev": "Vörösfarkú harcsa",
+ "egyeb_nevek": [
+  "Dél-amerikai vörösfarkú harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pimelodidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco medence)",
+ "max_meret_cm": 120,
+ "elettartam_ev": 20,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Önmagában nem feltétlenül agresszív fajtársaival vagy óriási halakkal szemben, de rendkívül ragadozó: bármit bekap és lenyel, ami a testhosszának akár a felét eléri. Hatalmasra nő, tipikus bemutató akváriumi szörny.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 3000,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "taplalek": "Ragadozó; egész halak, garnélák, tintahal, kagylóhús, nagy méretű ragadozó pelletek.",
+ "tarsithato": [
+  "Kizárólag óriási méretű halakkal",
+  "mint az arapaima",
+  "nagy pacuk",
+  "óriás sügérek."
+ ],
+ "kerulendo": [
+  "Minden átlagos méretű akváriumi hal",
+  "mert tápláléknak tekinti őket."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumban szinte lehetetlen a gigantikus méretek miatt.",
+  "Kereskedelmi tenyészetekben hatalmas kültéri tavakban, hormonkezeléssel serkentik az ívást.",
+  "A lerakott több tízezer ikrát a szülőktől elkülönítve keltetik.",
+  "A kikelt kishalakat apró élő eleséggel, később ivadékhalakkal nevelik."
+ ],
+ "ivari_kulonbseg": "Szabad szemmel alig megkülönböztethető; a kifejlett nőstények teltebbek.",
+ "felismeres_jegyek": [
+  "Hatalmas, lapos, széles fej hosszú tapogató bajuszszálakkal",
+  "Sötétbarna vagy fekete hát, hófehér hasi rész",
+  "Élénkpiros vagy narancssárga farokúszó és hátúszó-szegély",
+  "Masszív, hengeres testforma"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudoplatystoma fasciatum",
+   "magyar_nev": "Sávos kerekfejűharcsa",
+   "kulonbseg": "Hosszúkás, csíkos mintázatú test és szürke, pettyes úszók."
+  },
+  {
+   "latin": "Leiarius pictus",
+   "magyar_nev": "Vitorlás antennásharcsa",
+   "kulonbseg": "Magas vitorla hátúszó, pöttyös és márványos test, hiányzó élénkvörös farokúszó."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Túltáplálás okozta emésztési panaszok és belső szervi zsírosodás",
+  "Rossz vízminőség miatti bőrgombásodás és bajuszrothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "Csak hatalmas bemutató medencékbe vagy közületi akváriumokba való hal; megvásárlása alapos megfontolást igényel a növekedési üteme miatt.",
+  "Könnyen lenyeli a vízmelegítőt és a köveket is, így a technikai eszközöket el kell barikádozni előle."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

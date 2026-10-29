@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Synodontis decorus",
+ "id": "synodontis-decorus",
+ "tipus": "hal",
+ "latin": "Synodontis decorus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Díszes tollasbajszú harcsa",
+ "egyeb_nevek": [
+  "Zászlós tollasbajszú harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mochokidae",
+ "csoport": "Harcsaalakúak",
+ "szarmazas": "Afrika (Kongó-medence)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nappal többnyire rejtőzködő, éjszaka aktív nagytestű faj. Békés természetű, de a szájméreténél kisebb halakat elfogyaszthatja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 350,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.8,
+ "gh_min": 4,
+ "gh_max": 18,
+ "taplalek": "Mindenevő; kedveli a süllyedő harcsatablettákat, fagyasztott és élő rovarlárvákat, garnélát, valamint némi zöldeleséget.",
+ "tarsithato": [
+  "Nagyobb testű pontylazacok",
+  "afrikai sügérek",
+  "nagyobb márnafélék és más békés",
+  "robusztus harcsák."
+ ],
+ "kerulendo": [
+  "Apró testű halak (pl. neonhalak",
+  "kistestű dániók)",
+  "törpe garnélák és lassú",
+  "hosszú úszójú fajok."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumi körülmények között szinte kizárólag hormonkezeléssel szaporítható.",
+  "Megfelelően táplált, ivarérett tenyészpárt kell kiválasztani.",
+  "A stimuláció után a szabadon elszórt ikrákat a szülők hajlamosak felfalni, ezért ikrarács szükséges.",
+  "Az ikrák 24-48 órán belül kelnek ki, a lárvák a szikzacskó felszívódása után mikróeleséggel és frissen kelt artémiával indíthatók."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények teltebb testalkatúak, a nemek ivarszemölcs vizsgálatával (venting) különböztethetők meg.",
+ "felismeres_jegyek": [
+  "Igen hosszúra megnyúlt, zászlószerű első hátúszó-sugár.",
+  "Világos, fehéres-szürkés alapszín nagy, szabálytalan, sötétbarna vagy fekete foltokkal.",
+  "Jellegzetes, elágazó alsó bajuszszálak.",
+  "Mélyen villás farokúszó sötét csíkozással vagy pettyezéssel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Synodontis eupterus",
+   "magyar_nev": "Tollasbajszú harcsa",
+   "kulonbseg": "Hátúszója sokkal sűrűbben fésűs jellegű, felnőttként sötétbarna-szürke, apró pettyekkel."
+  },
+  {
+   "latin": "Synodontis nigrita",
+   "magyar_nev": "Fekete tollasbajszú harcsa",
+   "kulonbseg": "Hátúszójának nincs megnyúlt zászlós szála, mintázata jóval egyöntetűbb pettyezett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (bőrférgességre való érzékenység pikkelytelensége miatt)",
+  "Bakteriális bajuszrothadás éles aljzat miatt",
+  "Gyógyszer-túlérzékenység"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Kizárólag lekerekített szemcséjű homok vagy finom kavics legyen az aljzat, hogy óvja érzékeny bajuszszálait.",
+  "Gondoskodjunk tágas búvóhelyekről (faágak, kerámiacsövek), ahol a napközbeni órákban biztonságban pihenhet.",
+  "Ügyeljünk a hatékony szűrésre és a fedett akváriumra, mert ijedtében kiugorhat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

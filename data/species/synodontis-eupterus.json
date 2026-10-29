@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Synodontis eupterus",
+ "id": "synodontis-eupterus",
+ "tipus": "hal",
+ "latin": "Synodontis eupterus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tollasúszójú hátonúszóharcsa",
+ "egyeb_nevek": [
+  "Tollasúszójú szinodontisz",
+  "Tollashátú harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mochokidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Afrika (Fehér-Nílus, Csád-medence, Niger folyó)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Napközben rejtőzködő életmódot folytat, éjszaka aktív. Más békés, közepes vagy nagy testű fajokkal jól kijön, de kifejlett korában területvédő lehet a fajtársaival és más fenéklakó harcsákkal szemben. A szájába beleférő apró halakat megeheti.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.2,
+ "ph_max": 7.8,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; kedveli a száraz tablettás tápokat, fagyasztott és élő eleségeket (pl. szúnyoglárva, tubifex), de növényi eredetű táplálékot és algatablettát is igényel.",
+ "tarsithato": [
+  "Közepes és nagyobb testű pontylazacok",
+  "márványsügérek",
+  "afrikai sügérek",
+  "nagyobb dániók és díszmárnák."
+ ],
+ "kerulendo": [
+  "Kisméretű pontylazacok és garnélák (tápláléknak tekintheti őket)",
+  "valamint túlzottan félénk",
+  "lassú fenéklakók."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumban szinte soha nem szaporodik spontán, a díszhaltenyészetekben hormonkezeléssel serkentik.",
+  "Tágas, legalább 150-200 literes ívató akvárium szükséges finom aljzattal és búvóhelyekkel.",
+  "A tenyészcsapatot bőséges, fehérjedús élő eleséggel kondicionálják.",
+  "Hormonális indukciót követően a nőstény több ezer szabadon sodródó ikrát rak le.",
+  "Az ikrák 36-48 órán belül kikelnek, az ivadékok az elúszás után frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények teste teltebb és kerekdedebb, a hímek karcsúbbak és hátúszójuk zászlószerű sugarai gyakran hosszabbra nyúlnak.",
+ "felismeres_jegyek": [
+  "Kifejlett korban látványosan megnyúlt, tollszerű sugarakat viselő, magas hátúszó.",
+  "Szürkésbarna vagy sötétbarna alapszín, amelyet sűrű, apró sötét pöttyök borítanak.",
+  "Fiatal korában világosabb csíkokkal és márványos mintával rendelkezik, ami a kor előrehaladtával pettyezetté alakul.",
+  "Erőteljes, zömök testalkat, jellegzetes tollas bajuszszálak az alsó állkapcson."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Synodontis ocellifer",
+   "magyar_nev": "Szemfoltos hátonúszóharcsa",
+   "kulonbseg": "Nagyobb, szemfoltszerű fekete pöttyökkel mintázott és hátúszója nem nyúlik meg olyan tollszerűen."
+  },
+  {
+   "latin": "Synodontis nigrita",
+   "magyar_nev": "Fekete szinodontisz",
+   "kulonbseg": "Hátúszója rövidebb, alapszíne egyszínűbb és jóval ritkásabb vagy hiányzó pettyezettség jellemzi felnőttkorban."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bakteriális úszórothadás",
+  "Stressz okozta bőrfertőzések szállításkor vagy rossz vízminőségben"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Biztosítsunk számára bőséges faágas és köves búvóhelyet vagy kerámiacsöveket, ahol napközben meghúzódhat.",
+  "Ügyeljünk a lefedett akváriumra és a jól szűrt, tiszta vízre, mert érzékeny a felhalmozódó bomlástermékekre.",
+  "Mivel felnőttként meglehetősen nagyra nő, idővel kinövi a kis társas akváriumokat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Betta splendens",
+ "id": "betta-splendens",
+ "tipus": "hal",
+ "latin": "Betta splendens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sziámi harcoshal",
+ "egyeb_nevek": [
+  "Betta"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Kambodzsa)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek egymással szemben engesztelhetetlenül agresszívek és halálig harcolnak. Más, békés és kistestű fajokkal szemben általában toleráns, de a csipkelődő halak megtéphetik az úszóit, a túl élénk halak pedig stresszelhetik.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Húsevő; fagyasztott és élő szúnyoglárva, artémia, tubifex, valamint kifejezetten bettáknak gyártott granulátumok és lemezes tápok.",
+ "tarsithato": [
+  "Békés fenéklakókkal (pl. Corydoras fajok)",
+  "békés kistestű lazacokkal",
+  "törperákokkal",
+  "csigákkal."
+ ],
+ "kerulendo": [
+  "Más hím betták",
+  "uszonycsipkedő fajok (pl. szumátrai díszmárna)",
+  "fátyolos farkú díszes halak (pl. hím guppi)."
+ ],
+ "szaporodas_mod": "habfeszekepito",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Készítsünk elő egy alacsony vízszintű (15-20 cm), gyengén szűrt, meleg (27-28 °C-os) ívató akváriumot úszó növényekkel.",
+  "Különítsük el a párt úgy, hogy lássák egymást, míg a hím habfészket épít.",
+  "Engedjük össze őket; a hím a habfészek alá öleli a nőstényt, az ikrákat a fészekbe hordja.",
+  "Ívás után a nőstényt azonnal távolítsuk el, a hím egyedül gondozza a fészket a kelésig.",
+  "Az elúszást követően vegyük ki a hímet is, az ivadékokat papucsállatkával és frissen kelt artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal hosszabb úszókkal és élénkebb színekkel rendelkeznek, míg a nőstények kisebbek, úszóik rövidebbek, és ivaréretten jól látható fehér ivarszemölcs (ovipositor) figyelhető meg a hasukon.",
+ "felismeres_jegyek": [
+  "Felfelé nyíló száj és labirintszerv a légköri levegő vételéhez",
+  "Hímeknél tenyésztéstől függően hatalmas, fátyolos hát-, farok- és farokalatti úszók",
+  "Kifejezett kopoltyúfedő-feszítés fenyegető pózban",
+  "Rendkívül változatos színváltozatok (vörös, kék, fehér, fekete, tarka)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta imbellis",
+   "magyar_nev": "Békés harcoshal",
+   "kulonbseg": "Sokkal rövidebb úszók, kékeszöld pikkelycsillogás, békésebb természet."
+  },
+  {
+   "latin": "Macropodus opercularis",
+   "magyar_nev": "Kínai paradicsomhal",
+   "kulonbseg": "Sávos testmintázat, villás farokúszó, hidegtűrőbb természet."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Úszórothadás",
+  "Darakór",
+  "Bársonybetegség (Oodinium)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Soha ne tartsuk hím példányokat gömbakváriumban vagy szűretlen, fűtetlen pohárban.",
+  "Az akváriumot fedni kell, mert megfázhat a labirintszervük, ha a víz feletti levegő túl hideg."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29",
+ "magyar_nev_kuralt": true
+}

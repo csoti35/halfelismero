@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Synodontis multipunctatus",
+ "id": "synodontis-multipunctatus",
+ "tipus": "hal",
+ "latin": "Synodontis multipunctatus",
+ "regi_latin_nevek": [
+  "Synodontis multipunctata"
+ ],
+ "magyar_nev": "Kukukkharcsa",
+ "egyeb_nevek": [
+  "Sokpettyes hátonúszóharcsa",
+  "Tanganika-tavi pettyesharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mochokidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Afrika (Tanganyika-tó endemikus faja)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 12,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Társas, mozgékony fenéklakó. Fajon belül rangsort alakít ki, de nem agresszív. Híres fészekparazita viselkedéséről: szájköltő sügérek ikrái közé csempészi be saját petéit.",
+ "rajhal": true,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő/mindenevő; csigák, gerinctelenek, fagyasztott és élő eleségek (artémia, krill, mysis), valamint süllyedő harcsatabletták.",
+ "tarsithato": [
+  "Tanganyika- és Malawi-tavi szájköltő sügérek."
+ ],
+ "kerulendo": [
+  "Kisméretű lágyvizes fajok (nem passzol a vízigényük)",
+  "lassú és apró halak."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Kizárólag szájköltő sügérekkel (pl. Tropheus vagy Malawi sügérek) együtt szaporítható természetes úton.",
+  "Amikor a sügérek ívnak, a harcsacsapat hirtelen közéjük rohan és bezavarja őket.",
+  "A harcsák gyorsan lerakják és megtermékenyítik ikráikat, a sügér anya pedig felveszi azokat a sajátjaival együtt a szájába.",
+  "A harcsaikrák gyorsabban kelnek ki a sügér szájában, és a kisharcsák felfalják a sügér ikráit és ivadékait még a korgás ideje alatt.",
+  "A sügér végül az érett kis harcsákat engedi ki a szájából, melyek artémiával azonnal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak, a nőstények kifejlett korban teltebbek. Biztos megkülönböztetés csak az ivarszemölcs vizsgálatával lehetséges.",
+ "felismeres_jegyek": [
+  "Világos, krémfehér vagy sárgás alapszín, számos élesen elkülönülő kerek fekete folttal.",
+  "A hát- és farokúszó széle hófehér szegéllyel díszített, mögötte sötét sáv húzódik.",
+  "Nagy, kidülledő szemek, amelyek jól alkalmazkodtak a mélyebb vizek viszonyaihoz.",
+  "Háromszögletű fejforma, fehér bajuszszálakkal."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Synodontis grandiops",
+   "magyar_nev": "Nagyfejű kukukkharcsa",
+   "kulonbseg": "Rendkívül hasonló Tanganyika-tavi faj, de arányaiban nagyobb szemekkel és kisebb maximális testhosszal rendelkezik."
+  },
+  {
+   "latin": "Synodontis petricola",
+   "magyar_nev": "Törpe pettyes hátonúszóharcsa",
+   "kulonbseg": "Kisebb testméret, sűrűbb apró pettyezettség és nem fészekparazita, hanem szabadon ikrázó."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Savanyú víz okozta stressz és nyálkaképződés",
+  "Darakór",
+  "Belső paraziták nem megfelelő táplálás esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Kifejezetten kemény, lúgos vizet és sziklás, barlangokkal teli környezetet igényel.",
+  "Kitűnő csigaevő, képes a tápcsigákat és apróbb puhatestűeket gyorsan kordában tartani.",
+  "Csapatban sokkal bátrabban és természetesebben viselkedik, ne tartsuk magányosan."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

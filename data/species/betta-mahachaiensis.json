@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Betta mahachaiensis",
+ "id": "betta-mahachaiensis",
+ "tipus": "hal",
+ "latin": "Betta mahachaiensis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Mahachai harcoshal",
+ "egyeb_nevek": [
+  "Mahacsaji betta"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Thaiföld (Samut Sakhon tartomány, Mahachai környéki brakkvizes mangrove mocsarak)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Visszahúzódó, békés faj, a hímek egymás között territoriálisak, de a Betta splendenshez képest jóval toleránsabbak. Megfelelő méretű, sűrűn ültetett akváriumban párban vagy háremben tartható.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 8.0,
+ "gh_min": 6,
+ "gh_max": 18,
+ "taplalek": "Kizárólagos mikroragadozó; élő és fagyasztott táplálékot (szúnyoglárva, artémia, moina) igényel, száraz tápot ritkán fogad el.",
+ "tarsithato": [
+  "Kifejezetten fajos akváriumban érzi legjobban magát",
+  "de társítható békés",
+  "kis sótartalmat is tűrő fajokkal",
+  "pl. apró elevenszülőkkel."
+ ],
+ "kerulendo": [
+  "Élénk",
+  "csipkelődő márnák",
+  "nagy testű vagy agresszív édesvízi sügérek."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Ívató akváriumban a víz magasságát állítsuk 10-15 cm-re, enyhén kemény vagy félsós (1-2 ezrelékes sótartalom) vizet használva.",
+  "Helyezzünk be lebegő növényeket vagy nipa pálma levelét utánzó műanyag búvóhelyet a habfészekhez.",
+  "Kondicionáljuk a szülőket élő szúnyoglárvával és artémiával.",
+  "A hím fészket épít, majd rituális násztáncot követően a nősténnyel a fészek alatt párzik.",
+  "Az ikrák elhelyezése után a nőstényt távolítsuk el, a hím felügyeli a fészket.",
+  "Az ivadékok kikelése után (kb. 30-40 óra) és elúszásukkor a hím is eltávolítandó; etetésük infuzóriával és friss sórákkal kezdődik."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal sötétebb, feketés alapszínűek, amelyen intenzív smaragdzöld vagy kék pikkelysorok futnak, úszóik nagyobbak; a nőstények tompább színűek, hasuk kerekebb, ivarszemölcsük látható.",
+ "felismeres_jegyek": [
+  "Kifejezetten sötétbarna vagy fekete alapszín.",
+  "A testen szabályos sorokba rendeződő, intenzív csillogású zöldeskék irizáló pikkelyek.",
+  "A kopoltyúfedőn két párhuzamos, függőleges, irizáló smaragdzöld csík.",
+  "Lándzsa alakú vagy lekerekített, zöldes pettyekkel borított farokúszó fekete szegéllyel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta smaragdina",
+   "magyar_nev": "Smaragd harcoshal",
+   "kulonbseg": "A smaragdina kevésbé fekete alapszínű, úszói finomabban hálózottak, és kizárólag édesvízben él."
+  },
+  {
+   "latin": "Betta imbellis",
+   "magyar_nev": "Békés harcoshal",
+   "kulonbseg": "Az imbellis farokúszóján markáns vörös ív található, és kopoltyúsávjai kevésbé párhuzamosak, mint a mahachaiensisnél."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális fertőzések a nem megfelelő vízparaméterek (túl lágy/savas víz) miatt",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Egyedülálló a harcoshalak között abban, hogy természetes élőhelyén a víz enyhén brakk (félsós) és keményebb, ezért akváriumában enyhe sózás (1-2 g/l tengeri só) javasolt lehet.",
+  "Az akváriumot teljesen szökésbiztosan kell fedni.",
+  "A természetes hangulat és vízminőség eléréséhez használjunk sok fagyökeret, bujkálót és úszó növényzetet."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Clarias batrachus",
+ "id": "clarias-batrachus",
+ "tipus": "hal",
+ "latin": "Clarias batrachus",
+ "regi_latin_nevek": [
+  "Silurus batrachus"
+ ],
+ "magyar_nev": "Békaharcsa",
+ "egyeb_nevek": [
+  "Kúszóharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Clariidae",
+ "csoport": "Harcsafélék",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 40,
+ "elettartam_ev": 15,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül mohó, territoriális ragadozó. Bármit felfal, ami befér a száján, a nála kisebb halak nincsenek biztonságban mellette. Éjszaka a legaktívabb, és képes a szárazföldön is mászni kiegészítő légzőszerve segítségével.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, erősen ragadozó hajlamú; fagyasztott és élő halak, giliszta, kagylóhús, nagyobb szemű harcsapellet.",
+ "tarsithato": [
+  "Csak hasonló méretű",
+  "robusztus és agresszívebb nagytestű sügérekkel",
+  "nagy harcsákkal."
+ ],
+ "kerulendo": [
+  "Kisebb vagy békés halak",
+  "lassú mozgású vagy díszes úszójú fajok",
+  "apró gerinctelenek."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Hatalmas méretű akváriumban vagy kerti medencében párosítsuk az ivarérett egyedeket.",
+  "Lágyítsuk és kissé melegítsük a vizet, imitálva a monszun időszakot.",
+  "Az ikrákat a talajba vagy barlangszerű mélyedésbe rakják, a hím őrzi a fészket.",
+  "Kelés után (kb. 30-48 óra) a szikzacskó felszívódását követően etessük az ivadékokat artémiával és apróra vágott tubifexszel."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója pettyezettebb lehet, és jól látható hegyes urogenitális szemölccsel rendelkeznek.",
+ "felismeres_jegyek": [
+  "Hosszúkás, hengeres, angolnaszerű testalkat",
+  "Hosszú hát- és farokalatti úszó, melyek nem nőnek össze a farokúszóval",
+  "Négy pár bajuszszál a széles szájkörnyéken",
+  "Gyakori a kereskedelemben a fehér, albínó vagy tarka (márványos) színváltozat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Heteropneustes fossilis",
+   "magyar_nev": "Zsákosharcsa",
+   "kulonbseg": "Rövidebb hátúszó, mérgező mellúszó tüskék, vékonyabb test."
+  },
+  {
+   "latin": "Channallabes apus",
+   "magyar_nev": "Kígyóharcsa",
+   "kulonbseg": "Sokkal vékonyabb, majdnem teljesen úszótlan, kígyószerű alkat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrsérülések és bakteriális fertőzések a verekedések vagy tereptárgyak miatt",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Az akváriumot résmentesen és súlyosan le kell fedni, mert kitűnően ugrik és kiszökik a szárazföldre.",
+  "Erőteljes szűrés szükséges a hatalmas táplálékbevitel és ürülék miatt."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

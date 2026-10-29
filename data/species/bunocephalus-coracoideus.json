@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Bunocephalus coracoideus",
+ "id": "bunocephalus-coracoideus",
+ "tipus": "hal",
+ "latin": "Bunocephalus coracoideus",
+ "regi_latin_nevek": [
+  "Bunocephalus bicolor",
+  "Dysichthys coracoideus"
+ ],
+ "magyar_nev": "kétcsíkos gitárharcsa",
+ "egyeb_nevek": [
+  "bánatharcsa",
+  "gitárharcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aspredinidae",
+ "csoport": "harcsák",
+ "szarmazas": "Dél-Amerika (Amazónia, Peru, Bolívia, Brazília)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, lomha és rejtőzködő életmódot folytató harcsa. Nappal szinte teljesen a finom homokba ássa magát vagy a falevelek között pihen, csak sötétedés után válik aktívvá.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, de kifejezetten a fenékre süllyedő húsos eleségeket kedveli: szúnyoglárva, tubifex, artémia és süllyedő tabletták.",
+ "tarsithato": [
+  "Békés pontylazacok",
+  "törpesügérek",
+  "páncélosharcsák",
+  "dániók",
+  "márványrákok kivételével a legtöbb nem agresszív faj."
+ ],
+ "kerulendo": [
+  "Agresszív nagytestű sügérek",
+  "csipkelődő díszmárnák",
+  "valamint apró ivadékok",
+  "amelyeket éjszaka véletlenül bekaphat."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy (2-5 dGH), enyhén savas (pH 6.0-6.5) víz és bőséges élő eleség szükséges a kondicionáláshoz.",
+  "Az ívást esős évszakot szimuláló hidegvizes vízcserékkel lehet kiváltani.",
+  "A pár éjszaka, homokos aljzaton vagy levelek között ívik le, az ikrák száma elérheti a több százat.",
+  "Az ikrák 2-3 nap alatt kelnek ki, az ivadékok a szikzacskó felszívódása után mikroszkopikus élő eleséget (pl. frissen kelt artémiát) igényelnek."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények láthatóan testesebbek, kerekdedebbek és némileg nagyobbak a hímeknél.",
+ "felismeres_jegyek": [
+  "Hát-hasi irányban erősen lapított, gitárra vagy száraz falevélre emlékeztető testforma.",
+  "Széles fej, amely hirtelen keskenyedik el a faroknyél felé.",
+  "Érdes, rücskös, pikkelytelen bőrfelület.",
+  "Barnás-szürkés, terepszínű foltos mintázat, amely tökéletes álcát biztosít a fenéken."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudobunocephalus bifidus",
+   "magyar_nev": "kis gitárharcsa",
+   "kulonbseg": "Jóval kisebb felnőtt méret és eltérő fejarányok."
+  },
+  {
+   "latin": "Platystacus cotylephorus",
+   "magyar_nev": "sávos gitárharcsa",
+   "kulonbseg": "Sokkal hosszabb és vékonyabb test, brakkvízi igények."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrparaziták (darakór)",
+  "Bakteriális bőrfertőzések éles aljzat okozta sérülések miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Aljzatként kizárólag finom, lekerekített szemcséjű homokot használjunk, mert a hal beássa magát.",
+  "Száraz falevelek (pl. tölgy, bükk, ketapang) biztosítanak ideális természetes búvóhelyet.",
+  "Mivel éjszakai állat, az etetést a lámpaoltás után vagy közvetlenül előtte érdemes végezni."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

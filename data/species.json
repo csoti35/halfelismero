@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-29",
-"darab": 191,
+"darab": 211,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -30,6 +30,34 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 2500,
 "ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "agamyxis-pectinifrons",
+"tipus": "hal",
+"latin": "Agamyxis pectinifrons",
+"magyar_nev": "Pöttyös morgóharcsa",
+"egyeb_nevek": [
+"Fehérpettyes morgóharcsa"
+],
+"regi_latin_nevek": [
+"Doras flavopictus"
+],
+"csalad": "Doradidae",
+"csoport": "Harcsák",
+"max_meret_cm": 14,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 120,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
 "ellenorzott": false
 },
 {
@@ -493,6 +521,110 @@
 "ellenorzott": false
 },
 {
+"id": "betta-imbellis",
+"tipus": "hal",
+"latin": "Betta imbellis",
+"magyar_nev": "Békés harcoshal",
+"egyeb_nevek": [
+"Holdfény betta"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 5000,
+"ellenorzott": false
+},
+{
+"id": "betta-mahachaiensis",
+"tipus": "hal",
+"latin": "Betta mahachaiensis",
+"magyar_nev": "Mahachai harcoshal",
+"egyeb_nevek": [
+"Mahacsaji betta"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 5.5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.8,
+"ph_max": 8.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 4500,
+"ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
+"id": "betta-smaragdina",
+"tipus": "hal",
+"latin": "Betta smaragdina",
+"magyar_nev": "Smaragd harcoshal",
+"egyeb_nevek": [
+"Smaragd betta"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 6.0,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 50,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "betta-splendens",
+"tipus": "hal",
+"latin": "Betta splendens",
+"magyar_nev": "Sziámi harcoshal",
+"egyeb_nevek": [
+"Betta"
+],
+"regi_latin_nevek": [],
+"csalad": "Osphronemidae",
+"csoport": "Labirintkopoltyúsok",
+"max_meret_cm": 7,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 24,
+"homerseklet_max": 30,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 8000,
+"ellenorzott": false
+},
+{
 "id": "boehlkea-fredcochui",
 "tipus": "hal",
 "latin": "Boehlkea fredcochui",
@@ -767,6 +899,36 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 900,
 "ar_ft_max": 2000,
+"ellenorzott": false
+},
+{
+"id": "bunocephalus-coracoideus",
+"tipus": "hal",
+"latin": "Bunocephalus coracoideus",
+"magyar_nev": "kétcsíkos gitárharcsa",
+"egyeb_nevek": [
+"bánatharcsa",
+"gitárharcsa"
+],
+"regi_latin_nevek": [
+"Bunocephalus bicolor",
+"Dysichthys coracoideus"
+],
+"csalad": "Aspredinidae",
+"csoport": "harcsák",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 20,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
 "ellenorzott": false
 },
 {
@@ -1100,6 +1262,34 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1800,
 "ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
+"id": "clarias-batrachus",
+"tipus": "hal",
+"latin": "Clarias batrachus",
+"magyar_nev": "Békaharcsa",
+"egyeb_nevek": [
+"Kúszóharcsa"
+],
+"regi_latin_nevek": [
+"Silurus batrachus"
+],
+"csalad": "Clariidae",
+"csoport": "Harcsafélék",
+"max_meret_cm": 40,
+"termeszet": "agressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 400,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 4500,
 "ellenorzott": false
 },
 {
@@ -3199,6 +3389,36 @@
 "ellenorzott": false
 },
 {
+"id": "kryptopterus-vitreolus",
+"tipus": "hal",
+"latin": "Kryptopterus vitreolus",
+"magyar_nev": "Üvegharcsa",
+"egyeb_nevek": [
+"Szelleminy harcsa",
+"Törpe üvegharcsa"
+],
+"regi_latin_nevek": [
+"Kryptopterus bicirrhis (tévesen alkalmazva a kereskedelemben)",
+"Kryptopterus minor (tévesen)"
+],
+"csalad": "Siluridae",
+"csoport": "Harcsaalakúak",
+"max_meret_cm": 8,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 100,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3200,
+"ellenorzott": false
+},
+{
 "id": "leporacanthicus-galaxias",
 "tipus": "hal",
 "latin": "Leporacanthicus galaxias",
@@ -3425,6 +3645,33 @@
 "ellenorzott": false
 },
 {
+"id": "microglanis-iheringi",
+"tipus": "hal",
+"latin": "Microglanis iheringi",
+"magyar_nev": "nyerges törpeharcsa",
+"egyeb_nevek": [
+"darázsharcsa",
+"dél-amerikai darázsharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Pseudopimelodidae",
+"csoport": "harcsák",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "micropoecilia-picta",
 "tipus": "hal",
 "latin": "Micropoecilia picta",
@@ -3590,6 +3837,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 2500,
 "ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
+"id": "mystus-vittatus",
+"tipus": "hal",
+"latin": "Mystus vittatus",
+"magyar_nev": "csíkos morgóharcsa",
+"egyeb_nevek": [
+"csíkos mystus-harcsa"
+],
+"regi_latin_nevek": [
+"Silurus vittatus",
+"Macrones vittatus"
+],
+"csalad": "Bagridae",
+"csoport": "harcsák",
+"max_meret_cm": 15,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 7.8,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1800,
+"ar_ft_max": 4000,
 "ellenorzott": false
 },
 {
@@ -3958,6 +4234,35 @@
 "ellenorzott": false
 },
 {
+"id": "pangasianodon-hypophthalmus",
+"tipus": "hal",
+"latin": "Pangasianodon hypophthalmus",
+"magyar_nev": "Cápaharcsa",
+"egyeb_nevek": [
+"Sziámi cápaharcsa"
+],
+"regi_latin_nevek": [
+"Pangasius sutchi",
+"Pangasius hypophthalmus"
+],
+"csalad": "Pangasiidae",
+"csoport": "Harcsák",
+"max_meret_cm": 100,
+"termeszet": "bekes",
+"nehezseg": 5,
+"kezdoknek": false,
+"min_akvarium_l": 2000,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
 "id": "pangio-kuhlii",
 "tipus": "hal",
 "latin": "Pangio kuhlii",
@@ -4306,6 +4611,89 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1000,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "phractocephalus-hemioliopterus",
+"tipus": "hal",
+"latin": "Phractocephalus hemioliopterus",
+"magyar_nev": "Vörösfarkú harcsa",
+"egyeb_nevek": [
+"Dél-amerikai vörösfarkú harcsa"
+],
+"regi_latin_nevek": [
+"Silurus hemioliopterus"
+],
+"csalad": "Pimelodidae",
+"csoport": "Harcsafélék",
+"max_meret_cm": 120,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 3000,
+"homerseklet_min": 21,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 4000,
+"ar_ft_max": 15000,
+"ellenorzott": false
+},
+{
+"id": "pimelodus-pictus",
+"tipus": "hal",
+"latin": "Pimelodus pictus",
+"magyar_nev": "Leopárdharcsa",
+"egyeb_nevek": [
+"Mintás antennásharcsa",
+"Piktorharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Pimelodidae",
+"csoport": "Harcsaalakúak",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 2500,
+"ar_ft_max": 5500,
+"ellenorzott": false
+},
+{
+"id": "platydoras-armatulus",
+"tipus": "hal",
+"latin": "Platydoras armatulus",
+"magyar_nev": "Morgóharcsa",
+"egyeb_nevek": [
+"Csíkos morgóharcsa"
+],
+"regi_latin_nevek": [
+"Platydoras costatus"
+],
+"csalad": "Doradidae",
+"csoport": "Harcsák",
+"max_meret_cm": 20,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 200,
+"homerseklet_min": 23,
+"homerseklet_max": 29,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
 "ellenorzott": false
 },
 {
@@ -4876,6 +5264,36 @@
 "ellenorzott": false
 },
 {
+"id": "rineloricaria-parva",
+"tipus": "hal",
+"latin": "Rineloricaria parva",
+"magyar_nev": "Törpe boszorkányharcsa",
+"egyeb_nevek": [
+"Boszorkányharcsa",
+"Pálcaharcsácska"
+],
+"regi_latin_nevek": [
+"Loricaria parva",
+"Hemiloricaria parva"
+],
+"csalad": "Loricariidae",
+"csoport": "Harcsaalakúak",
+"max_meret_cm": 11,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
 "id": "sahyadria-denisonii",
 "tipus": "hal",
 "latin": "Sahyadria denisonii",
@@ -4994,6 +5412,35 @@
 "ellenorzott": false
 },
 {
+"id": "sturisoma-panamense",
+"tipus": "hal",
+"latin": "Sturisoma panamense",
+"magyar_nev": "Panamai boszorkányharcsa",
+"egyeb_nevek": [
+"Óriás boszorkányharcsa",
+"Panamai algaevő harcsa"
+],
+"regi_latin_nevek": [
+"Loricaria panamensis"
+],
+"csalad": "Loricariidae",
+"csoport": "Harcsák",
+"max_meret_cm": 25,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 3500,
+"ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
 "id": "sundadanio-axelrodi",
 "tipus": "hal",
 "latin": "Sundadanio axelrodi",
@@ -5019,6 +5466,114 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 900,
 "ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "synodontis-decorus",
+"tipus": "hal",
+"latin": "Synodontis decorus",
+"magyar_nev": "Díszes tollasbajszú harcsa",
+"egyeb_nevek": [
+"Zászlós tollasbajszú harcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Mochokidae",
+"csoport": "Harcsaalakúak",
+"max_meret_cm": 30,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 350,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.8,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 4500,
+"ar_ft_max": 12000,
+"ellenorzott": false
+},
+{
+"id": "synodontis-eupterus",
+"tipus": "hal",
+"latin": "Synodontis eupterus",
+"magyar_nev": "Tollasúszójú hátonúszóharcsa",
+"egyeb_nevek": [
+"Tollasúszójú szinodontisz",
+"Tollashátú harcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Mochokidae",
+"csoport": "Harcsafélék",
+"max_meret_cm": 20,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 200,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.2,
+"ph_max": 7.8,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
+"id": "synodontis-multipunctatus",
+"tipus": "hal",
+"latin": "Synodontis multipunctatus",
+"magyar_nev": "Kukukkharcsa",
+"egyeb_nevek": [
+"Sokpettyes hátonúszóharcsa",
+"Tanganika-tavi pettyesharcsa"
+],
+"regi_latin_nevek": [
+"Synodontis multipunctata"
+],
+"csalad": "Mochokidae",
+"csoport": "Harcsafélék",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 3500,
+"ar_ft_max": 8000,
+"ellenorzott": false
+},
+{
+"id": "synodontis-nigriventris",
+"tipus": "hal",
+"latin": "Synodontis nigriventris",
+"magyar_nev": "Fejjel lefelé úszó harcsa",
+"egyeb_nevek": [
+"Feketehasú hátonúszóharcsa"
+],
+"regi_latin_nevek": [],
+"csalad": "Mochokidae",
+"csoport": "Harcsafélék",
+"max_meret_cm": 10,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {

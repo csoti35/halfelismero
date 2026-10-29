@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Betta smaragdina",
+ "id": "betta-smaragdina",
+ "tipus": "hal",
+ "latin": "Betta smaragdina",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Smaragd harcoshal",
+ "egyeb_nevek": [
+  "Smaragd betta"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osphronemidae",
+ "csoport": "Labirintkopoltyúsok",
+ "szarmazas": "Thaiföld (Isan régió, Khorat-fennsík)",
+ "max_meret_cm": 6.0,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű vad betta faj. A hímek megvédik a territóriumukat és pózolnak egymásnak, de tágas és növényes akváriumban nem okoznak súlyos kárt egymásban.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Ragadozó étvágyú; elsősorban apró élő és fagyasztott rákféléket, szúnyoglárvákat igényel, ritkábban szárazeleséget is elfogad.",
+ "tarsithato": [
+  "Kistestű dániókkal",
+  "ékfoltos razbórákkal",
+  "békés talajlakókkal (Kuhli-csík",
+  "Corydoras fajok)."
+ ],
+ "kerulendo": [
+  "Domináns díszmárnák",
+  "agresszív sügérek",
+  "más harcoshal hímek kis helyen."
+ ],
+ "szaporodas_mod": "Habfészeképítő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Sekély (10-15 cm mély), gyenge áramlású, 26-28 °C-os vizű ívatómedence előkészítése.",
+  "Lebegő növények biztosítása fészekalapként a vízfelszínen.",
+  "A pár bőséges élő eleséggel történő kondicionálása után a hím habfészket épít.",
+  "A hím a nőstényt a fészek alá tereli, átkarolva préseli ki belőle az ikrákat.",
+  "Az ikrákat a hím összegyűjti és a fészekbe helyezi; a nőstényt ívás után célszerű eltávolítani.",
+  "Az ivadékok kelése után (24-36 óra) a hímet is vegyük ki, amint a kicsik elúsztak; indításuk infuzóriával, majd friss naupliusszal történjen."
+ ],
+ "ivari_kulonbseg": "A hím teste és kopoltyúfedője intenzív smaragdzölden fénylik, úszói hosszabbak és hálós mintájúak; a nőstény fakóbb, szürkésbarna, oldalán sötét sávok láthatók.",
+ "felismeres_jegyek": [
+  "Karcsú, enyhén nyújtott testalkat.",
+  "Csillogó smaragdzöld vagy türkiz pikkelyek a sötétbarna alapszínen.",
+  "Jellegzetes hálózatos (pókhálószerű) fekete és zöld minta az úszókon.",
+  "Kopoltyúfedőn erős, ragyogó zöldeskék irizálás."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Betta imbellis",
+   "magyar_nev": "Békés harcoshal",
+   "kulonbseg": "Az imbellis farokúszójának hátsó felén feltűnő piros félholdív látható, míg a smaragdina úszója hálószerűen mintázott."
+  },
+  {
+   "latin": "Betta mahachaiensis",
+   "magyar_nev": "Mahachai harcoshal",
+   "kulonbseg": "A mahachaiensis kopoltyúfedőjén két jól elkülönülő zöld sáv húzódik, teste sötétebb, és fémes pikkelyei inkább zöldeskékek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Úszórothadás",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Gondoskodjunk árnyékolt, tompított világításról, mert félénk hal, erős fényben elveszíti szép színeit.",
+  "Akváriumát szorosan le kell fedni, mivel kiváló ugró.",
+  "A természetes élőhelyéhez hasonlóan a falevelekkel (pl. mandulalevél) kezelt, tiszta víz ideális számára."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}

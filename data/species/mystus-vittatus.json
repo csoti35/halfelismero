@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Mystus vittatus",
+ "id": "mystus-vittatus",
+ "tipus": "hal",
+ "latin": "Mystus vittatus",
+ "regi_latin_nevek": [
+  "Silurus vittatus",
+  "Macrones vittatus"
+ ],
+ "magyar_nev": "csíkos morgóharcsa",
+ "egyeb_nevek": [
+  "csíkos mystus-harcsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Bagridae",
+ "csoport": "harcsák",
+ "szarmazas": "Dél-Ázsia (India, Pakisztán, Banglades, Srí Lanka, Nepál)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Territoriális és falánk harcsa. Fajtársaival szemben agresszív kergetőzésekbe kezdhet, a szájméretébe beleférő kisebb halakat éjjel könyörtelenül levadássza.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.8,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Ragadozó beállítottságú mindenevő; kedveli az élő és fagyasztott eleségeket (szúnyoglárva, krill, földigiliszta, apró halhús), de a jó minőségű tablettákat is elfogadja.",
+ "tarsithato": [
+  "Közepes és nagyobb testű díszmárnák (pl. rózsás díszmárna)",
+  "nagyobb pontylazacok",
+  "gurámik",
+  "robusztus algázók."
+ ],
+ "kerulendo": [
+  "Kistestű rajhalak (pl. neonhalak",
+  "kistestű dániók)",
+  "garnélák",
+  "fátyolos úszójú vagy lassú halak."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Otthoni akváriumban spontán módon rendkívül ritkán szaporodik, a kereskedelmi állományokat többnyire hormonkezeléssel tenyésztik.",
+  "Nagy, növényes medence és szimulált monszunidőszak (lágyvizes vízcserék, hőmérséklet-ingadozás) szükséges.",
+  "Az ikrákat a szabadba vagy növények közé szórják, szülői gondoskodás nincs.",
+  "A szülőket az ívást követően azonnal el kell távolítani az ikrafalás miatt."
+ ],
+ "ivari_kulonbseg": "A hímeknél egy jól kivehető urogenitális szemölcs (papilla) figyelhető meg, a nőstények kifejlett korban zömökebbek.",
+ "felismeres_jegyek": [
+  "Ezüstös-szürke vagy kékes-olíva alapszín, a testen végigfutó hosszanti világos és sötét csíkokkal.",
+  "Négy pár bajuszszál, amelyek közül a felső állkapcson lévők rendkívül hosszúak, gyakran a hasúszóig érnek.",
+  "Jellegzetes, sötét vállfolt a kopoltyúfedő mögött.",
+  "Erőteljes, szúrós mellúszó- és hátúszótövisek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mystus tengara",
+   "magyar_nev": "tengara harcsa",
+   "kulonbseg": "Hasonló csíkozás, de eltérő bajuszhossz és sötétebb alapszín."
+  },
+  {
+   "latin": "Hyalobagrus flavus",
+   "magyar_nev": "sárga törpeharcsa",
+   "kulonbseg": "Sokkal kisebb méret (kb. 4 cm), áttetszőbb, sárgás test és teljesen békés természet."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Mechanikai sérülések a fajtársakkal vívott területharcok miatt",
+  "Bakteriális uszonyrothadás nem megfelelő vízminőség esetén"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Hálóval történő kifogásakor óvatosan járjunk el, mert úszótövisei könnyen beleakadhatnak a hálóba és fájdalmas szúrást ejthetnek.",
+  "Zárt akváriumfedél szükséges, mert táplálkozás közben vagy ijedtében kiugorhat.",
+  "Akváriumába bőségesen helyezzünk el gyökereket, ágakat és búvóhelyeket a területi feszültségek csökkentésére."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-29"
+}
