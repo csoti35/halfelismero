@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Pseudomugil luminatus",
+ "id": "pseudomugil-luminatus",
+ "tipus": "hal",
+ "latin": "Pseudomugil luminatus",
+ "regi_latin_nevek": [
+  "Pseudomugil sp. Red Neon",
+  "Pseudomugil sp. Paskai Red Neon"
+ ],
+ "magyar_nev": "Vörös neon kalászhal",
+ "egyeb_nevek": [
+  "Red Neon törpekalászhal",
+  "Luminatus kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pseudomugilidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Indonézia (Pápua)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kisméretű, rendkívül békés, élénk mozgású csapatfaj. A hímek rendszeresen szétterjesztett úszókkal erőfitogtató táncot járnak egymás előtt anélkül, hogy kárt tennének egymásban.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Apró élő és fagyasztott eleségek (artémia nauplii, daphnia, cyclops), valamint finom szemcséjű minőségi lemezes tápok.",
+ "tarsithato": [
+  "Más kisméretű",
+  "békés fajokkal (pl. törpe razbórák",
+  "törpe szívóharcsák",
+  "Garnélák)."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "agresszív vagy gyors mozgású halak",
+  "amelyek tápláléknak nézhetik vagy elmarhatják az eleség elől."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy külön ívató akváriumot finom levelű növényekkel (pl. Jávai moha) vagy műanyag ívató pamaccsal (mop).",
+  "Helyezzünk át egy hímet és 2-3 nőstényt a kiadós élő eleséggel való táplálás után.",
+  "A nőstények naponta néhány ikrát raknak a növények közé, melyeket érdemes rendszeresen kimenteni, mert a szülők ehetik az ikrákat.",
+  "Az ikrák kb. 10-14 nap alatt kelnek ki 25 °C-on.",
+  "A kishalakat az első napokban papucsállatkával vagy rototóriával, majd frissen keltett artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal élénkebb narancssárga-vörös színűek, két háthátúszójuk és alsó úszójuk jóval megnyúltabb és díszesebb, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "A háton végighúzódó világító neonkék csík.",
+  "Narancssárga-vöröses alapszín a testen és az úszókon.",
+  "A hímek nagy, széttárható, foltos vagy szegélyezett két hátúszója.",
+  "Kékesen világító iriszes szem.",
+  "Karcsú, oldalról kissé lapított kisméretű test."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudomugil paskai",
+   "magyar_nev": "Paskai törpekalászhal",
+   "kulonbseg": "A P. paskai sárgásabb tónusú, testén hiányzik a P. luminatusra jellemző intenzív vöröses-narancs árnyalat."
+  },
+  {
+   "latin": "Pseudomugil gertrudae",
+   "magyar_nev": "Pöttyös törpekalászhal",
+   "kulonbseg": "A P. gertrudae úszói és teste sötét pöttyökkel mintázott, színe inkább sárgás-fehéres."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombás fertőzések",
+  "Baktériumos úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Csak jól beállt, dúsan növényesített, sötét aljzatú akváriumban tartsuk, ahol a színeik igazán érvényesülnek.",
+  "Érzékenyek a hirtelen vízparaméter-változásokra, így a vízcsere során ügyeljünk a fokozatosságra.",
+  "Tartsuk legalább 8-10 fős csapatban, hogy a hímek természetes rivális viselkedését és teljes pompájukat láthassuk."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

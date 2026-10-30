@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Melanotaenia praecox",
+ "id": "melanotaenia-praecox",
+ "tipus": "hal",
+ "latin": "Melanotaenia praecox",
+ "regi_latin_nevek": [
+  "Rhombatractus praecox"
+ ],
+ "magyar_nev": "Neon szivárványhal",
+ "egyeb_nevek": [
+  "Neon kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Indonézia (Nyugat-Pápua, Mamberamo-folyó vidéke)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, társas kis rajhal. Rendkívül élénk úszó, folyamatosan szem előtt van, békés növényes akváriumok ideális lakója.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő; finom lemezes eleségek, mikropelletek, fagyasztott ciklop, daphnia, artémia.",
+ "tarsithato": [
+  "Kistestű pontylazacokkal",
+  "dániókkal",
+  "razbórákkal",
+  "páncélosharcsákkal és békés törpesügérekkel."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív vagy falánk ragadozó halak."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Jól benövényesített vagy ikráztató fonallal felszerelt külön medence szükséges.",
+  "Több napon át bőséges élő eleséggel kondicionáljuk a párt vagy a csapatot.",
+  "A halak reggelente ívnak, ikráikat a növények finom leveleire ragasztják.",
+  "Az ikrákat a szülők visszaehetik, ezért a növénycsomót érdemes áthelyezni.",
+  "A lárvák kb. 7 nap után kelnek ki, infusoriával, majd friss artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek úszói élénkvörös szegélyűek és testük magasabb, míg a nőstények úszói sárgás-narancsos árnyalatúak és testük alacsonyabb.",
+ "felismeres_jegyek": [
+  "Fémesen csillogó, neonkék pikkelyek a test teljes felületén",
+  "Hímeknél élénkpiros, nőstényeknél sárgás-narancssárga úszószegélyek",
+  "Kistermetű, oldalról lapított, felnőttkorban magasodó testalkat",
+  "Jellegzetes osztott kettős hátúszó"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia maccullochi",
+   "magyar_nev": "Ausztráliai kalászhal",
+   "kulonbseg": "Vízszintes sötét csíkok futnak a testen, hiányzik az egységes neonkék fény."
+  },
+  {
+   "latin": "Pseudomugil furcatus",
+   "magyar_nev": "Villásfarkú kalászhal",
+   "kulonbseg": "Kisebb, karcsúbb test, sárga szárny-szerű mellúszók és kék szem."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Kalászhal-fekély (Mycobacteriosis)",
+  "Bakteriális uszonyrothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Gyönyörűen érvényesül sötét talajú, sűrűn beültetett növényes akváriumokban.",
+  "Kedveli a tiszta, oxigéndús és enyhén áramló vizet, heti részleges vízcsere ajánlott.",
+  "Csapatban tartva a hímek csodálatos rivalizáló táncot mutatnak be egymásnak."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

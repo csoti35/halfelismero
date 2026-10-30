@@ -1,0 +1,84 @@
+{
+ "id": "austrolebias-alexandri",
+ "tipus": "hal",
+ "lista_nev": "Austrolebias alexandri",
+ "latin": "Austrolebias alexandri",
+ "regi_latin_nevek": [
+  "Cynolebias alexandri"
+ ],
+ "magyar_nev": "Alexandri fogasponty (killi)",
+ "egyeb_nevek": [
+  "Alexandri-killi"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Rivulidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Uruguay, Argentína (Rio Uruguay medencéje)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő hímek, a nőstényekkel szemben is lehetnek hajtósak. Szezonális életmódú.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 15,
+ "homerseklet_max": 22,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Élő eleség (artémia, cyclops, vágott tubifex)",
+ "tarsithato": [
+  "Fajspecifikus akváriumban ajánlott."
+ ],
+ "kerulendo": [
+  "Más Austrolebias fajok (kereszteződés veszélye)",
+  "nagy és agresszív halak."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (szezonális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "A párt helyezzük egy tőzeggel bélelt kisebb akváriumba.",
+  "Az ívás a tőzegréteg mélyén történik.",
+  "A tőzeget vegyük ki, szárítsuk dohány-nedvességűre.",
+  "Tároljuk sötét helyen 3-5 hónapig.",
+  "A keltetéshez használjunk 15-18 fokos lágy vizet."
+ ],
+ "ivari_kulonbseg": "A hímek sötétkék/szürkéskék színűek, úszóik megnyúltabbak és hegyesebbek; a nőstények egyszerű barnás színűek, sötét foltokkal.",
+ "felismeres_jegyek": [
+  "A hímek úszói (hát- és farok alatti) enyhén csúcsosak",
+  "Függőleges sorokba rendeződő világoskék pettyek az oldalon",
+  "Sötét függőleges sáv a szemen keresztül",
+  "Zömök, de a nigripinnisnél valamivel nyújtottabb test",
+  "A nőstények úszói színtelenek, testük foltos"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Austrolebias nigripinnis",
+   "magyar_nev": "Feketeúszójú fogasponty",
+   "kulonbseg": "A nigripinnis úszói kerekebbek, színe sötétebb fekete."
+  },
+  {
+   "latin": "Austrolebias cyaneus",
+   "magyar_nev": "Kék fogasponty",
+   "kulonbseg": "A cyaneus színe egységesebb kék, kevesebb mintázattal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "nagyon ritka",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "A tőzeg nedvességtartalma kritikus a tárolás alatt: ha túl száraz, az ikrák elpusztulnak.",
+  "Érdemes több nőstényt tartani egy hím mellett, hogy megoszoljon a hím figyelme."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

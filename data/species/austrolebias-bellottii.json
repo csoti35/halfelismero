@@ -1,0 +1,85 @@
+{
+ "id": "austrolebias-bellottii",
+ "tipus": "hal",
+ "lista_nev": "Austrolebias bellottii",
+ "latin": "Austrolebias bellottii",
+ "regi_latin_nevek": [
+  "Cynolebias bellottii"
+ ],
+ "magyar_nev": "Argentin fogasponty (killi)",
+ "egyeb_nevek": [
+  "Bellotti-killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Rivulidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Argentína, Uruguay",
+ "max_meret_cm": 7,
+ "elettartam_ev": 1,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek dominánsak és verekedősek lehetnek. Szezonális faj, amely a természetben kiszáradó tócsákban él.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 15,
+ "homerseklet_max": 22,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Kizárólag élő vagy fagyasztott eleség (vörös szúnyoglárva, daphnia)",
+ "tarsithato": [
+  "Legjobb párban vagy háremben (1 hím",
+  "több nőstény) tartani."
+ ],
+ "kerulendo": [
+  "Gyors úszású",
+  "csipkelődős halak és trópusi díszhalak."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (szezonális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Ívatáshoz használjunk lágy vizet és vastag tőzegréteget.",
+  "A hím a tőzegbe csalja a nőstényt, ahol teljesen belefúrják magukat.",
+  "A tőzeget az ívás után ki kell venni és nedvesen tárolni.",
+  "A diapauza (nyugalmi időszak) hossza 2-4 hónap a hőmérséklettől függően.",
+  "A felöntés után a kishalak gyorsan nőnek, bőséges etetést igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, kékesszürke színűek világos pöttyökkel; a nőstények sárgásbarnák, sötét foltokkal és függőleges sávokkal.",
+ "felismeres_jegyek": [
+  "Magas, oldalról lapított test",
+  "A hímek alapszíne acélkék vagy palaszürke",
+  "Világos, kékesfehér pöttyök a testen",
+  "A nőstények oldalán sötét keresztsávok láthatók",
+  "Nagy, kerekded úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Austrolebias nigripinnis",
+   "magyar_nev": "Feketeúszójú fogasponty",
+   "kulonbseg": "A nigripinnis kisebb és sokkal sötétebb (fekete) alapszínű."
+  },
+  {
+   "latin": "Austrolebias adloffi",
+   "magyar_nev": "Adloff-fogasponty",
+   "kulonbseg": "Az adloffi testén markánsabb függőleges sávok vannak a hímeknél is."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség",
+  "Bakteriális fertőzések a nem megfelelő vízminőség miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "A víz hőmérsékletének ingadozása (nappali felmelegedés, éjszakai lehűlés) serkenti az ívási kedvet.",
+  "Csak élő eleséggel tarthatók hosszú távon egészségesen."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

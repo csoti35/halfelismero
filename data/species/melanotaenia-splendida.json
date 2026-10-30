@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Melanotaenia splendida",
+ "id": "melanotaenia-splendida",
+ "tipus": "hal",
+ "latin": "Melanotaenia splendida",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Keleti szivárványhal",
+ "egyeb_nevek": [
+  "Pompás szivárványhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Szivárványhalak",
+ "szarmazas": "Ausztrália és Pápua Új-Guinea",
+ "max_meret_cm": 14,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, kifejezetten társas és fürge rajhal, amely tágas akváriumban érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő. Száraz lemezeket és granulátumokat, valamint fagyasztott és élő gerincteleneket (szúnyoglárva, artémia, mysis) egyaránt mohón elfogad.",
+ "tarsithato": [
+  "Közepes és nagyobb testű békés pontylazacokkal",
+  "díszmárnákkal",
+  "harcsafélékkel (Corydoras",
+  "Ancistrus) és más szivárványhalfajokkal."
+ ],
+ "kerulendo": [
+  "Kisméretű garnélák (ivadékukat megeszi)",
+  "agresszív ragadozók",
+  "valamint félénk",
+  "lassú kistestű halak."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tartsuk a csapatot kiváló vízminőségben és etessük bőségesen élő vagy fagyasztott eleséggel.",
+  "Helyezzünk ki az akváriumba vagy egy külön ívató tartályba finom növénycsomókat vagy ívatómopot.",
+  "A hímek intenzív színekben pompázva udvarolnak, az ikrákat a reggeli órákban folyamatosan szórják.",
+  "Az ikrával teli közeget érdemes kivenni a szülők mohósága miatt.",
+  "A kikelő lárvákat kezdetben folyékony ivadéktáppal vagy kerekesférgekkel, majd friss artémia naupliusszal etethetjük."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek háta jóval magasabb, színeik kontrasztosabbak, páratlan úszóik hegyesebbek és megnyúltabbak.",
+ "felismeres_jegyek": [
+  "Erőteljes, magasított testalkat a felnőtt egyedeknél.",
+  "Két jól elkülönülő hátúszó.",
+  "Pikkelyzete és úszói változatos kékes, zöldes és vöröses árnyalatokban csillognak az alfajtól és származási helytől függően.",
+  "A hímek udvarláskor élénk világos csíkot villantanak a fejtetejükön."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia australis",
+   "magyar_nev": "Nyugati szivárványhal",
+   "kulonbseg": "A mintázat és a színárnyalat finom részleteiben tér el, gyakran erősebb sötét sávval az oldalán."
+  },
+  {
+   "latin": "Melanotaenia fluviatilis",
+   "magyar_nev": "Folyami szivárványhal",
+   "kulonbseg": "Dél-Ausztráliában honos, hűvösebb vizet kedvel és teste valamivel nyújtottabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Hosszúkás, legalább 100-120 cm hosszú medencét válasszunk nagy mozgásigényük kielégítésére.",
+  "Érdemes az akvárium hátterét és széleit sűrűn beültetni, a középső zónát szabadon hagyni.",
+  "Jó oxigénellátottságot és mérsékelt áramlást biztosítsunk."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

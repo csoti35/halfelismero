@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Pseudomugil gertrudae",
+ "id": "pseudomugil-gertrudae",
+ "tipus": "hal",
+ "latin": "Pseudomugil gertrudae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pettyes kékszemű",
+ "egyeb_nevek": [
+  "Gertrud kékszemű kalászhala",
+  "pettyes kékszemű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pseudomugilidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Ausztrália északi része, Pápua Új-Guinea",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, apró és törékeny rajhal. Lassúbb mozgású, a dominánsabb halak elnyomhatják.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 45,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Apró élő eleségek (artemia naupliusz, cyclops, daphnia), valamint finom granulátumok és lemezes tápok.",
+ "tarsithato": [
+  "Boraras fajok",
+  "törpe páncélosharcsák",
+  "Iriatherina werneri",
+  "kistestű garnélák (pl. Neocaridina",
+  "Caridina)."
+ ],
+ "kerulendo": [
+  "Nagyobb testű halak",
+  "élénk márnák",
+  "sügérek",
+  "csipkelődő fajok."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Betelepítés sűrű növényzetű, fonalas algától és csigáktól mentes akváriumba jávamohával vagy ívatómopokkal.",
+  "Kondicionáljuk a szülőket bőséges élő táplálékkal.",
+  "A nőstény finom növényi szálak közé ragasztja apró, kemény burkú ikráit.",
+  "Az ikrákat gyűjtsük össze vagy tegyük külön vízbe penészgátló szer kíséretében.",
+  "A kelés 10-12 napot vesz igénybe, az ivadék papucsállatkával és zöldvízzel etethető első héten."
+ ],
+ "ivari_kulonbseg": "A hímek úszói jóval nagyobbak, mintázatuk kontrasztosabb sötét pettyekkel, mellúszóik felállíthatók. A nőstények kisebbek, színtelenebbek, úszóik lekerekítettek.",
+ "felismeres_jegyek": [
+  "Világító, ragyogó kék szem",
+  "Sárgás vagy kékes áttetsző testen fekete pettyekből álló sorok",
+  "Lekerekített, fekete pettyekkel díszített hát- és farokúszók",
+  "A hímek felmereszthető, szárnyszerű mellúszói"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudomugil furcatus",
+   "magyar_nev": "villásfarkú kalászhal",
+   "kulonbseg": "A furcatus teste nem pettyezett, úszói élénksárgák, farka mélyen villás."
+  },
+  {
+   "latin": "Pseudomugil luminatus",
+   "magyar_nev": "vörös neon kalászhal",
+   "kulonbseg": "A luminatus teste intenzív narancsvörös, a hátán fényes kék csíkkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Darakór",
+  "Bakteriális fertőzések bomlástermékekkel teli vízben"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1100,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Kifejezetten szereti a lágyabb, enyhén savas vizet és a sűrű növényzet nyújtotta árnyékot.",
+  "Tőzeges szűréssel vagy égertobozzal színezett vízben mutatja a legszebb színeit.",
+  "Csak kistestű, békés nanohalakkal vagy garnélákkal együtt tartsuk."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

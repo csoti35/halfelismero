@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Bedotia madagascariensis",
+ "id": "bedotia-madagascariensis",
+ "tipus": "hal",
+ "latin": "Bedotia madagascariensis",
+ "regi_latin_nevek": [
+  "Bedotia geayi"
+ ],
+ "magyar_nev": "Madagaszkári kalászhal",
+ "egyeb_nevek": [
+  "Bedotia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Bedotiidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Madagaszkár",
+ "max_meret_cm": 10,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, mozgékony rajhal. Nyugodt közösségi akváriumba kiváló, de a nagyon apró halakat vagy ivadékokat bekaphatja.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 20,
+ "homerseklet_max": 25,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 8,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, elfogadja a minőségi lemezes és granulált tápokat, de meghálálja az élő és fagyasztott eleséget (pl. szúnyoglárva, artémia).",
+ "tarsithato": [
+  "Hasonló méretű és igényű békés halakkal",
+  "mint más kalászhalak",
+  "dániók",
+  "márnafélék és békés sügérek."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "csipkedős fajok",
+  "vagy túlságosan apró halak és garnélák."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Ki kell helyezni egy jól táplált párt vagy csapatot egy külön ívató akváriumba, amelyben sok a finom levelű növény (pl. javai moha) vagy ikráztató mop.",
+  "A nőstény naponta néhány ikrát rak a növények közé több napon keresztül.",
+  "Az ikrákat vagy a szülőket érdemes eltávolítani, mert a szülők ehetik az ikrákat.",
+  "Az ivadékok 6-10 nap múlva kelnek ki, és papucsállatkával vagy finom porrá zúzott táppal, majd frissen kelt artémiával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, úszóik szegélye élénk narancssárga vagy piros, míg a nőstények halványabbak és teltidomúbbak.",
+ "felismeres_jegyek": [
+  "Nyújtott, orsó alakú testforma",
+  "Két hátúszó, amelyek közül az első kisebb",
+  "Sötét vízszintes sáv húzódik végig a test oldalán",
+  "A hímek úszóinak szélét szembetűnő piros vagy narancssárga sáv díszíti"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Bedotia leucotaenia",
+   "magyar_nev": "Fehérsávos kalászhal",
+   "kulonbseg": "Úszóinak szegélye és mintázata eltérő, ritkábban kapható."
+  },
+  {
+   "latin": "Melanotaenia boesemani",
+   "magyar_nev": "Boeseman kalászhal",
+   "kulonbseg": "Testformája magasabb, telt-korong alakúbb, kék-narancs színátmenettel."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Hagyjunk elegendő szabad úszóteret az akvárium középső részein.",
+  "Kedvelik a tiszta, mérsékelten áramló, oxigéndús vizet."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

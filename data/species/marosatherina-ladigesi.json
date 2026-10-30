@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Marosatherina ladigesi",
+ "id": "marosatherina-ladigesi",
+ "tipus": "hal",
+ "latin": "Marosatherina ladigesi",
+ "regi_latin_nevek": [
+  "Telmatherina ladigesi"
+ ],
+ "magyar_nev": "Celebeszi kalászhal",
+ "egyeb_nevek": [
+  "Celebeszi napsugárhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Telmatherinidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Indonézia (Celebesz/Sulawesi)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, aktív csapathal. Más nem bántó fajokkal jól társítható, de a hímek egymás között néha erőteljesen rivalizálnak, kiterjesztett úszókkal fitogtatva erejüket.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, részesítse előnyben az élő és fagyasztott apró táplálékokat (artémia, ciklop), de a jó minőségű száraztápot is elfogadja.",
+ "tarsithato": [
+  "Békés kalászhalakkal",
+  "dániókkal",
+  "törpe szívóharcsákkal",
+  "békés fenéklakókkal."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "agresszív cichlidek",
+  "úszócsipkedő halak",
+  "túlságosan lágy és savanyú vizet igénylő fajok."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Helyezzünk egy hímet és 2-3 nőstényt egy kúp alakú növényekkel (pl. jávai moha) vagy ikráztató csomóval ellátott külön akváriumba.",
+  "Biztosítsunk közepesen kemény, enyhén lúgos (pH 7.5), 26 °C-os tiszta vizet.",
+  "A nőstény naponta néhány ikrát rak a növények közé több héten keresztül.",
+  "Az ikrákat vagy a szülőket érdemes naponta elkülöníteni, mert a szülők megehetik az ikrákat.",
+  "Az ikrák 8-11 nap alatt kelnek ki, az ivadékok apró élő eleséggel (papucsállatka, frissen kelt artémia) nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, színesebbek, és az első hátúszójuk, valamint az alsó úszójuk sugarai megnyúltak, feketések.",
+ "felismeres_jegyek": [
+  "Áttetsző, sárgás-zöldes test oldalán végighúzódó neonkék csíkkal.",
+  "Két hátúszó, melyek közül az első a hímeknél látványosan megnyúlt.",
+  "A hát- és farokalatti úszók szegélye sárga és fekete mintázatú.",
+  "A farokúszó villa alakú, sárgás elszíneződéssel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudomugil gertrudai",
+   "magyar_nev": "Pettyes kalászhal",
+   "kulonbseg": "Sokkal kisebb méretű, testén apró fekete pöttyök találhatók."
+  },
+  {
+   "latin": "Melanotaenia boesemani",
+   "magyar_nev": "Boeseman-kalászhal",
+   "kulonbseg": "Testalkata magasabb, első fele kék, hátsó fele narancssárga."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás",
+  "Bélférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kifejezetten igényli a keményebb, enyhén lúgos vizet, lágy vízben hosszabb távon megbetegszik.",
+  "Hagyjunk elegendő szabad teret az úszáshoz, de a háttérben legyenek dús növénycsoportok.",
+  "Rendszeres részleges vízcsere elengedhetetlen a jó közérzetükhöz."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

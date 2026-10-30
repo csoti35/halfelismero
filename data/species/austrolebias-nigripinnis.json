@@ -1,0 +1,90 @@
+{
+ "id": "austrolebias-nigripinnis",
+ "tipus": "hal",
+ "lista_nev": "Austrolebias nigripinnis",
+ "latin": "Austrolebias nigripinnis",
+ "regi_latin_nevek": [
+  "Cynolebias nigripinnis"
+ ],
+ "magyar_nev": "Argentin gyöngyfogasponty (gyöngyös killi)",
+ "egyeb_nevek": [
+  "Argentin killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Rivulidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Dél-Amerika (Argentína, Uruguay, Paraguay)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek területvédők és agresszívek egymással, de más fajokkal szemben békések. Rövid életű, szezonális hal.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 16,
+ "homerseklet_max": 22,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Élő és fagyasztott eleség (artémia, szúnyoglárva, tubifex)",
+ "tarsithato": [
+  "Hasonló igényű",
+  "hűvösebb vizet kedvelő békés halakkal",
+  "de legjobb fajspecifikus medencében."
+ ],
+ "kerulendo": [
+  "Trópusi",
+  "melegkedvelő halak",
+  "agresszív fajok",
+  "más Austrolebias fajok (hibridizáció veszélye)."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (szezonális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Helyezzünk el egy mély tálkát 5-8 cm vastag, főzött tőzeggel az akváriumban.",
+  "Az ívás után vegyük ki a tőzeget, és óvatosan nyomkodjuk ki belőle a vizet.",
+  "Helyezzük a tőzeget nejlonzacskóba, és tároljuk 20-24 fokon 3-4 hónapig.",
+  "A pihentetési idő után öntsük fel a tőzeget lágy, hűvös vízzel.",
+  "Az ivadékok órákon belül kikelnek, és azonnal etethetők frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek sötétkék/fekete alapszínűek, ragyogó gyöngyházfényű pöttyökkel; a nőstények kisebbek, barnás-szürkék és foltosak.",
+ "felismeres_jegyek": [
+  "Mély, zömök testalkat",
+  "A hím alapszíne bársonyos fekete vagy mélykék",
+  "Számos apró, világító kék petty a testen és az úszókon",
+  "Lekerekített hát- és farok alatti úszó",
+  "A nőstények rejtőszínűek, márványozott mintával"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Austrolebias alexandri",
+   "magyar_nev": "Alexandri fogasponty",
+   "kulonbseg": "Az alexandri úszói hegyesebbek, és a pettyezettség inkább csíkokba rendeződik."
+  },
+  {
+   "latin": "Austrolebias bellottii",
+   "magyar_nev": "Argentin fogasponty",
+   "kulonbseg": "A bellottii nagyobb testű, és a hímek színe inkább szürkéskék, nem fekete."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Gombásodás (tőzeges víz hiányában)",
+  "Helytelen hőmérséklet miatti legyengülés"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Ne tartsuk őket tartósan 22 fok felett, mert felgyorsul az anyagcseréjük és hamar elpusztulnak.",
+  "A víz legyen lágy és tőzeggel kezelt (sötétbarna)."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

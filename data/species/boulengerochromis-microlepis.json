@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Boulengerochromis microlepis",
+ "id": "boulengerochromis-microlepis",
+ "tipus": "hal",
+ "latin": "Boulengerochromis microlepis",
+ "regi_latin_nevek": [
+  "Tilapia microlepis",
+  "Paratilapia microlepis"
+ ],
+ "magyar_nev": "Óriás tanganyikai bölcsőszájúhal",
+ "egyeb_nevek": [
+  "Sárga császársügér",
+  "Kuhe sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó endemikus faja)",
+ "max_meret_cm": 80,
+ "elettartam_ev": 12,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "A világ legnagyobb testű bölcsőszájúhala. Rendkívül gyors és falánk ragadozó, amely tágas úszóteret igényel. Területvédő ösztöne rendkívül erős, ívás idején életveszélyes minden más lakóra nézve.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 2500,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó; egész halak, garnélák, kagylóhús, nagyobb ragadozó pelletek.",
+ "tarsithato": [
+  "Csak hatalmas bemutató akváriumokban",
+  "hasonlóan óriási tanganyikai sügérekkel vagy nagytestű harcsákkal."
+ ],
+ "kerulendo": [
+  "Minden kistestű és közepes hal",
+  "növények (kitúrja őket)",
+  "kis méretű akváriumok."
+ ],
+ "szaporodas_mod": "Szubsztrátköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Monogám párok alakulnak ki fiatalkorban, melyekhez hatalmas medence szükséges.",
+  "A nőstény lapos kőre vagy gödörbe akár több ezer (akár 10 000) ikrát is lerak.",
+  "Mindkét szülő hevesen és agresszíven őrzi az ikrákat és a területet.",
+  "Kelés után (kb. 3 nap) a lárvákat homokgödrökbe hordják.",
+  "Az elúszó ivadékok artémia naupliusszal és apróra vágott élő eleséggel nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek kifejletten lényegesen nagyobbak, hát- és farokúszójuk hegyesebben végződik, színezetük sárgásabb és kontrasztosabb.",
+ "felismeres_jegyek": [
+  "Hatalmas, hidrodinamikus, torpedó alakú test",
+  "Sárgás-arany alapszín, oldalán sötét foltokkal vagy függőleges sávokkal",
+  "Nagyon apró pikkelyek a testen (innen a latin fajnév)",
+  "Erőteljes, végállású ragadozó száj hegyes fogakkal"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Bathybates fasciatus",
+   "magyar_nev": "Szalagos mélysügér",
+   "kulonbseg": "Karcsúbb, ezüstösebb test, sötét függőleges csíkozással, kisebb végméret."
+  },
+  {
+   "latin": "Cichla ocellaris",
+   "magyar_nev": "Pávafoltos díszsügér",
+   "kulonbseg": "Dél-amerikai faj, mélyebben bemetszett hátúszóval és jellegzetes farokfolttal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Hexamita (lyukbetegség)",
+  "Mechanikai sérülésekből eredő gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 8000,
+ "ar_ft_max": 25000,
+ "tippek": [
+  "Kizárólag óriási nyilvános akváriumokba vagy extrém méretű magánmedencékbe való.",
+  "Erőteljes szűrés és sziklákkal stabilan felépített dekoráció kötelező, mert a könnyebb köveket elmozdítja.",
+  "Ügyelni kell a medence szoros lefedésére, mert ijedtében kiugorhat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

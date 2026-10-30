@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Oryzias latipes",
+ "id": "oryzias-latipes",
+ "tipus": "hal",
+ "latin": "Oryzias latipes",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Japán rizshal (medaka)",
+ "egyeb_nevek": [
+  "Medaka"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Adrianichthyidae",
+ "csoport": "Rizshalak",
+ "szarmazas": "Japán, Kína, Korea",
+ "max_meret_cm": 4,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, apró rajhal. Szobahőmérsékleten, sőt kültéri kerti tálakban/minitavakban is remekül tartható tavasztól őszig.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 6.8,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, nagyon apró szemű lemezes tápokat, micro-granulátumokat és kisebb élő/fagyasztott eleségeket fogyaszt.",
+ "tarsithato": [
+  "Más apró",
+  "békés fajokkal",
+  "nano halakkal",
+  "garnélákkal és csigákkal."
+ ],
+ "kerulendo": [
+  "Nagyobb vagy agresszív halak",
+  "amelyek zsákmánynak tekintik."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "A nőstény reggelente ikracsomót visel a hasa alatt, amit vízinövényekre vagy ikráztató mopra ken rá.",
+  "Az ikrákkal teli mopot vagy növényt könnyen átrakhatjuk egy külön nevelőedénybe.",
+  "Az ikrák 10-14 nap alatt kelnek ki a hőmérséklettől függően.",
+  "A kishalak finom porporcióval és papucsállatkával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek farokalatti és hátúszója bevágottabb és hosszabb, a nőstények teste ikrázáskor kerekdedebb.",
+ "felismeres_jegyek": [
+  "Kisméretű, elvékonyodó testforma",
+  "A hátúszó nagyon hátul, a faroktő közelében helyezkedik el",
+  "Szemei enyhén világítanak/kékek lehetnek",
+  "Számtalan tenyésztett színváltozata létezik (narancs, arany, narancs-fekete, fekete, tarka)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Oryzias woworae",
+   "magyar_nev": "Neon rizshal",
+   "kulonbseg": "Testén élénk neonkék csillogás és piros úszók láthatók."
+  },
+  {
+   "latin": "Aplocheilichthys normani",
+   "magyar_nev": "Normani lámpaszemű fogasponty (killi)",
+   "kulonbseg": "Kifejezett neonkék világító szeme és karcsúbb ezüstös teste van."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hasvízkór",
+  "Gombás fertőzések ikrázás után"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Hidegvízi halnak is megfelel, nincs szüksége fűtőre szobahőmérsékleten.",
+  "Nyáron kültéri dézsában, minitóban is könnyen szaporodik."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

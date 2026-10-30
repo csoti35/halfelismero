@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Melanotaenia boesemani",
+ "id": "melanotaenia-boesemani",
+ "tipus": "hal",
+ "latin": "Melanotaenia boesemani",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Boeseman-szivárványhal",
+ "egyeb_nevek": [
+  "Kétszínű kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Indonézia (Nyugat-Pápua, Ayamaru-tavak vidéke)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, mozgékony rajhal. Fáradhatatlan úszó, amely csapatban mutatja a legszebb viselkedést és színeket, más békés halakkal kiválóan társítható.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.2,
+ "gh_min": 9,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; minőségi lemezes és granulált tápok, fagyasztott és élő szúnyoglárva, artémia, daphnia.",
+ "tarsithato": [
+  "Más kalászhalakkal",
+  "békés márnákkal",
+  "pontylazacokkal",
+  "páncélosharcsákkal és nagyobb dániókkal."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú",
+  "lassú mozgású fajok (pl. fátyolfarkú guppi)",
+  "valamint agresszív ragadozók."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Állítsunk be egy ívató medencét finom szálú növényekkel vagy ikráztató csomóval (mop).",
+  "Helyezzünk ki egy jól táplált párt vagy kisebb csapatot.",
+  "A hím násztánccal csalogatja a nőstényt, aki naponta több napon át pár ikrát szór el a csomóban.",
+  "Az ikrával teli mop-ot emeljük át külön keltető akváriumba.",
+  "Az ikrák 7-10 nap múlva kelnek ki, az ivadékok papucsállatkával, majd frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek teste magasabb hátú, első felük acélkék, hátsó felük élénk narancssárga. A nőstények fakóbbak, ezüstös-sárgásak és karcsúbbak.",
+ "felismeres_jegyek": [
+  "Kifejlett hímeknél éles határvonal a kék elülső és a narancssárga hátsó testfél között",
+  "Magas, oldalról erősen lapított ovális testforma",
+  "Kétosztatú hátúszó (kisebb első és hosszabb második hátúszó)",
+  "Ívelt háti és hasi vonalverzet felnőtt korban"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia lacustris",
+   "magyar_nev": "Kék kalászhal",
+   "kulonbseg": "Egész teste mélykék és türkiz árnyalatú, hiányzik a narancssárga hátsó fél."
+  },
+  {
+   "latin": "Melanotaenia herbertaxelrodi",
+   "magyar_nev": "Sárga kalászhal",
+   "kulonbseg": "Egységesen sárgás-arany alapszín, sötét vízszintes sávval az oldalán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális kopoltyú- és bőrfertőzések",
+  "Oodinium (bársonybetegség)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Hosszúkás, legalább 100-120 cm hosszú akváriumot válasszunk, mert nagy mozgásigényű úszók.",
+  "A keményebb, enyhén lúgos vizet és a jó vízáramlást kedvelik leginkább.",
+  "A fiatal egyedek a boltban még fakó szürkék, valódi színpompájukat csak ivaréretten mutatják meg."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

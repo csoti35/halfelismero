@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Oryzias woworae",
+ "id": "oryzias-woworae",
+ "tipus": "hal",
+ "latin": "Oryzias woworae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Neon rizshal",
+ "egyeb_nevek": [
+  "Muna rizshal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Adrianichthyidae",
+ "csoport": "Rizshalak",
+ "szarmazas": "Indonézia (Muna-sziget)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Igen békés, élénk mozgású rajhal, amely kiválóan alkalmas növényes és nano akváriumokba.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Kisméretű élő és fagyasztott tápok (artémia, ciklop) mellett az apró granulált vagy lemezes tápokat is örömmel elfogadja.",
+ "tarsithato": [
+  "Más apró termetű",
+  "békés nano halakkal",
+  "mint pl. törpe dániókkal",
+  "kis pontylazacokkal és garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "territoriális vagy ragadozó halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A jól táplált nőstények reggelente ikracsomókat hordoznak a ivarnyílásuknál.",
+  "Az ikrákat mohákra, növényekre vagy mesterséges ikráztató mopra tapasztják.",
+  "A szülőket érdemes elkülöníteni, mert elfogyaszthatják a kikelő ivadékokat.",
+  "Az ikrák kb. 1-2 hét alatt kelnek ki, az ivadékok papucsállatkával és finom porrázott táppal indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek színe jóval intenzívebb neonkék, úszóik pirosak és szegélyük sötét, míg a nőstények halványabbak.",
+ "felismeres_jegyek": [
+  "Fémesen csillogó neonkék testoldal",
+  "Élénk piros/narancs farokúszó és hasalatti úszó szegély",
+  "Kisméretű, karcsú testalak",
+  "A hátúszó a test hátsó harmadában található"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Oryzias latipes",
+   "magyar_nev": "Japán rizshal",
+   "kulonbseg": "Hiányzik róla az intenzív neonkék testfény és piros úszószegély."
+  },
+  {
+   "latin": "Microdevario kubotai",
+   "magyar_nev": "Smaragdzöld törpedánió",
+   "kulonbseg": "Testszíne élénk smaragdzöld, úszói áttetszőek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium (bársonykór)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1400,
+ "tippek": [
+  "Sötét aljzat és dús növényzet mellett mutatják meg legszebb kék színeiket.",
+  "Trópusi hőmérsékletet igényel, a japán rizshallal ellentétben fűtést igényel lakásban."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

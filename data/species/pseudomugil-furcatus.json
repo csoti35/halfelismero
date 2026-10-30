@@ -1,0 +1,94 @@
+{
+ "lista_nev": "Pseudomugil furcatus",
+ "id": "pseudomugil-furcatus",
+ "tipus": "hal",
+ "latin": "Pseudomugil furcatus",
+ "regi_latin_nevek": [
+  "Popondetta furcata"
+ ],
+ "magyar_nev": "villásfarkú kalászhal",
+ "egyeb_nevek": [
+  "villásfarkú kékszemű kalászhal",
+  "popondetta kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pseudomugilidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Pápua Új-Guinea keleti része",
+ "max_meret_cm": 5.0,
+ "elettartam_ev": 2,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon mozgékony, élénk és békés csapathal. Egész nap a vízfelszín közelében úszkál, fajtársaival folyamatosan interakcióban van.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; apró fagyasztott és élő eleségek (artemia, vízibolha, ciklop), jó minőségű mikropelletek és granulátumok.",
+ "tarsithato": [
+  "Más kistestű kalászhalak",
+  "békés dániók",
+  "törperasbórák",
+  "elevenszülők",
+  "páncélosharcsák",
+  "garnélák."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak",
+  "vitorláshalak",
+  "lassú és félénk fajok",
+  "amelyeket zavarhat a folytonos élénk mozgása."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Rendszeres vízcserével és bőséges élő eleséggel hozzuk a tenyészcsapatot ívási kondícióba.",
+  "Helyezzünk finom szálú növényeket vagy ívatómopot az akváriumba.",
+  "A párzás általában a kora reggeli órákban történik, a nőstény napi néhány ikrát rak.",
+  "Az ikrával teli növényzetet helyezzük át egy külön nevelőmedencébe.",
+  "A lárvák kb. 10–14 nap alatt kelnek ki, indító eleségnek papucsállatka és mikroféreg szükséges."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszói élénksárgák és felfelé állnak ('szárnyak'), hát- és farok alatti úszójuk jóval nagyobb, színezetük élénkebb. A nőstények fakóbbak és úszóik rövidebbek.",
+ "felismeres_jegyek": [
+  "Világító kék írisz",
+  "Élénksárga szegélyű, villás mély bevágású farokúszó",
+  "A hímek mellúszói élénksárgák és a hát felé felmereszthetők",
+  "Áttetsző, enyhén zöldessárga pikkelyzet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudomugil signifer",
+   "magyar_nev": "vitorlás kékszemű kalászhal",
+   "kulonbseg": "A signifer úszói narancsosabbak, hátúszója jóval magasabb és hiányzik az erősen villás, sárga mintás farokúszó."
+  },
+  {
+   "latin": "Pseudomugil gertrudae",
+   "magyar_nev": "pöttyös kékszemű kalászhal",
+   "kulonbseg": "A gertrudae testét és úszóit fekete pettyek borítják, nem egyszínű sárga úszójú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések elhanyagolt vízben",
+  "Oodinium"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Kedveli a közepes áramlást és az oxigéndús, tiszta vizet.",
+  "Érdemes lefedni az akváriumot, mert hirtelen ijedtség esetén kiugorhat.",
+  "A csapatban tartsunk több nőstényt, mint hímet a hímek közötti túlzott kergetőzés elkerülésére."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

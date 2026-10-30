@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Melanotaenia herbertaxelrodi",
+ "id": "melanotaenia-herbertaxelrodi",
+ "tipus": "hal",
+ "latin": "Melanotaenia herbertaxelrodi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sárga kalászhal",
+ "egyeb_nevek": [
+  "Axelrod kalászhala",
+  "Tebera-tavi kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Pápua Új-Guinea (Tebera-tó vidéke)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, élénk csapathal. Csapatban érzi jól magát, folyamatosan járja a vízközt, senkit nem bánt.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 18,
+ "taplalek": "Mindenevő; elfogadja a lemezes tápokat és granulátumokat, de a szép színekhez rendszeresen adjunk fagyasztott artémiát, szúnyoglárvát vagy ciklopot.",
+ "tarsithato": [
+  "Békés pontylazacokkal",
+  "dániókkal",
+  "díszmárnákkal",
+  "páncélosharcsákkal és egyéb kalászhalfajokkal."
+ ],
+ "kerulendo": [
+  "Agresszív sügérekkel vagy nagyon apró garnélákkal",
+  "amelyeket a kifejlett halak levadászhatnak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Jól táplált párt vagy tenyészcsapatot különítsünk el növényekkel vagy fonál-moppal berendezett akváriumban.",
+  "Az ívás reggelente történik, ragadós ikrákat szórnak a finom szárak közé.",
+  "A szülőket az ívás után célszerű eltávolítani, vagy a mopot keltető tartályba tenni.",
+  "Az ikrák 7-10 nap múlva kelnek ki a vízhőmérséklettől függően.",
+  "Az ivadékokat infuzóriával és likőrállatkákkal kezdjük etetni, majd 4-5 nap után frissen kelt artémiára térhetünk át."
+ ],
+ "ivari_kulonbseg": "A hímek teste jóval magasabb, színük élénkebb citromsárga vagy aranysárga, úszóik szegélye sötétebb, míg a nőstények karcsúbbak és fakóbb sárgás-ezüstösek.",
+ "felismeres_jegyek": [
+  "Megnyúlt, de kor előrehaladtával magasodó test, élénksárga vagy aranysárga alapszínnel.",
+  "A test középvonalán végigfutó markáns, sötétkék vagy feketés hosszanti sáv, melyet felül vékonyabb kékes-arany sáv kísérhet.",
+  "Sárgás vagy enyhén narancssárga úszók finom fekete szegéllyel a hímeknél.",
+  "Felső állású kis száj és viszonylag nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia boesemani",
+   "magyar_nev": "Boeseman-kalászhal",
+   "kulonbseg": "Kétszínű test: az eleje kékes-szürkés, a hátulja narancssárga, nincs egységes sárga alapszín hosszanti sötét csíkkal."
+  },
+  {
+   "latin": "Melanotaenia australis",
+   "magyar_nev": "Nyugati kalászhal",
+   "kulonbseg": "Színezete inkább vörösesbarna vagy olívazöld, nem ragyogó aranysárga."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Úszórothadás",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "A reggeli napfény vagy fokozatos lámpagyújtás előhozza a hímek csodálatos fénylő nászcsíkját.",
+  "Kedvelik az enyhe vízáramlást és a rendszeres, heti 25-30%-os részleges vízcsere elengedhetetlen a jó kondícióhoz.",
+  "Sötét aljzat és dús háttérnövényzet mellett érvényesül legszebben a sárga alapszín."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

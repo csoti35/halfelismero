@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Melanotaenia trifasciata",
+ "id": "melanotaenia-trifasciata",
+ "tipus": "hal",
+ "latin": "Melanotaenia trifasciata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Szalagos kalászhal",
+ "egyeb_nevek": [
+  "Háromsávos kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Ausztrália északi része (Northern Territory és Queensland folyói)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, robusztus és nagyon dinamikus mozgású faj. Csapatban érzi igazán jól magát, a hímek látványosan pózolnak egymásnak sérülések okozása nélkül.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.8,
+ "ph_max": 7.8,
+ "gh_min": 6,
+ "gh_max": 16,
+ "taplalek": "Mindenevő, jó étvágyú faj. Élő és fagyasztott tápok (szúnyoglárva, artémia, mysis), valamint spirulinás lemezes tápok kombinációját igényli.",
+ "tarsithato": [
+  "Nagyobb testű",
+  "békés pontylazacokkal",
+  "márnafélékkel",
+  "más kalászhalakkal és talajlakó harcsákkal."
+ ],
+ "kerulendo": [
+  "Kistestű garnélákkal",
+  "apró nanofajokkal",
+  "valamint félénk",
+  "lassú halakkal."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A tenyészállatokat bőséges élő eleséggel készítsük fel az ívásra.",
+  "Helyezzünk ki finom szálú növényeket (pl. jávai mohát) vagy ívatómopot az akvárium felsőbb rétegeibe is.",
+  "Az ívás több napon át tart, ragadós ikrákat szórnak el a növényzet közé.",
+  "Az ikrákat tartalmazó aljzatot vegyük ki és helyezzük át keltető tartályba gombaölő szerrel kezelt, enyhén szellőztetett vízbe.",
+  "Az ivadékok 6–8 nap után kelnek, eleinte finom infuzóriát, mikrotápot, majd keltetett artémiát adhatunk nekik."
+ ],
+ "ivari_kulonbseg": "A hímek jóval magasabb testűek, hátuk szembetűnően púposodó, úszóik nagyobbak és a testük, úszóik színe intenzívebb (populációtól függően vörös, arany vagy kék árnyalatú).",
+ "felismeres_jegyek": [
+  "Felnőtt korban kifejezetten magas, ovális profilú, oldalról lapított test.",
+  "Egy hangsúlyos, sötét hosszanti középsáv a testen, amelyet gyakran világosabb sávok határolnak.",
+  "Látványosan színezett, széles hát- és farok alatti úszók, gyakran sötét vagy vöröses szegéllyel.",
+  "Számos színváltozat létezik a származási folyó szerint (pl. Goyder River – mélyvörös; Coen River – sárgás)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia splendida",
+   "magyar_nev": "Keleti kalászhal",
+   "kulonbseg": "A trifasciata felnőtt korára sokkal mélyebb testalkatú, és a középsávja kontrasztosabb, sötétebb."
+  },
+  {
+   "latin": "Melanotaenia maccullochi",
+   "magyar_nev": "Törpe sávos kalászhal",
+   "kulonbseg": "Sokkal kisebb méretű (max. 7 cm), teste alacsonyabb, több vékony hosszanti sávval díszített."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bakteriális fertőzések a vízminőség romlása esetén",
+  "Kopoltyú- és bőrparaziták"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1900,
+ "ar_ft_max": 3800,
+ "tippek": [
+  "Vásárláskor érdemes rákérdezni a pontos folyótípusra (populációra), mert a színezet drasztikusan eltérhet (pl. Goyder River rendkívül vörös).",
+  "Hosszú (legalább 120-150 cm-es) medencét igényel, mert rendkívül gyors úszó.",
+  "Erős szűrésről és rendszeres részleges vízcseréről gondoskodjunk, mert érzékeny a szerves terhelésre."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

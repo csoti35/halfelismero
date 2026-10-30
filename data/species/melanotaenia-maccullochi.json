@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Melanotaenia maccullochi",
+ "id": "melanotaenia-maccullochi",
+ "tipus": "hal",
+ "latin": "Melanotaenia maccullochi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe szivárványhal",
+ "egyeb_nevek": [
+  "Macculloch szivárványhala"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Szivárványhalak",
+ "szarmazas": "Ausztrália és Pápua Új-Guinea",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon aktív, gyors mozgású, békés csapathal. Más békés fajokkal ideális társításra alkalmas, a növényzetet nem károsítja.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.8,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő. Szívesen fogyaszt minőségi lemezes és apró szemű granulált tápokat, élő és fagyasztott vízibolhát, artémiát, szúnyoglárvát.",
+ "tarsithato": [
+  "Békés díszmárnákkal",
+  "pontylazacokkal",
+  "páncélosharcsákkal",
+  "békés dániókkal és más hasonló méretű szivárványhalakkal."
+ ],
+ "kerulendo": [
+  "Nagy testű ragadozó halakkal",
+  "agresszív sügérekkel",
+  "valamint nagyon lassú vagy fátyolos úszójú fajokkal",
+  "amelyeket zavarhat a szivárványhalak állandó mozgása."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Kondicionáljuk a tenyészpárt vagy a kis csapatot változatos, élő és fagyasztott eleségekkel.",
+  "Helyezzünk ki egy finom szálú növényekkel (pl. jávai moha) vagy szintetikus ívatócsomóval (mop) felszerelt külön ívató akváriumot.",
+  "A reggeli órákban zajló nász során a ragadós ikrákat a növények közé szórják, naponta néhány szemet.",
+  "Az ikrákkal teli mopot vagy a tenyészállatokat távolítsuk el, mivel az ikrákat elfogyaszthatják.",
+  "A 7-10 nap múlva kikelő kishalakat az elúszást követően papucsállatkával és infuzóriával, később frissen keltetett artémiával neveljük."
+ ],
+ "ivari_kulonbseg": "A hímek teste magasabb felépítésű, színeik jóval élénkebbek, úszóik pirosas vagy sárgás szegélyűek. A nőstények fakóbbak és teltebb hasúak.",
+ "felismeres_jegyek": [
+  "Oldalán vízszintes, sötétbarna vagy vörösesbarna csíkok futnak végig ezüstös alapon.",
+  "Két hátúszó található a háti vonalon, egymáshoz közel elhelyezkedve.",
+  "Kopoltyúfedőjén jellegzetes narancssárga vagy vöröses folt látható.",
+  "Kisebb testalkatú és lekerekítettebb formájú a nagyobb rokonaihoz képest."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia praecox",
+   "magyar_nev": "Neon szivárványhal",
+   "kulonbseg": "A neon szivárványhal teste világító kék árnyalatú, míg a maccullochi csíkozott és ezüstös-barnás alapszínű."
+  },
+  {
+   "latin": "Melanotaenia splendida",
+   "magyar_nev": "Keleti szivárványhal",
+   "kulonbseg": "A splendida jóval nagyobbra nő (akár 12-14 cm) és robusztusabb testalkatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bakteriális úszórothadás rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Biztosítsunk számukra hosszú, nyílt úszóteret, mivel nagyon mozgékonyak.",
+  "Az akváriumot jól le kell fedni, mert megriadva könnyen kiugranak a vízből.",
+  "Rendszeres részleges vízcserékkel tartsuk tisztán és oxigéndúsan a vizet."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

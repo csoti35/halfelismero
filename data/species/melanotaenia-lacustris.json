@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Melanotaenia lacustris",
+ "id": "melanotaenia-lacustris",
+ "tipus": "hal",
+ "latin": "Melanotaenia lacustris",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tavi kalászhal",
+ "egyeb_nevek": [
+  "Kutubu-tavi kalászhal",
+  "Türkiz kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Pápua Új-Guinea (Kutubu-tó és kifolyása)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon aktív, békés csapathal. Élénk mozgása miatt kisebb, félénk halakat megijeszthet, de senkit sem bánt. Nagy úszóteret igényel.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; a fagyasztott és élő eleségeket (szúnyoglárva, artémia, daphnia) kifejezetten kedveli, de a minőségi száraztápokat is szívesen fogyasztja.",
+ "tarsithato": [
+  "Más kalászhalakkal",
+  "békés nagyobb pontylazacokkal",
+  "márnatermetűekkel",
+  "páncélosharcsákkal és békés sügérekkel."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú",
+  "lassú mozgású halakkal (pl. fátyolos fajok)",
+  "valamint apró nanofajokkal",
+  "amiket tápláléknak nézhet."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Kondicionáljuk a tenyészcsapatot élő és fagyasztott eleséggel külön akváriumban.",
+  "Helyezzünk ki ívatócsomót (finom szálú növényt vagy szintetikus fonalból készült mop-ot) az ívató akváriumba.",
+  "A reggeli órákban zajló ívás során a nőstény több napon át folyamatosan ragadós ikrákat rak a szálakra.",
+  "Az ikrákkal teli mopot naponta cseréljük és helyezzük át keltető akváriumba, hogy a szülők ne egyék meg.",
+  "Az ivadékok 7–10 nap múlva kelnek ki, indítóeleségként papucsállatkát vagy mikroméretű poreleséget igényelnek, majd frissen kelt artémiát."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal mélyebb hátvonalúak, magasabb testűek, intenzívebb kobaltkék és türkiz színezetűek, valamint úszóik hegyesebbek.",
+ "felismeres_jegyek": [
+  "Erősen oldalról lapított, felnőtt korban kifejezetten magas hátú testforma.",
+  "Ragyogó kobaltkék, zöldeskék vagy türkiz hátrész, amely a has felé ezüstös-sárgásfehérbe megy át.",
+  "Két részből álló hátúszó, az ivarérett hímeknél megnyúlt úszósugarakkal.",
+  "Nagy, enyhén felső állású száj és élénk, tágra nyíló kopoltyúfedők udvarláskor."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia praecox",
+   "magyar_nev": "Törpe kalászhal",
+   "kulonbseg": "Jóval kisebb termetű (legfeljebb 6-7 cm) és úszói élénkvörösek vagy narancssárgák."
+  },
+  {
+   "latin": "Melanotaenia splendida",
+   "magyar_nev": "Keleti kalászhal",
+   "kulonbseg": "Testszíne nem homogén kobaltkék/türkiz, hanem barnás-sárgás pettyezett sávozású."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius multifiliis)",
+  "Bakteriális oszloposodás (Columnaris)",
+  "Bársonybetegség (Oodinium)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kemény, enyhén lúgos és kristálytiszta, oxigéndús vizet igényel; a lágy, savas vízben megfakul és megbetegszik.",
+  "Biztosítsunk számára legalább 120 cm hosszú akváriumot a szabad kiúszáshoz.",
+  "A hímek rivalizálásakor mutatják a legszebb, ragyogó 'lámpás' homloksávjukat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

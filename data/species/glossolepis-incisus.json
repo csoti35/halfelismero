@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Glossolepis incisus",
+ "id": "glossolepis-incisus",
+ "tipus": "hal",
+ "latin": "Glossolepis incisus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Lazacvörös szivárványhal",
+ "egyeb_nevek": [
+  "Vörös szivárványhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Szivárványhalak",
+ "szarmazas": "Indonézia (Sentani-tó, Nyugat-Pápua)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de rendkívül gyors és nagyméretű csapathal. Étkezéskor mohó, de más fajokat nem bánt.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő. Szívesen fogyaszt minőségi száraztápokat, élő és fagyasztott szúnyoglárvákat, artémiát, valamint némi növényi kiegészítést.",
+ "tarsithato": [
+  "Nagyobb testű pontylazacokkal",
+  "díszmárnákkal",
+  "nagyobb páncélosharcsákkal",
+  "békés sügérekkel és más szivárványhalfajokkal."
+ ],
+ "kerulendo": [
+  "Kistestű nanofajok (pl. apró razbórák)",
+  "kisméretű törpe garnélák és lassú",
+  "stresszérzékeny halak."
+ ],
+ "szaporodas_mod": "ikrarakó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Tartsunk kifejlett, jól táplált egyedeket enyhén kemény, stabil vízben.",
+  "Helyezzünk ki nagy méretű ívatócsomókat a medencébe vagy helyezzünk ki egy tenyészpárt/triót egy legalább 60-80 literes ívatóba.",
+  "A hím hajnalban, látványos udvarlással csalja a növényzetbe a nőstényt, ahol ikrákat préselnek ki.",
+  "Az ikrák ragadós szálakkal tapadnak az aljzatra, az ikrás csomót gyűjtsük be vagy távolítsuk el a szülőket.",
+  "A kikelő apró ivadékot infuzóriával kezdjük nevelni, majd kb. egy hét után térhetünk át artémia lárvára."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek rendkívül magas hátúak és ragyogó lazacvörös színűek. A nőstények olajzöldes-sárgásbarna színűek, alacsonyabb testfelépítésűek.",
+ "felismeres_jegyek": [
+  "A kifejlett hímek teste rendkívül magas, korong alakhoz közelítő, jellegzetesen 'púpos'.",
+  "A hímek teljes teste és úszói lazacvörös, bíborvörös árnyalatúak, pikkelyeik ezüstösen csilloghatnak.",
+  "A nőstények és a fiatalok sárgás-olíva árnyalatúak, oldalukon enyhe ezüstös ragyogással.",
+  "Nagy, kidomborodó szemek és ferdén felfelé irányuló száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanotaenia boesemani",
+   "magyar_nev": "Boeseman szivárványhal",
+   "kulonbseg": "A Boeseman szivárványhal kétszínű (kék és narancssárga), míg a hím incisus egyöntetűen lazacvörös."
+  },
+  {
+   "latin": "Glossolepis wanamensis",
+   "magyar_nev": "Wanam-tavi szivárványhal",
+   "kulonbseg": "A wanamensis zöldes-kékes és sárgás árnyalatú, az úszói jóval szélesebbek és rojtosabb hatásúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fekélyek és fertőzések nem megfelelő vízminőség mellett",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Csak keményebb, tiszta, jól szűrt és rendszeresen cserélt vízben maradnak hosszú távon egészségesek.",
+  "A fiatal hímek színtelenek; a csodás vörös színezet és magas háti forma csak 1-1,5 éves korukra fejlődik ki teljesen.",
+  "Hosszú (legalább 120 cm-es) úszóteret igényelnek fürgeségük miatt."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

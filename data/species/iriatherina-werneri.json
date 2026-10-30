@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Iriatherina werneri",
+ "id": "iriatherina-werneri",
+ "tipus": "hal",
+ "latin": "Iriatherina werneri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fonalas szivárványhal",
+ "egyeb_nevek": [
+  "tollas kalászhal",
+  "lepke kalászhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Melanotaeniidae",
+ "csoport": "Kalászhalak",
+ "szarmazas": "Ausztrália, Pápua Új-Guinea",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, félénk rajhal. Szájmérete nagyon kicsi, a gyorsabb és agresszívabb fajok elöl elhúzódik és könnyen éhen maradhat.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Apró élő és fagyasztott eleségek (artemia naupliusz, rotatória, mikró), finomra őrölt lemezes tápok.",
+ "tarsithato": [
+  "Békés törpe lazacok",
+  "kistestű páncélosharcsák",
+  "Neocaridina garnélák",
+  "más apró kalászhalak."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "gyors vagy agresszív halak",
+  "úszócsipkedő fajok",
+  "sügérek."
+ ],
+ "szaporodas_mod": "ikrarako",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Készítsünk elő külön ívató akváriumot finom szálú növényekkel (pl. jávai moha) vagy ívatócsomóval (mop).",
+  "Kondicionáljuk a tenyészcsapatot bőséges élő eleséggel (papucsállatka, frissen kelt artémia).",
+  "Az ívás elhúzódó, a nőstény naponta csak néhány ikrát ragaszt a növények közé.",
+  "Az ikrákat vagy a szülőket naponta távolítsuk el, mivel hajlamosak az ikrafogyasztásra.",
+  "A kikelő apró ivadékot a rendkívül kicsi szájuk miatt kezdetben csak infuzóriával és zöldvízzel etethetjük."
+ ],
+ "ivari_kulonbseg": "A hímek hát- és farok alatti úszói rendkívül megnyúltak, szálasak és látványosabb színezetűek; a nőstények úszói rövidek, lekerekítettek, testük teltebb.",
+ "felismeres_jegyek": [
+  "Karcsú, oldalról kissé lapított ezüstös-sárgás test",
+  "A hímek első hátúszója vitorlaszerűen felmereszthető, a második hátúszó és a farok alatti úszó szálai feketésen megnyúltak",
+  "Líra alakú farokúszó sötét szegéllyel",
+  "Igen apró, csőszerű, felfelé álló szájnyílás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudomugil gertrudae",
+   "magyar_nev": "pöttyös kékszemű kalászhal",
+   "kulonbseg": "A pettyes kékszemű kalászhal teste pettyezett és kék szemű, hiányoznak a rendkívül hosszú, fonalas úszósugarak."
+  },
+  {
+   "latin": "Pseudomugil furcatus",
+   "magyar_nev": "villásfarkú kalászhal",
+   "kulonbseg": "A villásfarkú kalászhal sárga szárnyú mellúszókkal és villás farkúszóval rendelkezik, teste robusztusabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális úszórothadás rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A szűrés áramlását mérsékeljük, nem kedvelik az erős vízsodrást.",
+  "Szájuk mérete miatt a szokásos lemezes tápokat porrá kell törni etetés előtt.",
+  "A hímek lenyűgöző pózoló viselkedést mutatnak egymás felé, ha a rajban több hím is van."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}
