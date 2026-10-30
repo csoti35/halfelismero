@@ -1,0 +1,93 @@
+{
+ "id": "parambassis-ranga",
+ "tipus": "hal",
+ "latin": "Parambassis ranga",
+ "regi_latin_nevek": [
+  "Chanda ranga",
+  "Ambassis ranga"
+ ],
+ "magyar_nev": "Üveghal",
+ "egyeb_nevek": [
+  "Üvegsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Ambassidae (Üvegsügérfélék)",
+ "csoport": "Sügéralakúak",
+ "szarmazas": "Dél-Ázsia (India, Pakisztán, Thaiföld)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de félénk rajhal. Csak hasonló méretű és temperamentumú halakkal tartsuk együtt. A hímek ívási időszakban területvédők lehetnek.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 30,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, de preferálja az élő és fagyasztott eleséget (artémia, cyclops, vörös szúnyoglárva). A száraz tápot nehezen fogadja el.",
+ "tarsithato": [
+  "Dániók",
+  "békés márnák",
+  "harcsák",
+  "nagyobb testű lazacok."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek",
+  "túl nagy ragadozók",
+  "csipkelődős díszmárnák."
+ ],
+ "szaporodas_mod": "szabadon ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágyabb, enyhén savas víz és bőséges élő eleség az ívatáshoz.",
+  "Finom levelű növények vagy ívatórács kihelyezése az ikrák védelmében.",
+  "A reggeli napsütés vagy hirtelen vízhőmérséklet-emelkedés stimulálja az ívást.",
+  "Az ívás után a szülőket azonnal el kell távolítani.",
+  "Az ivadékok 24 órán belül kikelnek, apró élő eleséggel (papucsállatka) etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek úszóinak széle kékes szegélyű, testük sárgásabb/aranyosabb árnyalatú, a nőstények teltebbek és ezüstösebbek.",
+ "felismeres_jegyek": [
+  "Teljesen átlátszó test, láthatóak a belső szervek és a gerincoszlop.",
+  "Magas, oldalról lapított testforma.",
+  "Kettéosztott hátúszó, melynek első része tüskés.",
+  "Nagy szemek és felfelé álló száj.",
+  "Ezüstös csillogás a kopoltyúfedőn és a hasi részen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gymnochanda filamentosa",
+   "magyar_nev": "Szálas üvegsügér",
+   "kulonbseg": "A hímek hát- és farok alatti úszója megnyúlt, szálas sugarakat tartalmaz."
+  },
+  {
+   "latin": "Kryptopterus vitreolus",
+   "magyar_nev": "Üveg harcsa",
+   "kulonbseg": "Hosszúkás, harcsa alakú test, hosszú bajuszszálak, nincs hátúszója."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombásodás (rossz vízminőség esetén)",
+  "Bakteriális fertőzések a mesterségesen festett példányoknál"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Soha ne vásároljunk mesterségesen festett (neon színű csíkokkal ellátott) példányokat, mert ezek élettartama rövid és fogékonyak a betegségekre.",
+  "Sűrű növényzetet és sötét aljzatot igényelnek, hogy biztonságban érezzék magukat.",
+  "Bár elviselik az enyhén brakkvizet, édesvízben is tökéletesen tarthatóak hosszú távon.",
+  "Érzékenyek a hirtelen vízminőség-változásra, ezért csak beállt akváriumba telepítsük."
+ ],
+ "lista_nev": "Parambassis ranga",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

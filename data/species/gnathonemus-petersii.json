@@ -1,0 +1,80 @@
+{
+ "id": "gnathonemus-petersii",
+ "tipus": "hal",
+ "latin": "Gnathonemus petersii",
+ "regi_latin_nevek": [
+  "Mormyrus petersii"
+ ],
+ "magyar_nev": "Elefántorrú hal",
+ "lista_nev": "Gnathonemus petersii",
+ "egyeb_nevek": [
+  "Ormányoshal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mormyridae",
+ "csoport": "Egyéb édesvízi halak",
+ "szarmazas": "Nyugat- és Közép-Afrika folyói",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Éjszakai életmódot folytat. Fajttársaival szemben agresszív, elektromos jelekkel kommunikál és tájékozódik.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Élő és fagyasztott eleség (vörös szúnyoglárva, tubifex). Éjszaka táplálkozik.",
+ "tarsithato": [
+  "Békés közepes halakkal (pl. kongólazac",
+  "hátonúszó harcsa)."
+ ],
+ "kerulendo": [
+  "Más elefánthalak (agresszió)",
+  "agresszív sügérek",
+  "nagyon gyors evő halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban nem szaporodik. A természetben az esős évszak és az elektromos jelek változása váltja ki."
+ ],
+ "ivari_kulonbseg": "A hímek farok alatti úszójának széle homorú, a nőstényeké egyenes.",
+ "felismeres_jegyek": [
+  "Sötétbarna/fekete test. Az alsó ajak elefántormány-szerű nyúlvánnyá módosult. Két világos függőleges sáv a hát- és farok alatti úszó között. Villás farokúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Campylomormyrus elephas",
+   "magyar_nev": "Hosszúcsőrű elefánthal",
+   "kulonbseg": "Sokkal hosszabb, lefelé görbülő ormány."
+  },
+  {
+   "latin": "Mormyrus kannume",
+   "magyar_nev": "Csuka-elefánthal",
+   "kulonbseg": "Hosszabb test, hiányoznak a jellegzetes fehér sávok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrparaziták",
+  "Érzékenység a gyógyszerekre (réztartalmú szerekre)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 5000,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Aljzatnak kizárólag finom homokot használjunk, mert az ormánya sérülékeny.",
+  "Rendkívül intelligens hal, nagy agytömeggel; igényel búvóhelyeket (csövek, gyökerek).",
+  "Érzékeny a vízminőségre és a vegyszerekre, csak beállt akváriumba telepítsük."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

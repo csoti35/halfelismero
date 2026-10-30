@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Dario dario",
+ "id": "dario-dario",
+ "tipus": "hal",
+ "latin": "Dario dario",
+ "regi_latin_nevek": [
+  "Badis dario"
+ ],
+ "magyar_nev": "Skarlát badis",
+ "egyeb_nevek": [
+  "Pompás törpesügér",
+  "Scarlet badis"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Badidae",
+ "csoport": "Sügéralakúak",
+ "szarmazas": "India (Asszam, Nyugat-Bengál)",
+ "max_meret_cm": 2.0,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek erősen területvédők és egymással szemben agresszívek lehetnek, különösen kis akváriumban. Más apró, békés fajokkal jól megfér, de száraztápot ritkán fogad el, ami megnehezíti a tartását.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Kizárólag élő vagy fagyasztott apró eleség (artémia, daphnia, kopoltyúlábú rákok, férgek).",
+ "tarsithato": [
+  "Kisméretű",
+  "békés dániók",
+  "törpe rasborák",
+  "kisméretű garnélák (bár az újszülött garnélákat megeheti)."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "agresszív vagy gyorsan táplálkozó halak",
+  "amelyek eleszik előle a táplálékot."
+ ],
+ "szaporodas_mod": "Ikrázó, növényzetre vagy aljzatra szórja ikráit",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Különítsünk el egy hímet és egy-két nőstényt egy dúsan benövényesített ivatóakváriumban.",
+  "Lágyítsuk és enyhén savanyítsuk a vizet, emeljük a hőmérsékletet 24-25 °C-ra.",
+  "A hím násztánccal a finom levelű növények közé csalogatja a nőstényt, ahol sor kerül az ívásra.",
+  "Az ívás után a szülőket érdemes eltávolítani, mert megehetik az ikrákat.",
+  "Az ivadékok 2-3 nap múlva kelnek ki, és a szikzacskó felszívódása után papucsállatkával vagy mikroeleséggel etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek élénk piros-kék csíkosak és nagyobbak, a nőstények kisebbek, fakó szürkés-ezüstösek és mintázatlanok.",
+ "felismeres_jegyek": [
+  "Rendkívül kicsi, megnyúlt, oldalról lapított testforma",
+  "A hímek testén függőleges piros és türkizkék/fehér sávok váltakoznak",
+  "Az úszók szegélye a hímeknél élénk kék vagy fehéres",
+  "A nőstények teljesen színteleik, szürkés áttetszőek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dario hysginon",
+   "magyar_nev": "Vörös törpesügér",
+   "kulonbseg": "Egyszínűbb vöröses árnyalatú, hiányoznak róla a kifejezett kék függőleges sávok."
+  },
+  {
+   "latin": "Badis badis",
+   "magyar_nev": "Kékes törpesügér",
+   "kulonbseg": "Jelentősen nagyobb testméretű (up to 7-8 cm) és sötétebb kék/barna mintázatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Máj- és emésztőrendszeri panaszok nem megfelelő etetés miatt",
+  "Halgümőkór",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Ne próbáljuk száraz táppal etetni, mert éhen halhat; mindig legyen kéznél élő vagy jó minőségű fagyasztott kaja.",
+  "Biztosítsunk sok búvóhelyet, mohát és sűrű növényzetet a hímek territóriumharcainak csökkentésére.",
+  "Egy hímhez mindig több nőstényt tartsunk, vagy nagyobb akváriumban tartson több hímet a területek felosztásához."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

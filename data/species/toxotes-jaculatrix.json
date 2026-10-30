@@ -1,0 +1,81 @@
+{
+ "id": "toxotes-jaculatrix",
+ "tipus": "hal",
+ "latin": "Toxotes jaculatrix",
+ "regi_latin_nevek": [
+  "Sciaena jaculatrix"
+ ],
+ "magyar_nev": "Lövőhal",
+ "lista_nev": "Toxotes jaculatrix",
+ "egyeb_nevek": [
+  "Közönséges lövőhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Toxotidae",
+ "csoport": "Brakkvízi halak",
+ "szarmazas": "Délkelet-Ázsia, Ausztrália mangrove mocsarai",
+ "max_meret_cm": 20,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de a szájméreténél kisebb halakat zsákmánynak tekinti. Csoportban érzi jól magát.",
+ "rajhal": true,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 25,
+ "homerseklet_max": 30,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Rovarok, lárvák, felszíni élő eleség. Nehezen szoktatható száraz tápra.",
+ "tarsithato": [
+  "Árgushallal",
+  "holdhallal",
+  "nagyobb testű brakkvízi gébekkel."
+ ],
+ "kerulendo": [
+  "Felszínen úszó kistestű halak",
+  "agresszív területvédők."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban ritka. Nagy víztér és sós-édesvíz váltakozása stimulálhatja. Az ikrákat nem gondozzák."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem látható különbség.",
+ "felismeres_jegyek": [
+  "Ék alakú test",
+  "egyenes hátvonal. Hátúszó a test hátsó részén helyezkedik el. Ezüstös test 4-5 függőleges fekete folttal. Nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Toxotes chatareus",
+   "magyar_nev": "Hétfoltos lövőhal",
+   "kulonbseg": "A foltok között kisebb pettyek is találhatók, és édesvízben is tartósabb."
+  },
+  {
+   "latin": "Toxotes microlepis",
+   "magyar_nev": "Kispikkelyű lövőhal",
+   "kulonbseg": "Rövidebb hátúszó és eltérő foltmintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 9500,
+ "tippek": [
+  "Hagyjunk nagy légrést a vízfelszín és a fedőüveg között a vadászathoz.",
+  "Érdemes tücskökkel vagy legyekkel etetni, hogy láthassuk a különleges vízsugár-lövést.",
+  "Bár édesvízben is árulják, hosszú távon brakkvizet igényel."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

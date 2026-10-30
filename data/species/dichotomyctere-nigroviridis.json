@@ -1,0 +1,83 @@
+{
+ "id": "dichotomyctere-nigroviridis",
+ "tipus": "hal",
+ "latin": "Dichotomyctere nigroviridis",
+ "regi_latin_nevek": [
+  "Tetraodon nigroviridis"
+ ],
+ "magyar_nev": "Zöld gömbhal",
+ "egyeb_nevek": [
+  "Foltos zöld gömbhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Tetraodontidae",
+ "csoport": "Gömbhalak",
+ "szarmazas": "Délkelet-Ázsia (brakkvizek, torkolatok)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül agresszív és területvédő. Gyakran csipkedi más halak úszóit. Idősebb korára magányos életmódot igényel.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 15,
+ "gh_max": 30,
+ "taplalek": "Kizárólag élő és fagyasztott húsos koszt. Csigák, rákok elengedhetetlenek a fogaik koptatásához.",
+ "tarsithato": [
+  "Felnőtt korban leginkább fajspecifikus akváriumban",
+  "vagy más robusztus brakkvízi halakkal (pl. árgushallal)."
+ ],
+ "kerulendo": [
+  "Minden lassú",
+  "hosszú úszójú vagy kistestű hal."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Fogságban nagyon ritka. Sósabb vizet és lapos köveket igényelnek az íváshoz. A hím őrzi az ikrákat. Az ivadékok felnevelése brakkvízben történik."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem megkülönböztethetőek.",
+ "felismeres_jegyek": [
+  "Bunkó alakú test. Élénk sárgászöld háti rész",
+  "fekete kerek foltokkal. Hasa hófehér. Nagy",
+  "mozgékony szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dichotomyctere fluviatilis",
+   "magyar_nev": "Ceylon-szigeti gömbhal",
+   "kulonbseg": "Hosszúkásabb testalkat, a foltok mintázata eltérő."
+  },
+  {
+   "latin": "Tetraodon biocellatus",
+   "magyar_nev": "Nyolcas gömbhal",
+   "kulonbseg": "Kisebb marad, hátán nyolcas alakú sárga mintázat látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Túlnőtt fogak (ha nincs csiga)",
+  "Darakór",
+  "Belső paraziták"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Felnőtt korára feltétlenül brakkvizet (félsós vizet) igényel a túléléshez.",
+  "Rendszeresen etessünk csigákkal, különben a fogaik annyira megnőnek, hogy nem tudnak enni.",
+  "Nagyon intelligens halak, felismerik a gazdájukat.",
+  "Erős szűrés szükséges a fehérjedús táplálkozás miatt."
+ ],
+ "lista_nev": "Dichotomyctere nigroviridis",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

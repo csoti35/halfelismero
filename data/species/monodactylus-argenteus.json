@@ -1,0 +1,86 @@
+{
+ "id": "monodactylus-argenteus",
+ "tipus": "hal",
+ "latin": "Monodactylus argenteus",
+ "regi_latin_nevek": [
+  "Chaetodon argenteus"
+ ],
+ "magyar_nev": "Ezüst holdhal",
+ "egyeb_nevek": [
+  "Árgus-hal (tévesen)",
+  "Maláj holdhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Monodactylidae",
+ "csoport": "Brakkvízi halak",
+ "szarmazas": "Indo-csendes-óceáni térség, Vörös-tenger, Ausztrália partvidéke",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Aktív, gyors mozgású rajhal. Fiatalon békésebb, de a kifejlett példányok területvédők lehetnek és a kisebb halakat megehetik.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 9.0,
+ "gh_min": 15,
+ "gh_max": 30,
+ "taplalek": "Mindenevő (fagyasztott húsos eleségek, algás tabletták, forrázott zöldségek)",
+ "tarsithato": [
+  "Árgushalak",
+  "lövőhalak",
+  "nagyobb testű brakkvízi gébek",
+  "tengeri sügérek (ha tengeri vízben van)"
+ ],
+ "kerulendo": [
+  "Lassú mozgású halak",
+  "kis testű fajok",
+  "édesvízi növényes akvárium lakói"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen. Ívásukhoz tiszta tengervíz és nagy úszótér szükséges. Az ikrákat a szabad vízbe szórják. Az ivadékok felnevelése speciális planktonikus eleséget igényel."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem megkülönböztethetőek, a nőstények íváskor teltebbek.",
+ "felismeres_jegyek": [
+  "Erősen lapított",
+  "rombusz alakú test. Ezüstös alapszín. Két függőleges fekete sáv a fejen (egy a szemen",
+  "egy a kopoltyúfedőn keresztül). Sárgás hát- és farokalatti úszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Monodactylus sebae",
+   "magyar_nev": "Afrikai holdhal",
+   "kulonbseg": "Teste jóval magasabb, megnyúltabb, színe sötétebb szürke, sávjai hangsúlyosabbak."
+  },
+  {
+   "latin": "Pterophyllum scalare",
+   "magyar_nev": "Vitorláshal",
+   "kulonbseg": "Csak a testforma hasonló, de a vitorláshal édesvízi, és hosszú úszósugarai vannak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (főleg édesvízben tartva)",
+  "Oodinium",
+  "úszórothadás rossz vízminőség esetén."
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 8500,
+ "tippek": [
+  "Bár fiatalon édesvízben is árulják",
+  "hosszú távú egészségéhez elengedhetetlen a brakkvíz (félsós víz)",
+  "majd felnőttkorban a tengervíz. Nagyon nagy úszóteret igényelnek."
+ ],
+ "lista_nev": "Monodactylus argenteus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

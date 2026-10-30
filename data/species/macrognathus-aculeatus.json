@@ -1,0 +1,88 @@
+{
+ "id": "macrognathus-aculeatus",
+ "tipus": "hal",
+ "latin": "Macrognathus aculeatus",
+ "regi_latin_nevek": [
+  "Rhynchobdella aculeata"
+ ],
+ "magyar_nev": "Szemfoltos angolna",
+ "egyeb_nevek": [
+  "Szemfoltos tüskésangolna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mastacembelidae",
+ "csoport": "Tüskésangolnák",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia, Indonézia)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés a nagyobb halakkal, de a kisebb halakat és gerincteleneket levadássza. Éjszakai ragadozó, nappal gyakran a homokba fúrja magát.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Élő és fagyasztott eleség (vörös szúnyoglárva, tubifex, apró halak, garnéla). Száraz tápot ritkán fogad el.",
+ "tarsithato": [
+  "Nagyobb testű márnák",
+  "gurámik",
+  "sügérek",
+  "nagyobb harcsák."
+ ],
+ "kerulendo": [
+  "Apró pontylazacok",
+  "garnélák",
+  "guppik (elfogyasztja őket)."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban ritka. Lágy",
+  "enyhén savas víz és dús növényzet szükséges. Az ikrákat a növények közé szórják. Az ivadékok indítása nehéz",
+  "apró élő eleséget igényelnek."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, különösen ívási időszakban. A hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Megnyúlt",
+  "angolnaszerű test. Hosszú",
+  "mozgékony orrnyúlvány. A hátúszó hátsó részén 3-7 sötét",
+  "világos keretes szemfolt található. Alapszíne barnás-homokszínű."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Macrognathus siamensis",
+   "magyar_nev": "Sziámi tüskésangolna",
+   "kulonbseg": "A szemfoltok elhelyezkedése és a test mintázata eltérő, gyakran csíkosabb."
+  },
+  {
+   "latin": "Mastacembelus erythrotaenia",
+   "magyar_nev": "Tűzangolna",
+   "kulonbseg": "Sokkal nagyobbra nő, és vörös hosszanti csíkok díszítik a testét."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrsérülések az éles aljzat miatt",
+  "Gombásodás",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5500,
+ "tippek": [
+  "Használjunk finom homokot aljzatnak, mert szeretnek beleásni.",
+  "Az akváriumot szökésbiztosan le kell fedni, mert a legkisebb réseken is kimásznak.",
+  "Éjszaka etessük őket, amikor aktívak.",
+  "Kerüljük az éles köveket, mert felsérthetik érzékeny bőrüket."
+ ],
+ "lista_nev": "Macrognathus aculeatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

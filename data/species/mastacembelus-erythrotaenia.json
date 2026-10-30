@@ -1,0 +1,76 @@
+{
+ "id": "mastacembelus-erythrotaenia",
+ "tipus": "hal",
+ "latin": "Mastacembelus erythrotaenia",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tűzangolna",
+ "egyeb_nevek": [
+  "Vörössávos angolna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Mastacembelidae (Nyilasangolna-félék)",
+ "csoport": "Angolnaszerűek",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Indonézia)",
+ "max_meret_cm": 70,
+ "elettartam_ev": 15,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Félénk, de területvédő. A kisebb halakat megeszi. Idősebb korára agresszívabbá válhat a fajtársaival szemben.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Ragadozó (élő és fagyasztott húsos eleség, giliszta, garnéla, kishal).",
+ "tarsithato": [
+  "Nagy testű halakkal",
+  "pl. oszkár sügérrel",
+  "nagy gurámikkal",
+  "késhakkal."
+ ],
+ "kerulendo": [
+  "Kistestű csapathalak",
+  "lassú fenéklakók."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban szinte lehetetlen. Hatalmas úszótér és speciális környezeti ingerek kellenének. Ikrafalók."
+ ],
+ "ivari_kulonbseg": "A nőstények teltebbek, a hímek színe intenzívebb lehet, de külsőleg nehéz megkülönböztetni őket.",
+ "felismeres_jegyek": [
+  "Sötétbarna/fekete alapszín. Az orrtól a farokig futó élénkvörös hosszanti sávok és foltok. Megnyúlt",
+  "hegyes orr."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mastacembelus armatus",
+   "magyar_nev": "Óriás nyilasangolna",
+   "kulonbseg": "Nincsenek vörös sávjai, mintázata inkább hálózatos vagy foltos barna."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrfertőzések az éles dekorációk miatt",
+  "darakór",
+  "bélparaziták."
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "Búvóhelyekről (csövek, gyökerek) feltétlenül gondoskodni kell.",
+  "Nagyon érzékeny a vízminőségre és a gyógyszerekre (pikkelytelen hal).",
+  "Képes felismerni a gazdáját és kézből is ehet, de óvatosan a tüskéivel."
+ ],
+ "lista_nev": "Mastacembelus erythrotaenia",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

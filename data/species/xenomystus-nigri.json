@@ -1,0 +1,81 @@
+{
+ "id": "xenomystus-nigri",
+ "tipus": "hal",
+ "latin": "Xenomystus nigri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Afrikai késhat",
+ "egyeb_nevek": [
+  "Fekete késhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Notopteridae",
+ "csoport": "Késhalak",
+ "szarmazas": "Afrika (Nílus, Kongó, Niger folyók medencéje)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Éjszakai ragadozó. Fajon belül agresszív lehet, a kisebb halakat tápláléknak tekinti. Napközben rejtőzködik.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Élő és fagyasztott eleség (tubifex, szúnyoglárva, kishal), nehezen szoktatható száraz tápra.",
+ "tarsithato": [
+  "Nagyobb testű sügérekkel",
+  "nagyobb pontylazacokkal",
+  "harcsákkal."
+ ],
+ "kerulendo": [
+  "Apró halak (neonhal",
+  "guppi)",
+  "más késhalak."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között nagyon ritka. Lágy",
+  "savas víz és bőséges élő eleség szükséges. Az ikrákat tereptárgyakra rakják",
+  "a hím őrizheti őket."
+ ],
+ "ivari_kulonbseg": "Külsőleg szinte megkülönböztethetetlenek, az ívási időszakban a nőstények kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Nincs hátúszója. A farok alatti úszó és a farokúszó egybefüggő szalagot alkot. Teste oldalról erősen lapított. Színe sötétbarna vagy fekete."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Notopterus notopterus",
+   "magyar_nev": "Ázsiai késhal",
+   "kulonbseg": "Rendelkezik apró hátúszóval, és nagyobbra nő."
+  },
+  {
+   "latin": "Apteronotus albifrons",
+   "magyar_nev": "Fehérhomlokú késhal",
+   "kulonbseg": "Fehér csík a homlokon és két fehér gyűrű a faroknál."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések a sérült úszókon"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5500,
+ "tippek": [
+  "Biztosítsunk sok búvóhelyet (csövek, gyökerek).",
+  "Éjszaka etessük, amikor aktív.",
+  "Használjunk úszó növényeket a fény tompítására.",
+  "Akváriumát jól le kell fedni, mert kiugorhat."
+ ],
+ "lista_nev": "Xenomystus nigri",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

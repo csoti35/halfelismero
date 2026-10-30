@@ -1,0 +1,82 @@
+{
+ "lista_nev": "Aphyosemion striatum",
+ "id": "aphyosemion-striatum",
+ "tipus": "hal",
+ "latin": "Aphyosemion striatum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sávos fogasponty (killi)",
+ "egyeb_nevek": [
+  "csíkos killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok (killik)",
+ "szarmazas": "Közép-Afrika (Gabon és Egyenlítői-Guinea esőerdei patakjai)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nyugodt, békés természetű nem-éves killi faj. Hímek közt előfordulhat enyhe pózolás és kergetőzés, de komoly sérülést nem okoznak. Kisebb, békés fajokkal vagy fajspecifikus medencében tartható a legjobban.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "ragadozo",
+ "tarsithato": true,
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak",
+  "valamint csipkelődő díszmárványok."
+ ],
+ "szaporodas_mod": "ikrazo_novenyre",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Helyezzünk az akváriumba ívatócsomót (fonalmopot) vagy finom levelű növényeket (pl. jávai mohát).",
+  "A hím és nőstény naponta néhány ikrát ragaszt a növényzetre vagy mopra.",
+  "Az ikrákat kézzel vagy csipesszel összegyűjthetjük egy sekély, penészgátlóval kezelt keltetőtálba.",
+  "Vízben tartva az ikrák 12-16 nap alatt kikelnek 22-24 °C-on.",
+  "Az ivadékok rögtön képesek elfogyasztani a frissen kelt sórákot vagy papucsállatkát."
+ ],
+ "ivari_kulonbseg": "A hímek ragyogó fémes-zöldes alapszínűek, testükön hosszanti vörös sávokkal, úszóik hegyesek, sárga-vörös szegéllyel; a nőstények tompa barnásszürkék, lekerekített úszójúak, apró vörös pöttyökkel.",
+ "felismeres_jegyek": [
+  "Hosszanti, párhuzamos vörös csíkok a hímek oldalán",
+  "Hegyesedő, lantszerűvé alakuló farokúszó a kifejlett hímeknél",
+  "Élénk sárga és világoskék úszószegélyek",
+  "Karakteres felső állású száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aphyosemion australe",
+   "magyar_nev": "Fakírfogasponty (killi)",
+   "kulonbseg": "Az australe testén nincsenek folytonos vörös hosszanti csíkok, és a hímek farokúszója erősebben lant alakú."
+  },
+  {
+   "latin": "Fundulopanchax gardneri",
+   "magyar_nev": "Gardner-fogasponty (killi)",
+   "kulonbseg": "A gardneri jóval robusztusabb testalkatú, mintázatát inkább szabálytalan vörös pettyek alkotják, nem sávok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Darakór (Ichthyophthirius)",
+  "Bakteriális fertőzések meleg víz hatására"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Nem igényel magas hőmérsékletet, a 21-23 °C ideális számára a hosszú élethez.",
+  "Szereti a tompított világítást és az úszó növények által biztosított árnyékot.",
+  "Az akváriumot résmentesen fedni kell, mert a legkisebb nyíláson is kiugorhat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

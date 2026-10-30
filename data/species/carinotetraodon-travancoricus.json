@@ -1,0 +1,84 @@
+{
+ "id": "carinotetraodon-travancoricus",
+ "tipus": "hal",
+ "latin": "Carinotetraodon travancoricus",
+ "regi_latin_nevek": [
+  "Monotrete travancoricus"
+ ],
+ "magyar_nev": "Törpe gömbhal",
+ "egyeb_nevek": [
+  "Indiai törpe gömbhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Tetraodontidae",
+ "csoport": "Gömbhalak",
+ "szarmazas": "India (Kerala állam)",
+ "max_meret_cm": 3,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Bár kicsi, agresszív lehet. Csipkedi más halak úszóit. Fajon belül is kialakulhatnak hierarchikus harcok.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Élő és fagyasztott eleség (vörös szúnyoglárva, artémia, apró csigák). A száraz tápot szinte soha nem eszi meg.",
+ "tarsithato": [
+  "Legjobb fajspecifikus akváriumban. Esetleg gyors mozgású dániókkal vagy otocinclus harcsákkal."
+ ],
+ "kerulendo": [
+  "Lassú halak (pl. guppi",
+  "betta)",
+  "garnélák (megeszi őket)."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Dús növényzet (pl. jávai moha) szükséges. A hím udvarol a nősténynek",
+  "majd a moha közé ívnak. Az ikrákat érdemes különválasztani. Az ivadék frissen kelt artémiával etethető."
+ ],
+ "ivari_kulonbseg": "A hímek hasán egy sötét hosszanti csík látható, és a szemük mögött apró ráncok vannak. A nőstények kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Apró",
+  "tojásdad test. Aranybarna alapszín",
+  "sötétkék vagy fekete foltokkal. Nagy",
+  "egymástól függetlenül mozgó szemek. Nincs hasúszója."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Carinotetraodon lorteti",
+   "magyar_nev": "Vörösszemű gömbhal",
+   "kulonbseg": "Nagyobbra nő, és a szemei élénkvörösek."
+  },
+  {
+   "latin": "Colomesus asellus",
+   "magyar_nev": "Dél-amerikai gömbhal",
+   "kulonbseg": "Sokkal nagyobb, és jellegzetes fekete sávjai vannak a hátán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Belső paraziták (nagyon gyakori az import példányoknál)",
+  "Éhezés (válogatósság miatt)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Tiszta édesvízi faj, nem igényel sót!",
+  "Telepítsünk sok növényt, hogy a halak el tudjanak bújni egymás elől.",
+  "A csigák etetése fontos, de nem annyira kritikus a fogkoptatás miatt, mint a nagyobb fajoknál.",
+  "Vásárlás után érdemes belső paraziták ellen kezelni őket."
+ ],
+ "lista_nev": "Carinotetraodon travancoricus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

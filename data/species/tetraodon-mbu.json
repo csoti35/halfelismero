@@ -1,0 +1,74 @@
+{
+ "id": "tetraodon-mbu",
+ "tipus": "hal",
+ "latin": "Tetraodon mbu",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Mbu gömbhal",
+ "lista_nev": "Tetraodon mbu",
+ "egyeb_nevek": [
+  "Óriás gömbhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Tetraodontidae",
+ "csoport": "Gömbhalak",
+ "szarmazas": "Afrika (Kongó-medence, Tanganyika-tó)",
+ "max_meret_cm": 70,
+ "elettartam_ev": 15,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Magányos ragadozó, rendkívül intelligens, de minden lakótársat potenciális zsákmánynak vagy ellenségnek tekint.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 1000,
+ "homerseklet_min": 24,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Húsevő (kagylók, rákok, nagyobb csigák)",
+ "tarsithato": [
+  "Csak nagyon nagy akváriumban",
+  "kockázatosan"
+ ],
+ "kerulendo": [
+  "Minden más faj"
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban nem megoldott a hatalmas helyigény és az agresszió miatt."
+ ],
+ "ivari_kulonbseg": "Nem ismert.",
+ "felismeres_jegyek": [
+  "Hatalmas méret",
+  "labirintusszerű sárga mintázat sötét alapon",
+  "sárga has",
+  "nagy szemek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Tetraodon lineatus",
+   "magyar_nev": "Nílusi gömbhal",
+   "kulonbseg": "Hosszanti csíkos mintázat, valamivel kisebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fogtúlnövés",
+  "Nitrit-érzékenység",
+  "Bőrparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 45000,
+ "ar_ft_max": 120000,
+ "tippek": [
+  "Csak tapasztalt akvaristáknak, hatalmas medencébe ajánlott.",
+  "Képes felismerni a gazdáját, interaktív hal.",
+  "A fogak koptatása kemény héjú eleséggel létfontosságú."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

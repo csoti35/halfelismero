@@ -1,0 +1,82 @@
+{
+ "id": "eigenmannia-virescens",
+ "tipus": "hal",
+ "latin": "Eigenmannia virescens",
+ "regi_latin_nevek": [
+  "Sternopygus virescens"
+ ],
+ "magyar_nev": "Zöld üveg-késhal",
+ "lista_nev": "Eigenmannia virescens",
+ "egyeb_nevek": [
+  "Üveg késhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Sternopygidae",
+ "csoport": "Késhalak",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 35,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, félénk éjszakai hal. Csoportosan érzi jól magát, ellentétben sok más késhallal.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Élő és fagyasztott eleség (artémia, szúnyoglárva, daphnia)",
+ "tarsithato": [
+  "Békés",
+  "közepes testű halak",
+  "más késhalak"
+ ],
+ "kerulendo": [
+  "Agresszív sügérek",
+  "túl kicsi halak"
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Esős évszak szimulálása lágy vízzel és vízszint emeléssel.",
+  "Sűrű növényzet (pl. jávai moha) az ikrázáshoz.",
+  "Hajnali órákban történő ívás.",
+  "Az ikrák 3-4 nap alatt kelnek ki.",
+  "Az ivadékok apró planktonikus eleséget igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek kifejlett korukban hosszabbak és az elektromos kisüléseik frekvenciája eltérő.",
+ "felismeres_jegyek": [
+  "Áttetsző, enyhén zöldes vagy sárgás test.",
+  "Oldalán két-három sötét hosszanti csík fut végig.",
+  "Hosszú, ostorszerű farokrész.",
+  "Hátúszó és hasúszó hiányzik.",
+  "Folyamatosan hullámzó alsó úszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Eigenmannia lineata",
+   "magyar_nev": "Csíkos üveg-késhal",
+   "kulonbseg": "Erőteljesebb fekete sávok az oldalán."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrparaziták",
+  "Nitrit-érzékenység"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Csoportban tartsuk, mert magányosan nagyon félénk.",
+  "Gyenge világítást vagy úszónövényeket igényel.",
+  "Alacsony vezetőképességű vizet kedvel."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

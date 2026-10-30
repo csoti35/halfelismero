@@ -1,0 +1,88 @@
+{
+ "id": "elassoma-okefenokee",
+ "tipus": "hal",
+ "latin": "Elassoma okefenokee",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Okefenokee törpesügér",
+ "egyeb_nevek": [
+  "Okefenokee naphal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Elassomatidae",
+ "csoport": "Észak-amerikai törpesügérek",
+ "szarmazas": "USA (Florida, Georgia)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de a hímek területvédők. Kis mérete miatt csak hasonlóan apró és nyugodt halakkal tartható együtt, de leginkább fajspecifikus akváriumba való.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 10,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Kizárólag élő eleség (artémia, daphnia, cyclops, apró tubifex). A száraz tápot ritkán fogadja el.",
+ "tarsithato": [
+  "Más Elassoma fajok",
+  "apró razborák",
+  "törperizshalak",
+  "garnélák (az ivadékot megeheti)."
+ ],
+ "kerulendo": [
+  "Nagyobb vagy agresszív halak",
+  "élénk úszók",
+  "amelyek eleszik előle a táplálékot."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Sűrű növényzet (főleg mohák) biztosítása az ívató akváriumban.",
+  "A hím násztánccal csalogatja a nőstényt a növények közé.",
+  "Az ikrákat a növények közé szórják, a hím rövid ideig őrizheti a területet.",
+  "Az ikrák 2-3 nap alatt kelnek ki a hőmérséklettől függően.",
+  "Az ivadékok apró élő eleséggel (papucsállatka, frissen kelt artémia) nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek nászidőszakban mélyfekete színt öltenek, testükön irizáló kék foltokkal. A nőstények jelentéktelenebb barnás-szürkés színűek, teltebbek.",
+ "felismeres_jegyek": [
+  "Apró, zömök testforma.",
+  "A hímek alapszíne sötét, kék pikkelysorokkal díszítve.",
+  "Nincs oldalvonaluk.",
+  "Lekerekített farokúszó.",
+  "A hátúszó és a farok alatti úszó egymással szemben helyezkedik el."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Elassoma evergladei",
+   "magyar_nev": "Floridai törpesügér",
+   "kulonbseg": "A hímeknél hiányoznak a kék foltok a fejen, az okefenokee hímjei színesebbek."
+  },
+  {
+   "latin": "Elassoma gilberti",
+   "magyar_nev": "Öböl-parti törpesügér",
+   "kulonbseg": "Külsőre szinte azonos, de a gilberti hímjeinek hátúszójában kevesebb lágy sugár található."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Bélparaziták (válogatós etetés miatt)",
+  "Gombásodás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Igénylik a téli pihenőt (alacsonyabb hőmérsékletet) a sikeres tavaszi szaporodáshoz.",
+  "Sűrűn beültetett, árnyékos akváriumban érzik magukat biztonságban.",
+  "Ne tartsuk túl meleg vízben hosszú távig, mert felgyorsul az anyagcseréjük és hamar elpusztulnak."
+ ],
+ "lista_nev": "Elassoma okefenokee",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

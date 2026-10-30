@@ -1,0 +1,83 @@
+{
+ "id": "scatophagus-argus",
+ "tipus": "hal",
+ "latin": "Scatophagus argus",
+ "regi_latin_nevek": [
+  "Chaetodon argus"
+ ],
+ "magyar_nev": "Pettyes argushal",
+ "lista_nev": "Scatophagus argus",
+ "egyeb_nevek": [
+  "Pöttyös árgushal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Scatophagidae",
+ "csoport": "Brakkvízi halak",
+ "szarmazas": "Indo-csendes-óceáni térség, torkolatvidékek",
+ "max_meret_cm": 30,
+ "elettartam_ev": 15,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Aktív, falánk hal, amely fajtársaival szemben csipkelődő lehet. Idősebb korára területvédővé válhat.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 15,
+ "gh_max": 30,
+ "taplalek": "Mindenevő, nagy mennyiségű növényi táplálékot és élő/fagyasztott eleséget igényel.",
+ "tarsithato": [
+  "Hasonló méretű brakkvízi halakkal (pl. lövőhalak",
+  "holdhalak)."
+ ],
+ "kerulendo": [
+  "Lassú",
+  "kistestű halak",
+  "finomlevelű növények (megeszik)."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen. A természetben a tengerbe vándorolnak ívni. Hormonális kezeléssel kísérleteznek."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem megkülönböztethetőek.",
+ "felismeres_jegyek": [
+  "Korong alakú",
+  "oldalról erősen lapított test. Ezüstös vagy aranyos alapszín fekete pöttyökkel. Két részre osztott hátúszó tüskékkel. Kicsi",
+  "csúcsba nyíló száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Scatophagus tetracanthus",
+   "magyar_nev": "Sávos árgushal",
+   "kulonbseg": "Pöttyök helyett függőleges sötét sávok díszítik a testét."
+  },
+  {
+   "latin": "Selenotoca multifasciata",
+   "magyar_nev": "Ezüst árgushal",
+   "kulonbseg": "Nyúlánkabb testalkat, finomabb csíkozás és pöttyözés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (főleg édesvízben tartva)",
+  "Oodinium",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Felnőtt korban mindenképpen brakkvizet (félsós vizet) igényelnek a hosszú élethez.",
+  "Rendkívül nagy a helyigényük és a biológiai terhelésük, erős szűrés szükséges.",
+  "Vigyázat: a hátúszó tüskéi enyhén mérgezőek, szúrásuk fájdalmas!"
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

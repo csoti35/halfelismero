@@ -1,0 +1,80 @@
+{
+ "id": "colomesus-asellus",
+ "tipus": "hal",
+ "latin": "Colomesus asellus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Dél-amerikai gömbhal",
+ "lista_nev": "Colomesus asellus",
+ "egyeb_nevek": [
+  "Amazonaszi gömbhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Tetraodontidae",
+ "csoport": "Gömbhalak",
+ "szarmazas": "Dél-Amerika (Amazonas medence)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békésebb, mint a legtöbb gömbhal, de az úszócsipkedésre hajlamos. Nagyon aktív úszó.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Húsevő (csigák, rákok, fagyasztott eledel)",
+ "tarsithato": [
+  "Gyors mozgású pontylazacok",
+  "harcsák"
+ ],
+ "kerulendo": [
+  "Hosszú úszójú vagy lassú halak"
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen. A természetben vándorolnak az íváshoz. Hormonális kezeléssel próbálkoznak."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem megkülönböztethetőek.",
+ "felismeres_jegyek": [
+  "Zömök test",
+  "sárgás-zöldes alapszín",
+  "öt vastag fekete keresztsáv a háton",
+  "folyamatosan mozgó szemek",
+  "csőrszerű száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Colomesus psittacus",
+   "magyar_nev": "Papagáj-gömbhal",
+   "kulonbseg": "Sokkal nagyobbra nő és brakkvízi/tengeri faj."
+  },
+  {
+   "latin": "Dichotomyctere nigroviridis",
+   "magyar_nev": "Zöld gömbhal",
+   "kulonbseg": "Fekete pöttyös a háta, nem sávos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fogtúlnövés",
+  "Darakór",
+  "Bélférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Rendszeresen adjunk nekik csigát, hogy koptassák a fogaikat.",
+  "Erős szűrést igényelnek a nagy anyagcsere miatt.",
+  "Tartsuk legalább 3-5 fős csapatban."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

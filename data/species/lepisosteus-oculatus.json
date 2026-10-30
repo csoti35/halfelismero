@@ -1,0 +1,87 @@
+{
+ "id": "lepisosteus-oculatus",
+ "tipus": "hal",
+ "latin": "Lepisosteus oculatus",
+ "regi_latin_nevek": [
+  "Cylindrosteus agassizii"
+ ],
+ "magyar_nev": "Pettyes kajmánhal",
+ "lista_nev": "Lepisosteus oculatus",
+ "egyeb_nevek": [
+  "Foltos kajmánhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lepisosteidae",
+ "csoport": "Kajmánhalak",
+ "szarmazas": "Észak-Amerika",
+ "max_meret_cm": 60,
+ "elettartam_ev": 18,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Lassan mozgó, de falánk ragadozó. Minden halat megeszik, ami befér a szájába. Erősen területvédő lehet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 1000,
+ "homerseklet_min": 12,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő (halak, rákok, rovarok, nagyobb fagyasztott húsok)",
+ "tarsithato": [
+  "Csak hasonló méretű",
+  "robusztus halakkal (pl. nagy sügérek",
+  "ráják)"
+ ],
+ "kerulendo": [
+  "Bármi",
+  "ami kisebb nála"
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen.",
+  "Hatalmas medence vagy kerti tó szükséges.",
+  "Hideg teleltetés utáni hőmérsékletemelkedés váltja ki.",
+  "Az ikrák mérgezőek lehetnek.",
+  "Az ivadékok gyorsan nőnek és kannibálok."
+ ],
+ "ivari_kulonbseg": "A nőstények általában nagyobbak és teltebbek a hímeknél.",
+ "felismeres_jegyek": [
+  "Hosszú, hengeres test.",
+  "Megnyúlt, csőrszerű állkapocs sok apró foggal.",
+  "A testet és az úszókat sötét, kerek foltok borítják.",
+  "Kemény, rombusz alakú (ganoid) pikkelyek.",
+  "A hátúszó és a farok alatti úszó a test hátsó részén, egymással szemben van."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Lepisosteus osseus",
+   "magyar_nev": "Hosszúorrú kajmánhal",
+   "kulonbseg": "Sokkal hosszabb és vékonyabb arcorr."
+  },
+  {
+   "latin": "Atractosteus spatula",
+   "magyar_nev": "Óriás kajmánhal",
+   "kulonbseg": "Sokkal szélesebb arcorr, hatalmasra nő (akváriumba alkalmatlan)."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Sérülések a hirtelen úszás miatt (beveri az orrát)",
+  "Gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 15000,
+ "ar_ft_max": 45000,
+ "tippek": [
+  "Csak tapasztalt tartóknak, hatalmas bemutató akváriumokba ajánlott.",
+  "Az akváriumot le kell fedni, mert kiváló ugró.",
+  "Ne etessük túl, mert hajlamos az elhízásra."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

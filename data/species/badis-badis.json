@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Badis badis",
+ "id": "badis-badis",
+ "tipus": "hal",
+ "latin": "Badis badis",
+ "regi_latin_nevek": [
+  "Labrus badis"
+ ],
+ "magyar_nev": "Kaméleonhal",
+ "egyeb_nevek": [
+  "kaméleonhal",
+  "törpe fésűssügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Badidae",
+ "csoport": "Egyéb labirintkopoltyús-alkatúak / sügéralkatúak",
+ "szarmazas": "Dél-Ázsia (India, Banglades, Nepál sekély, lassú folyású vizei)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Visszahúzódó, kissé félénk, fenékközeli életmódot folytató ragadozó hal. A hímek kisebb territóriumot alakítanak ki, és védik a búvóhelyüket, de más fajokkal békések.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 6.5,
+ "ph_max": 7.8,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "ragadozo",
+ "tarsithato": true,
+ "kerulendo": [
+  "Domináns fenéklakók",
+  "agresszív nagytestű sügérek és gyors",
+  "tolakodó rajhalak",
+  "amelyek eleszik előle az élelmet."
+ ],
+ "szaporodas_mod": "ikrazo_barlangba",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Helyezzünk az akváriumba kisméretű barlangokat, kerámia csöveket vagy felfordított virágcserépdarabokat.",
+  "Kondicionáljuk a párt bőséges élő eleséggel (tubifex, szúnyoglárva).",
+  "Az ívás a barlang mennyezetére vagy falára történik, 30-100 ikrát raknak.",
+  "Az ikrákat és a frissen kelt lárvákat kizárólag a hím gondozza és védi agresszívan.",
+  "Az elúszó kishalakat apró élő eleséggel (papucsállatka, mikró, artémia naupliusz) kell etetni."
+ ],
+ "ivari_kulonbseg": "A hímek domináns állapotban mélykék vagy feketéskék színűek kék irizáló úszókkal, és kissé homorú a hasvonaluk; a nőstények tompább szürkésbarnák, kerekebb testűek és rövidebb úszójúak.",
+ "felismeres_jegyek": [
+  "Hosszúkás, enyhén zömök, oldalról lapított test",
+  "A hátúszó hosszú, szinte a faroktőig ér",
+  "Színváltoztató képesség (hangulatfüggően a fakó barnától a koromfeketés kékig)",
+  "Jellegzetes, lesből támadó lassú mozgás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dario dario",
+   "magyar_nev": "Skarlát lazacsügér",
+   "kulonbseg": "A Dario dario jóval kisebb (max. 2,5-3 cm), vörös alapszínű, kékes sávokkal."
+  },
+  {
+   "latin": "Badis ruber",
+   "magyar_nev": "Vörös kék sügér",
+   "kulonbseg": "A testen hangsúlyos vörösesbarna foltok és csíkok találhatók a kék irizálás helyett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták (száraztáp megtagadása miatti éhezés köveztében fellépő leromlás)",
+  "Darakór (Ichthyophthirius)",
+  "Gombás megbetegedések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kiváló csigaírtó, előszeretettel fogyasztja az akváriumi apró csigákat (pl. hólyagcsiga).",
+  "A granulátumot vagy lemezes tápot a legtöbb egyed egyáltalán nem hajlandó megenni; fagyasztott vagy élő táplálék szükséges.",
+  "Sűrű növényesítéssel és sok barlanggal csökkenthető a hal természetes félénksége."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

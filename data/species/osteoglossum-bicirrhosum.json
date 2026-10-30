@@ -1,0 +1,84 @@
+{
+ "id": "osteoglossum-bicirrhosum",
+ "tipus": "hal",
+ "lista_nev": "Osteoglossum bicirrhosum",
+ "latin": "Osteoglossum bicirrhosum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Ezüst arowana",
+ "egyeb_nevek": [
+  "Csontnyelvű hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Osteoglossidae",
+ "csoport": "Csontnyelvűek",
+ "szarmazas": "Dél-Amerika (Amazonas medencéje)",
+ "max_meret_cm": 100,
+ "elettartam_ev": 15,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Ragadozó, a kisebb halakat megeszi. Fajon belül agresszív lehet, de más nagytestű halakkal jól tartható.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 1000,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Ragadozó (halak, rovarok, rákok, fagyasztott eledel)",
+ "tarsithato": [
+  "Nagytestű sügérek",
+  "ráják",
+  "nagyobb harcsák"
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "agresszív területvédő sügérek"
+ ],
+ "szaporodas_mod": "Szájköltő",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Hatalmas méretű ívató medence szükséges",
+  "A hím a szájában költi ki az ikrákat",
+  "Az ivadékok nagy szikzacskóval kelnek ki",
+  "A szikzacskó felszívódása után apró halakkal etethetők"
+ ],
+ "ivari_kulonbseg": "A hímek alsó állkapcsa hosszabb, testük nyúlánkabb",
+ "felismeres_jegyek": [
+  "Hosszú, szalagszerű ezüstös test",
+  "Felfelé nyíló hatalmas száj",
+  "Az állkapcson két érzékelő bajuszszál",
+  "Hosszú hát- és farok alatti úszó, mely majdnem összeér a farokúszóval"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Osteoglossum ferreirai",
+   "magyar_nev": "Fekete arowana",
+   "kulonbseg": "Fiatalon fekete sárga csíkkal, felnőttként sötétebb tónusú"
+  },
+  {
+   "latin": "Scleropages formosus",
+   "magyar_nev": "Ázsiai arowana",
+   "kulonbseg": "Pikkelyei nagyobbak és színesebbek, teste zömökebb"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Szemleesés (Drop eye)",
+  "Gombásodás",
+  "Hámférgesség"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 15000,
+ "ar_ft_max": 45000,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert kiváló ugró",
+  "Hatalmas szűrőkapacitás szükséges a nagy fehérjebevitel miatt",
+  "Fiatalon érzékeny a vízminőségre"
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

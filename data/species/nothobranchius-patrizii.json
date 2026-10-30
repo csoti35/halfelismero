@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Nothobranchius patrizii",
+ "id": "nothobranchius-patrizii",
+ "tipus": "hal",
+ "latin": "Nothobranchius patrizii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Patrizi-fogasponty (killi)",
+ "egyeb_nevek": [
+  "kékfarkú nothobranchius"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok (killik)",
+ "szarmazas": "Kelet-Afrika (Szomália, Kenya időszakos mocsarai)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1.2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Fajtársaival szemben a hímek territoriálisak lehetnek, de komoly sérülést ritkán okoznak. Éves faj, élettartama természetben a pocsolyák kiszáradásához kötött, akváriumban is rövid életű. Leginkább fajspecifikus akváriumban érzi jól magát.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "ragadozo",
+ "tarsithato": false,
+ "kerulendo": [
+  "Gyors úszású",
+  "csipkelődő díszmárványok",
+  "nagytestű sügérek",
+  "valamint száraztápot kizárólagosan fogyasztó társítások."
+ ],
+ "szaporodas_mod": "ikrazo_talajba",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Helyezzünk ki egy hímet 2-3 nősténnyel egy tőzeggel teli tálcát tartalmazó ívató akváriumba.",
+  "Az ívási időszak után szűrjük le a tőzeget egy finom hálón, és nyomkodjuk ki belőle a felesleges vizet kíméletesen.",
+  "Csomagoljuk a nedves (dohánynedves) tőzeget zárható műanyag tasakba, és tároljuk 22-25 °C-on 2-4 hónapig (diapauza).",
+  "Az embrió szemfoltjának megjelenése után öntsünk rá hidegebb, lágy vizet; az ivadékok pár órán belül kikelnek.",
+  "A frissen kelt ivadékot rögtön etethetjük frissen keltetett artémia naupliuszokkal."
+ ],
+ "ivari_kulonbseg": "A hímek teste élénk kékesszürke és vörös pettyes, úszóik feltűnőek, a farokúszó felső szegélye világoskék, közepe vöröses; a nőstények kisebbek, fakó szürkésbarnák, mintázatlanok.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról lapított testforma",
+  "A hím farokúszója lekerekített, kontrasztos sötétvörös és kék sávokkal",
+  "A hátúszó jóval a test hátulsó harmadán helyezkedik el",
+  "A nőstény színtelen, áttetsző úszójú és jelentősen kisebb"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nothobranchius guentheri",
+   "magyar_nev": "Günther-fogasponty (killi)",
+   "kulonbseg": "A Günther-fogasponty farokúszója szinte teljesen telt vörös, szegélye sötét, míg a patriziinál erősebb a kék árnyalat."
+  },
+  {
+   "latin": "Nothobranchius rachovii",
+   "magyar_nev": "Rachow-fogasponty (killi)",
+   "kulonbseg": "A Rachow-fogasponty teste élénkebb narancsos-türkiz sávos mintázatú, nem homogén pettyezett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór (Ichthyophthirius)",
+  "Bársonybetegség (Oodinium)",
+  "Bakteriális úszórothadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Szinte kizárólag élő és fagyasztott táplálékot (pl. artémia, grindal, cyclops) fogad el, száraztápot ritkán.",
+  "Fedjük le szorosan az akváriumot, mert hajlamos a kiugrásra.",
+  "A vizet tartsuk tisztán, de a túlzott áramlást kerüljük."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

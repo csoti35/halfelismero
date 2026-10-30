@@ -1,0 +1,75 @@
+{
+ "id": "pantodon-buchholzi",
+ "tipus": "hal",
+ "latin": "Pantodon buchholzi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pillangóhal",
+ "egyeb_nevek": [
+  "Pillangóhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pantodontidae",
+ "csoport": "Csontnyelvű-alakúak",
+ "szarmazas": "Nyugat-Afrika",
+ "max_meret_cm": 12,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "A felszín alatt mozdulatlanul várakozó ragadozó. Más felszíni halakkal szemben területvédő lehet, de alapvetően békés.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 25,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Rovarok, tücskök, legyek, vízfelszíni élő eleség. Száraz tápot ritkán fogad el.",
+ "tarsithato": [
+  "Alsó és középső zónában úszó békés halakkal (pl. kongólazac",
+  "páncélosharcsák)."
+ ],
+ "kerulendo": [
+  "Csipkedős halak (pl. szumátrai díszmárna)",
+  "más felszíni halak (pl. baltahasú halak)."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Lágy",
+  "savas víz és magas hőmérséklet kell. Az ikrák a felszínen lebegnek. A szülőket el kell távolítani. Az ivadékok etetése nehéz (muslica)."
+ ],
+ "ivari_kulonbseg": "A hím farok alatti úszójának széle csipkézett, a nőstényé egyenes.",
+ "felismeres_jegyek": [
+  "Hatalmas",
+  "szárnyszerű mellúszók. Felfelé néző száj. Lapos hátvonal. Hosszú",
+  "fonalszerű úszósugarak a hasi úszókon."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gasteropelecus sternicla",
+   "magyar_nev": "Szekercelazac",
+   "kulonbseg": "Sokkal kisebb, ezüstös színű, és pontylazac."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Az akváriumot résmentesen le kell fedni, mert kiváló ugró.",
+  "Sok úszó növényt igényel a biztonságérzethez.",
+  "Élő rovarokkal való etetés elengedhetetlen a jó kondícióhoz."
+ ],
+ "lista_nev": "Pantodon buchholzi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

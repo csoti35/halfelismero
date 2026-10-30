@@ -1,0 +1,80 @@
+{
+ "id": "potamotrygon-motoro",
+ "tipus": "hal",
+ "latin": "Potamotrygon motoro",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Motoró rája",
+ "lista_nev": "Potamotrygon motoro",
+ "egyeb_nevek": [
+  "Dél-amerikai folyamirája"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Potamotrygonidae",
+ "csoport": "Porcos halak",
+ "szarmazas": "Dél-Amerika (Amazonas, Paraná)",
+ "max_meret_cm": 60,
+ "elettartam_ev": 15,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés a nagy halakkal, de minden kisebb halat megeszik. Területvédő lehet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 800,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 3,
+ "gh_max": 10,
+ "taplalek": "Húsevő (halak, giliszta, garnéla, kagyló)",
+ "tarsithato": [
+  "Arowana",
+  "nagy sügérek",
+  "nagy harcsák"
+ ],
+ "kerulendo": [
+  "Aljzaton lakó kisebb halak",
+  "agresszív sügérek"
+ ],
+ "szaporodas_mod": "elevenszülő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Belső megtermékenyítés. A nőstény 3-4 hónap után hozza világra a teljesen kifejlett kis rájákat."
+ ],
+ "ivari_kulonbseg": "A hímeknek módosult hasúszóik (clasper) vannak a faroktőnél.",
+ "felismeres_jegyek": [
+  "Kerek testkorong",
+  "barna alapszín narancssárga-fekete gyűrűs foltokkal",
+  "tüskés farok."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Potamotrygon leopoldi",
+   "magyar_nev": "Xingu-rája",
+   "kulonbseg": "Fekete alapon fehér pöttyös."
+  },
+  {
+   "latin": "Potamotrygon hystrix",
+   "magyar_nev": "Hystrix rája",
+   "kulonbseg": "Kisebb méretű, finomabb mintázatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombásodás",
+  "Ammóniamérgezés",
+  "Mechanikai sérülések a korongon"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 60000,
+ "ar_ft_max": 150000,
+ "tippek": [
+  "Finom homok aljzat kötelező, hogy ne sérüljön a hasuk.",
+  "A farkukon lévő tüske mérgező, óvatosan kezeljük!",
+  "Hatalmas szűrés és heti nagy vízcserék szükségesek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

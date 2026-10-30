@@ -1,0 +1,81 @@
+{
+ "id": "polypterus-ornatipinnis",
+ "tipus": "hal",
+ "lista_nev": "Polypterus ornatipinnis",
+ "latin": "Polypterus ornatipinnis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Díszes sokúszós angolna",
+ "egyeb_nevek": [
+  "Márványos sokúszós hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Polypteridae",
+ "csoport": "Sokúszós halak",
+ "szarmazas": "Afrika (Kongó-medence)",
+ "max_meret_cm": 60,
+ "elettartam_ev": 20,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Magányos ragadozó, a kisebb halakat levadássza. Saját fajtársaival szemben területvédő lehet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 25,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 25,
+ "taplalek": "Húsevő (halhús, rákok, nagyobb rovarlárvák)",
+ "tarsithato": [
+  "Hasonló méretű robusztus halak"
+ ],
+ "kerulendo": [
+  "Minden",
+  "ami a száján befér"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyon nehéz akváriumban szaporítani",
+  "Lágy víz és bőséges élő eleség szükséges",
+  "Az ikrákat növények közé szórják",
+  "Az ivadékok nevelése apró élő eleséggel történik"
+ ],
+ "ivari_kulonbseg": "A hímek farok alatti úszója jóval szélesebb",
+ "felismeres_jegyek": [
+  "Sárga és fekete márványozott mintázat",
+  "Hengeres, erőteljes testfelépítés",
+  "A fejen is látható hálózatos minta",
+  "9-11 különálló hátúszótüske"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Polypterus delhezi",
+   "magyar_nev": "Sávos sokúszós hal",
+   "kulonbseg": "Szürke alapszínen függőleges fekete sávok"
+  },
+  {
+   "latin": "Polypterus endlicherii",
+   "magyar_nev": "Endlicher sokúszós hala",
+   "kulonbseg": "Sokkal nagyobbra nő, feje lapítottabb"
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Külső paraziták",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 8000,
+ "ar_ft_max": 18000,
+ "tippek": [
+  "Búvóhelyekről (csövek, gyökerek) gondoskodni kell",
+  "Éjszaka aktívabb, etetése lámpaoltáskor javasolt",
+  "A kifejlett példányok rendkívül erősek, elmozdíthatják a dekorációt"
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}
