@@ -1,7 +1,36 @@
 {
 "frissitve": "2026-10-30",
-"darab": 350,
+"darab": 383,
 "fajok": [
+{
+"id": "abactochromis-labrosus",
+"tipus": "hal",
+"latin": "Abactochromis labrosus",
+"magyar_nev": "Vastagajkú malawi sügér",
+"egyeb_nevek": [
+"Vastagajkú bölcsőszájú hal"
+],
+"regi_latin_nevek": [
+"Cyrtocara labrosa",
+"Melanochromis labrosus"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Malawi-tó)",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
+"ellenorzott": false
+},
 {
 "id": "abramites-hypselonotus",
 "tipus": "hal",
@@ -115,6 +144,63 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "altolamprologus-calvus",
+"tipus": "hal",
+"latin": "Altolamprologus calvus",
+"magyar_nev": "Púposfejű sügér",
+"egyeb_nevek": [
+"Calvus sügér"
+],
+"regi_latin_nevek": [
+"Lamprologus calvus"
+],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Afrikai sügérek)",
+"max_meret_cm": 14,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 3000,
+"ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "altolamprologus-compressiceps",
+"tipus": "hal",
+"latin": "Altolamprologus compressiceps",
+"magyar_nev": "Lapossügér",
+"egyeb_nevek": [
+"Tanganyikai lapossügér",
+"Kompresszicepsz"
+],
+"regi_latin_nevek": [
+"Lamprologus compressiceps"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
 "ellenorzott": false
 },
 {
@@ -1068,6 +1154,32 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1800,
 "ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
+"id": "aulonocranus-dewindti",
+"tipus": "hal",
+"latin": "Aulonocranus dewindti",
+"magyar_nev": "Dewindt-sügér",
+"egyeb_nevek": [
+"Tanganyikai homoklakó sügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Afrikai sügérek - Tanganyika-tó)",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 350,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 7500,
 "ellenorzott": false
 },
 {
@@ -2232,6 +2344,32 @@
 "ellenorzott": false
 },
 {
+"id": "chalinochromis-brichardi",
+"tipus": "hal",
+"latin": "Chalinochromis brichardi",
+"magyar_nev": "Maszkos bordásfejű sügér",
+"egyeb_nevek": [
+"Brichard chalinochromisa"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
 "id": "champsochromis-caeruleus",
 "tipus": "hal",
 "latin": "Champsochromis caeruleus",
@@ -3362,6 +3500,35 @@
 "ellenorzott": false
 },
 {
+"id": "cyathopharynx-furcifer",
+"tipus": "hal",
+"latin": "Cyathopharynx furcifer",
+"magyar_nev": "Cyathopharynx furcifer",
+"egyeb_nevek": [
+"villásfarkú homoksügér"
+],
+"regi_latin_nevek": [
+"Paratilapia furcifer",
+"Ectodus furcifer"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 21,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 600,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 6000,
+"ar_ft_max": 20000,
+"ellenorzott": false
+},
+{
 "id": "cynotilapia-afra",
 "tipus": "hal",
 "latin": "Cynotilapia zebroides",
@@ -3390,6 +3557,93 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1500,
 "ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "cyphotilapia-frontosa",
+"tipus": "hal",
+"latin": "Cyphotilapia frontosa",
+"magyar_nev": "Frontosa púpossügér",
+"egyeb_nevek": [
+"búbos szájköltő sügér"
+],
+"regi_latin_nevek": [
+"Pelmatochromis frontosus"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 35,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 700,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 4000,
+"ar_ft_max": 25000,
+"ellenorzott": false
+},
+{
+"id": "cyphotilapia-gibberosa",
+"tipus": "hal",
+"latin": "Cyphotilapia gibberosa",
+"magyar_nev": "Kék búbos sügér",
+"egyeb_nevek": [
+"Gibberosa",
+"Déli frontosa",
+"Mpimbwe frontosa",
+"Blue Zaire frontosa"
+],
+"regi_latin_nevek": [
+"Cyphotilapia frontosa (részben)"
+],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Afrikai sügérek - Tanganyika-tó)",
+"max_meret_cm": 35,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 600,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 6000,
+"ar_ft_max": 25000,
+"ellenorzott": false
+},
+{
+"id": "cyprichromis-leptosoma",
+"tipus": "hal",
+"latin": "Cyprichromis leptosoma",
+"magyar_nev": "Lazacsügér",
+"egyeb_nevek": [
+"Karcsú lazacsügér"
+],
+"regi_latin_nevek": [
+"Limnochromis leptosoma"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 6500,
 "ellenorzott": false
 },
 {
@@ -3961,6 +4215,33 @@
 "ellenorzott": false
 },
 {
+"id": "eretmodus-cyanostictus",
+"tipus": "hal",
+"latin": "Eretmodus cyanostictus",
+"magyar_nev": "Bohócsügér",
+"egyeb_nevek": [
+"Tanganyikai bohócsügér",
+"Kékpettyes bohócsügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Afrikai sügérek - Tanganyika-tó)",
+"max_meret_cm": 9,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.2,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 4500,
+"ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
 "id": "etroplus-suratensis",
 "tipus": "hal",
 "latin": "Etroplus suratensis",
@@ -4202,6 +4483,32 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1500,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "genyochromis-mento",
+"tipus": "hal",
+"latin": "Genyochromis mento",
+"magyar_nev": "Pikkelyevő malawi sügér",
+"egyeb_nevek": [
+"Uszonyevő sügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Malawi-tó)",
+"max_meret_cm": 13,
+"termeszet": "agressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 8000,
 "ellenorzott": false
 },
 {
@@ -5320,6 +5627,141 @@
 "ellenorzott": false
 },
 {
+"id": "julidochromis-dickfeldi",
+"tipus": "hal",
+"latin": "Julidochromis dickfeldi",
+"magyar_nev": "Kékszegélyes karmosbölcsőszájú hal",
+"egyeb_nevek": [
+"Dickfeld karmosbölcsőszájú hala",
+"Julidochromis dickfeldi"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 100,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "julidochromis-marlieri",
+"tipus": "hal",
+"latin": "Julidochromis marlieri",
+"magyar_nev": "Párduckockás tarkasügér",
+"egyeb_nevek": [
+"Marlier-tarkasügér",
+"Kockás tarkasügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "julidochromis-ornatus",
+"tipus": "hal",
+"latin": "Julidochromis ornatus",
+"magyar_nev": "Díszes karmosbölcsőszájú hal",
+"egyeb_nevek": [
+"Arany torpedósügér",
+"Julidochromis ornatus"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 8,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
+"id": "julidochromis-regani",
+"tipus": "hal",
+"latin": "Julidochromis regani",
+"magyar_nev": "Regan-julisügér",
+"egyeb_nevek": [
+"Regan-tarkasügér",
+"Regani sügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 13,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "julidochromis-transcriptus",
+"tipus": "hal",
+"latin": "Julidochromis transcriptus",
+"magyar_nev": "Fekete-fehér karmosbölcsőszájú hal",
+"egyeb_nevek": [
+"Maszkos torpedósügér",
+"Julidochromis transcriptus"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 7,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
 "id": "kryptopterus-vitreolus",
 "tipus": "hal",
 "latin": "Kryptopterus vitreolus",
@@ -5484,6 +5926,60 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "lamprologus-ocellatus",
+"tipus": "hal",
+"latin": "Lamprologus ocellatus",
+"magyar_nev": "Sárga csigasügér",
+"egyeb_nevek": [
+"Ocellatus csigasügér"
+],
+"regi_latin_nevek": [
+"Neolamprologus ocellatus"
+],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Afrikai sügérek)",
+"max_meret_cm": 5,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "lamprologus-signatus",
+"tipus": "hal",
+"latin": "Lamprologus signatus",
+"magyar_nev": "Szalagos csigasügér",
+"egyeb_nevek": [
+"Signatus csigasügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Afrikai sügérek)",
+"max_meret_cm": 5.5,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
 "ellenorzott": false
 },
 {
@@ -6592,6 +7088,295 @@
 "ellenorzott": false
 },
 {
+"id": "neolamprologus-brevis",
+"tipus": "hal",
+"latin": "Neolamprologus brevis",
+"magyar_nev": "Fogas csigasügér",
+"egyeb_nevek": [
+"Brevis csigasügér",
+"Rövid csigasügér"
+],
+"regi_latin_nevek": [
+"Lamprologus brevis"
+],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 5,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-brichardi",
+"tipus": "hal",
+"latin": "Neolamprologus brichardi",
+"magyar_nev": "Tündérsügér (brichardi)",
+"egyeb_nevek": [
+"Tündérsügér",
+"Brichard tündérsügére"
+],
+"regi_latin_nevek": [
+"Lamprologus brichardi"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2800,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-buescheri",
+"tipus": "hal",
+"latin": "Neolamprologus buescheri",
+"magyar_nev": "Buescher sügere",
+"egyeb_nevek": [
+"Büscher-sügér"
+],
+"regi_latin_nevek": [
+"Lamprologus buescheri"
+],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 7,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 120,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-caudopunctatus",
+"tipus": "hal",
+"latin": "Neolamprologus caudopunctatus",
+"magyar_nev": "Pöttyösfarkú sügér",
+"egyeb_nevek": [
+"Caudopunctatus",
+"Pöttyösfarkú csigasügér"
+],
+"regi_latin_nevek": [
+"Lamprologus caudopunctatus"
+],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 6.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2000,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-cylindricus",
+"tipus": "hal",
+"latin": "Neolamprologus cylindricus",
+"magyar_nev": "Hengeres sügér",
+"egyeb_nevek": [
+"Hengerestestű sügér",
+"Cylindricus sügér"
+],
+"regi_latin_nevek": [
+"Lamprologus cylindricus"
+],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 12,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 5000,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-leleupi",
+"tipus": "hal",
+"latin": "Neolamprologus leleupi",
+"magyar_nev": "Citromsügér",
+"egyeb_nevek": [
+"Arany barlangsügér",
+"Leleupi sügér"
+],
+"regi_latin_nevek": [
+"Lamprologus leleupi"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 11,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 120,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-multifasciatus",
+"tipus": "hal",
+"latin": "Neolamprologus multifasciatus",
+"magyar_nev": "Csigaházlakó sügér",
+"egyeb_nevek": [
+"Multis",
+"Sokcsíkú csigasügér"
+],
+"regi_latin_nevek": [
+"Lamprologus multifasciatus"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 4.5,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3200,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-pulcher",
+"tipus": "hal",
+"latin": "Neolamprologus pulcher",
+"magyar_nev": "Burundi hercegnője",
+"egyeb_nevek": [
+"Daffodil sügér"
+],
+"regi_latin_nevek": [
+"Lamprologus pulcher",
+"Neolamprologus savoryi pulcher"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-similis",
+"tipus": "hal",
+"latin": "Neolamprologus similis",
+"magyar_nev": "Sokcsíkos csigasügér",
+"egyeb_nevek": [
+"Csíkos csigasügér",
+"Similis csigasügér"
+],
+"regi_latin_nevek": [
+"Lamprologus similis"
+],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 4.5,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "neolamprologus-tretocephalus",
+"tipus": "hal",
+"latin": "Neolamprologus tretocephalus",
+"magyar_nev": "Ötsávos sügér",
+"egyeb_nevek": [
+"Tretocephalus",
+"Ötsávos tanganyikai sügér"
+],
+"regi_latin_nevek": [
+"Lamprologus tretocephalus"
+],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 15.0,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 5000,
+"ellenorzott": false
+},
+{
 "id": "neolebias-ansorgii",
 "tipus": "hal",
 "latin": "Neolebias ansorgii",
@@ -6733,6 +7518,34 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 400,
 "ar_ft_max": 750,
+"ellenorzott": false
+},
+{
+"id": "ophthalmotilapia-ventralis",
+"tipus": "hal",
+"latin": "Ophthalmotilapia ventralis",
+"magyar_nev": "Ophthalmotilapia ventralis",
+"egyeb_nevek": [
+"hosszúúszójú homoksügér"
+],
+"regi_latin_nevek": [
+"Paratilapia ventralis"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 15,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 400,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 9.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 4500,
+"ar_ft_max": 14000,
 "ellenorzott": false
 },
 {
@@ -7099,6 +7912,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 2500,
 "ar_ft_max": 12000,
+"ellenorzott": false
+},
+{
+"id": "paracyprichromis-nigripinnis",
+"tipus": "hal",
+"latin": "Paracyprichromis nigripinnis",
+"magyar_nev": "Feketeúszójú lazacsügér",
+"egyeb_nevek": [
+"Neon lazacsügér",
+"kékcsíkos lazacsügér"
+],
+"regi_latin_nevek": [
+"Cyprichromis nigripinnis"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 11,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 3000,
+"ar_ft_max": 8000,
 "ellenorzott": false
 },
 {
@@ -9494,6 +10336,60 @@
 "ellenorzott": false
 },
 {
+"id": "tropheus-duboisi",
+"tipus": "hal",
+"latin": "Tropheus duboisi",
+"magyar_nev": "Duboisi sügér",
+"egyeb_nevek": [
+"fehérsávos bábasügér",
+"csillagos bábasügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Tanganyika-tó)",
+"max_meret_cm": 12,
+"termeszet": "agressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 300,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 2500,
+"ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "tropheus-moorii",
+"tipus": "hal",
+"latin": "Tropheus moorii",
+"magyar_nev": "Tropheus moorii",
+"egyeb_nevek": [
+"Szélesszájú sügér",
+"Tropheus"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 14,
+"termeszet": "agressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 300,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.2,
+"ph_max": 9.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 2500,
+"ar_ft_max": 8000,
+"ellenorzott": false
+},
+{
 "id": "tyrannochromis-macrostoma",
 "tipus": "hal",
 "latin": "Tyrannochromis macrostoma",
@@ -9546,6 +10442,35 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 4500,
 "ar_ft_max": 12000,
+"ellenorzott": false
+},
+{
+"id": "variabilichromis-moorii",
+"tipus": "hal",
+"latin": "Variabilichromis moorii",
+"magyar_nev": "Variabilichromis moorii",
+"egyeb_nevek": [
+"Tanganyikai bársonysügér"
+],
+"regi_latin_nevek": [
+"Lamprologus moorii",
+"Neolamprologus moorii"
+],
+"csalad": "Cichlidae",
+"csoport": "Tanganyika-tavi sügérek",
+"max_meret_cm": 11,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.0,
+"ph_max": 9.2,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3000,
+"ar_ft_max": 7500,
 "ellenorzott": false
 },
 {

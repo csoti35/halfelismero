@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Julidochromis transcriptus",
+ "id": "julidochromis-transcriptus",
+ "tipus": "hal",
+ "latin": "Julidochromis transcriptus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fekete-fehér karmosbölcsőszájú hal",
+ "egyeb_nevek": [
+  "Maszkos torpedósügér",
+  "Julidochromis transcriptus"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó északnyugati partvidéke)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Erősen territoriális, sziklákhoz kötődő faj. Fajtársaival szemben kifejezetten agresszív lehet, a párok szigorúan védik a barlangjukat, de más sziklakedvelő, nem túl domináns tanganyikai fajokkal békésen megfér.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, a természetben apró rákokat és biofilmet fogyaszt a sziklákról; akváriumban jó minőségű granulátum, fagyasztott ciklop, artémia és kevés spirulina ajánlott.",
+ "tarsithato": [
+  "Más kis testű Tanganyika-tavi sügérek (pl. Neolamprologus",
+  "Altolamprologus fajok",
+  "csigasügérek)."
+ ],
+ "kerulendo": [
+  "Nagy testű vagy agresszív ragadozók",
+  "mozgékony mbuna sügérek",
+  "valamint puha és savas vizet igénylő fajok."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, szigorúan monogám párképző.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Fiatal csapatból hagyjuk a párok természetes kialakulását, majd a felesleges egyedeket távolítsuk el.",
+  "Biztosítsunk szűk hasadékokat, barlangokat, kerámia csöveket vagy pala lapokat.",
+  "Megfelelő minőségű élő és fagyasztott eleséggel kondicionáljuk a halakat stabil, lúgos vízkeménység mellett.",
+  "A nőstény rejtett módon, a barlang plafonjára vagy falára ragasztja az ikrákat (20-50 db).",
+  "Az ivadékok kikelése után a szülők közösen őrzik az utódokat, amelyek frissen kelt artémiával azonnal nevelhetők."
+ ],
+ "ivari_kulonbseg": "Külsőre nagyon nehéz megkülönböztetni; az ivarérett nőstények gyakran kissé teltebbek és ritkán nagyobbak a hímnél, biztosan csak az ivarszemölcs alapján határozhatók meg.",
+ "felismeres_jegyek": [
+  "Nyújtott, hengeres torpedó alakú testforma.",
+  "Fehér vagy krémszínű alapon sötétbarna/fekete, sakktáblaszerű függőleges sávok és foltok.",
+  "A páratlan úszók szélét feltűnő, világoskék irizáló csík szegélyezi.",
+  "A legkisebb méretű Julidochromis faj (ritkán haladja meg a 7 cm-t)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Julidochromis marlieri",
+   "magyar_nev": "Kockás karmosbölcsőszájú hal",
+   "kulonbseg": "Sokkal nagyobb testű (akár 12-14 cm) és finomabb, sűrűbb hálózatos mintázata van."
+  },
+  {
+   "latin": "Julidochromis ornatus",
+   "magyar_nev": "Díszes karmosbölcsőszájú hal",
+   "kulonbseg": "Sárgás alapszínű és hosszanti sötét sávok díszítik, nem függőleges rácsos foltok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (emésztőrendszeri megbetegedés rossz etetés miatt)",
+  "Bakteriális fertőzések vízminőség-romlás esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "A sziklákat stabilan építsük fel, mert a falakhoz, barlangplafonhoz tapadva úsznak függőlegesen vagy akár háton is.",
+  "Ha a pár egyszer összeállt, ne rendezzük át a dekorációt, mert a territórium elvesztése a pár széteséséhez és a gyengébb fél megöléséhez vezethet.",
+  "Rendszeres, kis mértékű vízcserékkel biztosítsunk stabil, nitrátmentes, lúgos vizet."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

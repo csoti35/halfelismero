@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Neolamprologus similis",
+ "id": "neolamprologus-similis",
+ "tipus": "hal",
+ "latin": "Neolamprologus similis",
+ "regi_latin_nevek": [
+  "Lamprologus similis"
+ ],
+ "magyar_nev": "Sokcsíkos csigasügér",
+ "egyeb_nevek": [
+  "Csíkos csigasügér",
+  "Similis csigasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó déli és nyugati partvidéke)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Kolóniaépítő, apró termete ellenére rendkívül bátor és területvédő faj. A csigaháza közvetlen környékét agresszíven védelmezi jóval nagyobb halakkal szemben is, de a felsőbb rétegek békés lakóit nem bántja.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő; természetben apró gerincteleneket fogyaszt. Akváriumban jó minőségű apró szemű száraztáp, fagyasztott artémia, küklopsz, fehér szúnyoglárva.",
+ "tarsithato": [
+  "Más kis testű",
+  "békés Tanganyika-tavi sügérek (pl. kövek közt élő fajok",
+  "Julidochromisok)",
+  "valamint nyíltvízi heringsügérek (Cyprichromis sp.) tágas akváriumban."
+ ],
+ "kerulendo": [
+  "Nagy testű ragadozó vagy túlzottan agresszív sügérek",
+  "lágyvizes fajok",
+  "fenéklakó nagy testű harcsák",
+  "amelyek kiforgathatják a csigaházakat."
+ ],
+ "szaporodas_mod": "Csigaházban ikrázó, ivadékgondozó faj.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk bőségesen üres csigaházakat (éticsiga- vagy Neothauma-házak) finom homokos aljzaton.",
+  "Kezdjünk egy kisebb fiatal csapattal, amiből természetes módon kialakul egy kolónia egy domináns hímmel és több nősténnyel.",
+  "A nőstény a csigaház belsejébe ikrázik, a hím kívülről termékenyíti meg az ikrákat.",
+  "Az ikrákat és a frissen kelt ivadékot a nőstény a házban őrzi, míg a hím a külső területet védi.",
+  "A kishalak elúszásuk után frissen kelt artémiával és poreleséggel azonnal nevelhetők, a kolónia általában megtűri a fiatalabb generációkat."
+ ],
+ "ivari_kulonbseg": "A hímek érezhetően nagyobbak (4-4,5 cm), míg a nőstények ritkán haladják meg a 3 cm-es méretet. Testalkatuk és színezeti mintázatuk szinte teljesen megegyezik.",
+ "felismeres_jegyek": [
+  "Bézs-világosbarna alapszínen sűrű, függőleges sötétbarna sávok húzódnak.",
+  "A sávok egészen a fejtetőre és a homlokra is felnyúlnak (fontos faji bélyeg).",
+  "Kékesszürkés, ragyogó szemgyűrű.",
+  "Hosszúkás, kissé hengerded, apró termetű test csigaházba bújáshoz idomulva.",
+  "Úszók szegélye finoman kékes-fehéres árnyalatú."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus multifasciatus",
+   "magyar_nev": "Sokcsíkú csigasügér",
+   "kulonbseg": "A N. multifasciatus sávjai a fejtetőre és a homlokra már nem terjednek ki, a fej sima egyszínű."
+  },
+  {
+   "latin": "Neolamprologus brevis",
+   "magyar_nev": "Kétpettyes csigasügér",
+   "kulonbseg": "A N. brevis teste robusztusabb, sávjai sokkal halványabbak vagy hiányoznak, és egy házban párban élnek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (nem megfelelő minőségű táp vagy emésztőrendszeri fertőzés miatt)",
+  "Darackór (stressz vagy hirtelen vízhőmérséklet-esés esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Mindenképpen finom szemcséjű homokot használjunk aljzatként, mert szeretnek a csigaházak körül mély gödröket ásni.",
+  "Mindig jóval több csigaházat helyezzünk el az akváriumban, mint ahány kifejlett hal van.",
+  "Kiváló faj kisebb akváriumokba is, akár egyetlen fajból álló kolóniaként tartva mutatja a legtermészetesebb viselkedését."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Julidochromis dickfeldi",
+ "id": "julidochromis-dickfeldi",
+ "tipus": "hal",
+ "latin": "Julidochromis dickfeldi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kékszegélyes karmosbölcsőszájú hal",
+ "egyeb_nevek": [
+  "Dickfeld karmosbölcsőszájú hala",
+  "Julidochromis dickfeldi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó délnyugati része)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Erősen kőhöz kötődő életmódú, monogám faj. Területét hevesen védi a hasonszőrű betolakodókkal szemben, de az akvárium más zónáit használó fajokat általában békén hagyja.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Húsevő-mindenevő; apró rákfélék, artémia, mysis, kiváló minőségű sügérgranulátumok és spirulina tartalmú kiegészítők.",
+ "tarsithato": [
+  "Nyugodt tanganyikai fajok",
+  "például Synodontis kongói harcsafélék",
+  "Altolamprologusok",
+  "kisebb Neolamprologus fajok."
+ ],
+ "kerulendo": [
+  "Agresszív mbunák",
+  "más Julidochromis fajok (hibridizáció és harcok veszélye miatt)",
+  "nagy testű ragadozók."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, szülői gondoskodást folytató faj.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "4-6 fős fiatal csapatból hagyjuk kialakulni az egymással harmonizáló párt.",
+  "Biztosítsunk bőséges búvóhelyet mészkő- vagy palasziklákból kialakított szűk résekkel.",
+  "Kondicionáljuk a párt változatos fagyasztott és élő táplálékkal.",
+  "Az ikrákat (30-60 db) a sziklaüreg legvédettebb, sötét belső felületére ragasztják.",
+  "Az ivadékok felnevelésében a szülők együttműködnek, az apróságok azonnal fogyasztják a frissen kelt artémiát."
+ ],
+ "ivari_kulonbseg": "Színezete és mintázata mindkét nemnél azonos; az ivarérett hímek néha valamivel karcsúbbak, a nőstények zömökebbek, de megbízhatóan csak az urogenitális szemölcs vizsgálatával különíthetők el.",
+ "felismeres_jegyek": [
+  "Ezüstös-szürkés vagy halványbarnás testalapszín három markáns, sötétbarna vízszintes hosszanti sávval.",
+  "Jellegzetes, intenzív fémes kék csillogás a fejen, az úszók peremén és a testen.",
+  "Megnyúlt, hengeres testalkat, lefelé álló szájjal.",
+  "A farokúszó kerekded, szélén élénk kék szegéllyel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Julidochromis regani",
+   "magyar_nev": "Csíkos karmosbölcsőszájú hal",
+   "kulonbseg": "Jóval nagyobb testű (akár 13-15 cm) és általában sárgásabb alapszínű, négy sötét sávval."
+  },
+  {
+   "latin": "Julidochromis ornatus",
+   "magyar_nev": "Díszes karmosbölcsőszájú hal",
+   "kulonbseg": "Alapszíne aranysárga, hiányzik róla a dickfeldire jellemző markáns kék irizálás a testen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (rossz minőségű vagy túl sok száraztáp etetésekor)",
+  "Darackór (stressz és rossz vízparaméterek esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Úszás közben szigorúan követi a sziklák kontúrját, sokszor fejjel lefelé vagy a sziklák alsó felületén mozog.",
+  "Ne tartsuk együtt más Julidochromis fajjal, mert könnyen kereszteződhetnek és hibridek jöhetnek létre.",
+  "Szüksége van a magas oxigéntartalmú, kemény és lúgos vízre."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

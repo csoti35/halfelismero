@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Julidochromis ornatus",
+ "id": "julidochromis-ornatus",
+ "tipus": "hal",
+ "latin": "Julidochromis ornatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Díszes karmosbölcsőszájú hal",
+ "egyeb_nevek": [
+  "Arany torpedósügér",
+  "Julidochromis ornatus"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó partmenti sziklás zónái)",
+ "max_meret_cm": 8,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, barlanglakó sügérfaj. A kialakult pár megbízhatóan összetart és hevesen védi territóriumát a sziklák között, de a felsőbb zónák békés halaival jól tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; gerinctelenek, cyclops, sórák, minőségi lemezes és granulált tápok némi növényi (spirulina) kiegészítéssel.",
+ "tarsithato": [
+  "Kis méretű Tanganyika-tavi sügérek",
+  "csigaházlakók (pl. Neolamprologus multifasciatus)",
+  "Altolamprologus calvus."
+ ],
+ "kerulendo": [
+  "Más Julidochromis fajok",
+  "domináns és nagy testű mbunák",
+  "lágyvizes és kistestű rajhalak."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, rejtett szaporodású faj.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Kis csapatot neveljünk fel együtt, hogy természetes úton párt válasszanak.",
+  "Helyezzünk el szűk kőhasadékokat, agyagcsöveket vagy lyukacsos mészköveket a medencében.",
+  "Etessünk bőségesen élő vagy fagyasztott apró eleséggel a jó kondíció érdekében.",
+  "A nőstény rejtett helyre rak 20-50 zöldesszürke ikrát, melyeket mindkét szülő őriz.",
+  "Az ivadékok elúszásuk után azonnal etethetők frissen kelt sóráklárvával és mikroeleségekkel."
+ ],
+ "ivari_kulonbseg": "Ivari kétalakúság alig észlelhető; a nőstények felnőtt korban kicsit kerekdedebbek a hasi tájékon, a hímek teste nyúlánkabb maradhat.",
+ "felismeres_jegyek": [
+  "Világos aranysárga vagy sárgásfehér alapszín.",
+  "Három markáns, sötétbarna vagy fekete hosszanti csík fut végig a testen.",
+  "A faroktőnél gyakran egy jól látható, sötét folt található.",
+  "Hosszúkás, hengeres testalkat kerekített farokúszóval, melynek szélét kék vonal határolja."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Julidochromis regani",
+   "magyar_nev": "Csíkos karmosbölcsőszájú hal",
+   "kulonbseg": "Sokkal nagyobb méretű (13-15 cm) és teste arányaiban robusztusabb, sávjai gyakran kevésbé kontrasztosak."
+  },
+  {
+   "latin": "Julidochromis transcriptus",
+   "magyar_nev": "Fekete-fehér karmosbölcsőszájú hal",
+   "kulonbseg": "Nem hosszanti csíkos és sárga, hanem fekete-fehér rácsos-foltos mintázatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Emésztőszervi gyulladás / puffadás helytelen etetés következtében",
+  "Stressz okozta parazitás megbetegedések átrendezés vagy túltelepítés miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Mindig építsünk a hátfalig érő kőrakásokat, mert a faj ragaszkodik a fedett sziklafelületekhez.",
+  "A tenyészpárt ne zavarjuk meg a kövek áthelyezésével, különben megszakadhat az életre szóló kötelékük.",
+  "Vízcseréknél ügyeljünk a hőmérséklet és a pH egyezőségére, mert érzékenyek a hirtelen változásokra."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

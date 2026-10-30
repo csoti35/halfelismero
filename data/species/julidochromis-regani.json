@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Julidochromis regani",
+ "id": "julidochromis-regani",
+ "tipus": "hal",
+ "latin": "Julidochromis regani",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Regan-julisügér",
+ "egyeb_nevek": [
+  "Regan-tarkasügér",
+  "Regani sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó sziklás zónája)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Szigorúan sziklákhoz kötődő életmódot folytató, territoriális faj. A stabil párok összetartanak, de a saját territóriumukat hevesen védik fajtársaikkal és idegenekkel szemben.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; a természetben az algafüggönyből szedegeti ki a gerincteleneket. Akváriumban artémia, cyclops, daphnia és minőségi növényi tartalmú sügértápok ideálisak.",
+ "tarsithato": [
+  "Más tanganyikai sügérekkel",
+  "csigalakókkal (pl. Neolamprologus multifasciatus)",
+  "Altolamprologus fajokkal."
+ ],
+ "kerulendo": [
+  "Más Julidochromis fajok (hibridizáció és agresszió miatt)",
+  "apró halak és növényevő mbunák."
+ ],
+ "szaporodas_mod": "Barlangban, rejtve ikrázó.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Több fiatal példányból hagyjuk, hogy természetes pár alakuljon ki, a felesleges halakat távolítsuk el.",
+  "Készítsünk stabil sziklabarlangokat, kövek közötti sötét réseket.",
+  "Az ikrákat a barlang mennyezetére vagy függőleges falára ragasztják.",
+  "Mindkét szülő védi az ikrákat és a kikelt ivadékokat; a korábbi generációk gyakran a szülőkkel maradhatnak.",
+  "Az ivadékok kezdetben frissen kelt artémiával és poreledelekkel táplálhatók."
+ ],
+ "ivari_kulonbseg": "Nehezen megkülönböztethető ivarok; a felnőtt nőstények gyakran kissé teltebbek és nagyobbak lehetnek a hímeknél, ivarszemölcs alapján határozhatók meg biztosan.",
+ "felismeres_jegyek": [
+  "Hosszúkás, hengeres, torpedó alakú test.",
+  "A testen végighúzódó négy éles, vízszintes sötét sáv sárgás alapon.",
+  "Hátúszó tövén futó sötét csík és kék szegély az úszókon.",
+  "Szem vonalán átfutó fekete csíkok a fejtetőn.",
+  "A nemzetség legnagyobb termetű képviselője."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Julidochromis ornatus",
+   "magyar_nev": "Díszes tarkasügér",
+   "kulonbseg": "Kisebb testméret (max. 7-8 cm) és csupán három hosszanti sáv található a testén."
+  },
+  {
+   "latin": "Julidochromis dickfeldi",
+   "magyar_nev": "Dickfeld tarkasügére",
+   "kulonbseg": "Kékesebb alapszín, és három sötét sávja a farok felé elmosódhat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyikai puffadás (helytelen etetés esetén)",
+  "Bakteriális fertőzések elhanyagolt vízcsere miatt",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Mindig stabilan rögzítsük a kőépítményeket az akvárium aljára, mert az aljzatot túrva könnyen alááshatják a köveket.",
+  "Ne változtassuk meg a sziklák elrendezését az akváriumban, mert a megbomló területhatárok miatt a felnőtt pár halálos harcot indíthat egymás ellen.",
+  "A víz legyen erősen szűrt, tiszta és oxigéndús."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

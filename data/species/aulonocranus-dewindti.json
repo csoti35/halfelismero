@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Aulonocranus dewindti",
+ "id": "aulonocranus-dewindti",
+ "tipus": "hal",
+ "latin": "Aulonocranus dewindti",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Dewindt-sügér",
+ "egyeb_nevek": [
+  "Tanganyikai homoklakó sügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek - Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó sekély, homokos és hordalékos öblei)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Fajtársaival csoportban érzi jól magát, a hímek egymás között látványos pózolással határozzák meg a rangsort, de fizikai kárt ritkán tesznek egymásban. Más békés fajokkal szemben kifejezetten ártalmatlan.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 350,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 19,
+ "taplalek": "Mindenevő: a homokból szitálja ki a gerincteleneket. Akváriumban artémia, küklopsz, mysis, daphnia és minőségi apró szemcséjű lemezes vagy mikrogranulált sügértápok.",
+ "tarsithato": [
+  "Cyprichromis",
+  "Paracyprichromis",
+  "Xenotilapia fajokkal",
+  "valamint más békés tanganyikai sügérekkel."
+ ],
+ "kerulendo": [
+  "Agresszív mbuna fajok",
+  "túlmozgásos ragadozók",
+  "durva sziklalakók (pl. nagyobb Neolamprologusok)",
+  "amelyek kiszorítják a nyílt aljzatról."
+ ],
+ "szaporodas_mod": "Anyai szájköltő.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Tartsunk háremet vagy csapatot (legalább 2-3 hím, 4-6 nőstény) tágas, finom homokkal borított medencében.",
+  "A domináns hím a homokból kráterszerű fészket épít, gyakran egy lapos kő mellé hordva a dűnét.",
+  "Kifeszített úszókkal, ragyogó színekkel csalogatja a fészekhez az ivarérett nőstényt.",
+  "A nőstény lerakja az ikrákat, majd azonnal a szájába kapja őket; a megtermékenyítés a szájban történik a hím hasúszóihoz érve.",
+  "A nőstény 3-4 hétig költi az ikrákat szájában, ez idő alatt ne zavarjuk.",
+  "Az elúszott kishalak azonnal képesek elfogyasztani a frissen keltetett sórákot."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, pompás sárgás-ezüstös, kékes fényűek, hasúszójuk megnyúlt és sárga gomb/petefolt látható rajta; a nőstények kisebbek, tompább ezüstösszürke színűek.",
+ "felismeres_jegyek": [
+  "Nagy, magasan ülő szemek és fejlett érzékszervi pórusok a fejen.",
+  "Megnyúlt, aránylag karcsú testalkat, amely a homokos partokhoz alkalmazkodott.",
+  "A domináns hímek hasúszója feltűnően hosszú, hegye sárga vagy narancssárga.",
+  "Pikkelyzete ezüstös, hátúszója és farokúszója finoman csíkozott, világoskék szegéllyel díszített."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Callochromis pleurospilus",
+   "magyar_nev": "Szivárványos homoksügér",
+   "kulonbseg": "Mélyebb testalkatú, a hímek teste jóval vörösesebb-tarkább foltozottságú, jóval agresszívabb faj."
+  },
+  {
+   "latin": "Xenotilapia flavipinnis",
+   "magyar_nev": "Sárgaúszójú homoksügér",
+   "kulonbseg": "Karcsúbb, lefelé irányuló pofával rendelkezik, viselkedése és szaporodási módja is eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták (rossz minőségű vagy túl zsíros eleség miatt)",
+  "Kopoltyú- és bőrparaziták nem megfelelő vízcsere esetén",
+  "Homok hiányában fellépő stressz és szemsérülések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Aljzatként elengedhetetlen a 0,5–1 mm szemcseméretű, gömbölyített folyami homok, mivel a halak ezen táplálkoznak és fészkelnek.",
+  "Nagy alapterületű akváriumot igényel, a magasság másodlagos a homokfelület nagyságához képest.",
+  "Nyugodt, nem agresszív fajtársakat válasszunk mellé, mert félénkké válhat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Lamprologus ocellatus",
+ "id": "lamprologus-ocellatus",
+ "tipus": "hal",
+ "latin": "Lamprologus ocellatus",
+ "regi_latin_nevek": [
+  "Neolamprologus ocellatus"
+ ],
+ "magyar_nev": "Sárga csigasügér",
+ "egyeb_nevek": [
+  "Ocellatus csigasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek)",
+ "szarmazas": "Afrika (Tanganyika-tó)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Erősen territoriális faj, amely a saját csigaházát és annak közvetlen környezetét hevesen védi, méretéhez képest rendkívül bátor és harcias. Fajtársaival szemben agresszív lehet, de más, vízközt úszó fajokat nagyrészt figyelmen kívül hagy.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő; apró fagyasztott és élő eleségek (artémia, cyclops, fehér szúnyoglárva) mellett jó minőségű lemezes és granulált sügértápokat is szívesen fogyaszt.",
+ "tarsithato": [
+  "Kisebb Tanganyika-tavi sügérekkel",
+  "nyíltvízi heringsügérekkel (pl. Paracyprichromis fajok)",
+  "amelyek a felsőbb zónákat használják."
+ ],
+ "kerulendo": [
+  "Nagy testű vagy túlságosan agresszív sügérek",
+  "fenéklakó harcsák",
+  "amelyek megzavarják a csigaházak körüli területet."
+ ],
+ "szaporodas_mod": "Csigaházban ikrázó; az anya a csigaház mélyére rakja az ikrákat, ahol kikelésig őrzi őket.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk fejenként legalább 2-3 darab üres csigaházat (pl. éticsiga vagy Neothauma házak).",
+  "Kínáljunk változatos, fehérjedús élő vagy fagyasztott eleséget az ivarérett párnak.",
+  "A nőstény a csigaházba csalogatja a hímet, lerakja az ikrákat a ház mélyére, amit a hím kívülről vagy belépve megtermékenyít.",
+  "Az ikrákat a nőstény őrzi és legyezi a csigaházban, míg a hím a külső territóriumot védi.",
+  "A kikelő és kiúszó ivadékok azonnal etethetők frissen keltetett artémiával és ivadéktáppal."
+ ],
+ "ivari_kulonbseg": "A hímek érezhetően nagyobbak (kb. 5 cm), míg a nőstények kisebbek maradnak (kb. 3-3,5 cm), és a nőstények hátúszóján gyakran fehéres szegély figyelhető meg.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról kissé lapított testalkat felfelé irányuló szájjal.",
+  "Fémes, sárgásbarna vagy narancsos alapszín, kopoltyúfedőn kékesen csillogó folttal.",
+  "Kopoltyúfedő mögött sötét, ocellus-szerű folt található.",
+  "Hátúszó és farokúszó világos, gyakran kékes-fehéres szegéllyel díszített."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus brevis",
+   "magyar_nev": "Sokcsíkú csigasügér",
+   "kulonbseg": "A brevis testén függőleges világos csíkok láthatók, és egyetlen csigaházat gyakran a pár közösen használ."
+  },
+  {
+   "latin": "Neolamprologus multifasciatus",
+   "magyar_nev": "Sokcsíkú törpesügér",
+   "kulonbseg": "Testét sűrű, sötét függőleges sávok borítják, kolóniákban él."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bloat)",
+  "Darackór (Ichthyophthirius)",
+  "Bakteriális uszonyrothadás nem megfelelő vízminőség esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Aljzatként kizárólag finom szemcséjű homokot használjunk, mert a halak a csigaházakat a homokba ássák be.",
+  "Gondoskodjunk kemény, lúgos kémhatású vízről és stabil vízminőségről.",
+  "Minden halnak több üres csigaházat biztosítsunk, hogy szabadon válogathassanak."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Neolamprologus brichardi",
+ "id": "neolamprologus-brichardi",
+ "tipus": "hal",
+ "latin": "Neolamprologus brichardi",
+ "regi_latin_nevek": [
+  "Lamprologus brichardi"
+ ],
+ "magyar_nev": "Tündérsügér (brichardi)",
+ "egyeb_nevek": [
+  "Tündérsügér",
+  "Brichard tündérsügére"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó endemikus faja)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Erősen kolóniaképző és családcentrikus faj. A családtagok közösen gondozzák a kishalakat. Békésnek tűnik, de a revírjét és az ivadékokat elszántan, agresszíven védi még jóval nagyobb halakkal szemben is.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.0,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de a gerincteleneket preferálja. Jó minőségű granulátumok, lemezes tápok, fagyasztott artémia, mysis, cyclops, dafnia kiváló számára. A tubifex etetése kerülendő.",
+ "tarsithato": [
+  "Más sziklakedvelő tanganyikai sügérekkel (pl. Julidochromis",
+  "Altolamprologus fajok)",
+  "ha az akvárium elegendően nagy."
+ ],
+ "kerulendo": [
+  "Kisméretű pontylazacok",
+  "elevenszülők",
+  "békés lágyvizes fajok",
+  "valamint túl kicsi akváriumban más talajlakó vagy barlanglakó sügérek."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Biztosítsunk bőséges sziklás barlangrendszert, lapos kövekkel és résekkel.",
+  "Legkönnyebben egy fiatal csoport felnevelésével alakulnak ki a harmonizáló párok.",
+  "A nőstény rejtett barlang falára vagy mennyezetére ragasztja az 50-100 ikrát.",
+  "Az ikrák 3 nap alatt kelnek ki, és további 5-7 nap múlva úsznak el.",
+  "A korábbi fészekaljak növendékei segítenek a szülőknek a következő generációk védelmében és felnevelésében."
+ ],
+ "ivari_kulonbseg": "A nemek megkülönböztetése nehéz; a kifejlett hímek úszói (különösen a farokúszó fonalas nyúlványai) hosszabbak, és testméretük valamivel nagyobb a nőstényekénél.",
+ "felismeres_jegyek": [
+  "Hosszúra nyúlt, fonalas farokúszó-végek (líra alakú farok)",
+  "Világosbarna/bézs alapszín finom kék szegélyekkel az úszókon",
+  "Jellegzetes fekete T- vagy T-szerű sáv a kopoltyúfedőn és a szem mögött",
+  "Élénk világoskék színű írisz"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus pulcher",
+   "magyar_nev": "Karcsú tündérsügér",
+   "kulonbseg": "A kopoltyúfedőn két függőleges sárgás-fekete vonal látható, nem a jellegzetes fekete T-folt."
+  },
+  {
+   "latin": "Neolamprologus gracilis",
+   "magyar_nev": "Karcsú hercegnősügér",
+   "kulonbseg": "Teste nyújtottabb, és hiányzik a kopoltyúfedő kontrasztos sötét rajzolata."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bakteriális fertőzések a területi harcok után",
+  "Stressz eredetű megbetegedések rossz vízparaméterek (alacsony pH/keménység) miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Hagyjuk kialakulni a generációs kolóniát; az egyik legszebb szociális viselkedést bemutató akváriumi faj.",
+  "Ügyeljünk a kemény, stabilan lúgos vízre, mert a lágy, savas vízben elveszíti élénkségét és megbetegszik.",
+  "Idővel a szaporulat túlnépesítheti a medencét, ezért a fiatalok egy részét érdemes időnként elajándékozni vagy eladni."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

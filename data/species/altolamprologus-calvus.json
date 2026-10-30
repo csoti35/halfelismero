@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Altolamprologus calvus",
+ "id": "altolamprologus-calvus",
+ "tipus": "hal",
+ "latin": "Altolamprologus calvus",
+ "regi_latin_nevek": [
+  "Lamprologus calvus"
+ ],
+ "magyar_nev": "Púposfejű sügér",
+ "egyeb_nevek": [
+  "Calvus sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek)",
+ "szarmazas": "Afrika (Tanganyika-tó)",
+ "max_meret_cm": 14,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nyugodt mozgású, lesből támadó ragadozó faj. Saját méretű vagy nagyobb halakkal szemben békés, de a szűk sziklarepedéseket védi. Kisebb halakat és ivadékokat zsákmánynak tekint.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó; fagyasztott és élő garnélák, mysis, artémia, krill, apró halak, valamint magas fehérjetartalmú granulátumok.",
+ "tarsithato": [
+  "Közepes vagy nagyobb tanganyikai sziklasügérekkel (pl. Julidochromis",
+  "Neolamprologus fajok)",
+  "Cyprichromis fajokkal."
+ ],
+ "kerulendo": [
+  "Kisméretű csigasügérek (főleg ivadékok)",
+  "túlságosan apró halak",
+  "agresszív mbuna sügérek a Malawi-tóból."
+ ],
+ "szaporodas_mod": "Barlangban vagy szűk sziklarepedésben, esetleg nagy csigaházban ikrázó.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Helyezzünk el szűk, mély sziklarepedéseket vagy nagyméretű csigaházakat, ahová csak a kisebb nőstény fér be.",
+  "Kondicionáljuk a párt változatos, minőségi fehérjeeleséggel (mysis, krill, artémia).",
+  "A nőstény a szűk résbe rakja az ikrákat, ahová a nagyobb testű hím kívülről juttatja be a spermát.",
+  "A nőstény hetekig gondozza az ikrákat és a lárvákat a repedésben.",
+  "A kifejezetten lassan növekvő ivadékokat frissen keltetett artémiával neveljük."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen nagyobbra nőnek (akár 13-14 cm), mint a nőstények (7-9 cm), úszóik hegyesebbek és hosszabbak.",
+ "felismeres_jegyek": [
+  "Erősen oldalról lapított, magas hátú, penge alakú test.",
+  "Meredek homlokvonal, hegyes, lefelé ívelő ragadozó száj.",
+  "A testen függőleges sávok és apró, világos gyöngyfényű pettyek láthatók.",
+  "A pikkelyek kemények és érdes tapintásúak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Altolamprologus compressiceps",
+   "magyar_nev": "Lapátfejű sügér",
+   "kulonbseg": "A compressiceps arcorra kevésbé csupasz, pikkelyesebb a feje teteje, és teste általában tömzsibb, sárgásabb tónusú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bloat)",
+  "Bélparaziták",
+  "Darackór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Nagyon lassan növő faj, türelmet igényel a felnevelése és tenyésztése.",
+  "Alakítsunk ki függőleges sziklarepedéseket, mert testformája kifejezetten az ezekben való mozgáshoz alkalmazkodott.",
+  "Vízminőség-ingadozásra és felhalmozódó szerves anyagokra kifejezetten érzékeny, heti rendszeres részleges vízcsere szükséges."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

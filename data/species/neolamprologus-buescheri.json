@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Neolamprologus buescheri",
+ "id": "neolamprologus-buescheri",
+ "tipus": "hal",
+ "latin": "Neolamprologus buescheri",
+ "regi_latin_nevek": [
+  "Lamprologus buescheri"
+ ],
+ "magyar_nev": "Buescher sügere",
+ "egyeb_nevek": [
+  "Büscher-sügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó sziklás biotópjai)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kis mérete ellenére rendkívül harcias és domináns sziklalakó faj. Szigorúan védelmezi mikrokörzetét, a fajtársakkal szembeni agressziója heves lehet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Apró ragadozó; fagyasztott cyclops, artémia, mysis, valamint apró szemcséjű minőségi sügértápok képezik étrendjét.",
+ "tarsithato": [
+  "Nagyobb akváriumban más sziklakedvelő tanganyikai fajokkal (pl. Julidochromis",
+  "Altolamprologus)",
+  "de kis alapterületen inkább fajos medence javasolt."
+ ],
+ "kerulendo": [
+  "Kisméretű csigasügérek és gyenge",
+  "félénk halak",
+  "szűk helyen a fajtársak egymást is elpusztíthatják."
+ ],
+ "szaporodas_mod": "Rejtett barlangban ikrázó faj; a szülői gondoskodás nagyon fejlett.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Helyezzünk be sok lapos kövekből kialakított mély, szűk üreget.",
+  "Ajánlott fiatal csapatból kiindulni, majd a kialakult pár kivételével a felesleget eltávolítani.",
+  "A nőstény 20-50 ikrát rak egy eldugott sziklahasadék mélyére.",
+  "Kikelés után az ivadékok még napokig az aljzaton vagy kövek oldalán csüngnek.",
+  "Elúszáskor azonnal képesek elfogyasztani a frissen kelt sóráklárvákat."
+ ],
+ "ivari_kulonbseg": "A hímek kifejletten észrevehetően nagyobbak, úszóvégeik megnyúltabbak; a nőstények kisebbek maradnak.",
+ "felismeres_jegyek": [
+  "Nyújtott, karcsú, enyhén lapított testforma.",
+  "Jellegzetes líra alakú vagy mélyen kivágott farokúszó, megnyúlt hegyekkel.",
+  "Testén hosszanti sötétbarna/fekete sávok és pettyezett minta fut, a földrajzi variációktól függően sárgás vagy kékes beütéssel.",
+  "Kopoltyúfedőjén és feji részén gyakran kékes irizáló mintázat látható."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Chalinochromis brichardi",
+   "magyar_nev": "Maszkos sügér",
+   "kulonbseg": "Vastagabb, hengeresebb test, jellegzetes fekete fejmaszk a szemek körül."
+  },
+  {
+   "latin": "Neolamprologus leleupi",
+   "magyar_nev": "Citromsügér",
+   "kulonbseg": "Egyszínű élénksárga vagy narancssárga színezet, nincsenek hosszanti sötét sávjai."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések a territoriális harcokból származó sebek miatt",
+  "Emésztőrendszeri gyulladás nem megfelelő minőségű táp adásakor"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "A berendezésnél alakítsunk ki látványt megtörő sziklacsoportokat, hogy a gyengébb példányok elmenekülhessenek.",
+  "Különböző színváltozatai ismertek (pl. 'Kachese', 'Kamalondo', 'Zambia'); ezeket soha ne keresztezzük egymással.",
+  "Kiváló szűrés és oxigéndús, kristálytiszta kemény víz elengedhetetlen a tartásához."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

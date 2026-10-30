@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Cyathopharynx furcifer",
+ "id": "cyathopharynx-furcifer",
+ "tipus": "hal",
+ "latin": "Cyathopharynx furcifer",
+ "regi_latin_nevek": [
+  "Paratilapia furcifer",
+  "Ectodus furcifer"
+ ],
+ "magyar_nev": "Cyathopharynx furcifer",
+ "egyeb_nevek": [
+  "villásfarkú homoksügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Kelet-Afrika (Tanganyika-tó endemikus faja)",
+ "max_meret_cm": 21,
+ "elettartam_ev": 8,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek rendkívül territoriálisak egymással szemben, hatalmas homokfészkeket építenek és védenek, míg a többi fajú békés tanganyikai sügért többnyire figyelmen kívül hagyják.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 600,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, a természetben kovamoszatokat, detrituszt és apró gerincteleneket fogyaszt; akváriumban jó minőségű spirulinás lemezes, szemcsés tápok és fagyasztott planktonikus eleségek kellenek neki.",
+ "tarsithato": [
+  "Nyugodt tanganyikai sügérekkel",
+  "mint a Xenotilapia",
+  "Paracyprichromis vagy kisebb Neolamprologus fajok."
+ ],
+ "kerulendo": [
+  "Tropheusok",
+  "durva mbunák",
+  "ragadozó és túlzottan domináns nagytestű sügérek."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Biztosítsunk hatalmas alapterületű akváriumot finom homoktalajjal a kráterszerű fészeképítéshez.",
+  "Tartsunk 1 hímet 3-4 nősténnyel egy csoportban, hogy a hím udvarlási agressziója megoszoljon.",
+  "A hím a finom homokból magas dombot emel, amelynek tetején udvarol a nőstényeknek fonalas hasúszóival villogva.",
+  "Az ikrázást követően a nőstény azonnal szájába veszi a megtermékenyített ikrákat.",
+  "A nőstény 3-4 hétig forgatja az ivadékokat a szájában, melyek elúszásuk után frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal nagyobbak, testük ragyogó irizáló kék, zöld vagy bronzos árnyalatú, hasúszóik hosszú fonalakká nyúltak, melyek végén sárga korong található; a nőstények kisebbek, tompa ezüstös színűek, úszóik rövidek.",
+ "felismeres_jegyek": [
+  "Erősen megnyúlt, oldalról lapított testforma villás farokúszóval",
+  "A kifejlett hímek hasúszói feltűnően hosszú fonallá nyúlnak, végükön sárga gomb/lebeny látható",
+  "Irizáló kék, zöld és rézfényű mintázat a domináns hímeken",
+  "Az ezüstös nőstények oldalán halvány, sötét foltok vagy függőleges sávok jelenhetnek meg"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyathopharynx foai",
+   "magyar_nev": "Cyathopharynx foai",
+   "kulonbseg": "Sötétebb alapszínű, hímjei még intenzívebb réz- és bronzfénnyel bírnak, fészkét gyakran sziklákra hordott homokból építi."
+  },
+  {
+   "latin": "Ophthalmotilapia ventralis",
+   "magyar_nev": "Ophthalmotilapia ventralis",
+   "kulonbseg": "Zömökebb testalkatú, szájszerkezete eltérő, fészkét közvetlenül kövek tetejére vagy köré alakítja ki."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bloat)",
+  "Darakór",
+  "Hexamita (lyukbetegség)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 20000,
+ "tippek": [
+  "Kizárólag finom szemcséjű homoktalajt használjunk, mert a kavicsos aljzat megakadályozza a természetes fészeképítést és táplálkozást.",
+  "Rendkívül érzékeny a vízminőségre, rendszeres és alapos részleges vízcserét, valamint stabil, magas pH-értéket igényel."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

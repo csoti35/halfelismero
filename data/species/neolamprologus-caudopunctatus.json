@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Neolamprologus caudopunctatus",
+ "id": "neolamprologus-caudopunctatus",
+ "tipus": "hal",
+ "latin": "Neolamprologus caudopunctatus",
+ "regi_latin_nevek": [
+  "Lamprologus caudopunctatus"
+ ],
+ "magyar_nev": "Pöttyösfarkú sügér",
+ "egyeb_nevek": [
+  "Caudopunctatus",
+  "Pöttyösfarkú csigasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó déli partvidéke: Zambia)",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Tanganyikai sügérekhez képest meglepően békés és toleráns faj. Fajtársaival szemben is csak mérsékelten területvédő, inkább csak a közvetlen költőhelyét őrzi elszántan.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de az élő/fagyasztott táplálékot preferálja: artémia, küklopsz, apró daphnia, valamint minőségi lemezes és granulált tápok.",
+ "tarsithato": [
+  "Kiválóan társítható más Tanganyika-tavi sziklalakókkal (pl. Julidochromis",
+  "Paracyprichromis",
+  "kisebb Altolamprologus fajok)."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "kifejezetten agresszív ragadozó sügérek",
+  "valamint lágyvizes",
+  "savas vizet igénylő fajok."
+ ],
+ "szaporodas_mod": "Fakultatív csigasügér; barlangok hasadékaiba vagy nagyobb csigaházakba ikrázik.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Helyezzünk el az akváriumban sziklarepedéseket és nagy méretű csigaházakat finom homokágyon.",
+  "Kezdjünk egy kisebb csapattal (4-6 egyed), amelyekből stabil pár alakul ki.",
+  "Az ikrákat a nőstény védett üregbe, sziklarésbe vagy a csigaházba ragasztja.",
+  "A pár együtt őrzi a fészket, elhordják a homokot a bejárat elől.",
+  "Az ivadékok elúszás után apró szemcsés táppal és artémia naupliuszokkal nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak (kb. 6,5 cm), a hátúszójuk tetején lévő narancssárga vagy élénksárga sáv kifejezettebb és élénkebb. A nőstények kisebbek (kb. 4,5-5 cm).",
+ "felismeres_jegyek": [
+  "Gyöngyházfényű, ezüstös-fehéres test, amely jó fényviszonyok mellett kékes árnyalatot mutat.",
+  "A hátúszó felső szegélyén futó feltűnő, ragyogó narancssárga vagy citromsárga szegély.",
+  "A farokúszón és a farok alatti úszón finom, pontszerű mintázat.",
+  "Ragyogó, világoskék színű szemek.",
+  "Kompakt, áramvonalas alkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus leleupi",
+   "magyar_nev": "Citromsügér",
+   "kulonbseg": "A N. leleupi teste teljes egészében egységes élénksárga vagy narancssárga, és jóval karcsúbb, nyújtottabb."
+  },
+  {
+   "latin": "Neolamprologus cylindricus",
+   "magyar_nev": "Hengeres sügér",
+   "kulonbseg": "A N. cylindricus teste határozott fekete-fehér harántcsíkos, hiányzik a hátúszó narancssárga szegélye."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (stressz vagy hideg vízcsere hatására)",
+  "Bakteriális fertőzések a vízminőség romlása esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Kínáljunk fel nekik sziklahasadékokat és csigaházakat is, mert az egyedek ízlése eltérő lehet a fészkelőhely kiválasztásakor.",
+  "Gyönyörű kontrasztot alkot sötét háttér és fekete vagy természetes kődekoráció előtt a világító hátúszójával és kék szemével.",
+  "Nem túrja fel agresszíven az egész akváriumot, csak a kiválasztott költőhely közvetlen környezetét rendezi át."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

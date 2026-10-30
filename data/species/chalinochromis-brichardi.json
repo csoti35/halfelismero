@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Chalinochromis brichardi",
+ "id": "chalinochromis-brichardi",
+ "tipus": "hal",
+ "latin": "Chalinochromis brichardi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Maszkos bordásfejű sügér",
+ "egyeb_nevek": [
+  "Brichard chalinochromisa"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó déli és keleti partvidéke)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, barlanglakó faj. Fajtársaival szemben kifejezetten agresszív lehet, különösen szűk térben. Monogám párokat alkot, a kialakult pár hevesen védi a saját revírjét.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, de a természetben gerincteleneket és algát csipeget a sziklákról; jó minőségű granulátumok, fagyasztott artémia, mysis és cyclops ajánlott.",
+ "tarsithato": [
+  "Más",
+  "hasonló méretű tanganyikai sziklalakókkal (pl. Julidochromis",
+  "Neolamprologus fajok)",
+  "valamint nyíltvízi Cyprichromisokkal."
+ ],
+ "kerulendo": [
+  "Kistestű garnélák",
+  "lágyvizes fajok",
+  "valamint túl agresszív nagyobb ragadozók."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, szülői gondoskodást folytató.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Fiatal egyedekből álló csoportból hagyni kell egy természetes pár kiválását.",
+  "Megfelelő méretű, szűk barlangot vagy kerámiacsövet kell biztosítani a párnak.",
+  "A stabil, kemény és lúgos vízparaméterek fenntartása serkenti az ívást.",
+  "A nőstény a barlang mennyezetére vagy falára ragasztja az ikrákat, amelyeket mindkét szülő őriz.",
+  "A kelés után a szabadon úszó ivadékok frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "Külsőleg nehezen megkülönböztethetők; az ivarérett hímek általában valamivel nagyobbak, és az ivarnyílás (genitális szemölcs) alapján határozhatók meg biztosan.",
+ "felismeres_jegyek": [
+  "Hosszúkás, hengeres torpedó alakú test.",
+  "Világosbarna vagy bézs alapszín.",
+  "A pofán és a szemek között jellegzetes fekete maszk- és csíkmintázat.",
+  "Lekerekített úszók, enyhe kékes-fehéres szegéllyel.",
+  "Testoldalán nincsenek erős hosszanti csíkok, ellentétben a nemzetség más fajaival."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Chalinochromis popelini",
+   "magyar_nev": "Popelin-bordásfejűsügér",
+   "kulonbseg": "A popelini testoldalán jellegzetes sötét hosszanti csíkok húzódnak végig."
+  },
+  {
+   "latin": "Julidochromis regani",
+   "magyar_nev": "Csíkos torpedósügér",
+   "kulonbseg": "A Julidochromisok teste erősebben csíkozott és fejük keskenyebb, hegyesebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (Bloat)",
+  "Bakteriális fertőzések a territoriális harcok okozta sérülések miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Építsünk stabil sziklaképződményeket sok apró réssel és barlanggal a revírek kijelöléséhez.",
+  "Kifejezetten érzékeny a vízminőség romlására, rendszeres és alapos részleges vízcserét igényel.",
+  "Kerüljük a vörös szúnyoglárva és a zsíros tubifex etetését, mert emésztési zavarokat okozhat."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

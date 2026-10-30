@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Cyprichromis leptosoma",
+ "id": "cyprichromis-leptosoma",
+ "tipus": "hal",
+ "latin": "Cyprichromis leptosoma",
+ "regi_latin_nevek": [
+  "Limnochromis leptosoma"
+ ],
+ "magyar_nev": "Lazacsügér",
+ "egyeb_nevek": [
+  "Karcsú lazacsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika, Tanganyika-tó nyílt vízi zónája",
+ "max_meret_cm": 12,
+ "elettartam_ev": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű, nyílt vízi rajhal, amely nem kötődik a sziklaaljzathoz. Fajtársaival szemben a hímek kis territóriumokat védenek a nyílt vízoszlopban, de fizikai sérülést ritkán okoznak.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 22,
+ "taplalek": "Zooplankton, kikeltetett artémia, ciklop, jó minőségű lassan süllyedő lemezes és granulált eleségek.",
+ "tarsithato": [
+  "Békés sziklalakó Tanganyika-tavi sügérekkel (pl. Julidochromis",
+  "Neolamprologus",
+  "Altolamprologus fajok)."
+ ],
+ "kerulendo": [
+  "Agresszív mbuna fajok",
+  "nagytestű ragadozó harcsák",
+  "félénk kistestű nano halak."
+ ],
+ "szaporodas_mod": "Anyai szájköltő a nyílt vízben.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Biztosítsunk legalább 10-12 fős csapatot tágas, legalább 120 cm hosszú akváriumban.",
+  "A hím feszített úszókkal a nyílt vízben udvarol a nőstényeknek.",
+  "Az ívás a szabad vízben történik: a nőstény kibocsátja az ikrákat, zuhanás közben elkapja a szájába, ahol a hím megtermékenyíti azokat.",
+  "A nőstény 3-4 hétig forgatja az 5-15 darab ikrát.",
+  "A kiköpött ivadékok rögtön elfogadják a frissen kelt sórákot (artémiát)."
+ ],
+ "ivari_kulonbseg": "A hímek feltűnően színesek (változattól függően sárga vagy kék farokúszóval és kékes testtel), a nőstények egyszerű ezüstös-barnás rejtőszínűek.",
+ "felismeres_jegyek": [
+  "Karcsú, heringszerű, hengeres testalkat.",
+  "Hegyes fej és előrenyújtható, csőszerű száj.",
+  "Kifejlett hímek élénk sárga vagy kék farokúszóval rendelkeznek.",
+  "A nőstények egyszínű ezüstösek, testükön nincs kifejezett sávos mintázat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyprichromis microlepidotus",
+   "magyar_nev": "Aprópikkelyű lazacsügér",
+   "kulonbseg": "Nagyobbra nő, pikkelyei jóval apróbbak, színezete finomabban pettyezett."
+  },
+  {
+   "latin": "Paracyprichromis nigripinnis",
+   "magyar_nev": "Feketeúszójú lazacsügér",
+   "kulonbseg": "Testén ragyogó neonkék vízszintes csíkok futnak, sziklákhoz és falakhoz kötődik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Mechanikai sérülésekből eredő fertőzések (ugrásveszélyes faj, fedett akvárium kötelező)",
+  "Darackór (stressz vagy hirtelen vízhőmérséklet-esés esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6500,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert megijedve könnyen kiugranak a vízből.",
+  "Hagyjunk hatalmas nyílt úszóteret a felső és középső rétegekben.",
+  "Etetéskor ügyeljünk arra, hogy a felszínről vagy a vízoszlopból táplálkoznak, a fenékre hullott eleséget ritkán veszik fel."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Lamprologus signatus",
+ "id": "lamprologus-signatus",
+ "tipus": "hal",
+ "latin": "Lamprologus signatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Szalagos csigasügér",
+ "egyeb_nevek": [
+  "Signatus csigasügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek)",
+ "szarmazas": "Afrika (Tanganyika-tó)",
+ "max_meret_cm": 5.5,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő kistermetű sügér, a hímek erősen védik saját homokgödrüket vagy csigaházukat. Fajtársaikkal szemben rivalizálnak, de békés tanganyikai társakkal jól együtt tarthatók.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő; kisméretű élő és fagyasztott táplálékok (cyclops, artémia, grindál, apró szúnyoglárvák), kiegészítve minőségi lemezes és granulált eleséggel.",
+ "tarsithato": [
+  "Középső és felső zónában úszó tanganyikai fajokkal",
+  "például Paracyprichromis fajokkal",
+  "békés sziklalakókkal."
+ ],
+ "kerulendo": [
+  "Agresszív",
+  "nagyméretű ragadozók",
+  "aljzattúró nagyobb harcsák",
+  "amelyek zaklatják a territoriális csigalapú életterüket."
+ ],
+ "szaporodas_mod": "Csigaházban vagy homokba ásott üregben ikrázó faj; a nőstény felügyeli az ikrákat.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Alakítsunk ki finom homokos aljzatot és helyezzünk el több méretben csigaházakat.",
+  "Tartsunk egy hímet több nősténnyel (hárem), vagy egy harmonizáló párt.",
+  "Kondicionáljuk a halakat kiváló minőségű élő vagy fagyasztott apró eleségekkel.",
+  "Az ikrázás a kiválasztott csigaház belsejében történik.",
+  "Az anya az ikrákat a házban gondozza, a szabadon úszó kishalak kikelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "Kifejezett nemi kétalakúság: a hímek testét sötét függőleges sávok díszítik, míg a nőstények kisebbek, csíkozásmentesek és oldalukon fémes, arany- vagy rezes csillogású hasi folt található.",
+ "felismeres_jegyek": [
+  "Hosszúkás, hengeres, karcsúbb testfelépítés más csigasügérekhez képest.",
+  "Hímeken markáns függőleges barna sávok a világos alapszínen.",
+  "Nőstények egyszínűbbek, hasi tájékukon csillogó fémes folttal.",
+  "Hegyes, felfelé irányuló fej- és szájforma."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus similis",
+   "magyar_nev": "Sokcsíkú törpesügér (csíkos sügér)",
+   "kulonbseg": "A similis mindkét neme csíkos, sávjai a fejre is kiterjednek."
+  },
+  {
+   "latin": "Lamprologus meleagris",
+   "magyar_nev": "Gyöngyös csigasügér",
+   "kulonbseg": "Sötétebb alapszínű, sűrű gyöngyházfényű pettyekkel borított test."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bloat)",
+  "Darackór",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "A természetben a csigaházak mellett iszapba ásott járatokban is élnek, ezért a rendkívül finom homok elengedhetetlen számukra.",
+  "Fontos az állandó és stabil magas pH-érték biztosítása.",
+  "Kerüljük a túl erős áramlást az aljzat közelében."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

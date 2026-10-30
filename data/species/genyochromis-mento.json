@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Genyochromis mento",
+ "id": "genyochromis-mento",
+ "tipus": "hal",
+ "latin": "Genyochromis mento",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pikkelyevő malawi sügér",
+ "egyeb_nevek": [
+  "Uszonyevő sügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Malawi-tó)",
+ "szarmazas": "Afrika (Malawi-tó endemikus faja)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 8,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten specializált ragadozó, parazita életmódot folytat: más halak pikkelyeivel és uszonyaival táplálkozik. Rendkívül agresszív, még jóval nagyobb halakat is megcsonkít, ezért társas medencében tartása szinte lehetetlen.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "A természetben lepidofág (más halak úszóit és pikkelyeit tépi le). Fogságban nehezen, de rászoktatható a fagyasztott és élő eleségekre (garnéla, halhús, mysis) és lassan a pelletekre is.",
+ "tarsithato": [
+  "Társítása nem javasolt",
+  "kizárólag fajspecifikus bemutató akváriumban tartható egyedül vagy tágas térben egy kifejlett háremben."
+ ],
+ "kerulendo": [
+  "Minden más halfaj! Kisebb és nagyobb sügéreket",
+  "harcsákat egyaránt megtámad és megnyomorít."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Kizárólag nagy medencében, sok búvóhellyel rendelkező faji akváriumban kíséreljük meg, ahol a nőstény el tud menekülni a hím elől.",
+  "Kondicionáljuk a halakat kiváló minőségű, magas fehérjetartalmú fagyasztott tápokkal.",
+  "A párzás rejtett helyen, sziklák között történik a Malawi-tavi sügérekre jellemző forgó mozgással.",
+  "A nőstény az ikrákat a szájában költi ki 3-4 hét alatt.",
+  "Az elúszott kishalakat azonnal válasszuk el vagy lássuk el bőven apró élő táplálékkal (artémia naupliusz)."
+ ],
+ "ivari_kulonbseg": "A hímek színezete dominánsabb, sötétebb, gyakran kékes-fekete vagy tarka foltos (OB-morfa is létezik), míg a nőstények többnyire sárgás-barnásak vagy halványabbak.",
+ "felismeres_jegyek": [
+  "Erősen előreugró alsó állkapocs ('bulldog' szerkezet)",
+  "Látható, speciális véső alakú fogazat, amellyel a pikkelyeket lefejti",
+  "Szilváskék, barna vagy feketetarka (OB) színezet",
+  "Kompakt, izmos mbuna-szerű testfelépítés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Docimodus degerti",
+   "magyar_nev": "Docimodus sügér",
+   "kulonbseg": "Szintén pikkelyevő, de teste jóval hosszabb, hengerdedebb és nagyobbra nő."
+  },
+  {
+   "latin": "Metriaclima zebra",
+   "magyar_nev": "Zebra sügér",
+   "kulonbseg": "Alsó állkapcsa nem ugrik ki erőteljesen, növényi táplálkozású, békésebb fogazatú mbuna."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Agresszióból eredő fertőződött sebek",
+  "Malawi-puffadás (helytelen etetés esetén)",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Csak tapasztalt, a különleges viselkedést értékelő biotóp-akvaristáknak ajánlott.",
+  "Soha ne tegyük átlagos malawi sügéres társas akváriumba, mert a többi hal uszonyai rövid időn belül eltűnnek.",
+  "Szükség esetén a leszakított pikkelyek pótlására zoológiai kertekben speciális zselatinos hústápokat készítenek számukra."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

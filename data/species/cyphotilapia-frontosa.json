@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Cyphotilapia frontosa",
+ "id": "cyphotilapia-frontosa",
+ "tipus": "hal",
+ "latin": "Cyphotilapia frontosa",
+ "regi_latin_nevek": [
+  "Pelmatochromis frontosus"
+ ],
+ "magyar_nev": "Frontosa púpossügér",
+ "egyeb_nevek": [
+  "búbos szájköltő sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Kelet-Afrika (Tanganyika-tó mélyvízi, sziklás régiói)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 20,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Méltóságteljes, alapvetően nyugodt mozgású sügér, de méretéből adódóan minden kisebb halat természetes tápláléknak tekint és éjszaka vadászik.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 700,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.2,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Ragadozó, a mélyvizekben halakkal, puhatestűekkel táplálkozik; akváriumban minőségi ragadozó sügérpelletek, garnélarák, krill, kagylóhús és fagyasztott haldarabok adják ideális étrendjét.",
+ "tarsithato": [
+  "Nagytestű",
+  "békés Tanganyikai sügérekkel",
+  "mint a Neolamprologus sexfasciatus",
+  "Altolamprologus fajok vagy Synodontis harcsák."
+ ],
+ "kerulendo": [
+  "Kistestű fajok (pl. Cyprichromis",
+  "kisebb Lamprologusok)",
+  "mert éjszaka könnyű prédává válnak",
+  "túl mozgékony és csipkelődő mbunák."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Hosszú távú tartáshoz legalább 1 hím és 4-5 nőstény csapata javasolt egy tágas akváriumban.",
+  "Aktivitásuk és ívási hajlandóságuk tompa megvilágítás mellett a legjobb.",
+  "Nagy barlangokat, tágas búvóhelyeket kell biztosítani a sziklák között a nyugodt íváshoz.",
+  "Az ikrázás lassan, rejtve történik, a nőstény viszonylag kevés (20-50 db), de hatalmas ikrát forgat.",
+  "A nőstény 4-5 hétig tartja a szájában a kicsinyeket, amelyek elengedéskor már teljesen kifejlettek és önállóan táplálkoznak."
+ ],
+ "ivari_kulonbseg": "A hímek jóval nagyobbra nőnek, és idős korukra hatalmas homlokpúpot növesztenek; úszóik sokkal hegyesebbek és hosszabbak, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Magas hátú, robusztus testalkat",
+  "Világoskék vagy fehér alapon 7 függőleges sötét sáv (a 7. a fejen átfutó sáv)",
+  "Kifejlett példányok (főleg hímek) fején markáns zsírdudor (homlokpúp)",
+  "Hosszú, hegyesedő hát- és farok alatti úszók kék árnyalattal"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyphotilapia gibberosa",
+   "magyar_nev": "Cyphotilapia gibberosa",
+   "kulonbseg": "A testén 6 sáv látható a 7 helyett, pikkelyelrendezése eltérő, és kék színezete gyakran még intenzívebb."
+  },
+  {
+   "latin": "Neolamprologus tretocephalus",
+   "magyar_nev": "ötcsíkos sziklasügér",
+   "kulonbseg": "Sokkal kisebb termetű (kb. 15 cm), nincs homlokpúpja és jóval agresszívabb aljzatköltő faj."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-bloat",
+  "Úszóhólyag-rendellenesség (mélyvízi faj lévén érzékeny a vízmélység- és nyomásváltozásra)",
+  "Hexamita"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 25000,
+ "tippek": [
+  "Kerüljük az erős megvilágítást, mivel a mély vizekből származik, a félhomályban érzi magát a legnagyobb biztonságban.",
+  "Ne tartsuk vörös szúnyoglárván és emlős húsokon, mert ezek súlyos emésztőrendszeri gyulladást (bloat) okozhatnak."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Neolamprologus cylindricus",
+ "id": "neolamprologus-cylindricus",
+ "tipus": "hal",
+ "latin": "Neolamprologus cylindricus",
+ "regi_latin_nevek": [
+  "Lamprologus cylindricus"
+ ],
+ "magyar_nev": "Hengeres sügér",
+ "egyeb_nevek": [
+  "Hengerestestű sügér",
+  "Cylindricus sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó délkeleti partvidéke)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen territoriális, fajtársaival és hasonló testalkatú sügérekkel szemben kifejezetten agresszív ragadozó. A sziklák közötti réseket szigorúan őrzi.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő faj; apró rákokat, rovarlárvákat eszik. Akváriumban fagyasztott mysis, artémia, krill és jó minőségű sügérgranulátum ajánlott.",
+ "tarsithato": [
+  "Más",
+  "hasonló méretű",
+  "sziklalakó tanganyikai sügérekkel (pl. Julidochromis",
+  "Altolamprologus fajok)",
+  "valamint felszíni csapathalakkal (pl. Cyprichromis fajok)."
+ ],
+ "kerulendo": [
+  "Kistestű csigalakó sügérek (megöli vagy elfogyasztja őket)",
+  "lágyvizes fajok",
+  "valamint más fajtársi hímek kisebb medencében."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó; a nőstény sziklahasadékok rejtett felületére ragasztja az ikrákat, mindkét szülő védi az ivadékot.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Neveljünk fel egy kisebb fiatal csapatot, hogy természetes úton alakuljon ki egy harmonizáló pár.",
+  "Biztosítsunk szűk, sötét barlangokat és sziklahasadékokat az íváshoz.",
+  "A nőstény 50-100 ikrát rak a barlang falára, melyet a hím megtermékenyít.",
+  "Az ikrák kb. 3-4 nap alatt kelnek ki, és további 5-6 nap múlva úsznak el.",
+  "Az elúszott ivadékok frissen keltetett artémiával és finom ivadéktáppal indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek érezhetően nagyobbra nőnek és úszóik kissé hegyesebbek; a nőstények kisebbek, ivaréretten teltebb hasúak.",
+ "felismeres_jegyek": [
+  "Hengeres, torpedó alakú, hosszúkás testalkat.",
+  "Testét 10 körüli vastag, függőleges, sötétbarna vagy fekete sáv díszíti fehér/sárgásfehér alapon.",
+  "Úszói sötétek, a hát-, farok- és farok alatti úszó szélén élénk égszínkék szegély húzódik.",
+  "A szem alatt és a kopoltyúfedőn irizáló kék vonal és foltok láthatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus tretocephalus",
+   "magyar_nev": "Ötsávos lamprologus",
+   "kulonbseg": "Magasabb hátú test, kevesebb és jóval szélesebb fekete sáv (5-6 sáv), intenzívebb kék alapszín."
+  },
+  {
+   "latin": "Julidochromis regani",
+   "magyar_nev": "Csíkos torpedósügér",
+   "kulonbseg": "Hosszanti sávokkal mintázott, nem függőleges keresztsávokkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bloat) nem megfelelő etetés miatt",
+  "Darakór stressz vagy vízhőmérséklet-ingadozás hatására",
+  "Harci sérülésekből eredő gombásodás vagy bakteriális fertőzés"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Építsünk robusztus, stabil sziklafalat sok hasadékkal, hogy a párok el tudjanak rejtőzni egymás elől.",
+  "Kerüljük a vörös szúnyoglárva és a túl sok növényi ballaszt adását; a tiszta fehérjében gazdag rákfélék a legideálisabbak számára.",
+  "Ügyeljünk a magas pH és a stabil, kemény víz fenntartására állandó vízcserékkel."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,95 @@
+{
+ "lista_nev": "Cyphotilapia gibberosa",
+ "id": "cyphotilapia-gibberosa",
+ "tipus": "hal",
+ "latin": "Cyphotilapia gibberosa",
+ "regi_latin_nevek": [
+  "Cyphotilapia frontosa (részben)"
+ ],
+ "magyar_nev": "Kék búbos sügér",
+ "egyeb_nevek": [
+  "Gibberosa",
+  "Déli frontosa",
+  "Mpimbwe frontosa",
+  "Blue Zaire frontosa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek - Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó déli és keleti mélyebb vizei)",
+ "max_meret_cm": 35,
+ "elettartam_ev": 20,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően méltóságteljes, nyugodt mozgású hal, de ragadozó természetű; a szájméretébe beleférő kisebb halakat éjszaka levadássza. Fajtársai között szigorú hierarchia uralkodik, a hímek territoriálisak lehetnek.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 600,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Ragadozó (húsevő): fagyasztott és élő garnélák, kagylóhús, krill, halhús, jó minőségű sügérpelletek; a száraz eleséget lassan fogadja el.",
+ "tarsithato": [
+  "Más nagytestű",
+  "békésebb tanganyikai sügérekkel (pl. Altolamprologus",
+  "Neolamprologus sexfasciatus",
+  "nagyobb Julidochromis fajok",
+  "Synodontis harcsák)."
+ ],
+ "kerulendo": [
+  "Kistestű halak (pl. Cyprichromis",
+  "Paracyprichromis",
+  "kisebb Neolamprologus fajok)",
+  "túlságosan agresszív vagy fürge mbuna sügérek."
+ ],
+ "szaporodas_mod": "Anyai szájköltő.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Biztosítsunk egy hímre legalább 3-4 nőstényt egy tágas, nyugodt akváriumban.",
+  "A stabil vízminőség, a magas oxigénszint és a tompított világítás segíti az ívási kedvet.",
+  "Az ívás a talajon vagy lapos kövön történik, ahol a nőstény lerakja viszonylag nagyméretű ikráit.",
+  "A nőstény azonnal a szájába veszi a megtermékenyített ikrákat (száma általában 20-50 db).",
+  "A forgatási időszak 4-5 hétig tart, ezalatt a nőstény alig táplálkozik, zavarásra hajlamos eldobni a fészket.",
+  "Az elúszott ivadékok azonnal etethetők frissen keltetett artémiával és finom sügérporral."
+ ],
+ "ivari_kulonbseg": "Az idős hímek jóval nagyobbak és homlokukon kifejezettebb, húsos zsírpúp fejlődik; a nőstények kisebbek, púpjuk szerényebb.",
+ "felismeres_jegyek": [
+  "Robusztus, oldalról lapított testforma hatalmas fejjel és fejtetői dudorral.",
+  "Világoskék alapon 6 függőleges, sötétkék/fekete sáv (a szem feletti sáv nem fut le az orrnyeregre).",
+  "Az úszók és a pikkelyek élei világító égszínkék fényben csillognak.",
+  "Az oldalvonal pikkelyeinek száma nagyobb, mint a Cyphotilapia frontosa esetében."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyphotilapia frontosa",
+   "magyar_nev": "Búbos sügér",
+   "kulonbseg": "A frontosa északi elterjedésű, testén a mintázat kissé eltérő, és az oldalvonalán kevesebb pikkely található."
+  },
+  {
+   "latin": "Altolamprologus calvus",
+   "magyar_nev": "Lapossügér",
+   "kulonbseg": "Jóval kisebb termetű, rendkívül keskeny oldalról lapított test, hiányzik a homlokpúp."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bloat)",
+  "Bélparaziták (Hexamita / lyukfejűség)",
+  "Rossz vízminőség okozta úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 25000,
+ "tippek": [
+  "Mélyvízi faj lévén a túlzott megvilágítást kerüljük, használjunk tompított, hideg fényű LED-et.",
+  "Ne tartsuk együtt falánk, állandóan mozgó halakkal, mert a gibberosa lassan, megfontoltan eszik.",
+  "Hatalmas szűrőkapacitás szükséges a nagy biológiai terhelés miatt."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

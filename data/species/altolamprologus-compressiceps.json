@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Altolamprologus compressiceps",
+ "id": "altolamprologus-compressiceps",
+ "tipus": "hal",
+ "latin": "Altolamprologus compressiceps",
+ "regi_latin_nevek": [
+  "Lamprologus compressiceps"
+ ],
+ "magyar_nev": "Lapossügér",
+ "egyeb_nevek": [
+  "Tanganyikai lapossügér",
+  "Kompresszicepsz"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó sziklás partvidéke)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Lassú mozgású, territoriális ragadozó. Más fajokkal szemben többnyire békés és visszahúzódó, de szűk helyen fajtársaival kíméletlenül harcolhat. A kisebb halakat és ivadékokat levadássza.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő ragadozó; fagyasztott vagy élő mysis, artémia, krill, apró halak és jó minőségű sügérgranulátumok.",
+ "tarsithato": [
+  "Hasonló méretű és temperamentumú tanganyikai sügérekkel (pl. Julidochromis",
+  "Neolamprologus",
+  "Cyprichromis fajok)."
+ ],
+ "kerulendo": [
+  "Apró termetű halak",
+  "garnélák",
+  "valamint agresszív",
+  "túlságosan élénk mbuna sügérek."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, anyai ivadékgondozással.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Neveljünk fel egy kisebb fiatal csapatot, hogy természetes módon alakuljon ki egy harmonizáló pár.",
+  "Biztosítsunk szűk, mély sziklahas朳ékokat vagy nagy csigaházakat, ahová a kisebb nőstény befér, de a hím nem.",
+  "Az ikrázás a szűk barlangban történik, a hím a bejáratnál bocsátja ki a tejét, amit a nőstény legyez befelé.",
+  "A nőstény gondozza a telepet, az ivadékok kelése után frissen kelt artémiával etethetők.",
+  "A kishalak rendkívül lassan fejlődnek, tiszta, stabil vizet igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek jóval nagyobbra nőnek (akár 12-13 cm), míg a nőstények ritkán haladják meg a 7-8 cm-t; ivarérett hímek úszói kissé hegyesebbek.",
+ "felismeres_jegyek": [
+  "Erősen oldalról lapított, magas hátú testalkat.",
+  "Hegyes, felfelé irányuló mély szájállás.",
+  "Függőleges sötét sávok a testen, változatos alapszín (sárgás, barnás vagy vöröses).",
+  "Apró világos pöttyök a testen és az úszókon.",
+  "Merev, szúrós úszósugarak a hátúszóban."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Altolamprologus calvus",
+   "magyar_nev": "Csupaszfejű lapossügér",
+   "kulonbseg": "Fejének felső része pikkelytelen, teste simább és a sávok kevésbé élesek."
+  },
+  {
+   "latin": "Altolamprologus fasciatus",
+   "magyar_nev": "Szalagos lapossügér",
+   "kulonbseg": "Teste jóval nyújtottabb, kevésbé magas hátú és sávjai vékonyabbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyikai puffadás (bloat)",
+  "Darakór",
+  "Bakteriális fertőzések nem megfelelő vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Meredek, szűk függőleges sziklahas朳ékokat alakítsunk ki az akváriumban, mert természetes élőhelyükön is ezekben rejtőznek vadászat közben.",
+  "Kerüljük a száraz lemezes tápokat, a bélrendszerük a húsos, kitines eledelekre specializálódott.",
+  "A hím elől a nősténynek legyen menekülési lehetősége olyan szűk résekbe, ahová a testesebb hím nem fér be."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

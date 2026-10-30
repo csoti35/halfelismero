@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Neolamprologus leleupi",
+ "id": "neolamprologus-leleupi",
+ "tipus": "hal",
+ "latin": "Neolamprologus leleupi",
+ "regi_latin_nevek": [
+  "Lamprologus leleupi"
+ ],
+ "magyar_nev": "Citromsügér",
+ "egyeb_nevek": [
+  "Arany barlangsügér",
+  "Leleupi sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Erősen kőhöz kötött, barlanglakó faj. Fajtársaival szemben kifejezetten agresszív és területvédő; csak párban vagy tágas akváriumban tartható más robusztus sügérekkel.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő mikro-ragadozó: cyclops, sórák, mysis, krill és magas fehérjetartalmú sügérgranulátumok.",
+ "tarsithato": [
+  "Egyéb Tanganyika-tavi sziklakedvelő fajokkal (pl. Julidochromis",
+  "Neolamprologus brichardi",
+  "Altolamprologus calvus)."
+ ],
+ "kerulendo": [
+  "Békés lágyvizes fajok",
+  "kistermetű garnélák",
+  "hasonló színű és testalkatú territoriális fajok."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Fiatal egyedekből álló csapatból hagyjuk, hogy természetes pár alakuljon ki.",
+  "A felesleges egyedeket távolítsuk el, mivel a pár kíméletlenül elűzi őket.",
+  "A nőstény egy szűk sziklahasadék mélyére ragasztja az ikrákat.",
+  "Az ikrák száma 50–150 darab, a nőstény őrzi őket, a hím a környéket védi.",
+  "A lárvák elúszása után frissen keltetett artémiával táplálhatók."
+ ],
+ "ivari_kulonbseg": "A nemek megkülönböztetése nehéz; a felnőtt hímek általában nagyobbak, fejük kissé homorúbb vagy domborúbb tarkótájékkal bírhat, ivarnyílásuk eltérő.",
+ "felismeres_jegyek": [
+  "Hosszúkás, hengeres testalkat, viszonylag nagy szájjal.",
+  "Intenzív citromsárga vagy narancssárga alapszín az egész testen.",
+  "Kékes vagy fehéres irizáló szegély az úszók (különösen a farok alatti és a hátúszó) élén.",
+  "A szem környékén és a szájszélen finom kék csillogás figyelhető meg."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus longior",
+   "magyar_nev": "Karcsú aranytündérsügér",
+   "kulonbseg": "Gyakran azonos fajként kezelték; a N. longior még nyújtottabb testű és sötétebb narancsos árnyalatú lehet."
+  },
+  {
+   "latin": "Neolamprologus mustax",
+   "magyar_nev": "Mustax sügér",
+   "kulonbseg": "Színe inkább sárgás-bézs, szája felett jellegzetes fekete bajusz-szerű rajzolat látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bélgyulladás helytelen etetés esetén)",
+  "Darackór (stressz és hideg víz hatására)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "A sötét aljzat és háttér segít megőrizni a mély narancssárga vagy élénksárga testszínt.",
+  "Kerüljük a szárazföldi állati eredetű zsíros húsokat (pl. marhaszív), mert végzetes bélgyulladást okozhat.",
+  "Minden egyednek legyen saját, jól védhető barlangja a területért vívott harcok csökkentésére."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

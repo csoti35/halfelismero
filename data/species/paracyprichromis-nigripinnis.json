@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Paracyprichromis nigripinnis",
+ "id": "paracyprichromis-nigripinnis",
+ "tipus": "hal",
+ "latin": "Paracyprichromis nigripinnis",
+ "regi_latin_nevek": [
+  "Cyprichromis nigripinnis"
+ ],
+ "magyar_nev": "Feketeúszójú lazacsügér",
+ "egyeb_nevek": [
+  "Neon lazacsügér",
+  "kékcsíkos lazacsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika, Tanganyika-tó sziklás partjai és víz alatti sziklafalai",
+ "max_meret_cm": 11,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, kissé félénk sügér. Függőleges sziklafalak, túlnyúló kőpadok mellett csapatban él, gyakran fejjel lefelé vagy a kőfalhoz simulva úszik.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Apró élő és fagyasztott rákfélék (artémia, küklopsz), valamint jó minőségű lemezes tápok.",
+ "tarsithato": [
+  "Nyugodt aljzatlakó tanganyikai sügérekkel (pl. Neolamprologus",
+  "Xenotilapia fajok)",
+  "csigasügérekkel."
+ ],
+ "kerulendo": [
+  "Durva",
+  "tolakodó vagy túlságosan aktív sügérek (pl. Tropheus",
+  "nagyméretű mbunák)",
+  "amelyek elnyomják."
+ ],
+ "szaporodas_mod": "Anyai szájköltő.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Helyezzünk el függőleges kőlapokat vagy palalapokat az akváriumban.",
+  "A hím a függőleges sziklafal közvetlen közelében tart territóriumot és feszített úszókkal csábítja a nőstényt.",
+  "Az ikrázás függőleges testhelyzetben zajlik a sziklafal mentén.",
+  "A nőstény az 5-12 darab ikrát közvetlenül a szájába veszi.",
+  "A nőstény 3-4 hétig forgatja az ivadékokat, melyek elengedés után finom élő eleséggel indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek sötétebb alapszínűek és pompás fluoreszkáló kék sávokkal rendelkeznek úszóikon és testükön; a nőstények jóval fakóbbak, szürkésbarnák, csíkjaik halványak.",
+ "felismeres_jegyek": [
+  "Karcsú, oldalról kissé lapított test.",
+  "A testen végighúzódó ragyogó, világító kék csíkok (különösen a hímeken).",
+  "A hímek páratlan úszói sötétek, neonkék szegéllyel vagy sávokkal.",
+  "Jellegzetes, függőleges sziklákhoz simuló mozgásforma."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Paracyprichromis brieni",
+   "magyar_nev": "Brieni lazacsügér",
+   "kulonbseg": "Sárgásabb alapszín, csíkozása és úszóinak mintázata eltérő."
+  },
+  {
+   "latin": "Cyprichromis leptosoma",
+   "magyar_nev": "Lazacsügér",
+   "kulonbseg": "Nyílt vízben úszik, nem tapad függőleges sziklákhoz, hiányoznak a testen futó neonkék csíkok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Stressz okozta elhullás tolakodó fajok melletti tartáskor",
+  "Bakteriális fertőzések nem megfelelő vízminőség vagy nitrátterhelés miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Feltétlenül helyezzünk el magas, függőleges sziklalapokat (pl. palaköveket) a medence hátfalánál.",
+  "Tompított, nem túl vakító világítás mellett mutatja meg legszebb ragyogó neonszíneit.",
+  "Félénk hal, ezért csak kifejezetten nyugodt, nem territoriális tanganyikai fajokkal társítsuk."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

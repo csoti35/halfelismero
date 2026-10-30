@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Neolamprologus tretocephalus",
+ "id": "neolamprologus-tretocephalus",
+ "tipus": "hal",
+ "latin": "Neolamprologus tretocephalus",
+ "regi_latin_nevek": [
+  "Lamprologus tretocephalus"
+ ],
+ "magyar_nev": "Ötsávos sügér",
+ "egyeb_nevek": [
+  "Tretocephalus",
+  "Ötsávos tanganyikai sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó sziklás és homokos zónái)",
+ "max_meret_cm": 15.0,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten territoriális, erőteljes felépítésű, fajtársaival és hasonló formájú halakkal szemben nagyon agresszív faj. Különösen párválasztás és ívás idején uralja a medencét.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő; a természetben puhatestűekkel, rákokkal táplálkozik (erős garatfogai vannak a csigák összezúzására). Csigák, fagyasztott mysis, krill, artémia, prémium sügérgranulátumok.",
+ "tarsithato": [
+  "Nagyobb méretű",
+  "robusztus sziklalakó sügérek (pl. Altolamprologus",
+  "nagyobb Julidochromis fajok)",
+  "illetve felső zónás Cyprichromis csapatok nagy akváriumban."
+ ],
+ "kerulendo": [
+  "Apró termetű csigasügérek (zsákmánynak tekinti őket)",
+  "csíkos Frontosa/Gibberosa fajok (hasonló mintázat miatti brutális rivalizálás)",
+  "békés és lágyvizes fajok."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, ivadékgondozó.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Neveljünk fel 5-6 fős fiatal csapatot, hogy maguktól válasszanak párt.",
+  "A pár kiválása után a felesleges fajtársakat távolítsuk el az agresszió elkerülésére.",
+  "Biztosítsunk tágas, sötét barlangot méretes kövekből kialakítva.",
+  "Az ikrákat a barlang falára vagy mennyezetére ragasztják, számuk akár 200-400 is lehet.",
+  "A lárvák keléséig és elúszásáig mindkét szülő hevesen őrzi a fészket; az ivadék elúszás után frissen kelt artémiával táplálható."
+ ],
+ "ivari_kulonbseg": "Nehezen megkülönböztethetők; a hímek kifejletten valamivel nagyobbak, úszóik (főként a hát- és farok alatti úszó) hosszabban kihúzottak lehetnek.",
+ "felismeres_jegyek": [
+  "Erőteljes, zömök sügéralkat, hegyes fejprofil.",
+  "Világos, ezüstös-fehér vagy kékes alapon öt határozott, széles, fekete függőleges sáv.",
+  "Az úszók (hátúszó, farokúszó) szegélye és a fej egyes részei élénk világoskék, irizáló fényben játszanak.",
+  "Nagy, erőteljes szájnyílás és robusztus pofa."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyphotilapia frontosa",
+   "magyar_nev": "Halszájú pásztorsügér (Frontosa)",
+   "kulonbseg": "A C. frontosa sokkal nagyobbra nő (30 cm felett), a kifejlett egyedek homlokán zsírpúp fejlődik, és hat sávja van (vagy variánstól függően 7)."
+  },
+  {
+   "latin": "Neolamprologus sexfasciatus",
+   "magyar_nev": "Hatsávos karcsúsügér",
+   "kulonbseg": "A N. sexfasciatus testén hat sötét sáv látható, teste karcsúbb, nyújtottabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Verekedésből származó sebek másodlagos gombás vagy bakteriális fertőzései",
+  "Bélbántalmak (nem megfelelő növényi alapú vagy túlságosan zsíros tápok etetése esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Kiváló természetes csigaevő a Tanganyika-tavi biotópban, pillanatok alatt megtisztítja az akváriumot a túlszaporodott csigáktól.",
+  "Sziklákból stabil, masszív búvóhelyeket kell építeni, amelyek nem tudnak leomlani az ásási tevékenysége során.",
+  "Gondoskodjunk erős szűrésről és rendszeres vízcseréről a magas vízminőség biztosítása érdekében."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

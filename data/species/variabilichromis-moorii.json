@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Variabilichromis moorii",
+ "id": "variabilichromis-moorii",
+ "tipus": "hal",
+ "latin": "Variabilichromis moorii",
+ "regi_latin_nevek": [
+  "Lamprologus moorii",
+  "Neolamprologus moorii"
+ ],
+ "magyar_nev": "Variabilichromis moorii",
+ "egyeb_nevek": [
+  "Tanganyikai bársonysügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó déli medencéje, endemikus)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen territoriális és agresszív hal, különösen ívás idején. Saját fajtársaival és a revírjébe tévedő egyéb sügérekkel szemben sem tűr kompromisszumot.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.0,
+ "ph_max": 9.2,
+ "gh_min": 12,
+ "gh_max": 22,
+ "taplalek": "Mindenevő; a természetben fonalas algákat, mikroorganizmusokat és sziklákon élő kis gerincteleneket legel. Jó minőségű spirulinás lemezek és fagyasztott rákfélék keveréke ideális számára.",
+ "tarsithato": [
+  "Csak robusztus",
+  "hasonló agresszivitású tanganyikai sügérekkel",
+  "tágas akváriumban."
+ ],
+ "kerulendo": [
+  "Nyugodt",
+  "félénk sügérek",
+  "kistestű csapathalak",
+  "valamint a barlanglakó kistestű fajok szűk térben."
+ ],
+ "szaporodas_mod": "Barlangban vagy védett sziklafelületen ikrázó, szigorú biparentális gondozással.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Egy növendék csapatból kell kivárni egy kompatibilis pár kialakulását, a többieket gyakran el kell távolítani.",
+  "Biztosítsunk sima felületű köveket vagy szűk barlangot az ikrák lerakásához.",
+  "Az ikrákat a szülők fanatikusan védelmezik minden más haltól.",
+  "A lárvák kb. 3 nap alatt kelnek ki, és további 4-5 nap múlva úsznak el.",
+  "A kishalak artémia naupliusszal könnyen felnevelhetők a szülők felügyelete mellett."
+ ],
+ "ivari_kulonbseg": "A felnőtt egyedeknél a hímek kissé robusztusabbak és úszóik hegyesebbek lehetnek, ivari dimorfizmusuk alacsony fokú.",
+ "felismeres_jegyek": [
+  "Felnőttkorban egységes sötétbarna vagy koromfekete alapszín.",
+  "Az úszók (hát-, farok- és farok alatti úszó) szélén élénk égszínkék szegély látható.",
+  "A fiatal egyedek látványos, élénksárga színezetűek, ami a felnőtté válással fokozatosan feketébe vált.",
+  "Erőteljes, oldalról lapított sügér alkat lekerekített farokúszóval.",
+  "Kifejezetten telt ajkak és robusztus fejforma."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Tropheus moorii",
+   "magyar_nev": "Moor-sügér",
+   "kulonbseg": "A Tropheus moorii szájköltő, gömbölydedebb fejformájú, és mintázata teljesen eltérő."
+  },
+  {
+   "latin": "Neolamprologus leleupi",
+   "magyar_nev": "Aranyfejű sügér",
+   "kulonbseg": "A leleupi felnőttként is egységesen élénksárga marad, teste pedig nyújtottabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-bloat",
+  "Stressz és harc okozta másodlagos gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Mindig gondoskodjunk határozott térelválasztó tereptárgyakról, mert a pár nagy területet követel magának.",
+  "A fiatalok feltűnő sárga színe védelmet nyújt számukra a felnőttek agressziójával szemben a természetben.",
+  "A víz oxigéntartalma mindig legyen magas, a nitrogénvegyületek szintje pedig minimális."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Julidochromis marlieri",
+ "id": "julidochromis-marlieri",
+ "tipus": "hal",
+ "latin": "Julidochromis marlieri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Párduckockás tarkasügér",
+ "egyeb_nevek": [
+  "Marlier-tarkasügér",
+  "Kockás tarkasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó sziklás zónái)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Erősen kötődik a sziklákhoz, gyakran fejjel lefelé vagy függőlegesen úszik a kövek felületét követve. Területét hevesen védelmezi; párban harmonikus, de az egyedül maradt vagy megzavart egyedek agresszívvá válhatnak.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő; élő és fagyasztott apró rákfélék (artémia, cyclops, mysis), kiegészítve spirulinás és magas rosttartalmú lemezes vagy granulált tápokkal.",
+ "tarsithato": [
+  "Más tanganyikai sziklalakókkal vagy nyíltvízi heringsügérekkel (pl. Cyprichromis leptosoma",
+  "Neolamprologus leleupi)."
+ ],
+ "kerulendo": [
+  "Más Julidochromis fajok",
+  "nagyon kicsi ivadékok vagy félénk halak."
+ ],
+ "szaporodas_mod": "Barlangban, rejtve ikrázó.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy békésen kialakult pár megléte elengedhetetlen a sikeres szaporításhoz.",
+  "Zárt, sötét kőhasadékot vagy agyagcserepet választanak ívóhelyül.",
+  "A nőstény 50–100 ikrát rak a kőfelületre, melyeket gondosan őriz a hímmel együtt.",
+  "A kikelő ivadékok a kövek védelmében maradnak, és gyorsan elfogadják az artémia naupliuszokat.",
+  "A szülők több generációt is megtűrnek maguk mellett a revírben, amíg a hely engedi."
+ ],
+ "ivari_kulonbseg": "Külső bélyegek alapján nehezen látható; az ivarérett nőstények gyakran kissé robusztusabbak és teltebbek a hímeknél.",
+ "felismeres_jegyek": [
+  "Nyújtott, hengeres testforma.",
+  "Jellegzetes rácsos, sakktáblaszerű mintázat: vízszintes és függőleges sötét sávok metsződése világosbarna/fehéres alapon.",
+  "Az úszók peremén világító kék szegély.",
+  "Lekerekített farokúszó fekete-fehér és kék mintával.",
+  "Gyakran szorosan a sziklák mentén, oldalra dőlve vagy háton úszik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Julidochromis transcriptus",
+   "magyar_nev": "Feketefejű tarkasügér",
+   "kulonbseg": "Jóval kisebb termetű (7 cm) és a hasi részen kevesebb vagy hiányzó sávos mintázat látható."
+  },
+  {
+   "latin": "Julidochromis regani",
+   "magyar_nev": "Kockásostoros sügér",
+   "kulonbseg": "Mintázata egyértelműen hosszanti csíkokból áll, nem sakktáblaszerű rácsozat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyikai puffadás (bloat)",
+  "Darakór",
+  "Kopoltyúférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Biztosítsunk bőséges, mennyezetig érő sziklahátteret és barlangrendszert, ahol a természetes tájékozódási viselkedését gyakorolhatja.",
+  "Vízcseréknél ügyeljünk a klórmentességre és a vízkeménység fenntartására (szükség esetén szódabikarbóna vagy afrikai só használatával).",
+  "Óvjuk a párt a stressztől, mert ijedtség hatására felbomolhat a kötődés, ami a gyengébb fél pusztulásához vezethet."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

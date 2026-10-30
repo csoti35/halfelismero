@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Neolamprologus brevis",
+ "id": "neolamprologus-brevis",
+ "tipus": "hal",
+ "latin": "Neolamprologus brevis",
+ "regi_latin_nevek": [
+  "Lamprologus brevis"
+ ],
+ "magyar_nev": "Fogas csigasügér",
+ "egyeb_nevek": [
+  "Brevis csigasügér",
+  "Rövid csigasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó homokos, üres csigaházakkal teli partmenti zónái)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Csigaházhoz kötődő faj. Közvetlen házának környezetét vehemensen védelmezi, de egyébként békés, más zónákban úszó fajokat nem zavar.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de az élő és fagyasztott apró rákféléket (artémia, cyclops, daphnia) preferálja, a száraz lemezes és apró szemű granulált tápokat is készséggel elfogadja.",
+ "tarsithato": [
+  "Középső-felső vízrétegek békés fajaival (pl. Cyprichromis leptosoma) vagy békés sziklalakókkal (pl. Julidochromis transcriptus) kellően nagy akváriumban."
+ ],
+ "kerulendo": [
+  "Nagytestű ragadozó sügérek",
+  "fenéklakó harcsafélék",
+  "amelyek elvennék vagy összetörnék a csigaházakat."
+ ],
+ "szaporodas_mod": "Csigaházban ikrázó (fészekhagyó); a pár tagjai gyakran megosztják ugyanazt a csigaházat az ívás és alvás során.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Helyezzünk az aljzatra megfelelő méretű üres éticsiga- vagy Neothauma-házakat.",
+  "Biztosítsunk finom homokos aljzatot, mert a halak maguk ássák be a házakat a kívánt szögbe.",
+  "A nőstény a ház belsejébe ikrázik, a hím a bejáratnál bocsátja ki a tejét, amit a nőstény uszonyaival befelé hajt.",
+  "Az ivadékok a ház védelmében fejlődnek, és kb. 7-9 nap után kezdenek a bejárat előtt táplálkozni.",
+  "Frissen kelt artémia naupliuszokkal azonnal etethetők."
+ ],
+ "ivari_kulonbseg": "Jelentős méretkülönbség: a hímek elérhetik az 5 cm-t, míg a nőstények alig haladják meg a 3 cm-t.",
+ "felismeres_jegyek": [
+  "Tömzsi, magasabb hátú testalkat, nagy fej és dülledt szemek.",
+  "Alapszíne bézs vagy szürkésbarna, oldalán halvány függőleges csíkokkal.",
+  "Szem alatt és a kopoltyúfedőn kékesen csillogó fényfoltok találhatók.",
+  "Ivarérett nőstények sokkal apróbbak a hímnél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus multifasciatus",
+   "magyar_nev": "Sokcsíkos csigasügér",
+   "kulonbseg": "Kisebb termet, testén végigfutó éles, sűrű, sötét függőleges csíkozás és telepes kolóniaképzés jellemzi."
+  },
+  {
+   "latin": "Lamprologus ocellatus",
+   "magyar_nev": "Szemfoltos csigasügér",
+   "kulonbseg": "Zömökebb forma, aranysárga/zöldes pikkelyek és kopoltyúfedőn látható sötét, irizáló szemfolt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Rossz vízminőségből adódó bakteriális uszonyrothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Az aljzat mindenképpen finom szemcséjű homok legyen (0,5-1 mm), mert előszeretettel rendezik át és ássák be a csigaházakat.",
+  "Más csigasügérekkel ellentétben a brevis pár gyakran egyetlen csigaházat használ közösen.",
+  "Kezdő tanganyikás akvaristáknak az egyik legkönnyebben tartható és szaporítható faj."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

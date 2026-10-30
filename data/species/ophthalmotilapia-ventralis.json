@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Ophthalmotilapia ventralis",
+ "id": "ophthalmotilapia-ventralis",
+ "tipus": "hal",
+ "latin": "Ophthalmotilapia ventralis",
+ "regi_latin_nevek": [
+  "Paratilapia ventralis"
+ ],
+ "magyar_nev": "Ophthalmotilapia ventralis",
+ "egyeb_nevek": [
+  "hosszúúszójú homoksügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Kelet-Afrika (Tanganyika-tó endemikus faja, a sziklás-homokos átmeneti zóna)",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek erősen rivalizálnak a territóriumukért és az ívóhelyekért, de a más fajba tartozó élőlényekkel szemben békések.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, sziklák bevonatát, algát és planktonikus mikroszervezeteket fogyaszt; akváriumban jó minőségű növényi és spirulinás tápok, kiegészítve artémiával, küklopsszal.",
+ "tarsithato": [
+  "Cyprichromis",
+  "Paracyprichromis fajokkal",
+  "homoklakó Xenotilapia fajokkal",
+  "békésebb Julidochromisokkal."
+ ],
+ "kerulendo": [
+  "Agresszív mbunák",
+  "ragadozó nagysügérek és a szájköltést megzavaró túlzottan tolakodó fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Alakítsunk ki sziklás-homokos vegyes aljzatot lapos kövekkel az ívóhely kialakításához.",
+  "Ajánlott egy hímet több nősténnyel (1:3 vagy 1:4 arányban) együtt tartani.",
+  "A hím kifeszített úszókkal, élénk színekkel csalogatja a nőstényt a kő felületére.",
+  "Az ikrázás során a hím hasúszóin található 'ál-ikrák' segítségével termékenyíti meg a nőstény szájában lévő ikrákat.",
+  "A nőstény 3-3,5 hétig forgatja a fejlődő ikrákat és lárvákat, ezután az elúszó ivadékok azonnal artémiával táplálhatók."
+ ],
+ "ivari_kulonbseg": "A hímek jóval színesebbek (változattól függően kék, fekete, narancssárga vagy sárga árnyalatok), hasúszóik hosszú fonallá alakultak sárgás lebernyeggel; a nőstények ezüstszürkék és úszóik rövidek.",
+ "felismeres_jegyek": [
+  "Nagy szemek és enyhén lefelé irányuló szájtájék",
+  "A hímek hasúszói megnyúltak, sárga színű végződéssel (ikrautánzat)",
+  "Változattól függően ragyogó világoskék vagy feketéskék nászszínezet a domináns hímeknél",
+  "Nőstények és fiatalok egyszerű ezüstös-szürke pikkelyzettel rendelkeznek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ophthalmotilapia nasuta",
+   "magyar_nev": "Ophthalmotilapia nasuta",
+   "kulonbseg": "Kifejlett korban feltűnő orrnyúlvánnyal rendelkezik és testmérete valamivel nagyobb."
+  },
+  {
+   "latin": "Cyathopharynx furcifer",
+   "magyar_nev": "Cyathopharynx furcifer",
+   "kulonbseg": "Nagyobb testméretű, sokkal mélyebben villás a farka és magas homokkrátert épít."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-bloat",
+  "Bakteriális úszórothadás",
+  "Hexamita"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 14000,
+ "tippek": [
+  "A hímek territoriális viselkedése miatt biztosítsunk legalább 150 cm-es medencehosszt.",
+  "Megfelelő oxigénellátás és alacsony nitrátszint elengedhetetlen a halak egészségének megőrzéséhez."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

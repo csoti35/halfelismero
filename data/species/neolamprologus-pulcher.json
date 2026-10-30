@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Neolamprologus pulcher",
+ "id": "neolamprologus-pulcher",
+ "tipus": "hal",
+ "latin": "Neolamprologus pulcher",
+ "regi_latin_nevek": [
+  "Lamprologus pulcher",
+  "Neolamprologus savoryi pulcher"
+ ],
+ "magyar_nev": "Burundi hercegnője",
+ "egyeb_nevek": [
+  "Daffodil sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő sügérfaj, amely rendkívül összetett, hierarchikus kolóniákban él. Az idősebb ivadékok besegítenek a szülőknek az új fészekalj védelmében. Más fajokkal szemben agresszívvá válik ívás idején.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 9.0,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Húsevő: fagyasztott és élő artémia, mysis, cyclops, jó minőségű lemezes és granulált sügértápok.",
+ "tarsithato": [
+  "Más Tanganyika-tavi sügérekkel (pl. Julidochromis",
+  "Altolamprologus fajok",
+  "nagyobb csigasügérek tágas akváriumban)."
+ ],
+ "kerulendo": [
+  "Nyugodt",
+  "kistestű nano halak",
+  "lágyvizes fajok (pontylazacok",
+  "dániók)",
+  "agresszív mbuna sügérek."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, fejlett ivadékgondozó",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Biztosítsunk sok kőből épített barlangot, rést és hasadékot.",
+  "A stabil pár a barlang mennyezetére vagy oldalára ragasztja az ikrákat.",
+  "A nőstény az ikrákat legyezi, míg a hím a revírt őrzi.",
+  "A kikelő lárvákat frissen keltetett artémiával etessük.",
+  "Az előző generációkból származó fiatalok részt vesznek a kisebb testvérek védelmezésében."
+ ],
+ "ivari_kulonbseg": "A hímek kissé nagyobbak, hát- és farokúszójuk szála hosszabbra nyúlik, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Nyújtott, elegáns testalkat, világos bézs vagy sárgás alapszín.",
+  "A kopoltyúfedőn jellegzetes fekete és ragyogó kék vonások/foltok láthatók (T vagy V alakú minta).",
+  "Líra alakú farokúszó, amelynek végei hosszan megnyúltak, fehéres-kékes szegéllyel.",
+  "Az úszók szélein világoskék fluoreszkáló sáv fut végig."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neolamprologus brichardi",
+   "magyar_nev": "Tündérsügér",
+   "kulonbseg": "A N. brichardi kopoltyúfedőjén lévő fekete sáv mögött nincs jellegzetes sárgás folt, mint a 'Daffodil' variánsnál."
+  },
+  {
+   "latin": "Neolamprologus gracilis",
+   "magyar_nev": "Karcsú tündérsügér",
+   "kulonbseg": "A teste még nyújtottabb, és hiányzik a fejéről a N. pulcherre jellemző íves kék és fekete rajzolat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (Tanganyika bloat)",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Gondoskodjunk kemény, lúgos kémhatású vízről és magas oxigénszintről.",
+  "Építsünk sziklákból stabil barlangrendszert, amely nem tud leomlani az ásás következtében.",
+  "Hagyjuk együtt a generációkat, lenyűgöző kolóniakommunikációt figyelhetünk meg."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

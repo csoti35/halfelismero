@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Eretmodus cyanostictus",
+ "id": "eretmodus-cyanostictus",
+ "tipus": "hal",
+ "latin": "Eretmodus cyanostictus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Bohócsügér",
+ "egyeb_nevek": [
+  "Tanganyikai bohócsügér",
+  "Kékpettyes bohócsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Afrikai sügérek - Tanganyika-tó)",
+ "szarmazas": "Afrika (Tanganyika-tó hullámverte, sziklás part menti sekély vizei)",
+ "max_meret_cm": 9,
+ "elettartam_ev": 6,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fajtársaival szemben kifejezetten territoriális és agresszív. Monogám párokban él; a stabil párok hűségesek egymáshoz, de idegen egyedeket hevesen űznek a területükről.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.2,
+ "ph_max": 9.2,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Növényevő/Aufwuchs-fogyasztó: sziklákról algabevonatot és abban élő mikroorganizmusokat legel. Spirulina, algatabletták és minőségi növényi sügéreleségek kötelezőek, állati fehérjétől megbetegszik.",
+ "tarsithato": [
+  "Tropheus és Petrochromis fajokkal",
+  "Neolamprologusokkal",
+  "egyéb békésebb sziklalakó tanganyikai sügérekkel."
+ ],
+ "kerulendo": [
+  "Ragadozó sügérek",
+  "túlságosan apró halak",
+  "valamint más talajlakó gébsügérek (Spathodus",
+  "Tanganicodus) kis helyen."
+ ],
+ "szaporodas_mod": "Kétirányú (biparentális) szájköltő.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Neveljünk fel 5-6 fős fiatal csapatot, hogy maguktól alakuljon ki egy harmonizáló pár.",
+  "Biztosítsunk lapos felületű köveket és erős oxigénellátást, hullámzást keltő áramlást.",
+  "Az ikrákat a nőstény veszi először a szájába (kb. 10-30 ikra).",
+  "Körülbelül 7-10 nap múlva a nőstény átadja a lárvákat a hímnek, aki folytatja a szájköltést.",
+  "A kishalak kieresztése után mindkét szülő védelmezheti a megmaradt ivadékokat egy darabig.",
+  "A frissen elúszott ivadék mikroeleséggel, frissen kelt artémiával és finom spirulinaporral nevelhető."
+ ],
+ "ivari_kulonbseg": "Külsőre szinte megkülönböztethetetlenek, az ivarérett hímek néha valamivel robusztusabbak és púpjuk homlokvonala meredekebb lehet; ivarvizsgálat (venting) szükséges.",
+ "felismeres_jegyek": [
+  "Lefelé nyíló, kanálszerű fogakkal teli száj (algakaparásra módosult).",
+  "Hosszúkás, gébszerű testfelépítés csökevényes úszóhólyaggal, ugráló úszásmóddal.",
+  "Szürkésbarna vagy sárgásbarna alapszín függőleges sávokkal.",
+  "A fejen és a háti részen apró, világoskék pöttyök, szikrázó pontok díszlenek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Spathodus erythrodon",
+   "magyar_nev": "Pirosszemű gébsügér",
+   "kulonbseg": "Fogazatának formája más (egyhegyű, véső alakú), színe és szemgyűrűje eltérő."
+  },
+  {
+   "latin": "Tanganicodus irsacae",
+   "magyar_nev": "Tanganyikai gébsügér",
+   "kulonbseg": "Hegyesebb pofájú, teste karcsúbb, fogai tűszerűek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-puffadás (bloat) nem megfelelő (túl sok fehérjét tartalmazó) táplálás miatt",
+  "Oxigénhiány (rendkívül érzékeny a víz oxigéntartalmára)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Kizárólag magas növényi rost- és alga-alapú eleséggel etessük, a szúnyoglárva és a tubifex végzetes lehet számára.",
+  "Erős áramlást és kiváló szellőztetést igényel, a Tanganyika-tó hullámtörő zónáját kell leutánozni.",
+  "Egy akváriumban csak egyetlen párt tartsunk, hacsak a medence nem haladja meg az 500 litert."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

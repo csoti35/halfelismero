@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Tropheus moorii",
+ "id": "tropheus-moorii",
+ "tipus": "hal",
+ "latin": "Tropheus moorii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tropheus moorii",
+ "egyeb_nevek": [
+  "Szélesszájú sügér",
+  "Tropheus"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Tanganyika-tavi sügérek",
+ "szarmazas": "Afrika (Tanganyika-tó sziklás partvidékei)",
+ "max_meret_cm": 14,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen koloniális, de rendkívül agresszív és hierarchikus faj. Szigorú rangsort alakítanak ki, amelyet csak kellően nagy (15-20 fős) csapatban lehet békés szinten tartani.",
+ "rajhal": true,
+ "min_csoport": 15,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.2,
+ "ph_max": 9.2,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Kifejezetten növényevő (Aufwuchs-evő); magas minőségű spirulina tartalmú lemezes és granulált tápok szükségesek. Állati fehérjékkel szigorúan tilos túletetni!",
+ "tarsithato": [
+  "Legjobb faji akváriumban egy nagyobb kolóniát tartani",
+  "esetleg más Tanganyika-tavi vegetáriánus sügérekkel (pl. Petrochromis",
+  "Eretmodus)."
+ ],
+ "kerulendo": [
+  "Ragadozó halak",
+  "ragadozó és békés mindenevő sügérek",
+  "valamint kistestű",
+  "lágyvizes fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Tartson legalább 15-20 fős csapatot stabil, stresszmentes környezetben.",
+  "A domináns hím a lapos köveknél udvarol a nőstényeknek.",
+  "A nőstény az ikrákat azonnal a szájába veszi a lerakás után, és ott termékenyülnek meg a hím ivarnyílásánál.",
+  "A nőstény 3-4 hétig forgatja az ikrákat és a lárvákat a szájában, eközben alig vagy egyáltalán nem táplálkozik.",
+  "A kiengedett, fejlett ivadékok azonnal finom porított növényi eleséggel etethetők."
+ ],
+ "ivari_kulonbseg": "Kifejlett korban a hímek gyakran valamivel nagyobbak, orr-részük meredekebb, viselkedésük dominánsabb; biztos meghatározás csak az ivarszemölcs vizsgálatával lehetséges.",
+ "felismeres_jegyek": [
+  "Jellegzetes tompa, lekerekített, lefelé nyíló széles száj a sziklák legeléséhez.",
+  "Magas hátvonal, zömök, erőteljes testfelépítés.",
+  "A földrajzi variánsoktól függően rendkívül változatos szín (pl. fekete testen élénk sárga vagy piros sáv/folt, mint az 'Ilangi' vagy 'Moliro').",
+  "Nagy, élénk szemek.",
+  "Folyamatos, aktív, cikázó úszásmód."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Tropheus duboisi",
+   "magyar_nev": "Dubois-sügér",
+   "kulonbseg": "A duboisi fiatalon fehér pettyes, felnőttként fejrésze kék, és egy keskeny fehér vagy sárga sáv van a testén."
+  },
+  {
+   "latin": "Petrochromis famula",
+   "magyar_nev": "Petrochromis famula",
+   "kulonbseg": "A Petrochromisok jóval nagyobbra nőnek, és szájszerkezetük még kifejezettebb, húsos ajkakkal rendelkeznek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tanganyika-bloat (helytelen, állati fehérjében dús táplálás okozta végzetes bélgyulladás)",
+  "Belső paraziták (pl. Hexamita/Spironucleus)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Soha ne etessük őket vörös vagy fehér szúnyoglárvával és melegvérű állatok húsával, mert szinte biztosan bloathoz vezet.",
+  "Mindig egyszerre, egy nagy csapatban telepítsük őket az akváriumba az agresszió eloszlatása érdekében.",
+  "Használjunk intenzív világítást, hogy elősegítsük a természetes algaszőnyeg fejlődését a köveken."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}
