@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Pseudotropheus elongatus",
+ "id": "pseudotropheus-elongatus",
+ "tipus": "hal",
+ "latin": "Chindongo elongatus",
+ "regi_latin_nevek": [
+  "Pseudotropheus elongatus"
+ ],
+ "magyar_nev": "Karcsú malawi-sügér",
+ "egyeb_nevek": [
+  "Elongatus sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Afrika, Malawi-tó (Mbamba Bay és környéke)",
+ "max_meret_cm": 11,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen territoriális, agresszív faj. A hímek hevesen őrzik a kövek közötti barlangjukat, és a betolakodókat kíméletlenül elűzik.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.6,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Főként növényevő; a sziklákon növő algaszőnyeget és az abban élő mikroszervezeteket fogyasztja. Növényi alapú mbuna-granulátumok, spirulina és időnként apró rákfélék etethetők.",
+ "tarsithato": [
+  "Robusztusabb",
+  "hasonló vérmérsékletű mbuna fajokkal (pl. Metriaclima fajok",
+  "Labeotropheus fuelleborni",
+  "Melanochromis auratus)."
+ ],
+ "kerulendo": [
+  "Nyugodt és kistestű halak",
+  "csigák",
+  "garnélák",
+  "hosszú uszonyú és lágyvizes fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Háremben tartva (1 hímre 3-5 nőstény) tágas, sok búvóhellyel ellátott akváriumban tartsuk.",
+  "A domináns hím barlang mélyén vagy lapos kövön területet tisztít meg az udvarláshoz.",
+  "A nőstény az ikrákat lerakja, majd a szájába véve megtermékenyítteti a hím ikrafoltjaihoz hajolva.",
+  "A nőstény 3-4 hétig forgatja az ikrákat és a fejlődő kishalakat a torkában.",
+  "A kiengedett ivadékok azonnal táplálkoznak morzsolt lemezes táppal és naupliusszal."
+ ],
+ "ivari_kulonbseg": "A hímek teste nyúlánkabb, színezete élénk sötétkék és fekete sávos vagy sárgás mintázatú (változattól függően), a nőstények fakóbbak, szürkéskékek vagy barnás árnyalatúak, úszóik lekerekítettebbek.",
+ "felismeres_jegyek": [
+  "A többi mbunához képest feltűnően elnyúlt, hengeres, karcsúbb testalkat",
+  "Sötét, függőleges sávok az oldalán, amelyek a farok felé elmosódhatnak",
+  "Kék alapszín, a hát- és farokúszón sötét szegéllyel",
+  "Lefelé irányuló, sziklák lelegelésére alkalmas szájállás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudotropheus demasoni",
+   "magyar_nev": "Demason-sügér",
+   "kulonbseg": "Sokkal zömökebb és rövidebb testalkatú, mindkét nem élénk sávos."
+  },
+  {
+   "latin": "Melanochromis auratus",
+   "magyar_nev": "Türkiz aranysügér",
+   "kulonbseg": "Vízszintes csíkozású a teste, nem függőleges sávos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (bloat)",
+  "Harci sérülések okozta gombásodás",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1600,
+ "ar_ft_max": 3800,
+ "tippek": [
+  "Akaratos, robusztus mbunákkal társítsuk, mert a gyengébb fajokat teljesen elnyomhatja.",
+  "A sziklákból épített barlangok plafonja érjen el egészen a vízfelszínig, hogy a meghajszolt egyedek menedéket találjanak.",
+  "Ügyeljünk a magas oxigéntartalomra és az erős áramlásra."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

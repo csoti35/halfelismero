@@ -1,0 +1,86 @@
+{
+ "id": "chindongo-socolofi",
+ "tipus": "hal",
+ "latin": "Chindongo socolofi",
+ "regi_latin_nevek": [
+  "Pseudotropheus socolofi"
+ ],
+ "magyar_nev": "Hófehér sügér",
+ "egyeb_nevek": [
+  "Socolof sügér",
+  "Világoskék sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi-tavi sügérek (Mbuna)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 12,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Közepesen agresszív Mbuna, a hímek védik a területüket, de más fajokkal szemben elviselhetőbb.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Növényevő (algaevő, spirulina alapú tápok, forrázott zöldség)",
+ "tarsithato": [
+  "Más Malawi sügérekkel",
+  "Labidochromis fajokkal"
+ ],
+ "kerulendo": [
+  "Lágyvizes halak",
+  "ragadozó sügérek"
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím egy lapos követ tisztít meg az íváshoz.",
+  "A nőstény lerakja az ikrákat, majd a szájába veszi őket.",
+  "A hím az ikrafoltok segítségével termékenyíti meg őket.",
+  "A nőstény 20-22 napig koplalva forgatja az ikrákat.",
+  "Az ivadékok elengedés után azonnal etethetők finom növényi táppal."
+ ],
+ "ivari_kulonbseg": "Nagyon nehéz megkülönböztetni őket; a hímek úszói valamivel hosszabbak és több ikrafoltjuk lehet.",
+ "felismeres_jegyek": [
+  "Egységes világoskék vagy fehéres-kék testalapszín",
+  "Sötétkék/fekete szegély a hátúszón és a farok alatti úszón",
+  "Nincsenek függőleges csíkok a testen",
+  "Kicsi, terminális száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Metriaclima callainos",
+   "magyar_nev": "Jégkék sügér",
+   "kulonbseg": "Nagyobbra nő, és nincsenek fekete szegélyek az úszóin."
+  },
+  {
+   "latin": "Labidochromis caeruleus 'White'",
+   "magyar_nev": "Fehér arany sügér",
+   "kulonbseg": "Hófehér test, markánsabb fekete úszószegély."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Kerüljük a magas fehérjetartalmú (vörös szúnyoglárva) eleségeket.",
+  "Sok sziklás búvóhelyet igényel.",
+  "A 'Snow White' változat teljesen fehér, albínó jellegű."
+ ],
+ "lista_nev": "Chindongo socolofi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

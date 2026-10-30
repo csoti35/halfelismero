@@ -1,0 +1,81 @@
+{
+ "lista_nev": "Cyrtocara moorii",
+ "id": "cyrtocara-moorii",
+ "tipus": "hal",
+ "latin": "Cyrtocara moorii",
+ "regi_latin_nevek": [
+  "Haplochromis moorii"
+ ],
+ "magyar_nev": "Delfinsügér",
+ "egyeb_nevek": [
+  "Malawi delfinsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Malawi-tó)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 20,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, de más hasonló méretű Malawi-tavi sügérekkel szemben viszonylag békés. A kisebb halakat eledelnek tekintheti.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.8,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de szubsztrát-szűrő életmódja miatt a húsos ételeket (pl. krill, artémia, minőségi sügértápok) kedveli.",
+ "tarsithato": [
+  "Más közepes és nagy testű",
+  "kemény vizet kedvelő Malawi-tavi sügérekkel (pl. Aulonocara",
+  "nagyobb Utaka fajok)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "agresszív Mbuna fajok",
+  "lágyvizi fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Biztosítsunk legalább 1 hím és 3-4 nőstény arányú csopotot egy nagy akváriumban.",
+  "A hím sima köves aljzatra tisztít meg egy területet az íváshoz.",
+  "Ívás után a nőstény szájába veszi a megtermékenyített ikrákat.",
+  "A nőstény kb. 3 hétig forgatja a szájában az ikrákat és ivadékokat, ez idő alatt nem táplálkozik.",
+  "Az elúszó ivadékokat frissen keltetett artémiával és finom porszerű táppal etethetjük."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek homlokpúpja általában nagyobb, színük intenzívebb kék, és méretre is nagyobbak a nőstényeknél.",
+ "felismeres_jegyek": [
+  "Jellegzetes, domború homlokpúp (mindkét ivarnál megjelenik idős korra).",
+  "Egyszínű, világosabb vagy sötétebb élénkkék test.",
+  "Oldalukon fiatalon sötét foltok láthatók, amelyek felnőttkorra elhalványulhatnak.",
+  "Magas, megnyúlt testforma nagy fejjel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Placidochromis phenochilus",
+   "magyar_nev": "Mdoca delfinsügér",
+   "kulonbseg": "A Placidochromis phenochilus felnőtt korára fehér/ezüst pikkelymintázatot növeszt, és más a fejformája."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi puffadás (Malawi bloat)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Biztosítsunk nagy szabad úszóteret és finom homokos aljzatot, mert szeretnek a homokban turkálni.",
+  "A jó szűrés és a rendszeres vízcsere elengedhetetlen a magas pH és a tiszta víz fenntartásához."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

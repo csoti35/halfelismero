@@ -1,0 +1,83 @@
+{
+ "lista_nev": "Tyrannochromis macrostoma",
+ "id": "tyrannochromis-macrostoma",
+ "tipus": "hal",
+ "latin": "Tyrannochromis macrostoma",
+ "regi_latin_nevek": [
+  "Haplochromis macrostoma"
+ ],
+ "magyar_nev": "Tyrannochromis macrostoma",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Malawi-tó)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 35,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten ragadozó életmódot folytató, nagy testű sügér. Saját méreténél kisebb halakat habozás nélkül megeszi, fajtársaival és más hímekkel szemben agresszív.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 700,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó; hallal, rákfélékkel, fagylalt és száraz ragadozó sügértápokkal etethető.",
+ "tarsithato": [
+  "Kizárólag más hasonlóan nagy testű",
+  "robusztus Malawi-tavi sügérekkel (pl. Nimbochromis",
+  "Buccochromis fajok)."
+ ],
+ "kerulendo": [
+  "Minden kisméretű és közepes hal",
+  "Mbuna sügérek",
+  "békés fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Rendkívül nagy akvárium szükséges egy hím és több nőstény tartásával.",
+  "A hím domborzati elemet vagy köves felületet választ ki az íváshoz.",
+  "A nőstény az ikrákat a szájában forgatja körülbelül 3-4 hétig.",
+  "Az ivadékok kiengedés után azonnal képesek kisebb élő eleségek és apró tápok elfogyasztására."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek gyönyörű kék/sárgás színeződésűek, míg a nőstények és fiatalok rejtőszínűbbek, ezüstös-barnás mintázattal.",
+ "felismeres_jegyek": [
+  "Hatalmas, mélyen hasított száj elkeskenyedő fejszerkezettel.",
+  "Áramvonalas, erőteljes ragadozó testalkat.",
+  "Sötét, vízszintes cikcakkos csík vagy foltsor az oldalvonal mentén (főleg nőstényeknél).",
+  "Nagy méret, elérheti a 30-35 cm-t."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nimbochromis livingstonii",
+   "magyar_nev": "Livingston-sügér",
+   "kulonbseg": "A N. livingstonii terepmintás (foltos) mintázatú, és fejfekvése, szájfelépítése eltérő."
+  },
+  {
+   "latin": "Tyrannochromis nigriventer",
+   "magyar_nev": "Tyrannochromis nigriventer",
+   "kulonbseg": "A T. nigriventer hímjeinek hasalji része sötét/fekete színeződésű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Sérülésekből eredő fertőzések (harcok miatt)",
+  "Malawi puffadás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Kizárólag óriási akváriummal rendelkező, tapasztalt sügéres akvaristáknak ajánlott.",
+  "Nagy teljesítményű biológiai szűrésre van szükség a magas fehérjebevitel miatti terhelés elviselésére."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

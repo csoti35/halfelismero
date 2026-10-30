@@ -1,0 +1,86 @@
+{
+ "id": "mylochromis-lateristriga",
+ "lista_nev": "Mylochromis lateristriga",
+ "tipus": "hal",
+ "latin": "Mylochromis lateristriga",
+ "regi_latin_nevek": [
+  "Cyrtocara lateristriga"
+ ],
+ "magyar_nev": "Sávos homoksügér",
+ "egyeb_nevek": [
+  "Lateristriga sügér"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi sügérek (Haplochromines)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 20,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés homoklakó, de íváskor a hímek agresszíven védik a revírjüket.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 350,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.5,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (főleg gerinctelenek a homokból, jó minőségű tápok)",
+ "tarsithato": [
+  "Más békésebb Malawi sügérekkel (pl. Aulonocara",
+  "Copadichromis)."
+ ],
+ "kerulendo": [
+  "Durva Mbuna sügérek",
+  "agresszív ragadozók."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Homokos aljzat biztosítása, ahol a hím gödröt ás.",
+  "Násztánc után az ikrák lerakása és megtermékenyítése.",
+  "A nőstény a szájában költi ki az ikrákat.",
+  "Kb. 21 nap után engedi el a kishalakat.",
+  "Az ivadékok porított táppal nevelhetőek."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek (kékes-zöldes fény), a nőstények ezüstösek, markánsabb fekete sávval.",
+ "felismeres_jegyek": [
+  "Oldalán egy vízszintes fekete sáv fut végig.",
+  "A sáv felett gyakran függőleges csíkozás látható.",
+  "Mélyebb testalkat a Champsochromis-hoz képest.",
+  "Lefelé irányuló száj a homok túrásához.",
+  "A hímek úszói sárgás vagy kékes árnyalatúak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mylochromis anaphyrmus",
+   "magyar_nev": "Nagy homoksügér",
+   "kulonbseg": "Nagyobb méret, eltérő sávmintázat."
+  },
+  {
+   "latin": "Otopharynx lithobates",
+   "magyar_nev": "Barlangi sügér",
+   "kulonbseg": "Sötétebb alapszín, nincs ilyen jellegzetes oldalvonal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bélparaziták",
+  "Gombásodás rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Finom homok aljzat használata kötelező, mert ebben keresgélnek.",
+  "Érdemes egy hímet több nősténnyel tartani (hárem).",
+  "Ne tartsuk túl agresszív fajokkal, mert visszahúzódóvá válik."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

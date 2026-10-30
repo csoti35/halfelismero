@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Maylandia zebra",
+ "id": "maylandia-zebra",
+ "tipus": "hal",
+ "latin": "Maylandia zebra",
+ "regi_latin_nevek": [
+  "Metriaclima zebra",
+  "Pseudotropheus zebra"
+ ],
+ "magyar_nev": "Zebra sügér",
+ "egyeb_nevek": [
+  "Zebra torkossügér",
+  "Kék zebrasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Kelet-Afrika (Malawi-tó sziklás partjai)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen territoriális és agresszív mbuna sügér. A hímek hevesen védik a sziklák közötti barlangjaikat, és fajtársaikkal, valamint a hasonló mintázatú fajokkal szemben kíméletlenek lehetnek. Csak háremben tartható.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Növényi bázisú mindenevő (aufwuchs legelő); spirulina alapú lemezek és pelletek, kevés rákféle; a túl zsíros, húsos eleségektől bélgyulladást kap.",
+ "tarsithato": [
+  "Más robusztus",
+  "hasonló méretű és vérmérsékletű Malawi-tavi mbuna sügérekkel (pl. Labidochromis caeruleus",
+  "Pseudotropheus fajok)."
+ ],
+ "kerulendo": [
+  "Nyugodt",
+  "kistestű halak",
+  "dél-amerikai vagy ázsiai fajok",
+  "hosszú úszójú halak",
+  "ragadozó nagysügérek és lágyvizes fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Egy hímhez tartsunk legalább 3-4 nőstényt tágas, sok búvóhellyel ellátott akváriumban.",
+  "A hím kifeszített úszókkal és reszkető mozgással csalogatja a nőstényt egy sima kőfelületre.",
+  "Az ikrázás során a nőstény felcsipegeti a lerakott ikrákat, majd a hím farok alatti úszóján lévő ikrafoltokat kapkodva termékenyíti meg őket.",
+  "A nőstény 21-28 napig a szájában forgatja az ikrákat és a kikelt ivadékokat, ezalatt nem táplálkozik.",
+  "Az elengedett kishalak azonnal képesek elfogadni az apróra tört spirulinás lemezes tápot és a frissen kelt artémiát."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, élénkebb színűek, és a farok alatti úszójukon hangsúlyosabb, sárga ikrafoltok találhatók; a nőstények fakóbbak és kisebbek.",
+ "felismeres_jegyek": [
+  "Klasszikus vad formáján világoskék alapon 7-8 sötétkék/fekete függőleges csík fut végig.",
+  "Vaskos, torpedó alakú mbuna testfelépítés, meredek homlokprofil.",
+  "A hátúszó hosszú, tüskés sugarakkal ellátott, gyakran vékony világos szegéllyel.",
+  "A hím farok alatti úszóján markáns sárga vagy narancssárga ikrafoltok láthatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Chindongo saulosi",
+   "magyar_nev": "Saulosi sügér",
+   "kulonbseg": "Kisebb termetű, a hím szintén kék-fekete csíkos, de a nőstények élénksárgák."
+  },
+  {
+   "latin": "Pseudotropheus demasoni",
+   "magyar_nev": "Demasoni sügér",
+   "kulonbseg": "Sokkal kisebb, sűrűbb és élesebb kék-fekete sávozású, mindkét nem azonos mintázatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi puffadás (bélgyulladás nem megfelelő etetés miatt)",
+  "Darackór (stressz vagy hirtelen vízhőmérséklet-esés esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Építsünk masszív, stabil sziklahalmot barlangokkal, hogy a hímek kijelölhessék saját revírjüket.",
+  "Kerüljük a vörös szúnyoglárva és a tubifex etetését, mert halálos bélfertőzést okozhat náluk.",
+  "Rendszeres, heti 30-40%-os részleges vízcsere szükséges a nitrátszint alacsonyan tartásához."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "pseudotropheus-crabro",
+ "tipus": "hal",
+ "latin": "Pseudotropheus crabro",
+ "regi_latin_nevek": [
+  "Maylandia crabro"
+ ],
+ "magyar_nev": "Darázs-sügér",
+ "egyeb_nevek": [
+  "Kameleon sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi-tavi sügérek (Mbuna)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 18,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen területvédő és agresszív faj, különösen íváskor. Képes gyorsan változtatni a színét (innen a kameleon név).",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 350,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.6,
+ "ph_max": 8.6,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (természetben parazitákat eszik más halakról, akváriumban sügértápok)",
+ "tarsithato": [
+  "Csak hasonlóan robusztus és agresszív Malawi sügérekkel"
+ ],
+ "kerulendo": [
+  "Békés halak",
+  "kistestű fajok",
+  "más sárga-fekete csíkos halak"
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A domináns hím barlangot vagy gödröt választ az íváshoz.",
+  "A nőstény lerakja az ikrákat, majd a szájába veszi őket.",
+  "A hím megtermékenyíti az ikrákat a nőstény szájában.",
+  "A nőstény kb. 21-25 napig forgatja az utódokat.",
+  "Az ivadékok azonnal képesek apró élő eleség elfogyasztására."
+ ],
+ "ivari_kulonbseg": "A hímek sötétebbek, domináns állapotban szinte teljesen befeketedhetnek, a nőstények megőrzik sárga-barna csíkozásukat.",
+ "felismeres_jegyek": [
+  "Sárga alapszín széles, függőleges barna/fekete sávokkal",
+  "Robusztus, zömök testfelépítés",
+  "Képes pillanatok alatt sötétbarnára vagy feketére színeződni",
+  "Nagy száj és markáns fejforma"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanochromis auratus",
+   "magyar_nev": "Aranyöves sügér",
+   "kulonbseg": "Vízszintes csíkozású, vékonyabb testalkatú."
+  },
+  {
+   "latin": "Pseudotropheus lombardoi",
+   "magyar_nev": "Lombardoi sügér",
+   "kulonbseg": "A hímek sárgák, a nőstények kékek, függőleges csíkokkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Bőrférgesség",
+  "Sérülések az agresszió miatt"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Sok búvóhelyet és barlangot igényel a revírek kialakításához.",
+  "Csak nagy akváriumban tartsuk, mert nagyra nő és agresszív.",
+  "Ne etessük túl, mert hajlamos az elhízásra."
+ ],
+ "lista_nev": "Pseudotropheus crabro",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

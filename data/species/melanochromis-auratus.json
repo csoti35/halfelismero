@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Melanochromis auratus",
+ "id": "melanochromis-auratus",
+ "tipus": "hal",
+ "latin": "Melanochromis auratus",
+ "regi_latin_nevek": [
+  "Pseudotropheus auratus"
+ ],
+ "magyar_nev": "Aranysügér",
+ "egyeb_nevek": [
+  "Auratus sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 11,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten territoriális, agresszív és dominanciára törekvő mbuna faj. Különösen a hímek kíméletlenek a fajtársakkal és más hasonló megjelenésű halakkal szemben.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Növényi alapú lemezes és granulált eleségek, spirulina, algás bevonatok; állati fehérjét (pl. szúnyoglárva) csak minimálisan vagy egyáltalán ne kapjon az emésztési problémák elkerülése érdekében.",
+ "tarsithato": [
+  "Robusztusabb",
+  "hasonló vérmérsékletű Malawi-tavi mbuna sügérekkel (pl. Pseudotropheus",
+  "Metriaclima fajok)."
+ ],
+ "kerulendo": [
+  "Békés sügérek",
+  "békés rajhalak",
+  "lassú mozgású vagy lágyvizet igénylő fajok",
+  "valamint hasonló csíkozású halak."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk háremet: egy hímre legalább 3-4 nőstény jusson sok búvóhellyel rendelkező medencében.",
+  "Az udvarlás során a hím lapos kőre csalogatja a nőstényt, ahol a pár körbe-körbe forog.",
+  "A nőstény lerakja az ikrákat, majd azonnal a szájába veszi őket, és a hím farok alatti úszóján lévő ikrafoltokat csipegetve termékenyíti meg őket.",
+  "A nőstény 21-28 napig forgatja az ikrákat a szájában, eközben nem táplálkozik.",
+  "Az elúszó kishalak azonnal képesek elfogyasztani a frissen kelt artémiát vagy a finomra porított száraztápot."
+ ],
+ "ivari_kulonbseg": "Drasztikus ivari kétalakúság: a domináns hímek alapszíne feketés-barna vagy sötétkék, hátukon és oldalukon világoskék/fehér sávval; a nőstények és a fiatalok aranysárga alapon két vastag fekete vízszintes csíkot viselnek.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres torpedó alakú testforma.",
+  "A nőstények és fiatalok élénk sárga alapszíne két markáns fekete hosszanti sávval.",
+  "Az ivarérett hímek sötét (fekete-barna) teste világoskékes-fehér csíkokkal.",
+  "A hátúszó sárgás szegélye nőstényeknél, világos mintázatú a hímeknél.",
+  "A hím farok alatti úszóján sárga ikrafoltok találhatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanochromis chipokae",
+   "magyar_nev": "Chipoka sügér",
+   "kulonbseg": "Nagyobbra nő, a hímek testén a világos csíkozás eltérő tónusú és a nőstények sárgás-barnásabbak."
+  },
+  {
+   "latin": "Pseudotropheus johannii",
+   "magyar_nev": "Johanni sügér",
+   "kulonbseg": "A hím kék alapon világoskék csíkos/foltos, a nőstény egyszínű narancssárga, hiányoznak a markáns fekete hosszanti sávok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (helytelen, túl fehérjedús etetés miatt)",
+  "Darackór (stressz vagy hirtelen vízhőmérséklet-változás esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Mindig háremben tartsuk (1 hímre 3-5 nőstény), hogy a hím agressziója megoszoljon.",
+  "Építsünk bőséges sziklahalmot, sok átjáróval és búvóhellyel a revírek kijelöléséhez.",
+  "Kerüljük a vörös szúnyoglárvát és a melegvérű állatok húsát, étrendjük alapja a spirulina és növényi rostok legyenek."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

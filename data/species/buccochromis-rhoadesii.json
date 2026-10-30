@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Buccochromis rhoadesii",
+ "id": "buccochromis-rhoadesii",
+ "tipus": "hal",
+ "latin": "Buccochromis rhoadesii",
+ "regi_latin_nevek": [
+  "Haplochromis rhoadesii"
+ ],
+ "magyar_nev": "Buccochromis rhoadesii",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (Malawi-tó)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 35,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Nagy testű, nyílt vízi ragadozó. A szájába beférő halakat elfogyasztja, területét és helyét határozottan védi.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 700,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Ragadozó; hallal, rákokkal, minőségi ragadozó sügér pelletekkel etethető.",
+ "tarsithato": [
+  "Kizárólag más nagy testű",
+  "robusztus Malawi-tavi sügérekkel (pl. Champsochromis",
+  "Nimbochromis)."
+ ],
+ "kerulendo": [
+  "Bármilyen kisebb hal",
+  "amit le tud nyelni",
+  "békés közösségi fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Megfelelő méretű, nagy alapterületű akvárium szükséges hím és több nőstény tartásával.",
+  "A hím homokba vájt fészekkel vagy kővel csábítja a nőstényt ívásra.",
+  "A nőstény a szájában forgatja az ikrákat kb. 3-4 hétig.",
+  "A kiúszó ivadékok nagy méretűek, apró élő táplálékkal jól nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek sárgás-fémeskék színezetűek, domináns korukban rendkívül látványosak, a nőstények ezüstösebbek sötét átlós csíkkal.",
+ "felismeres_jegyek": [
+  "Nagy, robusztus, oldalról kissé lapított testalkat.",
+  "Irányban átlósan futó sötét csík a testen (különösen nőstényeknél és fiataloknál).",
+  "Széles, nagy szájnyílás.",
+  "A kifejlett hímek teste sárgás-zöldes-kék fémes fényű."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Buccochromis nototaenia",
+   "magyar_nev": "Buccochromis nototaenia",
+   "kulonbseg": "A B. nototaenia csíkozása és testformája kissé eltérő, a vízszintes/átlós sáv lefutása más."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi puffadás",
+  "Sérülések miatti másodlagos gombásodás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 10000,
+ "tippek": [
+  "Csak nagyon nagy méretű (legalább 2 méter hosszú) akváriumban tartsuk.",
+  "Biztosítsunk bőséges szabad úszóteret, mert gyors és aktív úszó hal."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

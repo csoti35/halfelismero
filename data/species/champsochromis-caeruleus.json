@@ -1,0 +1,86 @@
+{
+ "id": "champsochromis-caeruleus",
+ "lista_nev": "Champsochromis caeruleus",
+ "tipus": "hal",
+ "latin": "Champsochromis caeruleus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Malawi pisztrángsügér",
+ "egyeb_nevek": [
+  "Kék pisztrángsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi sügérek (Haplochromines)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 35,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Ragadozó életmódot folytat, a kisebb halakat tápláléknak tekinti. Fajon belül és más nagytestű sügérekkel szemben is területvédő.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 600,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Húsevő (halak, rákok, fagyasztott eleség, sügérpellet)",
+ "tarsithato": [
+  "Csak hasonló méretű és habitusú Malawi sügérekkel (pl. Fossorochromis",
+  "Dimidiochromis)."
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "Mbuna sügérek",
+  "növényevők."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Tágas ívatóhely biztosítása homokos aljzattal.",
+  "A hím násztánccal csalogatja a nőstényt.",
+  "Az ikrákat a nőstény a szájába veszi.",
+  "A nőstény 3-4 hétig forgatja az ikrákat/ivadékokat.",
+  "Az ivadékok frissen kelt artémiával indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, intenzív kék színűek, úszóik megnyúltak. A nőstények ezüstösek, oldalukon sötét sávval.",
+ "felismeres_jegyek": [
+  "Rendkívül nyúlánk, torpedószerű testalkat.",
+  "Hegyes, nagyra tátatható száj.",
+  "A kifejlett hímek ragyogó metálkék színe.",
+  "A nőstényeken és fiatalokon ferde fekete sáv fut végig.",
+  "Hosszú hát- és farok alatti úszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dimidiochromis compressiceps",
+   "magyar_nev": "Szemforgató sügér",
+   "kulonbseg": "Oldalról erősen lapított test, más vadászstratégia."
+  },
+  {
+   "latin": "Champsochromis spilorhynchus",
+   "magyar_nev": "Foltos pisztrángsügér",
+   "kulonbseg": "Robusztusabb testalkat, eltérő mintázat az orr-részen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Darackór",
+  "Sérülések az agresszió miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Hatalmas úszóteret igényel a nagy sebességű úszás miatt.",
+  "Kiváló szűrés és rendszeres vízcsere elengedhetetlen.",
+  "Csak tapasztalt sügértartóknak ajánlott a mérete és igényei miatt."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

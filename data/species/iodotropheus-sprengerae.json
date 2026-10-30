@@ -1,0 +1,85 @@
+{
+ "id": "iodotropheus-sprengerae",
+ "tipus": "hal",
+ "latin": "Iodotropheus sprengerae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Rozsdasügér",
+ "egyeb_nevek": [
+  "Jódsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Malawi-tó, Mbuna)",
+ "szarmazas": "Afrika, Malawi-tó (Boadzulu-sziget)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Az egyik legbékésebb Mbuna sügér. Bár területvédő, agressziója elmarad a rokon fajokétól.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de igényli a növényi kiegészítést. Elfogadja a fagyasztott és száraz tápokat is.",
+ "tarsithato": [
+  "Más Malawi sügérekkel",
+  "békésebb Mbuna fajokkal (pl. Labidochromis caeruleus)."
+ ],
+ "kerulendo": [
+  "Nagyon agresszív sügérek",
+  "amelyek elnyomhatják."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "A hím egy megtisztított kőhöz csalja a nőstényt.",
+  "T-pozícióban történik az ikrázás és megtermékenyítés.",
+  "A nőstény a szájába veszi az ikrákat (kb. 15-40 darab).",
+  "A forgatási idő kb. 21-25 nap.",
+  "Az ivadékok elengedés után azonnal etethetők apró tápokkal."
+ ],
+ "ivari_kulonbseg": "A hímek színe intenzívebb rozsdabarna/lila, és több ikrafoltjuk van. A nőstények valamivel kisebbek és fakóbbak.",
+ "felismeres_jegyek": [
+  "Egyedülálló rozsdabarna vagy vörösesbarna alapszín.",
+  "A test oldalán kékes-lilás csillogás látható.",
+  "Kisméretű, zömök testalkat.",
+  "Sötétebb úszószegélyek.",
+  "Nincs függőleges csíkozás a testen."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Labidochromis caeruleus",
+   "magyar_nev": "Aranysügér",
+   "kulonbseg": "Élénksárga színű, nem barna."
+  },
+  {
+   "latin": "Melanochromis johannii",
+   "magyar_nev": "Johann-sügér",
+   "kulonbseg": "Vízszintes csíkozású, nyúlánkabb testű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór",
+  "Bakteriális fertőzések (rossz higiénia esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Kiváló választás kezdő Malawi-sügéres akváriumba.",
+  "Sok búvóhelyet igényel, de szeret nyílt vízben is úszni.",
+  "Ne tartsuk túl lágy vízben, mert elveszíti színeit és megbetegszik.",
+  "Csoportban tartsuk, ahol több nőstény jut egy hímre."
+ ],
+ "lista_nev": "Iodotropheus sprengerae",
+ "forras": "Google gemini-3-flash-preview (fő kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Maylandia greshakei",
+ "id": "maylandia-greshakei",
+ "tipus": "hal",
+ "latin": "Maylandia greshakei",
+ "regi_latin_nevek": [
+  "Metriaclima greshakei",
+  "Pseudotropheus greshakei"
+ ],
+ "magyar_nev": "Vöröshátú zebrasügér",
+ "egyeb_nevek": [
+  "Jégkék sügér",
+  "Greshakei sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Kelet-Afrika (Malawi-tó, Makokola-zátony környéke)",
+ "max_meret_cm": 13,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kifejezetten domináns, territoriális faj. A hímek hevesen védik a barlangjukat és környékét, a gyengébb fajtársakat folyamatosan űzik. Megfelelő méretű medencében, sok búvóhellyel és háremben tartható sikeresen.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, magas növényi részaránnyal; spirulina pelyhek, granulátumok, algás eleségek, fagyasztott mysis vagy krill kis mennyiségben.",
+ "tarsithato": [
+  "Más robusztus",
+  "agresszívabb Malawi mbuna sügérekkel (pl. Labeotropheus fuelleborni",
+  "Melanochromis fajok)."
+ ],
+ "kerulendo": [
+  "Kistestű",
+  "lassú",
+  "békés társas halak",
+  "lágyvizes fajok",
+  "valamint a túl félénk sügérek",
+  "amelyeket elnyomna."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk 1 hímre legalább 3-5 nőstényt, hogy a hím heves udvarlási rohama megoszoljon.",
+  "A nászruhát öltött hím jégkék teste kivilágosodik, narancssárga hátúszóját feszítve csalogatja a nőstényt az ikrázóhelyre.",
+  "A nőstény kövekre rakja az ikrákat, majd a szájába kapja őket; a megtermékenyítés a hím ikrafoltjai által vezetve történik.",
+  "A nőstény 3-4 hétig költ a szájában, elvonulva a sziklák réseibe.",
+  "Az elengedett ivadékok rögtön etethetők finomra porított száraztáppal és naupliuszokkal."
+ ],
+ "ivari_kulonbseg": "A hímek jégkék alapszínűek és kontrasztos narancssárga/vöröses hátúszójuk van; a nőstények sokkal tompább szürkésbarna vagy barnáskék színűek, úszóik alig színezettek.",
+ "felismeres_jegyek": [
+  "A domináns hím teste jégkék színű, halvány, alig kivehető sötétebb keresztcsíkokkal.",
+  "A hátúszó és a farokúszó felső része feltűnő narancssárga vagy vöröses színű.",
+  "A hím farok alatti úszóján sárga ikrafoltok láthatók.",
+  "A nőstények visszafogott, barnásszürke színezetűek, alig narancsos úszószegéllyel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Chindongo elongatus",
+   "magyar_nev": "Elongatus sügér",
+   "kulonbseg": "Testalkata jóval nyújtottabb, karcsúbb, színezete és rajzolata eltérő."
+  },
+  {
+   "latin": "Cynotilapia aurifrons",
+   "magyar_nev": "Aranyhomlokú törpesügér",
+   "kulonbseg": "Kisebb méretű, sárga fejtetővel és eltérő fogazattal rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi puffadás (helytelen, túl húsos diéta miatt kialakuló emésztőrendszeri fertőzés)",
+  "Úszórothadás (sérülések, verekedések és rossz vízminőség következményeként)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Kifejezetten tágas, sok búvóhellyel tagolt teret alakítsunk ki a domináns hím dühöngéseinek kivédésére.",
+  "Csak növényi alapú minőségi sügértápot adjunk neki, mellőzve az emlős- és melegvérű húsokat (pl. marhaszív).",
+  "Érdemes túlnépesített (overstocked) akváriumban tartani a többi mbunával együtt, erős szűrés mellett, ami tompítja az agressziót."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

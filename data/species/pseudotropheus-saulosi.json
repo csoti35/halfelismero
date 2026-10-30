@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Pseudotropheus saulosi",
+ "id": "pseudotropheus-saulosi",
+ "tipus": "hal",
+ "latin": "Chindongo saulosi",
+ "regi_latin_nevek": [
+  "Pseudotropheus saulosi"
+ ],
+ "magyar_nev": "Saulosi sügér",
+ "egyeb_nevek": [
+  "törpe malawi sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Malawi mbuna)",
+ "szarmazas": "Kelet-Afrika (Malawi-tó, Taiwanee-zátony)",
+ "max_meret_cm": 8.5,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő mbuna faj, a hímek egymással szemben kifejezetten dominánsak és agresszívek lehetnek. Kis mérete miatt a békésebb mbunák közé tartozik, háremben tartva jól tartható.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 160,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Növényi alapú mbuna tápok, spirulina, aufwuchs-utánzatok, forrázott zöldségek; állati fehérjében szegény étrend szükséges.",
+ "tarsithato": [
+  "Más békésebb mbuna sügérekkel (pl. Labidochromis caeruleus",
+  "Iodotropheus sprengerae)."
+ ],
+ "kerulendo": [
+  "Erősen agresszív mbunák",
+  "ragadozó sügérek",
+  "békés lágyvizes fajok",
+  "hosszú úszójú halak."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Biztosítsunk háremet legalább 1 hímre 3-4 nősténnyel egy barlangokkal teli akváriumban.",
+  "Az udvarló hím lapos kőre vagy gödörbe csalja a nőstényt, ahol a pár körbe-körbe forog.",
+  "A nőstény lerakja az ikrákat, majd azonnal a szájába veszi őket, és a hím farok alatti úszóján lévő ikrafoltokat csipkedve termékenyíti meg őket.",
+  "A nőstény 21-28 napig forgatja és őrzi az ikrákat és a lárvákat a szájában koplalva.",
+  "A kiengedett, teljesen kifejlett kishalak finomra porított száraztáppal és frissen kelt artémiával azonnal nevelhetők."
+ ],
+ "ivari_kulonbseg": "Kifejezett nemi kétalakúság: az ivarérett hímek kék alapon fekete függőleges csíkosak, míg a nőstények és a fiatalok ragyogó sárga színűek maradnak.",
+ "felismeres_jegyek": [
+  "Kompakt, hengeres, mbuna jellegű testalkat.",
+  "A kifejlett hímek élénk világoskék alapszínűek, sötét függőleges sávokkal.",
+  "A nőstények és a növendékek egységes élénksárga vagy narancssárga színűek.",
+  "A hím farok alatti úszóján jól látható sárga ikrafoltok találhatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudotropheus demasoni",
+   "magyar_nev": "Demasoni sügér",
+   "kulonbseg": "Mindkét nem kék-fekete csíkos, jóval agresszívabb és nincs sárga színű egyed."
+  },
+  {
+   "latin": "Labidochromis caeruleus",
+   "magyar_nev": "Aranysügér",
+   "kulonbseg": "Mindkét nem sárga, de a hátúszón határozott fekete sáv húzódik és a hímek sem kékülnek be."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (bloat)",
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bakteriális uszonyrothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kifejezetten fontos a magas spirulina- és rosttartalmú étrend, a túl sok állati fehérje halálos puffadást okoz.",
+  "Alakítsunk ki sok kőbúvóhelyet, hogy a megkergetett nőstények és a domináns hím elől menekülő egyedek elrejtőzhessenek.",
+  "Mindig legalább 1 hímhez 3-4 nőstényt társítsunk, hogy megoszoljon a hím agressziója."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,6 +1,6 @@
 {
-"frissitve": "2026-10-29",
-"darab": 326,
+"frissitve": "2026-10-30",
+"darab": 350,
 "fajok": [
 {
 "id": "abramites-hypselonotus",
@@ -1869,6 +1869,32 @@
 "ellenorzott": false
 },
 {
+"id": "buccochromis-rhoadesii",
+"tipus": "hal",
+"latin": "Buccochromis rhoadesii",
+"magyar_nev": "Buccochromis rhoadesii",
+"egyeb_nevek": [],
+"regi_latin_nevek": [
+"Haplochromis rhoadesii"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Malawi-tó)",
+"max_meret_cm": 35,
+"termeszet": "agressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 700,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 10000,
+"ellenorzott": false
+},
+{
 "id": "bujurquina-vittata",
 "tipus": "hal",
 "latin": "Bujurquina vittata",
@@ -2206,6 +2232,32 @@
 "ellenorzott": false
 },
 {
+"id": "champsochromis-caeruleus",
+"tipus": "hal",
+"latin": "Champsochromis caeruleus",
+"magyar_nev": "Malawi pisztrángsügér",
+"egyeb_nevek": [
+"Kék pisztrángsügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Malawi sügérek (Haplochromines)",
+"max_meret_cm": 35,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 600,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 4500,
+"ar_ft_max": 12000,
+"ellenorzott": false
+},
+{
 "id": "channa-andrao",
 "tipus": "hal",
 "latin": "Channa andrao",
@@ -2308,6 +2360,35 @@
 "uszasi_zona": "kozepso",
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1200,
+"ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "chindongo-socolofi",
+"tipus": "hal",
+"latin": "Chindongo socolofi",
+"magyar_nev": "Hófehér sügér",
+"egyeb_nevek": [
+"Socolof sügér",
+"Világoskék sügér"
+],
+"regi_latin_nevek": [
+"Pseudotropheus socolofi"
+],
+"csalad": "Cichlidae",
+"csoport": "Malawi-tavi sügérek (Mbuna)",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
 "ar_ft_max": 2200,
 "ellenorzott": false
 },
@@ -3281,6 +3362,37 @@
 "ellenorzott": false
 },
 {
+"id": "cynotilapia-afra",
+"tipus": "hal",
+"latin": "Cynotilapia zebroides",
+"magyar_nev": "Kutyasügér",
+"egyeb_nevek": [
+"Afra sügér",
+"Zebra kutyasügér"
+],
+"regi_latin_nevek": [
+"Cynotilapia afra",
+"Paratilapia afra",
+"Hemichromis afer"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "cyprinus-rubrofuscus-koi",
 "tipus": "hal",
 "latin": "Cyprinus rubrofuscus",
@@ -3306,6 +3418,34 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1500,
 "ar_ft_max": 500000,
+"ellenorzott": false
+},
+{
+"id": "cyrtocara-moorii",
+"tipus": "hal",
+"latin": "Cyrtocara moorii",
+"magyar_nev": "Delfinsügér",
+"egyeb_nevek": [
+"Malawi delfinsügér"
+],
+"regi_latin_nevek": [
+"Haplochromis moorii"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Malawi-tó)",
+"max_meret_cm": 20,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 400,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.8,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 4500,
 "ellenorzott": false
 },
 {
@@ -5126,6 +5266,32 @@
 "ellenorzott": false
 },
 {
+"id": "iodotropheus-sprengerae",
+"tipus": "hal",
+"latin": "Iodotropheus sprengerae",
+"magyar_nev": "Rozsdasügér",
+"egyeb_nevek": [
+"Jódsügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Malawi-tó, Mbuna)",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
 "id": "ivanacara-adoketa",
 "tipus": "hal",
 "latin": "Ivanacara adoketa",
@@ -5181,6 +5347,86 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1500,
 "ar_ft_max": 3200,
+"ellenorzott": false
+},
+{
+"id": "labeotropheus-fuelleborni",
+"tipus": "hal",
+"latin": "Labeotropheus fuelleborni",
+"magyar_nev": "Zömök orros sügér",
+"egyeb_nevek": [
+"Fuelleborni sügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Malawi-tó, Mbuna)",
+"max_meret_cm": 15,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 300,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2000,
+"ar_ft_max": 5000,
+"ellenorzott": false
+},
+{
+"id": "labeotropheus-trewavasae",
+"tipus": "hal",
+"latin": "Labeotropheus trewavasae",
+"magyar_nev": "Karcsú orros sügér",
+"egyeb_nevek": [
+"Trewavasae sügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Malawi-tó, Mbuna)",
+"max_meret_cm": 12,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "labidochromis-caeruleus",
+"tipus": "hal",
+"latin": "Labidochromis caeruleus",
+"magyar_nev": "Sárga sügér (yellow labido)",
+"egyeb_nevek": [
+"Sárga sügér",
+"Labi",
+"Yellow sügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Cichlidae",
+"csoport": "Malawi sügérek (Mbuna)",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -5436,6 +5682,154 @@
 "ellenorzott": false
 },
 {
+"id": "maylandia-callainos",
+"tipus": "hal",
+"latin": "Maylandia callainos",
+"magyar_nev": "Kobalt torkossügér",
+"egyeb_nevek": [
+"Kobaltkék zebrasügér",
+"Kék zebra sügér"
+],
+"regi_latin_nevek": [
+"Metriaclima callainos",
+"Pseudotropheus callainos"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1400,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
+"id": "maylandia-estherae",
+"tipus": "hal",
+"latin": "Metriaclima estherae",
+"magyar_nev": "Vörös zebrasügér",
+"egyeb_nevek": [
+"narancs zebrasügér"
+],
+"regi_latin_nevek": [
+"Pseudotropheus estherae",
+"Maylandia estherae"
+],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Malawi mbuna)",
+"max_meret_cm": 12.0,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
+"ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "maylandia-greshakei",
+"tipus": "hal",
+"latin": "Maylandia greshakei",
+"magyar_nev": "Vöröshátú zebrasügér",
+"egyeb_nevek": [
+"Jégkék sügér",
+"Greshakei sügér"
+],
+"regi_latin_nevek": [
+"Metriaclima greshakei",
+"Pseudotropheus greshakei"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 13,
+"termeszet": "agressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1400,
+"ar_ft_max": 3200,
+"ellenorzott": false
+},
+{
+"id": "maylandia-lombardoi",
+"tipus": "hal",
+"latin": "Metriaclima lombardoi",
+"magyar_nev": "Lombard sügér",
+"egyeb_nevek": [
+"Lombardo sügér"
+],
+"regi_latin_nevek": [
+"Pseudotropheus lombardoi",
+"Maylandia lombardoi"
+],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Malawi mbuna)",
+"max_meret_cm": 13.0,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 300,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "maylandia-zebra",
+"tipus": "hal",
+"latin": "Maylandia zebra",
+"magyar_nev": "Zebra sügér",
+"egyeb_nevek": [
+"Zebra torkossügér",
+"Kék zebrasügér"
+],
+"regi_latin_nevek": [
+"Metriaclima zebra",
+"Pseudotropheus zebra"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 13,
+"termeszet": "agressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2800,
+"ellenorzott": false
+},
+{
 "id": "megalechis-thoracata",
 "tipus": "hal",
 "latin": "Megalechis thoracata",
@@ -5463,6 +5857,91 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 700,
 "ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
+"id": "melanochromis-auratus",
+"tipus": "hal",
+"latin": "Melanochromis auratus",
+"magyar_nev": "Aranysügér",
+"egyeb_nevek": [
+"Auratus sügér"
+],
+"regi_latin_nevek": [
+"Pseudotropheus auratus"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 11,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "melanochromis-cyaneorhabdos",
+"tipus": "hal",
+"latin": "Pseudotropheus cyaneorhabdos",
+"magyar_nev": "Maingano sügér",
+"egyeb_nevek": [
+"Maingano"
+],
+"regi_latin_nevek": [
+"Melanochromis cyaneorhabdos",
+"Melanochromis 'maingano'"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 9,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "melanochromis-johannii",
+"tipus": "hal",
+"latin": "Pseudotropheus johannii",
+"magyar_nev": "Johanni sügér",
+"egyeb_nevek": [
+"Johannii sügér"
+],
+"regi_latin_nevek": [
+"Melanochromis johannii"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1000,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -5801,6 +6280,34 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 400,
 "ar_ft_max": 800,
+"ellenorzott": false
+},
+{
+"id": "mylochromis-lateristriga",
+"tipus": "hal",
+"latin": "Mylochromis lateristriga",
+"magyar_nev": "Sávos homoksügér",
+"egyeb_nevek": [
+"Lateristriga sügér"
+],
+"regi_latin_nevek": [
+"Cyrtocara lateristriga"
+],
+"csalad": "Cichlidae",
+"csoport": "Malawi sügérek (Haplochromines)",
+"max_meret_cm": 20,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": false,
+"min_akvarium_l": 350,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.5,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
 "ellenorzott": false
 },
 {
@@ -7335,6 +7842,147 @@
 "ellenorzott": false
 },
 {
+"id": "pseudotropheus-acei",
+"tipus": "hal",
+"latin": "Pseudotropheus acei",
+"magyar_nev": "Farkas-sügér",
+"egyeb_nevek": [
+"Acei sügér",
+"Sárgafarkú sügér"
+],
+"regi_latin_nevek": [
+"Gephyrochromis acei"
+],
+"csalad": "Cichlidae",
+"csoport": "Malawi-tavi sügérek (Mbuna)",
+"max_meret_cm": 15,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "pseudotropheus-crabro",
+"tipus": "hal",
+"latin": "Pseudotropheus crabro",
+"magyar_nev": "Darázs-sügér",
+"egyeb_nevek": [
+"Kameleon sügér"
+],
+"regi_latin_nevek": [
+"Maylandia crabro"
+],
+"csalad": "Cichlidae",
+"csoport": "Malawi-tavi sügérek (Mbuna)",
+"max_meret_cm": 18,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 350,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.6,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "közepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "pseudotropheus-demasoni",
+"tipus": "hal",
+"latin": "Chindongo demasoni",
+"magyar_nev": "Demasoni sügér",
+"egyeb_nevek": [
+"Törpe zebrasügér"
+],
+"regi_latin_nevek": [
+"Pseudotropheus demasoni"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 7,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 240,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
+"id": "pseudotropheus-elongatus",
+"tipus": "hal",
+"latin": "Chindongo elongatus",
+"magyar_nev": "Karcsú malawi-sügér",
+"egyeb_nevek": [
+"Elongatus sügér"
+],
+"regi_latin_nevek": [
+"Pseudotropheus elongatus"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (mbuna)",
+"max_meret_cm": 11,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.6,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1600,
+"ar_ft_max": 3800,
+"ellenorzott": false
+},
+{
+"id": "pseudotropheus-saulosi",
+"tipus": "hal",
+"latin": "Chindongo saulosi",
+"magyar_nev": "Saulosi sügér",
+"egyeb_nevek": [
+"törpe malawi sügér"
+],
+"regi_latin_nevek": [
+"Pseudotropheus saulosi"
+],
+"csalad": "Cichlidae",
+"csoport": "Sügérek (Malawi mbuna)",
+"max_meret_cm": 8.5,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 160,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 7.8,
+"ph_max": 8.6,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "pterophyllum-altum",
 "tipus": "hal",
 "latin": "Pterophyllum altum",
@@ -8843,6 +9491,32 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 350,
 "ar_ft_max": 700,
+"ellenorzott": false
+},
+{
+"id": "tyrannochromis-macrostoma",
+"tipus": "hal",
+"latin": "Tyrannochromis macrostoma",
+"magyar_nev": "Tyrannochromis macrostoma",
+"egyeb_nevek": [],
+"regi_latin_nevek": [
+"Haplochromis macrostoma"
+],
+"csalad": "Cichlidae",
+"csoport": "Afrikai sügérek (Malawi-tó)",
+"max_meret_cm": 35,
+"termeszet": "agressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 700,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3000,
+"ar_ft_max": 9000,
 "ellenorzott": false
 },
 {

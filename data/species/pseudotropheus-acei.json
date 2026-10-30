@@ -1,0 +1,88 @@
+{
+ "id": "pseudotropheus-acei",
+ "tipus": "hal",
+ "latin": "Pseudotropheus acei",
+ "regi_latin_nevek": [
+  "Gephyrochromis acei"
+ ],
+ "magyar_nev": "Farkas-sügér",
+ "egyeb_nevek": [
+  "Acei sügér",
+  "Sárgafarkú sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Malawi-tavi sügérek (Mbuna)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A többi Mbuna sügérhez képest békésebb, de fajtársaival és más sügérekkel szemben területvédő. Nyílt vízi úszó életmódot folytat.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (főleg növényi alapú lemezes táp, spirulina, kiegészítve rákkal)",
+ "tarsithato": [
+  "Más Malawi-tavi sügérekkel (Mbuna)",
+  "hasonló méretű halakkal"
+ ],
+ "kerulendo": [
+  "Lassú",
+  "békés halak",
+  "kistestű pontylazacok"
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím násztánccal egy lapos kőhöz csalogatja a nőstényt.",
+  "A nőstény lerakja az ikrákat, majd azonnal a szájába veszi őket.",
+  "A hím farokúszóján lévő ikrafoltokkal stimulálja a nőstényt a megtermékenyítéshez.",
+  "A nőstény 3 hétig forgatja az ikrákat a szájában.",
+  "Az elúszó ivadékokat porrá tört ivadéktáppal vagy artémiával etethetjük."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, színesebbek, és több/élénkebb ikrafolt található a farok alatti úszójukon.",
+ "felismeres_jegyek": [
+  "Mélykék vagy lilás testalapszín",
+  "Élénksárga farokúszó és hátúszó szegély",
+  "Nyújtottabb testalkat a többi Mbunához képest",
+  "A hímek farok alatti úszóján sárga ikrafoltok láthatók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Labidochromis caeruleus",
+   "magyar_nev": "Arany sügér",
+   "kulonbseg": "Teljesen sárga test, fekete úszószegéllyel."
+  },
+  {
+   "latin": "Pseudotropheus saulosi",
+   "magyar_nev": "Saulosi sügér",
+   "kulonbseg": "A hímek kék-fekete csíkosak, a nőstények sárgák."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Biztosítsunk számára sok úszóteret, ne csak sziklákat.",
+  "Érdemes háremben tartani (1 hímhez több nőstény).",
+  "A víz legyen oxigéndús és kemény."
+ ],
+ "lista_nev": "Pseudotropheus acei",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

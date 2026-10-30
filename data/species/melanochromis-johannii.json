@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Melanochromis johannii",
+ "id": "melanochromis-johannii",
+ "tipus": "hal",
+ "latin": "Pseudotropheus johannii",
+ "regi_latin_nevek": [
+  "Melanochromis johannii"
+ ],
+ "magyar_nev": "Johanni sügér",
+ "egyeb_nevek": [
+  "Johannii sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Afrika, Malawi-tó (keleti partvonal, Masinje)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő mbuna, a hímek kifejezetten agresszívan őrzik kiválasztott köveiket. Más fajú, de békésebb sügérekkel szemben dominánsan lép fel.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Növényi alapú lemezes és granulált eleségek (spirulina, alga), kiegészítésként artémia, daphnia; zsíros vagy melegvérű húsokat tilos adni.",
+ "tarsithato": [
+  "Más ellenálló",
+  "hasonló méretű és vérmérsékletű Malawi sügérekkel sziklás elrendezésű akváriumban."
+ ],
+ "kerulendo": [
+  "Békés társas akváriumi halak",
+  "lassú sügérek",
+  "valamint Melanochromis cyaneorhabdos (a kereszteződés és agresszió veszélye miatt)."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Háremben tartva (1 hím, 3-5 nőstény) a hím stabil revírt alakít ki egy lapos kő vagy barlang körül.",
+  "Intenzív testrezegtetéssel udvarol a narancssárga nősténynek.",
+  "Az ikrázási folyamat során a nőstény a szájába veszi a petéket, majd a hím ikrafoltjainál termékenyülnek meg.",
+  "A nőstény 3-4 hétig forgat a szájában, ezalatt nem eszik és a háttérbe vonul.",
+  "Az elengedett ivadékok önállóan keresik a táplálékot, azonnal elfogadják az apró élő eleséget vagy ivadéktápot."
+ ],
+ "ivari_kulonbseg": "Kifejezett ivari kétalakúság: a felnőtt hím sötétkék/fekete alapon világoskék hosszanti foltsorokat, megszakított sávokat visel; a nőstények és a fiatalok ragyogó arany- vagy narancssárga színűek.",
+ "felismeres_jegyek": [
+  "Hengeres, oldalról enyhén lapított, áramvonalas mbuna alkat.",
+  "A nőstények szinte egyszínű élénk narancssárgák vagy sárgásaranyak.",
+  "A domináns hímek sötétkék-fekete alapszínűek, világoskék hosszanti sávozással (gyakran szaggatott minta).",
+  "A hím farok alatti úszóján jól kivehető, sárga ikrafoltok.",
+  "Közepes méretű száj kissé lefelé irányuló ajkakkal a sziklák legeléséhez."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudotropheus cyaneorhabdos",
+   "magyar_nev": "Maingano sügér",
+   "kulonbseg": "A maingano nőstényei is kék csíkosak, míg a johannii nőstényei egyöntetűen narancssárgák."
+  },
+  {
+   "latin": "Melanochromis auratus",
+   "magyar_nev": "Aranysügér",
+   "kulonbseg": "Az auratus nőstényei fekete hosszanti sávokat viselnek a sárga testen, míg a johannii nősténye sávtalan sárga/narancs."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Bakteriális fertőzések a dominanciaharcok során keletkezett sebekből"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Ne tartsuk együtt Pseudotropheus cyaneorhabdos-szal a nagyon közeli rokonság és a hibridizáció elkerülése végett.",
+  "Biztosítsunk bőséges búvóhelyet, hogy a megkergetett nőstények elrejtőzhessenek a hím elől.",
+  "Kemény, lúgos vizet és erős szűrést igényel, a felhalmozódó nitrátra érzékeny."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

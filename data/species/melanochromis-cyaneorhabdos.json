@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Melanochromis cyaneorhabdos",
+ "id": "melanochromis-cyaneorhabdos",
+ "tipus": "hal",
+ "latin": "Pseudotropheus cyaneorhabdos",
+ "regi_latin_nevek": [
+  "Melanochromis cyaneorhabdos",
+  "Melanochromis 'maingano'"
+ ],
+ "magyar_nev": "Maingano sügér",
+ "egyeb_nevek": [
+  "Maingano"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Afrika, Malawi-tó (Likoma-sziget)",
+ "max_meret_cm": 9,
+ "elettartam_ev": 7,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, a Melanochromis auratusnál valamivel békésebb, de hímjei revírféltők. Saját fajtársaival és hasonló küllemű kék csíkos halakkal szemben határozottan domináns.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, de alapvetően növényi (algaevő) irányultságú. Kiváló minőségű spirulinás száraztápok, artémia, ciklop.",
+ "tarsithato": [
+  "Más",
+  "közepesen agresszív Malawi mbunákkal (pl. Labidochromis caeruleus",
+  "Iodotropheus sprengerae)."
+ ],
+ "kerulendo": [
+  "Békés",
+  "kistestű pontylazacok",
+  "díszmárványok",
+  "valamint azonos színezetű",
+  "hasonló testalkatú kék sügérek."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tartsuk háremben (1 hím, legalább 3-4 nőstény) megfelelő méretű, sziklás akváriumban.",
+  "A domináns hím intenzív színekben pompázva udvarol a kiválasztott nősténynek a barlangja vagy köve közelében.",
+  "A nőstény szakaszosan lerakja ikráit, melyeket a hím a tipikus T-pózban termékenyít meg, miközben a nőstény a szájába veszi őket.",
+  "A nőstény 3-4 hétig forgat a szájában, ez idő alatt nem táplálkozik és csendes búvóhelyet keres.",
+  "Az elengedett ivadékok azonnal etethetők frissen kelt sórákkal és finom sügértáppal."
+ ],
+ "ivari_kulonbseg": "Mindkét nem sötétkék alapon világoskék vízszintes csíkokat visel; a hímek színe általában mélyebb, hasi részük sötétebb, úszóik hegyesebbek, és farok alatti úszójukon markáns ikrafoltok találhatók.",
+ "felismeres_jegyek": [
+  "Hengeres, torpedószerű testalkat.",
+  "Mélykék alapszín vízszintes, ragyogó égszínkék sávokkal a testen.",
+  "Mindkét nem kék színezetű (nincs sárga nőstény, mint az auratusnál vagy a johanniinál).",
+  "A hátúszó és a farokúszó világoskék szegéllyel díszített.",
+  "A hímek hasi része szinte teljesen feketéskék."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanochromis johannii",
+   "magyar_nev": "Johanni sügér",
+   "kulonbseg": "A johannii nőstényei élénk sárgák/narancssárgák, míg a cyaneorhabdos nőstényei kékek maradnak."
+  },
+  {
+   "latin": "Melanochromis auratus",
+   "magyar_nev": "Aranysügér",
+   "kulonbseg": "A nőstények és fiatalok aranysárgák fekete csíkokkal, felnőtt hímjük sárgásbarna-fekete, fehér csíkokkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Úszórothadás (sérülések, verekedések következtében)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A nemek vizuális megkülönböztetése nehezebb a monomorf színezet miatt, ezért érdemes nagyobb csapatot vásárolni.",
+  "Sziklás dekorációval hozzunk létre sok barlangot a feszültségek csökkentésére.",
+  "Kiválóan mutat a citromsügér (Labidochromis caeruleus) sárga színe mellett."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

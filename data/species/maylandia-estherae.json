@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Maylandia estherae",
+ "id": "maylandia-estherae",
+ "tipus": "hal",
+ "latin": "Metriaclima estherae",
+ "regi_latin_nevek": [
+  "Pseudotropheus estherae",
+  "Maylandia estherae"
+ ],
+ "magyar_nev": "Vörös zebrasügér",
+ "egyeb_nevek": [
+  "narancs zebrasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Malawi mbuna)",
+ "szarmazas": "Kelet-Afrika (Malawi-tó zátonyos, sziklás partjai)",
+ "max_meret_cm": 12.0,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, határozott vérmérsékletű mbuna faj. A hímek hevesen védik barlangjukat, a nőstényeket folyamatosan hajtják, de tágas akváriumban jól kezelhető.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Növényevő mbuna tápok, növényi pelyhek, spirulina, algatabletták; kerüljük az emlős húsokat és a magas fehérjetartalmat.",
+ "tarsithato": [
+  "Más robusztusabb malawi mbuna fajokkal (pl. Melanochromis auratus",
+  "Pseudotropheus socolofi",
+  "Labidochromis caeruleus)."
+ ],
+ "kerulendo": [
+  "Békés társas halak",
+  "lágyvizes dél-amerikai vagy ázsiai fajok",
+  "kistermetű törpesügérek."
+ ],
+ "szaporodas_mod": "anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Tartsuk 1 hímre jutó legalább 3-4 nőstényből álló csoportban, sok kőrakással felszerelt medencében.",
+  "A jó minőségű növényi táplálás és a rendszeres részleges vízcsere könnyen ívásra serkenti a párt.",
+  "A hím kifeszített úszókkal rezegve egy kiválasztott lapos kőhöz csalja a nőstényt.",
+  "Az ikrázás körkörös mozgással történik, a petéket a nőstény a szájába kapkodja, és az ikrafoltoknál termékenyülnek meg.",
+  "A nőstény 3-4 hétig forgat a szájában, majd az elúszó ivadékok finom porított táppal rögtön etethetők."
+ ],
+ "ivari_kulonbseg": "A klasszikus 'red-red' változatnál a hímek világosabb, gyakran rózsaszínes-narancsosak vagy világoskékek, míg a nőstények mély narancsvörösek. A vad típusú hímek kék színűek sötétebb csíkokkal.",
+ "felismeres_jegyek": [
+  "Erőteljes, magasabb hátú, klasszikus mbuna testalkat.",
+  "Lekerekített, meredek homlokprofil és vaskos ajkak.",
+  "A legelterjedtebb változat élénk narancssárga vagy barackszínű (mindkét nemnél vagy a nőstényeknél).",
+  "A hímek farok alatti úszóján több kontrasztos sárga ikrafolt díszeleg."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Metriaclima callainos",
+   "magyar_nev": "Kobalt zebrasügér",
+   "kulonbseg": "Mindkét nem egységesen élénk kobaltkék színű, hiányzik a narancssárga alapszín."
+  },
+  {
+   "latin": "Maylandia zebra",
+   "magyar_nev": "Kék zebrasügér",
+   "kulonbseg": "Testét hangsúlyos, függőleges sötétkék/fekete csíkok tagolják, alapszíne kék vagy világosszürke."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (bloat)",
+  "Bakteriális fertőzések sebesülésből eredően",
+  "Darackór"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Agressziójukat stabil, szilárdan felépített kőtornyokkal és barlangrendszerekkel lehet tompítani.",
+  "Szigorúan kerülni kell a szúnyoglárvákat és a tubifexet, mert bélgyulladást okoznak.",
+  "Kifejezetten kemény, stabilan lúgos vizet és erős szűrést igényelnek."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

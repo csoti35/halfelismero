@@ -1,0 +1,85 @@
+{
+ "id": "labeotropheus-trewavasae",
+ "tipus": "hal",
+ "latin": "Labeotropheus trewavasae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Karcsú orros sügér",
+ "egyeb_nevek": [
+  "Trewavasae sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Malawi-tó, Mbuna)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Területvédő és agresszív faj, különösen a hímek egymással szemben. Háremben tartandó.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Növényevő (algaevő), spirulina alapú tápok, forrázott zöldség.",
+ "tarsithato": [
+  "Más robusztus Malawi sügérekkel (Mbuna csoport)."
+ ],
+ "kerulendo": [
+  "Lágy vizes halak",
+  "kistestű fajok",
+  "húsevő sügérek."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím kiválaszt egy lapos követ a területén.",
+  "Az ikrázás során a nőstény a szájába veszi a megtermékenyített ikrákat.",
+  "A nőstény 3 hétig forgatja az ikrákat/ivadékokat a szájában.",
+  "Ez idő alatt a nőstény nem táplálkozik.",
+  "Az elengedett ivadékok azonnal képesek porrá tört lemezes táp elfogyasztására."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek (gyakran kékek), a nőstények gyakran narancssárga foltosak (OB morfa) vagy barnásak.",
+ "felismeres_jegyek": [
+  "Jellegzetes, lefelé hajló, húsos orr-rész.",
+  "Megnyúlt, viszonylag karcsú testalkat.",
+  "A hímek hátúszója gyakran narancssárga vagy vöröses.",
+  "Alsó állású száj az algák lelegeléséhez.",
+  "A hímek farok alatti úszóján ikrafoltok láthatók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Labeotropheus fuelleborni",
+   "magyar_nev": "Zömök orros sügér",
+   "kulonbseg": "A fuelleborni teste sokkal magasabb és zömökebb."
+  },
+  {
+   "latin": "Metriaclima estherae",
+   "magyar_nev": "Narancssárga sügér",
+   "kulonbseg": "Nincs megnyúlt, húsos orra."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (túltáplálás vagy nem megfelelő étrend miatt)",
+  "Darackór"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Sok sziklás búvóhelyet igényelnek.",
+  "Kerüljük a magas fehérjetartalmú, állati eredetű tápokat.",
+  "Erős szűrés és rendszeres vízcsere elengedhetetlen.",
+  "Érdemes egy hímet több nősténnyel tartani az agresszió megosztása miatt."
+ ],
+ "lista_nev": "Labeotropheus trewavasae",
+ "forras": "Google gemini-3-flash-preview (fő kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

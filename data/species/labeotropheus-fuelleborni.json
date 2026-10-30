@@ -1,0 +1,84 @@
+{
+ "id": "labeotropheus-fuelleborni",
+ "tipus": "hal",
+ "latin": "Labeotropheus fuelleborni",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Zömök orros sügér",
+ "egyeb_nevek": [
+  "Fuelleborni sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek (Malawi-tó, Mbuna)",
+ "szarmazas": "Afrika, Malawi-tó",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Domináns, területvédő hal. A hímek hevesen védik a szikláikat.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Növényevő, főként algák és növényi alapú díszhaltápok.",
+ "tarsithato": [
+  "Hasonló méretű és vérmérsékletű Malawi sügérekkel."
+ ],
+ "kerulendo": [
+  "Békés közösségi halak",
+  "lágy vizes fajok."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "A hím násztánccal csalogatja a nőstényt a kövek közé.",
+  "Az ikrák megtermékenyítése a nőstény szájában történik (ikrafolt-módszer).",
+  "A nőstény 20-30 napig hordozza az ivadékokat.",
+  "Az ivadékok elengedés után azonnal önállóak.",
+  "Indítóeleségnek frissen kelt artémia vagy porított növényi táp alkalmas."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, kék alapszínűek, a nőstények gyakran márványozott (OB) mintázatúak.",
+ "felismeres_jegyek": [
+  "Magas, zömök testfelépítés.",
+  "Jellegzetes, kampószerűen túlnyúló felső ajak (orr).",
+  "Széles szájnyílás.",
+  "A hímeknél markáns ikrafoltok a farok alatti úszón.",
+  "Erőteljes úszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Labeotropheus trewavasae",
+   "magyar_nev": "Karcsú orros sügér",
+   "kulonbseg": "A trewavasae teste sokkal nyúlánkabb, kevésbé magas."
+  },
+  {
+   "latin": "Metriaclima zebra",
+   "magyar_nev": "Zebra sügér",
+   "kulonbseg": "Nincs speciális orr-szerkezete."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás",
+  "Úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Nagyobb akváriumot igényel, mint a karcsú rokona.",
+  "Biztosítsunk számára sok természetes fényt az algásodás elősegítésére.",
+  "A túlzott fehérjebevitel halálos lehet számára.",
+  "Csak kemény vízben tartsuk."
+ ],
+ "lista_nev": "Labeotropheus fuelleborni",
+ "forras": "Google gemini-3-flash-preview (fő kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

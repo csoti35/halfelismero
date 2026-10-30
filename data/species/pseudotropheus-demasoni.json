@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Pseudotropheus demasoni",
+ "id": "pseudotropheus-demasoni",
+ "tipus": "hal",
+ "latin": "Chindongo demasoni",
+ "regi_latin_nevek": [
+  "Pseudotropheus demasoni"
+ ],
+ "magyar_nev": "Demasoni sügér",
+ "egyeb_nevek": [
+  "Törpe zebrasügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Afrika, Malawi-tó (Pombo Rocks)",
+ "max_meret_cm": 7,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Kis mérete ellenére az egyik legharciasabb, kifejezetten agresszív mbuna faj. Rendkívül hevesen védi a búvóhelyét saját és hasonló kinézetű fajtársaival szemben.",
+ "rajhal": false,
+ "min_csoport": 12,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 240,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Szigorúan növényevő (Aufwuchs-fogyasztó). Magas spirulina- és növényi rosttartalmú eleséget igényel; az állati fehérjék etetése halálos bélgyulladást okoz.",
+ "tarsithato": [
+  "Növényevő vagy mindenevő",
+  "nem kék csíkos mbunákkal (pl. Labidochromis caeruleus",
+  "Metriaclima estherae)."
+ ],
+ "kerulendo": [
+  "Bármilyen kék-fekete sávos hal",
+  "kistestű nem-sügérek",
+  "lágyvizes fajok és túl békés sügérek."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Nagyobb csapatban (legalább 12-15 egyed) tartva az agresszió eloszlik, így a szaporodás is sikeresebb.",
+  "A hím lapos kőfelületre csalja a nőstényt intenzív rezgő mozgással.",
+  "A nőstény kevés (10-15 darab), viszonylag nagy méretű ikrát rak le, majd azonnal a szájába veszi őket.",
+  "A forgatási időszak 21-25 napig tart, mialatt a nőstény védett zugokba húzódik.",
+  "A kiengedett kicsik meglepően önállóak, finomra tört spirulinával és artémiával könnyen nevelhetők."
+ ],
+ "ivari_kulonbseg": "Monokromatikus faj: mindkét nem egyformán kék-fekete függőlegesen csíkozott. A domináns hímek némileg teltebb színűek, hát- és farok alatti úszójuk hegyesebb, ivarnyílás-vizsgálattal különböztethetők meg biztosan.",
+ "felismeres_jegyek": [
+  "Kontrasztos, függőleges sötétkék/fekete és világoskék sávok váltakozása",
+  "Kisméretű, kompakt test (ritkán haladja meg a 7-8 cm-t)",
+  "Fejen futó vízszintes kék sávok a szemek között",
+  "Kék szegélyű hátúszó sötét foltokkal"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudotropheus saulosi",
+   "magyar_nev": "Díszes malawi-sügér",
+   "kulonbseg": "A nőstények és a fiatalok sárgák, csak a domináns hímek kék-feketék."
+  },
+  {
+   "latin": "Cynotilapia zebroides",
+   "magyar_nev": "Kutyasügér",
+   "kulonbseg": "A nőstények szürkék, fogaik hegyes egycsúcsúak, a hímek nagyobbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi-puffadás (bloat - helytelen, fehérjedús táplálás esetén rendkívül érzékeny rá)",
+  "Agresszióból eredő elhullás, uszonyszakadás",
+  "Darakór (Ichthyophthirius)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Soha ne tartsuk kis létszámban (3-5 hal), mert a domináns egyed addig üldözi társait, míg csak egy marad; tartsunk legalább 12-15 fős csapatot.",
+  "Szigorúan kerülni kell a szúnyoglárvát és a melegvérű állatok húsát tartalmazó eleségeket.",
+  "Építsünk rengeteg kőrakást és búvóhelyet az akvárium teljes hosszában."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Maylandia callainos",
+ "id": "maylandia-callainos",
+ "tipus": "hal",
+ "latin": "Maylandia callainos",
+ "regi_latin_nevek": [
+  "Metriaclima callainos",
+  "Pseudotropheus callainos"
+ ],
+ "magyar_nev": "Kobalt torkossügér",
+ "egyeb_nevek": [
+  "Kobaltkék zebrasügér",
+  "Kék zebra sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Afrikai sügérek (mbuna)",
+ "szarmazas": "Kelet-Afrika (Malawi-tó, Nkhata Bay környéke)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A mbunák között közepesen agresszívnak számít, de fajtársaival és hasonló színű vetélytársaival szemben határozottan védi a területét. Háremben érdemes tartani a hímek közötti dominanciaharcok csökkentésére.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.8,
+ "ph_max": 8.6,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Növényi bázisú mindenevő; főként jó minőségű alga- és spirulinatartalmú száraztápok, kiegészítésként apró rákfélék (mysis, cyclops).",
+ "tarsithato": [
+  "Egyéb békésebb vagy közepesen agresszív mbuna sügérekkel",
+  "mint a sárga császársügér (Labidochromis caeruleus) vagy rozsdás sügér (Iodotropheus sprengerae)."
+ ],
+ "kerulendo": [
+  "Hasonló kék színezetű fajok (kereszteződés és agresszió veszélye)",
+  "kistestű pontylazacok",
+  "elevenszülők és lágy vizes sügérek."
+ ],
+ "szaporodas_mod": "Anyai szájköltő",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Legalább 1 hímből és 3-4 nőstényből álló csoportot tartsunk kemény, lúgos vízben.",
+  "A hím intenzív kobaltkék színben pompázva remegő mozdulatokkal udvarol a kiválasztott lapos kő felett.",
+  "A nőstény lerakja ikráit, majd azonnal a szájába veszi őket, a megtermékenyítés a szájüregben történik a hím ikrafoltjai segítségével.",
+  "A forgatási idő körülbelül 3-4 hét, amely alatt a nőstényt célszerű békén hagyni.",
+  "Az elengedett ivadékok finom porrá dörzsölt spirulinával és artémiával könnyen felnevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek színezete világító kobaltkék, méretük nagyobb, farok alatti úszójukon több és élénkebb ikrafolt van; a nőstények kissé fakóbb kékesfehérek vagy szürkéskékek.",
+ "felismeres_jegyek": [
+  "Egységes, ragyogó kobaltkék vagy gyöngyházkék alapszín, csíkozás nélkül (létezik fehér morfa is).",
+  "Kompakt, oldalról lapított test, kissé lefelé irányuló száj.",
+  "A hímek úszóinak széle gyakran fehéresen vagy kékesen szegélyezett.",
+  "A testen nincsenek függőleges sötét sávok (ellentétben a Maylandia zebrával)."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Maylandia zebra",
+   "magyar_nev": "Zebra sügér",
+   "kulonbseg": "A vad típusú zebra sügér testén jól látható, sötét függőleges sávok húzódnak."
+  },
+  {
+   "latin": "Pseudotropheus socolofi",
+   "magyar_nev": "Pindani sügér",
+   "kulonbseg": "Úszóinak szélén határozott fekete sáv látható, míg a callainos úszói világoskékek/fehérek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Malawi puffadás (emésztőrendszeri megbetegedés)",
+  "Bőrparaziták (Costia, Chilodonella nem megfelelő vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Ügyeljünk a sziklák stabil elhelyezésére, mert a halak szeretnek a kövek tövében gödröket ásni.",
+  "Ne tartsuk együtt Maylandia zebrával, mert könnyen összeívnak és hibrid utódokat hoznak létre.",
+  "Biztosítsunk erős szűrést és jó oxigénellátást a Malawi-tó biotópjának megfelelően."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}
