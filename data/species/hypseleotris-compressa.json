@@ -1,0 +1,84 @@
+{
+ "id": "hypseleotris-compressa",
+ "tipus": "hal",
+ "latin": "Hypseleotris compressa",
+ "regi_latin_nevek": [
+  "Eleotris compressus"
+ ],
+ "magyar_nev": "Ausztráliai szivárványgéb",
+ "lista_nev": "Hypseleotris compressa",
+ "egyeb_nevek": [
+  "Laposfejű alvógéb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Eleotridae",
+ "csoport": "Gébek",
+ "szarmazas": "Ausztrália, Pápua Új-Guinea",
+ "max_meret_cm": 10,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés, de a hímek ívási időszakban erősen territoriálisak és agresszívek lehetnek egymással. Kisebb halakat zsákmánynak tekinthetnek.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.5,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget (artémia, vörös szúnyoglárva).",
+ "tarsithato": [
+  "Nagyobb kalászhalak",
+  "békés sügérek",
+  "nagyobb dániók."
+ ],
+ "kerulendo": [
+  "Apró pontylazacok",
+  "garnélák",
+  "lassú úszójú fátyolos halak."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Az ívatáshoz kemény felületre (kőre) rakják az apró ikrákat. A hím őrzi az ikrákat. A lárvák kikelés után sós vizet igényelnek a fejlődéshez",
+  "ami akváriumban rendkívül nehézzé teszi a felnevelést."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal színesebbek, nászidőszakban testük narancssárga, úszóik vörösek fekete szegéllyel. A nőstények egyszerűbb barnás-sárgás színűek.",
+ "felismeres_jegyek": [
+  "Oldalról lapított test",
+  "két különálló hátúszó",
+  "a hímeknél íváskor rikító narancs-vörös test és sötét úszószegélyek",
+  "lekerekített farokúszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hypseleotris galii",
+   "magyar_nev": "Tűzfoltos alvógéb",
+   "kulonbseg": "Kisebb termetű, a hímek színe kevésbé intenzív narancssárga."
+  },
+  {
+   "latin": "Mogurnda adspersa",
+   "magyar_nev": "Pettyes alvógéb",
+   "kulonbseg": "Vaskosabb testalkat, az oldalán apró vöröses pöttyök találhatók."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Tartsuk dús növényzetű akváriumban, sok búvóhellyel.",
+  "A hímek színe csak domináns állapotban vagy íváskor igazán látványos.",
+  "A vízminőségre és az oxigénellátásra érzékenyek."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "nothobranchius-korthausae",
+ "tipus": "hal",
+ "latin": "Nothobranchius korthausae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Korthaus díszfogaspontya (killi)",
+ "egyeb_nevek": [
+  "Korthaus-killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Fogaspontyok",
+ "szarmazas": "Tanzánia (Mafia-sziget)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "A nemzetség többi tagjához képest kevésbé agresszív, de a hímek itt is rivalizálnak. Kis akváriumban is jól tartható.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.5,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Kizárólag élő vagy fagyasztott eleség (vörös szúnyoglárva, cyclops, artémia).",
+ "tarsithato": [
+  "Legjobb fajspecifikus akváriumban",
+  "de békés nanohalakkal megfér."
+ ],
+ "kerulendo": [
+  "Domináns",
+  "agresszív halak és más Nothobranchius fajok."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (annuális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "1. Ívatás tőzegrétegen. 2. Tőzeg leszűrése és részleges szárítása. 3. Tárolás zacskóban 2-3 hónapig. 4. Ellenőrzés után felöntés lágy vízzel. 5. Ivadékok nevelése papucsállatkával",
+  "majd artémiával."
+ ],
+ "ivari_kulonbseg": "Két színváltozata ismert (sárga és barna/vörös). A hímek csíkozottak és színesek, a nőstények színtelenek.",
+ "felismeres_jegyek": [
+  "Oldalán számos sötét függőleges keresztsáv látható",
+  "az úszók lekerekítettek",
+  "a hímek alapszíne sárgás vagy vörösesbarna."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nothobranchius guentheri",
+   "magyar_nev": "Günther díszfogaspontya",
+   "kulonbseg": "A guentheri farokúszója markánsabb vörös, és hiányoznak a testről a korthausae-ra jellemző sűrű sávok."
+  },
+  {
+   "latin": "Nothobranchius palmqvisti",
+   "magyar_nev": "Palmqvist díszfogaspontya",
+   "kulonbseg": "A palmqvisti farokúszója tiszta vörös, sávok nélkül."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium",
+  "bakteriális fertőzések a nem megfelelő vízminőség miatt."
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Ez a faj hűvösebb vizet igényel",
+  "mint sok más killi",
+  "a 22 fok ideális számára a hosszabb élettartamhoz."
+ ],
+ "lista_nev": "Nothobranchius korthausae",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "rhinogobius-zhoui",
+ "tipus": "hal",
+ "latin": "Rhinogobius zhoui",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vöröscsíkos géb",
+ "lista_nev": "Rhinogobius zhoui",
+ "egyeb_nevek": [
+  "Zhou-géb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Oxudercidae",
+ "csoport": "Gébek",
+ "szarmazas": "Kína (Guangdong tartomány)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fajtársaival szemben területvédő, a hímek gyakran civakodnak. Más fajokkal szemben békés, de a hűvösebb, gyors folyású vizet igényli.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 15,
+ "taplalek": "Elsősorban élő és fagyasztott eleség (vörös szúnyoglárva, artémia, tubifex). A száraz tápot nehezen fogadja el.",
+ "tarsithato": [
+  "Hegyi dániók",
+  "más hűvöskedvelő pataki halak."
+ ],
+ "kerulendo": [
+  "Trópusi",
+  "melegkedvelő halak",
+  "nagytestű ragadozók",
+  "agresszív sügérek."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Barlangba ívnak (kövek alá). A hím őrzi az ikrákat. Az ivadékok felnevelése apró élő eleséggel lehetséges",
+  "de nehézkes."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal színesebbek, testükön élénkvörös függőleges sávok láthatók, úszóik fehéren szegettek. A nőstények fakóbbak, sárgásbarnák.",
+ "felismeres_jegyek": [
+  "Megnyúlt test",
+  "nagy fej",
+  "a hímeken 6-8 élénkvörös keresztsáv",
+  "az úszók széle fehér",
+  "tapadókoronggá módosult hasúszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rhinogobius wui",
+   "magyar_nev": "Kínai géb",
+   "kulonbseg": "Színezetében több a barna és a sötét folt, hiányoznak az élénkvörös sávok."
+  },
+  {
+   "latin": "Stiphodon semoni",
+   "magyar_nev": "Kék algázógéb",
+   "kulonbseg": "Karcsúbb test, kék fémes szín, teljesen más táplálkozási mód."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombásodás",
+  "Oxigénhiány miatti fulladás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Erős áramlást és magas oxigénszintet igényelnek.",
+  "Aljzatnak használjunk sima kavicsokat és homokot.",
+  "Ne tartsuk túl meleg vízben, mert az az állat pusztulásához vezet."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

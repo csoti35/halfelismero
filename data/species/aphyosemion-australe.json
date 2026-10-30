@@ -1,0 +1,90 @@
+{
+ "id": "aphyosemion-australe",
+ "lista_nev": "Aphyosemion australe",
+ "tipus": "hal",
+ "latin": "Aphyosemion australe",
+ "regi_latin_nevek": [
+  "Haplochilus australis"
+ ],
+ "magyar_nev": "Lantfarkú fogasponty (killi)",
+ "egyeb_nevek": [
+  "Lantfarkú killi",
+  "Kap Lopez killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Nyugat-Afrika (Gabon, Kamerun, Kongó)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű, de a hímek egymás között rivalizálhatnak. Más békés fajokkal jól tartható, de a hímek látványosabbak fajspecifikus akváriumban.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 21,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, de kedveli az élő és fagyasztott eleséget (artémia, szúnyoglárva).",
+ "tarsithato": [
+  "Kisebb lazacok",
+  "törperaszborák",
+  "páncélos harcsák."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "agresszív halak",
+  "csipkedős díszmárnák."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és finom levelű növények vagy ívató mopsz biztosítása.",
+  "A szülőket bőséges élő eleséggel kondicionáljuk.",
+  "Az ikrákat naponta gyűjthetjük a mopszról, vagy bent hagyhatjuk a dús növényzetben.",
+  "Az ikrák vízben fejlődnek, a kelési idő kb. 10-14 nap.",
+  "Az ivadékok frissen kelt artémiával indíthatóak."
+ ],
+ "ivari_kulonbseg": "A hímek sokkal színesebbek, úszóik (hát-, farok- és farok alatti úszó) megnyúltak, lant alakúak. A nőstények barnásak, úszóik lekerekítettek.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres testforma.",
+  "A hímek farokúszója lant alakú, szélein fehér vagy sárga szegéllyel.",
+  "Narancssárga vagy barna alapszín, vörös pöttyözéssel a testen.",
+  "A hátúszó és a farok alatti úszó hegyes, megnyúlt.",
+  "A száj felső állású."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aphyosemion striatum",
+   "magyar_nev": "Csíkos fogasponty",
+   "kulonbseg": "Vízszintes vörös csíkok futnak az oldalán, a farokúszója nem ennyire kifejezetten lant alakú."
+  },
+  {
+   "latin": "Aphyosemion bivittatum",
+   "magyar_nev": "Kétcsíkos fogasponty",
+   "kulonbseg": "Két sötét hosszanti csík látható a testén, és az úszók formája eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "úszórothadás (rossz vízminőség esetén)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Az akváriumot alaposan le kell fedni, mert kiváló ugrók.",
+  "Sötét aljzat és dús növényzet mellett mutatják meg legszebb színeiket.",
+  "Nem igényelnek erős vízáramlást, a nyugodtabb vizet kedvelik."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

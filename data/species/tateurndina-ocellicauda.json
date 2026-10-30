@@ -1,0 +1,77 @@
+{
+ "id": "tateurndina-ocellicauda",
+ "tipus": "hal",
+ "latin": "Tateurndina ocellicauda",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pápua-gébféle",
+ "egyeb_nevek": [
+  "Tarka alvógéb",
+  "Pávaszemes kalászhal (tévesen)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Eleotridae",
+ "csoport": "Gébek",
+ "szarmazas": "Pápua Új-Guinea",
+ "max_meret_cm": 5,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nyugodt hal, de a hímek a szaporodási időszakban védik a barlangjukat.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, de kedveli az apró élő és fagyasztott eleséget (artémia, cyclops). A jó minőségű granulátumot is megeszi.",
+ "tarsithato": [
+  "Kisebb kalászhalakkal",
+  "békés pontylazacokkal",
+  "garnélákkal (néha a kicsiket megeheti)."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív vagy túl mozgékony halak."
+ ],
+ "szaporodas_mod": "Barlangba ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Párban vagy háremben tartsuk őket. 2. Biztosítsunk szűk PVC csövet vagy barlangot. 3. Az ívás után a hím legyezi az ikrákat. 4. Az ivadékok 4-6 nap után kelnek ki",
+  "ekkor a hímet érdemes kivenni."
+ ],
+ "ivari_kulonbseg": "A hímek homloka púposabb, úszóik hosszabbak. A nőstények hasa sárgásabb, és fekete szegély van a farok alatti úszójukon.",
+ "felismeres_jegyek": [
+  "Kékesszürke alapszín piros pöttyökkel és csíkokkal",
+  "sárga úszószegélyek",
+  "fekete folt a faroktőnél",
+  "lekerekített úszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mogurnda adspersa",
+   "magyar_nev": "Pettyes alvógéb",
+   "kulonbseg": "Sokkal nagyobb és agresszívabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Belső paraziták"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Növényekkel sűrűn beültetett akváriumban érzik magukat biztonságban.",
+  "Érdemes több nőstényt tartani egy hímre.",
+  "Nem igényelnek sós vizet, ellentétben sok más gébfélével."
+ ],
+ "lista_nev": "Tateurndina ocellicauda",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

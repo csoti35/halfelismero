@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-30",
-"darab": 404,
+"darab": 432,
 "fajok": [
 {
 "id": "abactochromis-labrosus",
@@ -544,6 +544,35 @@
 "ellenorzott": false
 },
 {
+"id": "aphyosemion-australe",
+"tipus": "hal",
+"latin": "Aphyosemion australe",
+"magyar_nev": "Lantfarkú fogasponty (killi)",
+"egyeb_nevek": [
+"Lantfarkú killi",
+"Kap Lopez killi"
+],
+"regi_latin_nevek": [
+"Haplochilus australis"
+],
+"csalad": "Nothobranchiidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 21,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1800,
+"ellenorzott": false
+},
+{
 "id": "apistogramma-agassizii",
 "tipus": "hal",
 "latin": "Apistogramma agassizii",
@@ -788,6 +817,91 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 2500,
 "ar_ft_max": 5500,
+"ellenorzott": false
+},
+{
+"id": "aplocheilus-blockii",
+"tipus": "hal",
+"latin": "Aplocheilus blockii",
+"magyar_nev": "Törpe csuka-fogasponty (killi)",
+"egyeb_nevek": [
+"Zöld killi"
+],
+"regi_latin_nevek": [
+"Aplocheilus blochii"
+],
+"csalad": "Aplocheilidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "aplocheilus-lineatus",
+"tipus": "hal",
+"latin": "Aplocheilus lineatus",
+"magyar_nev": "Csíkos csukafejű hal",
+"egyeb_nevek": [
+"Sávos ázsiai killi",
+"Arany csukafejű hal"
+],
+"regi_latin_nevek": [
+"Panchax lineatus"
+],
+"csalad": "Aplocheilidae",
+"csoport": "Ikrázó fogaspontyok (killik)",
+"max_meret_cm": 10,
+"termeszet": "agressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "aplocheilus-panchax",
+"tipus": "hal",
+"latin": "Aplocheilus panchax",
+"magyar_nev": "Kék csuka-fogasponty (killi)",
+"egyeb_nevek": [
+"Panchax killi"
+],
+"regi_latin_nevek": [
+"Esox panchax"
+],
+"csalad": "Aplocheilidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 9,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
 "ellenorzott": false
 },
 {
@@ -1236,6 +1350,34 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 1800,
 "ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
+"id": "austrolebias-charrua",
+"tipus": "hal",
+"latin": "Austrolebias charrua",
+"magyar_nev": "Csarrva ikrázó fogasponty",
+"egyeb_nevek": [
+"Charrua killi"
+],
+"regi_latin_nevek": [
+"Megalebias charrua"
+],
+"csalad": "Rivulidae",
+"csoport": "Ikrázó fogaspontyok (killik)",
+"max_meret_cm": 6,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 14,
+"homerseklet_max": 22,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
 "ellenorzott": false
 },
 {
@@ -2091,6 +2233,35 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 8000,
 "ar_ft_max": 25000,
+"ellenorzott": false
+},
+{
+"id": "brachygobius-doriae",
+"tipus": "hal",
+"latin": "Brachygobius doriae",
+"magyar_nev": "Doria-darázsgéb",
+"egyeb_nevek": [
+"Darázsgéb",
+"Sávos darázsgéb"
+],
+"regi_latin_nevek": [
+"Gobius doriae"
+],
+"csalad": "Gobiidae",
+"csoport": "Gébek",
+"max_meret_cm": 4,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 50,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
 "ellenorzott": false
 },
 {
@@ -4357,6 +4528,64 @@
 "ellenorzott": false
 },
 {
+"id": "epiplatys-annulatus",
+"tipus": "hal",
+"latin": "Epiplatys annulatus",
+"magyar_nev": "Gyűrűs csukafejű hal",
+"egyeb_nevek": [
+"Törpe csukafejű killi",
+"Bohóckilli"
+],
+"regi_latin_nevek": [
+"Pseudepiplatys annulatus"
+],
+"csalad": "Nothobranchiidae",
+"csoport": "Ikrázó fogaspontyok (killik)",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.0,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "epiplatys-dageti",
+"tipus": "hal",
+"latin": "Epiplatys dageti",
+"magyar_nev": "Sávos csukafejű hal",
+"egyeb_nevek": [
+"Dageti killi",
+"Csukafejű fogasponty"
+],
+"regi_latin_nevek": [
+"Epiplatys dageti monroviae"
+],
+"csalad": "Nothobranchiidae",
+"csoport": "Ikrázó fogaspontyok (killik)",
+"max_meret_cm": 6,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 700,
+"ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
 "id": "eretmodus-cyanostictus",
 "tipus": "hal",
 "latin": "Eretmodus cyanostictus",
@@ -4515,6 +4744,90 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 2500,
 "ar_ft_max": 7000,
+"ellenorzott": false
+},
+{
+"id": "fundulopanchax-gardneri",
+"tipus": "hal",
+"latin": "Fundulopanchax gardneri",
+"magyar_nev": "Gardner fogasponty (killi)",
+"egyeb_nevek": [
+"Acélkék fogasponty"
+],
+"regi_latin_nevek": [
+"Aphyosemion gardneri"
+],
+"csalad": "Nothobranchiidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 7,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "fundulopanchax-scheeli",
+"tipus": "hal",
+"latin": "Fundulopanchax scheeli",
+"magyar_nev": "Scheel fogasponty (killi)",
+"egyeb_nevek": [
+"Scheel-killi"
+],
+"regi_latin_nevek": [
+"Aphyosemion scheeli"
+],
+"csalad": "Nothobranchiidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "fundulopanchax-sjostedti",
+"tipus": "hal",
+"latin": "Fundulopanchax sjostedti",
+"magyar_nev": "Kék fundulusz (killi)",
+"egyeb_nevek": [
+"Sjostedti fogasponty"
+],
+"regi_latin_nevek": [
+"Aphyosemion sjostedti"
+],
+"csalad": "Nothobranchiidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 12,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 23,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 5000,
 "ellenorzott": false
 },
 {
@@ -5686,6 +5999,34 @@
 "ellenorzott": false
 },
 {
+"id": "hypseleotris-compressa",
+"tipus": "hal",
+"latin": "Hypseleotris compressa",
+"magyar_nev": "Ausztráliai szivárványgéb",
+"egyeb_nevek": [
+"Laposfejű alvógéb"
+],
+"regi_latin_nevek": [
+"Eleotris compressus"
+],
+"csalad": "Eleotridae",
+"csoport": "Gébek",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 100,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
 "id": "hypsophrys-nicaraguensis",
 "tipus": "hal",
 "latin": "Hypsophrys nicaraguensis",
@@ -5819,6 +6160,32 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 8000,
 "ar_ft_max": 15000,
+"ellenorzott": false
+},
+{
+"id": "jordanella-floridae",
+"tipus": "hal",
+"latin": "Jordanella floridae",
+"magyar_nev": "Floridai fogasponty (killi)",
+"egyeb_nevek": [
+"Zászlóshal"
+],
+"regi_latin_nevek": [],
+"csalad": "Cyprinodontidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 6,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 18,
+"homerseklet_max": 26,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
 "ellenorzott": false
 },
 {
@@ -6124,6 +6491,32 @@
 "ellenorzott": false
 },
 {
+"id": "lamprichthys-tanganicanus",
+"tipus": "hal",
+"latin": "Lamprichthys tanganicanus",
+"magyar_nev": "Tanganyikai lámpásszemű fogasponty",
+"egyeb_nevek": [
+"Tanganyikai killi"
+],
+"regi_latin_nevek": [],
+"csalad": "Procatopodidae",
+"csoport": "Afrikai fogaspontyok (killi)",
+"max_meret_cm": 14,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 250,
+"homerseklet_min": 24,
+"homerseklet_max": 26,
+"ph_min": 8.0,
+"ph_max": 9.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
 "id": "lamprologus-ocellatus",
 "tipus": "hal",
 "latin": "Lamprologus ocellatus",
@@ -6313,6 +6706,32 @@
 "uszasi_zona": "kozepso",
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1000,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "lucania-goodei",
+"tipus": "hal",
+"latin": "Lucania goodei",
+"magyar_nev": "Kékúszójú fogasponty (killi)",
+"egyeb_nevek": [
+"Ragyogó szemű killi"
+],
+"regi_latin_nevek": [],
+"csalad": "Fundulidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 50,
+"homerseklet_min": 15,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
 "ar_ft_max": 2500,
 "ellenorzott": false
 },
@@ -7188,6 +7607,35 @@
 "ellenorzott": false
 },
 {
+"id": "mogurnda-mogurnda",
+"tipus": "hal",
+"latin": "Mogurnda mogurnda",
+"magyar_nev": "Ausztráliai alvógéb",
+"egyeb_nevek": [
+"Mogurnda",
+"Északi alvógéb"
+],
+"regi_latin_nevek": [
+"Eleotris mogurnda"
+],
+"csalad": "Eleotridae",
+"csoport": "Gébek",
+"max_meret_cm": 15,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 20,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
 "id": "mylochromis-lateristriga",
 "tipus": "hal",
 "latin": "Mylochromis lateristriga",
@@ -7899,6 +8347,139 @@
 "ellenorzott": false
 },
 {
+"id": "nothobranchius-eggersi",
+"tipus": "hal",
+"latin": "Nothobranchius eggersi",
+"magyar_nev": "Eggers díszfogaspontya (killi)",
+"egyeb_nevek": [
+"Orchidea killi"
+],
+"regi_latin_nevek": [],
+"csalad": "Nothobranchiidae",
+"csoport": "Fogaspontyok",
+"max_meret_cm": 5,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.0,
+"ph_max": 7.0,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2000,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
+"id": "nothobranchius-furzeri",
+"tipus": "hal",
+"latin": "Nothobranchius furzeri",
+"magyar_nev": "Türkizkék tarkafogasponty (killi)",
+"egyeb_nevek": [
+"Furzer-fogasponty",
+"türkizkék killi"
+],
+"regi_latin_nevek": [],
+"csalad": "Nothobranchiidae",
+"csoport": "Fogaspontyok",
+"max_meret_cm": 6.5,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
+"id": "nothobranchius-guentheri",
+"tipus": "hal",
+"latin": "Nothobranchius guentheri",
+"magyar_nev": "Günther díszfogaspontya (killi)",
+"egyeb_nevek": [
+"Günther-killi"
+],
+"regi_latin_nevek": [
+"Fundulus guentheri"
+],
+"csalad": "Nothobranchiidae",
+"csoport": "Fogaspontyok",
+"max_meret_cm": 5,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "nothobranchius-korthausae",
+"tipus": "hal",
+"latin": "Nothobranchius korthausae",
+"magyar_nev": "Korthaus díszfogaspontya (killi)",
+"egyeb_nevek": [
+"Korthaus-killi"
+],
+"regi_latin_nevek": [],
+"csalad": "Nothobranchiidae",
+"csoport": "Fogaspontyok",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 6.5,
+"ph_max": 7.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
+"id": "nothobranchius-rachovii",
+"tipus": "hal",
+"latin": "Nothobranchius rachovii",
+"magyar_nev": "Rachov díszfogasponty (killi)",
+"egyeb_nevek": [
+"Rachov-fogasponty"
+],
+"regi_latin_nevek": [],
+"csalad": "Nothobranchiidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 5,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 6.0,
+"ph_max": 7.2,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "oliotius-oligolepis",
 "tipus": "hal",
 "latin": "Oliotius oligolepis",
@@ -8141,6 +8722,34 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 2500,
 "ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
+"id": "pachypanchax-playfairii",
+"tipus": "hal",
+"latin": "Pachypanchax playfairii",
+"magyar_nev": "Playfair-fogasponty (killi)",
+"egyeb_nevek": [
+"Seychelle-szigeteki killi"
+],
+"regi_latin_nevek": [
+"Haplochilus playfairii"
+],
+"csalad": "Aplocheilidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
 "ellenorzott": false
 },
 {
@@ -9001,6 +9610,34 @@
 "ellenorzott": false
 },
 {
+"id": "poropanchax-normani",
+"tipus": "hal",
+"latin": "Poropanchax normani",
+"magyar_nev": "Normani lámpásszemű fogasponty (killi)",
+"egyeb_nevek": [
+"Lámpásszemű killi"
+],
+"regi_latin_nevek": [
+"Aplocheilichthys normani"
+],
+"csalad": "Procatopodidae",
+"csoport": "Ikrázó fogaspontyok",
+"max_meret_cm": 4,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 800,
+"ellenorzott": false
+},
+{
 "id": "prionobrama-filigera",
 "tipus": "hal",
 "latin": "Prionobrama filigera",
@@ -9056,6 +9693,32 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 350,
 "ar_ft_max": 700,
+"ellenorzott": false
+},
+{
+"id": "procatopus-similis",
+"tipus": "hal",
+"latin": "Procatopus similis",
+"magyar_nev": "Nigériai lámpásszemű hal",
+"egyeb_nevek": [
+"Kék lámpásszemű fogasponty"
+],
+"regi_latin_nevek": [],
+"csalad": "Procatopodidae",
+"csoport": "Afrikai fogaspontyok (killi)",
+"max_meret_cm": 6,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "felso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -9816,6 +10479,32 @@
 "ellenorzott": false
 },
 {
+"id": "rhinogobius-zhoui",
+"tipus": "hal",
+"latin": "Rhinogobius zhoui",
+"magyar_nev": "Vöröscsíkos géb",
+"egyeb_nevek": [
+"Zhou-géb"
+],
+"regi_latin_nevek": [],
+"csalad": "Oxudercidae",
+"csoport": "Gébek",
+"max_meret_cm": 5,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 7.0,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 3500,
+"ar_ft_max": 6000,
+"ellenorzott": false
+},
+{
 "id": "rhodeus-amarus",
 "tipus": "hal",
 "latin": "Rhodeus amarus",
@@ -10105,6 +10794,34 @@
 "ellenorzott": false
 },
 {
+"id": "simpsonichthys-constanciae",
+"tipus": "hal",
+"latin": "Simpsonichthys constanciae",
+"magyar_nev": "Vitorlás legyezőfogasponty",
+"egyeb_nevek": [
+"Constancia legyezőfarka"
+],
+"regi_latin_nevek": [
+"Cynolebias constanciae"
+],
+"csalad": "Rivulidae",
+"csoport": "Dél-amerikai fogaspontyok (killi)",
+"max_meret_cm": 5,
+"termeszet": "felagressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 25,
+"ph_min": 6.0,
+"ph_max": 7.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2000,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
 "id": "sphaerichthys-osphromenoides",
 "tipus": "hal",
 "latin": "Sphaerichthys osphromenoides",
@@ -10154,6 +10871,34 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1500,
 "ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "stiphodon-atropurpureus",
+"tipus": "hal",
+"latin": "Stiphodon atropurpureus",
+"magyar_nev": "Neon kék algázógéb",
+"egyeb_nevek": [
+"Bíbor algázógéb"
+],
+"regi_latin_nevek": [
+"Microsicydium atropurpureum"
+],
+"csalad": "Oxudercidae",
+"csoport": "Gébek",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2800,
+"ar_ft_max": 4500,
 "ellenorzott": false
 },
 {
@@ -10483,6 +11228,33 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 600,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "tateurndina-ocellicauda",
+"tipus": "hal",
+"latin": "Tateurndina ocellicauda",
+"magyar_nev": "Pápua-gébféle",
+"egyeb_nevek": [
+"Tarka alvógéb",
+"Pávaszemes kalászhal (tévesen)"
+],
+"regi_latin_nevek": [],
+"csalad": "Eleotridae",
+"csoport": "Gébek",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2200,
 "ellenorzott": false
 },
 {

@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Aplocheilus lineatus",
+ "id": "aplocheilus-lineatus",
+ "tipus": "hal",
+ "latin": "Aplocheilus lineatus",
+ "regi_latin_nevek": [
+  "Panchax lineatus"
+ ],
+ "magyar_nev": "Csíkos csukafejű hal",
+ "egyeb_nevek": [
+  "Sávos ázsiai killi",
+  "Arany csukafejű hal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aplocheilidae",
+ "csoport": "Ikrázó fogaspontyok (killik)",
+ "szarmazas": "India, Srí Lanka",
+ "max_meret_cm": 10,
+ "elettartam_ev": 4,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Minden nála kisebb halat ragadozóként elnyel, a vízfelszínen határozottan territoriális.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Ragadozó: élő és fagyasztott rovarlárvák, tücskök, giliszták, artémia, granulátumok.",
+ "tarsithato": [
+  "Nagyobb testű",
+  "békés halakkal (pl. nagyobb márnák",
+  "gurámik",
+  "nagyobb harcsák)."
+ ],
+ "kerulendo": [
+  "Minden olyan hal vagy garnéla",
+  "ami be fér a száján (neonhalak",
+  "guppik",
+  "razbórák)."
+ ],
+ "szaporodas_mod": "Ikrázó, lebegő növények közé ívik.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Jól táplált pár áthelyezése növényes szaporító akváriumba.",
+  "A nőstény több napon keresztül ikrázik a növényzet közé.",
+  "A szülők kivétele az ívási periódus végén.",
+  "A kikelő ivadékok rögtön elfogadják a frissen keltett artémiát."
+ ],
+ "ivari_kulonbseg": "A hímek lényegesen színesebbek (gyakran aranysárgák), úszóik hegyesebbek; a nőstények testén a függőleges csíkok kifejezettebbek.",
+ "felismeres_jegyek": [
+  "Erőteljes, csukaszerű, hengeres testforma",
+  "Széles, lapos fej nagy szájjal",
+  "Arany vagy sárgászöldes pikkelyek a testen",
+  "A hátsó testfélen sötét függőleges csíkozás látható",
+  "Sárgás vagy narancssárga úszók sötét szegéllyel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Epiplatys dageti",
+   "magyar_nev": "Sávos csukafejű hal",
+   "kulonbseg": "Kisebb méretű, afrikai származású faj, torokrészén piros folttal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Gombás fertőzések"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Igen nagy szájjal rendelkezik, ne tartsuk kis testű fajokkal.",
+  "Rendkívül jó ugró, szorosan záródó akváriumfedő szükséges."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

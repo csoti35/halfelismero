@@ -1,0 +1,72 @@
+{
+ "id": "lucania-goodei",
+ "tipus": "hal",
+ "latin": "Lucania goodei",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kékúszójú fogasponty (killi)",
+ "egyeb_nevek": [
+  "Ragyogó szemű killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Fundulidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "USA, Florida",
+ "max_meret_cm": 5,
+ "elettartam_ev": 2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de félénk hal. Csoportban érzi jól magát, a hímek néha rivalizálnak, de nem tesznek kárt egymásban.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 15,
+ "homerseklet_max": 24,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott apró rákféléket.",
+ "tarsithato": [
+  "Más békés",
+  "hűvösebb vizet kedvelő fajokkal."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak és trópusi",
+  "melegvizű fajok."
+ ],
+ "szaporodas_mod": "Ikrázó, növények közé ikrázik.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Finom levelű növényekkel (pl. jávai moha) teli akvárium. 2. A hímek násztáncot járnak a nőstények előtt. 3. Az ikrákat naponta rakják le a növények közé. 4. Az ikrákat vagy a szülőket külön kell választani a kannibalizmus miatt. 5. Az ivadék apró eleséget igényel."
+ ],
+ "ivari_kulonbseg": "A hímek úszói élénkkékek, szélükön fekete szegéllyel, a nőstények úszói színtelenek.",
+ "felismeres_jegyek": [
+  "Karcsú testalkat. Az oldalán egy sötét vízszintes csík fut végig. A hímek hát- és farok alatti úszója ragyogó kék. A szem felső része irizáló."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Lucania parva",
+   "magyar_nev": "Esővízi fogasponty",
+   "kulonbseg": "Hiányzik a kék szín az úszókról, fakóbb megjelenés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Nem igényel fűtést, a túl meleg vizet (26°C felett) hosszú távon nem bírja.",
+  "Dús növényzetet igényel, hogy biztonságban érezze magát.",
+  "Élő eleséggel hozható legjobb kondícióba."
+ ],
+ "lista_nev": "Lucania goodei",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

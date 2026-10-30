@@ -1,0 +1,81 @@
+{
+ "id": "aplocheilus-panchax",
+ "tipus": "hal",
+ "latin": "Aplocheilus panchax",
+ "regi_latin_nevek": [
+  "Esox panchax"
+ ],
+ "magyar_nev": "Kék csuka-fogasponty (killi)",
+ "egyeb_nevek": [
+  "Panchax killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aplocheilidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Délkelet-Ázsia (India, Indonézia, Thaiföld)",
+ "max_meret_cm": 9,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés a nagyobb halakkal, de ragadozó természetű; a szája méretéhez képest meglepően nagy zsákmányt képes lenyelni. A hímek egymás között rivalizálhatnak.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Mindenevő, de kedveli az élő eleséget (szúnyoglárva, muslica), elfogadja a lemezes tápot is.",
+ "tarsithato": [
+  "Hasonló méretű",
+  "békés halakkal",
+  "amelyek nem férnek be a száján."
+ ],
+ "kerulendo": [
+  "Apró halak (pl. neonhal)",
+  "garnélák",
+  "lassú úszójú fátyolos halak."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Lágy víz és finom levelű növények vagy ívató mopsz használata. Az ikrákat naponta rakják le. Az ikrákat érdemes külön nevelni",
+  "mert a szülők megehetik őket. Az ivadék frissen kelt artémiával indítható."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, úszóik megnyúltabbak, a hátúszón fekete folt látható.",
+ "felismeres_jegyek": [
+  "Hosszúkás",
+  "csuka-szerű testalkat. Lapos fejtető. A hátúszó a test hátsó harmadán helyezkedik el. Ezüstös-kékes pikkelyek. Fekete folt a hátúszó tövében."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aplocheilus lineatus",
+   "magyar_nev": "Csíkos csuka-fogasponty",
+   "kulonbseg": "Nagyobb méretű és függőleges sötét csíkok vannak az oldalán."
+  },
+  {
+   "latin": "Aplocheilus blockii",
+   "magyar_nev": "Törpe csuka-fogasponty",
+   "kulonbseg": "Jelentősen kisebb testméret és sűrűbb pontozottság."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert kiváló ugró.",
+  "Kedveli a felszínen úszó növényeket (pl. békalencse, ceratopteris)."
+ ],
+ "lista_nev": "Aplocheilus panchax",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "brachygobius-doriae",
+ "tipus": "hal",
+ "latin": "Brachygobius doriae",
+ "regi_latin_nevek": [
+  "Gobius doriae"
+ ],
+ "magyar_nev": "Doria-darázsgéb",
+ "egyeb_nevek": [
+  "Darázsgéb",
+  "Sávos darázsgéb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gobiidae",
+ "csoport": "Gébek",
+ "szarmazas": "Délkelet-Ázsia (Indonézia, Malajzia)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, fajtársaival szemben agresszív lehet. Kisebb halak úszóit megcsipkedheti.",
+ "rajhal": false,
+ "min_csoport": 6,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 12,
+ "gh_max": 25,
+ "taplalek": "Élő és fagyasztott eleség (artémia, vörös szúnyoglárva), a száraz tápot ritkán fogadja el.",
+ "tarsithato": [
+  "Hasonló igényű brakkvízi halakkal (pl. íjhalak",
+  "árgushalak fiatal példányai)",
+  "de legjobb fajspecifikus medencében."
+ ],
+ "kerulendo": [
+  "Félénk halak",
+  "lassú evők",
+  "édesvízi közösségi halak."
+ ],
+ "szaporodas_mod": "Barlangba ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "1. Brakkvízi körülmények és bőséges élő eleség. 2. Szűk barlangok vagy kerámia csövek biztosítása. 3. Az ívás után a hím őrzi az ikrákat. 4. Az ivadékok kikelése után (7-9 nap) sórák lárvával etethetők."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és élénkebb sárga színűek, a nőstények teltebbek, különösen ikrázás előtt.",
+ "felismeres_jegyek": [
+  "Zömök testfelépítés",
+  "sárga alapszín széles fekete keresztsávokkal",
+  "tapadókoronggá módosult hasúszók",
+  "nagy fej."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Brachygobius nunus",
+   "magyar_nev": "Törpe darázsgéb",
+   "kulonbseg": "Kisebb termetű, és a sávok mintázata eltérő."
+  },
+  {
+   "latin": "Brachygobius xanthozonus",
+   "magyar_nev": "Aranygyűrűs darázsgéb",
+   "kulonbseg": "Ritkább a kereskedelemben, a sávok lefutása precízebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Oodinium (bársonybetegség)",
+  "Bakteriális fertőzések nem megfelelő sótartalom esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Bár tiszta édesvízben is elélnek egy ideig, hosszú távon enyhén sós (brakkvíz) vizet igényelnek.",
+  "Sok búvóhelyet igényelnek kövekből és csövekből.",
+  "Figyeljünk rá, hogy minden példány jusson élelemhez, mert lassú evők."
+ ],
+ "lista_nev": "Brachygobius doriae",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

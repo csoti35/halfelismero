@@ -1,0 +1,80 @@
+{
+ "id": "aplocheilus-blockii",
+ "tipus": "hal",
+ "latin": "Aplocheilus blockii",
+ "regi_latin_nevek": [
+  "Aplocheilus blochii"
+ ],
+ "magyar_nev": "Törpe csuka-fogasponty (killi)",
+ "egyeb_nevek": [
+  "Zöld killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aplocheilidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Dél-India, Srí Lanka",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű, de mérete miatt félénk lehet. Csak hasonlóan kistestű halakkal tartható együtt.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Főleg élő és fagyasztott eleség (Cyclops, Daphnia), a száraz tápot nehezebben fogadja el.",
+ "tarsithato": [
+  "Kisméretű razborákkal",
+  "törperazborákkal",
+  "békés fenéklakókkal."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "agresszív vagy túl mozgékony halak."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Növényekkel sűrűn beültetett akvárium szükséges. Az ikrákat finom levelek közé rakják. Az ivadékok nagyon aprók",
+  "papucsállatkával kell indítani az etetésüket."
+ ],
+ "ivari_kulonbseg": "A hímek oldalán sárgás-zöldes pontsorok láthatók, úszóik színesebbek. A nőstények fakóbbak.",
+ "felismeres_jegyek": [
+  "Kicsi",
+  "nyúlánk test. Arany-zöldesen csillogó pikkelysorok. A hátúszó hátul helyezkedik el. Sötét folt a hátúszó tövében."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aplocheilus panchax",
+   "magyar_nev": "Kék csuka-fogasponty",
+   "kulonbseg": "Nagyobbra nő és kevésbé sárgás a színezete."
+  },
+  {
+   "latin": "Aplocheilus parvus",
+   "magyar_nev": "Törpe killi",
+   "kulonbseg": "Nagyon hasonló, de a pikkelymintázata eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések",
+  "Hasszájú betegség"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A vízminőségre érzékenyebb, mint nagyobb rokonai.",
+  "Érdemes fajspecifikus akváriumban tartani a sikeres szaporítás érdekében."
+ ],
+ "lista_nev": "Aplocheilus blockii",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

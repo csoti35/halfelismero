@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Nothobranchius furzeri",
+ "id": "nothobranchius-furzeri",
+ "tipus": "hal",
+ "latin": "Nothobranchius furzeri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Türkizkék tarkafogasponty (killi)",
+ "egyeb_nevek": [
+  "Furzer-fogasponty",
+  "türkizkék killi"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Fogaspontyok",
+ "szarmazas": "Afrika (Mozambik, Zimbabwe déli része, időszakos pocsolyák)",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 0.5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Rövid életciklusú, szezonális killi faj. A hímek hevesen védik a területüket és hajtják a fajtársakat, egymás között komoly rivalizálás alakulhat ki. A nőstényeket folyamatosan hajtják, ezért háremben tartandók. Kifejezetten fajspecifikus tartást igénylő hal.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Kizárólag apró élő vagy fagyasztott táplálék (artémia, tubifex, szúnyoglárva, vízibolha); száraz eleséget szinte soha nem fogad el.",
+ "tarsithato": [
+  "Legjobb fajspecifikus akváriumban tartani",
+  "legfeljebb apró",
+  "békés talajlakókkal vagy békés törpecsigákkal."
+ ],
+ "kerulendo": [
+  "Gyors úszású",
+  "csipkelődő díszmárványok",
+  "sügerek",
+  "nagyobb harcsák",
+  "élénk pontylazacok és más domináns ikrázó fogaspontyok."
+ ],
+ "szaporodas_mod": "ikrázó (szezonális talajba ikrázó)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Helyezzünk ki egy tenyészcsapatot (1 hím, 2-3 nőstény) tőzeggel vagy kókuszrosttal teli tálkába az ívató akváriumban.",
+  "A hím a laza szubsztrátumba préseli a nőstényt, ahová a párok elássák az ikrákat.",
+  "1-2 hét ívatás után vegyük ki a tőzeget, finoman nyomkodjuk ki a felesleges vizet dohány-nedvességűre.",
+  "Csomagoljuk a tőzeget zárható műanyag tasakba, és tároljuk 22-25 °C-on 6-12 hétig a diapauza alatt.",
+  "Az embrionális szemfoltok megjelenése után öntsük fel hidegebb (kb. 18-20 °C-os) lágy vízzel a tőzeget, a kikelő kishalakat azonnal frissen kelt artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, testük és úszóik ragyogó kék, vörös és sárga színekben pompáznak, farokúszójuk szélén fekete vagy vörös szegély látható. A nőstények kisebbek, fakó szürkésbarna alapszínűek és mintázatlanok.",
+ "felismeres_jegyek": [
+  "Robusztus, enyhén zömök killi testalkat széles fejjel és felfelé irányuló szájjal.",
+  "A hímek intenzív kék és vörös pikkelymintázata, sárga-piros szegélyű úszókkal.",
+  "A hát- és farokalatti úszó viszonylag hátul, szimmetrikusan helyezkedik el.",
+  "Feltűnő ivari dimorfizmus: ragyogó hím és fakó barnás nőstény."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nothobranchius rachovii",
+   "magyar_nev": "Rachow díszfogasponty (killi)",
+   "kulonbseg": "Karcsúbb test, élénkebb narancsvörös és égszínkék csíkozás a testen és a farokúszón."
+  },
+  {
+   "latin": "Nothobranchius guentheri",
+   "magyar_nev": "Günther-tarkafogasponty (killi)",
+   "kulonbseg": "A hímek farokúszója egyszínű vörös, hiányzik belőle a széles fekete szegélycsík."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darackór (Ichthyophthirius multifiliis)",
+  "Bársonybetegség (Oodinium)",
+  "Gyors elöregedés és anyagcserezavarok az extrém rövid élettartam miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "A gerincesek között az egyik legrövidebb élettartamú faj; tartása és tenyésztése folyamatos odafigyelést és ikragondozást igényel a vérvonal fenntartásához.",
+  "Mindig tartsunk több nőstényt egy hímre, mert az udvarlás heves és kimerítő lehet.",
+  "Kiváló minőségű, élő eleség nélkül hamar leromlik a kondíciójuk és abbahagyják az ikrázást."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

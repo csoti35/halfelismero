@@ -1,0 +1,72 @@
+{
+ "id": "jordanella-floridae",
+ "tipus": "hal",
+ "latin": "Jordanella floridae",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Floridai fogasponty (killi)",
+ "egyeb_nevek": [
+  "Zászlóshal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cyprinodontidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "USA, Florida",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő hal, különösen íváskor. A hímek egymással és más fajokkal szemben is csipkelődőek lehetnek.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, de sok növényi táplálékot (algát) igényel.",
+ "tarsithato": [
+  "Hasonló méretű",
+  "robusztusabb halakkal",
+  "pl. nagyobb elevenszülőkkel."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú vagy lassú mozgású halak."
+ ],
+ "szaporodas_mod": "Ikrázó, a hím őrzi a fészket.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Alakítsunk ki dús növényzetet vagy tegyünk be ívató harisnyát. 2. A hím gödröt ás vagy növények közé tereli a nőstényt. 3. Az ikrákat a hím agresszívan védi. 4. Kelés után (kb. 5-10 nap) a szülőket érdemes eltávolítani. 5. Az ivadék frissen kelt artémiával etethető."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, testükön vöröses-zöldes mintázat van, a nőstények hátúszóján fekete folt látható.",
+ "felismeres_jegyek": [
+  "Zömök",
+  "magas testfelépítés. Az oldalán sakktáblaszerű vörös és türkiz mintázat. A hátúszó és a farok alatti úszó hosszú. A nőstény hátúszójának hátsó részén sötét folt van."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyprinodon variegatus",
+   "magyar_nev": "Tarka fogasponty",
+   "kulonbseg": "Ezüstösebb alapszín, kevésbé díszes úszók."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Kiváló algaevő, de a finomabb levelű növényeket is megcsipkedheti.",
+  "Szereti a keményebb, enyhén lúgos vizet.",
+  "Szobahőmérsékleten, fűtés nélkül is tartható."
+ ],
+ "lista_nev": "Jordanella floridae",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

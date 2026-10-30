@@ -1,0 +1,79 @@
+{
+ "id": "poropanchax-normani",
+ "tipus": "hal",
+ "latin": "Poropanchax normani",
+ "regi_latin_nevek": [
+  "Aplocheilichthys normani"
+ ],
+ "magyar_nev": "Normani lámpásszemű fogasponty (killi)",
+ "egyeb_nevek": [
+  "Lámpásszemű killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Procatopodidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Afrika (Szenegáltól Szudánig)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 2,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, félénk rajhal. Csak hasonló méretű és természetű halakkal tartsuk.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Apró szemű száraztápok, artémia, cyclops.",
+ "tarsithato": [
+  "Kisméretű pontylazacokkal",
+  "törperaszborákkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagyobb vagy agresszív halak",
+  "amelyek zsákmánynak nézhetik."
+ ],
+ "szaporodas_mod": "Ikrázó, növények közé szórja az ikráit.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Lágy",
+  "enyhén savas víz szükséges. 2. Finom levelű növények vagy ívató mopsz behelyezése. 3. A szülők folyamatosan",
+  "napi pár ikrát raknak. 4. Az ivadékok nagyon kicsik",
+  "papucsállatkával kell indítani az etetést. 5. A szülők általában nem eszik meg az ivadékot dús növényzetben."
+ ],
+ "ivari_kulonbseg": "A hímek úszói hosszabbak és enyhén sárgás/kékes árnyalatúak, a nőstények kisebbek és kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Ezüstös",
+  "áttetsző test. A szem felső része világító neonkék színű. Megnyúlt",
+  "karcsú testforma. Az úszók szinte színtelenek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aplocheilichthys spilauchen",
+   "magyar_nev": "Szalagos lámpásszemű hal",
+   "kulonbseg": "Nagyobb méret, sötét keresztsávok a faroktőnél."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Érzékenység a vízminőség hirtelen változására"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Sötét aljzat és háttér mellett a szemük világítása sokkal látványosabb.",
+  "A vízfelszínen úszó növények növelik a biztonságérzetüket.",
+  "Csoportos tartása kötelező, különben stresszesek lesznek."
+ ],
+ "lista_nev": "Poropanchax normani",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

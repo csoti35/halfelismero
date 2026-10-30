@@ -1,0 +1,83 @@
+{
+ "id": "fundulopanchax-gardneri",
+ "tipus": "hal",
+ "latin": "Fundulopanchax gardneri",
+ "regi_latin_nevek": [
+  "Aphyosemion gardneri"
+ ],
+ "magyar_nev": "Gardner fogasponty (killi)",
+ "egyeb_nevek": [
+  "Acélkék fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Nigéria, Kamerun",
+ "max_meret_cm": 7,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek egymással szemben területvédők és agresszívak lehetnek. Más fajokkal szemben általában békések, de a kisebb halakat megkergethetik.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, de preferálja az élő és fagyasztott eleséget (artémia, szúnyoglárva).",
+ "tarsithato": [
+  "Hasonló méretű",
+  "békés halakkal",
+  "mint a lazacok vagy páncélos harcsák."
+ ],
+ "kerulendo": [
+  "Hosszú úszójú halak",
+  "agresszív sügérek",
+  "más killi hímek kis helyen."
+ ],
+ "szaporodas_mod": "Ikrázó (növényre vagy aljzatra ívó)",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Különítsünk el egy párt egy 10-20 literes ívató akváriumba. 2. Helyezzünk be ívató mopot vagy jávai mohát. 3. Az ikrákat naponta szedjük le vagy hagyjuk a közegben. 4. Az ikrák vízben 2-3 hét alatt kelnek ki. 5. Az ivadékot frissen kelt artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek (kék/zöld alapon piros pöttyök), úszóik hosszabbak és színes szegélyűek. A nőstények barnásak, kevésbé mintásak.",
+ "felismeres_jegyek": [
+  "Hengeres testforma",
+  "kék vagy zöldes alapszín piros pöttyözéssel",
+  "sárga vagy piros szegély az úszókon",
+  "a hímek farokúszója líra alakú lehet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Fundulopanchax scheeli",
+   "magyar_nev": "Scheel fogasponty",
+   "kulonbseg": "Kisebb termetű, a pöttyözése sűrűbb és finomabb."
+  },
+  {
+   "latin": "Aphyosemion australe",
+   "magyar_nev": "Fokföldi fogasponty",
+   "kulonbseg": "Karcsúbb test, más színkombináció, kevésbé robusztus."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni",
+  "mert kiváló ugrók. Érdemes háremben (1 hím",
+  "több nőstény) tartani."
+ ],
+ "lista_nev": "Fundulopanchax gardneri",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

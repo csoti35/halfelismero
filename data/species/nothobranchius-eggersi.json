@@ -1,0 +1,76 @@
+{
+ "id": "nothobranchius-eggersi",
+ "tipus": "hal",
+ "latin": "Nothobranchius eggersi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Eggers díszfogaspontya (killi)",
+ "egyeb_nevek": [
+  "Orchidea killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Fogaspontyok",
+ "szarmazas": "Tanzánia (Rufiji folyó vidéke)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek hevesen védik revírjüket. Csak háremben tartható, több nőstény jusson egy hímre a zaklatás megosztása érdekében.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Igényes; csak élő és jó minőségű fagyasztott eleséget eszik (artémia, fekete szúnyoglárva).",
+ "tarsithato": [
+  "Leginkább csak saját fajtársaival (háremben)."
+ ],
+ "kerulendo": [
+  "Más díszfogaspontyok",
+  "csipkedős halak."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (annuális)",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "1. Ívatás finom szemcséjű tőzegen. 2. Tőzeg kiszedése és szárazra préselése. 3. Inkubáció 2-4 hónapig (hőmérsékletfüggő). 4. Felöntés lágy vízzel. 5. Az ivadékok nagyon aprók",
+  "kezdetben papucsállatka szükséges."
+ ],
+ "ivari_kulonbseg": "A hímek káprázatos kék vagy vörös színűek, pikkelyeik sötét szegélyűek, a nőstények áttetszőek, szürkésbarnák.",
+ "felismeres_jegyek": [
+  "Rendkívül intenzív kék vagy vörös alapszín",
+  "a hát- és farokalatti úszó nagy és mintázott",
+  "a pikkelyek hálószerű rajzolatot adnak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nothobranchius rachovii",
+   "magyar_nev": "Rachow díszfogaspontya",
+   "kulonbseg": "A rachovii mintázata inkább sávos, az eggersié hálószerűbb."
+  },
+  {
+   "latin": "Nothobranchius patrizii",
+   "magyar_nev": "Patrizi díszfogaspontya",
+   "kulonbseg": "A patrizii színei kevésbé fémesek, és a farokúszó széle eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (nagyon érzékeny rá)",
+  "úszórothadás rossz vízminőség esetén."
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "A vízhez adhatunk egy kevés tengeri sót (1 teáskanál / 10 liter) az Oodinium megelőzésére. Nagyon érzékeny a víz tisztaságára."
+ ],
+ "lista_nev": "Nothobranchius eggersi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "simpsonichthys-constanciae",
+ "tipus": "hal",
+ "latin": "Simpsonichthys constanciae",
+ "regi_latin_nevek": [
+  "Cynolebias constanciae"
+ ],
+ "magyar_nev": "Vitorlás legyezőfogasponty",
+ "egyeb_nevek": [
+  "Constancia legyezőfarka"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Rivulidae",
+ "csoport": "Dél-amerikai fogaspontyok (killi)",
+ "szarmazas": "Brazília (Rio de Janeiro környéke)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek területvédők és agresszívek lehetnek egymással. Párban vagy háremben tartsuk.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 8,
+ "taplalek": "Kizárólag élő vagy fagyasztott eleség (szúnyoglárva, artémia, tubifex). Száraz tápot ritkán fogad el.",
+ "tarsithato": [
+  "Legjobb fajspecifikus akváriumban tartani a rövid élettartam és a speciális igények miatt."
+ ],
+ "kerulendo": [
+  "Társas akváriumba nem való",
+  "más halak elehetik előle az eleséget vagy csipkedhetik az úszóit."
+ ],
+ "szaporodas_mod": "Ikrázó, talajba ívó (annuális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Tőzeggel telt edényt kell behelyezni az ívatáshoz, amibe a halak belefúrják magukat.",
+  "Az ikrás tőzeget ki kell venni, és nedvesen (de nem vizesen) kell tárolni.",
+  "A pihentetési idő (diapauza) 2-4 hónap a hőmérséklettől függően.",
+  "A tőzeget lágy, hűvös vízzel kell felönteni a kikeléshez.",
+  "Az ivadékok azonnal képesek frissen kelt artémiát enni."
+ ],
+ "ivari_kulonbseg": "A hímek úszói hatalmasak, vitorlaszerűek és mintásak, a nőstények kisebbek, egyszerűbb színezetűek és úszójuk kerekített.",
+ "felismeres_jegyek": [
+  "A hím hát- és farok alatti úszója rendkívül magas és hegyes végű.",
+  "Testén és úszóin sötét pettyek és világosabb foltok váltakoznak.",
+  "Alapszíne sárgásbarna vagy bézs.",
+  "A test oldalán függőleges sötét sávok láthatóak.",
+  "A szemén egy függőleges sötét vonal fut keresztül."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Simpsonichthys magnificus",
+   "magyar_nev": "Pompás legyezőfogasponty",
+   "kulonbseg": "Élénkebb vörös és kék színek jellemzik."
+  },
+  {
+   "latin": "Austrolebias nigripinnis",
+   "magyar_nev": "Argentin fogasponty",
+   "kulonbseg": "Sötétebb, majdnem fekete alapszín, fehér pettyekkel."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "gombásodás a tőzeges közeg miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Annuális faj, élettartama természetes módon is rövid (kb. 8-12 hónap).",
+  "Ne tartsuk túl meleg vízben, mert az felgyorsítja az anyagcseréjét és hamarabb elpusztul.",
+  "A tőzeges szűrés vagy tőzegkivonat használata ajánlott.",
+  "Az akváriumot ne világítsuk túl erősen."
+ ],
+ "lista_nev": "Simpsonichthys constanciae",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

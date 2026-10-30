@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Austrolebias charrua",
+ "id": "austrolebias-charrua",
+ "tipus": "hal",
+ "latin": "Austrolebias charrua",
+ "regi_latin_nevek": [
+  "Megalebias charrua"
+ ],
+ "magyar_nev": "Csarrva ikrázó fogasponty",
+ "egyeb_nevek": [
+  "Charrua killi"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Rivulidae",
+ "csoport": "Ikrázó fogaspontyok (killik)",
+ "szarmazas": "Dél-Amerika (Uruguay, Brazília déli része)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 1,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek kifejezetten területtartók és agresszívak egymással szemben. Éves (annuális) faj, rövid élettartammal és gyors növekedéssel.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 14,
+ "homerseklet_max": 22,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Kizárólag élő és fagyasztott táplálék (artémia, szúnyoglárva, tubifex). Száraz tápot ritkán fogad el.",
+ "tarsithato": [
+  "Nem ajánlott társítani",
+  "a legcélszerűbb fajakváriumban tartani egy hím és több nőstény arányban."
+ ],
+ "kerulendo": [
+  "Trópusi",
+  "melegkedvelő halak",
+  "nagy testű vagy agresszív fajok",
+  "valamint más hím ikrázó fogaspontyok."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (annuális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Biztosítsunk a halaknak tőzegmoha aljzatot egy külön ívató akváriumban, ahová az ikrákat eláshatják.",
+  "Ívás után óvatosan vegyük ki a tőzeget, préseljük ki belőle a felesleges vizet nedves állagúra.",
+  "Tegyük a tőzeget zárt tasakba, és tároljuk szobahőmérsékleten 2-4 hónapon keresztül (diapauza).",
+  "A pihentetési idő letelte után öntsük fel a tőzeget hideg, lágy vízzel az ivadékok kikeléséhez.",
+  "A kikelt ivadékokat azonnal etessük frissen keltetett artémia naupliuszokkal."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, színezettebbek (sötétkék-szürkés alapon függőleges csíkozással vagy pöttyökkel), míg a nőstények kisebbek, fakó barna színűek.",
+ "felismeres_jegyek": [
+  "Mély, zömök testalkat, oldalról lapított forma.",
+  "A hímek sötét kékes-szürke alapszínűek, a testükön és úszóikon világosabb függőleges mintázattal vagy pöttyökkel.",
+  "A nőstények átlátszó úszójú, rejtőszínű, barnás-szürkés halak.",
+  "A hát- és farok alatti úszók szélesek, lekerekítettek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Austrolebias nigripinnis",
+   "magyar_nev": "Fekete ikrázó fogasponty",
+   "kulonbseg": "Az A. nigripinnis hímjei sötétebbek, majdnem feketék, intenzív ezüstös-kék pöttyözöttséggel."
+  },
+  {
+   "latin": "Austrolebias bellottii",
+   "magyar_nev": "Bellotti ikrázó fogasponty",
+   "kulonbseg": "Az A. bellottii hímjei élénkebb kék tónusúak, mintázatuk eltérő csíkozású."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (dara- és bársonybetegség)",
+  "Gombás fertőzések a nem megfelelő vízminőség miatt",
+  "Magas hőmérséklet miatti korai elöregedés"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Mivel hidegvízi faj, ne használjunk akváriumfűtőt; a túl meleg víz lerövidíti amúgy is rövid életüket.",
+  "Tartsuk őket trióban (1 hím, 2-3 nőstény), hogy a hím udvarlási agressziója megoszoljon.",
+  "Ivadékneveléskor figyeljünk a rendszeres vízcserére, mert az ivadékok rendkívül gyorsan növekednek."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

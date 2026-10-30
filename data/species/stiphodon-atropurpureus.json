@@ -1,0 +1,86 @@
+{
+ "id": "stiphodon-atropurpureus",
+ "tipus": "hal",
+ "latin": "Stiphodon atropurpureus",
+ "regi_latin_nevek": [
+  "Microsicydium atropurpureum"
+ ],
+ "magyar_nev": "Neon kék algázógéb",
+ "lista_nev": "Stiphodon atropurpureus",
+ "egyeb_nevek": [
+  "Bíbor algázógéb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Oxudercidae",
+ "csoport": "Gébek",
+ "szarmazas": "Fülöp-szigetek, Tajvan, Japán",
+ "max_meret_cm": 5,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, algázó életmódot folytató hal. A hímek néha kergetőznek, de nem tesznek kárt egymásban.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Elsősorban algaevő (biofilm, barna alga). Kiegészítésként spirulina tabletta és apró fagyasztott eleség adható.",
+ "tarsithato": [
+  "Garnélák",
+  "kisméretű dániók",
+  "razborák",
+  "más Stiphodon fajok."
+ ],
+ "kerulendo": [
+  "Agresszív fenéklakók",
+  "nagytestű halak",
+  "sügérek."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen. Az ikrák édesvízben kelnek ki",
+  "de a lárváknak tengerbe kell sodródniuk a fejlődéshez",
+  "majd vissza az édesvízbe."
+ ],
+ "ivari_kulonbseg": "A hímek teste fémes neonkék vagy bíbor színben pompázik, úszóik díszesebbek. A nőstények egyszerű krémszínűek, két vízszintes fekete csíkkal.",
+ "felismeres_jegyek": [
+  "Nagyon karcsú",
+  "hengeres test",
+  "a hímeknél ragyogó kék/lila fémes csík az oldalon",
+  "a száj alsó állású (algák kaparására módosult)."
+ ],
+ "hasonlo_fajos": [
+  {
+   "latin": "Stiphodon semoni",
+   "magyar_nev": "Kobaltkék algázógéb",
+   "kulonbseg": "Nagyon hasonló, de a kék szín árnyalata és az úszók mintázata kismértékben eltér."
+  },
+  {
+   "latin": "Stiphodon ornatus",
+   "magyar_nev": "Díszes algázógéb",
+   "kulonbseg": "A hímek színe inkább barnás-aranyos, nem neonkék."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés (ha nincs elég alga)",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2800,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Csak beállt, algásodó akváriumba telepítsük.",
+  "Erős megvilágítás szükséges az algaképződés elősegítésére.",
+  "Az akváriumot szorosan le kell fedni, mert kiváló ugrók és képesek kimászni az üvegen."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

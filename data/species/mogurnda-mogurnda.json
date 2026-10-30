@@ -1,0 +1,85 @@
+{
+ "id": "mogurnda-mogurnda",
+ "tipus": "hal",
+ "latin": "Mogurnda mogurnda",
+ "regi_latin_nevek": [
+  "Eleotris mogurnda"
+ ],
+ "magyar_nev": "Ausztráliai alvógéb",
+ "egyeb_nevek": [
+  "Mogurnda",
+  "Északi alvógéb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Eleotridae",
+ "csoport": "Gébek",
+ "szarmazas": "Ausztrália, Új-Guinea",
+ "max_meret_cm": 15,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Ragadozó és területvédő. A kisebb halakat levadássza, a fajtársaival szemben is összeférhetetlen lehet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Ragadozó. Élő halak, földigiliszta, fagyasztott húsos eleségek, nagyobb pelletek.",
+ "tarsithato": [
+  "Csak hasonló méretű",
+  "robusztus halakkal (pl. nagyobb kalászhalak",
+  "sügérek)."
+ ],
+ "kerulendo": [
+  "Minden hal",
+  "ami befér a száján",
+  "félénk fajok."
+ ],
+ "szaporodas_mod": "Aljzatra vagy tereptárgyra ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "1. Egy összeszokott pár kiválasztása. 2. Lapos kő vagy barlang biztosítása. 3. A hím agresszívan védi az ikrákat. 4. Kelés után (3-5 nap) az ivadékok apró élő eleséggel nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek nagyobbak, homlokuk meredekebb, úszóik hosszabbak. A nőstények íváskor kerekdedebbek.",
+ "felismeres_jegyek": [
+  "Hosszúkás test",
+  "barna-szürke alapszín lila és vörös foltokkal",
+  "két sötét sáv a kopoltyúfedőn",
+  "sárgás úszószegélyek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mogurnda adspersa",
+   "magyar_nev": "Pettyes alvógéb",
+   "kulonbseg": "Nagyon hasonló, de a foltozottsága és a származási helye eltérő."
+  },
+  {
+   "latin": "Tateurndina ocellicauda",
+   "magyar_nev": "Pápua-gébféle",
+   "kulonbseg": "Sokkal kisebb és békésebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrgomba",
+  "Sérülések az agresszió miatt",
+  "Hexamita"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Erős szűrést igényel a nagy mennyiségű fehérjedús táplálék miatt.",
+  "Az akváriumot jól le kell fedni, mert kiváló ugró.",
+  "Dekorációnak használjunk nehéz köveket és gyökereket, amiket nem tud elmozdítani."
+ ],
+ "lista_nev": "Mogurnda mogurnda",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

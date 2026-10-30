@@ -1,0 +1,84 @@
+{
+ "id": "nothobranchius-guentheri",
+ "tipus": "hal",
+ "latin": "Nothobranchius guentheri",
+ "regi_latin_nevek": [
+  "Fundulus guentheri"
+ ],
+ "magyar_nev": "Günther díszfogaspontya (killi)",
+ "egyeb_nevek": [
+  "Günther-killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Fogaspontyok",
+ "szarmazas": "Kelet-Afrika (Zanzibár, Tanzánia)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek egymással szemben területvédők és agresszívek. Más fajokkal szemben békések, de rövid életciklusuk miatt célszerűbb fajspecifikus akváriumban tartani őket.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Élő és fagyasztott eleség (artémia, vörös szúnyoglárva, tubifex). Száraz tápot ritkán fogad el.",
+ "tarsithato": [
+  "Hasonló igényű",
+  "békés halakkal",
+  "de javasolt a háremben (1 hím",
+  "több nőstény) való tartás."
+ ],
+ "kerulendo": [
+  "Más Nothobranchius fajok (hibridizáció veszélye)",
+  "agresszív vagy túl nagy testű halak."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (annuális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "1. Ívatás tőzeggel töltött edényben. 2. A tőzeg kivétele és nedvesen tartása (szárítás). 3. Az ikrák pihentetése (diapauza) 3-4 hónapig 24-28 fokon. 4. Felöntés lágy",
+  "hűvösebb vízzel. 5. Azonnali etetés frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek rendkívül színesek (vörös farokúszó, kékes-zöldes test), a nőstények jellegtelen szürkésbarna színűek.",
+ "felismeres_jegyek": [
+  "Zömök testfelépítés",
+  "a hím farokúszója élénkvörös fekete szegéllyel",
+  "a test pikkelyei kékesen csillognak vöröses szegéllyel",
+  "a hát- és farokalatti úszó mintázott."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nothobranchius rachovii",
+   "magyar_nev": "Rachow díszfogaspontya",
+   "kulonbseg": "A rachovii teste narancssárgább és intenzívebb kék sávokkal rendelkezik."
+  },
+  {
+   "latin": "Nothobranchius korthausae",
+   "magyar_nev": "Korthaus díszfogaspontya",
+   "kulonbseg": "A korthausae teste sárgásabb vagy barnásabb, függőleges csíkozással."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bársonybetegség (Oodinium)",
+  "gombásodás a tőzegen",
+  "idő előtti elöregedés."
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Használjunk lágy vizet és sötét aljzatot a színek kiemeléséhez. Az akváriumot fedni kell",
+  "mert kiváló ugrók."
+ ],
+ "lista_nev": "Nothobranchius guentheri",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

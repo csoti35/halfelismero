@@ -1,0 +1,78 @@
+{
+ "id": "pachypanchax-playfairii",
+ "tipus": "hal",
+ "latin": "Pachypanchax playfairii",
+ "regi_latin_nevek": [
+  "Haplochilus playfairii"
+ ],
+ "magyar_nev": "Playfair-fogasponty (killi)",
+ "egyeb_nevek": [
+  "Seychelle-szigeteki killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aplocheilidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Seychelle-szigetek, Zanzibár",
+ "max_meret_cm": 10,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő és agresszív lehet, különösen íváskor. A hímek hajtják a nőstényeket és egymást is.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Ragadozó; élő és fagyasztott eleség, rovarok, de a jó minőségű granulátumot is megeszi.",
+ "tarsithato": [
+  "Csak hasonló méretű és robusztus halakkal (pl. nagyobb márnák",
+  "sügérek)."
+ ],
+ "kerulendo": [
+  "Félénk halak",
+  "apró fajok",
+  "más killi fajok."
+ ],
+ "szaporodas_mod": "ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Könnyen szaporodik. Az ikrákat növényekre rakja. Az ikrák kemény héjúak. Az ivadékok gyorsan nőnek és korán elkezdenek enni (artémia)."
+ ],
+ "ivari_kulonbseg": "A hímek pikkelyei íváskor felborzolódnak (ez természetes náluk), színezetük élénkebb, úszóik sárgás-vöröses szegélyűek.",
+ "felismeres_jegyek": [
+  "Zömökebb testalkat a többi killihez képest. Aranybarna alapszín vörös pöttyökkel. A hímek pikkelyei gyakran enyhén elállnak a testtől (nem betegség!). Lekerekített úszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pachypanchax omalonotus",
+   "magyar_nev": "Madagaszkári killi",
+   "kulonbseg": "Kevésbé agresszív és más a színmintázata."
+  },
+  {
+   "latin": "Aplocheilus lineatus",
+   "magyar_nev": "Csíkos csuka-fogasponty",
+   "kulonbseg": "Nyúlánkabb test és függőleges csíkozás."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hasvízkór (összetéveszthető a természetes pikkelyfelállással)",
+  "Darakór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Ne ijedjünk meg a hímek felborzolt pikkelyeitől, ez a faj specifikus bélyege.",
+  "Sűrű növényzet szükséges, hogy a nőstények el tudjanak bújni a hímek elől."
+ ],
+ "lista_nev": "Pachypanchax playfairii",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

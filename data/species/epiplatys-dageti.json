@@ -1,0 +1,80 @@
+{
+ "lista_nev": "Epiplatys dageti",
+ "id": "epiplatys-dageti",
+ "tipus": "hal",
+ "latin": "Epiplatys dageti",
+ "regi_latin_nevek": [
+  "Epiplatys dageti monroviae"
+ ],
+ "magyar_nev": "Sávos csukafejű hal",
+ "egyeb_nevek": [
+  "Dageti killi",
+  "Csukafejű fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok (killik)",
+ "szarmazas": "Nyugat-Afrika (Elefántcsontpart, Libéria, Ghána)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő a vízfelszín közelében, a hímek egymással szemben és kisebb halakkal szemben csipkedősek lehetnek.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Élő és fagyasztott táplálék (rovarlárvák, artémia, szúnyoglárva), elfogadja a jó minőségű lemezes tápokat is.",
+ "tarsithato": [
+  "Közepes méretű békés pontylazacokkal",
+  "márnákkal",
+  "páncélos harcsákkal."
+ ],
+ "kerulendo": [
+  "A vízfelszínen tartózkodó kisméretű halak és hosszú úszójú fajok."
+ ],
+ "szaporodas_mod": "Ikrázó, vízinövényekre vagy moppra ikrázik.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Bőséges növényzettel ellátott ívató akvárium előkészítése.",
+  "A szülőpár elhelyezése és táplálása élő eleséggel.",
+  "A nőstény naponta néhány ikrát rak a növények leveleire vagy moppra.",
+  "Az ikrák kikelése kb. 12-14 nap után várható, az ivadékok artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek torkán narancssárga vagy piros folt található, úszóik szegélye sötét, míg a nőstények egyszerűbb színezésűek.",
+ "felismeres_jegyek": [
+  "Hosszúkás, csukaszerű testforma",
+  "Világosbarna-sárgás alapszín, a testen 5-6 függőleges fekete sávval",
+  "A hímek torokrésze élénk narancssárga vagy vörös",
+  "A farokalatti úszó szegélye fekete mintázatú",
+  "Lapos fej és felfelé nyíló száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Epiplatys annulatus",
+   "magyar_nev": "Gyűrűs csukafejű hal",
+   "kulonbseg": "Sokkal kisebb méretű, vastag egész testet átérő fekete gyűrűkkel."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Rendkívül jó ugrók, figyeljünk a precíz akváriumi fedésre.",
+  "Növényekkel jól beültetett akváriumban mutatják meg legszebb színeiket."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

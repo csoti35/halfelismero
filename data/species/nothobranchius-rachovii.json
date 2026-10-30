@@ -1,0 +1,89 @@
+{
+ "id": "nothobranchius-rachovii",
+ "tipus": "hal",
+ "latin": "Nothobranchius rachovii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Rachov díszfogasponty (killi)",
+ "egyeb_nevek": [
+  "Rachov-fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Mozambik, Dél-afrikai Köztársaság",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek egymással szemben agresszívek és területvédők, de más fajokkal szemben békések. Rövid életű, szezonális hal.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Kizárólag élő vagy fagyasztott eleség (artémia, szúnyoglárva, tubifex).",
+ "tarsithato": [
+  "Hasonló igényű",
+  "békés halakkal",
+  "de leginkább faji akváriumban ajánlott."
+ ],
+ "kerulendo": [
+  "Gyors úszású",
+  "csipkelődős halak",
+  "nagytestű sügérek",
+  "más Nothobranchius hímek."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (száraz periódussal)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Helyezzünk tőzeget az ívató akvárium aljára.",
+  "Az ívás után a tőzeget vegyük ki és nyomkodjuk ki belőle a vizet.",
+  "A nedves tőzeget zárható zacskóban tároljuk 3-5 hónapig 22-25 fokon.",
+  "A pihentetési idő után öntsük fel a tőzeget lágy, hűvös vízzel.",
+  "A kikelő ivadékot azonnal etessük frissen kelt artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek rendkívül színesek (vörös, kék, narancs), a nőstények jellegtelen szürkésbarna színűek és kisebbek.",
+ "felismeres_jegyek": [
+  "A hím teste élénkvörös és türkizkék mintázatú.",
+  "A farokúszó szélén széles narancssárga és fekete sáv látható.",
+  "Zömök, hengeres testfelépítés.",
+  "A hát- és farok alatti úszók szimmetrikusan, hátul helyezkednek el.",
+  "A nőstények úszói lekerekítettek és színtelenek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nothobranchius guentheri",
+   "magyar_nev": "Günther díszfogasponty",
+   "kulonbseg": "A farokúszó szegélye vörös, nem narancs-fekete, teste kevésbé kontrasztos."
+  },
+  {
+   "latin": "Nothobranchius korthausae",
+   "magyar_nev": "Korthaus díszfogasponty",
+   "kulonbseg": "Sárgásabb alapszín, függőleges csíkozás jellemzőbb rá."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Hasi vízkór",
+  "Gombásodás a tőzegen való tárolás alatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Ne tartsuk túl meleg vízben, mert az felgyorsítja az amúgy is rövid életciklusukat.",
+  "Akváriumát jól le kell fedni, mert kiváló ugrók.",
+  "Érdemes tőzeggel szűrni a vizüket a megfelelő pH és huminsav tartalom miatt.",
+  "A hímeket háremben (1 hím, 2-3 nőstény) tartsuk."
+ ],
+ "lista_nev": "Nothobranchius rachovii",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

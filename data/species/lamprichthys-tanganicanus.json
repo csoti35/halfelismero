@@ -1,0 +1,81 @@
+{
+ "id": "lamprichthys-tanganicanus",
+ "tipus": "hal",
+ "latin": "Lamprichthys tanganicanus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tanganyikai lámpásszemű fogasponty",
+ "egyeb_nevek": [
+  "Tanganyikai killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Procatopodidae",
+ "csoport": "Afrikai fogaspontyok (killi)",
+ "szarmazas": "Tanganyika-tó",
+ "max_meret_cm": 14,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de rendkívül félénk és érzékeny rajhal. Nagy úszóteret igényel.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 26,
+ "ph_min": 8.0,
+ "ph_max": 9.0,
+ "gh_min": 12,
+ "gh_max": 20,
+ "taplalek": "Elsősorban élő és fagyasztott eleséget (artémia, mysis, fekete szúnyoglárva) igényel, a száraz tápot nehezen fogadja el.",
+ "tarsithato": [
+  "Más békés Tanganyikai sügérekkel (pl. Cyprichromis",
+  "Paracyprichromis)."
+ ],
+ "kerulendo": [
+  "Agresszív sügérek",
+  "nagytestű ragadozók vagy túl mozgékony halak",
+  "amelyek megijeszthetik."
+ ],
+ "szaporodas_mod": "Ikrázó, repedésekbe ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Kemény, lúgos víz és stabil környezet elengedhetetlen.",
+  "Az ikrákat sziklák szűk repedéseibe préselik be.",
+  "Az ikrák nagyon érzékenyek a penészedésre és a fényre.",
+  "Az ivadékok felnevelése nehéz, apró élő eleséget igényelnek az első napokban."
+ ],
+ "ivari_kulonbseg": "A hímek jóval színesebbek, testüket irizáló kék és sárga foltok borítják, úszóik hosszabbak.",
+ "felismeres_jegyek": [
+  "Megnyúlt, heringszerű testalkat.",
+  "Ezüstös alapszín, amelyen a hímeknél sorokba rendezett fénylő kék pettyek láthatók.",
+  "Nagy szemek, amelyek felső része kékesen világít.",
+  "Az úszók sárgás szegélyűek lehetnek.",
+  "A pikkelyek fémesen verik vissza a fényt."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cyprichromis leptosoma",
+   "magyar_nev": "Karcsú díszsügér",
+   "kulonbseg": "Sügérféle, más szájfelépítés és szaporodásmód jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Stressz okozta betegségek",
+  "érzékenység a nitrátra",
+  "hasvízkór"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Rendkívül érzékenyek a szállításra és az áthelyezésre.",
+  "Az akváriumot le kell fedni, mert ijedtükben kiugranak.",
+  "Csak beállt, stabil biológiájú akváriumba telepítsük.",
+  "A víz oxigéntartalma mindig legyen magas."
+ ],
+ "lista_nev": "Lamprichthys tanganicanus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

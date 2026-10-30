@@ -1,0 +1,77 @@
+{
+ "id": "fundulopanchax-sjostedti",
+ "tipus": "hal",
+ "latin": "Fundulopanchax sjostedti",
+ "regi_latin_nevek": [
+  "Aphyosemion sjostedti"
+ ],
+ "magyar_nev": "Kék fundulusz (killi)",
+ "egyeb_nevek": [
+  "Sjostedti fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Nigéria, Kamerun",
+ "max_meret_cm": 12,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Nagytestű és területvédő. A hímek agresszívak egymással, és a kisebb halakat zsákmánynak tekinthetik.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Ragadozó; kedveli a nagyobb élő eleségeket, rovarlárvákat, földigilisztát.",
+ "tarsithato": [
+  "Csak hasonló méretű",
+  "robusztus halakkal",
+  "de legjobb fajspecifikus akváriumban."
+ ],
+ "kerulendo": [
+  "Kistermetű halak",
+  "más killi hímek."
+ ],
+ "szaporodas_mod": "Ikrázó (aljzatba ikrázó)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "1. Tőzeges aljzatot biztosítsunk az ívatáshoz. 2. Az ikrákat a tőzeggel együtt vegyük ki. 3. A tőzeget szárítsuk nyirkosra és tároljuk zacskóban 6-12 hétig. 4. Ezután öntsük fel lágy vízzel a keléshez. 5. Az ivadék azonnal képes enni az artémiát."
+ ],
+ "ivari_kulonbseg": "A hímek jóval nagyobbak, testük kék-narancs sávos, farokúszójuk háromszínű. A nőstények kisebbek és jellegtelen barnák.",
+ "felismeres_jegyek": [
+  "Nagy",
+  "robusztus test",
+  "a hímek oldalán vörösesbarna keresztcsíkok",
+  "a farokúszó középső része sárga vagy narancs",
+  "szélei kékek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Fundulopanchax gularis",
+   "magyar_nev": "Legyezőfarkú fogasponty",
+   "kulonbseg": "Hasonló méret, de a farokúszó formája és a mintázat eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium",
+  "bélparaziták"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Lágy",
+  "tőzeggel szűrt vizet igényel a teljes pompájához. Az ikrák fejlődéséhez elengedhetetlen a száraz periódus."
+ ],
+ "lista_nev": "Fundulopanchax sjostedti",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

@@ -1,0 +1,81 @@
+{
+ "lista_nev": "Epiplatys annulatus",
+ "id": "epiplatys-annulatus",
+ "tipus": "hal",
+ "latin": "Epiplatys annulatus",
+ "regi_latin_nevek": [
+  "Pseudepiplatys annulatus"
+ ],
+ "magyar_nev": "Gyűrűs csukafejű hal",
+ "egyeb_nevek": [
+  "Törpe csukafejű killi",
+  "Bohóckilli"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok (killik)",
+ "szarmazas": "Nyugat-Afrika (Guinea, Libéria, Sierra Leone)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nyugodt felszíni hal, amely mérete miatt nagy testű vagy agresszív halak mellett könnyen áldozattá válhat.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 8,
+ "taplalek": "Élő és fagyasztott kisméretű táplálék (kandicsrák, artémia, finom lemezes tápok).",
+ "tarsithato": [
+  "Kisméretű békés fajokkal (például törpe razbórákkal",
+  "páncélos harcsákkal",
+  "törpe garnélákkal)."
+ ],
+ "kerulendo": [
+  "Nagyobb",
+  "gyors vagy csipkedős halak."
+ ],
+ "szaporodas_mod": "Ikrázó, növényzet közé vagy ikráztató mopra ikrázik.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Ivató akvárium berendezése lágy, enyhén savanyú vízzel és mohákkal vagy ikráztató mop-pa.",
+  "A jól táplált szülőpár kihelyezése a külön akváriumba.",
+  "Az ikrák napi gyűjtése a mropról vagy a szülők eltávolítása ikrázás után.",
+  "A kikelő ivadékok etetése papucsállatkával, majd frissen keltett artémiával."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, farokúszójuk lándzsás és középső sugaraik vöröses-kékek; a nőstények kisebbek, úszóik színtelenebbek.",
+ "felismeres_jegyek": [
+  "Kisméretű, megnyúlt testforma egyenes hátvonallal",
+  "Széles, sötétbarna vagy fekete függőleges sávok a sárgás alapszínen",
+  "A hímek farokúszója lándzsa alakú, középen piros és kék mintázattal",
+  "A hátúszó a test hátsó részén helyezkedik el",
+  "Felszíni táplálkozásra módosult, felfelé álló száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Epiplatys dageti",
+   "magyar_nev": "Sávos csukafejű hal",
+   "kulonbseg": "Nagyobb testméret, és csak a test alsó részén láthatóak keskeny fekete csíkok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hasvízkór",
+  "Oodinium (bársonybetegség)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Aktivitásukhoz és biztonságérzetükhöz elengedhetetlen a vízfelszínen lebegő növényzet.",
+  "Az akváriumot szorosan le kell fedni, mert kitűnő ugrók."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

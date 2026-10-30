@@ -1,0 +1,80 @@
+{
+ "id": "fundulopanchax-scheeli",
+ "tipus": "hal",
+ "latin": "Fundulopanchax scheeli",
+ "regi_latin_nevek": [
+  "Aphyosemion scheeli"
+ ],
+ "magyar_nev": "Scheel fogasponty (killi)",
+ "egyeb_nevek": [
+  "Scheel-killi"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Nigéria",
+ "max_meret_cm": 6,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Az egyik legbékésebb Fundulopanchax faj. A hímek között lehetnek kisebb kergetőzések, de nem okoznak kárt egymásban.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 5,
+ "gh_max": 12,
+ "taplalek": "Élő és fagyasztott eleség, de a jó minőségű száraz tápokat is elfogadja.",
+ "tarsithato": [
+  "Békés közösségi halakkal",
+  "kisebb lazacokkal",
+  "törperasborákkal."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak",
+  "amelyek elnyomják."
+ ],
+ "szaporodas_mod": "Ikrázó (növényre ívó)",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "1. Jávai mohával vagy mopal bélelt ívató akvárium. 2. A pár folyamatosan rakja az ikrákat. 3. Az ikrák vízben fejlődnek",
+  "kb. 14 nap alatt kelnek. 4. Az ivadékok apró élő eleséggel indíthatók."
+ ],
+ "ivari_kulonbseg": "A hímek teste kékeszöld, apró piros pöttyökkel, úszóik sárga szegélyűek. A nőstények egyszerű barnás színűek.",
+ "felismeres_jegyek": [
+  "Kisebb",
+  "zömök test",
+  "fémes kékeszöld csillogás",
+  "sűrű piros pontozás az oldalon",
+  "sárga szegély a hát- és farok alatti úszón."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Fundulopanchax gardneri",
+   "magyar_nev": "Gardner fogasponty",
+   "kulonbseg": "Nagyobb termet, markánsabb színek és mintázat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Nagyon hálás",
+  "szívós faj",
+  "ideális választás azoknak",
+  "akik most ismerkednek az ikrázó fogaspontyokkal."
+ ],
+ "lista_nev": "Fundulopanchax scheeli",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}
