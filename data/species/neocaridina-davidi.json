@@ -1,0 +1,94 @@
+{
+ "lista_nev": "Neocaridina davidi",
+ "id": "neocaridina-davidi",
+ "tipus": "gerinctelen",
+ "latin": "Neocaridina davidi",
+ "regi_latin_nevek": [
+  "Neocaridina heteropoda"
+ ],
+ "magyar_nev": "Cseresznyegarnéla",
+ "egyeb_nevek": [
+  "Red cherry garnéla",
+  "Édesvízi törpegarnéla"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Atyidae",
+ "csoport": "Garnélák",
+ "szarmazas": "Kelet-Ázsia (Tajvan, Kína)",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 2,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Abszolút békés, állandóan algát és törmeléket keresgélő, társas élőlény.",
+ "rajhal": false,
+ "min_csoport": 10,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 6,
+ "gh_max": 15,
+ "taplalek": "Mindenevő algázó: biofilmek, algák, garnélatápok, forrázott zöldségek, spirulina, szerves hulladék.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés nano halakkal (pl. törperazbórák",
+  "törpe szívóharcsák)",
+  "békés csigákkal."
+ ],
+ "kerulendo": [
+  "Bármilyen ragadozó vagy nagyobb hal",
+  "márványrákok",
+  "sügérek",
+  "díszmárnák",
+  "amelyek zsákmánynak tekintik."
+ ],
+ "szaporodas_mod": "Közvetlen fejlődésű, a nőstény a potrohán hordozza a megtermékenyített petéket.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Biztosítsunk stabil, érett akváriumot sok mohával és növényzettel.",
+  "Tartásuk vegyes nemű csapatban (legalább 10 egyed) történjen.",
+  "A nőstény vedlés után párosodik, majd 20-30 petét rak a potroha alá.",
+  "Körülbelül 3-4 hét forgatás után a petékből teljesen kifejlett apró garnélák másznak elő.",
+  "Az ivadékok nem igényelnek külön nevelést, ha elegendő biofilm és poreleség áll rendelkezésre."
+ ],
+ "ivari_kulonbseg": "A nőstények nagyobbak, teltebb testűek, intenzívebb színűek, és petefoltot viselnek a tarkójuk mögött.",
+ "felismeres_jegyek": [
+  "Tömzsi kis törpegarnéla forma, lefelé hajló potrohhal",
+  "Változatos tenyészszínek (piros, sárga, kék, narancs, zöld, fekete)",
+  "A nőstények nyakán gyakran látható a világos petefolt (nyereg)",
+  "Fejtorán és potrohán gyakran halványabb hátcsík húzódik",
+  "A hímek karcsúbbak és átlátszóbbak a nőstényeknél"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Caridina cantonensis",
+   "magyar_nev": "Kristálygarnéla",
+   "kulonbseg": "Lágyabb, savasabb vizet igényel; a testmintázat gyakran sávos, és a fejforma kissé tömzsibb."
+  },
+  {
+   "latin": "Neocaridina palmata",
+   "magyar_nev": "Márványos törpegarnéla",
+   "kulonbseg": "Főként vad típusban létezik, finom márványozott pöttyökkel a testen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vedlési problémák ásványianyag-hiány miatt",
+  "Rézmérgezés (növénytápokból vagy gyógyszerekből)",
+  "Cladogonium ogishimae (parazita zöld algafertőzés)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kerüljük a réztartalmú gyógyszerek és algagátlók használatát.",
+  "Érett, algásodó felületekkel és jávai mohával teli medencében érzik a legjobban magukat.",
+  "A különböző színváltozatokat ne tartsuk együtt, mert kereszteződve visszavadulnak szürkésbarna alapszínűvé."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

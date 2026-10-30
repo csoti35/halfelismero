@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Atyopsis moluccensis",
+ "id": "atyopsis-moluccensis",
+ "tipus": "gerinctelen",
+ "latin": "Atyopsis moluccensis",
+ "regi_latin_nevek": [
+  "Atya moluccensis"
+ ],
+ "magyar_nev": "Szűrőgarnéla",
+ "egyeb_nevek": [
+  "molukki garnéla",
+  "ázsiai sepregető garnéla"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Atyidae",
+ "csoport": "Garnélák",
+ "szarmazas": "Délkelet-Ázsia (Indonézia, Thaiföld, Malajzia)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, visszahúzódó lény, amely a vízáramlásba állva lebegő részecskéket szűr ki. Soha nem bánt más lakókat, védtelen a zaklatással szemben.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 7.8,
+ "gh_min": 6,
+ "gh_max": 16,
+ "taplalek": "Szűrő táplálkozású (plankton, detritusz, porított spirulina, fitoplankton, finom ivadéktáp). Ha az aljzatról kapirgál, az éhezés jele.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés pontyfélék",
+  "békés dániók",
+  "törpe szívóharcsák (Otocinclus) és egyéb apró algaevők."
+ ],
+ "kerulendo": [
+  "Erőszakos",
+  "csipkelődő vagy nagytestű halak (sügérek",
+  "díszmárnák)",
+  "amelyek lecsíphetik a tapogatóit."
+ ],
+ "szaporodas_mod": "Petés, sós vízi lárvastádiummal rendelkező szaporodás (primitív szaporodási típus).",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "A nőstény hetekig hordozza a nagy számú mikroszkopikus petét a potroha alatt.",
+  "A kikelt lárváknak tengeri sótartalmú vízre van szükségük a továbbfejlődéshez.",
+  "A lárvákat apró lebegő planktonnal és mikroalgákkal kell etetni folyamatos levegőztetés mellett.",
+  "A kifejlett garnélává vedlés után az egyedeket fokozatos sótartalom-csökkentéssel szoktatják vissza édesvízhez."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek első pár járólába jóval vastagabb, masszívabb és tüskés, mint a nőstényeké.",
+ "felismeres_jegyek": [
+  "Az első két pár láb átalakult sepregető pamacsokká (legyezőkké).",
+  "Vörösesbarna, csokoládébarna vagy világosbarna hosszanti csíkos mintázat.",
+  "A hátvonalon gyakran széles, világos sárgás vagy krémszínű sáv húzódik végig.",
+  "Hengeres, vaskos testalkat, erős járólábak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Atya gabonensis",
+   "magyar_nev": "Gaboni óriás sepregető garnéla",
+   "kulonbseg": "Nagyobb méretű, robusztusabb, színe jellegzetesen acélkék vagy szürkésfehér, lábain erős bütykökkel."
+  },
+  {
+   "latin": "Atyoida bisulcata",
+   "magyar_nev": "Hawaii sepregető garnéla",
+   "kulonbseg": "Kisebb termetű és ritkábban beszerezhető, színezete kevésbé határozottan csíkos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés (ha nincs elegendő lebegő táplálék a vízoszlopban)",
+  "Vedlési rendellenességek kemény víz vagy jódhiány miatt",
+  "Oxigénhiány (magas oxigénigényű faj)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Biztosítsunk erős áramlást és egy kövekből vagy fából álló ülőhelyet közvetlenül a szűrő kifolyócsöve elé.",
+  "Célzottan etessük fecskendővel a vízbe juttatott, finomra porított lebegő eleséggel az áramlatba fújva.",
+  "Ha a talajról 'söpröget', azonnal avatkozzunk be táplálékkal, mert ez a legyezők kopásához és éhenhaláshoz vezethet."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

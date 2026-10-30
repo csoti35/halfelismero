@@ -1,0 +1,86 @@
+{
+ "id": "vittina-natalensis",
+ "lista_nev": "Vittina natalensis",
+ "tipus": "gerinctelen",
+ "latin": "Vittina natalensis",
+ "regi_latin_nevek": [
+  "Neritina natalensis"
+ ],
+ "magyar_nev": "Zebra csiga (nerita)",
+ "egyeb_nevek": [
+  "Zebramintás versenicsiga",
+  "Tigriscsiga"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Neritidae",
+ "csoport": "Csigák",
+ "szarmazas": "Dél- és Kelet-Afrika",
+ "max_meret_cm": 3,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Teljesen békés, csak algákkal és maradékokkal táplálkozik, a növényeket nem bántja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Elsősorban algaevő (barna és zöld pontalga), alga-tabletta",
+ "tarsithato": [
+  "Bármilyen békés hallal és gerinctelennel"
+ ],
+ "kerulendo": [
+  "Csigaevő halak (pl. gömbhalak",
+  "botiafélék) és csigaevő csiga (Anentome helena)"
+ ],
+ "szaporodas_mod": "Petékkel (édesvízben nem kelnek ki)",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "A kifejlett csigák fehér, kemény petetokokat raknak a tereptárgyakra.",
+  "A lárvák kikeléséhez sós-félsós víz (brakkvíz) szükséges.",
+  "A lárvák felnevelése akváriumi körülmények között rendkívül nehéz.",
+  "Édesvízben a petékből soha nem lesz utód."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem megkülönböztethetőek.",
+ "felismeres_jegyek": [
+  "Gömbölyded, csepp alakú ház.",
+  "Sárgásbarna alapszínen fekete cikcakkos vagy csíkos mintázat.",
+  "A ház felülete sima és fényes.",
+  "Kicsi, sötét színű láb.",
+  "Nincs tüdője, kopoltyúval lélegzik."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vittina waigiensis",
+   "magyar_nev": "Vörös versenicsiga",
+   "kulonbseg": "Vöröses alapszín, más mintázat."
+  },
+  {
+   "latin": "Clithon corona",
+   "magyar_nev": "Süncsiga",
+   "kulonbseg": "Kisebb méret, tüskék a házon."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Házkopás (lágy víz miatt)",
+  "Éhezés (túl tiszta akváriumban)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Csak beállt, algásodó akváriumba telepítsük.",
+  "Ha a hátára esik, gyakran nem tud visszafordulni és elpusztul, segítsünk neki.",
+  "A fehér petetokokat nehéz lekaparni a dekorációról, ezzel számoljunk."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Caridina multidentata",
+ "id": "caridina-multidentata",
+ "tipus": "gerinctelen",
+ "latin": "Caridina multidentata",
+ "regi_latin_nevek": [
+  "Caridina japonica"
+ ],
+ "magyar_nev": "Amano-garnéla",
+ "egyeb_nevek": [
+  "japán mocsári garnéla"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Atyidae",
+ "csoport": "Garnélák",
+ "szarmazas": "Kelet-Ázsia (Japán, Tajvan)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, állandóan algát és detrituszt legelő garnéla. Táplálékszerzéskor élénk és tolakodó lehet fajtársaival vagy kisebb garnélákkal, de kárt nem tesz bennük.",
+ "rajhal": false,
+ "min_csoport": 5,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 27,
+ "ph_min": 6.5,
+ "ph_max": 7.8,
+ "gh_min": 6,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kiváló algaevő. Fonálalgát, biofilmet fogyaszt, kiegészítésként süllyedő növényi és spirulinás tápokat, forrázott zöldséget igényel.",
+ "tarsithato": [
+  "Kistestű",
+  "békés pontylazacok",
+  "dániók",
+  "razbórák",
+  "páncélosharcsák",
+  "algázó gébek és csigák."
+ ],
+ "kerulendo": [
+  "Sügérek",
+  "nagytestű márnak",
+  "botiafélék és minden olyan ragadozó hal",
+  "amely méreténél fogva zsákmánynak tekinti."
+ ],
+ "szaporodas_mod": "Petés, sós vízi lárvastádiummal rendelkező szaporodás (primitív szaporodási típus).",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "A nőstény több száz apró petét hordoz a potroha alatt körülbelül 4–5 hétig édesvízben.",
+  "A kikelő lárvákat külön, sós vizű (kb. 30–35 ppt sótartalmú) nevelőakváriumba kell áthelyezni.",
+  "A mikroszkopikus lárvákat speciális tengeri egysejtű algával (pl. Dunaliella salina) vagy fitoplanktonnal kell táplálni finom porlasztás mellett.",
+  "A 3–5 hetes lárvafejlődés és a posztlárvává alakulás után fokozatosan kell visszaédesíteni a vizet az átszoktatáshoz."
+ ],
+ "ivari_kulonbseg": "A nőstények láthatóan nagyobbak, testük zömökebb, oldalukon a pontsorok gyakran vonalakká folynak össze. A hímek karcsúbbak, pontjaik szabályosak és elkülönülnek.",
+ "felismeres_jegyek": [
+  "Áttetsző, szürkésbarna alapszínű test, enyhén kékes vagy vöröses árnyalattal.",
+  "A testoldalon hosszanti sorokba rendeződött apró, vörösesbarna vagy fekete pontok és vonalkák.",
+  "A háton végigfutó világos, vékony sáv.",
+  "Ollói kisméretűek, apró sörtékben végződnek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Caridina typus",
+   "magyar_nev": "Typus garnéla",
+   "kulonbseg": "Sötétebb, változatosabb rejtőszínű, hiányzik az Amano-garnélára jellemző szabályos pontsor."
+  },
+  {
+   "latin": "Neocaridina davidi",
+   "magyar_nev": "Neocaridina törpegarnéla",
+   "kulonbseg": "Lényegesen kisebb termetű, testalkata kompaktabb, a vad forma foltjai nem rendeződnek pontos sorokba."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vedlési problémák ásványianyag-hiány miatt",
+  "Réz- és nehézfémmérgezés",
+  "Parazitás fertőzések (pl. Cladogonium ogishimae / 'zöld gomba')"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1600,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert a frissen betelepített egyedek hajlamosak kimászni vagy kiugrani a vízből.",
+  "Kifejezetten érzékeny a vízben lévő rézre és a magas nitrátszintre, a növénytápok adagolásánál óvatosság szükséges.",
+  "Tartsuk legalább 4–6 fős csapatban, hogy bátran és aktívan mozogjanak nappal is a növényzet között."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

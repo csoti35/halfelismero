@@ -1,0 +1,85 @@
+{
+ "id": "cherax-destructor",
+ "lista_nev": "Cherax destructor",
+ "tipus": "gerinctelen",
+ "latin": "Cherax destructor",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Yabby",
+ "egyeb_nevek": [
+  "Ausztrál kékrák",
+  "Pusztító rák"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Parastacidae",
+ "csoport": "Tízlábú rákok",
+ "szarmazas": "Ausztrália",
+ "max_meret_cm": 20,
+ "elettartam_ev": 6,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül területvédő és agresszív, hajlamos az akvárium teljes átrendezésére és a lakótársak megtámadására.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 15,
+ "homerseklet_max": 25,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 12,
+ "gh_max": 30,
+ "taplalek": "Mindenevő (dögevő, növényi részek, férgek, rákpellet)",
+ "tarsithato": [
+  "Csak saját fajtársával (párban) nagy helyen",
+  "vagy egyedül"
+ ],
+ "kerulendo": [
+  "Minden hal",
+  "csiga és növény"
+ ],
+ "szaporodas_mod": "Petékkel",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Hűvösebb periódus (teleltetés) utáni hőmérsékletemelés serkenti.",
+  "A párzást követően a nőstény a potroh alatt hordozza a petéket.",
+  "A kicsik kikelése után azonnal különítsük el őket a szülőktől.",
+  "Rengeteg búvóhely szükséges a kannibalizmus elkerülésére."
+ ],
+ "ivari_kulonbseg": "A hímek ollói nagyobbak és szélesebbek, az ivarnyílások elhelyezkedése eltérő.",
+ "felismeres_jegyek": [
+  "Rövid, zömök, nagyon erős ollók.",
+  "Színe változatos: kék, barna vagy szürke a víztől függően.",
+  "A fejtor (carapax) simább, mint a C. quadricarinatusé.",
+  "A potroh széles és erőteljes.",
+  "Nincs vörös folt a hímek ollóján."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cherax quadricarinatus",
+   "magyar_nev": "Kék ausztrál rák",
+   "kulonbseg": "Hosszabb ollók, vörös folt a hímeken, karcsúbb test."
+  },
+  {
+   "latin": "Cherax tenuimanus",
+   "magyar_nev": "Marron rák",
+   "kulonbseg": "Sokkal nagyobbra nő, öt léc a fejen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rákpestis",
+  "Gombás fertőzések",
+  "Oxigénhiány (érzékeny a pangó vízre)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 4000,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Nagyon jól bírja az alacsonyabb hőmérsékletet is.",
+  "Szeret ásni, ezért nehéz köveket csak az üvegre helyezve tegyünk be.",
+  "Kiválóan mászik, az akváriumot résmentesen le kell zárni."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

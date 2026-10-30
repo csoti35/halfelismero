@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Procambarus clarkii",
+ "id": "procambarus-clarkii",
+ "tipus": "gerinctelen",
+ "latin": "Procambarus clarkii",
+ "regi_latin_nevek": [
+  "Cambarus clarkii"
+ ],
+ "magyar_nev": "Vörös mocsári rák",
+ "egyeb_nevek": [
+  "Floridai vörösrák",
+  "Louisiana mocsári rák"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cambaridae",
+ "csoport": "Tízlábú rákok",
+ "szarmazas": "Észak-Amerika (Mexikó és az USA délkeleti része)",
+ "max_meret_cm": 12,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Területvédő és kifejezetten agresszív faj. A kisebb halakat, lassú úszójú fajokat és más rákokat elkapja és megeszi. A növényeket kitúrja és megrágja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő: gyári rák- és harcsatabletták, fagyasztott kishalak, szúnyoglárva, forrázott zöldségek, száraz levelek.",
+ "tarsithato": [
+  "Gyors",
+  "felső szinten úszó nagyobb halakkal (pl. nagyobb dániók",
+  "nagyobb márnafélék)",
+  "de leginkább fajakváriumban ajánlott."
+ ],
+ "kerulendo": [
+  "Fenéklakó halak (páncélosharcsák",
+  "algaevők)",
+  "lassú és fátyolos úszójú halak",
+  "törpe rákok és törpe garnélák."
+ ],
+ "szaporodas_mod": "Belső megtermékenyítés; a nőstény a potroha alatt hordozza és gondozza az petéket és a kikelt kisrákokat.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Biztosítsunk bőséges búvóhelyet és jó vízminőséget a pár számára.",
+  "A párzás után a nőstény megtermékenyített petéket ragaszt a potrohlábaira.",
+  "A nőstény elvonul egy barlangba, a peték fejlődése 3-4 hétig tart.",
+  "A kikelő kisrákok még napokig a nőstényen maradnak, majd önállóvá válnak.",
+  "A kisrákokat bőségesen etessük ivadéktáppal, és biztosítsunk sok búvóhelyet a kannibalizmus elkerülésére."
+ ],
+ "ivari_kulonbseg": "A hímek ollói jóval nagyobbak és robusztusabbak, valamint a hasi oldalukon láthatók a módosult párzólábak (gonopodium).",
+ "felismeres_jegyek": [
+  "Sötétvörös vagy narancsvörös alapszín a kifejlett egyedeknél.",
+  "Az ollókon és a páncél oldalán apró, pirosas vagy fehéres tüskék, szemölcsök láthatók.",
+  "Erőteljes, széles ollók.",
+  "Hosszú kopoltyúbarázda a fejtoron."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Procambarus alleni",
+   "magyar_nev": "kék floridai rák",
+   "kulonbseg": "A P. alleni természetes/leggyakoribb színe élénkkék, páncéljának mintázata eltérő."
+  },
+  {
+   "latin": "Astacus astacus",
+   "magyar_nev": "folyami rák",
+   "kulonbseg": "A folyami rák barna/barnászöld színű, nem narancsvörös, és lényegesen nagyobbra nő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rákpestis (Aphanomyces astaci)",
+  "Páncélrothadás (bakteriális/gombás)",
+  "Vedlési problémák (kalciumhiány vagy rossz vízminőség miatt)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Szigorúan fedni kell az akváriumot, mert kiváló mászók és könnyen kimásznak.",
+  "Természetes vizekbe engedni szigorúan TILOS és illegális, mert invazív faj!",
+  "Adjunk kalciumban gazdag táplálékot és biztosítsunk elegendő kemény vizet a sikeres vedléshez."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

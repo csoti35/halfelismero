@@ -1,0 +1,89 @@
+{
+ "id": "cherax-quadricarinatus",
+ "lista_nev": "Cherax quadricarinatus",
+ "tipus": "gerinctelen",
+ "latin": "Cherax quadricarinatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vörösollós rák",
+ "egyeb_nevek": [
+  "Vörösollós rák",
+  "Queenslandi kékrák"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Parastacidae",
+ "csoport": "Tízlábú rákok",
+ "szarmazas": "Ausztrália, Pápua Új-Guinea",
+ "max_meret_cm": 25,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, a kisebb halakat és fajtársait levadászhatja. Éjszaka aktívabb.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (ráktáp, forrázott zöldség, halhús, lehulló eleség)",
+ "tarsithato": [
+  "Gyors",
+  "felső zónában úszó halakkal"
+ ],
+ "kerulendo": [
+  "Lassú halak",
+  "fenéklakók",
+  "más rákok",
+  "puha levelű növények"
+ ],
+ "szaporodas_mod": "Petékkel (nőstény a potroh alatt hordozza)",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Megfelelő méretű pár összehelyezése tágas medencében.",
+  "Bőséges fehérjedús etetés a kondíció javításához.",
+  "A nőstény a petéket a potroh lábai alatt tartja 4-6 hétig.",
+  "A kikelő kisrákok számára sok búvóhely (avar, csövek) szükséges.",
+  "Rendszeres vízcsere az ivadékok gyors növekedéséhez."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek ollóinak külső szélén feltűnő vörös folt látható.",
+ "felismeres_jegyek": [
+  "Alapszíne intenzív kék vagy kékeszöld.",
+  "A hímek ollóján vörös, lágy tapintású folt található.",
+  "Négy hosszanti léc (gerinc) a fejtori részen.",
+  "Robusztus testfelépítés, nagy ollók.",
+  "A potroh oldalán világosabb pöttyök láthatóak."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cherax destructor",
+   "magyar_nev": "Ausztrál kékrák (Yabby)",
+   "kulonbseg": "Nincs vörös folt az ollón, zömökebb ollók, más fejtori mintázat."
+  },
+  {
+   "latin": "Procambarus clarkii",
+   "magyar_nev": "Vörös mocsári rák",
+   "kulonbseg": "Kisebb termet, rücskösebb ollók, általában vöröses szín."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rákpestis",
+  "Páncélrothadás",
+  "Vedlési problémák (ásványi anyag hiány)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Biztosítsunk számára sok búvóhelyet, mert vedléskor védtelen.",
+  "Az akváriumot jól le kell fedni, mert kiváló szabadulóművész.",
+  "A növényeket jó eséllyel kiássa vagy elfogyasztja."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

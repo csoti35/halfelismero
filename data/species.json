@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-30",
-"darab": 460,
+"darab": 472,
 "fajok": [
 {
 "id": "abactochromis-labrosus",
@@ -1184,6 +1184,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 600,
 "ar_ft_max": 1200,
+"ellenorzott": false
+},
+{
+"id": "atyopsis-moluccensis",
+"tipus": "gerinctelen",
+"latin": "Atyopsis moluccensis",
+"magyar_nev": "Szűrőgarnéla",
+"egyeb_nevek": [
+"molukki garnéla",
+"ázsiai sepregető garnéla"
+],
+"regi_latin_nevek": [
+"Atya moluccensis"
+],
+"csalad": "Atyidae",
+"csoport": "Garnélák",
+"max_meret_cm": 10,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 80,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.8,
+"ph_max": 7.8,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2000,
+"ar_ft_max": 3500,
 "ellenorzott": false
 },
 {
@@ -2461,6 +2490,35 @@
 "ellenorzott": false
 },
 {
+"id": "cambarellus-patzcuarensis",
+"tipus": "gerinctelen",
+"latin": "Cambarellus patzcuarensis",
+"magyar_nev": "Narancssárga törperák",
+"egyeb_nevek": [
+"Mexikói narancs törperák",
+"Pátzcuaro-tavi törperák"
+],
+"regi_latin_nevek": [
+"Cambarellus patzcuarensis 'Orange'"
+],
+"csalad": "Cambaridae",
+"csoport": "Tízlábú rákok",
+"max_meret_cm": 4.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 18,
+"homerseklet_max": 25,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "carassius-auratus-buborekszemu",
 "tipus": "hal",
 "latin": "Carassius auratus",
@@ -2712,6 +2770,64 @@
 "ellenorzott": false
 },
 {
+"id": "caridina-cantonensis",
+"tipus": "gerinctelen",
+"latin": "Caridina cantonensis",
+"magyar_nev": "Kristálygarnéla",
+"egyeb_nevek": [
+"Kristálygarnéla",
+"Crystal Red garnéla",
+"Bee garnéla"
+],
+"regi_latin_nevek": [
+"Caridina serrata cantonensis"
+],
+"csalad": "Atyidae",
+"csoport": "Garnélák",
+"max_meret_cm": 3.0,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 20,
+"homerseklet_max": 24,
+"ph_min": 5.8,
+"ph_max": 6.8,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 700,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "caridina-multidentata",
+"tipus": "gerinctelen",
+"latin": "Caridina multidentata",
+"magyar_nev": "Amano-garnéla",
+"egyeb_nevek": [
+"japán mocsári garnéla"
+],
+"regi_latin_nevek": [
+"Caridina japonica"
+],
+"csalad": "Atyidae",
+"csoport": "Garnélák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 27,
+"ph_min": 6.5,
+"ph_max": 7.8,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 1600,
+"ellenorzott": false
+},
+{
 "id": "carinotetraodon-travancoricus",
 "tipus": "hal",
 "latin": "Carinotetraodon travancoricus",
@@ -2897,6 +3013,60 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 4500,
 "ar_ft_max": 12000,
+"ellenorzott": false
+},
+{
+"id": "cherax-destructor",
+"tipus": "gerinctelen",
+"latin": "Cherax destructor",
+"magyar_nev": "Yabby",
+"egyeb_nevek": [
+"Ausztrál kékrák",
+"Pusztító rák"
+],
+"regi_latin_nevek": [],
+"csalad": "Parastacidae",
+"csoport": "Tízlábú rákok",
+"max_meret_cm": 20,
+"termeszet": "agressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 120,
+"homerseklet_min": 15,
+"homerseklet_max": 25,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 4000,
+"ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
+"id": "cherax-quadricarinatus",
+"tipus": "gerinctelen",
+"latin": "Cherax quadricarinatus",
+"magyar_nev": "Vörösollós rák",
+"egyeb_nevek": [
+"Vörösollós rák",
+"Queenslandi kékrák"
+],
+"regi_latin_nevek": [],
+"csalad": "Parastacidae",
+"csoport": "Tízlábú rákok",
+"max_meret_cm": 25,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
 "ellenorzott": false
 },
 {
@@ -6389,6 +6559,33 @@
 "ellenorzott": false
 },
 {
+"id": "indostomus-paradoxus",
+"tipus": "hal",
+"latin": "Indostomus paradoxus",
+"magyar_nev": "Páncélos táskahal",
+"egyeb_nevek": [
+"Fura táskahal",
+"Paradox táskahal"
+],
+"regi_latin_nevek": [],
+"csalad": "Indostomidae",
+"csoport": "Egyéb édesvízi halfélék",
+"max_meret_cm": 3.0,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 22,
+"homerseklet_max": 27,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "inpaichthys-kerri",
 "tipus": "hal",
 "latin": "Inpaichthys kerri",
@@ -7095,6 +7292,35 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "macrobrachium-rosenbergii",
+"tipus": "gerinctelen",
+"latin": "Macrobrachium rosenbergii",
+"magyar_nev": "Óriás édesvízi garnéla",
+"egyeb_nevek": [
+"óriás garnéla",
+"rózsás garnéla"
+],
+"regi_latin_nevek": [
+"Palaemon rosenbergii"
+],
+"csalad": "Palaemonidae",
+"csoport": "Garnélák",
+"max_meret_cm": 30,
+"termeszet": "agressziv",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 300,
+"homerseklet_min": 24,
+"homerseklet_max": 30,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 2500,
+"ar_ft_max": 5000,
 "ellenorzott": false
 },
 {
@@ -8413,6 +8639,35 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 450,
 "ar_ft_max": 900,
+"ellenorzott": false
+},
+{
+"id": "neocaridina-davidi",
+"tipus": "gerinctelen",
+"latin": "Neocaridina davidi",
+"magyar_nev": "Cseresznyegarnéla",
+"egyeb_nevek": [
+"Red cherry garnéla",
+"Édesvízi törpegarnéla"
+],
+"regi_latin_nevek": [
+"Neocaridina heteropoda"
+],
+"csalad": "Atyidae",
+"csoport": "Garnélák",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 18,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 1200,
 "ellenorzott": false
 },
 {
@@ -10349,6 +10604,63 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 350,
 "ar_ft_max": 700,
+"ellenorzott": false
+},
+{
+"id": "procambarus-clarkii",
+"tipus": "gerinctelen",
+"latin": "Procambarus clarkii",
+"magyar_nev": "Vörös mocsári rák",
+"egyeb_nevek": [
+"Floridai vörösrák",
+"Louisiana mocsári rák"
+],
+"regi_latin_nevek": [
+"Cambarus clarkii"
+],
+"csalad": "Cambaridae",
+"csoport": "Tízlábú rákok",
+"max_meret_cm": 12,
+"termeszet": "agressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 18,
+"homerseklet_max": 28,
+"ph_min": 6.8,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "procambarus-virginalis",
+"tipus": "gerinctelen",
+"latin": "Procambarus virginalis",
+"magyar_nev": "Márványrák",
+"egyeb_nevek": [
+"Márványozott rák"
+],
+"regi_latin_nevek": [
+"Procambarus fallax f. virginalis"
+],
+"csalad": "Cambaridae",
+"csoport": "Tízlábú rákok",
+"max_meret_cm": 10,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 15,
+"homerseklet_max": 26,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 1500,
 "ellenorzott": false
 },
 {
@@ -12583,6 +12895,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 3000,
 "ar_ft_max": 12000,
+"ellenorzott": false
+},
+{
+"id": "vittina-natalensis",
+"tipus": "gerinctelen",
+"latin": "Vittina natalensis",
+"magyar_nev": "Zebra csiga (nerita)",
+"egyeb_nevek": [
+"Zebramintás versenicsiga",
+"Tigriscsiga"
+],
+"regi_latin_nevek": [
+"Neritina natalensis"
+],
+"csalad": "Neritidae",
+"csoport": "Csigák",
+"max_meret_cm": 3,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
 "ellenorzott": false
 },
 {

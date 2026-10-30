@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Cambarellus patzcuarensis",
+ "id": "cambarellus-patzcuarensis",
+ "tipus": "gerinctelen",
+ "latin": "Cambarellus patzcuarensis",
+ "regi_latin_nevek": [
+  "Cambarellus patzcuarensis 'Orange'"
+ ],
+ "magyar_nev": "Narancssárga törperák",
+ "egyeb_nevek": [
+  "Mexikói narancs törperák",
+  "Pátzcuaro-tavi törperák"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cambaridae",
+ "csoport": "Tízlábú rákok",
+ "szarmazas": "Mexikó (Pátzcuaro-tó)",
+ "max_meret_cm": 4.5,
+ "elettartam_ev": 2,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés törperák. Fajtársaival szemben néha kismértékű területvédő viselkedést mutat, de a halakat és növényeket nem bántja.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 25,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 18,
+ "taplalek": "Mindenevő: süllyedő rák- és garnélatápok, forrázott zöldségek, fagyasztott szúnyoglárva, kisméretű granulatuma.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés halakkal (pl. dániók",
+  "törpe razbórák",
+  "neonhalak) és nagyobb garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagytestű vagy agresszív halak (pl. sügerek",
+  "nagy harcsák)",
+  "amelyek megehetik őket vedléskor."
+ ],
+ "szaporodas_mod": "Belső megtermékenyítés; a nőstény a potroha alatt hordozza a petéket.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Kezeljük őket párban vagy kis csoportban bőséges búvóhely mellett (kerámia csövek, kövek).",
+  "A sikeres párzás után a nőstény 20-60 sötét petét ragaszt a potrohlábaira.",
+  "A peték kikelése 3-4 hétig tart a vízhőmérséklettől függően.",
+  "A kikelő apró rákok teljesen önállóak, bőséges búvóhelyet igényelnek a felnőttek elől."
+ ],
+ "ivari_kulonbseg": "A hímek első pár potrohlába párzószervvé (gonopodium) módosult, az ollóik karcsúbbak és hosszabbak.",
+ "felismeres_jegyek": [
+  "Élénk narancssárga alapszín (az 'Orange' akváriumi változatnál).",
+  "Apró termet (ritkán haladja meg a 4 cm-t).",
+  "Hosszanti sötétebb sávok vagy foltok a háton és a potrohon.",
+  "Kis méretű, finom felépítésű ollók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cambarellus shufeldtii",
+   "magyar_nev": "szürke törperák",
+   "kulonbseg": "A C. shufeldtii színe szürkésbarna vagy csíkos, nem élénk narancssárga."
+  },
+  {
+   "latin": "Cambarellus montezumae",
+   "magyar_nev": "Montezuma-törperák",
+   "kulonbseg": "Természetes barna/szürke színű, nem narancssárga."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vedlési fennakadás (kemény víz hiányában)",
+  "Gombás fertőzések a sérült végtagokon"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Növényes akváriumokba teljesen biztonságos, a növényeket nem bántja.",
+  "Biztosítsunk rengeteg apró búvóhelyet (pl. kerámiacsöveket, mohákat) a vedlés idejére."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

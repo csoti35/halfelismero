@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Caridina cantonensis",
+ "id": "caridina-cantonensis",
+ "tipus": "gerinctelen",
+ "latin": "Caridina cantonensis",
+ "regi_latin_nevek": [
+  "Caridina serrata cantonensis"
+ ],
+ "magyar_nev": "Kristálygarnéla",
+ "egyeb_nevek": [
+  "Kristálygarnéla",
+  "Crystal Red garnéla",
+  "Bee garnéla"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Atyidae",
+ "csoport": "Garnélák",
+ "szarmazas": "Délkelet-Ázsia (Dél-Kína, Hongkong)",
+ "max_meret_cm": 3.0,
+ "elettartam_ev": 2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, nyugodt természetű törpegarnéla, idejének nagy részét táplálékkereséssel és a tereptárgyak tisztogatásával tölti.",
+ "rajhal": false,
+ "min_csoport": 10,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 5.8,
+ "ph_max": 6.8,
+ "gh_min": 4,
+ "gh_max": 7,
+ "taplalek": "Biofilm, kiváló minőségű garnélatápok, forrázott spenót, csalánlevél, falevelek (indiánmandula).",
+ "tarsithato": [
+  "Más békés",
+  "lágyvizes nano fajokkal",
+  "Otocinclus harcsákkal vagy ideális esetben kifejezetten fajos akváriumban."
+ ],
+ "kerulendo": [
+  "Minden nagyobb vagy élénk hal",
+  "agresszív rákok",
+  "valamint a kemény vizet kedvelő fajok."
+ ],
+ "szaporodas_mod": "Közvetlen fejlődésű, a nőstény petéit a potroha alatt cipeli a kelésig.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Használjunk aktív talajt (talajpuffert), ami a pH-t 6,0-6,5 körül stabilizálja.",
+  "Használjunk ozmóvizet (RO víz), amelyet kifejezetten garnélás GH+ sóval sózunk vissza 150-200 ppm (TDS) értékre.",
+  "Tartsuk a hőmérsékletet hűvösen (max. 23-24 °C), mert a meleg víz ivadékpusztulást okoz.",
+  "A nőstények 4-5 hétig hordozzák az ikrákat a potrohlábak között.",
+  "A kicsik a kifejlett egyedek pontos másai, porított bacter ae-val és biofilm növelőkkel jól nevelhetők."
+ ],
+ "ivari_kulonbseg": "A kifejlett nőstények teste szélesebb és a potroh pajzsai mélyebben lelógnak; a hímek karcsúbbak.",
+ "felismeres_jegyek": [
+  "Kontrasztos sávos mintázat (fehér-fekete vagy fehér-piros sávok)",
+  "Rövid, lefelé irányuló orrhát (rostrum)",
+  "Fehér alapon intenzív piros (Crystal Red) vagy fekete (Crystal Black) színeződés",
+  "A nőstények hasi páncéllemezei gömbölydeden takarják a potrohlábakat",
+  "Kényesebb testfelépítés a Neocaridinákhoz viszonyítva"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Caridina logemanni",
+   "magyar_nev": "Kristálygarnéla",
+   "kulonbseg": "Sok modern szakirodalom a tenyésztett kristályvonalakat (Crystal Red/Black) e faj alá sorolja."
+  },
+  {
+   "latin": "Neocaridina davidi",
+   "magyar_nev": "Cseresznyegarnéla",
+   "kulonbseg": "Tűrőképesebb, keményebb és lúgosabb vízben él, nincs éles fehér-színes csíkozása."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Nyári melegvíz okozta oxigénhiány és elhullás",
+  "Vedlési elakadás nem megfelelő GH/KH arány esetén",
+  "Bakteriális fertőzések szervesanyag-felhalmozódás miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 700,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Nyáron hűtést igényelhet, 25 °C felett drasztikusan csökken a túlélésük és szaporodásuk.",
+  "Kizárólag visszasózott lágy vízen (RO víz + GH mineral) ajánlott tartani aktív talajon.",
+  "Ne használjunk csapvizet, mert érzékenyek a nitrátra, klórra és a magas kH-ra."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

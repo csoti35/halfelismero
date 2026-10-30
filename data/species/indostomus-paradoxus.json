@@ -1,0 +1,90 @@
+{
+ "lista_nev": "Indostomus paradoxus",
+ "id": "indostomus-paradoxus",
+ "tipus": "hal",
+ "latin": "Indostomus paradoxus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Páncélos táskahal",
+ "egyeb_nevek": [
+  "Fura táskahal",
+  "Paradox táskahal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Indostomidae",
+ "csoport": "Egyéb édesvízi halfélék",
+ "szarmazas": "Délkelet-Ázsia (Mianmar)",
+ "max_meret_cm": 3.0,
+ "elettartam_ev": 3,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül lassú mozgású, félénk, békés apróság. Lassú táplálkozása miatt erőteljes vagy agresszív halakkal nem tartható együtt, mert éhen marad.",
+ "rajhal": false,
+ "min_csoport": 4,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "taplalek": "Kifejezetten csak élő eleséget fogad el: frissen kelt artémia, grindal, mikróféreg, apró cyclops.",
+ "tarsithato": [
+  "Kisméretű kíméletes nano fajokkal",
+  "mint a törpeborotválkozó pontylazac",
+  "Boraras fajok vagy apró törpe garnélák."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "mohó rajhalak",
+  "díszmárványok",
+  "sügérek",
+  "nagyobb harcsák",
+  "amelyek eleszik előle a táplálékot."
+ ],
+ "szaporodas_mod": "Barlangban ikrázó, a hím gondozza az ikrákat.",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Biztosítsunk szűk műanyag vagy bambusz csövecskéket, esetleg apró kerámia üregeket búvóhelynek.",
+  "Kondicionáljuk a tenyészállatokat bőséges élő apró táplálékkal (artémia naupliuszok, mikró).",
+  "Az ikrázást követően a hím a csőben marad és őrzi az 5-20 darab ikrát.",
+  "Az ikrák 3-4 nap alatt kelnek ki, a lárvák szikzacskójuk felszívódása után (újabb 3-4 nap) úsznak el.",
+  "Az apró ivadékot papucsállatkával és kerekesféreggel, később artémiával kell indítani."
+ ],
+ "ivari_kulonbseg": "A hímek mellúszói kifelé ívelnek és legyezőszerűbbek, a nőstények teste ikrával telten kerekdedebb.",
+ "felismeres_jegyek": [
+  "Rendkívül vékony, pálcika alakú test csontlemezekkel fedve",
+  "Hosszú, csőszerű faroknyél",
+  "Apró, lapos, kissé felhajló fej csőszerű szájjal",
+  "Hátán apró, különálló tüskék találhatók a hátúszó előtt",
+  "Színezete barna-szürkés foltokból álló álcázó mintázat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Indostomus crocodilus",
+   "magyar_nev": "Krokodil-táskahal",
+   "kulonbseg": "Finomabb pikkelyzet, kissé eltérő fejarányok és területi elterjedés (Thaiföld)."
+  },
+  {
+   "latin": "Indostomus spinosus",
+   "magyar_nev": "Tüskés táskahal",
+   "kulonbseg": "Hát- és hasoldali tüskéinek elrendezése és mintázata minimálisan eltér."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés (nem fogadja el a száraz eleséget)",
+  "Bakteriális fertőzések rossz vízminőség esetén"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kifejezetten fajos, sűrűn növényesített nano akváriumba ajánlott.",
+  "Szinte sosem fogad el fagyasztott vagy száraz tápot, kizárólag folyamatos élő eleség ellátással tartható életben.",
+  "Gyenge vízáramlást és finom talajt igényel."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}

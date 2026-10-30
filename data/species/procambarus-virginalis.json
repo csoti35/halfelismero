@@ -1,0 +1,84 @@
+{
+ "lista_nev": "Procambarus virginalis",
+ "id": "procambarus-virginalis",
+ "tipus": "gerinctelen",
+ "latin": "Procambarus virginalis",
+ "regi_latin_nevek": [
+  "Procambarus fallax f. virginalis"
+ ],
+ "magyar_nev": "Márványrák",
+ "egyeb_nevek": [
+  "Márványozott rák"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cambaridae",
+ "csoport": "Tízlábú rákok",
+ "szarmazas": "Akváriumi eredetű (szűznemzéssel kialakult faj/forma)",
+ "max_meret_cm": 10,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, a növényeket rendszeresen elpusztítja. A fenék közelében mozgó halakat és kisebb gerincteleneket elkaphatja, a túlnépesedés miatt agressziója nő.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő: hali tápok, rák-tabletták, forrázott zöldségek, döglött növények, fagyasztott tápok.",
+ "tarsithato": [
+  "Gyors",
+  "felső vízrétegekben úszó kistestű halakkal",
+  "de a túlszaporodás miatt leginkább egyedül ajánlott tartani."
+ ],
+ "kerulendo": [
+  "Növényes akváriumok",
+  "fenéklakó halak",
+  "lassú fátyolos úszójú halak",
+  "más rákfajok."
+ ],
+ "szaporodas_mod": "Szűznemzés (partenogenezis); kizárólag nőstény egyedek léteznek, hím nélkül is folyamatosan petéznek.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Nem igényel semmilyen különleges lépést, egyetlen kifejlett egyed is szaporodik.",
+  "A nőstény 50-200 petét hoz létre a potroha alatt.",
+  "Körülbelül 3-4 hét múlva kelnek ki a kisrákok.",
+  "A fiatalok rendkívül gyorsan növekednek és hamar ivarértté válnak."
+ ],
+ "ivari_kulonbseg": "Nincsenek hímek; minden egyed genetikailag azonos nőstény.",
+ "felismeres_jegyek": [
+  "Páncélján jellegzetes márványos, hálózatos mintázat látható.",
+  "Színe a barna, szürke és kékeszöld árnyalatai között változhat az étrendtől függően.",
+  "Közepes méretű, karcsúbb ollók.",
+  "A potrohlábak alatti peték jelenléte hím nélkül is megfigyelhető."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Procambarus fallax",
+   "magyar_nev": "Floridai mocsári rák",
+   "kulonbseg": "A P. fallax ivarosan szaporodik, vannak hím egyedei is, mintázata kevésbé márványozott."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rákpestis",
+  "Vedlési problémák",
+  "Páncélrothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Rendkívül invazív! Természetes vizekbe engedni szigorúan TILOS!",
+  "Számítsunk a rendkívül gyors túlszaporodásra, a felesleges egyedek elhelyezése nehéz lehet.",
+  "Akváriumát teljesen le kell fedni."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30",
+ "magyar_nev_kuralt": true
+}

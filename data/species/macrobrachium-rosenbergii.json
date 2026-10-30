@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Macrobrachium rosenbergii",
+ "id": "macrobrachium-rosenbergii",
+ "tipus": "gerinctelen",
+ "latin": "Macrobrachium rosenbergii",
+ "regi_latin_nevek": [
+  "Palaemon rosenbergii"
+ ],
+ "magyar_nev": "Óriás édesvízi garnéla",
+ "egyeb_nevek": [
+  "óriás garnéla",
+  "rózsás garnéla"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Palaemonidae",
+ "csoport": "Garnélák",
+ "szarmazas": "Indo-csendes-óceáni térség (Dél- és Délkelet-Ázsia, Észak-Ausztrália)",
+ "max_meret_cm": 30,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Erősen territoriális és agresszív ragadozó. Fajtársaival kemény harcokat vív a területért, a halakat és egyéb vízi élőlényeket levadássza.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Ragadozó, mindenevő. Élő és fagyasztott kishalak, kagylóhús, garnélahús, giliszta, rovarlárvák és nagyobb méretű süllyedő tabletták.",
+ "tarsithato": [
+  "Legjobb egyedül tartani fajspecifikus akváriumban",
+  "legfeljebb nagyon gyors",
+  "nagytestű",
+  "felszínen úszó halakkal kísérelhető meg tágas térben."
+ ],
+ "kerulendo": [
+  "Minden kistestű",
+  "fenéklakó vagy lassú úszású hal",
+  "más gerinctelenek és a saját fajtársai szűk térben."
+ ],
+ "szaporodas_mod": "Petés, brakkvízi/tengeri lárvastádiummal rendelkező szaporodás.",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "A nőstény vedlés után párosodik a domináns kékollós hímmel, majd több tízezer petét rak a potrohára.",
+  "A peték édesvízben fejlődnek nagyjából 18–22 napig, amíg sötét színűvé válnak és kikelnek.",
+  "A lárvákat 10–15 ppt sótartalmú brakkvízbe kell áthelyezni, ahol szabadon úszó planktonikus életet élnek.",
+  "A lárvákat frissen keltetett artémiával és mikrotápokkal kell etetni, majd a kb. 11 lárvastádium után, a posztlárva állapot elérésekor édesvízhez kell szoktatni őket."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek sokkal nagyobbak, második pár járólábukból hatalmas, feltűnően hosszú, élénkkék olló fejlődik ki. A nőstények ollói rövidebbek és karcsúbbak.",
+ "felismeres_jegyek": [
+  "Rendkívül hosszú, kékes színű, tüskés ollók a kifejlett egyedeken.",
+  "Testmérete jóval meghaladja a szokásos akváriumi garnélákét (elérheti a 25–30 cm-t).",
+  "Hosszú, ívelt, fogazott ormány (rostrum).",
+  "Szürkés, zöldesbarna test, enyhe hosszanti csíkozással a fiataloknál."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Macrobrachium assamense",
+   "magyar_nev": "Vörösollós üveggarnéla",
+   "kulonbseg": "Lényegesen kisebb termetű (6–8 cm), ollói rövidebbek és vörösesbarna mintázatúak."
+  },
+  {
+   "latin": "Macrobrachium dayanum",
+   "magyar_nev": "Csokoládé üveggarnéla",
+   "kulonbseg": "Kisebb méretű, sötétebb tónusú, ollói jóval kevésbé aránytalanul hosszúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kannibalizmus vedléskor (puha páncélú állapotban a fajtársak megölik)",
+  "Bakteriális páncélfoltosodás (Black spot / Shell disease)",
+  "Izomelhalás (Idiopathic muscle necrosis)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Csak hatalmas, sok búvóhellyel (PVC-csövek, vastag gyökerek) ellátott akváriumban tartható, ideálisan szoliterként.",
+  "Akváriumi növényeket gyakran kitúrja vagy ollójával elvágja, ezért strapabíró, kőre kötözött növények vagy növénymentes berendezés javasolt.",
+  "Rendkívül erős és ugrós állat, az akváriumot nehéz üvegtetővel kell hermetikusan lezárni."
+ ],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-30"
+}
