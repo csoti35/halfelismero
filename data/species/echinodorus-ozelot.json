@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Echinodorus 'Ozelot'",
+ "id": "echinodorus-ozelot",
+ "tipus": "noveny",
+ "latin": "Echinodorus 'Ozelot'",
+ "regi_latin_nevek": [
+  "Echinodorus 'Ozelot Green'",
+  "Echinodorus 'Ozelot Red'"
+ ],
+ "magyar_nev": "Ocelot kardfű",
+ "egyeb_nevek": [
+  "Pöttyös kardfű",
+  "Ozelot vízikard"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alismataceae",
+ "csoport": "tőlevélrózsás mocsári növény",
+ "szarmazas": "Kertészeti hibrid (Echinodorus schlueteri 'Leopard' x Echinodorus x barthii)",
+ "max_meret_cm": 35,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "kozepes",
+ "elhelyezes": "kozepter",
+ "szaporitas_noveny": "Hosszú virágszárakon fejlődő sarjnövények leültetésével",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.8,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "Kiváló társas akváriumokba pontylazacok",
+  "razbórák",
+  "elevenszülők és páncélosharcsák mellé."
+ ],
+ "kerulendo": [
+  "Kemény szájú",
+  "növényevő sügérekkel és mohó növényevő csigákkal ne tartsuk együtt."
+ ],
+ "felismeres_jegyek": [
+  "Ovális vagy elliptikus levéllemez, kissé hullámos levélszéllel.",
+  "Karakteres, sötétbordó vagy feketésbarna foltokkal és pettyekkel mintázott levélfelület.",
+  "A fiatal levelek intenzív barnásvörös vagy aranybarna alapszínűek, idősebb korban sötét olajzölddé válnak, miközben foltjaik megmaradnak.",
+  "Kompakt, bokros tőlevélrózsát alkotó növekedési forma."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Echinodorus 'Red Diamond'",
+   "magyar_nev": "Vörös gyémánt kardfű",
+   "kulonbseg": "Levelei egységesen rubinvörösek, hiányoznak róluk az Ocelot jellegzetes izolált sötét foltjai."
+  },
+  {
+   "latin": "Echinodorus schlueteri",
+   "magyar_nev": "Schlüter kardfű",
+   "kulonbseg": "Világosabb zöld alapszínű, pettyezett változata ('Leopard') kisebb termetű, a levelek mintázata kevésbé kontrasztos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Klorózis és halványodó levélmintázat nem megfelelő mikroelem- és vaspótlás mellett",
+  "Levéllyukadás káliumhiány esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "A mintázat gyenge fényben elhalványulhat, közepes vagy erős világítás mellett adja ki legszebb, kontrasztos pettyeit.",
+  "Szoliterként mutat a legszebben az akvárium középső régiójában, ahol van helye szétterülni.",
+  "Gyökértáppal ellátott talajban dús, hosszantartó lombozatot fejleszt anélkül, hogy túlnőné a vízoszlopot."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

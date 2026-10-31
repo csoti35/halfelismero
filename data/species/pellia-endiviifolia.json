@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Pellia endiviifolia",
+ "id": "pellia-endiviifolia",
+ "tipus": "noveny",
+ "latin": "Pellia endiviifolia",
+ "regi_latin_nevek": [
+  "Apopellia endiviifolia"
+ ],
+ "magyar_nev": "Fodros májmoha",
+ "egyeb_nevek": [
+  "Pellia moha",
+  "Endívialevelű májmoha"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Pelliaceae",
+ "csoport": "Májmohák",
+ "szarmazas": "Európa, Ázsia, Észak-Amerika",
+ "max_meret_cm": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "Telep osztása vagy a villásan elágazó thallusok leválasztása",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 15,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "tarsithato": [
+  "Kistestű garnélákkal (Neocaridina",
+  "Caridina)",
+  "kistermetű pontylazacokkal",
+  "razbórákkal és nano halakkal."
+ ],
+ "kerulendo": [
+  "Nagy testű vagy növényevő sügérekkel",
+  "aranyhalakkal",
+  "illetve agresszív talajforgató harcsákkal."
+ ],
+ "felismeres_jegyek": [
+  "Áttetsző, mélyzöld színű, szalagszerű thallus (teleptest)",
+  "A thallus végei jellegzetesen fodrosak és sűrűn elágazók",
+  "Nincsenek valódi levelei és szárai, lapos telepeket képez",
+  "Víz alatt rögzítve sűrű, tömött bokrot vagy párnát alkot"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Monosolenium tenerum",
+   "magyar_nev": "Vénusz májmoha",
+   "kulonbseg": "A Monosolenium telepteste jóval szélesebb, húsosabb és sötétebb zöld, míg a Pellia jóval áttetszőbb és finomabban fodrozott."
+  },
+  {
+   "latin": "Lomariopsis lineata",
+   "magyar_nev": "Süti moha (Güttinger moha)",
+   "kulonbseg": "A Lomariopsis páfrány előtelep, kerekdedebb, fodros lebenyekkel bír és nem képez olyan egyértelmű villás elágazásokat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fonalas alga megtelepedése a telepek között",
+  "Barnulás és rothadás tartósan magas (26 °C feletti) hőmérsékleten"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kötözzük damillal vagy ragasszuk cianakrilát ragasztóval lávakőre vagy fára, mert magától nehezen kapaszkodik meg.",
+  "A hűvösebb, tiszta és áramló vizet kedveli, nyári melegben érdemes hűteni az akváriumot.",
+  "Garnélás akváriumokban kiváló búvóhelyet és mikrofaunát biztosít az ivadékok számára."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-31",
-"darab": 475,
+"darab": 508,
 "fajok": [
 {
 "id": "abactochromis-labrosus",
@@ -87,6 +87,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 4500,
 "ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
+"id": "aegagropila-linnaei",
+"tipus": "noveny",
+"latin": "Aegagropila linnaei",
+"magyar_nev": "Marimó (mohalabda)",
+"egyeb_nevek": [
+"Gömbmoha",
+"Mohagolyó"
+],
+"regi_latin_nevek": [
+"Cladophora aegagropila"
+],
+"csalad": "Cladophoraceae",
+"csoport": "Zöldmoszatok",
+"max_meret_cm": 15,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 10,
+"homerseklet_min": 10,
+"homerseklet_max": 24,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 2500,
 "ellenorzott": false
 },
 {
@@ -459,6 +488,35 @@
 "ellenorzott": false
 },
 {
+"id": "anentome-helena",
+"tipus": "gerinctelen",
+"latin": "Clea helena",
+"magyar_nev": "Csigaevő csiga",
+"egyeb_nevek": [
+"Helena csiga",
+"Ragadozó csiga"
+],
+"regi_latin_nevek": [
+"Anentome helena"
+],
+"csalad": "Nassariidae",
+"csoport": "Csigák",
+"max_meret_cm": 2.5,
+"termeszet": "felagressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.8,
+"ph_max": 8.0,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 400,
+"ar_ft_max": 900,
+"ellenorzott": false
+},
+{
 "id": "anomalochromis-thomasi",
 "tipus": "hal",
 "latin": "Anomalochromis thomasi",
@@ -513,6 +571,90 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 2500,
 "ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "anubias-barteri-var-nana",
+"tipus": "noveny",
+"latin": "Anubias barteri var. nana",
+"magyar_nev": "Törpe anubiasz",
+"egyeb_nevek": [
+"Törpe lándzsalevél",
+"Nana lándzsalevél"
+],
+"regi_latin_nevek": [
+"Anubias nana"
+],
+"csalad": "Araceae",
+"csoport": "Epifita vízinövények",
+"max_meret_cm": 10,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 15,
+"homerseklet_min": 20,
+"homerseklet_max": 30,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "anubias-barteri",
+"tipus": "noveny",
+"latin": "Anubias barteri",
+"magyar_nev": "Széleslevelű anubias",
+"egyeb_nevek": [
+"Barter anubias"
+],
+"regi_latin_nevek": [],
+"csalad": "Araceae",
+"csoport": "epifita vízinövény",
+"max_meret_cm": 40,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 4500,
+"ellenorzott": false
+},
+{
+"id": "anubias-heterophylla",
+"tipus": "noveny",
+"latin": "Anubias heterophylla",
+"magyar_nev": "Kongói anubias",
+"egyeb_nevek": [
+"Különbözőlevelű anubias"
+],
+"regi_latin_nevek": [
+"Anubias congensis",
+"Anubias affinis"
+],
+"csalad": "Araceae",
+"csoport": "epifita vízinövény",
+"max_meret_cm": 60,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 150,
+"homerseklet_min": 23,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 2500,
+"ar_ft_max": 6000,
 "ellenorzott": false
 },
 {
@@ -2099,6 +2241,32 @@
 "ellenorzott": false
 },
 {
+"id": "bolbitis-heudelotii",
+"tipus": "noveny",
+"latin": "Bolbitis heudelotii",
+"magyar_nev": "Kongói vízipáfrány",
+"egyeb_nevek": [
+"afrikai vízipáfrány"
+],
+"regi_latin_nevek": [],
+"csalad": "Dryopteridaceae",
+"csoport": "Páfrányok",
+"max_meret_cm": 40,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "boraras-brigittae",
 "tipus": "hal",
 "latin": "Boraras brigittae",
@@ -2429,6 +2597,32 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 3500,
 "ar_ft_max": 10000,
+"ellenorzott": false
+},
+{
+"id": "bucephalandra-sp",
+"tipus": "noveny",
+"latin": "Bucephalandra sp.",
+"magyar_nev": "Bucephalandra fajok",
+"egyeb_nevek": [
+"Buce"
+],
+"regi_latin_nevek": [],
+"csalad": "Araceae",
+"csoport": "Epifita novenyek",
+"max_meret_cm": 10,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 20,
+"homerseklet_max": 27,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1900,
+"ar_ft_max": 4500,
 "ellenorzott": false
 },
 {
@@ -4153,6 +4347,227 @@
 "ellenorzott": false
 },
 {
+"id": "cryptocoryne-albida",
+"tipus": "noveny",
+"latin": "Cryptocoryne albida",
+"magyar_nev": "Fehéres vízikehely",
+"egyeb_nevek": [
+"Cryptocoryne albida 'Brown'"
+],
+"regi_latin_nevek": [
+"Cryptocoryne costata"
+],
+"csalad": "Araceae",
+"csoport": "vizikehely",
+"max_meret_cm": 15,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1900,
+"ar_ft_max": 3900,
+"ellenorzott": false
+},
+{
+"id": "cryptocoryne-beckettii",
+"tipus": "noveny",
+"latin": "Cryptocoryne beckettii",
+"magyar_nev": "Beckett vízikelyhe",
+"egyeb_nevek": [
+"Beckett-kripto"
+],
+"regi_latin_nevek": [],
+"csalad": "Araceae",
+"csoport": "Kontyvirágfélék",
+"max_meret_cm": 20,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2600,
+"ellenorzott": false
+},
+{
+"id": "cryptocoryne-crispatula",
+"tipus": "noveny",
+"latin": "Cryptocoryne crispatula",
+"magyar_nev": "Fodroslevelű vízikhely",
+"egyeb_nevek": [
+"Balansa vízikhely",
+"Hosszúlevelű kripto"
+],
+"regi_latin_nevek": [
+"Cryptocoryne balansae"
+],
+"csalad": "Araceae",
+"csoport": "Mocsári növények",
+"max_meret_cm": 60,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 2800,
+"ellenorzott": false
+},
+{
+"id": "cryptocoryne-lutea",
+"tipus": "noveny",
+"latin": "Cryptocoryne lutea",
+"magyar_nev": "Sárga kehelylazac",
+"egyeb_nevek": [
+"Sárga vízikehely",
+"Cryptocoryne walkeri 'lutea'"
+],
+"regi_latin_nevek": [
+"Cryptocoryne walkeri var. lutea"
+],
+"csalad": "Araceae",
+"csoport": "vizikehely",
+"max_meret_cm": 15,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 30,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1400,
+"ar_ft_max": 2800,
+"ellenorzott": false
+},
+{
+"id": "cryptocoryne-parva",
+"tipus": "noveny",
+"latin": "Cryptocoryne parva",
+"magyar_nev": "Apró vízikhely",
+"egyeb_nevek": [
+"Törpe khelytő",
+"Mini kripto"
+],
+"regi_latin_nevek": [],
+"csalad": "Araceae",
+"csoport": "Mocsári növények",
+"max_meret_cm": 6,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1400,
+"ar_ft_max": 2600,
+"ellenorzott": false
+},
+{
+"id": "cryptocoryne-spiralis",
+"tipus": "noveny",
+"latin": "Cryptocoryne spiralis",
+"magyar_nev": "Csavartlevelű vízikehely",
+"egyeb_nevek": [
+"Spirális kehelylazac"
+],
+"regi_latin_nevek": [],
+"csalad": "Araceae",
+"csoport": "vizikehely",
+"max_meret_cm": 40,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.2,
+"ph_max": 7.8,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "cryptocoryne-undulata",
+"tipus": "noveny",
+"latin": "Cryptocoryne undulata",
+"magyar_nev": "Hullámoslevelű vízikhely",
+"egyeb_nevek": [
+"Hullámos kehelytő"
+],
+"regi_latin_nevek": [
+"Cryptocoryne axelrodii",
+"Cryptocoryne willisii (tévesen)"
+],
+"csalad": "Araceae",
+"csoport": "Mocsári növények",
+"max_meret_cm": 25,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1300,
+"ar_ft_max": 2400,
+"ellenorzott": false
+},
+{
+"id": "cryptocoryne-wendtii",
+"tipus": "noveny",
+"latin": "Cryptocoryne wendtii",
+"magyar_nev": "Wendt-vízikehely",
+"egyeb_nevek": [
+"Barnás vízililiom",
+"Wendt-kripto"
+],
+"regi_latin_nevek": [],
+"csalad": "Araceae",
+"csoport": "Kontyvirágfélék",
+"max_meret_cm": 25,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2800,
+"ellenorzott": false
+},
+{
 "id": "ctenopoma-acutirostre",
 "tipus": "hal",
 "latin": "Ctenopoma acutirostre",
@@ -4863,6 +5278,67 @@
 "ellenorzott": false
 },
 {
+"id": "echinodorus-grisebachii",
+"tipus": "noveny",
+"latin": "Echinodorus grisebachii",
+"magyar_nev": "Amazonas kardlevél",
+"egyeb_nevek": [
+"Keskenylevelű kardfű",
+"Bleher kardfű"
+],
+"regi_latin_nevek": [
+"Echinodorus amazonicus",
+"Echinodorus bleherae",
+"Echinodorus parviflorus"
+],
+"csalad": "Alismataceae",
+"csoport": "tőlevélrózsás mocsári növény",
+"max_meret_cm": 50,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 120,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.8,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
+"id": "echinodorus-ozelot",
+"tipus": "noveny",
+"latin": "Echinodorus 'Ozelot'",
+"magyar_nev": "Ocelot kardfű",
+"egyeb_nevek": [
+"Pöttyös kardfű",
+"Ozelot vízikard"
+],
+"regi_latin_nevek": [
+"Echinodorus 'Ozelot Green'",
+"Echinodorus 'Ozelot Red'"
+],
+"csalad": "Alismataceae",
+"csoport": "tőlevélrózsás mocsári növény",
+"max_meret_cm": 35,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 80,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.8,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "eigenmannia-virescens",
 "tipus": "hal",
 "latin": "Eigenmannia virescens",
@@ -5199,6 +5675,34 @@
 "ellenorzott": false
 },
 {
+"id": "fissidens-fontanus",
+"tipus": "noveny",
+"latin": "Fissidens fontanus",
+"magyar_nev": "Főnix moha",
+"egyeb_nevek": [
+"Phoenix moss"
+],
+"regi_latin_nevek": [
+"Octodiceras fontanum"
+],
+"csalad": "Fissidentaceae",
+"csoport": "Mohák",
+"max_meret_cm": 5,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 15,
+"homerseklet_min": 15,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 2000,
+"ar_ft_max": 3800,
+"ellenorzott": false
+},
+{
 "id": "flowerhorn-hibrid",
 "tipus": "hal",
 "latin": "Amphilophus hybrid",
@@ -5222,6 +5726,33 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 8000,
 "ar_ft_max": 150000,
+"ellenorzott": false
+},
+{
+"id": "fontinalis-antipyretica",
+"tipus": "noveny",
+"latin": "Fontinalis antipyretica",
+"magyar_nev": "Forrásmoha",
+"egyeb_nevek": [
+"Lázmoha",
+"Willow moss"
+],
+"regi_latin_nevek": [],
+"csalad": "Fontinalaceae",
+"csoport": "Mohák",
+"max_meret_cm": 30,
+"termeszet": null,
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 30,
+"homerseklet_min": 10,
+"homerseklet_max": 24,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3200,
 "ellenorzott": false
 },
 {
@@ -7052,6 +7583,33 @@
 "ellenorzott": false
 },
 {
+"id": "lagenandra-meeboldii",
+"tipus": "noveny",
+"latin": "Lagenandra meeboldii",
+"magyar_nev": "Lagenandra meeboldii",
+"egyeb_nevek": [
+"Meebold lagenandrája",
+"Lagenandra 'Red'"
+],
+"regi_latin_nevek": [],
+"csalad": "Araceae",
+"csoport": "tőlevélrózsás mocsári növény",
+"max_meret_cm": 25,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "lamprichthys-tanganicanus",
 "tipus": "hal",
 "latin": "Lamprichthys tanganicanus",
@@ -7213,6 +7771,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 2800,
 "ar_ft_max": 6500,
+"ellenorzott": false
+},
+{
+"id": "leptodictyum-riparium",
+"tipus": "noveny",
+"latin": "Leptodictyum riparium",
+"magyar_nev": "Húrmoha",
+"egyeb_nevek": [
+"Fonalas moha",
+"Stringy moss"
+],
+"regi_latin_nevek": [
+"Amblystegium riparium"
+],
+"csalad": "Amblystegiaceae",
+"csoport": "Mohák",
+"max_meret_cm": 20,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 15,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1400,
+"ar_ft_max": 3200,
 "ellenorzott": false
 },
 {
@@ -7459,6 +8046,36 @@
 "ph_max": 8.0,
 "uszasi_zona": "felso",
 "beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
+"id": "marisa-cornuarietis",
+"tipus": "gerinctelen",
+"latin": "Marisa cornuarietis",
+"magyar_nev": "Óriás tányércsiga",
+"egyeb_nevek": [
+"Paradicsomcsiga",
+"Csíkos óriás tányércsiga"
+],
+"regi_latin_nevek": [
+"Ceratodes cornuarietis",
+"Ampullaria cornuarietis"
+],
+"csalad": "Ampullariidae",
+"csoport": "Csigák",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 50,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
 "ar_ft_min": 600,
 "ar_ft_max": 1500,
 "ellenorzott": false
@@ -7778,6 +8395,35 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 1000,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "melanoides-tuberculata",
+"tipus": "gerinctelen",
+"latin": "Melanoides tuberculata",
+"magyar_nev": "Maláj talajcsiga",
+"egyeb_nevek": [
+"maláj tornyoscsiga",
+"tornyos csiga"
+],
+"regi_latin_nevek": [
+"Nerita tuberculata"
+],
+"csalad": "Thiaridae",
+"csoport": "Csigák",
+"max_meret_cm": 3.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 10,
+"homerseklet_min": 18,
+"homerseklet_max": 30,
+"ph_min": 6.8,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 150,
+"ar_ft_max": 400,
 "ellenorzott": false
 },
 {
@@ -8163,6 +8809,35 @@
 "ellenorzott": false
 },
 {
+"id": "microsorum-pteropus",
+"tipus": "noveny",
+"latin": "Microsorum pteropus",
+"magyar_nev": "Jávai páfrány",
+"egyeb_nevek": [
+"Szárnyas páfrány"
+],
+"regi_latin_nevek": [
+"Microsorium pteropus",
+"Polypodium pteropus"
+],
+"csalad": "Polypodiaceae",
+"csoport": "epifita páfrány",
+"max_meret_cm": 30,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 7.8,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1600,
+"ar_ft_max": 4000,
+"ellenorzott": false
+},
+{
 "id": "mikrogeophagus-altispinosus",
 "tipus": "hal",
 "latin": "Mikrogeophagus altispinosus",
@@ -8360,6 +9035,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 3500,
 "ar_ft_max": 8500,
+"ellenorzott": false
+},
+{
+"id": "monosolenium-tenerum",
+"tipus": "noveny",
+"latin": "Monosolenium tenerum",
+"magyar_nev": "Vénusz májmoha",
+"egyeb_nevek": [
+"Monosolenium",
+"Májmoha"
+],
+"regi_latin_nevek": [
+"Pellia endiviifolia (téves akvarisztikai megnevezésként korábban)"
+],
+"csalad": "Monosoleniaceae",
+"csoport": "Májmohák",
+"max_meret_cm": 5,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 18,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 3200,
 "ellenorzott": false
 },
 {
@@ -9962,6 +10666,35 @@
 "ellenorzott": false
 },
 {
+"id": "pellia-endiviifolia",
+"tipus": "noveny",
+"latin": "Pellia endiviifolia",
+"magyar_nev": "Fodros májmoha",
+"egyeb_nevek": [
+"Pellia moha",
+"Endívialevelű májmoha"
+],
+"regi_latin_nevek": [
+"Apopellia endiviifolia"
+],
+"csalad": "Pelliaceae",
+"csoport": "Májmohák",
+"max_meret_cm": 5,
+"termeszet": null,
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 20,
+"homerseklet_min": 15,
+"homerseklet_max": 25,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1800,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "pelvicachromis-pulcher",
 "tipus": "hal",
 "latin": "Pelvicachromis pulcher",
@@ -10581,6 +11314,35 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 3500,
 "ar_ft_max": 8000,
+"ellenorzott": false
+},
+{
+"id": "pomacea-diffusa",
+"tipus": "gerinctelen",
+"latin": "Pomacea diffusa",
+"magyar_nev": "Almacsiga",
+"egyeb_nevek": [
+"rejtélyes csiga",
+"almafa csiga"
+],
+"regi_latin_nevek": [
+"Pomacea bridgesii diffusa"
+],
+"csalad": "Ampullariidae",
+"csoport": "Csigák",
+"max_meret_cm": 6.5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 40,
+"homerseklet_min": 20,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.4,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 500,
+"ar_ft_max": 1200,
 "ellenorzott": false
 },
 {
@@ -11590,6 +12352,62 @@
 "ellenorzott": false
 },
 {
+"id": "riccardia-chamedryfolia",
+"tipus": "noveny",
+"latin": "Riccardia chamedryfolia",
+"magyar_nev": "Korallmoha",
+"egyeb_nevek": [
+"Mini pellia",
+"Coral moss"
+],
+"regi_latin_nevek": [
+"Riccardia graeffei"
+],
+"csalad": "Aneuraceae",
+"csoport": "Májmohák",
+"max_meret_cm": 4,
+"termeszet": null,
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 15,
+"homerseklet_min": 18,
+"homerseklet_max": 27,
+"ph_min": 5.5,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 2200,
+"ar_ft_max": 4200,
+"ellenorzott": false
+},
+{
+"id": "riccia-fluitans",
+"tipus": "noveny",
+"latin": "Riccia fluitans",
+"magyar_nev": "Úszó májmoha (riccia)",
+"egyeb_nevek": [
+"Riccia",
+"Csillagos májmoha"
+],
+"regi_latin_nevek": [],
+"csalad": "Ricciaceae",
+"csoport": "Májmohák",
+"max_meret_cm": 4,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 10,
+"homerseklet_min": 18,
+"homerseklet_max": 28,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2800,
+"ellenorzott": false
+},
+{
 "id": "rineloricaria-parva",
 "tipus": "hal",
 "latin": "Rineloricaria parva",
@@ -12343,6 +13161,34 @@
 "ellenorzott": false
 },
 {
+"id": "taxiphyllum-barbieri",
+"tipus": "noveny",
+"latin": "Taxiphyllum barbieri",
+"magyar_nev": "Jávai moha",
+"egyeb_nevek": [
+"Bogor moha"
+],
+"regi_latin_nevek": [
+"Vesicularia dubyana (tevesen kereskedelemben)"
+],
+"csalad": "Hypnaceae",
+"csoport": "Mohak",
+"max_meret_cm": 10,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 10,
+"homerseklet_min": 15,
+"homerseklet_max": 28,
+"ph_min": 5.5,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "tetraodon-mbu",
 "tipus": "hal",
 "latin": "Tetraodon mbu",
@@ -12874,6 +13720,33 @@
 "ellenorzott": false
 },
 {
+"id": "tylomelania-sarasinorum",
+"tipus": "gerinctelen",
+"latin": "Tylomelania sarasinorum",
+"magyar_nev": "sulawesi tornyoscsiga",
+"egyeb_nevek": [
+"elefántcsiga",
+"szulavézi csiga"
+],
+"regi_latin_nevek": [],
+"csalad": "Pachychilidae",
+"csoport": "Csigák",
+"max_meret_cm": 9.0,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 26,
+"homerseklet_max": 30,
+"ph_min": 7.5,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "tyrannochromis-macrostoma",
 "tipus": "hal",
 "latin": "Tyrannochromis macrostoma",
@@ -12955,6 +13828,60 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 3000,
 "ar_ft_max": 7500,
+"ellenorzott": false
+},
+{
+"id": "vesicularia-dubyana",
+"tipus": "noveny",
+"latin": "Vesicularia dubyana",
+"magyar_nev": "Szingapúri moha",
+"egyeb_nevek": [
+"Singapore moss",
+"Valódi jávai moha (korábbi téves megnevezésekben)"
+],
+"regi_latin_nevek": [],
+"csalad": "Hypnaceae",
+"csoport": "Mohák",
+"max_meret_cm": 8,
+"termeszet": null,
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 15,
+"homerseklet_min": 18,
+"homerseklet_max": 28,
+"ph_min": 5.8,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1200,
+"ar_ft_max": 3000,
+"ellenorzott": false
+},
+{
+"id": "vesicularia-montagnei",
+"tipus": "noveny",
+"latin": "Vesicularia montagnei",
+"magyar_nev": "Karácsonyfamoha",
+"egyeb_nevek": [
+"Christmas moha",
+"Christmas moss"
+],
+"regi_latin_nevek": [],
+"csalad": "Hypnaceae",
+"csoport": "Mohák",
+"max_meret_cm": 5,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 18,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
 "ellenorzott": false
 },
 {

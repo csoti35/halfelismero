@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Cryptocoryne lutea",
+ "id": "cryptocoryne-lutea",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne lutea",
+ "regi_latin_nevek": [
+  "Cryptocoryne walkeri var. lutea"
+ ],
+ "magyar_nev": "Sárga kehelylazac",
+ "egyeb_nevek": [
+  "Sárga vízikehely",
+  "Cryptocoryne walkeri 'lutea'"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "vizikehely",
+ "szarmazas": "Ázsia (Srí Lanka)",
+ "max_meret_cm": 15,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu",
+ "elhelyezes": "eloter-kozepter",
+ "szaporitas_noveny": "gyokersarjakrol (indakkal)",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 18,
+ "tarsithato": [
+  "Kifejezetten jól társítható békés pontylazacokkal",
+  "razbórákkal",
+  "páncélosharcsákkal és garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "túró vagy növényevő sügérekkel és nagyobb aranyhalakkal ne tartsuk."
+ ],
+ "felismeres_jegyek": [
+  "Lándzsa alakú, viszonylag keskeny levelek",
+  "Élénkzöld vagy sárgás-bronzos levéllemez",
+  "Gyakran vörösesbarna levélnyél",
+  "Tömör, sűrű rozettás bokrot képez",
+  "A levélszél enyhén hullámos lehet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne wendtii",
+   "magyar_nev": "Wendt-vízikehely",
+   "kulonbseg": "Nagyobbra nő, levéllemeze erősebben fodros és gyakrabban mélybarna."
+  },
+  {
+   "latin": "Cryptocoryne beckettii",
+   "magyar_nev": "Beckett-vízikehely",
+   "kulonbseg": "Levelei sötétebb olajbarna vagy kávészínű árnyalatúak, fonákjuk vöröses."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorin-olvadás (vízparaméterek hirtelen változásakor)",
+  "Vashiány miatti klorózis (levélsárgulás)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Gyökérről táplálkozó növény, ezért a táptalaj vagy táprudak használata látványosan javítja a fejlődését.",
+  "Az átültetést rosszul viseli, hagyjuk hosszú ideig egy helyen fejlődni.",
+  "Új akváriumba ültetéskor eldobhatja a leveleit, de a rizómából hamar újrahajt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

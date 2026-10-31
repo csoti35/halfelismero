@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Melanoides tuberculata",
+ "id": "melanoides-tuberculata",
+ "tipus": "gerinctelen",
+ "latin": "Melanoides tuberculata",
+ "regi_latin_nevek": [
+  "Nerita tuberculata"
+ ],
+ "magyar_nev": "Maláj talajcsiga",
+ "egyeb_nevek": [
+  "maláj tornyoscsiga",
+  "tornyos csiga"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Thiaridae",
+ "csoport": "Csigák",
+ "szarmazas": "Afrika és Dél-Ázsia szubtrópusi és trópusi vizei",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 2.5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés, hasznos talajlakó. Nappal a talajba fúrva él és lazítja az aljzatot, éjszaka vagy oxigénhiány esetén mászik fel az üvegre.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 18,
+ "homerseklet_max": 30,
+ "ph_min": 6.8,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 25,
+ "taplalek": "Mindenevő, törmelékevő; el nem fogyasztott haltápot, szerves hulladékot, algabevonatot és elhalt növényi részeket fogyaszt, egészséges növényeket nem bánt.",
+ "tarsithato": [
+  "Békés halakkal",
+  "garnélákkal",
+  "kistestű békés csigákkal gond nélkül tartható."
+ ],
+ "kerulendo": [
+  "Csigaevő fajok (pl. gömbhalak",
+  "botiafélék",
+  "Anentome helena csiga)."
+ ],
+ "szaporodas_mod": "Elevenszülő, szűznemzéssel (partenogenezissel) is gyorsan sokasodik.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Különösebb beavatkozást nem igényel, vegyes akváriumban is magától szaporodik.",
+  "A nőstények belső költőtasakjukban nevelik az utódokat.",
+  "A teljesen kifejlett, apró kisházas utódok közvetlenül a talajra kerülnek ki.",
+  "Bőséges táplálékkínálat esetén populációjuk rendkívül gyorsan növekszik."
+ ],
+ "ivari_kulonbseg": "Szabad szemmel nem megkülönböztethető; a populációk túlnyomó többsége szűznemzéssel szaporodó nőstény.",
+ "felismeres_jegyek": [
+  "Hosszúkás, hegyes, csavarodó, torony alakú ház",
+  "Világosbarna vagy bézs alapszín sötétebb barna pöttyökkel, foltokkal díszítve",
+  "Kisméretű mészfedő (operculum), amellyel a ház nyílását szorosan le tudja zárni",
+  "Finoman barázdált, bordázott házfelszín"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Tarebia granifera",
+   "magyar_nev": "pikkelyes tornyoscsiga",
+   "kulonbseg": "Háza zömökebb, rövidebb és felülete jellegzetesen rücskös-szemcsés."
+  },
+  {
+   "latin": "Melanoides maculata",
+   "magyar_nev": "pettyes tornyoscsiga",
+   "kulonbseg": "Sötétebb alapszínű ház nagyobb, összefüggőbb sötét foltokkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lágy, savas víz miatti házkorrózió",
+  "Mészhiányból adódó héjtöredezés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 150,
+ "ar_ft_max": 400,
+ "tippek": [
+  "Ha nappal tömegesen másznak fel az akvárium üvegén, az súlyos oxigénhiányra vagy bomlástermékek felhalmozódására figyelmeztet.",
+  "Finom szemcsés homok- vagy apró kavicsaljzatban érzi magát a legjobban, mert könnyen belefúrja magát.",
+  "Túltáplálás esetén túlszaporodhat, ami a haleleség adagolásának csökkentésével szabályozható."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

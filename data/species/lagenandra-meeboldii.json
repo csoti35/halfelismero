@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Lagenandra meeboldii",
+ "id": "lagenandra-meeboldii",
+ "tipus": "noveny",
+ "latin": "Lagenandra meeboldii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Lagenandra meeboldii",
+ "egyeb_nevek": [
+  "Meebold lagenandrája",
+  "Lagenandra 'Red'"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Araceae",
+ "csoport": "tőlevélrózsás mocsári növény",
+ "szarmazas": "Délkelet-Ázsia (Dél-India)",
+ "max_meret_cm": 25,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu",
+ "elhelyezes": "kozepter",
+ "szaporitas_noveny": "Rizóma feldarabolása vagy oldalhajtások leválasztása",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Békés halakkal",
+  "garnélákkal",
+  "kisebb harcsafélékkel remekül tartható",
+  "kemény leveleit a legtöbb algaevő és csiga sem bántja."
+ ],
+ "kerulendo": [
+  "Erőteljesen növényevő nagytestű sügérekkel és nagyobb rákokkal ne tartsuk",
+  "mert kitúrhatják vagy megrághatják."
+ ],
+ "felismeres_jegyek": [
+  "Vastag, kúszó gyöktörzsből (rizóma) fejlődő ovális vagy széles-lándzsás levelek.",
+  "Változatos levélszín: a világoszöldtől a rézvörösön át az ibolyáslilás árnyalatokig terjedhet intenzív fény alatt.",
+  "Enyhén hullámos levélszél és merev, húsos levélnyél.",
+  "A Cryptocoryne fajokhoz rendkívül hasonló felépítés, de jóval vastagabb rizóma jellemzi."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne wendtii",
+   "magyar_nev": "Wendt vízikelyhe",
+   "kulonbseg": "A Cryptocoryne vékonyabb gyöktörzset nevel és indákkal terjed, míg a Lagenandra vaskos rizómát képez és nem indázik."
+  },
+  {
+   "latin": "Anubias barteri var. glabra",
+   "magyar_nev": "Lándzsás anubias",
+   "kulonbseg": "Az Anubias levelei szívósabbak, bőrneműbbek és kizárólag zöld árnyalatúak, gyökereit fára vagy kőre kötik, míg a Lagenandra az aljzatban fejlődik a legszebben."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vízikehely-olvadáshoz hasonló levélbomlás (Cryptocoryne rot) hirtelen környezetváltozás esetén",
+  "Klorózis és levélsárgulás tápanyag- vagy vashiány miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "A vastag rizómát ne ássuk be teljesen a talajba, különben megrothadhat; csak a gyökerek érjenek mélyen az aljzatba.",
+  "Tápanyagdús aljzatot vagy gyökértáp tablettát igényel a gyönyörű szín- és levélfejlődéshez.",
+  "Megfelelő fény és CO2 hatására a levelek színe kifejezetten mélyvörössé, lilássá válik."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

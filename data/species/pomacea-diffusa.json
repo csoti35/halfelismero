@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Pomacea diffusa",
+ "id": "pomacea-diffusa",
+ "tipus": "gerinctelen",
+ "latin": "Pomacea diffusa",
+ "regi_latin_nevek": [
+  "Pomacea bridgesii diffusa"
+ ],
+ "magyar_nev": "Almacsiga",
+ "egyeb_nevek": [
+  "rejtélyes csiga",
+  "almafa csiga"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Ampullariidae",
+ "csoport": "Csigák",
+ "szarmazas": "Dél-Amerika (Amazonas-medence)",
+ "max_meret_cm": 6.5,
+ "elettartam_ev": 3.0,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, aktív csiga. Rokonával (Pomacea canaliculata) ellentétben szájszerve gyenge az élő, egészséges növények elpusztításához, így növényes akváriumban is tartható.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 20,
+ "taplalek": "Mindenevő; alga, haltáp-maradék, forrázott zöldségek (uborka, cukkini), növényi és spirulinás tabletták.",
+ "tarsithato": [
+  "Kistestű",
+  "békés halakkal",
+  "pontylazacokkal",
+  "páncélosharcsákkal és garnélákkal."
+ ],
+ "kerulendo": [
+  "Csipkelődő fajok (pl. szumátrai díszmárna",
+  "sügérek",
+  "nagyobb labirintkopoltyúsok)",
+  "amelyek lecsíphetik a tapogatóit",
+  "csigaevő botiák és gömbhalak."
+ ],
+ "szaporodas_mod": "Váltivarú; a petéket meszes csomóban a vízszint fölé rakja.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Hagyjunk legalább 8-10 cm szabad légrést a vízfelszín és a fedőüveg között.",
+  "A nőstény éjszaka kimászik a víz fölé, és jellegzetes rózsaszínes/fehéres petecsomót ragaszt a fedőre vagy üvegre.",
+  "A petéket párásan, de nem víz alá merítve kell tartani.",
+  "2-3 hét múlva a kikelő kisházas ivadékok maguktól a vízbe hullanak."
+ ],
+ "ivari_kulonbseg": "Nehezen látható; hímeknél a jobb oldali kopoltyúüreg közelében párzószerv látható, ha a csiga teljesen kinyújtózik.",
+ "felismeres_jegyek": [
+  "Kerekded, gömbölyded ház, a házmenetek találkozásánál határozott, szinte 90 fokos derékszögű lépcsőzet (\"váll\")",
+  "Légzéshez használt, hosszúra kinyújtható szifó a bal oldalon",
+  "Színváltozatok széles skálája (sárga/arany, barna, kék, lila, elefántcsont)",
+  "Kemény, szarunemű mészfedő (operculum)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pomacea canaliculata",
+   "magyar_nev": "óriás almacsiga",
+   "kulonbseg": "Házmeneteinél mély, árokszerű bemélyedés van, és tarra rágja az összes élő növényt."
+  },
+  {
+   "latin": "Asolene spixi",
+   "magyar_nev": "zebracsiga",
+   "kulonbseg": "Kisebb méretű, sárga-barna sávos házzal rendelkezik, és a víz alá rakja petéit."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kalciumhiány és savas közeg okozta házkopás, lyukadás",
+  "Kiszáradás akváriumból való kimászás után"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert a nőstény petézés céljából könnyen kimászik és lezuhanhat.",
+  "A petecsomók kézzel könnyen eltávolíthatók, ha nem szeretnénk túlszaporodást.",
+  "Mindig biztosítsunk kemény, kalciumban gazdag vizet a vastag és fényes héj megőrzéséhez."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

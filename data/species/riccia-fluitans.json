@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Riccia fluitans",
+ "id": "riccia-fluitans",
+ "tipus": "noveny",
+ "latin": "Riccia fluitans",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Úszó májmoha (riccia)",
+ "egyeb_nevek": [
+  "Riccia",
+  "Csillagos májmoha"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Ricciaceae",
+ "csoport": "Májmohák",
+ "szarmazas": "Kozmopolita (világszerte elterjedt)",
+ "max_meret_cm": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "felszin",
+ "szaporitas_noveny": "A villás telepek egyszerű feldarabolásával és szétosztásával",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 2,
+ "gh_max": 18,
+ "tarsithato": [
+  "Labirintkopoltyús halakkal (habfészeképítők)",
+  "kistestű dániókkal",
+  "elevenszülőkkel és garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagyobb növényevő halakkal (pl. aranyhalak",
+  "egyes ezüsthalfélék)",
+  "amelyek elfogyasztják a telepeket."
+ ],
+ "felismeres_jegyek": [
+  "Világoszöld színű, szarvszerűen villásan elágazó vékony szalagocskák (thallusok)",
+  "Természetes formájában a vízfelszínen sűrű, összefüggő szőnyeget alkot",
+  "Erős megvilágítás és CO2 mellett látványosan apró oxigénbuborékokat fejleszt",
+  "Nincsenek valódi gyökerei, lebegő életmódot folytat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ricciocarpos natans",
+   "magyar_nev": "Úszó riccia",
+   "kulonbseg": "A Ricciocarpos jóval vaskosabb, szív alakú úszó telepeket képez, alsó felén sötét pikkelyekkel és gyökérszerű függelékekkel."
+  },
+  {
+   "latin": "Monosolenium tenerum",
+   "magyar_nev": "Vénusz májmoha",
+   "kulonbseg": "A Monosolenium nehezebb a víznél, a fenékre süllyed, és telepteste sokkal szélesebb, mint a vékony szálú Riccia."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fonalas vagy kékalga megtelepedése a telepek között",
+  "Víz alá kötözve az alsó rétegek fényhiány miatti felkopaszodása és leválása"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Ha kövekre vagy fára kötözzük hálóval a víz alá, rendszeres nyírást igényel, különben az alja elhal és felúszik.",
+  "A vízfelszínen tartva ideális búvóhely és táplálkozóhely elevenszülő ivadékok és labirinthalfélék számára.",
+  "Intenzív fény és CO2-adagolás mellett gyönyörű oxigénbuborék-képződést produkál (gyöngyözés)."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

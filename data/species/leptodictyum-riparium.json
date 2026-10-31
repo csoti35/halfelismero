@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Leptodictyum riparium",
+ "id": "leptodictyum-riparium",
+ "tipus": "noveny",
+ "latin": "Leptodictyum riparium",
+ "regi_latin_nevek": [
+  "Amblystegium riparium"
+ ],
+ "magyar_nev": "Húrmoha",
+ "egyeb_nevek": [
+  "Fonalas moha",
+  "Stringy moss"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Amblystegiaceae",
+ "csoport": "Mohák",
+ "szarmazas": "Kozmopolita (Európa, Ázsia, Észak-Amerika)",
+ "max_meret_cm": 20,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "kozepter-hatter",
+ "szaporitas_noveny": "Hosszú szárainak egyszerű kettévágásával és újrakötözésével könnyedén szaporítható.",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "Kistestű békés halak",
+  "garnélák",
+  "hidegvízi biotópok lakói és szelíd csigák."
+ ],
+ "kerulendo": [
+  "Mohafogyasztó halak",
+  "nagyobb aranyhalak és durva talajmozgató díszhalak."
+ ],
+ "felismeres_jegyek": [
+  "Felfelé törő, hosszú, szálszerű, ritkán elágazó hajtások",
+  "Világoszöld, egymástól távolabb álló lándzsás levélkék",
+  "Gyenge kapaszkodóképesség, laza párnákat képez",
+  "Kifejezetten függőleges növekedési tendencia"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Taxiphyllum alternans",
+   "magyar_nev": "Tajvani moha",
+   "kulonbseg": "Sűrűn elágazó, háromszögletű és vízszintes hajtásrendszerű."
+  },
+  {
+   "latin": "Taxiphyllum barbieri",
+   "magyar_nev": "Jávai moha",
+   "kulonbseg": "Ágai sokkal sűrűbben és tömöttebben nőnek, nem szálasodik fel függőlegesen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fonalalgásodás a lassú vízáramlású zónákban",
+  "Hajtások megnyúlása és elvékonyodása extrém fényszegény helyeken"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Mivel gyengén tapad magától a dekorációra, érdemes tartós hálóval vagy cérnával stabilan rögzíteni.",
+  "Gyors növekedése miatt hatékony nitrátelszívó növény alacsony fenntartású vagy szűretlen garnélás akváriumokban.",
+  "Kifejezetten szereti a hidegebb vizet, kerti tavakban vagy fűtetlen akváriumokban is sikeresen áttelelhet."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

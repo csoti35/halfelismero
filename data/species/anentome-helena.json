@@ -1,0 +1,89 @@
+{
+ "lista_nev": "Anentome helena",
+ "id": "anentome-helena",
+ "tipus": "gerinctelen",
+ "latin": "Clea helena",
+ "regi_latin_nevek": [
+  "Anentome helena"
+ ],
+ "magyar_nev": "Csigaevő csiga",
+ "egyeb_nevek": [
+  "Helena csiga",
+  "Ragadozó csiga"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nassariidae",
+ "csoport": "Csigák",
+ "szarmazas": "Délkelet-Ázsia (Indonézia, Malajzia, Thaiföld)",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Halakkal és garnélákkal békés, de ragadozó életmódja miatt más csigafajokra kíméletlenül vadászik és elfogyasztja őket.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.8,
+ "ph_max": 8.0,
+ "gh_min": 6,
+ "gh_max": 20,
+ "taplalek": "Ragadozó; más puhatestűek (főként kistestű csigák), fagyasztott tubifex, szúnyoglárva, lemerülő fehérjetartalmú haltápok.",
+ "tarsithato": [
+  "Békés halakkal",
+  "nano garnélákkal (csak a legyengült egyedeket ehetik meg)."
+ ],
+ "kerulendo": [
+  "Más díszcsigák (pl. zebracsiga",
+  "süncsiga",
+  "almacsiga)",
+  "csigaevő gömbhalak és nagytestű rákok."
+ ],
+ "szaporodas_mod": "Víz alatti felületekre egyesével lerakott, négyszögletes kapszulák.",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Váltivarú faj, a biztos szaporulathoz 4-6 fős csoport szükséges.",
+  "Bőséges fehérjedús vagy élőcsiga-táplálás mellett a párzás hamar megtörténik.",
+  "A nőstény kövekre, faágakra vagy növényekre egyesével helyezi el a négyzet alakú, áttetsző petetokokat.",
+  "A kikelő kisholdak 3–5 hét után hagyják el a petét, majd azonnal az aljzatba fúrják magukat és ott vadásznak."
+ ],
+ "ivari_kulonbseg": "Külső morfológiai különbség nincs a nemek között.",
+ "felismeres_jegyek": [
+  "Kúpos, bordázott, megnyúlt orsó alakú héj",
+  "Jellegzetes váltakozó sárgásbarna és sötétbarna spirális sávok",
+  "Hosszúra kinyújtható szívó- és ormánycső (proboscis)",
+  "Kemény, sötét héjfedő (operculum)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Melanoides tuberculata",
+   "magyar_nev": "Tornyoscsiga",
+   "kulonbseg": "Héja sokkal vékonyabb, egyszínűbb, pettyezett és növényi/detritusz evő."
+  },
+  {
+   "latin": "Faunus ater",
+   "magyar_nev": "Fekete ördögcsiga",
+   "kulonbseg": "Jóval nagyobb, héja egyöntetűen fekete vagy sötétbarna, növényi maradványokat fogyaszt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Héjkorrózió savas, lágy vízben",
+  "Éhezés a táplálékcsigák elfogyása után",
+  "Rézmérgezés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Kiválóan alkalmazható a túlszaporodott hólyag- és tányércsigák természetes ritkítására.",
+  "Ha elfogytak az élő csigák, etessük fehérjedús süllyedő tablettákkal vagy fagyasztott vörös szúnyoglárvával.",
+  "Kedveli a finom homokos vagy apró kavicsos aljzatot, mert szívesen ássa be magát a vadászat során."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

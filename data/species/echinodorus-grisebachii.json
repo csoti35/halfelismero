@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Echinodorus grisebachii",
+ "id": "echinodorus-grisebachii",
+ "tipus": "noveny",
+ "latin": "Echinodorus grisebachii",
+ "regi_latin_nevek": [
+  "Echinodorus amazonicus",
+  "Echinodorus bleherae",
+  "Echinodorus parviflorus"
+ ],
+ "magyar_nev": "Amazonas kardlevél",
+ "egyeb_nevek": [
+  "Keskenylevelű kardfű",
+  "Bleher kardfű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alismataceae",
+ "csoport": "tőlevélrózsás mocsári növény",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 50,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Virágzati száron fejlődő sarjnövények (adventív hajtások) leválasztásával, ritkábban tőosztással",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.8,
+ "gh_min": 3,
+ "gh_max": 18,
+ "tarsithato": [
+  "Dél-amerikai pontylazacokkal",
+  "páncélosharcsákkal",
+  "vitorláshalakkal és törpesügérekkel ideális párosítás."
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő sügérek és fenéklakó nagy harcsák",
+  "amelyek leveleit lerághatják vagy a gyökereit kiáshatják."
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, egyenes vagy enyhén ívelt, keskeny-lándzsás levelek dús tőlevélrózsában.",
+  "Élénkzöld vagy mélyzöld levéllemez jól kivehető hosszanti főerekkel.",
+  "Rövid, de erős levélnyél, amely a lemezbe finoman átmenetet képez.",
+  "Erőteljes, szétterülő fehér gyökérzet, amely mélyen behálózza az aljzatot."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Echinodorus uruguayensis",
+   "magyar_nev": "Uruguayi kardfű",
+   "kulonbseg": "Sötétebb, gyakran vöröses-barnás vagy sötétzöld, áttetsző vonalakkal díszített szalag alakú levelei vannak."
+  },
+  {
+   "latin": "Cryptocoryne crispatula",
+   "magyar_nev": "Fodroslevelű vízikehely",
+   "kulonbseg": "Levelei sokkal hosszabbak, szalagszerűek, erősen fodrosak és vékonyabbak, indákkal terjed."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vashiány okozta levélklorózis (a fiatal levelek üvegesen fehérekké vagy halványsárgává válnak)",
+  "Káliumhiány (apró lyukak jelennek meg az idősebb leveleken)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Főleg a gyökérzetén keresztül táplálkozik, ezért a gyökérzónába helyezett agyagos tápgolyók drasztikusan javítják a növekedését.",
+  "Méretéből adódóan tágas, legalább 50 cm magas akváriumokba ültessük háttérnövényként.",
+  "Az öreg, sárguló vagy algásodó külső leveleket tőből vágjuk le az új levelek fejlődésének serkentése érdekében."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

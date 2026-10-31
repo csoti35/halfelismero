@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Cryptocoryne spiralis",
+ "id": "cryptocoryne-spiralis",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne spiralis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Csavartlevelű vízikehely",
+ "egyeb_nevek": [
+  "Spirális kehelylazac"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "vizikehely",
+ "szarmazas": "Ázsia (India, Banglades)",
+ "max_meret_cm": 40,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony-kozepes",
+ "novekedes": "kozepes",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "gyokersarjakrol (indakkal)",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.2,
+ "ph_max": 7.8,
+ "gh_min": 5,
+ "gh_max": 15,
+ "tarsithato": [
+  "Minden kistestű és közepes békés hallal (dániók",
+  "pontylazacok",
+  "labirintkopoltyúsok) kiválóan tartható."
+ ],
+ "kerulendo": [
+  "Erősen túró fajok (pl. felnőtt gibbiceps",
+  "nagy sügérek)",
+  "melyek kiforgatják a gyökerét."
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, szalagszerű, keskeny levelek",
+  "Jellemzően hullámos vagy enyhén csavarodó levélszél",
+  "Élénkzöld vagy a fény függvényében barnás-vöröses színezet",
+  "Erőteljes, vastag gyökértörzs és mélyre hatoló gyökérzet",
+  "Akár 30-40 cm magasra is megnövő habitus"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne retrospiralis",
+   "magyar_nev": "Fodroslevelű kehelylazac",
+   "kulonbseg": "Levelei még keskenyebbek, jóval hosszabbak és erősebben hullámos élűek."
+  },
+  {
+   "latin": "Cryptocoryne crispatula",
+   "magyar_nev": "Hólyagoslevelű vízikehely",
+   "kulonbseg": "Levelei hólyagosabb textúrájúak és keményebb vizet kedvelnek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorin-olvadás",
+  "Fényhiány miatti felkopaszodás és lassú vegetálás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Magas növekedése miatt ideális a háttérbe vagy magasabb akváriumok középterébe.",
+  "A tápanyagban gazdag talajt bőséges indaképzéssel és sűrű sarjteleppel hálálja meg.",
+  "A stabil vízminőséget kedveli; kerülni kell a túlzott és hirtelen vízkémiai változásokat."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

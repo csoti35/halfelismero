@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Fissidens fontanus",
+ "id": "fissidens-fontanus",
+ "tipus": "noveny",
+ "latin": "Fissidens fontanus",
+ "regi_latin_nevek": [
+  "Octodiceras fontanum"
+ ],
+ "magyar_nev": "Főnix moha",
+ "egyeb_nevek": [
+  "Phoenix moss"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Fissidentaceae",
+ "csoport": "Mohák",
+ "szarmazas": "Észak-Amerika",
+ "max_meret_cm": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu",
+ "elhelyezes": "kotozve",
+ "szaporitas_noveny": "Hajtások levágásával, a párnák szétosztásával és újra megkötözésével.",
+ "min_akvarium_l": 15,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "Törpegarnélák (pl. Neocaridina",
+  "Caridina)",
+  "kistestű dániók",
+  "törperazbórák",
+  "páncélosharcsák."
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő halak",
+  "talajtúró sügérek és durva csigák."
+ ],
+ "felismeres_jegyek": [
+  "Apró, tollszerű vagy páfrányszerű levélkék",
+  "Kompakt, sűrű, körkörösen szétterülő zöld párnákat alkot",
+  "Élénkzöld vagy mélyzöld finom textúra",
+  "Szilárdan megtapad a fán vagy a sziklán apró rögzítőfonalaival"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Taxiphyllum alternans",
+   "magyar_nev": "Tajvan moha",
+   "kulonbseg": "Hajtásai laposabbak és lazábbak, nem alkot olyan finom tollszerű struktúrát, mint a Fissidens."
+  },
+  {
+   "latin": "Riccardia chamedryfolia",
+   "magyar_nev": "Korallmoha",
+   "kulonbseg": "Teleptestű májmoha, húsosabb, korallszerűen tagolt lemezkékből áll, nem tollszerű levelekből."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bojtos- és ecsetalga megtelepedése a finom hajtásokon",
+  "Üledéklerakódás miatti ritkulás, felkopaszodás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 3800,
+ "tippek": [
+  "Kifejezetten szereti a tiszta vizet, a szűrés tisztasága kulcsfontosságú, hogy ne rakódjon le rá lebegő mulm.",
+  "Garnélás akváriumokban kiváló búvóhelyet és legelőfelületet nyújt a frissen kikelt ivadékoknak.",
+  "Megkötözés után lassan indul be, de türelemmel rendkívül tömött, dekoratív bokrokat képez."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

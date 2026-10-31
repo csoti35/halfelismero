@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Fontinalis antipyretica",
+ "id": "fontinalis-antipyretica",
+ "tipus": "noveny",
+ "latin": "Fontinalis antipyretica",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Forrásmoha",
+ "egyeb_nevek": [
+  "Lázmoha",
+  "Willow moss"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Fontinalaceae",
+ "csoport": "Mohák",
+ "szarmazas": "Északi félteke mérsékelt öve (Európa, Ázsia, Észak-Amerika, Észak-Afrika)",
+ "max_meret_cm": 30,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu",
+ "elhelyezes": "kotozve",
+ "szaporitas_noveny": "Osztással, a hajtások lemetszésével és újrarögzítésével szaporítható.",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 10,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Hidegvízi halak (aranyhalak kivételével)",
+  "garnélák",
+  "kistestű dániók",
+  "törperazbórák."
+ ],
+ "kerulendo": [
+  "Növényevő és aljzatot túró sügérek",
+  "nagytestű aranyhalak",
+  "trópusi melegvizű fajok (pl. diszkoszhal)."
+ ],
+ "felismeres_jegyek": [
+  "Erőteljes, sötétzöld hajtások és szárak",
+  "Levelei három sorban, csónak alakúan hajlanak a szárra",
+  "Jellegzetes, fűzfaághoz hasonló lecsüngő növekedési forma",
+  "Nagyobb méretű, vaskosabb lombozat más akváriumi mohákhoz képest"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Taxiphyllum barbieri",
+   "magyar_nev": "Jávai moha",
+   "kulonbseg": "Sokkal vékonyabb szárú, szabálytalanabbul elágazó és jól bírja a 26-28 °C feletti meleget is."
+  },
+  {
+   "latin": "Vesicularia montagnei",
+   "magyar_nev": "Karácsony moha",
+   "kulonbseg": "Jellegzetes fenyőágszerű, háromszögletű hajtásrendszere van, jóval finomabb szerkezetű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hajtások barnulása és rothadása tartósan magas (25 °C feletti) hőmérsékleten",
+  "Fonálalga megtelepedése a lassú növekedés miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Elsősorban fűtés nélküli, hűvösebb akváriumokba vagy garnélás nano medencékbe való.",
+  "Gyökérzettel nem rendelkezik, ezért mindig fára vagy kőre kell kötözni damillal vagy ragasztani.",
+  "Kedveli a tiszta, mérsékelt vagy erős vízáramlást, a lebegő szerves hulladék könnyen megfojtja."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

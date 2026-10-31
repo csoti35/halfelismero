@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Riccardia chamedryfolia",
+ "id": "riccardia-chamedryfolia",
+ "tipus": "noveny",
+ "latin": "Riccardia chamedryfolia",
+ "regi_latin_nevek": [
+  "Riccardia graeffei"
+ ],
+ "magyar_nev": "Korallmoha",
+ "egyeb_nevek": [
+  "Mini pellia",
+  "Coral moss"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aneuraceae",
+ "csoport": "Májmohák",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "kozepes",
+ "novekedes": "nagyon lassu",
+ "elhelyezes": "kotozve",
+ "szaporitas_noveny": "A teleptestek apró darabokra vágásával és kövekre, fákra rögzítésével.",
+ "min_akvarium_l": 15,
+ "homerseklet_min": 18,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "Törpegarnélák",
+  "kistestű pontylazacok",
+  "törperazbórák",
+  "békés nano halak."
+ ],
+ "kerulendo": [
+  "Erőteljes algázók (pl. nagyobb Ancistrusok kiszaggathatják)",
+  "sügérek",
+  "növényevő halak."
+ ],
+ "felismeres_jegyek": [
+  "Húsos, ágas-bogas, apró korallra emlékeztető zöld telepek (thallus)",
+  "Mélyzöld, kissé áttetsző, tömör szerkezet",
+  "Kúszó, az aljzatra lapuló növekedési forma",
+  "Nincsenek különálló valódi szárai és levelei, májmoha lévén teleptestet alkot"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Monosolenium tenerum",
+   "magyar_nev": "Pellia májmoha",
+   "kulonbseg": "Sokkal nagyobb, szélesebb és törékenyebb hajtáslemezekkel rendelkezik."
+  },
+  {
+   "latin": "Fissidens fontanus",
+   "magyar_nev": "Főnix moha",
+   "kulonbseg": "Finom tollszerű leveles szárakat nevel, míg a Riccardia húsos korallszerű ágacskákból áll."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fonálalga és cianobaktérium bevonat kialakulása a rendkívül lassú növekedés miatt",
+  "Szétesés, foszlás alacsony tápanyagszint és fényhiány esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 2200,
+ "ar_ft_max": 4200,
+ "tippek": [
+  "Legkönnyebben cianoakrilát bázisú növényragasztóval rögzíthető dekorációkra (fa, kő).",
+  "CO2-adagolás és jó megvilágítás mellett lényegesen kompaktabb és élénkebb párnákat képez.",
+  "A törpegarnélák tisztogató tevékenysége elengedhetetlen ahhoz, hogy a telepek algamentesek maradjanak."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

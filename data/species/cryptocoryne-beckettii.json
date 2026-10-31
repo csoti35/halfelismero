@@ -1,0 +1,72 @@
+{
+ "lista_nev": "Cryptocoryne beckettii",
+ "id": "cryptocoryne-beckettii",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne beckettii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Beckett vízikelyhe",
+ "egyeb_nevek": [
+  "Beckett-kripto"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Kontyvirágfélék",
+ "szarmazas": "Srí Lanka",
+ "max_meret_cm": 20,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "lassu",
+ "elhelyezes": "kozepter",
+ "szaporitas_noveny": "Gyökérsarjak szétválasztásával: az indákon kifejlődött, önálló gyökérrel rendelkező fiatal növények leválasztásával.",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 18,
+ "tarsithato": [
+  "Kistestű rajhalakkal",
+  "békés harcsákkal és garnélákkal gond nélkül társítható."
+ ],
+ "kerulendo": [
+  "Nagytestű aljzatot túró halakkal",
+  "amelyek mechanikailag kárt tesznek a gyökérzetben."
+ ],
+ "felismeres_jegyek": [
+  "Hosszúkás, lándzsa vagy ovális alakú levelek",
+  "Levelek felső része olajzöld vagy sötétbarna, fonákja gyakran vöröses-ibolyás árnyalatú",
+  "Kevésbé fodros levélszél, mint a C. wendtii esetében",
+  "Kompakt rozettát alkotó növekedési forma"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne wendtii",
+   "magyar_nev": "Wendt vízikelyhe",
+   "kulonbseg": "Levelei erőteljesebben fodrosak és hullámosak, a növény általában valamivel nagyobbra nő."
+  },
+  {
+   "latin": "Cryptocoryne walkeri",
+   "magyar_nev": "Walker vízikelyhe",
+   "kulonbseg": "Merevebb szárú és vastagabb, keményebb tapintású levéllemezzel rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorina-olvadás (hirtelen környezetváltozáskor fellépő levélvesztés)",
+  "Vas- és mikrotápanyag-hiány miatti klorózis"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2600,
+ "tippek": [
+  "Ültetéskor adjunk gyökértápot az aljzatba, mivel erősen tápanyagigényes a talaj felől.",
+  "Lágy és közepesen kemény vízben fejlődik a legszebben, félárnyékos helyen is megél.",
+  "Az átültetést hosszan tartó stagnálással hálálja meg, ezért végleges helyre érdemes telepíteni."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

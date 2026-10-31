@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Bucephalandra sp.",
+ "id": "bucephalandra-sp",
+ "tipus": "noveny",
+ "latin": "Bucephalandra sp.",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Bucephalandra fajok",
+ "egyeb_nevek": [
+  "Buce"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Epifita novenyek",
+ "szarmazas": "Borneo",
+ "max_meret_cm": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon lassu",
+ "elhelyezes": "eloter vagy kozepter (dekoraciora rogzitve)",
+ "szaporitas_noveny": "rizoma osztasa",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 20,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "Torpe garnelakkal",
+  "kistermetu lazacokkal",
+  "razborakkal es mas kistermetu bekes halakkal."
+ ],
+ "kerulendo": [
+  "Nagytestu",
+  "novenyeket costozo vagy erosen turkaló halakkal (pl. sulyosabb cichlidek",
+  "aranyhalak)."
+ ],
+ "felismeres_jegyek": [
+  "Bornezkos, kemeny tapintasu, gyakran femes csillogasu vagy irizalo levelek",
+  "Levellemezek felszinen apro, vilagos pettyek (kristalypontok) lathatoak",
+  "Kuszo, vastag rizoma suru kapaszkodogyokerekkel",
+  "Gyakran a viz alatt is feher kontyviragzattal viragzik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Anubias barteri var. nana",
+   "magyar_nev": "Torpe vizikehely (helytelenul), Torpe anubias",
+   "kulonbseg": "Levelein nincsenek irizalo, apró pettyek es nem hoz viz alatti torzsaviragzatot ilyen gyakran."
+  },
+  {
+   "latin": "Schismatoglottis roseospatha",
+   "magyar_nev": "Schismatoglottis",
+   "kulonbseg": "Levelei hosszabbak, szaruk vilagosabb es ritkabban csillognak femesen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bucephalandra olvaadas (hirtelen vizparameter-valtozas hatasara levelek szetesese)",
+  "Pontalga es ecsetalga a lassu levelfejlodes miatt",
+  "Rizomarothadas a talajba ultetesbol eredoen"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1900,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Kizarolag kore vagy fagyokerre szabad rogziteni cernaval vagy novenyragasztoval.",
+  "A vizminoseg hirtelen valtozasat kerulni kell, kulonben az osszes levelet eldobhatja (bar a rizoma kepes ujrahajtani).",
+  "Kiegyensulyozott mikro- es makrotapozassal, valamint CO2 adagolasaval a levelek szinei sokkal elenkebbe valnak."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

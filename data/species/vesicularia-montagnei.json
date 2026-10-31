@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Vesicularia montagnei",
+ "id": "vesicularia-montagnei",
+ "tipus": "noveny",
+ "latin": "Vesicularia montagnei",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Karácsonyfamoha",
+ "egyeb_nevek": [
+  "Christmas moha",
+  "Christmas moss"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hypnaceae",
+ "csoport": "Mohák",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu-kozepes",
+ "elhelyezes": "eloter-kozepter",
+ "szaporitas_noveny": "A mohapárna egyszerű osztásával vagy visszavágott hajtások újbóli rögzítésével szaporítható.",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Kistestű rajhalak",
+  "békés pontylazacok",
+  "dániók",
+  "kifejezetten ideális garnélás nanomedencékbe és ivadéknevelőkbe."
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő sügérek",
+  "nagyobb aranyhalak és mohákat feltépő ásócsigák vagy nagy testű rákok."
+ ],
+ "felismeres_jegyek": [
+  "Jellegzetes, fenyőághoz hasonlító háromszögletű elágazó struktúra",
+  "Sűrű, élénkzöld, finom levelű hajtások",
+  "Vízszintesen vagy kissé lefelé hajló növekedési irány",
+  "Szorosan egymás mellett ülő, apró, hegyesedő levélkék"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Taxiphyllum barbieri",
+   "magyar_nev": "Jávai moha",
+   "kulonbseg": "Kevésbé rendezett, inkább kusza és szálas növekedésű, nincsenek szabályos fenyőág-szerű oldalhajtásai."
+  },
+  {
+   "latin": "Vesicularia dubyana",
+   "magyar_nev": "Szingapúri moha",
+   "kulonbseg": "Ágrendszere jóval lazább és nyújtottabb, nem képez olyan tömött háromszögletű alakzatokat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fonalas zöldalga megtelepedése a hajtások között",
+  "Barnulás és elhalás túl meleg víz vagy fényhiány miatt",
+  "Mull és lebegő üledék lerakódása a moha belsejében"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Damil vagy növényragasztó segítségével érdemes vasfára vagy porózus kőre rögzíteni a szép struktúra eléréséhez.",
+  "Rendszeres visszanyírással serkenthető a még sűrűbb, tömöttebb növekedése.",
+  "Nem kedveli a 27 °C feletti tartós meleget, hűvösebb vízben sokkal kompaktabb hajtásokat hoz."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

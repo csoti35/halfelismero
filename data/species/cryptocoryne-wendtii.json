@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Cryptocoryne wendtii",
+ "id": "cryptocoryne-wendtii",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne wendtii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Wendt-vízikehely",
+ "egyeb_nevek": [
+  "Barnás vízililiom",
+  "Wendt-kripto"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Kontyvirágfélék",
+ "szarmazas": "Srí Lanka",
+ "max_meret_cm": 25,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "kozepes",
+ "elhelyezes": "kozepter",
+ "szaporitas_noveny": "Gyökérsarjak (indák) leválasztásával: az anyatő mellett fejlődő új hajtásokat lemetsszük és külön ültetjük.",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "A legtöbb békés akváriumi élőlénnyel",
+  "pontylazacokkal",
+  "razbórákkal",
+  "páncélosharcsákkal jól együtt tartható."
+ ],
+ "kerulendo": [
+  "Erősen túró vagy növényevő sügérekkel",
+  "amelyek kitúrhatják a gyökérzetét."
+ ],
+ "felismeres_jegyek": [
+  "Lándzsás, erősen hullámos szélű levelek",
+  "Színe a zöldtől a bronzbarnán át a mélyvörösig változhat fajtától és fénytől függően",
+  "Erőteljes, tőlevélrózsás habitus",
+  "Hosszú, fejlett gyökérrendszer"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne beckettii",
+   "magyar_nev": "Beckett vízikelyhe",
+   "kulonbseg": "Levelei általában simább szélűek, kissé vékonyabbak és többnyire olajzöld-barnás árnyalatúak."
+  },
+  {
+   "latin": "Cryptocoryne undulata",
+   "magyar_nev": "Hullámos vízikehely",
+   "kulonbseg": "Levelei keskenyebbek, szélük még kifejezettebben hullámos és mintázottabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorina-olvadás (vízparaméterek hirtelen változása miatt a levelek elnyálkásodnak és lehullanak)",
+  "Tápanyaghiány (főként vas és kálium hiányában lyukadás vagy fakulás lép fel)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Tápsót vagy táptablettát közvetlenül a gyökereihez érdemes dugni a talajba, mivel a tápanyagokat zömmel a gyökérzetén át veszi fel.",
+  "Kerüljük a gyakori átültetést, mert érzékeny a gyökerek bolygatására.",
+  "Ha a levelei elolvadnak, ne dobjuk ki: a gyöktörzse ép marad, és stabil vízviszonyok mellett hamar új leveleket hajt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

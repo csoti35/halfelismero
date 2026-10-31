@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Cryptocoryne undulata",
+ "id": "cryptocoryne-undulata",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne undulata",
+ "regi_latin_nevek": [
+  "Cryptocoryne axelrodii",
+  "Cryptocoryne willisii (tévesen)"
+ ],
+ "magyar_nev": "Hullámoslevelű vízikhely",
+ "egyeb_nevek": [
+  "Hullámos kehelytő"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Mocsári növények",
+ "szarmazas": "Ázsia (Srí Lanka)",
+ "max_meret_cm": 25,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "kozepes",
+ "elhelyezes": "kozepter",
+ "szaporitas_noveny": "Gyöktörzsből eredő föld alatti indák és leánytövek szétválasztásával.",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal",
+  "pontylazacokkal",
+  "razbórákkal",
+  "páncélosharcsákkal."
+ ],
+ "kerulendo": [
+  "Nagy termetű",
+  "növényevő sügérek",
+  "nagytestű páncélos rákok."
+ ],
+ "felismeres_jegyek": [
+  "Karakteres, erősen hullámos szélű lándzsás levéllemezek.",
+  "Színe a zöldtől a bronzbarnán át a sötét vörösesbarna árnyalatig változhat a fényerőtől függően.",
+  "A levél fonákja gyakran vöröses árnyalatú vagy barnásan erezett.",
+  "Erőteljes, 15-25 cm magasra növő tőlevélrózsa."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne wendtii",
+   "magyar_nev": "Wendt vízikhelye",
+   "kulonbseg": "Levelei kevésbé határozottan hullámosak, általában szélesebbek és változatosabb színváltozatokban léteznek."
+  },
+  {
+   "latin": "Cryptocoryne beckettii",
+   "magyar_nev": "Beckett vízikhelye",
+   "kulonbseg": "Levélszéle simább, kevésbé fodrozódik, levelei gyakran olajzöldebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorina-olvadás a vízparaméterek hirtelen változásakor",
+  "Káliumhiány miatti lyukacsosodás az idősebb leveleken"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1300,
+ "ar_ft_max": 2400,
+ "tippek": [
+  "Kifejezetten hálás és alkalmazkodó növény, gyengébb fénynél is tartható.",
+  "Főként a gyökérzetén keresztül táplálkozik, ezért a táptalaj vagy agyagos gyökértáp alapvető számára.",
+  "Az elolvadt leveleket vágjuk le a tőnél, a rizóma szinte mindig újra kihajt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

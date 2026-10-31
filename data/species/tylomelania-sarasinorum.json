@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Tylomelania sarasinorum",
+ "id": "tylomelania-sarasinorum",
+ "tipus": "gerinctelen",
+ "latin": "Tylomelania sarasinorum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "sulawesi tornyoscsiga",
+ "egyeb_nevek": [
+  "elefántcsiga",
+  "szulavézi csiga"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Pachychilidae",
+ "csoport": "Csigák",
+ "szarmazas": "Indonézia (Sulawesi, Poso-tó és Matano-tórendszer)",
+ "max_meret_cm": 9.0,
+ "elettartam_ev": 4.5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nyugodt, békés természetű, lassú mozgású óriáscsiga. Napközben is aktívan pásztázza az aljzatot és a köveket táplálék után.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 26,
+ "homerseklet_max": 30,
+ "ph_min": 7.5,
+ "ph_max": 8.5,
+ "gh_min": 6,
+ "gh_max": 16,
+ "taplalek": "Mindenevő; előszeretettel fogyaszt biofilmet, süllyedő harcsatablettákat, forrázott zöldségeket (pl. cukkini, spenót) és spirulinát. Éhség esetén a puhalevelű növényeket megkóstolhatja.",
+ "tarsithato": [
+  "Kifejezetten melegkedvelő",
+  "békés halakkal (pl. kardinális garnéla",
+  "kisebb dániók",
+  "békés razbórák)."
+ ],
+ "kerulendo": [
+  "Csigaevő halak",
+  "csipkelődő márnák",
+  "sügérek",
+  "valamint az alacsony vízhőmérséklet (25 °C alatt lebénul és elpusztul)."
+ ],
+ "szaporodas_mod": "Váltivarú, elevenszülő csigafaj; lassú reprodukciós rátával rendelkezik.",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Megfelelő vízhőmérséklet (27-29 °C) és stabil, lúgos kémhatás biztosítása.",
+  "Kiegyensúlyozott, fehérjében és növényi anyagokban gazdag táplálás.",
+  "A nőstény egyszerre csupán egy-két fehér zselatinos tokot enged el, amelyekből szinte azonnal kibújik az önálló kiscsiga.",
+  "Az utódok lassú növekedésűek, de szüleikkel együtt tarthatók."
+ ],
+ "ivari_kulonbseg": "Külső jegyek alapján a nemek biztonságosan nem különböztethetők meg.",
+ "felismeres_jegyek": [
+  "Hosszú, hegyesedő, vaskos, gyakran erősen bordázott tornyos héj",
+  "A héj színe sötétbarna, feketés vagy kávébarna, a hegye a természetes kopás miatt gyakran tompa/fehéres",
+  "Jellegzetes, ormányszerűen megnyúlt fej és széles tapogatók",
+  "A puhatest színe gyakran kontrasztos, foltos vagy sötétszürke világos mintázattal"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Tylomelania towutensis",
+   "magyar_nev": "Towuti-tavi óriáscsiga",
+   "kulonbseg": "Nagyobb méretű, héja vaskosabb és a puhatest színe eltérő sárgás mintázatot mutathat."
+  },
+  {
+   "latin": "Tylomelania zemis",
+   "magyar_nev": "sárga szulavézi csiga",
+   "kulonbseg": "Élénksárga puhatestével és simább házával tűnik ki."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Megfázás és aktivitásvesztés alacsony (26 °C alatti) hőmérsékleten",
+  "Lágy víz okozta házerózió",
+  "Éhezés elégtelen süllyedő táplálék esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kizárólag jól fűtött, stabil vízparaméterű akváriumban tartsuk.",
+  "Biztosítsunk számára bőséges mészforrást (szépiaváz, kalciumos kiegészítők), különben héja elvékonyodik.",
+  "Kezdetben félénk lehet, adjunk időt az akklimatizációra."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

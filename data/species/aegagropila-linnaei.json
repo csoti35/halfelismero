@@ -1,0 +1,80 @@
+{
+ "lista_nev": "Aegagropila linnaei",
+ "id": "aegagropila-linnaei",
+ "tipus": "noveny",
+ "latin": "Aegagropila linnaei",
+ "regi_latin_nevek": [
+  "Cladophora aegagropila"
+ ],
+ "magyar_nev": "Marimó (mohalabda)",
+ "egyeb_nevek": [
+  "Gömbmoha",
+  "Mohagolyó"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cladophoraceae",
+ "csoport": "Zöldmoszatok",
+ "szarmazas": "Európa és Ázsia északi hideg tava (pl. Akan-tó Japánban, Izland)",
+ "max_meret_cm": 15,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "nagyon lassu",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "Osztással: a gömböt kézzel vagy ollóval szétválasztjuk, majd az új részeket kézzel újra golyó formájúra sodorjuk.",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 10,
+ "homerseklet_max": 24,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "tarsithato": [
+  "Garnélákkal",
+  "kistestű békés pontylazacokkal és razbórákkal kiváló",
+  "a garnélák előszeretettel legelészik a felületét."
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő halakkal (pl. aranyhalak",
+  "nagytestű sügérek",
+  "nagyobb csigák)",
+  "amelyek szétcincálhatják."
+ ],
+ "felismeres_jegyek": [
+  "Szorosan összetömörült, sötétzöld fonalakból álló szabályos gömbforma",
+  "Bársonyos, tömött tapintású külső felület",
+  "Nincsenek valódi szárai, levelei vagy gyökerei (valójában zöldalga kolónia)",
+  "Víz alatt lassan foroghat vagy az aljzaton hever"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cladophora glomerata",
+   "magyar_nev": "Békanyálmoszat",
+   "kulonbseg": "Nem képez önálló, tömör gömbformát, hanem szabálytalan, zavaró fonalas bevonatot alkot."
+  },
+  {
+   "latin": "Vesicularia dubyana",
+   "magyar_nev": "Jávai moha",
+   "kulonbseg": "Valódi mohafaj, finom elágazó szárakkal és apró levélkékkel, gömbalak helyett terebélyes párnát képez."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hőstressz miatti sárgulás és pusztulás (25 °C felett)",
+  "Belső barnulás és rothadás elégtelen vízáramlás esetén",
+  "Más fonalas algák telepedése a felületére"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Vízcserék alkalmával vegyük ki, finoman nyomkodjuk ki tiszta vízben, és forgassuk át, hogy minden oldalát érje a fény.",
+  "Kifejezetten szereti a hűvösebb vizet; nyári melegben érdemes hűteni az akváriumot.",
+  "Gyengébb fénynél is tartható, az erős megvilágítás és a közvetlen napfény károsíthatja."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

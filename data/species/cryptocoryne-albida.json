@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Cryptocoryne albida",
+ "id": "cryptocoryne-albida",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne albida",
+ "regi_latin_nevek": [
+  "Cryptocoryne costata"
+ ],
+ "magyar_nev": "Fehéres vízikehely",
+ "egyeb_nevek": [
+  "Cryptocoryne albida 'Brown'"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "vizikehely",
+ "szarmazas": "Ázsia (Mianmar, Thaiföld)",
+ "max_meret_cm": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony-kozepes",
+ "novekedes": "lassu",
+ "elhelyezes": "eloter-kozepter",
+ "szaporitas_noveny": "gyokersarjakrol (indakkal)",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "Nano halakkal",
+  "békés razbórákkal",
+  "törpesügérekkel és Caridina garnélákkal tökéletesen együtt tartható."
+ ],
+ "kerulendo": [
+  "Levélevő növényevő halak és durva talajmozgató harcsák."
+ ],
+ "felismeres_jegyek": [
+  "Keskeny, hegyes, lándzsás levélforma",
+  "Jellegzetes zöldesszürke, rozsdabarna vagy vörösesbarna márványozott mintázat",
+  "Hullámos levélszél",
+  "Alacsony termetű, kompakt rozettát alkot",
+  "A levelek alsó része gyakran világosabb, halványzöldes árnyalatú"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne crispatula var. tonkinensis",
+   "magyar_nev": "Tonkini vízikehely",
+   "kulonbseg": "Sokkal hosszabb és hajszálvékonyabb szalagszerű levelei vannak."
+  },
+  {
+   "latin": "Cryptocoryne wendtii 'Brown'",
+   "magyar_nev": "Barna Wendt-vízikehely",
+   "kulonbseg": "Szélesebb, oválisabb levéllemezek és jóval robusztusabb bokor jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorin-olvadás",
+  "Kálium- és vashiány okozta lyukacsosodás és fakulás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1900,
+ "ar_ft_max": 3900,
+ "tippek": [
+  "Erősebb megvilágítás mellett levelei kifejezetten szép, kontrasztos barna árnyalatot vesznek fel.",
+  "Kifejezetten szereti a finom szemcséjű, tápdús aljzatot.",
+  "Türelem szükséges hozzá, mert a beültetést követően hetekig szinte egyáltalán nem mutat látható növekedést."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Cryptocoryne crispatula",
+ "id": "cryptocoryne-crispatula",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne crispatula",
+ "regi_latin_nevek": [
+  "Cryptocoryne balansae"
+ ],
+ "magyar_nev": "Fodroslevelű vízikhely",
+ "egyeb_nevek": [
+  "Balansa vízikhely",
+  "Hosszúlevelű kripto"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Mocsári növények",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Laosz, Kambodzsa, Vietnám)",
+ "max_meret_cm": 60,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "kozepes",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Hosszú föld alatti indákon fejlődő leánytövek leválasztásával.",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 6,
+ "gh_max": 25,
+ "tarsithato": [
+  "Kiválóan társítható ázsiai biotóp halaival (márványgurámi",
+  "razbórák) vagy akár elevenszülőkkel is."
+ ],
+ "kerulendo": [
+  "Kifejezetten növényevő halak (pl. fejeshasú lazacok",
+  "felnőtt aranyhalak)."
+ ],
+ "felismeres_jegyek": [
+  "Nagyon hosszú (40-60 cm), szalagszerű, keskeny levelek.",
+  "A levélfelület jellegzetesen dombornyomott, kalapácsolt mintázatú vagy erősen ráncolt/fodros.",
+  "A levélszín zöldtől a barnás-bronzos árnyalatig terjed.",
+  "A vízfelszínt elérve elegánsan elfekszik annak felületén."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne spiralis",
+   "magyar_nev": "Csavartlevelű vízikhely",
+   "kulonbseg": "Levelei egyenesebbek, kevésbé hólyagosak/fodrosak, inkább csavarodó lemezeket képeznek."
+  },
+  {
+   "latin": "Vallisneria australis",
+   "magyar_nev": "Óriás valiznéria",
+   "kulonbseg": "Szár nélküli egyenes levélszalagok, nincs kelyhes virágzata, levélvége finoman fogazott."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorina-olvadás átültetéskor vagy drasztikus vízcserekor",
+  "Kalcium- és magnéziumhiány túl lágy vízben"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "A legtöbb vízikhellyel ellentétben kifejezetten kedveli a keményebb, mészkőben gazdagabb vizeket.",
+  "Mély aljzatot igényel, mert rendkívül erős, kiterjedt gyökérrendszert fejleszt.",
+  "Magas akváriumok háttérnövényeként a legmutatósabb, ahol levelei az áramlásban lágyan hullámzanak."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

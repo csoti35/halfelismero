@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Microsorum pteropus",
+ "id": "microsorum-pteropus",
+ "tipus": "noveny",
+ "latin": "Microsorum pteropus",
+ "regi_latin_nevek": [
+  "Microsorium pteropus",
+  "Polypodium pteropus"
+ ],
+ "magyar_nev": "Jávai páfrány",
+ "egyeb_nevek": [
+  "Szárnyas páfrány"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Polypodiaceae",
+ "csoport": "epifita páfrány",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 30,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-közepes",
+ "co2_igeny": "nem szükséges",
+ "novekedes": "lassú",
+ "elhelyezes": "középtér / dekorációra kötözve",
+ "szaporitas_noveny": "rizóma osztásával vagy a leveleken fejlődő sarjnövényekkel",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.8,
+ "gh_min": 2,
+ "gh_max": 16,
+ "tarsithato": [
+  "Mindenféle társas és biotóp akváriumi élőlénnyel",
+  "köztük pontyfélékkel",
+  "sügérekkel és garnélákkal."
+ ],
+ "kerulendo": [
+  "Kifejezetten erős megvilágítású",
+  "árnyékolatlan zónák",
+  "és a rizóma talajba ásása."
+ ],
+ "felismeres_jegyek": [
+  "Kúszó rizóma sűrű, barna szőrökkel és kapaszkodógyökerekkel",
+  "Élénkzöldtől sötétzöldig terjedő, lándzsás páfránylevelek",
+  "Levelek fonákján megjelenő sötét spóratartó tokok (sorusok)",
+  "Idős levelek csúcsán vagy szélén közvetlenül fejlődő apró sarjnövények"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Microsorum pteropus 'Windeløv'",
+   "magyar_nev": "Windeløv jávai páfrány",
+   "kulonbseg": "Levélcsúcsai finoman sallangosak, agancsszerűen elágazóak."
+  },
+  {
+   "latin": "Bolbitis heudelotii",
+   "magyar_nev": "Kongói vízipáfrány",
+   "kulonbseg": "Szárnyaltan összetett, sötét, áttetsző zöld levelekkel rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Jávaipáfrány-betegség (feketedés, üvegesedés és levélrothadás)",
+  "Káliumhiány miatti fekete foltosodás és lyukacsosodás",
+  "Fonalas- és ecsetalga megjelenése az idős levélszéleken"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1600,
+ "ar_ft_max": 4000,
+ "tippek": [
+  "Dekorációs kőre vagy fára damillal, pamutcérnával vagy cianoakrilát alapú ragasztóval rögzítsük.",
+  "A levélfonákon látható barna foltok többnyire spóratartók, nem betegség tünetei.",
+  "A levélcsúcsokon megjelenő sarjnövényeket óvatosan lecsípve új egyedeket nevelhetünk."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

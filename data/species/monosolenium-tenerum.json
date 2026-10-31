@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Monosolenium tenerum",
+ "id": "monosolenium-tenerum",
+ "tipus": "noveny",
+ "latin": "Monosolenium tenerum",
+ "regi_latin_nevek": [
+  "Pellia endiviifolia (téves akvarisztikai megnevezésként korábban)"
+ ],
+ "magyar_nev": "Vénusz májmoha",
+ "egyeb_nevek": [
+  "Monosolenium",
+  "Májmoha"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Monosoleniaceae",
+ "csoport": "Májmohák",
+ "szarmazas": "Ázsia (Kína, Tajvan, India, Japán)",
+ "max_meret_cm": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony",
+ "co2_igeny": "alacsony",
+ "novekedes": "kozepes",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "A törékeny telepek egyszerű feldarabolásával, szétválasztásával",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 2,
+ "gh_max": 20,
+ "tarsithato": [
+  "Békés törpe garnélákkal (pl. Neocaridina)",
+  "razbórákkal",
+  "pettyes kalászhalakkal és kistestű lazacokkal."
+ ],
+ "kerulendo": [
+  "Erős sodrást igénylő vagy talajlakó túró halakkal (pl. nagyobb botia",
+  "pleco)",
+  "amelyek szétzilálják a törékeny telepeket."
+ ],
+ "felismeres_jegyek": [
+  "Sötétzöld, húsos, bőrszerű tapintású villás teleptest (thallus)",
+  "Nehezebb a víznél, magától a talajra süllyed, nem lebeg a felszínen",
+  "Széles (kb. 5-10 mm-es) lebenyekkel ágazik el",
+  "Strukturálisan törékeny, mechanikai behatásra könnyen darabokra törik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pellia endiviifolia",
+   "magyar_nev": "Fodros májmoha",
+   "kulonbseg": "A Pellia telepteste jóval vékonyabb, világosabb zöld, áttetsző és finomabban fodros a szélein."
+  },
+  {
+   "latin": "Lomariopsis lineata",
+   "magyar_nev": "Süti moha",
+   "kulonbseg": "A Lomariopsis nem villásan ágazik el, hanem szabálytalan, levélszerű, kerekded párnákat képez."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány vagy elégtelen tápanyag esetén megnyúló, vézna hajtások",
+  "Szennyeződések, mulm és pontalga lerakódása a telepek felületén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Nagyon törékeny, ezért hálóval vagy cérnával csak óvatosan, lazán rögzítsük kőre vagy fára.",
+  "Garnélás akváriumok aljnövényeként a leghálásabb, mivel az apró rákok tisztán tartják a levelek felszínét a mulmtól.",
+  "Alacsony fényigényű, CO2 nélkül is szépen gyarapodik még árnyékos akváriumrészeken is."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

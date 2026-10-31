@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Cryptocoryne parva",
+ "id": "cryptocoryne-parva",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne parva",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Apró vízikhely",
+ "egyeb_nevek": [
+  "Törpe khelytő",
+  "Mini kripto"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Mocsári növények",
+ "szarmazas": "Ázsia (Srí Lanka)",
+ "max_meret_cm": 6,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon lassu",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "Indákon fejlődő sarjnövények leválasztásával és átültetésével.",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "tarsithato": [
+  "A legtöbb békés nano hallal",
+  "garnélával",
+  "harcsafélékkel",
+  "amelyek nem túrják ki az aljzatot."
+ ],
+ "kerulendo": [
+  "Erőteljesen túró nagy testű sügérek és fenéklakók",
+  "növényevő aranyhalak."
+ ],
+ "felismeres_jegyek": [
+  "A legkisebb méretű Cryptocoryne faj, ritkán haladja meg a 4-6 cm-es magasságot.",
+  "Lándzsás, egyszínű mélyzöld levelek merev, egyenes száron.",
+  "A levéllemez nem hullámos, felülete sima és tömör hatású.",
+  "Kompakt, fűszerű gyeppé záródó rozettás növekedési forma."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne x willisii",
+   "magyar_nev": "Willis vízikhelye",
+   "kulonbseg": "Jelentősen nagyobbra nő (10-20 cm), levelei szélesebbek és sötétebb árnyalatúak lehetnek."
+  },
+  {
+   "latin": "Cryptocoryne lucens",
+   "magyar_nev": "Fényes vízikhely",
+   "kulonbseg": "Levelei hosszabbak, szárai megnyúltabbak, összességében magasabb habitusú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Kriptokorina-olvadás (Cryptocoryne rot) hirtelen környezetváltozáskor",
+  "Vashiány miatti klorózis (levélsárgulás)",
+  "Lassú növekedés miatti pontalga a leveleken"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 2600,
+ "tippek": [
+  "Ne ültessük túl mélyre a gyökértörzset, mert rothadásnak indulhat.",
+  "Nagyon lassú fejlődésű, türelmet igényel; tápdús talajjal és gyökértablettákkal gyorsítható a szétterjedése.",
+  "Átültetés után hagyjunk neki több hetet akklimatizálódni, ne mozgassuk feleslegesen."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

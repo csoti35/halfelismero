@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Anubias heterophylla",
+ "id": "anubias-heterophylla",
+ "tipus": "noveny",
+ "latin": "Anubias heterophylla",
+ "regi_latin_nevek": [
+  "Anubias congensis",
+  "Anubias affinis"
+ ],
+ "magyar_nev": "Kongói anubias",
+ "egyeb_nevek": [
+  "Különbözőlevelű anubias"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "epifita vízinövény",
+ "szarmazas": "Közép- és Nyugat-Afrika",
+ "max_meret_cm": 60,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-közepes",
+ "co2_igeny": "nem szükséges",
+ "novekedes": "nagyon lassú",
+ "elhelyezes": "háttér / dekorációra kötözve",
+ "szaporitas_noveny": "rizóma osztásával",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 18,
+ "tarsithato": [
+  "Békés halakkal",
+  "sügérekkel (akár afrikai sügérekkel is)",
+  "harcsákkal és rákokkal."
+ ],
+ "kerulendo": [
+  "Kis méretű nano akváriumok",
+  "ahol a növény gyorsan túlnövi a teret."
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, megnyúlt, lándzsa alakú levelek",
+  "Erőteljes, vastag levélszár",
+  "Enyhén hullámos levélszél",
+  "Bőrszerű, sötét- vagy középzöld levélfelület, határozott oldalerekkel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Anubias barteri",
+   "magyar_nev": "Széleslevelű anubias",
+   "kulonbseg": "Levelei sokkal szélesebbek, tojásdad vagy szív alakúak, nem lándzsásak."
+  },
+  {
+   "latin": "Anubias afzelii",
+   "magyar_nev": "Keskenylevelű anubias",
+   "kulonbseg": "Levelei keskenyebbek, szimmetrikusabbak és kevésbé hullámos a szélük."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rizómarothadás",
+  "Ecsetalga és pontalga megtelepedése a leveleken",
+  "Tápanyaghiányos lyukacsosodás (káliumhiány)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Nagy termete miatt ideális nagyobb akváriumok vagy sügéres medencék háttérnövényeként.",
+  "A gyöktörzset hagyjuk a talaj felett, rögzítsük sziklára vagy fagyökérre.",
+  "Időnként érdemes folyékony mikrotápanyaggal és káliummal pótolni a hiányzó tápelemeket."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Vesicularia dubyana",
+ "id": "vesicularia-dubyana",
+ "tipus": "noveny",
+ "latin": "Vesicularia dubyana",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Szingapúri moha",
+ "egyeb_nevek": [
+  "Singapore moss",
+  "Valódi jávai moha (korábbi téves megnevezésekben)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hypnaceae",
+ "csoport": "Mohák",
+ "szarmazas": "Délkelet-Ázsia (Indonézia, Malajzia, Szingapúr)",
+ "max_meret_cm": 8,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "kozepes",
+ "elhelyezes": "eloter-kozepter",
+ "szaporitas_noveny": "Hajtásainak levágásával és különálló felületre történő rögzítésével rendkívül gyorsan sokszorosítható.",
+ "min_akvarium_l": 15,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 5.8,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 18,
+ "tarsithato": [
+  "Kiválóan tartható kis testű pontyfélékkel",
+  "tetrákkal",
+  "törpesügérekkel és törpe garnélákkal."
+ ],
+ "kerulendo": [
+  "Erős ásási szokású sügérek",
+  "nagyobb algaevő fajok",
+  "amelyek letépik az aljzathoz kötött párnát."
+ ],
+ "felismeres_jegyek": [
+  "Laza, nyújtottabb elágazású ágacskák",
+  "Élénk- vagy középzöld hajtások finom levelekkel",
+  "Szélesebb szögben elágazó levélkék, mint a karácsonymohánál",
+  "Erőteljesen tapadó rizoidok (rögzítő szálak)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vesicularia montagnei",
+   "magyar_nev": "Karácsonymoha",
+   "kulonbseg": "Szabályosabb, kompaktabb, fenyőfa ágára emlékeztető háromszögletű mintázatot ad."
+  },
+  {
+   "latin": "Taxiphyllum barbieri",
+   "magyar_nev": "Jávai moha",
+   "kulonbseg": "Ágrendszere jóval kócosabb, egyenesebb vonalvezetésű szálakkal bír."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bolyhos ecsetalga és fonalalga megjelenése az elöregedett hajtásokon",
+  "Üledék okozta fulladás és sárgulás nem megfelelő vízáramlásnál"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Rendszeres vízcserék alkalmával érdemes óvatosan leleszívni róla a finom lebegő hulladékot.",
+  "Tökéletes ívató növény kényes ikrázó fajok (pl. pontylazacok, dániók) tenyésztésekor.",
+  "Gyenge fény mellett is szépen megmarad, bár lassabban bokrosodik."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

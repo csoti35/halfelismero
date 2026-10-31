@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Anubias barteri var. nana",
+ "id": "anubias-barteri-var-nana",
+ "tipus": "noveny",
+ "latin": "Anubias barteri var. nana",
+ "regi_latin_nevek": [
+  "Anubias nana"
+ ],
+ "magyar_nev": "Törpe anubiasz",
+ "egyeb_nevek": [
+  "Törpe lándzsalevél",
+  "Nana lándzsalevél"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Epifita vízinövények",
+ "szarmazas": "Nyugat-Afrika (Kamerun)",
+ "max_meret_cm": 10,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony",
+ "co2_igeny": "nem szükséges",
+ "novekedes": "nagyon lassú",
+ "elhelyezes": "előtér / közép / dekorációra kötözve",
+ "szaporitas_noveny": "Rizóma (gyöktörzs) osztásával, legalább 3-5 leveles darabokra vágva.",
+ "min_akvarium_l": 15,
+ "homerseklet_min": 20,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen halfajjal",
+  "növényevő sügérekkel és aranyhalakkal is tartható kemény levelei miatt."
+ ],
+ "kerulendo": [
+  "Erős megvilágítás és algásodásra hajlamosító körülmények (pl. közvetlen napfény)."
+ ],
+ "felismeres_jegyek": [
+  "Vastag, henger alakú, vízszintesen kúszó zöld rizóma (gyöktörzs)",
+  "Sötétzöld, bőrszerű, vastag, ovális vagy szív alakú levelek",
+  "Kompakt, alacsony termet (5–10 cm magasság)",
+  "Víz alatt is gyakran hoz fehér, torzsavirágzatra emlékeztető virágot"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Anubias barteri var. barteri",
+   "magyar_nev": "Széleslevelű lándzsalevél",
+   "kulonbseg": "Jóval nagyobb termetű (25–40 cm magas), hosszabb levélszárakkal rendelkezik."
+  },
+  {
+   "latin": "Anubias barteri var. 'Petite'",
+   "magyar_nev": "Bonsai anubias",
+   "kulonbseg": "Még kisebb levelű (levelei alig 1-2 cm-esek), nagyon apró méretű változat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rizómarothadás (fertőzés vagy aljzatba ásás miatt)",
+  "Pontalga a lassú növekedésű öreg leveleken",
+  "Vashiány (a fiatal levelek elsárgulása)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A rizómát (gyöktörzset) soha ne temessük a talajba, különben megrothad; kössük fára vagy kőre damillal vagy ragasszuk cianoakrilátos növényragasztóval.",
+  "Erős fényben a levelei hajlamosak a pontalgásodásra, ezért célszerű árnyékosabb területekre vagy úszónövények alá helyezni.",
+  "Nagyon ellenálló faj, a kemény vízben és sügéres akváriumokban is kiválóan fejlődik."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Bolbitis heudelotii",
+ "id": "bolbitis-heudelotii",
+ "tipus": "noveny",
+ "latin": "Bolbitis heudelotii",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kongói vízipáfrány",
+ "egyeb_nevek": [
+  "afrikai vízipáfrány"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Dryopteridaceae",
+ "csoport": "Páfrányok",
+ "szarmazas": "Nyugat-Afrika",
+ "max_meret_cm": 40,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu",
+ "elhelyezes": "kozeptertol hatterig (fare, kovekre rogzitve)",
+ "szaporitas_noveny": "rizoma osztasa",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "Bekes halakkal",
+  "pontylazacokkal",
+  "torpe garnelakkal es nem novenyevo fajokkal kivaloan tarthato."
+ ],
+ "kerulendo": [
+  "Novenyevo suglerekkel",
+  "nagytestu aranyhalakkal es eros aramlast kedvelo",
+  "aljzatot turo fajokkal kerulendo a rogzites meglazulasa miatt."
+ ],
+ "felismeres_jegyek": [
+  "Attetszo, sotetzold, szarnyalatlan vagy szarnyalatanul osszetett levelek",
+  "Hullamos, finoman csipkes levélszelek",
+  "Vastag, barna vagy feketes, gyokertorzsszeru rizoma",
+  "A viz alatti levelek uvegszeruen csillogoak es merevek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Microsorum pteropus",
+   "magyar_nev": "Landzsas vizipafrany",
+   "kulonbseg": "Levelei tagolatlanabbak, borebb tapintasuak es vilagosabb zoldek."
+  },
+  {
+   "latin": "Ceratopteris thalictroides",
+   "magyar_nev": "Finomlevelu vizicsillag",
+   "kulonbseg": "Sokkal vilagosabb zold, lagyszaru, gyorsan novo es toredekeny levelu faj."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Rizomarothadas a talajba temetes kovetkezteben",
+  "Levelek feketedese tul kemeny vagy tul meleg vizben",
+  "Ecsetalga megtelepedese a lassu novekedesu idos leveleken"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Soha ne temesd a rizomat az aljzatba, mindig kotozd vagy ragaszd fare, kovekre.",
+  "Kifejezetten meghalalja a lagy, enyhen savas vizet es a mérsékelt aramlast.",
+  "Lassu novekedese miatt az idos leveleket erdemes tobol lecsipni, ha alga jelenik meg rajtuk."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Taxiphyllum barbieri",
+ "id": "taxiphyllum-barbieri",
+ "tipus": "noveny",
+ "latin": "Taxiphyllum barbieri",
+ "regi_latin_nevek": [
+  "Vesicularia dubyana (tevesen kereskedelemben)"
+ ],
+ "magyar_nev": "Jávai moha",
+ "egyeb_nevek": [
+  "Bogor moha"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hypnaceae",
+ "csoport": "Mohak",
+ "szarmazas": "Delkelet-Azsia",
+ "max_meret_cm": 10,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "kozepes",
+ "elhelyezes": "barmelyik resz (dekoraciora rogzitve vagy talajra teritve)",
+ "szaporitas_noveny": "telep osztasa",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 15,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 2,
+ "gh_max": 20,
+ "tarsithato": [
+  "Minden bekes hallal",
+  "ivadekokkal es kifejezetten kivalo torpe garnelakkal egyutt."
+ ],
+ "kerulendo": [
+  "Erintetlen mohatelepeket kedvel",
+  "igy aljzatot szetrombolo vagy mohabol feszket epito nagytestu fajokkal kerulendo."
+ ],
+ "felismeres_jegyek": [
+  "Vekony, elagazo szarakbol allo, kusza, zold szonyegszeru telep",
+  "Apro, lancsak alaku, hegyes csucsu levelek a szarak menten ketoldalt",
+  "Gyokerek nelkuli noveny, rizoidjaival kepes erosen barkire tapadni",
+  "Fenyszegeny helyen sotetzold es nyulank, jo fenynel surubb es vilagoszold"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vesicularia dubyana",
+   "magyar_nev": "Szingapuri moha",
+   "kulonbseg": "Haromszogebb formaju, szabalyosabban elagazo karacsonyfa-szeru hajtasrendszerrel bir."
+  },
+  {
+   "latin": "Vesicularia montagnei",
+   "magyar_nev": "Christmas moha",
+   "kulonbseg": "Sokkal rendezettebb, tomorebb, minifenyoszeru elagazasai vannak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fonalalga beleszoveses fertozese, amit nehez eltavolitani",
+  "Telep belso reszenek barnulasa es rothadasa a fenyhiany miatt",
+  "Mulm felhalmozodasa es rothadas a mohaparban"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Idorol idore erdemes visszanyirni, hogy az also reszei ne barnuljanak el a fenyhianytol.",
+  "A felgyulemlett mulmot vizcserekor gyengen ki kell szippantani a szalak kozul.",
+  "Kivalo ikraovakent es ivadek- valamint garnelamenedekkent funkcional."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}
