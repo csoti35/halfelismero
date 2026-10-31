@@ -1,0 +1,76 @@
+{
+ "id": "micranthemum-tweediei-monte-carlo",
+ "tipus": "noveny",
+ "latin": "Micranthemum tweediei 'Monte Carlo'",
+ "regi_latin_nevek": [
+  "Micranthemum sp. 'Monte Carlo'"
+ ],
+ "magyar_nev": "Monte Carlo moha",
+ "egyeb_nevek": [
+  "Kereklevelű gyöngyfü fű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Micranthemum tweediei 'Monte Carlo'",
+ "csalad": "Linderniaceae",
+ "csoport": "Szőnyegképző előtéri növény",
+ "szarmazas": "Argentína",
+ "max_meret_cm": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes-erős",
+ "co2_igeny": "közepes",
+ "novekedes": "gyors",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "indákkal, dugványozással",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 15,
+ "tarsithato": [
+  "Bármilyen békés hallal és garnélával."
+ ],
+ "kerulendo": [
+  "Nagytestű talajlakó halak",
+  "amelyek kitúrhatják."
+ ],
+ "felismeres_jegyek": [
+  "Apró",
+  "kerekded",
+  "világoszöld levelek",
+  "sűrű",
+  "tömött szőnyeget alkot",
+  "kúszó szárrendszer",
+  "a levelek mérete 3-5 mm."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemianthus callitrichoides 'Cuba'",
+   "magyar_nev": "Kubai gyöngyfű",
+   "kulonbseg": "A 'Cuba' levelei sokkal kisebbek és jóval igényesebb növény."
+  },
+  {
+   "latin": "Micranthemum umbrosum",
+   "magyar_nev": "Árnyéki gyöngyfű",
+   "kulonbseg": "Felfelé törekvő növekedésű, nem alkot alacsony szőnyeget."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány esetén felnyurgul",
+  "Nitrogénhiány esetén sárgulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Ültetéskor apró csomókban helyezzük a talajba csipesszel.",
+  "Rendszeres nyírással tartható fenn a sűrű, szőnyegszerű forma.",
+  "Bár CO2 nélkül is megmarad, igazán széppé gázadagolással válik."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

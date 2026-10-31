@@ -1,0 +1,74 @@
+{
+ "id": "ranunculus-inundatus",
+ "tipus": "noveny",
+ "latin": "Ranunculus inundatus",
+ "lista_nev": "Ranunculus inundatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Vizi boglárka",
+ "egyeb_nevek": [
+  "Ausztrál boglárka"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Ranunculaceae",
+ "csoport": "Előtéri / Középtéri növények",
+ "szarmazas": "Ausztrália",
+ "max_meret_cm": 12,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "kozepes",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "osztással, indákkal",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 12,
+ "tarsithato": [
+  "Békés halakkal",
+  "garnélákkal"
+ ],
+ "kerulendo": [
+  "Aljzattúró halak",
+  "növényevő csigák"
+ ],
+ "felismeres_jegyek": [
+  "Mélyen szabdalt",
+  "csillag alakú levelek",
+  "világoszöld szín",
+  "kúszó rizómából eredő levélnyelek",
+  "egyedi",
+  "ernyőszerű megjelenés."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hydrocotyle tripartita",
+   "magyar_nev": "Háromosztatú gázlóvirág",
+   "kulonbseg": "Kevésbé szabdalt levelek, kisebb méret."
+  },
+  {
+   "latin": "Ceratopteris thalictroides",
+   "magyar_nev": "Vízipáfrány",
+   "kulonbseg": "Sokkal nagyobb termet, más levélszerkezet."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Olvadás (hirtelen környezetváltozáskor)",
+  "Vashiány (sárguló levelek)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Nagyon sok fényt igényel, különben a levelek túl hosszúra nőnek.",
+  "A CO2 adagolás szinte elengedhetetlen a szép formához.",
+  "A rizómát ne temessük túl mélyre az ültetéskor."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

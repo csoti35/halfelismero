@@ -1,0 +1,73 @@
+{
+ "id": "marsilea-hirsuta",
+ "tipus": "noveny",
+ "latin": "Marsilea hirsuta",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Szőrös mételyfű",
+ "egyeb_nevek": [
+  "Négylevelű lóhere"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Marsilea hirsuta",
+ "csalad": "Marsileaceae",
+ "csoport": "Gyeptakaró növények",
+ "szarmazas": "Ausztrália",
+ "max_meret_cm": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "kozepes",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "indákkal",
+ "min_akvarium_l": 15,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 7.5,
+ "gh_min": 1,
+ "gh_max": 15,
+ "tarsithato": [
+  "Garnélákkal és kistestű halakkal ideális"
+ ],
+ "kerulendo": [
+  "Aljzatot túró halak"
+ ],
+ "felismeres_jegyek": [
+  "Változatos levélforma (egy",
+  "kettő",
+  "három vagy négy levélke)",
+  "lóherére emlékeztető megjelenés",
+  "sötétzöld szín",
+  "kúszó rizómák",
+  "alacsony fényen magasabbra nő."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Marsilea crenata",
+   "magyar_nev": "Törpe mételyfű",
+   "kulonbseg": "Levelei kisebbek és egységesebbek."
+  },
+  {
+   "latin": "Glossostigma elatinoides",
+   "magyar_nev": "Nyelvlevél",
+   "kulonbseg": "Levelei sokkal kisebbek, világosabbak és sokkal fényigényesebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Átültetés utáni levélvesztés (akklimatizáció)",
+  "Káliumhiány esetén lyukacsosodás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Kevés fénnyel is beéri, de ilyenkor levelei hosszabb száron ülnek.",
+  "Emers (víz feletti) formában is tartható terráriumban.",
+  "Türelem kell hozzá, az elején lassan indul fejlődésnek."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

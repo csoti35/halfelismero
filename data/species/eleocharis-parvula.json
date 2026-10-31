@@ -1,0 +1,74 @@
+{
+ "id": "eleocharis-parvula",
+ "tipus": "noveny",
+ "latin": "Eleocharis parvula",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe csetkáka",
+ "egyeb_nevek": [
+  "Parvula"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Eleocharis parvula",
+ "csalad": "Cyperaceae",
+ "csoport": "Gyeptakaró növények",
+ "szarmazas": "Kozmopolita (Európa, Ázsia, Amerika)",
+ "max_meret_cm": 7,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "kozepes",
+ "novekedes": "gyors",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "indákkal",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 10,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 15,
+ "tarsithato": [
+  "Bármilyen békés hallal és garnélával"
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "túró életmódot folytató halak"
+ ],
+ "felismeres_jegyek": [
+  "Vékony",
+  "fűszálszerű levelek",
+  "világoszöld szín",
+  "alacsony",
+  "sűrű gyepet alkot",
+  "gyökérzete fehér és szerteágazó",
+  "levelei enyhén íveltek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Eleocharis acicularis",
+   "magyar_nev": "Tűlevelű csetkáka",
+   "kulonbseg": "Magasabbra nő és levelei egyenesebbek."
+  },
+  {
+   "latin": "Eleocharis pusilla",
+   "magyar_nev": "Mini csetkáka",
+   "kulonbseg": "Még kisebb termetű, levelei gyakran göndörödnek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Algásodás (fonalalga)",
+  "Vashiány miatti sárgulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Ültetéskor kis csomókra szedve, sakktáblaszerűen helyezzük el.",
+  "Rendszeres nyírással sűrűbb gyepet kapunk.",
+  "A táptalajt meghálálja, mivel gyökéren keresztül is sok tápanyagot vesz fel."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

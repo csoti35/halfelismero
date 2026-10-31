@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Rotala wallichii",
+ "id": "rotala-wallichii",
+ "tipus": "noveny",
+ "latin": "Rotala wallichii",
+ "regi_latin_nevek": [
+  "Hydrolythrum wallichii"
+ ],
+ "magyar_nev": "Rotala wallichii",
+ "egyeb_nevek": [
+  "Tűlevelű rotala"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lythraceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 40,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "magas",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Fejdugványozással, oldalhajtások levágásával és újraültetésével",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 8,
+ "tarsithato": [
+  "Kistestű",
+  "békés pontylazacokkal",
+  "razbórákkal és lágyvizes garnélákkal (pl. Caridina cantonensis változatok)"
+ ],
+ "kerulendo": [
+  "Növényevő vagy túró sügérekkel",
+  "nagytestű harcsákkal",
+  "aranyhalakkal és csigákkal",
+  "amelyek kárt tehetnek a finom szárakban"
+ ],
+ "felismeres_jegyek": [
+  "Finoman szeldelt, tűszerű vagy fonalas levelek örvökben rendezve",
+  "Megfelelő megvilágítás és tápanyag mellett a hajtáscsúcs élénk rózsaszínű vagy vöröses árnyalatú",
+  "Vékony, törékeny zöld vagy enyhén pirosas szár",
+  "Vízfelszín fölé nőve apró, lila virágokat és eltérő formájú, sűrűbb leveleket fejleszt"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Mayaca fluviatilis",
+   "magyar_nev": "Brazíliai mohapáfrány",
+   "kulonbseg": "Mindig világoszöld színű marad, levelei puhábbak és nem vörösödnek be intenzív fényben sem."
+  },
+  {
+   "latin": "Pogostemon stellatus",
+   "magyar_nev": "Csillagos pogostemon",
+   "kulonbseg": "Sokkal vastagabb szárral és szélesebb, fűrészes szélű levelekkel rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vashiány miatti fakulás, klorózis",
+  "Hajtáscsúcs-elhalás és olvadás kemény víz vagy elégtelen CO2 esetén",
+  "Fonalas zöldalga megtelepedése a finom leveleken"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Kifejezetten lágy, enyhén savas vízben és lágyvizes aljzat (soil) használatával fejlődik szépen.",
+  "A megfelelő vörösödéshez és tömött növekedéshez elengedhetetlen a bőséges CO2-adagolás és a rendszeres vasban gazdag mikrotápozás.",
+  "Ültetéskor hagyjunk elegendő távolságot a szárak között, hogy az alsó levelek is elegendő fényt kapjanak, megelőzve a kopaszodást."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

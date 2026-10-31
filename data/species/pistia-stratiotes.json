@@ -1,0 +1,72 @@
+{
+ "id": "pistia-stratiotes",
+ "tipus": "noveny",
+ "latin": "Pistia stratiotes",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kagylótutaj (vízisaláta)",
+ "egyeb_nevek": [
+  "Vízi saláta"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Pistia stratiotes",
+ "csalad": "Araceae",
+ "csoport": "Úszó növények",
+ "szarmazas": "Kozmopolita (trópusi területek)",
+ "max_meret_cm": 15,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "magas",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "vízfelszín",
+ "szaporitas_noveny": "indákkal, sarjnövényekkel",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "tarsithato": [
+  "Labirintkopoltyús halakkal",
+  "ivadékokkal"
+ ],
+ "kerulendo": [
+  "Növényevő halak (pl. nagy aranyhalak)",
+  "erős áramlás"
+ ],
+ "felismeres_jegyek": [
+  "Kagyló alakú",
+  "bordázott levelek",
+  "bársonyos",
+  "szőrös levélfelület",
+  "világoszöld szín",
+  "hosszú",
+  "bojtos",
+  "lógó gyökérzet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limnobium laevigatum",
+   "magyar_nev": "Békalencse-páfrány",
+   "kulonbseg": "Levelei simák, kerekdedek és húsosabbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélrothadás a lecsapódó pára miatt",
+  "Sárgulás nitráthiány esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 400,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Ne fedjük le teljesen az akváriumot, mert a pangó pára rothasztja a leveleket.",
+  "Kiváló nitrátfaló, segít tisztán tartani a vizet.",
+  "A hosszú gyökerek remek búvóhelyet nyújtanak a kishalaknak."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

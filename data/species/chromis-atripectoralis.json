@@ -1,0 +1,80 @@
+{
+ "id": "chromis-atripectoralis",
+ "tipus": "hal",
+ "latin": "Chromis atripectoralis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Zöld korallsügér",
+ "lista_nev": "Chromis atripectoralis",
+ "egyeb_nevek": [
+  "Kék-zöld korallsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacentridae",
+ "csoport": "Korallsügérek",
+ "szarmazas": "Indo-Pacifikus térség",
+ "max_meret_cm": 12,
+ "elettartam_ev": 8,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés rajhal, de a dominanciaharcok miatt tágas teret igényel. Más fajokkal szemben nem agresszív.",
+ "rajhal": true,
+ "min_csoport": 6,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (zooplankton, fagyasztott eleségek, jó minőségű granulátum)",
+ "tarsithato": [
+  "Békés tengeri halakkal",
+  "korallokkal",
+  "gerinctelenekkel"
+ ],
+ "kerulendo": [
+  "Nagytestű ragadozók",
+  "agresszívabb korallsügérek"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Stabil vízparaméterek és bőséges etetés szükséges.",
+  "A hím tisztítja meg az aljzatot vagy egy lapos követ.",
+  "Az ikrákat a hím őrzi és legyezi.",
+  "A kikelő lárvák felnevelése speciális planktonikus eleséget igényel."
+ ],
+ "ivari_kulonbseg": "Külsőleg szinte megkülönböztethetetlenek, a hímek íváskor élénkebbek.",
+ "felismeres_jegyek": [
+  "Irizáló kékessmaragd alapszín",
+  "A mellúszók tövében jellegzetes fekete folt található",
+  "Villás farokúszó",
+  "Karcsú, oldalról lapított testalkat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Chromis viridis",
+   "magyar_nev": "Zöld korallsügér",
+   "kulonbseg": "Nincs fekete folt a mellúszó tövében, valamivel kisebb termetű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Uronema marinum",
+  "Marine Ich (darakor)",
+  "Marine Velvet"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 7500,
+ "tippek": [
+  "Nagyobb csapatban érzik jól magukat, így kevésbé stresszesek.",
+  "Sok úszóteret és erős vízáramlást igényelnek.",
+  "Naponta többször, kis adagokban érdemes etetni őket."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

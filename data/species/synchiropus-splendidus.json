@@ -1,0 +1,91 @@
+{
+ "id": "synchiropus-splendidus",
+ "tipus": "hal",
+ "latin": "Synchiropus splendidus",
+ "regi_latin_nevek": [
+  "Pterosynchiropus splendidus"
+ ],
+ "magyar_nev": "Mandarinhal",
+ "egyeb_nevek": [
+  "Mandarinhal",
+  "Pompás mandarinhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Callionymidae",
+ "csoport": "Tengeri halak - Mandarinhalak",
+ "szarmazas": "Csendes-óceán nyugati része",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, lassú mozgású hal. Csak a hímek verekedhetnek egymással.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Speciális: szinte kizárólag élő kopepodákat és apró rákféléket eszik az élő kőről.",
+ "tarsithato": [
+  "Békés halakkal",
+  "amelyek nem eszik el előle az apró rákokat."
+ ],
+ "kerulendo": [
+  "Agresszív halak",
+  "táplálékkonkurensek (pl. ajakoshalak)."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Alkonyatkor ívnak",
+  "a pár egymáshoz simulva emelkedik fel",
+  "az ikrák a vízfelszínen lebegnek",
+  "a lárvák nevelése rendkívül nehéz",
+  "speciális planktont igényel."
+ ],
+ "ivari_kulonbseg": "A hímek első hátúszója megnyúlt, tüskeszerű; a hímek nagyobbak.",
+ "felismeres_jegyek": [
+  "Pszichedelikus mintázat (narancs",
+  "kék",
+  "zöld)",
+  "pikkelytelen",
+  "nyálkás bőr",
+  "dülledt szemek",
+  "kicsi",
+  "csücsöri száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Synchiropus picturatus",
+   "magyar_nev": "Tarka mandarinhal",
+   "kulonbseg": "Kör alakú, szemfoltos mintázata van a csíkok helyett."
+  },
+  {
+   "latin": "Synchiropus stellatus",
+   "magyar_nev": "Csillagos mandarinhal",
+   "kulonbseg": "Vöröses-barna rejtőszínű, kevésbé élénk."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés (táplálékhiány miatt)",
+  "Bőrférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 12000,
+ "ar_ft_max": 22000,
+ "tippek": [
+  "Csak legalább egy éve működő, sok élő követ tartalmazó akváriumba tegyük.",
+  "Vásárláskor ellenőrizzük, hogy a hasa ne legyen beesve.",
+  "Érdemes kopepoda-tenyészettel rendszeresen pótolni az eleséget az akváriumban."
+ ],
+ "lista_nev": "Synchiropus splendidus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

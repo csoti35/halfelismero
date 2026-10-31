@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Limnobium laevigatum",
+ "id": "limnobium-laevigatum",
+ "tipus": "noveny",
+ "latin": "Limnobium laevigatum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Amazonas békatutaj",
+ "egyeb_nevek": [
+  "Dél-amerikai békatutaj"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Úszónövények",
+ "szarmazas": "Közép- és Dél-Amerika",
+ "max_meret_cm": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes-erős",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "vízfelszín",
+ "szaporitas_noveny": "indákkal, sarjnövényekkel",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "tarsithato": [
+  "Labirintkopoltyús halakkal (pl. gurámik)",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Erős áramlás",
+  "fedett akvárium (ha túl nagy a pára és nincs szellőzés)."
+ ],
+ "felismeres_jegyek": [
+  "Kerek",
+  "húsos",
+  "szivacsos szerkezetű levelek",
+  "hosszú",
+  "bojtos",
+  "dekoratív gyökérzet",
+  "a levelek felszíne sima és fényes",
+  "indákon keresztül kapcsolódnak az utódnövények."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hydrocharis morsus-ranae",
+   "magyar_nev": "Békatutaj (európai)",
+   "kulonbseg": "Vékonyabb levelek, télen áttelelő rügyeket képez, akváriumban kevésbé tartós."
+  },
+  {
+   "latin": "Pistia stratiotes",
+   "magyar_nev": "Kagylótutaj",
+   "kulonbseg": "Levelei bordázottak, bársonyos szőrökkel borítottak, nem simák."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélrothadás (ha a levelek teteje tartósan víz alá kerül)",
+  "Nitrogénhiány (lassú növekedés, sárgulás)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Hosszú gyökerei kiváló búvóhelyet nyújtanak az ivadékhalaknak.",
+  "A fedett akváriumokban a levelek tetejére csöpögő víz károsíthatja, érdemes rést hagyni a szellőzésnek.",
+  "Nagyon hatékonyan vonja ki a felesleges tápanyagokat a vízből."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

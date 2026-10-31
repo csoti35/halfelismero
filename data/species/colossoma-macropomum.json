@@ -1,0 +1,88 @@
+{
+ "id": "colossoma-macropomum",
+ "tipus": "hal",
+ "latin": "Colossoma macropomum",
+ "regi_latin_nevek": [
+  "Myletes macropomus"
+ ],
+ "magyar_nev": "Pacu (gyümölcsevő pirája)",
+ "egyeb_nevek": [
+  "Gyümölcsevő piranha",
+  "Óriás paku"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Serrasalmidae",
+ "csoport": "Pontylazacok",
+ "szarmazas": "Dél-Amerika (Amazonas és Orinoco medence)",
+ "max_meret_cm": 100,
+ "elettartam_ev": 20,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés óriás, de hatalmas mérete miatt minden kisebb halat, ami befér a száján, tápláléknak tekinthet. Alapvetően növény- és gyümölcsevő.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 2000,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 7.5,
+ "gh_min": 1,
+ "gh_max": 15,
+ "taplalek": "Mindenevő (főleg növényi: gyümölcsök, magvak, tabletták, de rovarokat is fogyaszt)",
+ "tarsithato": [
+  "Hasonló méretű sügérekkel",
+  "nagy harcsákkal",
+  "rájákkal"
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "agresszív ragadozók"
+ ],
+ "szaporodas_mod": "szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között mérete miatt szinte lehetetlen",
+  "hormonkezeléssel szaporítják tógazdaságokban",
+  "hatalmas úszóteret igényel",
+  "az ikrákat nem gondozzák."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója csúcsosabb, a nőstények teltebbek.",
+ "felismeres_jegyek": [
+  "Korong alakú test",
+  "sötétszürke vagy feketés szín",
+  "erőteljes alsó állkapocs",
+  "apró pikkelyek",
+  "nagy szem."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Piaractus brachypomus",
+   "magyar_nev": "Vöröshasú paku",
+   "kulonbseg": "Fiatalon vörös a hasa, mint a piranhának, és kisebbre nő."
+  },
+  {
+   "latin": "Pygocentrus nattereri",
+   "magyar_nev": "Vöröshasú piranha",
+   "kulonbseg": "Sokkal kisebb, alsó állkapcsa előreugróbb, fogazata élesebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 8000,
+ "tippek": [
+  "Csak bemutató akváriumokba vagy extrém nagy magánakváriumokba való.",
+  "Erős szűrés és gyakori vízcsere szükséges a nagy anyagcsere miatt.",
+  "A berendezési tárgyakat rögzíteni kell, mert nagy ereje van."
+ ],
+ "lista_nev": "Colossoma macropomum",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

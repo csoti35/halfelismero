@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Micranthemum glomeratum",
+ "id": "micranthemum-glomeratum",
+ "tipus": "noveny",
+ "latin": "Micranthemum glomeratum",
+ "regi_latin_nevek": [
+  "Hemianthus micranthemoides",
+  "Micranthemum micranthemoides"
+ ],
+ "magyar_nev": "Apró aprógolyó",
+ "egyeb_nevek": [
+  "Golyófüke",
+  "HM"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Linderniaceae",
+ "csoport": "Szárnövény",
+ "szarmazas": "Észak-Amerika (USA)",
+ "max_meret_cm": 20,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "kozepes",
+ "novekedes": "gyors",
+ "elhelyezes": "kozéptér",
+ "szaporitas_noveny": "A szárak visszavágásával és a levágott hajtások aljzatba ültetésével.",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "Törpesügérek",
+  "Garnélák",
+  "Kisebb pontylazacok",
+  "Razborák"
+ ],
+ "kerulendo": [
+  "Növényevő halak",
+  "Nagyobb testű aljzatlakók"
+ ],
+ "felismeres_jegyek": [
+  "Sűrűn álló, kerekded vagy lándzsás apró levelek",
+  "Világoszöld, törékeny szárak",
+  "Négyes elrendezésű levélörvök a száron",
+  "Bokros, felfelé és oldalra is terjeszkedő növekedés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemianthus callitrichoides",
+   "magyar_nev": "Kuba törpe Tókertész",
+   "kulonbseg": "Sokkal alacsonyabb, törpébb növekedésű, és levelei feleakkorák."
+  },
+  {
+   "latin": "Rotala indica",
+   "magyar_nev": "Indiai rotala",
+   "kulonbseg": "Erős fény alatt a hajtáscsúcsai bepirosodnak, levelei vastagabbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány miatt a szár felkopaszodása",
+  "Mikrotápanyag-hiány miatti hajtásdeformáció"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Rendszeres formára nyírással rendkívül tömör, bokros formációkat vagy sövényt hozhatunk létre belőle.",
+  "A levágott hajtáshegyek gyorsan újragyökereznek, így pillanatok alatt beszaporítható."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

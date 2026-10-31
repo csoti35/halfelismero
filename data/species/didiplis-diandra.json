@@ -1,0 +1,71 @@
+{
+ "id": "didiplis-diandra",
+ "tipus": "noveny",
+ "latin": "Didiplis diandra",
+ "regi_latin_nevek": [
+  "Peplis diandra"
+ ],
+ "magyar_nev": "Mocsári füzény",
+ "egyeb_nevek": [
+  "Vízi füzény"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Didiplis diandra",
+ "csalad": "Lythraceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Észak-Amerika",
+ "max_meret_cm": 30,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon erős",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "középtér",
+ "szaporitas_noveny": "oldalhajtások levágása és leültetése",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 10,
+ "tarsithato": [
+  "Garnélákkal és kistestű pontylazacokkal ideális."
+ ],
+ "kerulendo": [
+  "Növényevő csigák és halak."
+ ],
+ "felismeres_jegyek": [
+  "Keresztben átellenes",
+  "tűszerű vékony levelek",
+  "a hajtáscsúcsok erős fényben vöröses-narancssárgák",
+  "apró virágok a levéltöveknél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rotala wallichii",
+   "magyar_nev": "Wallich-rotala",
+   "kulonbseg": "A Rotala levelei sokkal vékonyabbak és sűrűbben állnak a száron."
+  },
+  {
+   "latin": "Ludwigia arcuata",
+   "magyar_nev": "Íves tóalma",
+   "kulonbseg": "A Ludwigia levelei hosszabbak és intenzívebb vörös színre képesek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány miatti feketedés a száron",
+  "Nitráthiány miatti növekedési stop"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Lágy vizet és rendszeres mikrotápanyag-utánpótlást igényel.",
+  "A metszést jól bírja, bokrosodásra hajlamos."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "zebrasoma-flavescens",
+ "tipus": "hal",
+ "latin": "Zebrasoma flavescens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sárga doktorhal",
+ "egyeb_nevek": [
+  "Sárga zebraszóma"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Acanthuridae",
+ "csoport": "Tengeri halak - Doktorhalak",
+ "szarmazas": "Csendes-óceán (Hawaii környéke)",
+ "max_meret_cm": 20,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fajtársaival és más doktorhalakkal szemben agresszív és területvédő, egyébként békés.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 300,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő, de elsősorban algák és növényi táplálék (nori alga, spirulina).",
+ "tarsithato": [
+  "Korallokkal és nem agresszív tengeri halakkal."
+ ],
+ "kerulendo": [
+  "Más Zebrasoma fajok és hasonló testalkatú doktorhalak."
+ ],
+ "szaporodas_mod": "Ikrázó (szabadon ívó)",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között rendkívül ritka",
+  "a lárvák felnevelése speciális planktonikus táplálékot igényel",
+  "nagy víztömeget és stabil paramétereket igényel",
+  "a hím és nőstény íváskor a vízoszlopba emelkedik."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem látható, a hímek általában valamivel nagyobbak.",
+ "felismeres_jegyek": [
+  "Élénksárga korong alakú test",
+  "megnyúlt csőrszerű száj",
+  "fehér tüske a faroknyélen",
+  "magas hát- és farok alatti úszó."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Zebrasoma scopas",
+   "magyar_nev": "Barna doktorhal",
+   "kulonbseg": "A teste barna vagy szürkés, nem élénksárga."
+  },
+  {
+   "latin": "Acanthurus pyroferus",
+   "magyar_nev": "Mimikri doktorhal",
+   "kulonbseg": "Fiatal korában sárga, de a szeme körül kék gyűrű látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tengeri darakór (Cryptocaryon)",
+  "Bársonybetegség (Amyloodinium)",
+  "Oldalvonal-erózió (HLLE)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 45000,
+ "ar_ft_max": 85000,
+ "tippek": [
+  "Mindig legyen előtte növényi táplálék (nori alga csipeszben).",
+  "Igényli az erős vízáramlást és a magas oxigénszintet.",
+  "Csak beállt, stabil biológiájú akváriumba telepítsük."
+ ],
+ "lista_nev": "Zebrasoma flavescens",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

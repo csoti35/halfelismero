@@ -1,0 +1,75 @@
+{
+ "id": "pogostemon-stellatus",
+ "tipus": "noveny",
+ "latin": "Pogostemon stellatus",
+ "regi_latin_nevek": [
+  "Eusteralis stellata"
+ ],
+ "magyar_nev": "Pogostemon stellatus",
+ "egyeb_nevek": [
+  "Csillag növény"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Pogostemon stellatus",
+ "csalad": "Lamiaceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Ausztrália, Ázsia",
+ "max_meret_cm": 50,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "magas",
+ "novekedes": "gyors",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Oldalhajtások és fejhajtások dugványozásával.",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "Lágyvizes halakkal",
+  "pontylazacokkal."
+ ],
+ "kerulendo": [
+  "Kemény vizet kedvelő fajok",
+  "növényevők."
+ ],
+ "felismeres_jegyek": [
+  "Hosszú",
+  "keskeny levelek örvökben",
+  "a hajtáscsúcs gyakran lilás vagy vöröses",
+  "fűrészes levélszél",
+  "robusztus szár."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limnophila aromatica",
+   "magyar_nev": "Aromás mocsári tündérhínár",
+   "kulonbseg": "Levelei szélesebbek és illatosak ha megdörzsölik."
+  },
+  {
+   "latin": "Pogostemon erectus",
+   "magyar_nev": "Pogostemon erectus",
+   "kulonbseg": "Levelei sokkal vékonyabbak és mindig zöldek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hajtáscsúcs elhalása mikrotápanyag hiány miatt",
+  "Levelek feketedése instabil paramétereknél"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Nagyon érzékeny a vízminőség ingadozására.",
+  "Lágy vizet és intenzív vas-utánpótlást igényel a színek megőrzéséhez.",
+  "Ne ültessük túl sűrűn, hogy az alsó levelek is kapjanak fényt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

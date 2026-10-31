@@ -1,0 +1,85 @@
+{
+ "id": "hypsolebias-faouri",
+ "tipus": "hal",
+ "latin": "Hypsolebias faouri",
+ "regi_latin_nevek": [
+  "Simpsonichthys faouri"
+ ],
+ "magyar_nev": "Faour-fogasponty (killi)",
+ "egyeb_nevek": [
+  "Faour legyezőhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Rivulidae",
+ "csoport": "Ikrázó fogaspontyok",
+ "szarmazas": "Brazília (São Francisco folyó medencéje)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 1,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek egymással szemben területvédők és agresszívak lehetnek. Rövid életű, szezonális hal.",
+ "rajhal": false,
+ "min_csoport": 3,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Kizárólag élő eleség (artémia, szúnyoglárva, tubifex).",
+ "tarsithato": [
+  "Legjobb fajspecifikus akváriumban tartani."
+ ],
+ "kerulendo": [
+  "Gyors úszású",
+  "agresszív vagy nagytestű halak."
+ ],
+ "szaporodas_mod": "Talajba ikrázó (szezonális)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Helyezzünk tőzeggel teli edényt az akváriumba az ikrázáshoz.",
+  "Az ikrákkal teli tőzeget vegyük ki és szárítsuk nyirkosra.",
+  "Tároljuk a tőzeget zárt zacskóban 3-4 hónapig (diapauza).",
+  "Öntsük fel a tőzeget lágy, hűvös vízzel a kikeléshez.",
+  "Az ivadékokat frissen keltetett artémiával etessük."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, úszóik megnyúltak és pontozottak; a nőstények kisebbek, szürkésbarnák, oldalukon sötét foltokkal.",
+ "felismeres_jegyek": [
+  "Zömök, oldalról lapított testfelépítés.",
+  "A hímek alapszíne kékes-szürke, függőleges sötét sávokkal.",
+  "Az úszókon apró, világító kék pettyek láthatók.",
+  "A hát- és farok alatti úszó lekerekített, de széles.",
+  "A nőstények testén 1-3 hangsúlyos fekete folt van."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hypsolebias magnificus",
+   "magyar_nev": "Pompás legyezőhal",
+   "kulonbseg": "A magnificus úszói hegyesebbek és vörösesebb tónusúak."
+  },
+  {
+   "latin": "Hypsolebias hellneri",
+   "magyar_nev": "Hellner-fogasponty",
+   "kulonbseg": "A hellneri mintázata sűrűbb és más a sávok eloszlása."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Bakteriális fertőzések a nem megfelelő vízminőség miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Szezonális hal, ezért ne várjunk hosszú élettartamot.",
+  "A víz legyen tőzeggel szűrt és lágy.",
+  "Csak akkor vágjunk bele, ha tudunk folyamatosan élő eleséget biztosítani."
+ ],
+ "lista_nev": "Hypsolebias faouri",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

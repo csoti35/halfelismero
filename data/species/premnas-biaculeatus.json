@@ -1,0 +1,79 @@
+{
+ "id": "premnas-biaculeatus",
+ "tipus": "hal",
+ "latin": "Premnas biaculeatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tengeri bohóchal, maroon",
+ "lista_nev": "Premnas biaculeatus",
+ "egyeb_nevek": [
+  "Tüskésarcú bohóchal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacentridae",
+ "csoport": "Bohóchalak",
+ "szarmazas": "Indo-Ausztrál szigetvilág",
+ "max_meret_cm": 16,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "A legagresszívabb bohóchal faj. Területvédő, különösen a nőstények támadóak fajtársaikkal és más halakkal szemben is.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (mysis, artémia, algás tápok, pelletek)",
+ "tarsithato": [
+  "Csak hasonlóan robusztus és agresszív halakkal."
+ ],
+ "kerulendo": [
+  "Más bohóchalak",
+  "félénk fajok",
+  "kistestű halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Párba állítás (a nőstény sokkal nagyobb).",
+  "Az anemóna melletti kőfelület megtisztítása.",
+  "Az ikrák lerakása után a hím gondozza azokat.",
+  "A lárvák 7-9 nap után kelnek ki sötétben."
+ ],
+ "ivari_kulonbseg": "A nőstények jelentősen nagyobbak és sötétebbek, a hímek élénkebb vörösek.",
+ "felismeres_jegyek": [
+  "Mélyvörös vagy gesztenyebarna alapszín",
+  "Három vékony fehér vagy arany sáv a testen",
+  "Jellegzetes tüske az arcán (kopoltyúfedőn)",
+  "Lekerekített úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amphiprion ocellaris",
+   "magyar_nev": "Közönséges bohóchal",
+   "kulonbseg": "Nincs tüskéje az arcán, sokkal békésebb és kisebb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Brooklynella hostilis",
+  "Amyloodinium",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 9000,
+ "ar_ft_max": 25000,
+ "tippek": [
+  "Legjobb Entacmaea quadricolor anemónával együtt tartani.",
+  "Csak egy párt tartsunk egy akváriumban.",
+  "Vigyázat, takarításkor a kézre is rátámadhat!"
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

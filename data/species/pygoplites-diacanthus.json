@@ -1,0 +1,82 @@
+{
+ "id": "pygoplites-diacanthus",
+ "tipus": "hal",
+ "latin": "Pygoplites diacanthus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pajzshal / királyi angyalhal",
+ "lista_nev": "Pygoplites diacanthus",
+ "egyeb_nevek": [
+  "Király-császárhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacanthidae",
+ "csoport": "Tengeri sügérek",
+ "szarmazas": "Indo-Csendes-óceán, Vörös-tenger",
+ "max_meret_cm": 25,
+ "elettartam_ev": 15,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Félénk, de fajtársaival és hasonló méretű császárhalakkal szemben agresszív. Korallos akváriumban megcsipkedheti a korallokat és szivacsokat.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (speciális: szivacsok, zsákállatok, fagyasztott eleség, alga)",
+ "tarsithato": [
+  "Békés nagyobb testű halakkal",
+  "doktorhalakkal"
+ ],
+ "kerulendo": [
+  "Más császárhalak",
+  "agresszív ragadozók",
+  "kényes korallok"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szaporítása rendkívül ritka. Nyílt vízi ívók",
+  "az ikrák lebegnek. Az ivadékok felnevelése speciális planktonikus táplálékot igényel."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem megkülönböztethetőek.",
+ "felismeres_jegyek": [
+  "Függőleges kék",
+  "fehér és narancssárga csíkozás az oldalon. A hátúszó hátsó része sötétkék",
+  "apró pöttyökkel. A farokúszó élénksárga. Erős tüske a kopoltyúfedőn."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pomacanthus imperator",
+   "magyar_nev": "Császárhal",
+   "kulonbseg": "Vízszintes sárga-kék csíkozás, fekete maszk a szemnél."
+  },
+  {
+   "latin": "Holacanthus ciliaris",
+   "magyar_nev": "Király-angyalhal",
+   "kulonbseg": "Kékebb alapszín, homlokán sötét folt (korona)."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich (Cryptocaryon)",
+  "Marine Velvet (Amyloodinium)",
+  "HLLE (fej- és oldalvonal erózió)"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 65000,
+ "ar_ft_max": 120000,
+ "tippek": [
+  "Vásárláskor csak olyan példányt válasszunk, amelyik már bizonyítottan eszik a kereskedésben.",
+  "A Vörös-tengerből származó példányok általában színesebbek és szívósabbak.",
+  "Rengeteg élő sziklát és búvóhelyet igényel a stressz csökkentése érdekében."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

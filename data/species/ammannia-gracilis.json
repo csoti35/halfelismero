@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Ammannia gracilis",
+ "id": "ammannia-gracilis",
+ "tipus": "noveny",
+ "latin": "Ammannia gracilis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kecses ammánia",
+ "egyeb_nevek": [
+  "Nagy ammánia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lythraceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Nyugat-Afrika",
+ "max_meret_cm": 50,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "magas",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Fejeléssel (hajtásdugványozással) vagy oldalhajtások leválasztásával.",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Kisméretű",
+  "békés halakkal",
+  "mint a pontylazacok és törpe sügérek",
+  "valamint édesvízi garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagy testű",
+  "gyökereket kitúró cichlidekkel és növényevő halakkal (pl. tündérlazacok",
+  "nagy algaevő csigák)."
+ ],
+ "felismeres_jegyek": [
+  "Erőteljes, vastag szár",
+  "Keresztben átellenes állású, keskeny, hosszúkás levelek",
+  "Erős fényben a felső levelek narancssárga vagy élénk konyak-vörös színűek",
+  "Víz alatt lágyabb, hajlékonyabb levélszerkezet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ammannia senegalensis",
+   "magyar_nev": "Szenegáli ammánia",
+   "kulonbseg": "Kisebb termetű, levelei rövidebbek és görbébbek, színe sötétebb vörösesbarna."
+  },
+  {
+   "latin": "Nesaea pedicellata",
+   "magyar_nev": "Sárga neszéa",
+   "kulonbseg": "Szára és levélnyél része kifejezetten sárgás-pirosas árnyalatú, levelei szélesebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Mikrotápanyag-hiány (főleg vas és kálium hiányában a levelek fakulnak, lyukadnak)",
+  "Alsó levelek elrohadása és felkopaszodás fényhiány esetén",
+  "Hirtelen környezetváltozásra reagáló levélhullás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Bőséges CO2-adagolást és intenzív megvilágítást igényel az élénk vörös szín eléréséhez.",
+  "Tápanyagban gazdag aljzatot (táptalajt) igényel, és rendszeres vas-, illetve káliumpótlást a vízoszlopon keresztül.",
+  "Ne ültessük túl sűrűn a hajtásokat, hogy az alsó levelek is elegendő fényt kapjanak."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

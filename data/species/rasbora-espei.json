@@ -1,0 +1,90 @@
+{
+ "id": "rasbora-espei",
+ "tipus": "hal",
+ "latin": "Trigonostigma espei",
+ "regi_latin_nevek": [
+  "Rasbora espei"
+ ],
+ "magyar_nev": "Espei-razbóra",
+ "egyeb_nevek": [
+  "Karcsú ékfoltos razbóra",
+  "Espei razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Kambodzsa)",
+ "max_meret_cm": 4,
+ "elettartam_ev": 4,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, élénk mozgású csapathal, amely jól érzi magát más békés fajok társaságában.",
+ "rajhal": true,
+ "min_csoport": 8,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (apró szemű lemezes táp, artémia, cyclops)",
+ "tarsithato": [
+  "Más razbórákkal",
+  "dániókkal",
+  "békés törpesügérekkel",
+  "garnélákkal"
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak"
+ ],
+ "szaporodas_mod": "ikráit levél fonákjára ragasztja",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy",
+  "enyhén savas víz",
+  "széles levelű növények (pl. Cryptocoryne)",
+  "az ívás után a szülőket el kell távolítani",
+  "az ivadék apró eleséget igényel."
+ ],
+ "ivari_kulonbseg": "A hímek karcsúbbak és intenzívebb színűek, a nőstények hasa kerekdedebb.",
+ "felismeres_jegyek": [
+  "Narancssárgás-rézvörös alapszín",
+  "a test hátsó részén fekete",
+  "ék alakú folt",
+  "karcsúbb testalkat mint a sima ékfoltosnál",
+  "átlátszó úszók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trigonostigma heteromorpha",
+   "magyar_nev": "Ékfoltos razbóra",
+   "kulonbseg": "Magasabb testalkat, az ék alakú folt nagyobb és szélesebb."
+  },
+  {
+   "latin": "Trigonostigma hengeli",
+   "magyar_nev": "Hengel razbórája",
+   "kulonbseg": "Színe halványabb, csak az ék folt felett van egy neonos narancs csík."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Bársonybetegség (Oodinium)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 450,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Sötét aljzat és dús növényzet mellett mutatják meg legszebb színeiket.",
+  "Csapatban tartva sokkal bátrabbak és látványosabbak.",
+  "Érzékenyek a hirtelen vízminőség-változásra."
+ ],
+ "lista_nev": "Rasbora espei",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

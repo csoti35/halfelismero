@@ -1,0 +1,85 @@
+{
+ "id": "hemichromis-bimaculatus",
+ "tipus": "hal",
+ "latin": "Hemichromis bimaculatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Ékszersügér",
+ "egyeb_nevek": [
+  "Kétfoltú bíborsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cichlidae",
+ "csoport": "Sügérek",
+ "szarmazas": "Nyugat-Afrika",
+ "max_meret_cm": 12,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Ívási időszakban rendkívül agresszív és területvédő. Más halakkal szemben összeférhetetlen lehet.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 7.5,
+ "gh_min": 5,
+ "gh_max": 15,
+ "taplalek": "Mindenevő, kedveli az élő és fagyasztott eleséget, de elfogadja a granulátumot is.",
+ "tarsithato": [
+  "Csak hasonló méretű és vérmérsékletű robusztus sügérekkel."
+ ],
+ "kerulendo": [
+  "Kistestű halak",
+  "békés fajok",
+  "garnélák."
+ ],
+ "szaporodas_mod": "Aljzatra ikrázó",
+ "szaporitas_nehezseg": 2,
+ "szaporitas_lepesek": [
+  "Alakítsunk ki stabil párt.",
+  "Tisztítsanak meg egy lapos követ vagy cserepet.",
+  "Az ikrákat mindkét szülő hevesen védi.",
+  "Az ivadékok 2-3 nap után kelnek ki.",
+  "Frissen kelt artémiával indítható az etetésük."
+ ],
+ "ivari_kulonbseg": "Íváskor a nőstények gyakran élénkebb vörösek; a hímek hátúszója hegyesebb.",
+ "felismeres_jegyek": [
+  "Alapszíne vöröses-barna, amely íváskor ragyogó bíborvörössé válik.",
+  "Két nagy fekete folt: egy a test közepén, egy a kopoltyúfedőn.",
+  "Testét apró, irizáló türkizkék pettyek díszítik.",
+  "Erőteljes sügér-testalkat.",
+  "A hátúszó és a farok alatti úszó végei kékes szegélyűek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hemichromis lifalili",
+   "magyar_nev": "Lifalili-bíborsügér",
+   "kulonbseg": "A lifalili kisebb marad és nincs fekete folt a faroktőnél."
+  },
+  {
+   "latin": "Hemichromis letourneuxi",
+   "magyar_nev": "Egyiptomi bíborsügér",
+   "kulonbseg": "Kevésbé élénk vörös, és elterjedési területe északabbra van."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Darakór",
+  "Sügérbetegség (Hexamita)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Biztosítsunk sok búvóhelyet kövekből és gyökerekből.",
+  "Csak párban tartsuk őket, ha szaporítani szeretnénk.",
+  "A növényeket érdemes cserépbe ültetni, mert kiáshatják őket."
+ ],
+ "lista_nev": "Hemichromis bimaculatus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

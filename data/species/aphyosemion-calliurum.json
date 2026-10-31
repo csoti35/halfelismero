@@ -1,0 +1,78 @@
+{
+ "id": "aphyosemion-calliurum",
+ "tipus": "hal",
+ "latin": "Aphyosemion calliurum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Lantfarkú fogasponty (killi)",
+ "lista_nev": "Aphyosemion calliurum",
+ "egyeb_nevek": [
+  "Vörösfoltos fogasponty"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nothobranchiidae",
+ "csoport": "Fogaspontyok (killik)",
+ "szarmazas": "Nyugat-Afrika (Nigéria, Kamerun)",
+ "max_meret_cm": 5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A hímek egymással szemben területvédők. Békés közösségi halakkal tartható, de legjobb fajspecifikus akváriumban.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "felso",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "taplalek": "Elsősorban élő eleség (szúnyoglárva, daphnia, artémia), néha fagyasztott.",
+ "tarsithato": [
+  "Hasonló igényű",
+  "békés halakkal (pl. kistestű lazacok)."
+ ],
+ "kerulendo": [
+  "Nagy",
+  "agresszív halak",
+  "csipkelődős fajok."
+ ],
+ "szaporodas_mod": "Ikrázó (nem szezonális)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "Lágy, enyhén savas víz és finomlevelű növények vagy ívató mopsz.",
+  "Az ikrákat a növények közé rakják.",
+  "Az ikrák vízben fejlődnek, kb. 12-14 nap alatt kelnek ki.",
+  "Az ivadékok frissen kelt artémiával nevelhetők."
+ ],
+ "ivari_kulonbseg": "A hímek színesebbek, úszóik megnyúltak, lant alakúak; a nőstények barnásak és kisebb úszójúak.",
+ "felismeres_jegyek": [
+  "A hím farokúszója lant alakú, szélein színes szegéllyel",
+  "Vörös foltok és vonalak az oldalon",
+  "Kékes-zöldes irizálás a testen",
+  "Felső állású száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aphyosemion australe",
+   "magyar_nev": "Fokföldi fogasponty (killi)",
+   "kulonbseg": "Más színmintázat, az australe úszói gyakran narancsosabbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Oodinium (bársonybetegség)",
+  "Bakteriális fertőzések a rossz vízminőség miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Az akváriumot szorosan le kell fedni, mert kiváló ugrók.",
+  "Kedvelik a sötétebb, növényekkel dúsan beültetett medencét.",
+  "A túl magas hőmérséklet rövidíti az élettartamukat."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

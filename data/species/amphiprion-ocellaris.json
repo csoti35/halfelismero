@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Amphiprion ocellaris",
+ "id": "amphiprion-ocellaris",
+ "tipus": "hal",
+ "latin": "Amphiprion ocellaris",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Bohóchal",
+ "egyeb_nevek": [
+  "Némó"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacentridae",
+ "csoport": "Tengeri sügérek",
+ "szarmazas": "Indo-Csendes-óceán",
+ "max_meret_cm": 9,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de a területét (főleg a gazdaanemónát) vehemensen védi. Párban tartható.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (fagyasztott mysis, artémia, jó minőségű pellet)",
+ "tarsithato": [
+  "Más békés tengeri halakkal",
+  "korallokkal"
+ ],
+ "kerulendo": [
+  "Nagy ragadozók",
+  "agresszív sügérek"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Stabil pár kialakítása",
+  "Megfelelő ívatóhely (lapos kő vagy cserép) biztosítása",
+  "Az ikrák gondozása a hím által",
+  "Kikelés után az ivadékok etetése rotiferával (kerekesféreggel)"
+ ],
+ "ivari_kulonbseg": "A nőstények jelentősen nagyobbak; a domináns egyed válik nősténnyé.",
+ "felismeres_jegyek": [
+  "Élénknarancs alapszín",
+  "három függőleges fehér sáv",
+  "a sávok széle vékony fekete kerettel rendelkezik",
+  "11 hátúszótüske",
+  "lekerekített úszók"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Amphiprion percula",
+   "magyar_nev": "Valódi bohóchal",
+   "kulonbseg": "A fekete szegélyek a fehér sávok mentén sokkal vastagabbak, és 10 hátúszótüskéje van."
+  },
+  {
+   "latin": "Amphiprion clarkii",
+   "magyar_nev": "Clark-bohóchal",
+   "kulonbseg": "Testformája robusztusabb, farkúszója sárga vagy fehér, nem narancs."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Brooklynella",
+  "Marine Ich (darakór)",
+  "Marine Velvet"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Anemóna nélkül is tartható, de igényli a búvóhelyet.",
+  "Érdemes tenyésztett példányokat vásárolni a vadon fogottak helyett.",
+  "Párban tartva sokkal érdekesebb a viselkedése."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,90 @@
+{
+ "id": "pterois-volitans",
+ "tipus": "hal",
+ "latin": "Pterois volitans",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tűzhal",
+ "egyeb_nevek": [
+  "Szárnyas tűzhal",
+  "Oroszlánhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Scorpaenidae",
+ "csoport": "Tengeri halak - Skorpióhal-alakúak",
+ "szarmazas": "Indo-csendes-óceáni térség",
+ "max_meret_cm": 35,
+ "elettartam_ev": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Ragadozó, minden halat és rákot megeszik, ami befér a száján. Az emberre nézve mérgező.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 500,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Húsevő; élő vagy fagyasztott apró halak, garnélák, kagylóhús.",
+ "tarsithato": [
+  "Nagy testű halakkal",
+  "amiket nem tud lenyelni (pl. nagyobb doktorhalak",
+  "sünhalak)."
+ ],
+ "kerulendo": [
+  "Kisméretű halak",
+  "garnélák",
+  "tisztogató halak."
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban ritka",
+  "a pár násztáncot jár",
+  "a nőstény két kocsonyás ikracsomagot bocsát ki",
+  "a lárvák 36 óra után kelnek ki",
+  "apró élő eleséget igényelnek."
+ ],
+ "ivari_kulonbseg": "Nem látható külsőleg.",
+ "felismeres_jegyek": [
+  "Vörösesbarna és fehér függőleges csíkozás",
+  "hatalmas",
+  "tollszerű mellúszók",
+  "megnyúlt",
+  "mérgező hátúszó sugarak",
+  "csontos kinövések a fején."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pterois miles",
+   "magyar_nev": "Indián tűzhal",
+   "kulonbseg": "Nagyon hasonló, de kevesebb úszósugárral rendelkezik."
+  },
+  {
+   "latin": "Dendrochirus zebra",
+   "magyar_nev": "Zebra tűzhal",
+   "kulonbseg": "Sokkal kisebb termetű, mellúszói legyezőszerűbbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bakteriális fertőzések",
+  "Szemgyulladás",
+  "Bőrférgesség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 15000,
+ "ar_ft_max": 35000,
+ "tippek": [
+  "Kezelésénél rendkívüli óvatosság szükséges a mérgező tüskék miatt.",
+  "Ne etessük túl, heti 3-4 bőséges etetés elegendő.",
+  "Akváriumi szoktatáskor szükség lehet élő eleségre (pl. molli) az evés beindításához."
+ ],
+ "lista_nev": "Pterois volitans",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

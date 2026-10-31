@@ -1,0 +1,73 @@
+{
+ "id": "gymnocoronis-spilanthoides",
+ "lista_nev": "Gymnocoronis spilanthoides",
+ "tipus": "noveny",
+ "latin": "Gymnocoronis spilanthoides",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Óriás mocsárihúr",
+ "egyeb_nevek": [
+  "Szenegáli teafű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Asteraceae",
+ "csoport": "Mocsári növény",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 60,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "dugványozás",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 15,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen hallal",
+  "de a növényevők károsíthatják a lágy leveleket."
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő sügérek."
+ ],
+ "felismeres_jegyek": [
+  "Vastag",
+  "üreges szár",
+  "keresztben átellenes lándzsás levelek",
+  "fűrészes levélszél",
+  "világoszöld szín",
+  "víz fölé nőve fehér virágzat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hygrophila corymbosa",
+   "magyar_nev": "Óriás vizi-indafű",
+   "kulonbseg": "A szára nem üreges, levelei simább szélűek és sötétebbek."
+  },
+  {
+   "latin": "Shinnersia rivularis",
+   "magyar_nev": "Mexikói tölgyfalevél",
+   "kulonbseg": "Levelei mélyebben karéjosak, tölgyfalevélre emlékeztetnek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vashiány miatti sárgulás",
+  "Fényhiány miatti alsó levélvesztés"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Rendkívül gyors növekedése miatt gyakori visszavágást igényel.",
+  "Kiváló nitrátfaló, segít az algák elleni küzdelemben.",
+  "Nyitott akváriumokban a víz fölé nőve mutatós fehér virágokat hoz."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

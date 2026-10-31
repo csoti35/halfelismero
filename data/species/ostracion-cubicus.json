@@ -1,0 +1,83 @@
+{
+ "id": "ostracion-cubicus",
+ "tipus": "hal",
+ "latin": "Ostracion cubicus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pöttyös dobozhal",
+ "egyeb_nevek": [
+  "Kockahal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Ostraciidae",
+ "csoport": "Tengeri halak",
+ "szarmazas": "Indo-Pacifikus térség",
+ "max_meret_cm": 45,
+ "elettartam_ev": 10,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés, de a fajtársaival szemben agresszív lehet. Stressz hatására mérgező pahitoxint bocsáthat ki a bőréből, ami az egész akvárium élővilágát elpusztíthatja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 600,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (algák, rákok, puhatestűek, fagyasztott eleség)",
+ "tarsithato": [
+  "Nagyobb testű",
+  "békés halakkal"
+ ],
+ "kerulendo": [
+  "Csipkelődős halak",
+  "agresszív sügérek",
+  "más bőröndhalak"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen. Nyílt vízi ívók. A lárvák felnevelése speciális planktonikus táplálékot igényel. Hatalmas víztömeget igényelnek a násztánchoz."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek kékes árnyalatúak lehetnek, a nőstények és a fiatalok sárgák fekete pöttyökkel.",
+ "felismeres_jegyek": [
+  "Kocka alakú test",
+  "kemény csontos páncél",
+  "sárga alapszín fekete pöttyökkel",
+  "kicsi és mozgékony úszók",
+  "csúcsos száj."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ostracion meleagris",
+   "magyar_nev": "Fehérpettyes bőröndhal",
+   "kulonbseg": "Sötétebb alapszín, sűrűbb fehér pöttyözés."
+  },
+  {
+   "latin": "Lactoria cornuta",
+   "magyar_nev": "Szarvas bőröndhal",
+   "kulonbseg": "A fejen és a faroknál jellegzetes szarvszerű nyúlványok találhatók."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich (darakor)",
+  "Marine Velvet",
+  "Pahitoxin mérgezés (önmérgezés)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 12000,
+ "ar_ft_max": 35000,
+ "tippek": [
+  "Csak tapasztalt akvaristáknak ajánlott a toxinveszély miatt.",
+  "Erős szűrést és aktív szenet igényel a víz tisztán tartásához.",
+  "Kerüljük a hirtelen mozdulatokat az akvárium körül, hogy ne stresszeljük."
+ ],
+ "lista_nev": "Ostracion cubicus",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

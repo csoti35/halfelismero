@@ -1,0 +1,74 @@
+{
+ "id": "eleocharis-acicularis",
+ "tipus": "noveny",
+ "latin": "Eleocharis acicularis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tűlevelű csetkáka",
+ "egyeb_nevek": [
+  "Tűlevelű eleocharis",
+  "Szálfű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Eleocharis acicularis",
+ "csalad": "Cyperaceae",
+ "csoport": "Gyeppótló fűféle",
+ "szarmazas": "Kozmopolita (világszerte)",
+ "max_meret_cm": 15,
+ "nehezseg": 3,
+ "kezdoknek": true,
+ "fenyigeny": "közepes-erős",
+ "co2_igeny": "közepes",
+ "novekedes": "közepes",
+ "elhelyezes": "előtér vagy középtér",
+ "szaporitas_noveny": "indákkal, tőosztással",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 10,
+ "homerseklet_max": 27,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen akváriumi élőlénnyel."
+ ],
+ "kerulendo": [
+  "Erősen algázó halak",
+  "amelyek kitéphetik a vékony szálakat."
+ ],
+ "felismeres_jegyek": [
+  "Hajszálvékony",
+  "tűszerű levelek",
+  "fűcsomószerű növekedés",
+  "világoszöld szín",
+  "föld alatti indákkal terjed."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Eleocharis parvula",
+   "magyar_nev": "Apró vízipálma",
+   "kulonbseg": "Alacsonyabb marad és a levelei enyhén görbülnek."
+  },
+  {
+   "latin": "Eleocharis vivipara",
+   "magyar_nev": "Sarjadó vízipálma",
+   "kulonbseg": "Sokkal magasabbra nő és a levelek hegyén hoz új hajtásokat."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fonalas algásodás a szálak között",
+  "Tápanyaghiány miatti barnulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Ültetés előtt érdemes a szálakat 2-3 cm-esre visszavágni a gyorsabb gyökeresedésért.",
+  "Finomszemcsés talajban terjed a leggyorsabban.",
+  "Rendszeres visszavágással sűrűbb gyepet alkothatunk."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

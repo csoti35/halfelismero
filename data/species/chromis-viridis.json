@@ -1,0 +1,76 @@
+{
+ "id": "chromis-viridis",
+ "tipus": "hal",
+ "lista_nev": "Chromis viridis",
+ "latin": "Chromis viridis",
+ "regi_latin_nevek": [
+  "Chromis caerulea"
+ ],
+ "magyar_nev": "Kék-zöld korallsügér",
+ "egyeb_nevek": [
+  "Kék-zöld korallsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacentridae",
+ "csoport": "Tengervízi halak",
+ "szarmazas": "Indo-Pacifikus térség",
+ "max_meret_cm": 8,
+ "elettartam_ev": 8,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "A korallsügérek között szokatlanul békés, rajban érzi jól magát. Idősebb korára a hímek dominánssá válhatnak.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő: plankton, fagyasztott eleségek, jó minőségű lemezes táp.",
+ "tarsithato": [
+  "Szinte bármilyen békés tengeri hallal."
+ ],
+ "kerulendo": [
+  "Nagy ragadozó halak",
+  "amelyek zsákmánynak nézik."
+ ],
+ "szaporodas_mod": "Aljzatra ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "A hím fészket készít a homokba vagy kövekre. Az ikrákat a hím őrzi. Az ivadékok felnevelése akváriumban nehéz a mikroszkopikus táplálékigény miatt."
+ ],
+ "ivari_kulonbseg": "A hímek íváskor sárgásabb árnyalatot öltenek.",
+ "felismeres_jegyek": [
+  "Világító türkizzöld vagy kékeszöld szín",
+  "fémes csillogás",
+  "villás farok",
+  "áramvonalas testalkat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Chromis atripectoralis",
+   "magyar_nev": "Feketehónaljú korallsügér",
+   "kulonbseg": "Sötét folt található a mellúszók tövében."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Uronema marinum (parazita)",
+  "Marine Ich."
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Nagyobb csapatban sokkal látványosabb és kevésbé félénk.",
+  "Szeret a korallágak (pl. Acropora) között bujkálni.",
+  "Napi többszöri etetést igényel a gyors anyagcseréje miatt."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

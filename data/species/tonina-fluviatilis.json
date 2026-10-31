@@ -1,0 +1,74 @@
+{
+ "id": "tonina-fluviatilis",
+ "tipus": "noveny",
+ "latin": "Tonina fluviatilis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tonina",
+ "egyeb_nevek": [
+  "Folyami tonina"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Tonina fluviatilis",
+ "csalad": "Eriocaulaceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Közép- és Dél-Amerika",
+ "max_meret_cm": 30,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "középtér",
+ "szaporitas_noveny": "fejdugványozással",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 6.5,
+ "gh_min": 1,
+ "gh_max": 5,
+ "tarsithato": [
+  "Lágyvizes halakkal",
+  "garnélákkal"
+ ],
+ "kerulendo": [
+  "Kemény vizet kedvelő fajok",
+  "nagytestű sügérek"
+ ],
+ "felismeres_jegyek": [
+  "Sűrűn álló",
+  "spirálisan elhelyezkedő apró levelek",
+  "világoszöld szín",
+  "merev",
+  "felfelé törekvő szár",
+  "fenyőághoz hasonló megjelenés."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Syngonanthus macrocaulon",
+   "magyar_nev": "Syngonanthus",
+   "kulonbseg": "Levelei vékonyabbak és sugárirányban állnak a hajtáscsúcson."
+  },
+  {
+   "latin": "Eriocaulon setaceum",
+   "magyar_nev": "Hajas üstökösvirág",
+   "kulonbseg": "Sokkal finomabb, tűszerű levelekkel rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levelek elfeketedése kemény vízben",
+  "Hajtáscsúcs elhalása nyomelemhiány miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kizárólag lágyított (RO) vízzel tartható hosszú távon.",
+  "Savanyú, tápanyagban gazdag talajt igényel.",
+  "Rendszeres vas- és mikrotápanyag-utánpótlás elengedhetetlen."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

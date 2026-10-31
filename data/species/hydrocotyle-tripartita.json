@@ -1,0 +1,74 @@
+{
+ "id": "hydrocotyle-tripartita",
+ "tipus": "noveny",
+ "latin": "Hydrocotyle tripartita",
+ "lista_nev": "Hydrocotyle tripartita",
+ "regi_latin_nevek": [
+  "Hydrocotyle sp. 'Japan'"
+ ],
+ "magyar_nev": "Háromosztatú gázlóvirág",
+ "egyeb_nevek": [
+  "Japán gázlóvirág"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araliaceae",
+ "csoport": "Előtéri / Középtéri növények",
+ "szarmazas": "Ausztrália, Délkelet-Ázsia",
+ "max_meret_cm": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "hajtásdugványozással",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "tarsithato": [
+  "Minden akváriumi élőlénnyel"
+ ],
+ "kerulendo": [
+  "Növényevő halak (pl. nagyobb aranyhalak)"
+ ],
+ "felismeres_jegyek": [
+  "Apró",
+  "háromkaréjos levelek",
+  "kúszó szár",
+  "világoszöld szín",
+  "sűrűn elágazó hajtásrendszer",
+  "ernyőszerű levélállás."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hydrocotyle leucocephala",
+   "magyar_nev": "Fehérfejű gázlóvirág",
+   "kulonbseg": "Sokkal nagyobb, kerekebb levelek, felfelé törekvő növekedés."
+  },
+  {
+   "latin": "Hydrocotyle verticillata",
+   "magyar_nev": "Pénzlevelű gázlóvirág",
+   "kulonbseg": "Teljesen kerek, pajzs alakú levelek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Nitrogénhiány (levelek kivilágosodása)",
+  "Fényhiány esetén felnyurgulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Erős fénnyel a talajon tartható, gyenge fénynél felfelé nő.",
+  "Akár dekorációkra, kövekre is rögzíthető, nem csak talajba ültethető.",
+  "Rendszeres visszavágást igényel, mert könnyen elnyom más növényeket."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

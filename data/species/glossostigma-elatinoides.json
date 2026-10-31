@@ -1,0 +1,73 @@
+{
+ "id": "glossostigma-elatinoides",
+ "tipus": "noveny",
+ "latin": "Glossostigma elatinoides",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Glosso",
+ "egyeb_nevek": [
+  "Nyelvlevél"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Glossostigma elatinoides",
+ "csalad": "Phrymaceae",
+ "csoport": "Szőnyegképző előtéri növény",
+ "szarmazas": "Ausztrália, Új-Zéland",
+ "max_meret_cm": 3,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon erős",
+ "co2_igeny": "magas",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "oldalhajtásokkal",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Kisebb testű pontylazacokkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Fényt kitakaró úszó növények",
+  "túró halak (pl. Corydoras)."
+ ],
+ "felismeres_jegyek": [
+  "Karakteresen nyelv alakú",
+  "párosával álló levelek",
+  "világoszöld szín",
+  "vízszintes indákkal terjed",
+  "nagyon alacsony marad erős fényben."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Marsilea hirsuta",
+   "magyar_nev": "Szőrös mételyfű",
+   "kulonbseg": "Levelei sötétebbek és gyakran lóhere formájúak."
+  },
+  {
+   "latin": "Micranthemum tweediei",
+   "magyar_nev": "Monte Carlo moha",
+   "kulonbseg": "Levelei kerekebbek, nem nyelv alakúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány miatti függőleges növekedés",
+  "Vashiány miatti kivilágosodás"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 1900,
+ "ar_ft_max": 3800,
+ "tippek": [
+  "Kizárólag erős megvilágítás mellett marad a talajon.",
+  "Lágy vizet és tápdús talajt igényel a gyors terjedéshez.",
+  "Ha a levelek egymásra kezdenek nőni, ideje megritkítani a szőnyeget."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

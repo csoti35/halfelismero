@@ -1,0 +1,72 @@
+{
+ "id": "mayaca-fluviatilis",
+ "tipus": "noveny",
+ "latin": "Mayaca fluviatilis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Mohahínár",
+ "egyeb_nevek": [
+  "Folyami mohahínár"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Mayaca fluviatilis",
+ "csalad": "Mayacaceae",
+ "csoport": "Hínárfélék",
+ "szarmazas": "Közép- és Dél-Amerika",
+ "max_meret_cm": 40,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "erős",
+ "co2_igeny": "közepes",
+ "novekedes": "gyors",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "fejdugványozás",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal."
+ ],
+ "kerulendo": [
+  "Durva szájú algaevők",
+  "amelyek károsíthatják a finom leveleket."
+ ],
+ "felismeres_jegyek": [
+  "Rendkívül vékony",
+  "tűszerű",
+  "világoszöld levelek",
+  "mohaszerű megjelenés",
+  "lágy és hajlékony szár",
+  "sűrű levélzet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Egeria densa",
+   "magyar_nev": "Átokhínár",
+   "kulonbseg": "Az átokhínár levelei sokkal szélesebbek és vaskosabbak."
+  },
+  {
+   "latin": "Lagorosiphon major",
+   "magyar_nev": "Fodros átokhínár",
+   "kulonbseg": "A levelek visszahajlóak és sötétebb zöldek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vashiány (fehéredő hajtáscsúcsok)",
+  "Algásodásra való hajlam a finom levelek között"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Kiváló indikátornövény a vashiány kimutatására.",
+  "Szereti a tiszta, lebegő szennyeződésektől mentes vizet, mert a levelei könnyen felfogják a koszt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Salvinia auriculata",
+ "id": "salvinia-auriculata",
+ "tipus": "noveny",
+ "latin": "Salvinia auriculata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Füles vízipáfrány",
+ "egyeb_nevek": [
+  "Kis úszópáfrány"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Salviniaceae",
+ "csoport": "Úszónövények",
+ "szarmazas": "Közép- és Dél-Amerika",
+ "max_meret_cm": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes-erős",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "vízfelszín",
+ "szaporitas_noveny": "oldalhajtásokkal, osztódással",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen hallal",
+  "amely nem eszi meg a leveleit."
+ ],
+ "kerulendo": [
+  "Erős áramlású szűrők",
+  "növényevő halak (pl. nagyobb aranyhalak)."
+ ],
+ "felismeres_jegyek": [
+  "Kerekded",
+  "párosával álló levelek",
+  "a levelek felszínén apró",
+  "vízlepergető szőrök találhatók",
+  "a víz alatt gyökérszerűen módosult levelek lógnak",
+  "színe világoszöld."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Salvinia natans",
+   "magyar_nev": "Sulyomtermő vízipáfrány",
+   "kulonbseg": "Kisebb levelek, Európában őshonos, kevésbé bírja a tartós meleget."
+  },
+  {
+   "latin": "Salvinia minima",
+   "magyar_nev": "Apró vízipáfrány",
+   "kulonbseg": "Kisebb méretű levelek, a szőrszálak szerkezete eltérő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélbarnulás (túl erős közvetlen hő vagy pára miatt)",
+  "Vashiány (sárguló levelek)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Ne hagyjuk, hogy teljesen befedje a felszínt, mert elzárja a fényt az alsóbb növényektől.",
+  "Kerüljük a csepegő kondenzvizet a leveleken, mert rothadást okozhat.",
+  "Kiváló nitrátfaló, segít a víz tisztán tartásában."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

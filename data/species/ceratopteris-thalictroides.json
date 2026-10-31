@@ -1,0 +1,73 @@
+{
+ "id": "ceratopteris-thalictroides",
+ "tipus": "noveny",
+ "latin": "Ceratopteris thalictroides",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Szarvaspáfrány",
+ "egyeb_nevek": [
+  "Finomlevelű vízipáfrány"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Ceratopteris thalictroides",
+ "csalad": "Pteridaceae",
+ "csoport": "Páfrányok",
+ "szarmazas": "Kozmopolita (trópusi területek)",
+ "max_meret_cm": 50,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "háttér vagy úszónövény",
+ "szaporitas_noveny": "adventív rügyekkel a levelek szélén",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 2,
+ "gh_max": 18,
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal."
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő halak (pl. aranyhal",
+  "nagy sügérek)."
+ ],
+ "felismeres_jegyek": [
+  "Világoszöld szín",
+  "finoman szabdalt",
+  "sallangos levelek",
+  "a levelek vékonyabbak és ágasabbak mint a C. cornuta esetében",
+  "úszó és ültetett formában is tartható."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ceratopteris cornuta",
+   "magyar_nev": "Szarvas vízipáfrány",
+   "kulonbseg": "Levelei szélesebbek, kevésbé finoman szabdaltak."
+  },
+  {
+   "latin": "Hygrophila difformis",
+   "magyar_nev": "Vízi hortenzia",
+   "kulonbseg": "Szára merevebb, levelei szemben állnak, nem páfrány."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tápanyaghiány esetén a levelek áttetszővé válnak",
+  "Csigák rágása"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Kiváló búvóhely az ivadékhalak számára, ha úszónövényként használjuk.",
+  "Gyors növekedése miatt hatékonyan vonja ki a nitrátot a vízből.",
+  "Ha elültetjük, ne temessük túl mélyre a tövét a talajba."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

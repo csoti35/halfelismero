@@ -1,0 +1,74 @@
+{
+ "id": "pogostemon-erectus",
+ "tipus": "noveny",
+ "latin": "Pogostemon erectus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pogostemon erectus",
+ "egyeb_nevek": [
+  "Sünnövény"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Pogostemon erectus",
+ "csalad": "Lamiaceae",
+ "csoport": "Száras növények",
+ "szarmazas": "India",
+ "max_meret_cm": 40,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "közepes",
+ "novekedes": "közepes",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Fejhajtások levágásával és dugványozással.",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 18,
+ "homerseklet_max": 30,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal."
+ ],
+ "kerulendo": [
+  "Nagytestű sügérek",
+  "amelyek kitéphetik a finom leveleket."
+ ],
+ "felismeres_jegyek": [
+  "Fenyőághoz hasonló megjelenés",
+  "sűrűn álló",
+  "vékony",
+  "tűszerű levelek",
+  "világoszöld szín",
+  "merev",
+  "függőleges szár."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rotala wallichii",
+   "magyar_nev": "Rotala wallichii",
+   "kulonbseg": "Levelei finomabbak és gyakran vöröses színűek."
+  },
+  {
+   "latin": "Limnophila sessiliflora",
+   "magyar_nev": "Ambulia",
+   "kulonbseg": "Levelei örvökben állnak és sokkal puhábbak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Alsó levelek elhalása fényhiány miatt",
+  "Nitrogénhiány esetén lassú növekedés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Csoportosan ültetve mutat a legjobban a háttérben.",
+  "Rendszeres metszéssel bokrosodásra ösztönözhető.",
+  "Kevésbé igényes a CO2-re, de meghálálja a pótlást."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

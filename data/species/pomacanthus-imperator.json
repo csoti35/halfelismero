@@ -1,0 +1,86 @@
+{
+ "id": "pomacanthus-imperator",
+ "tipus": "hal",
+ "latin": "Pomacanthus imperator",
+ "regi_latin_nevek": [
+  "Chaetodon imperator"
+ ],
+ "magyar_nev": "Színváltó császárhal",
+ "egyeb_nevek": [
+  "Császárhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacanthidae",
+ "csoport": "Tengervízi sügérek - Császárhalak",
+ "szarmazas": "Indo-Csendes-óceán, Vörös-tenger",
+ "max_meret_cm": 40,
+ "elettartam_ev": 15,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, különösen más császárhalakkal szemben agresszív. A korallokat és egyéb gerincteleneket megcsipkedheti.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 700,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (szivacsok, algák, fagyasztott tengeri eleségek, speciális császárhal-táp)",
+ "tarsithato": [
+  "Hasonló méretű",
+  "robusztus tengeri halakkal."
+ ],
+ "kerulendo": [
+  "Más császárhalak",
+  "kisméretű békés halak",
+  "LPS korallok."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen. Hatalmas víztömeget és speciális planktonikus táplálékot igényelnek az ivadékok. Párban tartva",
+  "nagy medencében",
+  "alkonyatkor ívnak a vízoszlopban."
+ ],
+ "ivari_kulonbseg": "A hímek általában nagyobbak, és a szem körüli kék maszk sötétebb, de nehezen megkülönböztethetőek.",
+ "felismeres_jegyek": [
+  "Kifejlett korban vízszintes sárga-kék csíkozás",
+  "fekete maszk a szemen",
+  "sárga farokúszó. A fiatalok sötétkékek",
+  "fehér és világoskék koncentrikus körökkel."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pomacanthus annularis",
+   "magyar_nev": "Gyűrűs császárhal",
+   "kulonbseg": "Íves kék csíkok a testen, a szem mögött kék gyűrű látható."
+  },
+  {
+   "latin": "Pomacanthus semicirculatus",
+   "magyar_nev": "Smaragd császárhal",
+   "kulonbseg": "A fiatalok mintázata hasonló, de a fehér csíkok inkább félkörívesek, nem teljes körök."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich (Cryptocaryon)",
+  "Marine Velvet (Amyloodinium)",
+  "HLLE (fej- és oldalszervi erózió)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 45000,
+ "ar_ft_max": 120000,
+ "tippek": [
+  "Csak beállt, stabil vízminőségű akváriumba telepítsük.",
+  "Változatos étrendet igényel, feltétlenül adjunk neki szivacstartalmú tápot.",
+  "A fiatal példányok színe teljesen megváltozik a felnőtté válás során."
+ ],
+ "lista_nev": "Pomacanthus imperator",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

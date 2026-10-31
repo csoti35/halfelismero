@@ -1,0 +1,82 @@
+{
+ "id": "centropyge-bispinosa",
+ "tipus": "hal",
+ "latin": "Centropyge bispinosa",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe sügérhal / korallőr",
+ "egyeb_nevek": [
+  "Korall szépség"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacanthidae",
+ "csoport": "Tengeri halak",
+ "szarmazas": "Indo-Pacifikus térség",
+ "max_meret_cm": 10,
+ "elettartam_ev": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő, különösen más angyalhalakkal szemben. Néha megcsipkedheti a korallokat (főleg az LPS és kagyló típusokat).",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 250,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (algák, fagyasztott eleség, spirulina, angyalhal-táp)",
+ "tarsithato": [
+  "Hasonló méretű",
+  "félig agresszív halakkal"
+ ],
+ "kerulendo": [
+  "Más Centropyge fajok",
+  "nagyon békés",
+  "félénk halak"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Háremben élnek. Alkonyatkor ívnak a vízoszlopban. A lárvák nevelése rendkívül nehéz",
+  "speciális élő eleséget igényelnek. Fogságban ritkán sikerül."
+ ],
+ "ivari_kulonbseg": "A hímek általában nagyobbak, és a hát- valamint farokalatti úszójuk hegyesebb.",
+ "felismeres_jegyek": [
+  "Mélykék vagy lila test",
+  "narancssárga vagy vöröses függőleges csíkozás az oldalon",
+  "kék szegély az úszókon",
+  "kopoltyúfedőn tüske."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Centropyge acanthops",
+   "magyar_nev": "Narancshátú törpeangyal",
+   "kulonbseg": "A hátoldal élénk narancssárga, a test többi része kék."
+  },
+  {
+   "latin": "Centropyge loricula",
+   "magyar_nev": "Lángvörös törpeangyal",
+   "kulonbseg": "Élénkvörös alapszín fekete függőleges csíkokkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich",
+  "Bélparaziták"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 15000,
+ "ar_ft_max": 28000,
+ "tippek": [
+  "Sok élő sziklát igényel a legelészéshez.",
+  "Csak jól beállt, algásodó akváriumba telepítsük.",
+  "Figyeljük a korallokat, mert egyénfüggő, hogy melyik példány bántja őket."
+ ],
+ "lista_nev": "Centropyge bispinosa",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

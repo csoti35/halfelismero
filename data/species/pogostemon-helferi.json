@@ -1,0 +1,76 @@
+{
+ "id": "pogostemon-helferi",
+ "tipus": "noveny",
+ "latin": "Pogostemon helferi",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Pogostemon helferi",
+ "egyeb_nevek": [
+  "Kis csillag"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Pogostemon helferi",
+ "csalad": "Lamiaceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Thaiföld",
+ "max_meret_cm": 10,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "Oldalhajtások levágásával és visszaültetésével.",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 20,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "tarsithato": [
+  "Békés halakkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Növényevő halak",
+  "nagytestű fenéklakók",
+  "amelyek kitúrhatják."
+ ],
+ "felismeres_jegyek": [
+  "Kompakt",
+  "csillag alakú növekedés",
+  "fodros szélű",
+  "lándzsás levelek",
+  "élénkzöld szín",
+  "rövid szárcsomók."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pogostemon stellatus",
+   "magyar_nev": "Pogostemon stellatus",
+   "kulonbseg": "Sokkal magasabbra nő és levelei nem fodrosak."
+  },
+  {
+   "latin": "Eriocaulon cinereum",
+   "magyar_nev": "Eriocaulon cinereum",
+   "kulonbseg": "Levelei tűszerűek és merevebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vashiány miatti sárgulás",
+  "Fényhiány miatti megnyúlás",
+  "Olvadás hirtelen vízminőségi változáskor"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Igényli a tápdús aljzatot és a rendszeres folyékony tápozást.",
+  "Erős fény alatt marad meg az alacsony, tömött formája.",
+  "Ültetéskor érdemes kisebb csoportokra szedni a tövet."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

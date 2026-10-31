@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Alternanthera reineckii",
+ "id": "alternanthera-reineckii",
+ "tipus": "noveny",
+ "latin": "Alternanthera reineckii",
+ "regi_latin_nevek": [
+  "Achyranthes reineckii"
+ ],
+ "magyar_nev": "Vörös alternanthera",
+ "egyeb_nevek": [
+  "Papagájvirág",
+  "Alternanthera pink"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Amaranthaceae",
+ "csoport": "Stab/szárnövények",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 50,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "középtér / háttér",
+ "szaporitas_noveny": "Fejeléssel (szárdarabok elültetésével) vagy oldalhajtások leválasztásával.",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.8,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "Békes halak",
+  "Törpe rákok",
+  "Garnele"
+ ],
+ "kerulendo": [
+  "Növényevő sügérek",
+  "Nagyobb csigák (pl. almaccsiga koplaláskor)",
+  "Növényevő algaevők"
+ ],
+ "felismeres_jegyek": [
+  "Levelek fonákja élénk rózsaszínes-vöröses",
+  "Levelek színe a világoszöldtől a mélyvörösig terjed",
+  "Egyenesen felfelé törekvő szár",
+  "Átellenes levélállás"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Alternanthera reineckii 'Mini'",
+   "magyar_nev": "Törpe papagájvirág",
+   "kulonbseg": "Sokkal alacsonyabb termetű, tömöttebb gyepet vagy alacsony bokrot képez."
+  },
+  {
+   "latin": "Ludwigia repens",
+   "magyar_nev": "Kúszó tóalmácska",
+   "kulonbseg": "Levelei kerekdedebbek, vörös színe kevésbé rózsaszínes árnyalatú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fény- és tápanyaghiány miatti alsó levélhullás",
+  "Vas- és mikrotápanyag-hiány miatti fakulás",
+  "Lyukadós levelek (K-hiány)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Intenzív megvilágítás és folyamatos CO2-adagolás szükséges a mélyvörös szín eléréséhez.",
+  "Rendszeres mikro- és makrotápanyagozás, különösen a vas utánpótlása elengedhetetlen.",
+  "Az alsó levelek felkopaszodása esetén a szárakat vágjuk vissza és ültessük újra a fejdugványokat."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

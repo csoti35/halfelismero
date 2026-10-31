@@ -1,0 +1,81 @@
+{
+ "id": "gramma-loreto",
+ "tipus": "hal",
+ "latin": "Gramma loreto",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Királyi gramma",
+ "egyeb_nevek": [
+  "Tündérsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Grammatidae",
+ "csoport": "Tengeri halak",
+ "szarmazas": "Karib-térség",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés zátonylakó, de a saját fajtársaival és a hasonló színű halakkal szemben területvédő lehet. Szeret barlangokban bujkálni.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Húsevő (mysis, artémia, apró rákfélék, jó minőségű granulátum)",
+ "tarsithato": [
+  "Békés korallszirti halakkal"
+ ],
+ "kerulendo": [
+  "Nagytestű ragadozók",
+  "agresszív fajtársak"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Barlangba ívnak. A hím fészket épít algákból és törmelékből. Az ikrákat a hím őrzi. A kikelő lárvák nagyon aprók",
+  "nehéz az etetésük."
+ ],
+ "ivari_kulonbseg": "A hímek általában valamivel nagyobbak és hosszabb úszókkal rendelkeznek.",
+ "felismeres_jegyek": [
+  "A test elülső fele élénk lila",
+  "hátulsó fele sárga",
+  "a két szín között éles az átmenet",
+  "fekete vonal a szemen keresztül",
+  "fekete folt a hátúszón."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pictichromis paccagnellae",
+   "magyar_nev": "Kétszínű ál-tündérsügér",
+   "kulonbseg": "Nincs fekete vonal a szemén, a színek határa sokkal élesebb, agresszívabb."
+  },
+  {
+   "latin": "Gramma melacara",
+   "magyar_nev": "Feketefejű gramma",
+   "kulonbseg": "A test lila, de a fejtető fekete."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich",
+  "Úszórothadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 9000,
+ "ar_ft_max": 18000,
+ "tippek": [
+  "Biztosítsunk számára sok búvóhelyet és barlangot.",
+  "Kiváló választás kezdő tengeri akvaristáknak.",
+  "Ugrálós faj, az akváriumot le kell fedni."
+ ],
+ "lista_nev": "Gramma loreto",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

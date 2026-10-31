@@ -1,0 +1,87 @@
+{
+ "id": "gyrinocheilus-aymonieri",
+ "tipus": "hal",
+ "latin": "Gyrinocheilus aymonieri",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Moszatevő márna",
+ "egyeb_nevek": [
+  "Sziámi algázó",
+  "Algázó márna"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gyrinocheilidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 25,
+ "elettartam_ev": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fiatalon békés algázó, de kifejlett korára területvédővé és agresszívvá válik, rátapadhat más halak oldalára.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "taplalek": "Algák, növényi tabletták, forrázott zöldségek; idősebb korban fehérjét is igényel.",
+ "tarsithato": [
+  "Gyors úszású",
+  "robusztus halakkal."
+ ],
+ "kerulendo": [
+  "Lassú",
+  "nagy felületű halak (pl. diszkoszhal",
+  "skalár)",
+  "mert rájuk tapadhat."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen szaporítani.",
+  "Hormonális indukcióval szaporítják nagyüzemi telepeken.",
+  "Nagy úszóteret és erős áramlást igényelnének.",
+  "Az ivadékok felnevelése apró planktonikus eleséggel történik."
+ ],
+ "ivari_kulonbseg": "A hímek orrán ívási időszakban nászkiütések (tuberkulák) jelennek meg; a nőstények teltebbek.",
+ "felismeres_jegyek": [
+  "Megnyúlt, hengeres testforma.",
+  "Sajátos, tapadókoronggá módosult száj.",
+  "A kopoltyúfedő felett egy külön beömlőnyílás van a légzéshez.",
+  "Vadas színben barna, sötétebb hosszanti sávval vagy foltsorral.",
+  "Gyakori az aranysárga (albínó/lutínó) színváltozat."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Crossocheilus oblongus",
+   "magyar_nev": "Sziámi ormányoshal",
+   "kulonbseg": "Az ormányoshal szája nem tapadókorongos, és békésebb természetű."
+  },
+  {
+   "latin": "Ancistrus sp.",
+   "magyar_nev": "Algaevő harcsa",
+   "kulonbseg": "Az Ancistrus laposabb testű és tapogatói (agancsai) vannak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Bőrférgesség",
+  "Vitaminhiány miatti lesoványodás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Ne tartsuk túl kicsi akváriumban, mert megnő és agresszív lesz.",
+  "Idősebb korban ne várjuk el tőle, hogy csak algát egyen.",
+  "Az akváriumot jól le kell fedni, mert kiváló ugró."
+ ],
+ "lista_nev": "Gyrinocheilus aymonieri",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

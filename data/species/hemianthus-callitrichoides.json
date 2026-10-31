@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Hemianthus callitrichoides",
+ "id": "hemianthus-callitrichoides",
+ "tipus": "noveny",
+ "latin": "Hemianthus callitrichoides",
+ "regi_latin_nevek": [
+  "Hemianthus callitrichoides 'Cuba'"
+ ],
+ "magyar_nev": "Gyöngyfű (HC Cuba)",
+ "egyeb_nevek": [
+  "HCC",
+  "Kuba törpefüke"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Scrophulariaceae",
+ "csoport": "Gyepszőnyegképző",
+ "szarmazas": "Kuba",
+ "max_meret_cm": 3,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "kozepes",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "A besűrűsödött gyepszőnyeg kisebb csomókra osztásával és újraültetésével.",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 5.0,
+ "ph_max": 7.5,
+ "gh_min": 1,
+ "gh_max": 10,
+ "tarsithato": [
+  "Törpe garnélák",
+  "Kis pontylazacok",
+  "Otocinclus fajok"
+ ],
+ "kerulendo": [
+  "Aljzatot túró harcsák",
+  "Nagyobb csigák",
+  "Növényevő halak"
+ ],
+ "felismeres_jegyek": [
+  "Rendkívül apró, mindössze 1-2 mm-es kerekded levelek",
+  "Tömött, alacsony, szőnyegszerű növekedési forma",
+  "Világos- vagy üde zöld levelek",
+  "Sűrű gyökérzet és hajszálvékony szár"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Micranthemum 'Monte Carlo'",
+   "magyar_nev": "Monte Carlo növény",
+   "kulonbseg": "Levelei láthatóan nagyobbak, és jóval kevésbé igényes a fényre és CO2-re."
+  },
+  {
+   "latin": "Glossostigma elatinoides",
+   "magyar_nev": "Nyelvfüke",
+   "kulonbseg": "Hosszúkás, csepp vagy nyelvszerű levelei vannak, gyorsabban terjed."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélmállás tápanyag- vagy CO2-hiány esetén",
+  "Fonalas algásodás a lassú akklimatizáció alatt",
+  "Felbegyűlés és leválás az aljzatról sűrű szőnyeg esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Csak intenzív világítás és folyamatos CO2-adagolás mellett képez szép, tömör gyepszőnyeget.",
+  "Ültetéskor használjunk finom szemcséjű akváriumi talajt és csipeszt a hajtások rögzítéséhez."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

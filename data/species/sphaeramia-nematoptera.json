@@ -1,0 +1,78 @@
+{
+ "id": "sphaeramia-nematoptera",
+ "tipus": "hal",
+ "lista_nev": "Sphaeramia nematoptera",
+ "latin": "Sphaeramia nematoptera",
+ "regi_latin_nevek": [
+  "Apogon nematopterus"
+ ],
+ "magyar_nev": "Pizsamás ajakoshal",
+ "egyeb_nevek": [
+  "Pizsamás sügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Apogonidae",
+ "csoport": "Tengervízi halak",
+ "szarmazas": "Nyugat-Csendes-óceán",
+ "max_meret_cm": 8,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Nagyon békés, éjszakai életmódot folytató hal. Nappal gyakran egy helyben lebeg a dekoráció közelében.",
+ "rajhal": true,
+ "min_csoport": 3,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Húsos fagyasztott eleségek (mysis, artémia), apró rákok.",
+ "tarsithato": [
+  "Bármilyen békés hallal",
+  "nem bántja a gerincteleneket."
+ ],
+ "kerulendo": [
+  "Gyors",
+  "agresszív evőkkel",
+  "mert elmaradhat az etetésnél."
+ ],
+ "szaporodas_mod": "Szájköltő (hím)",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A hím a szájában költi ki az ikrákat. Az ivadékok kb. 3 hét után úsznak el. Felnevelésükhöz rotifer és artémia nauplius szükséges."
+ ],
+ "ivari_kulonbseg": "A hímek első hátúszója hosszabb, testük robusztusabb.",
+ "felismeres_jegyek": [
+  "Sárga fej",
+  "nagy narancssárga szem",
+  "függőleges sötét sáv a test közepén",
+  "barna pettyes hátsó testfél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pterapogon kauderni",
+   "magyar_nev": "Banggai-kardhal",
+   "kulonbseg": "Ezüst-fekete színű, nincsenek rajta barna pettyek és sárga színek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich",
+  "bakteriális fertőzések."
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 5000,
+ "ar_ft_max": 9000,
+ "tippek": [
+  "Érdemes alkonyatkor is etetni, mert ekkor aktívabb.",
+  "Csoportosan tartva sokkal természetesebben viselkedik.",
+  "Kiváló választás kezdő tengeri akvaristáknak."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

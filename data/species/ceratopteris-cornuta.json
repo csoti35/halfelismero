@@ -1,0 +1,72 @@
+{
+ "id": "ceratopteris-cornuta",
+ "tipus": "noveny",
+ "latin": "Ceratopteris cornuta",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Szarvas vízipáfrány",
+ "egyeb_nevek": [
+  "Széleslevelű vízipáfrány"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Ceratopteris cornuta",
+ "csalad": "Pteridaceae",
+ "csoport": "Páfrányok",
+ "szarmazas": "Afrika, Ázsia, Ausztrália",
+ "max_meret_cm": 40,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "háttér vagy úszónövény",
+ "szaporitas_noveny": "sarjnövények a leveleken",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 8.5,
+ "gh_min": 5,
+ "gh_max": 20,
+ "tarsithato": [
+  "Minden békés hallal",
+  "különösen kedvelt labirintkopoltyúsok mellé."
+ ],
+ "kerulendo": [
+  "Növényevő sügérek."
+ ],
+ "felismeres_jegyek": [
+  "Szélesebb",
+  "karéjos levelek",
+  "világoszöld szín",
+  "a levelek formája hasonlít a szarvasagancshoz",
+  "a levéllemezek húsosabbak mint a thalictroides-nél."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ceratopteris thalictroides",
+   "magyar_nev": "Sallangos vízipáfrány",
+   "kulonbseg": "Levelei sokkal vékonyabbak és sűrűbben szabdaltak."
+  },
+  {
+   "latin": "Hygrophila corymbosa",
+   "magyar_nev": "Óriás vizi-mogyoró",
+   "kulonbseg": "Levelei épek, nem szabdaltak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Káliumhiány (lyukacsosodás)",
+  "Fényhiány miatti felnyurgulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Úszónövényként tartva segít a vízfelszín árnyékolásában, gátolva az algásodást.",
+  "A levélszéleken megjelenő kis növénykéket leválasztva könnyen szaporítható.",
+  "Nagyon tág tűréshatárú növény, szinte bármilyen vízben megél."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

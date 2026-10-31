@@ -1,0 +1,79 @@
+{
+ "id": "chrysiptera-parasema",
+ "tipus": "hal",
+ "latin": "Chrysiptera parasema",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sárgafarkú korallsügér",
+ "egyeb_nevek": [
+  "Sárgafarkú demizsel"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacentridae",
+ "csoport": "Tengervízi sügérek - Korallsügérek",
+ "szarmazas": "Nyugat-Csendes-óceán",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "A korallsügérek közül az egyik legbékésebb, de saját területét és fajtársait hevesen védi.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 80,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (szinte minden akváriumi tápot elfogad, fagyasztott eleséget is)",
+ "tarsithato": [
+  "Nagyobb testű halakkal",
+  "bohóchalakkal",
+  "korallokkal."
+ ],
+ "kerulendo": [
+  "Nagyon félénk halak",
+  "vagy olyan ragadozók",
+  "amik lenyelhetik."
+ ],
+ "szaporodas_mod": "Aljzatra ívó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "A hím tisztít meg egy felületet (sziklát vagy barlangot). Az ikrákat a hím őrzi és legyezi. Az ivadékok felnevelése rotiferával lehetséges."
+ ],
+ "ivari_kulonbseg": "Külsőleg nem látható különbség, a hímek íváskor agresszívabbak.",
+ "felismeres_jegyek": [
+  "Mélykék test",
+  "az úszók közül csak a farokúszó (és néha a hátúszó vége) élénksárga."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Chrysiptera cyanea",
+   "magyar_nev": "Kék korallsügér",
+   "kulonbseg": "A farokúszója is kék, vagy csak a hímeknél sárgás, de a testnyél nem sárga."
+  },
+  {
+   "latin": "Chrysiptera hemicyanea",
+   "magyar_nev": "Azúr korallsügér",
+   "kulonbseg": "A sárga szín a hasi részre is kiterjed, nem csak a farokra."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich (nagyon ellenálló faj)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 4500,
+ "ar_ft_max": 8500,
+ "tippek": [
+  "Kiváló választás első tengeri halnak a szívóssága miatt.",
+  "Tartsuk egyedül vagy párban, hacsak nincs nagyon nagy akváriumunk.",
+  "Sok búvóhelyet igényel a sziklák között."
+ ],
+ "lista_nev": "Chrysiptera parasema",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

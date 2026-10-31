@@ -1,0 +1,86 @@
+{
+ "lista_nev": "Paracanthurus hepatus",
+ "id": "paracanthurus-hepatus",
+ "tipus": "hal",
+ "latin": "Paracanthurus hepatus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kék doktorhal",
+ "egyeb_nevek": [
+  "Doktorhal",
+  "Szenilla"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Acanthuridae",
+ "csoport": "Doktorhalak",
+ "szarmazas": "Indo-Csendes-óceán",
+ "max_meret_cm": 30,
+ "elettartam_ev": 15,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Alapvetően békés más fajokkal, de fajtársaival és más doktorhalakkal szemben agresszív lehet. Nagy úszóigényű.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Főleg növényevő (alga, nori), de elfogadja a húsos kosztot is",
+ "tarsithato": [
+  "Békés tengeri halakkal",
+  "korallokkal"
+ ],
+ "kerulendo": [
+  "Hasonló alakú doktorhalak",
+  "túl kicsi akvárium"
+ ],
+ "szaporodas_mod": "Ikrázó (nyílt vízi)",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumi körülmények között szinte lehetetlen",
+  "Hatalmas víztömeg és speciális áramlás szükséges",
+  "Pelagikus ikrák lebegtetése",
+  "Mikroszkopikus planktonnal való etetés"
+ ],
+ "ivari_kulonbseg": "Külsőleg nem megkülönböztethetőek.",
+ "felismeres_jegyek": [
+  "Élénkkék test",
+  "fekete paletta alakú mintázat az oldalon",
+  "sárga farkúszó fekete szegéllyel",
+  "faroktőnél felmereszthető tüske",
+  "megnyúlt testforma"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Acanthurus leucosternon",
+   "magyar_nev": "Jávai doktorhal",
+   "kulonbseg": "A teste világoskék, feje fekete, hátúszója sárga."
+  },
+  {
+   "latin": "Zebrasoma xanthurum",
+   "magyar_nev": "Sárgafarkú doktorhal",
+   "kulonbseg": "Teste sötétkék/lila, pikkelyezettebb mintázatú, és az úszói más formájúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich (nagyon érzékeny rá)",
+  "Oldalvonal-erózió (HLLE)",
+  "Bársonybetegség"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 25000,
+ "ar_ft_max": 60000,
+ "tippek": [
+  "Nagyon fontos a sok növényi táplálék és a vitaminpótlás.",
+  "Stresszre érzékeny, ilyenkor hajlamos a darakórra.",
+  "Csak beállt, stabil vízminőségű, nagy akváriumba telepítsük."
+ ],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Lemna minor",
+ "id": "lemna-minor",
+ "tipus": "noveny",
+ "latin": "Lemna minor",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Apró békalencse",
+ "egyeb_nevek": [
+  "Békalencse"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Úszónövények",
+ "szarmazas": "Kozmopolita (világszerte)",
+ "max_meret_cm": 0.5,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-erős",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "vízfelszín",
+ "szaporitas_noveny": "sarjadzással",
+ "min_akvarium_l": 5,
+ "homerseklet_min": 10,
+ "homerseklet_max": 30,
+ "ph_min": 5.0,
+ "ph_max": 8.5,
+ "gh_min": 2,
+ "gh_max": 30,
+ "tarsithato": [
+  "Békés halakkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Nagyobb növényevő halak (pl. aranyhal",
+  "amur)",
+  "mert gyorsan elfogyasztják."
+ ],
+ "felismeres_jegyek": [
+  "Apró",
+  "2-4 mm-es ovális levélkék",
+  "egyetlen rövid gyökérszál lóg le minden levélkéről",
+  "világoszöld szín",
+  "sűrű szőnyeget alkot."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Spirodela polyrhiza",
+   "magyar_nev": "Sokgyökerű békalencse",
+   "kulonbseg": "Nagyobb méret, a levelek fonákja vöröses, több gyökérszál."
+  },
+  {
+   "latin": "Wolffia arrhiza",
+   "magyar_nev": "Vízidara",
+   "kulonbseg": "Sokkal kisebb, gombostűfejnyi, nincs gyökere."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tápanyaghiány esetén kivilágosodik",
+  "Túlzott elszaporodás (ökológiai egyensúly felborítása)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 300,
+ "ar_ft_max": 800,
+ "tippek": [
+  "Vigyázat: ha egyszer bekerül az akváriumba, szinte lehetetlen teljesen kiirtani.",
+  "Rendszeresen ritkítani kell, hogy a vízfelszín gázcseréje biztosított maradjon.",
+  "Kiváló kiegészítő táplálék sok hal számára."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

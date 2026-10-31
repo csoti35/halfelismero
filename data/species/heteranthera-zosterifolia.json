@@ -1,0 +1,74 @@
+{
+ "id": "heteranthera-zosterifolia",
+ "lista_nev": "Heteranthera zosterifolia",
+ "tipus": "noveny",
+ "latin": "Heteranthera zosterifolia",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Békaliliom",
+ "egyeb_nevek": [
+  "Csillagfű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pontederiaceae",
+ "csoport": "Száras növény",
+ "szarmazas": "Brazília",
+ "max_meret_cm": 40,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "kozepes",
+ "novekedes": "gyors",
+ "elhelyezes": "kozepter",
+ "szaporitas_noveny": "oldalhajtások levágása",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Kisebb testű halakkal",
+  "garnélákkal."
+ ],
+ "kerulendo": [
+  "Növényevő halak és csigák",
+  "mert a levelei nagyon puhák."
+ ],
+ "felismeres_jegyek": [
+  "Világoszöld",
+  "vékony",
+  "lándzsás levelek",
+  "csillag alakú levélüstök a hajtásvégen",
+  "sűrűn ágas szár",
+  "apró kék virágok a víz felett."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Najas guadalupensis",
+   "magyar_nev": "Tüskés hínár",
+   "kulonbseg": "A Najas levelei sötétebbek, törékenyebbek és nem alkotnak csillag alakú csúcsot."
+  },
+  {
+   "latin": "Egeria densa",
+   "magyar_nev": "Átokhínár",
+   "kulonbseg": "Levelei örvökben állnak a száron, nem átellenesen."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Feketedő levelek tápanyaghiány esetén",
+  "Fényhiány miatti felkopaszodás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Rendszeres vas- és mikrotápanyag-utánpótlást igényel a szép színhez.",
+  "Ha eléri a felszínt, hajlamos árnyékolni, ezért érdemes időben visszavágni.",
+  "Csoportosan ültetve mutat a legjobban."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

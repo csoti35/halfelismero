@@ -1,0 +1,74 @@
+{
+ "id": "utricularia-graminifolia",
+ "tipus": "noveny",
+ "latin": "Utricularia graminifolia",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fűlevelű rence",
+ "egyeb_nevek": [
+  "UG"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lentibulariaceae",
+ "csoport": "Húsevő növények",
+ "szarmazas": "Ázsia (India, Kína, Thaiföld)",
+ "max_meret_cm": 5,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "erős",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "osztással, indákkal",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "kisebb testű halakkal",
+  "garnélákkal"
+ ],
+ "kerulendo": [
+  "nagytestű",
+  "túró halak",
+  "növényevő csigák"
+ ],
+ "felismeres_jegyek": [
+  "világoszöld fűszerű levelek",
+  "apró fogóhólyagok a gyökereken",
+  "sűrű gyepszerű növekedés",
+  "vékony rizómák"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Eleocharis parvula",
+   "magyar_nev": "Törpe vízipálma",
+   "kulonbseg": "Sötétebb zöld, nincsenek rajta húsevő hólyagok, merevebb szálak."
+  },
+  {
+   "latin": "Lilaeopsis brasiliensis",
+   "magyar_nev": "Brazil fű",
+   "kulonbseg": "Szélesebb levelek, lassabb növekedés, nem húsevő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "olvadás (hirtelen környezetváltozáskor)",
+  "algásodás (fonalalga)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Lágy vizet és savas közeget igényel a hosszú távú sikerhez.",
+  "Ültetéskor kis csomókban helyezzük el a talajban.",
+  "Ammóniára érzékeny, csak beállt akváriumba telepítsük.",
+  "Húsevő mivolta ellenére nem veszélyes a garnéla ivadékokra."
+ ],
+ "lista_nev": "Utricularia graminifolia",
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

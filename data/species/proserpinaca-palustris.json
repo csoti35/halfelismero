@@ -1,0 +1,71 @@
+{
+ "id": "proserpinaca-palustris",
+ "tipus": "noveny",
+ "latin": "Proserpinaca palustris",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sellőhínár",
+ "egyeb_nevek": [
+  "Amerikai sellőhínár"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Proserpinaca palustris",
+ "csalad": "Haloragaceae",
+ "csoport": "Hínárfélék",
+ "szarmazas": "Észak- és Közép-Amerika",
+ "max_meret_cm": 40,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "erős",
+ "co2_igeny": "közepes",
+ "novekedes": "közepes",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "dugványozás",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 10,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 15,
+ "tarsithato": [
+  "Bármilyen békés hallal",
+  "amely nem eszik növényt."
+ ],
+ "kerulendo": [
+  "Nagytestű sügérek",
+  "növényevő halak."
+ ],
+ "felismeres_jegyek": [
+  "Váltakozó levélforma a fényviszonyoktól függően",
+  "fésűs vagy fűrészes levélszélek",
+  "intenzív narancssárga vagy vöröses szín erős fényben",
+  "merev szár."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Myriophyllum aquaticum",
+   "magyar_nev": "Süllőhínár",
+   "kulonbseg": "A Myriophyllum levelei körkörösen állnak a száron, a Proserpinaca levelei szórtan."
+  },
+  {
+   "latin": "Hottonia palustris",
+   "magyar_nev": "Békaliliom",
+   "kulonbseg": "A békaliliom levelei világoszöldek és puhább tapintásúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vashiány miatti fakulás",
+  "Fényhiány miatti alsó levélvesztés"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "A vörös színek eléréséhez elengedhetetlen az erős megvilágítás és a vaspótlás.",
+  "Ne ültessük túl sűrűn, hogy az alsó levelek is kapjanak fényt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "centropyge-loricula",
+ "tipus": "hal",
+ "latin": "Centropyge loricula",
+ "regi_latin_nevek": [
+  "Centropyge loriculus"
+ ],
+ "magyar_nev": "Lángvörös császárhal",
+ "egyeb_nevek": [
+  "Lánghal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacanthidae",
+ "csoport": "Tengervízi sügérek - Törpe-császárhalak",
+ "szarmazas": "Csendes-óceán középső területei",
+ "max_meret_cm": 10,
+ "elettartam_ev": 8,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Fajtársaival szemben agresszív, más halakkal általában békés. Néha megcsipkedi a korallok polipjait.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also, kozepso",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő (algák, fagyasztott mysis, artémia, tengeri tápok)",
+ "tarsithato": [
+  "Hasonló méretű tengeri halakkal",
+  "doktorhalakkal."
+ ],
+ "kerulendo": [
+  "Más Centropyge fajok",
+  "agresszív ragadozók."
+ ],
+ "szaporodas_mod": "Szabadon ívó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Fogságban ritkán szaporodik. Háremben tarthatóak",
+  "ahol a domináns példány hímmé alakul. Az ívás alkonyatkor történik",
+  "a peték lebegnek."
+ ],
+ "ivari_kulonbseg": "A hímek hátúszójának hátsó része hegyesebb és több kék csík található rajta.",
+ "felismeres_jegyek": [
+  "Élénk narancsvörös test",
+  "függőleges fekete csíkokkal az oldalán. A hát- és farokalatti úszó széle kék-fekete."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Centropyge bispinosa",
+   "magyar_nev": "Kétsávos törpe-császárhal",
+   "kulonbseg": "A test színe inkább lilás-narancssárga, nem tiszta vörös."
+  },
+  {
+   "latin": "Centropyge ferrugata",
+   "magyar_nev": "Rozsdás törpe-császárhal",
+   "kulonbseg": "Barnás-narancssárga alapszín, sötét pöttyökkel a csíkok helyett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Marine Ich",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 35000,
+ "ar_ft_max": 65000,
+ "tippek": [
+  "Sok élő sziklát és búvóhelyet igényel.",
+  "Érdemes utolsóként betelepíteni az akváriumba a területvédő viselkedése miatt.",
+  "Figyeljük a korallokat, mert egyénfüggő, hogy melyik példány bántja őket."
+ ],
+ "lista_nev": "Centropyge loricula",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

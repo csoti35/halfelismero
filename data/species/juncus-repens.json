@@ -1,0 +1,68 @@
+{
+ "id": "juncus-repens",
+ "tipus": "noveny",
+ "latin": "Juncus repens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kúszó szittyó",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Juncaceae",
+ "csoport": "Mocsári növények",
+ "szarmazas": "Észak-Amerika",
+ "max_meret_cm": 20,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "közepes",
+ "elhelyezes": "középtér",
+ "szaporitas_noveny": "oldalhajtásokkal, dugványozással",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 15,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "bármilyen békés hallal"
+ ],
+ "kerulendo": [
+  "növényevő sügérek"
+ ],
+ "felismeres_jegyek": [
+  "lapos szárak",
+  "csillag alakú levélüstökök",
+  "erős fényben vöröses szín",
+  "fűszerű de merevebb habitus"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Heteranthera zosterifolia",
+   "magyar_nev": "Békaliliom",
+   "kulonbseg": "Sokkal puhább levelek, világoszöld szín, gyorsabb növekedés."
+  },
+  {
+   "latin": "Blyxa japonica",
+   "magyar_nev": "Japán blyxa",
+   "kulonbseg": "Sűrűbb levélzet, nem kúszó szárú, hanem tőlevélrózsás."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "vashiány (levelek sárgulása)",
+  "felkopaszodás kevés fény esetén"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Erős fény és mikrotápanyagok hatására a hajtásvégek gyönyörű vöröses-barna színt öltenek.",
+  "Rendszeres metszéssel bokrosítható.",
+  "Nagyon jól bírja a hűvösebb vizet is."
+ ],
+ "lista_nev": "Juncus repens",
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

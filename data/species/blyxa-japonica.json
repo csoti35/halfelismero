@@ -1,0 +1,72 @@
+{
+ "id": "blyxa-japonica",
+ "tipus": "noveny",
+ "latin": "Blyxa japonica",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Japán blyxa",
+ "egyeb_nevek": [
+  "Sünfű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Hínárfélék",
+ "szarmazas": "Kelet-Ázsia",
+ "max_meret_cm": 15,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "erős",
+ "co2_igeny": "közepes",
+ "novekedes": "közepes",
+ "elhelyezes": "előtér, középtér",
+ "szaporitas_noveny": "oldalhajtások leválasztásával",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "kisebb pontylazacok",
+  "garnélák"
+ ],
+ "kerulendo": [
+  "algaevő harcsák (kiszívhatják a leveleit)",
+  "nagytestű halak"
+ ],
+ "felismeres_jegyek": [
+  "nagyon sűrű levélüstök",
+  "lándzsás vékony levelek",
+  "intenzív fényben bronzos-vöröses szín",
+  "rövid szár"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Blyxa aubertii",
+   "magyar_nev": "Óriás blyxa",
+   "kulonbseg": "Sokkal nagyobbra nő (akár 40 cm), levelei hosszabbak."
+  },
+  {
+   "latin": "Cyperus helferi",
+   "magyar_nev": "Vízi palka",
+   "kulonbseg": "Hosszabb, szalagszerű levelek, lassabb növekedés."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "foszfáthiány (levelek mállása)",
+  "vashiány (kifehéredő hajtások)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1600,
+ "ar_ft_max": 3200,
+ "tippek": [
+  "Meghálálja a táptalajt vagy a táprudakat a gyökereihez.",
+  "Ha túl sűrűvé válik, a belső levelei elhalhatnak, ilyenkor érdemes ritkítani.",
+  "Kizárólag lágy vagy közepesen kemény vízben marad szép."
+ ],
+ "lista_nev": "Blyxa japonica",
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,73 @@
+{
+ "id": "lilaeopsis-brasiliensis",
+ "tipus": "noveny",
+ "latin": "Lilaeopsis brasiliensis",
+ "lista_nev": "Lilaeopsis brasiliensis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Brazil mikrokard",
+ "egyeb_nevek": [
+  "Mikrofű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Apiaceae",
+ "csoport": "Előtéri növények",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 7,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "kozepes",
+ "novekedes": "lassu",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "indakkal",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 15,
+ "tarsithato": [
+  "Bármilyen békés hallal és garnélával"
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "túró életmódot folytató halak"
+ ],
+ "felismeres_jegyek": [
+  "Fűszálhoz hasonló vékony levelek",
+  "világoszöld szín",
+  "sűrű gyepszerű növekedés",
+  "indákkal terjed",
+  "levelei keresztmetszete kör alakú vagy enyhén lapított."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Eleocharis parvula",
+   "magyar_nev": "Törpe vízipálma",
+   "kulonbseg": "Vékonyabb, tűszerűbb levelek, gyorsabb növekedés."
+  },
+  {
+   "latin": "Lilaeopsis mauritiana",
+   "magyar_nev": "Mauritiusi fű",
+   "kulonbseg": "Hosszabb és vékonyabb levelek, kevésbé fényigényes."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Algásodás (fonalalga)",
+  "Vashiány miatti sárgulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Ültetéskor kis csomókra szedve, sakktáblaszerűen helyezzük el.",
+  "Rendszeres nyírással sűrűbb gyepet alkothatunk.",
+  "A táptalaj használata jelentősen gyorsítja a terjedését."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

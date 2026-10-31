@@ -1,0 +1,74 @@
+{
+ "id": "najas-guadalupensis",
+ "lista_nev": "Najas guadalupensis",
+ "tipus": "noveny",
+ "latin": "Najas guadalupensis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Tüskés hínár",
+ "egyeb_nevek": [
+  "Guadalupai hínár",
+  "Najász"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Hínár",
+ "szarmazas": "Észak- és Közép-Amerika",
+ "max_meret_cm": 60,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "hajtásdarabok elültetése vagy úsztatása",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 15,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 8.5,
+ "gh_min": 5,
+ "gh_max": 25,
+ "tarsithato": [
+  "Bármilyen hallal",
+  "különösen ivadéknevelőkhöz ajánlott."
+ ],
+ "kerulendo": [
+  "Nagyobb növényevő halak",
+  "mert könnyen széttépik."
+ ],
+ "felismeres_jegyek": [
+  "Nagyon vékony",
+  "törékeny szár",
+  "keskeny és sötétzöld levelek",
+  "a levelek széle mikroszkopikusan fogazott",
+  "sűrű bozótot alkot."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Lagarosiphon major",
+   "magyar_nev": "Fodros átokhínár",
+   "kulonbseg": "Levelei merevebbek és visszahajlóak."
+  },
+  {
+   "latin": "Ceratophyllum demersum",
+   "magyar_nev": "Érdes tócsagaz",
+   "kulonbseg": "Levelei villásan elágaznak, nincs valódi gyökere."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hirtelen vízminőségi sokk miatti szétmállás",
+  "Algásodás sűrű állományban"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 500,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Kiváló búvóhely ivadékhalak és garnélák számára.",
+  "Akár úszónövényként is tartható, nem feltétlenül igényel ültetést.",
+  "Nagyon törékeny, óvatosan kell vele bánni takarításkor."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

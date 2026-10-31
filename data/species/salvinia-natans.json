@@ -1,0 +1,70 @@
+{
+ "id": "salvinia-natans",
+ "tipus": "noveny",
+ "latin": "Salvinia natans",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Rucaöröm",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "lista_nev": "Salvinia natans",
+ "csalad": "Salviniaceae",
+ "csoport": "Úszó páfrányok",
+ "szarmazas": "Európa, Ázsia, Észak-Afrika",
+ "max_meret_cm": 3,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "vízfelszín",
+ "szaporitas_noveny": "osztódással",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 12,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 2,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen békés hallal"
+ ],
+ "kerulendo": [
+  "Erős felszíni vízáramlás"
+ ],
+ "felismeres_jegyek": [
+  "Párosával álló",
+  "ovális úszó levelek",
+  "apró szemölcsök és szőrök a levél felszínén",
+  "víz alatt lógó",
+  "gyökérszerűen módosult levelek",
+  "víztaszító felület."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Salvinia auriculata",
+   "magyar_nev": "Füles rucaöröm",
+   "kulonbseg": "Levelei kissé nagyobbak és gyakran összecsukódnak."
+  },
+  {
+   "latin": "Azolla filiculoides",
+   "magyar_nev": "Moszatpáfrány",
+   "kulonbseg": "Sokkal apróbb, pikkelyszerű levelei vannak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tápanyaghiány esetén a levelek aprók maradnak és kivilágosodnak"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 300,
+ "ar_ft_max": 900,
+ "tippek": [
+  "Rendszeresen ritkítani kell, mert gyorsan beborítja a felszínt és leárnyékolja az alsóbb növényeket.",
+  "Nagyon jól tolerálja a tágabb vízkémiai határokat.",
+  "A víz alatti módosult levelei között szívesen bujkálnak a garnélák."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

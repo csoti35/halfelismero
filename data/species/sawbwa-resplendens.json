@@ -1,0 +1,82 @@
+{
+ "id": "sawbwa-resplendens",
+ "tipus": "hal",
+ "latin": "Sawbwa resplendens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Sawbwa-razbóra",
+ "egyeb_nevek": [
+  "Sawbwa razbóra",
+  "Ázsiai vörösorrú razbóra"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Danionidae",
+ "csoport": "Pontyfélék",
+ "szarmazas": "Mianmar (Inle-tó)",
+ "max_meret_cm": 3.5,
+ "elettartam_ev": 3,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, de a hímek egymás között néha rivalizálnak. Félénk lehet, ha nincs elég búvóhely.",
+ "rajhal": true,
+ "min_csoport": 10,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 21,
+ "homerseklet_max": 25,
+ "ph_min": 7.0,
+ "ph_max": 8.0,
+ "gh_min": 10,
+ "gh_max": 20,
+ "taplalek": "Mindenevő (apró élő és fagyasztott eleség, jó minőségű morzsolt táp)",
+ "tarsithato": [
+  "Más Inle-tavi fajokkal (pl. Inle-tavi dánió)",
+  "békés garnélákkal"
+ ],
+ "kerulendo": [
+  "Lágy vizes halak",
+  "nagy ragadozók"
+ ],
+ "szaporodas_mod": "szabadon ívó (növények közé)",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Kemény",
+  "lúgos víz",
+  "finom levelű növények (pl. jávai moha)",
+  "a szülők ikrafalók",
+  "az ivadékok nagyon aprók",
+  "papucsállatkát igényelnek."
+ ],
+ "ivari_kulonbseg": "A hímek ezüstösek, fejük és farkúszójuk vége vörös; a nőstények jellegtelen barnás-ezüstösek, vörös szín nélkül.",
+ "felismeres_jegyek": [
+  "Pikkelytelen test",
+  "a hímek feje élénkvörös",
+  "a farkúszó két lebenyén vörös folt",
+  "ezüstös-kékes testcsillogás",
+  "apró termet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Petitella rhodostoma",
+   "magyar_nev": "Vörösorrú pontylazac",
+   "kulonbseg": "Nagyobb, pikkelyes, és a farkúszója fekete-fehér csíkos."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombásodás",
+  "Bakteriális fertőzések a nem megfelelő pH miatt"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Kifejezetten kemény vizet igényel, lágy vízben hamar elpusztul.",
+  "Ne tartsuk túl meleg vízben, a 22-23 fok az ideális számára.",
+  "Érdemes több nőstényt tartani, mint hímet a rivalizálás csökkentésére."
+ ],
+ "lista_nev": "Sawbwa resplendens",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}
