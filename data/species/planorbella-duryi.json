@@ -1,0 +1,89 @@
+{
+ "id": "planorbella-duryi",
+ "tipus": "gerinctelen",
+ "latin": "Planorbella duryi",
+ "regi_latin_nevek": [
+  "Helisoma duryi"
+ ],
+ "magyar_nev": "Vörös tányércsiga",
+ "egyeb_nevek": [
+  "Floridai postakürtcsiga",
+  "kék postakürtcsiga",
+  "rózsaszín postakürtcsiga"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Planorbidae",
+ "csoport": "Csigák",
+ "szarmazas": "Észak-Amerika (Florida)",
+ "max_meret_cm": 2.5,
+ "elettartam_ev": 2,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Teljesen békés élőlény, a halakat és más gerincteleneket nem bántja. Hasznos takarító, az algákat és az ételmaradékot fogyasztja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 10,
+ "homerseklet_min": 15,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 10,
+ "gh_max": 25,
+ "taplalek": "Mindenevő (alga, haleledel-maradék, forrázott zöldségek, elhalt növényi részek)",
+ "tarsithato": [
+  "Békés halakkal",
+  "törpegaridákkal",
+  "más csigákkal."
+ ],
+ "kerulendo": [
+  "Csigaevő halak (pl. gömbhalak",
+  "nagyobb botia fajok) és csigaevő csigák (Anentome helena)."
+ ],
+ "szaporodas_mod": "Hímnős, kocsonyás petecsomókat rak.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Megfelelő mennyiségű táplálék biztosítása esetén maguktól szaporodnak.",
+  "A csigák kocsonyás petecsomókat helyeznek el az üvegen, növényeken vagy dekoráción.",
+  "A petékből 10-14 nap után bújnak ki a miniatűr csigák.",
+  "Külön gondozást az ivadékok nem igényelnek."
+ ],
+ "ivari_kulonbseg": "Hímnősek, nincs látható különbség az egyedek között.",
+ "felismeres_jegyek": [
+  "Lapos, korong alakú, spirálisan feltekert ház.",
+  "A ház színe lehet barna, kék, rózsaszín vagy vörös.",
+  "A test színe gyakran megegyezik a házéval vagy vöröses.",
+  "Tapogatói hosszúak és vékonyak.",
+  "A ház szája széles és kerekded."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Planorbis planorbis",
+   "magyar_nev": "Éles csiga",
+   "kulonbseg": "A háza élesebb peremű, és általában kisebb marad, színe többnyire sötétbarna."
+  },
+  {
+   "latin": "Anisus vortex",
+   "magyar_nev": "Örvénycsiga",
+   "kulonbseg": "Sokkal laposabb és kisebb termetű, háza szinte korong alakú."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Házkopás (lágy víz miatti mészhiány)",
+  "Rézmérgezés (gyógyszerekre érzékenység)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 200,
+ "ar_ft_max": 600,
+ "tippek": [
+  "Lágy vízben a házuk kilyukadhat, ezért tartsuk őket közepesen kemény vagy kemény vízben.",
+  "Ha túlszaporodnak, az a túletetés jele az akváriumban.",
+  "Az egészséges növényeket nem bántják, csak az elhalt leveleket fogyasztják el."
+ ],
+ "lista_nev": "Planorbella duryi",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

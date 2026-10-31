@@ -1,6 +1,6 @@
 {
-"frissitve": "2026-10-30",
-"darab": 472,
+"frissitve": "2026-10-31",
+"darab": 475,
 "fajok": [
 {
 "id": "abactochromis-labrosus",
@@ -3291,6 +3291,36 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "clithon-corona",
+"tipus": "gerinctelen",
+"latin": "Clithon corona",
+"magyar_nev": "Koronás csiga",
+"egyeb_nevek": [
+"Koronás algaevő csiga",
+"Tüskés algaevő csiga"
+],
+"regi_latin_nevek": [
+"Theodoxus corona",
+"Clithon diadema"
+],
+"csalad": "Neritidae",
+"csoport": "Csigák",
+"max_meret_cm": 1.8,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 600,
+"ar_ft_max": 1200,
 "ellenorzott": false
 },
 {
@@ -10189,6 +10219,35 @@
 "ellenorzott": false
 },
 {
+"id": "physella-acuta",
+"tipus": "gerinctelen",
+"latin": "Physella acuta",
+"magyar_nev": "Hólyagcsiga",
+"egyeb_nevek": [
+"Hólyagcsiga"
+],
+"regi_latin_nevek": [
+"Physa acuta",
+"Physa heterostropha"
+],
+"csalad": "Physidae",
+"csoport": "Csigák",
+"max_meret_cm": 1.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 5,
+"homerseklet_min": 10,
+"homerseklet_max": 30,
+"ph_min": 6.5,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 0,
+"ar_ft_max": 200,
+"ellenorzott": false
+},
+{
 "id": "pimelodus-pictus",
 "tipus": "hal",
 "latin": "Pimelodus pictus",
@@ -10241,6 +10300,36 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 2000,
 "ar_ft_max": 5000,
+"ellenorzott": false
+},
+{
+"id": "planorbella-duryi",
+"tipus": "gerinctelen",
+"latin": "Planorbella duryi",
+"magyar_nev": "Vörös tányércsiga",
+"egyeb_nevek": [
+"Floridai postakürtcsiga",
+"kék postakürtcsiga",
+"rózsaszín postakürtcsiga"
+],
+"regi_latin_nevek": [
+"Helisoma duryi"
+],
+"csalad": "Planorbidae",
+"csoport": "Csigák",
+"max_meret_cm": 2.5,
+"termeszet": "bekes",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 10,
+"homerseklet_min": 15,
+"homerseklet_max": 28,
+"ph_min": 7.0,
+"ph_max": 8.5,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 200,
+"ar_ft_max": 600,
 "ellenorzott": false
 },
 {

@@ -1,0 +1,92 @@
+{
+ "lista_nev": "Clithon corona",
+ "id": "clithon-corona",
+ "tipus": "gerinctelen",
+ "latin": "Clithon corona",
+ "regi_latin_nevek": [
+  "Theodoxus corona",
+  "Clithon diadema"
+ ],
+ "magyar_nev": "Koronás csiga",
+ "egyeb_nevek": [
+  "Koronás algaevő csiga",
+  "Tüskés algaevő csiga"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Neritidae",
+ "csoport": "Csigák",
+ "szarmazas": "Délkelet-Ázsia (Fülöp-szigetek, Indonézia)",
+ "max_meret_cm": 1.8,
+ "elettartam_ev": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Teljesen békés, lassan mozgó algaevő puhatestű. Más akváriumi lakókat semmilyen módon nem zavar, a növényeket nem bántja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 7.0,
+ "ph_max": 8.5,
+ "gh_min": 8,
+ "gh_max": 25,
+ "taplalek": "Elsődlegesen algaevő (zöldalga, barna alga, biofilmes réteg), elfogadja a süllyedő algás tablettákat és a forrázott zöldségeket is.",
+ "tarsithato": [
+  "Kisméretű",
+  "békés halakkal (pl. neonhal",
+  "törpe szívóharcsa",
+  "törpe razbóra)",
+  "törpe garnélákkal."
+ ],
+ "kerulendo": [
+  "Cichlidák",
+  "gömbhalak",
+  "csigaevő marisa vagy csigaevő harcsák",
+  "illetve minden olyan faj",
+  "amelyik csigákkal táplálkozik."
+ ],
+ "szaporodas_mod": "Váltivarú. Petéket rak kemény felületekre, de a lárvák fejlődéséhez brakkvíz vagy tengervíz szükséges.",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Édesvízi akváriumban a szaporítás nem lehetséges, mivel a kikelt lárváknak sós/brakkvízre van szükségük a fejlődéshez.",
+  "A nőstény kemény, fehér, mészalapú petetokokat rak a kövekre, fára vagy az akvárium üvegére.",
+  "A petékből kikelő lárvák édesvízben hamar elpusztulnak."
+ ],
+ "ivari_kulonbseg": "Külsőleg a hím és a nőstény nem megkülönböztethető.",
+ "felismeres_jegyek": [
+  "Kisméretű, gömbölyded, vastag héjú csiga.",
+  "A ház felületén változó számú és hosszúságú kiálló tüskék (tövisek) találhatók.",
+  "Mintázata rendkívül változatos: sárga-fekete csíkos, cikkcakkos vagy egyszínű barna/olajzöld.",
+  "Mészkupakkal (operculum) zárható háznyílás."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Neritina natalensis",
+   "magyar_nev": "Hagymacsiga / Zebra sávos algaevő csiga",
+   "kulonbseg": "Nincsenek tüskéi a házán és lényegesen nagyobbra nő."
+  },
+  {
+   "latin": "Vittina waigiensis",
+   "magyar_nev": "Kupola algaevő csiga",
+   "kulonbseg": "Tüskék nélküli, élénkpiros/narancs és fekete mintázatú ház."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Házmállás (lágy, savas víz miatti kalciumhiány)",
+  "Koplalás (új, algamentes akváriumban)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 600,
+ "ar_ft_max": 1200,
+ "tippek": [
+  "Ne tartsuk savas, lágy vízben, mert a csigaház lassan feloldódik és lepusztul.",
+  "Frissen berendezett, algamentes akváriumba ne telepítsük azonnal, mert éhen halhat.",
+  "Ha a hátára esik a finom homokban, érdemes megfordítani, mert nem mindig tud egyedül felállni."
+ ],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

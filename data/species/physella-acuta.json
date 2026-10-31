@@ -1,0 +1,88 @@
+{
+ "id": "physella-acuta",
+ "tipus": "gerinctelen",
+ "latin": "Physella acuta",
+ "regi_latin_nevek": [
+  "Physa acuta",
+  "Physa heterostropha"
+ ],
+ "magyar_nev": "Hólyagcsiga",
+ "egyeb_nevek": [
+  "Hólyagcsiga"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Physidae",
+ "csoport": "Csigák",
+ "szarmazas": "Kozmopolita (eredetileg Észak-Amerika, de világszerte elterjedt)",
+ "max_meret_cm": 1.5,
+ "elettartam_ev": 1,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Teljesen békés, hasznos takarító szervezet, amely nem bántja a halakat és az egészséges növényeket sem.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 5,
+ "homerseklet_min": 10,
+ "homerseklet_max": 30,
+ "ph_min": 6.5,
+ "ph_max": 8.5,
+ "gh_min": 5,
+ "gh_max": 25,
+ "taplalek": "Mindenevő: alga, ételmaradék, elhalt növényi részek, döglött állatok.",
+ "tarsithato": [
+  "Bármilyen nem csigaevő hallal és garnélával."
+ ],
+ "kerulendo": [
+  "Csigaevő halak (pl. gömbhalak",
+  "botia fajok) és csigaevő csigák (Anentome helena)."
+ ],
+ "szaporodas_mod": "Hímnős, kocsonyás petecsomókat rak.",
+ "szaporitas_nehezseg": 1,
+ "szaporitas_lepesek": [
+  "Bőséges táplálék biztosítása esetén magától szaporodik.",
+  "A csigák hímnősek, így két egyed vagy akár önmegtermékenyítés is lehetséges.",
+  "Kocsonyás, átlátszó petecsomókat raknak a növények leveleire vagy az üvegre.",
+  "A kiscsigák a hőmérséklettől függően 1-2 hét alatt kelnek ki.",
+  "Külön etetést nem igényelnek, ugyanazt eszik, mint a felnőttek."
+ ],
+ "ivari_kulonbseg": "Nincs, az egyedek hímnősek.",
+ "felismeres_jegyek": [
+  "A ház balmenetes (szemből nézve a nyílás bal oldalon van).",
+  "A ház fala vékony, áttetsző, gyakran apró sárgás pöttyökkel díszített.",
+  "A tapogatók hosszúak és vékonyak, fonálszerűek.",
+  "A ház alakja nyújtott csepp vagy hólyag formájú.",
+  "Gyors mozgásra képes más csigákhoz képest."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Physa fontinalis",
+   "magyar_nev": "Forrás-hólyagcsiga",
+   "kulonbseg": "A háza kerekdedebb, a szájadék pereme ujj szerűen nyúlik a házra."
+  },
+  {
+   "latin": "Lymnaea stagnalis",
+   "magyar_nev": "Nagy mocsári csiga",
+   "kulonbseg": "Sokkal nagyobbra nő, háza jobbmenetes, tapogatói szélesek, háromszög alakúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Házkopás (lágy víz esetén)",
+  "Rézmérgezés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 0,
+ "ar_ft_max": 200,
+ "tippek": [
+  "Gyakran növényekkel kerül be az akváriumba 'hívatlan' vendégként.",
+  "Túlszaporodása a túletetés biztos jele, ilyenkor csökkentsük a halaknak adott táplálékot.",
+  "Kiváló indikátorai a vízminőségnek: ha tömegesen menekülnek a felszínre, oxigénhiány vagy ammónia lehet a vízben.",
+  "Lágy vízben adjunk nekik szépia csontot a házépítéshez szükséges mész pótlására."
+ ],
+ "lista_nev": "Physella acuta",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}
