@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Limnophila sessiliflora",
+ "id": "limnophila-sessiliflora",
+ "tipus": "noveny",
+ "latin": "Limnophila sessiliflora",
+ "regi_latin_nevek": [
+  "Ambulia sessiliflora"
+ ],
+ "magyar_nev": "Ambulia",
+ "egyeb_nevek": [
+  "Ambulia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Plantaginaceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Dél- és Délkelet-Ázsia",
+ "max_meret_cm": 50,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "Fejeléssel és oldalhajtások levágásával, majd aljzatba ültetésével.",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 15,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 8.0,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Bármilyen békés közösségi hallal",
+  "Garnelekkel",
+  "Csigákkal"
+ ],
+ "kerulendo": [
+  "Növényevő halak (pl. nagy testű sügérek, növényevő pontyfélék)"
+ ],
+ "felismeres_jegyek": [
+  "Finoman szabdalt, tűszerű levélörvök a száron",
+  "Világoszöld színű lombozat",
+  "Éjszaka a felső levélörvök összecsukódnak",
+  "Erős fény alatt a csúcsi rész enyhén vöröses árnyalatot kaphat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cabomba caroliniana",
+   "magyar_nev": "Kiskabomba",
+   "kulonbseg": "A Cabomba levelei villásan elágazóak és átellenesek, míg a Limnophila levelei örvökben állnak."
+  },
+  {
+   "latin": "Myriophyllum aquaticum",
+   "magyar_nev": "Süllőhínár",
+   "kulonbseg": "A Myriophyllum levelei sokkal tömöttebbek és merevebb tartásúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány miatti felkopaszodás",
+  "Tápanyaghiányból eredő sárgulás (iron chlorosis)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Gyors növekedése miatt rendszeres metszést igényel, különben beárnyékolja az akváriumot.",
+  "Kiváló víztisztító növény az akvárium indításakor, mert gyorsan veszi fel a nitrátot és foszfátot."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

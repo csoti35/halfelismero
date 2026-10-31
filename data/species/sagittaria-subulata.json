@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Sagittaria subulata",
+ "id": "sagittaria-subulata",
+ "tipus": "noveny",
+ "latin": "Sagittaria subulata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Törpe nyílfű",
+ "egyeb_nevek": [
+  "Nyílfű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alismataceae",
+ "csoport": "Egyszikűek",
+ "szarmazas": "Észak-Amerika",
+ "max_meret_cm": 30,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "gyors",
+ "elhelyezes": "eloter",
+ "szaporitas_noveny": "indakkal",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "Békés aljzatlakó halak",
+  "Törpe garnélák",
+  "Csigák"
+ ],
+ "kerulendo": [
+  "Nagy testű, túró sügerek",
+  "Növényevő halak (pl. dollárhal)"
+ ],
+ "felismeres_jegyek": [
+  "Fűszerű, lándzsás zöld levelek",
+  "Gyökérről induló tőlevélrózsa",
+  "Indákkal terjedő gyepet alkot",
+  "Erős fényben alacsony marad, gyenge fényben megnyúlik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vallisneria spiralis",
+   "magyar_nev": "Csavartlevelű vallisnéria",
+   "kulonbseg": "A Vallisneria levelei jóval hosszabbak, szélesebbek és keresztben csíkozott mintázatot mutathatnak."
+  },
+  {
+   "latin": "Helanthium tenellum",
+   "magyar_nev": "Törpe kardfű",
+   "kulonbseg": "A Helanthium levelei keskenyebbek, tűhegyesebbek és erős fényben pirosas árnyalatot vehetnek fel."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vashiány miatti sárgulás (klorózis)",
+  "Fényhiány miatti túlzott megnyúlás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Ideális előtéri gyepképző növény kezdők számára matches táptalaj nélkül is.",
+  "Ha túlságosan magasra nő a fényhiány miatt, érdemes a hosszabb leveleket visszavágni vagy a világítást erősíteni.",
+  "Tápanyagban gazdag aljzatban rendkívül gyorsan terjeszkedik indáival."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

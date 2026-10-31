@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Nuphar japonica",
+ "id": "nuphar-japonica",
+ "tipus": "noveny",
+ "latin": "Nuphar japonica",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Japán vízitök",
+ "egyeb_nevek": [
+  "Japán tavirózsa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nymphaeaceae",
+ "csoport": "Gumós növények",
+ "szarmazas": "Japán",
+ "max_meret_cm": 40,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "kozepes",
+ "novekedes": "kozepes",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Gyöktörzs (rhizóma) osztásával.",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 16,
+ "homerseklet_max": 25,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Hidegvízi halak",
+  "Aranyhal",
+  "Dániók",
+  "Kisebb pontyfélék"
+ ],
+ "kerulendo": [
+  "Trópusi, nagyon meleg vizet igénylő fajok",
+  "Nagy méretű növényevő sügérek"
+ ],
+ "felismeres_jegyek": [
+  "Hosszúkás, nyíl hegyére emlékeztető levelek",
+  "Erősen hullámos, áttetsző zöld levélszél",
+  "Vastag, kinyúló gyöktörzs (rhizóma)",
+  "Sárga, gömbölyded virágok (ha vízfelszínre ér)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nymphaea lotus",
+   "magyar_nev": "Tavirózsa (Tigrislótusz)",
+   "kulonbseg": "A lótusz levelei kerekebbek és pöttyösek/csíkosak, míg a Nuphar japonica levelei nyíl alakúak és egyszínű zöldek."
+  },
+  {
+   "latin": "Nuphar lutea",
+   "magyar_nev": "Sárga vízitök",
+   "kulonbseg": "A N. lutea levelei vastagabbak, kevésbé hullámosak és sokkal nagyobbra nőnek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Magas hőmérséklet miatti levéleloszlás/pusztulás",
+  "Fényhiány miatti felnyúlás és gyenge levélhozam"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 5000,
+ "tippek": [
+  "Jobban kedveli a hűvösebb vizet, ezért hidegvízi vagy akváriumi hűtést igénylő elrendezésekben fejlődik a legszebben.",
+  "A vastag gyöktörzset ne fektessük teljesen a talaj alá, hagyjuk a tetejét szabadon.",
+  "Rendszeres gyökérszintű tápanyag-utánpótlást igényel."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

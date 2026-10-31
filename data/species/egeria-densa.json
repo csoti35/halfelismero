@@ -1,0 +1,81 @@
+{
+ "lista_nev": "Egeria densa",
+ "id": "egeria-densa",
+ "tipus": "noveny",
+ "latin": "Egeria densa",
+ "regi_latin_nevek": [
+  "Elodea densa",
+  "Anacharis densa"
+ ],
+ "magyar_nev": "Sűrű átokhínár",
+ "egyeb_nevek": [
+  "sűrűlevelű átkokhínár",
+  "brazil átkokhínár"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Hínárfélék (szárnövények)",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 100,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "hatter vagy uszo",
+ "szaporitas_noveny": "dugvanyozas",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 10,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 8.5,
+ "gh_min": 5,
+ "gh_max": 20,
+ "tarsithato": [
+  "A legtöbb békés halfajjal",
+  "elevenszülőkkel",
+  "pontylazacokkal",
+  "garnélákkal jól tartható."
+ ],
+ "kerulendo": [
+  "Nagytestű",
+  "növényevő sügérekkel és növényevő aranyhalakkal nehéz megtartani",
+  "mert lelegelhetik."
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, törékeny szárak sűrűn álló levélörvökkel",
+  "Egy örvben általában 4-5 finoman fogazott, áttetsző zöld levél található",
+  "A levelek szélesebbek és sűrűbben állnak, mint az Elodea fajoknál",
+  "Gyökérzete kevésbé fejlett, gyakran járulékos lebegő gyökereket ereszt a szárból"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Elodea canadensis",
+   "magyar_nev": "Kanadai átkokhínár",
+   "kulonbseg": "Általában csak 3 levél található egy örvben, és a szárak kevésbé dúsak."
+  },
+  {
+   "latin": "Hydrilla verticillata",
+   "magyar_nev": "Tüskés hínár",
+   "kulonbseg": "A levélörvök 4-8 levelűek, a levelek érezhetően szúrósan fogazottak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Túl meleg víz miatti szárrothadás és felkopaszodás",
+  "Fényhiány következtében megnyúlt, fakó internódiumok",
+  "Folyékony szén (glutaraldehid) tartalmú szerekre való érzékenység és szétmállás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Új akváriumok indításakor kiváló algagátló hatású gyors növekedése és tápanyag-elszívása révén.",
+  "Lebegő növényként is hagyható, ivadékbúvóhelynek is kitűnő.",
+  "Kerüljük a tartósan 26 °C feletti hőmérsékletet, mert a növény felpuhulhat és tönkremehet."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

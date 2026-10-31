@@ -1,0 +1,73 @@
+{
+ "lista_nev": "Vallisneria spiralis",
+ "id": "vallisneria-spiralis",
+ "tipus": "noveny",
+ "latin": "Vallisneria spiralis",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Csavartlevelű vallisnéria",
+ "egyeb_nevek": [
+  "Közönséges vallisnéria",
+  "Szalagnövény"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Egyszikűek",
+ "szarmazas": "Dél-Európa, Észak-Afrika, Ázsia trópusi részei",
+ "max_meret_cm": 60,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "gyors",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "indakkal",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 15,
+ "homerseklet_max": 30,
+ "ph_min": 6.5,
+ "ph_max": 8.5,
+ "gh_min": 5,
+ "gh_max": 25,
+ "tarsithato": [
+  "Sügerek",
+  "Társas akváriumi halak",
+  "Garnélák"
+ ],
+ "kerulendo": [
+  "Erősen növényevő kárászok és nagy termetű tengeri/édesvízi rákok"
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, szalag szerű, egyenes vagy enyhén hullámos levelek",
+  "A levelek erezete párhuzamos, csúcsuk lekerekített vagy finoman fogazott",
+  "A nőivarú virágzat spirálisan csavarodott száron nő a vízfelszínre",
+  "Gyökérről induló tőlevélrózsás felépítés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vallisneria americana",
+   "magyar_nev": "Óriás vallisnéria",
+   "kulonbseg": "A V. americana levelei lényegesen szélesebbek, hosszabbak és robusztusabbak."
+  },
+  {
+   "latin": "Sagittaria subulata",
+   "magyar_nev": "Törpe nyílfű",
+   "kulonbseg": "A Sagittaria lényegesen alacsonyabb marad és levelei hegyesebben végződnek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Liquid-CO2 (glutaraldehid) érzékenység miatti levélolvadás",
+  "Vas- és mikroelem-hiány miatti elszíntelenedés"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "A gyöktörzset ne ültessük túl mélyre az aljzatba, mert rothadásnak indulhat.",
+  "Kerüljük a glutaraldehid alapú folyékony szénkiegészítők használatát a jelenlétében.",
+  "Rendszeres indavágással könnyen kontrollálható a terjedése."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

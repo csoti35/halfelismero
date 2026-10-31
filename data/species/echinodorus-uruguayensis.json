@@ -1,0 +1,79 @@
+{
+ "lista_nev": "Echinodorus uruguayensis",
+ "id": "echinodorus-uruguayensis",
+ "tipus": "noveny",
+ "latin": "Echinodorus uruguayensis",
+ "regi_latin_nevek": [
+  "Echinodorus africanus",
+  "Echinodorus horizonalis var. uruguayensis"
+ ],
+ "magyar_nev": "Uruguayi kardfű",
+ "egyeb_nevek": [
+  "Uruguay-kardfű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alismataceae",
+ "csoport": "Tőlevélrózsás vízinövények",
+ "szarmazas": "Dél-Amerika (Uruguay, Brazília, Argentína)",
+ "max_meret_cm": 45,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "közepes",
+ "co2_igeny": "közepes",
+ "novekedes": "közepes",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Gyöktörzs osztásával vagy virágszáron hozott sarjakkal",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 16,
+ "homerseklet_max": 24,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Tetrák",
+  "Diszkoszhalak (hűvösebb tartományban)",
+  "Páncélosharcsák",
+  "Törpesügérek"
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő halak",
+  "Aljzatforgató sügérek",
+  "Magas hőmérsékletet tartósan igénylő fajok"
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, keskeny, szalag- vagy pánt alakú levelek",
+  "Enyhén hullámos levélszél",
+  "Sötétzöldtől a mélyvöröses/barna tónusig terjedő levélszín",
+  "A levelek hálózatos érrajzolata jól látható"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Echinodorus amazonicus",
+   "magyar_nev": "Amazonasi kardfű",
+   "kulonbseg": "Levelei világosabb zöldek, egyenesebbek és szélesebb lándzsásak."
+  },
+  {
+   "latin": "Echinodorus angustifolius",
+   "magyar_nev": "Keskenylevelű kardfű",
+   "kulonbseg": "Sokkal keskenyebb, fűszerű leveleket nevel és indákkal gyorsabban terjed."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélrothadás magas hőmérsékleten",
+  "Malignus foltosodás tápanyaghiány miatt",
+  "Vashiányos klorózis"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 2000,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Jobban kedveli a hűvösebb, 20-22 °C-os vizet, mint a legtöbb melegkedvelő Echinodorus.",
+  "Lágy, enyhén savas vízben fejlődik a legszebben.",
+  "Gyökérzete rendkívül fejlett, mély és tápdús táptalajt igényel."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Ludwigia repens",
+ "id": "ludwigia-repens",
+ "tipus": "noveny",
+ "latin": "Ludwigia repens",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kúszó tóalma",
+ "egyeb_nevek": [
+  "Kúszó ludvigia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Onagraceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Észak- és Közép-Amerika",
+ "max_meret_cm": 50,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Fejdugványozással, az oldalhajtások levágásával és elültetésével.",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Békés pontylazacok",
+  "Márványgurámi",
+  "Páncélosharcsák",
+  "Garnélák"
+ ],
+ "kerulendo": [
+  "Nagy testű cichlidek",
+  "Növényevő halak (pl. Metynnis fajok)"
+ ],
+ "felismeres_jegyek": [
+  "Átellenes állású, tojásdad vagy ovális levelek",
+  "Levelek felszíne zöldes-barna, fonákja élénkpiros vagy rózsaszínes",
+  "Egyenesen felfelé törekvő vagy kúszó szárszerkezet",
+  "Erős fény alatt a teljes növény intenzív vöröses színt vesz fel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ludwigia palustris",
+   "magyar_nev": "Mocsári tóalmacserje",
+   "kulonbseg": "Kisebb termetű, levelei keskenyebbek és hajlamosabbak a zöldesebb árnyalatra gyengébb fénynél."
+  },
+  {
+   "latin": "Ludwigia arcuata",
+   "magyar_nev": "Íves tóalmacserje",
+   "kulonbseg": "Levelei jóval keskenyebbek, szinte tűszerűek és lágyabb megjelenésűek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány miatti alsó levélhullás",
+  "Kálium- és vashiány miatti fakulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Vasszal és micro-tápanyagokkal kiegészített tápozással megelőzhető a levelek elszíntelenedése.",
+  "Rendszeres visszavágással bokros növekedésre ösztönözhető."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

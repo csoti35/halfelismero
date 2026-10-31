@@ -1,0 +1,72 @@
+{
+ "lista_nev": "Vallisneria nana",
+ "id": "vallisneria-nana",
+ "tipus": "noveny",
+ "latin": "Vallisneria nana",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kiskorú valiznéria",
+ "egyeb_nevek": [
+  "Törpe valiznéria"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Hínárfélék",
+ "szarmazas": "Ausztrália",
+ "max_meret_cm": 50,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Indákkal (sarjnövények leválasztásával)",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.5,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "barmilyen békés akváriumi hal",
+  "sügérek többsége",
+  "garnelek",
+  "csigak"
+ ],
+ "kerulendo": [
+  "nagy testű növényevő halak (pl. nagyobb pacuk)"
+ ],
+ "felismeres_jegyek": [
+  "Keskeny, sötétzöld, szalagszerű levelek",
+  "A levelek szélessége általában csupán 2-4 mm",
+  "Gyökérzetről indákat növeszt, melyeken új növénykék fejlődnek",
+  "A levelek vége enyhén fogazott lehet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vallisneria spiralis",
+   "magyar_nev": "Közönséges valiznéria",
+   "kulonbseg": "Lényegesen szélesebb levelekkel rendelkezik."
+  },
+  {
+   "latin": "Helanthium tenellum",
+   "magyar_nev": "Törpe kardfű",
+   "kulonbseg": "Sokkal alacsonyabb növésű, inkább előtéri növény."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vas- és tápanyaghiány miatti sárgulás",
+  "Liquid carbon (pl. EasyCarbo) túladagolására való érzékenység és levélolvadás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Kerüljük a glutaraldehid alapú folyékony szénforrások túladagolását, mert elolvadhatnak tőle a levelei.",
+  "Táptalajba vagy gyökértapaszok mellé ültetve rendkívül gyorsan képez sűrű háttér-erdőt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

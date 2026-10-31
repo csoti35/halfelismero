@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Hygrophila difformis",
+ "id": "hygrophila-difformis",
+ "tipus": "noveny",
+ "latin": "Hygrophila difformis",
+ "regi_latin_nevek": [
+  "Synnema triflorum"
+ ],
+ "magyar_nev": "Víziazálea",
+ "egyeb_nevek": [
+  "Sallangos vízicsillag"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Acanthaceae",
+ "csoport": "Száras (stemma) növények",
+ "szarmazas": "India, Nepál, Thaiföld, Malajzia",
+ "max_meret_cm": 50,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "Fejdugványok elültetésével, vagy akár egyetlen levél talajba dugásával.",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.2,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 18,
+ "tarsithato": [
+  "Békés akváriumi halak",
+  "Kis méretű csigák",
+  "Garnélák"
+ ],
+ "kerulendo": [
+  "Nagyobb testű növényevő sügérek",
+  "Aranyhalak"
+ ],
+ "felismeres_jegyek": [
+  "Víz alatt finoman szabdalt, sallangos, páfrányszerű levelek",
+  "Élénkzöld színezet",
+  "Heterofília jelenléte: a víz feletti (emers) levelek épszélűek, a víz alattiak szabdaltak",
+  "Gyorsan növekvő, vastag szár"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limnophila sessiliflora",
+   "magyar_nev": "Kiskabomba / Ázsiai gázlófüves",
+   "kulonbseg": "Örvökben álló, még finomabb, tüskeszerű levelekből áll."
+  },
+  {
+   "latin": "Ceratopteris thalictroides",
+   "magyar_nev": "Sallangos vízipáfrány",
+   "kulonbseg": "Tőből ágazik el, nem száras növény."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Vas- és mikrotápanyag-hiány miatti levelelsárgulás",
+  "Levélvesztés elégtelen megvilágítás esetén"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Rendkívül jó tápanyagfelszívó, gyors növekedésével hatékonyan gátolja az algásodást.",
+  "Ha túlnő, egyszerűen vágjuk vissza a szár felső részét és ültessük le újra.",
+  "Sötétebb akváriumokban levelei kevésbé lesznek szabdaltak, szélesebbek maradnak."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

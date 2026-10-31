@@ -1,0 +1,72 @@
+{
+ "lista_nev": "Ludwigia palustris",
+ "id": "ludwigia-palustris",
+ "tipus": "noveny",
+ "latin": "Ludwigia palustris",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Mocsári tóalmacserje",
+ "egyeb_nevek": [
+  "Mocsári ludvigia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Onagraceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Észak- és Dél-Amerika, Európa, Afrika",
+ "max_meret_cm": 40,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "középtér",
+ "szaporitas_noveny": "Szárdugványozással, a levágott hajtások aljzatba ültetésével.",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 10,
+ "homerseklet_max": 28,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Kisebb pontylazacok",
+  "Dániók",
+  "Törpesügérek",
+  "Garnélák"
+ ],
+ "kerulendo": [
+  "Növényevő csigák és halak"
+ ],
+ "felismeres_jegyek": [
+  "Kisméretű, ovális vagy elipszis alakú levelek",
+  "A levelek színe a narancssárgától az élénkvörösig változhat a fényviszonyoktól függően",
+  "Vékony, hajlékony, elágazó szárak",
+  "Átellenesen elhelyezkedő levélpárok"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Ludwigia repens",
+   "magyar_nev": "Kúszó tóalmacserje",
+   "kulonbseg": "Levelei lényegesen nagyobbak és szélesebbek."
+  },
+  {
+   "latin": "Didiplis diandra",
+   "magyar_nev": "Vízicsillag",
+   "kulonbseg": "Keskenyebb, tűszerűbb levelekkel és sűrűbb levélállással rendelkezik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Alsó levelek felkopaszodása elégtelen megvilágítás esetén",
+  "Mikrotápanyag-hiány miatti hajtásdeformáció"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1400,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Még CO2 hozzáadása nélkül is szépen fejlődik, de vashoz jutva hozza ki az igazán szép piros színeket.",
+  "Ne ültessük a szálakat túl közel egymáshoz, hogy az alsó levelek is kapjanak fényt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

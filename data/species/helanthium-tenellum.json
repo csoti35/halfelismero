@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Helanthium tenellum",
+ "id": "helanthium-tenellum",
+ "tipus": "noveny",
+ "latin": "Helanthium tenellum",
+ "regi_latin_nevek": [
+  "Echinodorus tenellus"
+ ],
+ "magyar_nev": "Törpe kardfű",
+ "egyeb_nevek": [
+  "Fűszerű kardfű"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alismataceae",
+ "csoport": "Gyepképző tőlevélrózsás növények",
+ "szarmazas": "Észak- és Dél-Amerika",
+ "max_meret_cm": 10,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "magas",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "előőtér",
+ "szaporitas_noveny": "Föld alatti és feletti indákkal (sarjnövényekkel)",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Kistermetű pontylazacok",
+  "Garnélák (Neocaridina, Caridina)",
+  "Törpe szívóharcsák (Otocinclus)",
+  "Rasborák"
+ ],
+ "kerulendo": [
+  "Turkáló aljzatlakó halak (pl. nagyobb márványsügérek)",
+  "Növényevő csigák és halak"
+ ],
+ "felismeres_jegyek": [
+  "Apró, keskeny, fűszálra emlékeztető levelek",
+  "Erős fény alatt a levelek rózsaszínes-vöröses árnyalatot vesznek fel",
+  "Sűrű, összefüggő gyepet képez indái révén",
+  "Levélmagassága általában mindössze 5-10 cm"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Eleocharis acicularis",
+   "magyar_nev": "Négyélű csetkáka",
+   "kulonbseg": "Tűszerű, hengeres levelei vannak, míg a H. tenellum levelei lapos lándzsásak."
+  },
+  {
+   "latin": "Lilaeopsis brasiliensis",
+   "magyar_nev": "Brazíliai fű",
+   "kulonbseg": "Levelei lekerekítettebb végűek és merevebb struktúrájúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány miatti felnyúlás és megsárgulás",
+  "Algásodás (főleg szakáll- és zöldalga a lassú áramlású részeken)",
+  "Vashiány"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Ültetéskor szedjük szét apró tövekre, és 1-2 cm távolságra ültessük őket egymástól.",
+  "Erős megvilágítás és vasban gazdag tápoldatozás mellett gyönyörű vöröses színt kap.",
+  "Rendszeres nyírással sűrűbb, tömöttebb gyep szőhető belőle."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

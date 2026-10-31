@@ -1,0 +1,72 @@
+{
+ "lista_nev": "Limnophila aromatica",
+ "id": "limnophila-aromatica",
+ "tipus": "noveny",
+ "latin": "Limnophila aromatica",
+ "regi_latin_nevek": [
+  "Limnophila aromaticoides"
+ ],
+ "magyar_nev": "Aromás gázlóvirág",
+ "egyeb_nevek": [
+  "Rau ram (vietnámi fűszernövényként)"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Plantaginaceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 40,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "kozepes",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "Szárdugványozással: a felső hajtásokat levágva a talajba ültetjük.",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "Békés akváriumi halakkal",
+  "Garnélákkal"
+ ],
+ "kerulendo": [
+  "Növényevő halak"
+ ],
+ "felismeres_jegyek": [
+  "Száron 3-5-ös örvökben álló, finoman csipkézett szélű lándzsás levelek",
+  "Levelek fonákja intenzív lila vagy rózsaszín",
+  "Erős fényben a levelek felszíne is narancsos-vöröses színt vesz fel",
+  "Dörzsölésre vagy vízfelszín felett jellegzetes aromás/citromos illatot áraszt"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limnophila hippuridoides",
+   "magyar_nev": "Fenyőmirtusz gázlóvirág",
+   "kulonbseg": "A L. hippuridoides levelei keskenyebbek, több levél alkot egy örvöt (6-10 db), és mélyebb lila színű."
+  },
+  {
+   "latin": "Eusteralis stellata",
+   "magyar_nev": "Csillagos gázlóvirág",
+   "kulonbseg": "Az E. stellata levelei lényegesen keskenyebbek és törékenyebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fény- és CO2-hiány miatti alsó levélelhalás",
+  "Mikroelem-hiány miatti levéltorzulás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Az intenzív színeződéshez erős megvilágítás, rendszeres vas- és mikrotápanyag-adagolás szükséges.",
+  "Lágy és enyhén savas vízben fejlődik a legszebben."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

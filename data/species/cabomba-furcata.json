@@ -1,0 +1,77 @@
+{
+ "lista_nev": "Cabomba furcata",
+ "id": "cabomba-furcata",
+ "tipus": "noveny",
+ "latin": "Cabomba furcata",
+ "regi_latin_nevek": [
+  "Cabomba piauhyensis"
+ ],
+ "magyar_nev": "Piros kabomba",
+ "egyeb_nevek": [
+  "Vörös kabomba"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cabombaceae",
+ "csoport": "Száras (szálas) növények",
+ "szarmazas": "Közép- és Dél-Amerika",
+ "max_meret_cm": 40,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Szárdugványozással, az egészséges hajtások levágásával és újraültetésével.",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 30,
+ "ph_min": 5.5,
+ "ph_max": 6.8,
+ "gh_min": 2,
+ "gh_max": 8,
+ "tarsithato": [
+  "kis testű pontylazacok",
+  "törpe sügérek",
+  "Garnélák",
+  "Otocinclus"
+ ],
+ "kerulendo": [
+  "növényevő halak",
+  "kemény vizet kedvelő fajok",
+  "nagy testű fenéklakók"
+ ],
+ "felismeres_jegyek": [
+  "Legyező alakú, nagyon finoman szabdalt levelek",
+  "Rózsaszínes, vöröses vagy lila árnyalatú levelek és szárak",
+  "Átellenesen elhelyezkedő levélpárok",
+  "Igen lágy szárú és törékeny szerkezet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cabomba caroliniana",
+   "magyar_nev": "Zöld kabomba",
+   "kulonbseg": "A levelek teljesen zöldek, lényegesen igénytelenebb faj."
+  },
+  {
+   "latin": "Limnophila aromatica",
+   "magyar_nev": "Aromás gázlóvirág",
+   "kulonbseg": "Levelei szélesebbek, lándzsásak, nem finoman szabdalt legyezők."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Lombhullás lágy víz vagy CO2 hiányában",
+  "Szár elfolyósodása/rothadása"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Kizárólag lágy, enyhén savas vízben és bőséges CO2-adagolás mellett tartható sikeresen.",
+  "Kifejezetten erős megvilágítást és rendszeres mikro- és makrotápanyagozást (különösen vasat) igényel.",
+  "Ültetéskor a szálakat egyesével, csipesszel helyezzük el, nehogy megsérüljön a szára."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

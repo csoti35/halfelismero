@@ -1,0 +1,73 @@
+{
+ "lista_nev": "Limnophila hippuridoides",
+ "id": "limnophila-hippuridoides",
+ "tipus": "noveny",
+ "latin": "Limnophila hippuridoides",
+ "regi_latin_nevek": [
+  "Limnophila sp. 'Sulamudi'"
+ ],
+ "magyar_nev": "Limnophila hippuridoides",
+ "egyeb_nevek": [
+  "Gratiola hippuridoides"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Plantaginaceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Ázsia (Laois, Thaiföld)",
+ "max_meret_cm": 50,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "gyors-kozepes",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "Szárdugványozással és oldalhajtások leválasztásával.",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 30,
+ "ph_min": 5.0,
+ "ph_max": 7.0,
+ "gh_min": 1,
+ "gh_max": 9,
+ "tarsithato": [
+  "Kisméretű békés halakkal",
+  "Növényes akváriumba való fajokkal",
+  "Garnélákkal"
+ ],
+ "kerulendo": [
+  "Növényevő halak és durva aljzatot túró fajok"
+ ],
+ "felismeres_jegyek": [
+  "Sűrű örvökben álló keskeny, tűszerű levelek (akár 6-12 levél örvönként)",
+  "Megfelelő körülmények között mély lila, ciklámen és vörös árnyalatú lombozat",
+  "Vastag, erőteljes egyenes szár",
+  "A levelek széle finoman fűrészes"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limnophila aromatica",
+   "magyar_nev": "Aromás gázlóvirág",
+   "kulonbseg": "A L. aromatica kevesebb és szélesebb levelet növeszt örvönként."
+  },
+  {
+   "latin": "Pogostemon erectus",
+   "magyar_nev": "Tűlevelű gázlóvirág",
+   "kulonbseg": "A Pogostemon erectus levelei mindig élénkzöldek, sosem színeződnek lilára."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Elégtelen világítás esetén felkopaszodás és zöldre fakulás",
+  "Nitráthiány esetén lassú növekedés és levélvesztés"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1600,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Csoportosan ültetve mutat a legszebben az akvárium háttérrégiójában.",
+  "Magas fényintenzitás és folyamatos CO2-adagolás elengedhetetlen a sötétlila színek eléréséhez."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

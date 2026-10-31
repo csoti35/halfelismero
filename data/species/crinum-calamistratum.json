@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Crinum calamistratum",
+ "id": "crinum-calamistratum",
+ "tipus": "noveny",
+ "latin": "Crinum calamistratum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Crinum calamistratum",
+ "egyeb_nevek": [
+  "Kandelláder-hagyma",
+  "Hullámos levelű crinum"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Amaryllidaceae",
+ "csoport": "Hagymás növények",
+ "szarmazas": "Kamerun",
+ "max_meret_cm": 100,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassu",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "A hagymán képződő fiókhagymák leválasztásával.",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 18,
+ "tarsithato": [
+  "Diszkoszhal",
+  "Skalár",
+  "Tetrák",
+  "Sügérek (szívós levelei miatt)"
+ ],
+ "kerulendo": [
+  "Erősen aljzatfúró nagy sügérek (kiáshatják a hagymát)"
+ ],
+ "felismeres_jegyek": [
+  "Nagyon keskeny, sötétzöld, szalag-szerű levelek",
+  "Erősen csavarodott, hullámos levélszélek",
+  "Jól látható, nagy méretű fehér/barna hagyma",
+  "A levelek akár az 1 méteres hosszúságot is elérhetik és a vízfelszínen lebegnek"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Crinum thaianum",
+   "magyar_nev": "Thaiföldi hagymásnövény",
+   "kulonbseg": "Levelei sokkal szélesebbek, simábbak és nem csavarodottak."
+  },
+  {
+   "latin": "Vallisneria spiralis",
+   "magyar_nev": "Csavartlevelű hínár",
+   "kulonbseg": "Gyökérstólókkal terjed, nincs hagymája, levelei kevésbé sötétek és vastagok."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hagyma rothadása mélyre ültetés miatt",
+  "Átültetési sokk (stagnálás vagy levélelhalás a bolygatástól)"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 6500,
+ "tippek": [
+  "A hagymát csak félig szabad a talajba ültetni, különben elrothadhat.",
+  "Nem bírja a gyakori átültetést, hagyjunk neki elég időt egy helyen a megtelepedésre.",
+  "Szívós leveleit a legtöbb növényevő hal és sügér békén hagyja."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

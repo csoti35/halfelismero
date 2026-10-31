@@ -1,0 +1,67 @@
+{
+ "lista_nev": "Hygrophila pinnatifida",
+ "id": "hygrophila-pinnatifida",
+ "tipus": "noveny",
+ "latin": "Hygrophila pinnatifida",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Hygrophila pinnatifida",
+ "egyeb_nevek": [
+  "szárnyas víziunokahúg"
+ ],
+ "magyar_nev_bizonytalan": true,
+ "csalad": "Acanthaceae",
+ "csoport": "Stemm- / Epifita növény",
+ "szarmazas": "India",
+ "max_meret_cm": 40,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "előtér / középtér / kőre-fára rögzítve",
+ "szaporitas_noveny": "Oldalhajtások és gyökérhajtások leválasztásával, vagy fejdugványozással.",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Bármilyen békés",
+  "növényevőktől mentes akváriumi élőlénnyel."
+ ],
+ "kerulendo": [
+  "Nagytestű rákok",
+  "növényevő sügérek és csigák."
+ ],
+ "felismeres_jegyek": [
+  "Mélyen szabdalt, páfrányszerű levelek",
+  "Levelek felszíne barna-vöröses, fonákja ibolyaszínű",
+  "Képes indákkal kövekre és fákra tapadni",
+  "Vízszintes oldalhajtásokat (indákat) növeszt"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hygrophila difformis",
+   "magyar_nev": "Vízipáfrány",
+   "kulonbseg": "Sokkal világoszöldebb és puhább, lágyabb levélszerkezetű, nem epifita."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Káliumhiány miatti lyukacsosodás a leveleken",
+  "Fény- és CO2-hiány esetén az alsó levelek eldobása"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Biztosítsunk bőséges káliumutánpótlást, mert nagyon érzékeny a hiányára.",
+  "Akkor mutatja a legszebb vöröses-barna színeket, ha erős fényt és CO2-bevitelt kap.",
+  "Rendszeres visszavágással bokros növekedésre ösztönözhető."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,71 @@
+{
+ "lista_nev": "Aponogeton crispus",
+ "id": "aponogeton-crispus",
+ "tipus": "noveny",
+ "latin": "Aponogeton crispus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fodros vízikalász",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aponogetonaceae",
+ "csoport": "Vízikalászfélék",
+ "szarmazas": "Srí Lanka",
+ "max_meret_cm": 50,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "hasznos, de nem feltétel",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Magról vagy a gumó osztásával",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 20,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "békés pontylazacok",
+  "márványgurámi",
+  "páncélosharcsák",
+  "törpesügérek"
+ ],
+ "kerulendo": [
+  "növényevő sügérek",
+  "nagy termetű algaevő harcsák (kiáshatják a gumót)"
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, áttetsző, világos- vagy sötétzöld levelek",
+  "Erősen hullámos/fodros levélszél",
+  "Gumóból fejlődő levélüstök",
+  "Fehér vagy sárgás virágszár, amely a vízfelszín fölé nyúlik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aponogeton ulvaceus",
+   "magyar_nev": "Salátalevelű vízikalász",
+   "kulonbseg": "Levelei jóval szélesebbek, csavarodottak és sokkal nagyobb teret foglalnak el."
+  },
+  {
+   "latin": "Crinum calamistratum",
+   "magyar_nev": "Fodros hálónövény",
+   "kulonbseg": "Keskenyebb, sötétebb és keményebb, szinte gumiszerű levelek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Pihenési időszak alatti levélvesztés (természetes folyamat)",
+  "Tápanyaghiány miatti kilyukadás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "A gumót ültetéskor ne temessük el teljesen, a felső harmada maradjon kilátszó a talajból.",
+  "Nyugalmi időszakban visszahúzódhat a gumójába; ilyenkor érdemes a hőmérsékletet kicsit csökkenteni."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

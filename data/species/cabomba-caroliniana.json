@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Cabomba caroliniana",
+ "id": "cabomba-caroliniana",
+ "tipus": "noveny",
+ "latin": "Cabomba caroliniana",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Karolinai tündérhínár (kabomba)",
+ "egyeb_nevek": [
+  "Karolinai kabomba"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Cabombaceae",
+ "csoport": "Száras (szálas) növények",
+ "szarmazas": "Észak- és Dél-Amerika",
+ "max_meret_cm": 50,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "magas",
+ "co2_igeny": "közepes",
+ "novekedes": "gyors",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Fejdugványozással: a hajtások levágásával és elültetésével.",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "pontylazacok",
+  "dániók",
+  "törpe gurámik",
+  "páncélosharcsák"
+ ],
+ "kerulendo": [
+  "nagy testű növényevő halak",
+  "tiszta vizet nem kedvelő turkáló halak"
+ ],
+ "felismeres_jegyek": [
+  "Finoman szabdalt, legyezőszerűen elágazó zöld levelek",
+  "Keresztben átellenes levélállás a száron",
+  "Vízfelszínre érve apró, úszó leveleket és fehér-sárga virágokat hozhat",
+  "Tömött, dús zöld bokrot képez megfelelő fényben"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limnophila sessiliflora",
+   "magyar_nev": "Ázsiai gázlóvirág",
+   "kulonbseg": "Levelei örvökben állnak a száron, nem pedig átellenes párokban."
+  },
+  {
+   "latin": "Myriophyllum aquaticum",
+   "magyar_nev": "Brazíliai süllőhínár",
+   "kulonbseg": "Tollszerűbb, fésűs levélszerkezet, eltérő növekedési habitus."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélhullás kevés fény hatására",
+  "Száralja rothadása finom lebegő hordalék miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 900,
+ "ar_ft_max": 1800,
+ "tippek": [
+  "Erős megvilágítás nélkül az alsó leveleit elhullatja és felkopaszodik.",
+  "Ugyeljen a víz tisztaságára, mert a lebegő piszok megtelepszik a finom levelein.",
+  "Rendszeres visszavágással bokrosodásra ösztönözhető."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

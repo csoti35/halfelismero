@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Aponogeton boivinianus",
+ "id": "aponogeton-boivinianus",
+ "tipus": "noveny",
+ "latin": "Aponogeton boivinianus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Fodros vízifüzér",
+ "egyeb_nevek": [
+  "Boivin-vízifüzér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aponogetonaceae",
+ "csoport": "Gumós vízinövények",
+ "szarmazas": "Madagaszkár",
+ "max_meret_cm": 60,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "közepes",
+ "co2_igeny": "közepes",
+ "novekedes": "gyors",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "Gumóosztás, virágzás utáni magvetés",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 20,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "Kisemberű tetra fajok",
+  "Márványgurámi",
+  "Páncélosharcsák",
+  "Garnélák"
+ ],
+ "kerulendo": [
+  "Növényevő sügérek",
+  "Nagytestű algaevők",
+  "Aljzattúró nagyhalak"
+ ],
+ "felismeres_jegyek": [
+  "Nagyon erősen hólyagos, hullámos/fodros felületű sötétzöld levelek",
+  "Fiatal levelek gyakran áttetsző zöldes-barna vagy vöröses árnyalatúak",
+  "Hosszú, szalagszerű, akár 50-80 cm-es levelek",
+  "Erőteljes, nagy méretű gumó"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aponogeton crispus",
+   "magyar_nev": "Fodros vízikalász",
+   "kulonbseg": "Levelei keskenyebbek, lágyabbak és vékonyabbak, felületük kevéssé hólyagos."
+  },
+  {
+   "latin": "Cryptocoryne usteriana",
+   "magyar_nev": "Hólyagos vízikehely",
+   "kulonbseg": "Levélfonákja gyakran vöröses, tőrózsás kriptonövény, nem gumóból hajt."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gombás gumókorhadás túl tömör aljzatban",
+  "Lyukadós levelek tápanyag- és CO2-hiány miatt",
+  "Alga megtelepedése az idős leveleken"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "A gumót ne temessük el teljesen a talajban, a felső harmada látszódjon ki a rothadás elkerülése érdekében.",
+  "Tápanyagban gazdag aljzatot és rendszeres gyökértápozást igényel.",
+  "Nagy akváriumot igényel, mert hatalmas terjedelmű leveleket növeszt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

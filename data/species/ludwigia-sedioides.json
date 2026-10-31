@@ -1,0 +1,70 @@
+{
+ "lista_nev": "Ludwigia sedioides",
+ "id": "ludwigia-sedioides",
+ "tipus": "noveny",
+ "latin": "Ludwigia sedioides",
+ "regi_latin_nevek": [
+  "Jussiaea sedioides"
+ ],
+ "magyar_nev": "Mozaiknövény",
+ "egyeb_nevek": [
+  "Mozaik ludwigia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Onagraceae",
+ "csoport": "úszónövény",
+ "szarmazas": "Közép- és Dél-Amerika",
+ "max_meret_cm": 20,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "vízfelszín",
+ "szaporitas_noveny": "oldalhajtások leválasztásával, szárdugványozással",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.5,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "kisebb békés pontylazacok",
+  "törpesügérek",
+  "garnelek"
+ ],
+ "kerulendo": [
+  "nagy testű növényevő halak",
+  "nagy testű rákok",
+  "felszínt túlzottan fodrozó erős szűrők"
+ ],
+ "felismeres_jegyek": [
+  "Rombusz alakú levelekből álló, tökéletes mozaik mintázatú rózsa a vízfelszínen",
+  "A levelek széle finoman csipkézett és vöröses-zöld színű",
+  "Sárga, négytermésű virágokat növeszt a felszín felett",
+  "Hosszú, lebegő gyökérzet és szárkapocs"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Trapa natans",
+   "magyar_nev": "Sulyom",
+   "kulonbseg": "A sulyom levelei nagyobbak, szélük fogazottabb és tüskés termést hoz."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélrohadás kevés fény miatt",
+  "Tápanyaghiány miatti fakulás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Rendkívül fényigényes, nyitott akváriumot vagy kerti tavat igényel erős megvilágítással.",
+  "Kerüljük az erős vízfelszíni áramlást, mert a levelek könnyen megsérülnek."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

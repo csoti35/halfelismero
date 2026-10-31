@@ -1,0 +1,73 @@
+{
+ "lista_nev": "Aponogeton madagascariensis",
+ "id": "aponogeton-madagascariensis",
+ "tipus": "noveny",
+ "latin": "Aponogeton madagascariensis",
+ "regi_latin_nevek": [
+  "Aponogeton fenestralis"
+ ],
+ "magyar_nev": "Madagaszkári rácshínár",
+ "egyeb_nevek": [
+  "Rácsos vizifüzér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aponogetonaceae",
+ "csoport": "Gumós vízinövények",
+ "szarmazas": "Madagaszkár",
+ "max_meret_cm": 50,
+ "nehezseg": 5,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "Gumóosztás, magról való szaporítás",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 8,
+ "tarsithato": [
+  "Békés kistestű pontylazacok",
+  "Rasborák",
+  "Otocinclus fajok",
+  "Garnélák"
+ ],
+ "kerulendo": [
+  "Növényevő sügérek",
+  "Nagytestű algaevő harcsák",
+  "Csigák (amik megrágják a finom leveleket)"
+ ],
+ "felismeres_jegyek": [
+  "Egészen egyedülálló, rácsszerűen áttört, hiányos levéllemezek",
+  "Hosszúkás, lándzsás levelek hálózatos erezettel",
+  "Gumóból fejlődő, tőrózsás növekedés",
+  "Sárgás vagy lilásvirágú kalász, ami a vízfelszín fölé nyúlik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aponogeton henkelianus",
+   "magyar_nev": "Henkel-rácshínár",
+   "kulonbseg": "Sűrűbb és szabályosabb rálcshálózattal rendelkezik a levelein."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélelhalás a nyugalmi időszak hiánya miatt",
+  "Algásodás a lassan növekvő rácsos leveleken",
+  "Tápanyaghiány miatti levélsárgulás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 7000,
+ "tippek": [
+  "Hűvös, áramló vizet igényel, a 24 °C feletti hőmérsékletet hosszabb távon nem bírja.",
+  "Szüksége van időszakos pihenőidőre: amikor eldobja leveleit, a gumót csökkentett hőmérsékleten kell pihentetni.",
+  "Kifejezetten érzékeny az algásodásra és a szerves szennyeződésekre, lágy vizet igényel."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

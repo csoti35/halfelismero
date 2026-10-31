@@ -1,0 +1,66 @@
+{
+ "lista_nev": "Bacopa caroliniana",
+ "id": "bacopa-caroliniana",
+ "tipus": "noveny",
+ "latin": "Bacopa caroliniana",
+ "regi_latin_nevek": [
+  "Bacopa amplexicaulis"
+ ],
+ "magyar_nev": "Nagylevelű bakopa",
+ "egyeb_nevek": [
+  "Karolinai bakopa"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Plantaginaceae",
+ "csoport": "Szárnövény (Stemm)",
+ "szarmazas": "Észak-Amerika",
+ "max_meret_cm": 40,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "lassú",
+ "elhelyezes": "háttér / középtér",
+ "szaporitas_noveny": "Fejdugványozással és oldalhajtások leültetésével.",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 18,
+ "tarsithato": [
+  "Minden átlagos békés akváriumi hallal és gerinctelennel."
+ ],
+ "kerulendo": [
+  "Erősen növényevő halfajok."
+ ],
+ "felismeres_jegyek": [
+  "Vastag, húsos, ovális levelek, melyek szorosan a száron ülnek",
+  "Erős fény alatt a hajtáscsúcsok bronzos-rézvörös árnyalatot kapnak",
+  "Összenyomva vagy dörzsölésre jellegzetes citromos illatot áraszt",
+  "Kerekded szárkresztmetszet, egyenes növekedés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Bacopa monnieri",
+   "magyar_nev": "Kislevelű bakopa",
+   "kulonbseg": "Kisebb, keskenyebb levelek, szigorúan zöld szín és citromillat hiánya."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Alsó levelek elhalása kevés fény esetén",
+  "Mikrotápanyag-hiány miatti sápadt levelek"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Erősebb megvilágítás mellett gyönyörű rézvörös hajtáscsúcsokat nevel.",
+  "Ne ültessük a szálakat túl közel egymáshoz, hogy az alsó levelek is kapjanak fényt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

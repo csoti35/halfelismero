@@ -1,0 +1,72 @@
+{
+ "lista_nev": "Myriophyllum mattogrossense",
+ "id": "myriophyllum-mattogrossense",
+ "tipus": "noveny",
+ "latin": "Myriophyllum mattogrossense",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Matto Grosso süllőhínár",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Haloragaceae",
+ "csoport": "Szárhínárok",
+ "szarmazas": "Dél-Amerika (Mato Grosso, Brazília)",
+ "max_meret_cm": 45,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes-magas",
+ "co2_igeny": "alacsony-kozepes",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Szárdugványozással, a levágott hajtások aljzatba ültetésével.",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 12,
+ "tarsithato": [
+  "Akvarisztikai garnélák",
+  "Kisebb csapathalak",
+  "Törpe szívóharcsák"
+ ],
+ "kerulendo": [
+  "Növényevő sügérek",
+  "Nagytestű algaevő harcsák",
+  "Erősen ásó magatartású halak"
+ ],
+ "felismeres_jegyek": [
+  "Élénk világoszöld, puha, pehelykönnyű megjelenésű levelek.",
+  "Laza, tollszerűen szárnyalt levelek örvökben.",
+  "Gyorsan bokrosodó, egyenesen felfelé törekvő szár.",
+  "Erős fény alatt sem színeződik vörösre."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Myriophyllum tuberculatum",
+   "magyar_nev": "Piros süllőhínár",
+   "kulonbseg": "Erős fényben narancsvörös vagy mélypiros színűvé válik."
+  },
+  {
+   "latin": "Hottonia palustris",
+   "magyar_nev": "Békaliliom",
+   "kulonbseg": "Levelei fésűsek, de lassabb növekedésű és tömzsibb felépítésű."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Felkopaszodás az alján fényhiány miatt",
+  "Algásodás a lassú vízáramlású zónákban"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Rendszeres metszést igényel, mert rendkívül gyorsan eléri a vízfelszínt.",
+  "Kiváló háttérnövény, amivel lágy, tollszerű zöld struktúra hozható létre.",
+  "Kezdő növényes akvaristáknak is ideális választás a tápanyagok gyors felvétele miatt."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

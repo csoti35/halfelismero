@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Elodea canadensis",
+ "id": "elodea-canadensis",
+ "tipus": "noveny",
+ "latin": "Elodea canadensis",
+ "regi_latin_nevek": [
+  "Anacharis canadensis"
+ ],
+ "magyar_nev": "Kanadai átokhínár",
+ "egyeb_nevek": [
+  "kanadai hínár"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Hínárfélék (szárnövények)",
+ "szarmazas": "Észak-Amerika",
+ "max_meret_cm": 100,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "hatter vagy uszo",
+ "szaporitas_noveny": "dugvanyozas",
+ "min_akvarium_l": 40,
+ "homerseklet_min": 4,
+ "homerseklet_max": 24,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 6,
+ "gh_max": 20,
+ "tarsithato": [
+  "Hidegvizes halakkal",
+  "aranyhalakkal (ha nem rágják meg túlzottan)",
+  "kerti tavi halakkal és hűvösebb akváriumok fajaival."
+ ],
+ "kerulendo": [
+  "Kifejezetten trópusi",
+  "melegvizet kedvelő halakkal (pl. diszkoszhalak)",
+  "mivel a melegben elolvad."
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, világoszöld szárak ritkásabb levélörvökkel",
+  "Egy-egy örvben szinte kivétel nélkül 3 tompa végű levél fejlődik",
+  "A levelek kissé hátrahajlóak és sötétebb zöld árnyalatúak lehetnek, mint az Egeria levelei",
+  "Víz alatt laza, elágazó hínáros bozótot alkot"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Egeria densa",
+   "magyar_nev": "Átkokhínár",
+   "kulonbseg": "Általában 4-5 levelű örvei vannak, sokkal sűrűbb lombozattal."
+  },
+  {
+   "latin": "Elodea nuttallii",
+   "magyar_nev": "Keskenylevelű átkokhínár",
+   "kulonbseg": "Levelei keskenyebbek, csúcsuk hegyesebb és jellegzetesen csavarodottak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hőstressz okozta felbomlás és barnulás 25 °C feletti vízben",
+  "Tápanyaghiány esetén elsatnyuló szárvégek",
+  "Algafonalak megtapadása a leveleken túlzott fénynél"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 700,
+ "ar_ft_max": 1600,
+ "tippek": [
+  "Hidegvizes akváriumokba vagy kerti tavakba ideális oxigéntermelő és nitrátcsökkentő növény.",
+  "A visszavágott hajtáscsúcsok egyszerűen az aljzatba dugva azonnal tovább gyökeresednek.",
+  "Nem igényel külön táptalajt, a víz oszlopából veszi fel a legtöbb tápanyagot."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.7-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

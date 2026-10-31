@@ -1,0 +1,78 @@
+{
+ "lista_nev": "Echinodorus cordifolius",
+ "id": "echinodorus-cordifolius",
+ "tipus": "noveny",
+ "latin": "Echinodorus cordifolius",
+ "regi_latin_nevek": [
+  "Alisma cordifolium"
+ ],
+ "magyar_nev": "Szívlevelű kardfű",
+ "egyeb_nevek": [
+  "Szívlevelű Echinodorus"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Alismataceae",
+ "csoport": "Tőlevélrózsás vízinövények",
+ "szarmazas": "Észak- és Közép-Amerika",
+ "max_meret_cm": 50,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Virágzat szárain fejlődő sarjnövényekkel vagy tövosztással",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 4,
+ "gh_max": 20,
+ "tarsithato": [
+  "Békés pontylazacok",
+  "Márványos páncélosharcsák",
+  "Gupik",
+  "Mollik"
+ ],
+ "kerulendo": [
+  "Növényevő sügérek",
+  "Nagytestű algaevő harcsák (rágják a lemezeket)",
+  "Nagytestű rákok"
+ ],
+ "felismeres_jegyek": [
+  "Jellegzetes szív alakú levelek hosszú levélnyélen",
+  "Nagytermetű, robusztus tőlevélrózsa",
+  "Emers formában gyakran nevel víz fölé nyúló hajtásokat és fehér virágokat",
+  "Élénkzöld levéllemezek finom erezettel"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Echinodorus bleheri",
+   "magyar_nev": "Kardlevelű kardfű",
+   "kulonbseg": "Levelei lándzsásak, nem szív alakúak a levélvállnál."
+  },
+  {
+   "latin": "Echinodorus floribundus",
+   "magyar_nev": "Virágzó kardfű",
+   "kulonbseg": "Még robusztusabb, levéllemezei oválisabbak és keményebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Klorózis (vashiány miatti levélsárgulás)",
+  "Káliumhiány (apró lyukak a leveleken)",
+  "Gyökérkorhadás tömör talajban"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Tápanyagban gazdag aljzatot (gyökértápot) igényel a gyors fejlődéshez.",
+  "Nyitott akváriumokban gyönyörű víz feletti leveleket és virágzatot növeszt.",
+  "Rendszeresen vissza kell vágni a külső, öreg leveleket, ha túl nagyra nő."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

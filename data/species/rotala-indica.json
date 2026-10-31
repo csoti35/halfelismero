@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Rotala indica",
+ "id": "rotala-indica",
+ "tipus": "noveny",
+ "latin": "Rotala indica",
+ "regi_latin_nevek": [
+  "Ammannia sp. 'Bonsai'"
+ ],
+ "magyar_nev": "Indiai rotala",
+ "egyeb_nevek": [
+  "Rotala bonsai"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Lythraceae",
+ "csoport": "szárnövény",
+ "szarmazas": "Ázsia",
+ "max_meret_cm": 20,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "lassú",
+ "elhelyezes": "előtér",
+ "szaporitas_noveny": "szárdugványozással, oldalhajtások elültetésével",
+ "min_akvarium_l": 30,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 3,
+ "gh_max": 12,
+ "tarsithato": [
+  "kisméretű pontylazacok",
+  "törpe garnélák",
+  "rasborák"
+ ],
+ "kerulendo": [
+  "növényevő halak",
+  "nagy testű turkáló harcsák"
+ ],
+ "felismeres_jegyek": [
+  "Vastag, egyenesen felfelé törekvő húsos szár",
+  "Kicsi, kerek vagy ovális, vastag húsú levelek",
+  "Kompakt, oszlopszerű növekedési forma",
+  "Hajtáscsúcsai jó fényben rózsaszínes-pirosas árnyalatot kapnak"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Rotala rotundifolia",
+   "magyar_nev": "Kereklevelű rotala",
+   "kulonbseg": "A rotundifolia víz alatt sokkal hosszabb, keskenyebb leveleket növeszt és gyorsabban nő."
+  },
+  {
+   "latin": "Bacopa monnieri",
+   "magyar_nev": "Kislevelű bakopa",
+   "kulonbseg": "A bakopa levelei nagyobbak, szélesebbek és zöldebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Száralap rohadása nem megfelelő áramlás vagy fényhiány miatt",
+  "Algásodás a lassú növekedés miatt"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Gyakran Ammannia 'Bonsai' néven forgalmazzák a kereskedésekben.",
+  "Igényli a stabil tápanyagellátást és a szén-dioxid adagolást a szép, tömött forma megőrzéséhez."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

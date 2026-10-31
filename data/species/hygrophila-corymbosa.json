@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Hygrophila corymbosa",
+ "id": "hygrophila-corymbosa",
+ "tipus": "noveny",
+ "latin": "Hygrophila corymbosa",
+ "regi_latin_nevek": [
+  "Nomaphila stricta"
+ ],
+ "magyar_nev": "Óriás vízicsillag",
+ "egyeb_nevek": [
+  "Siamensis",
+  "Kompakt vízicsillag"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Acanthaceae",
+ "csoport": "Száras (stemma) növények",
+ "szarmazas": "Délkelet-Ázsia",
+ "max_meret_cm": 60,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "Fejdugványozással és oldalhajtások levágásával, majd elültetésével.",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Békés közösségi halak",
+  "Garnélák",
+  "Törpesügérek"
+ ],
+ "kerulendo": [
+  "Növényevő halak (pl. dollárhal, nagy aranyhalak)"
+ ],
+ "felismeres_jegyek": [
+  "Nagy, széles, lándzsa alakú levelek",
+  "Erős, vastag, fásodó szár",
+  "Világoszöldtől a barnás-bronzos színig változó levélszín a fényviszonyoktól függően",
+  "Emers (víz feletti) formájában lila virágokat hozhat"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hygrophila polysperma",
+   "magyar_nev": "Indiai vízicsillag",
+   "kulonbseg": "Sokkal kisebb és keskenyebb levelekkel bír."
+  },
+  {
+   "latin": "Hygrophila costata",
+   "magyar_nev": "Keskenylevelű vízicsillag",
+   "kulonbseg": "Levelei hosszabbak és keskenyebbek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Káliumhiány miatti levéllyukacsosodás",
+  "Alsó levelek elhullása fénytelenség miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1000,
+ "ar_ft_max": 2200,
+ "tippek": [
+  "Kevés kálium jelenlétében a levelein apró pontszerű lyukak alakulnak ki, így jó jelzőnövény.",
+  "A vízfelszínt elérve hajlamos kinyúlni az akváriumból, ilyenkor lila virágokat növeszt.",
+  "A hajtáscsúcs visszavágásával bokrosabb növekedésre ösztönözhető."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

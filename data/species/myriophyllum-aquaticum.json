@@ -1,0 +1,76 @@
+{
+ "lista_nev": "Myriophyllum aquaticum",
+ "id": "myriophyllum-aquaticum",
+ "tipus": "noveny",
+ "latin": "Myriophyllum aquaticum",
+ "regi_latin_nevek": [
+  "Myriophyllum brasiliense"
+ ],
+ "magyar_nev": "Brazíliai süllőhínár",
+ "egyeb_nevek": [
+  "Papagájhínár"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Haloragaceae",
+ "csoport": "Szárhínárok",
+ "szarmazas": "Dél-Amerika",
+ "max_meret_cm": 50,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes-magas",
+ "co2_igeny": "alacsony-kozepes",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Fejdugványozással, az oldalhajtások levágásával és elültetésével.",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 15,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Kisebb testű békés halak",
+  "Garnélák",
+  "Törpe sügérek"
+ ],
+ "kerulendo": [
+  "Növényevő sügérek",
+  "Nagytestű rákok",
+  "Növényevő csigák (pl. Marisa)"
+ ],
+ "felismeres_jegyek": [
+  "Kékeszöld vagy világoszöld, finoman szárnyalt levelek.",
+  "A levelek örvökben helyezkednek el a száron.",
+  "Víz fölé emelkedő hajtásai vastagabbak és merevebbek.",
+  "Sűrű, tollszerű megjelenés."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Myriophyllum verticillatum",
+   "magyar_nev": "Gyűrűs süllőhínár",
+   "kulonbseg": "Hidegvízi faj, levelei sötétebb zöldek és finomabb szerkezetűek."
+  },
+  {
+   "latin": "Cabomba caroliniana",
+   "magyar_nev": "Karolinai kabomba",
+   "kulonbseg": "A levelek villásan ágaznak el, nem örvökben szárnyaltak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fényhiány miatti felkopaszodás",
+  "Mikrotápanyag-hiány (sárguló hajtáscsúcsok)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2500,
+ "tippek": [
+  "Nyitott akváriumokban és kerti tavakban víz fölé nőve gyönyörű smaragdzöld szőnyeget alkot.",
+  "A rendszeres visszavágás bokrosodásra ösztönzi.",
+  "Hidegebb vizet is jól tolerálja, télikertben vagy tóparton is tartható."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

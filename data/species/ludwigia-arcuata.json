@@ -1,0 +1,71 @@
+{
+ "lista_nev": "Ludwigia arcuata",
+ "id": "ludwigia-arcuata",
+ "tipus": "noveny",
+ "latin": "Ludwigia arcuata",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Íves tóalmacserje",
+ "egyeb_nevek": [
+  "Tűlevelű ludvigia"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Onagraceae",
+ "csoport": "Száras növények",
+ "szarmazas": "Észak-Amerika (USA délkeleti része)",
+ "max_meret_cm": 40,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "magas",
+ "co2_igeny": "magas",
+ "novekedes": "közepes",
+ "elhelyezes": "középtér",
+ "szaporitas_noveny": "Fejdugványok és oldalhajtások levágásával, majd elültetésével.",
+ "min_akvarium_l": 50,
+ "homerseklet_min": 20,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "Törpe szívóharcsák",
+  "Kisméretű pontylazacok",
+  "Garnélák"
+ ],
+ "kerulendo": [
+  "Nagy testű, túró vagy növényevő halak"
+ ],
+ "felismeres_jegyek": [
+  "Nagyon keskeny, szinte tűszerű, lágy levelek",
+  "Erős fény alatt mélyvörös, narancssárga vagy bronz színű levelek",
+  "Sűrűn elágazó, kecses szárszerkezet",
+  "Víz feletti formáján apró, sárga virágok jelenhetnek meg"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Didiplis diandra",
+   "magyar_nev": "Vízicsillag",
+   "kulonbseg": "Levelei keresztben átellenesek, finomabb szerkezetűek és hajlamosabbak zöldebb árnyalatúak maradni."
+  },
+  {
+   "latin": "Rotala wallichii",
+   "magyar_nev": "Rozsaszin rotala",
+   "kulonbseg": "Örvökben álló, még finomabb tűlevelekkel bír, szigorúbb CO2-igény mellett."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fény- vagy CO2-hiány miatt a levelek lehullása és a szár elvékonyodása",
+  "Algásodás a lassabb hajtásokon"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3000,
+ "tippek": [
+  "Az intenzív piros szín eléréséhez elengedhetetlen a magas fényintenzitás és a folyamatos CO2-adagolás.",
+  "Rendszeres folyékony micro- és macro-tápozást igényel, különösen ügyelve a vasra."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

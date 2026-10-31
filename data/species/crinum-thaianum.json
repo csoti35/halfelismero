@@ -1,0 +1,75 @@
+{
+ "lista_nev": "Crinum thaianum",
+ "id": "crinum-thaianum",
+ "tipus": "noveny",
+ "latin": "Crinum thaianum",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Thajföldi hagymásliliom",
+ "egyeb_nevek": [
+  "Thaiföldi krinum",
+  "Hagymás liliom"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Amaryllidaceae",
+ "csoport": "Hagymás növények",
+ "szarmazas": "Thaiföld",
+ "max_meret_cm": 150,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "közepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "közepes",
+ "elhelyezes": "háttér",
+ "szaporitas_noveny": "Fiókhagymákkal, melyek az anyanövény tövénél fejlődnek ki.",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 4,
+ "gh_max": 18,
+ "tarsithato": [
+  "sügérek",
+  "pontyfélék",
+  "harcsafélék",
+  "márvány gurámi"
+ ],
+ "kerulendo": [
+  "nagy testű növényevő csigák",
+  "túlzottan kisméretű akváriumok"
+ ],
+ "felismeres_jegyek": [
+  "Igen hosszú, szalag- vagy pántszerű, sötétzöld levelek",
+  "Erőteljes, jól látható hagyma a gyökérnyaknál",
+  "A levelek széle enyhén hullámos vagy sodrott lehet",
+  "Erős, vastag gyökérzet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Crinum calamistratum",
+   "magyar_nev": "Hullámos levelű krinum",
+   "kulonbseg": "Levelei lényegesen keskenyebbek és erősebben fodrozottak, cérnaszerűbbek."
+  },
+  {
+   "latin": "Vallisneria gigantea",
+   "magyar_nev": "Óriás valisznéria",
+   "kulonbseg": "Nem rendelkezik valódi hagymával, indákkal szaporodik."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hagyma rothadása túlzott eltemetéskor",
+  "Tápanyaghiány miatti levélsárgulás"
+ ],
+ "beszerezhetoseg": "közepes",
+ "ar_ft_min": 2500,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "A hagymát soha ne temessük el teljesen az altalajban, a felső harmada maradjon szabadon.",
+  "Vastag talajréteget és gyökértápot igényel, mert rendkívül erős gyökérzetet növeszt.",
+  "Keményebb levelű növény lévén növényevő sügérek mellé is jó választás lehet."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

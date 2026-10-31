@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Vallisneria americana",
+ "id": "vallisneria-americana",
+ "tipus": "noveny",
+ "latin": "Vallisneria americana",
+ "regi_latin_nevek": [
+  "Vallisneria gigantea"
+ ],
+ "magyar_nev": "Óriás vallisnéria",
+ "egyeb_nevek": [
+  "Amerikai vallisnéria"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Hydrocharitaceae",
+ "csoport": "Egyszikűek",
+ "szarmazas": "Észak- és Közép-Amerika",
+ "max_meret_cm": 150,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "fenyigeny": "alacsony-kozepes",
+ "co2_igeny": "nem szukseges",
+ "novekedes": "gyors",
+ "elhelyezes": "hatatter",
+ "szaporitas_noveny": "indakkal",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 18,
+ "homerseklet_max": 30,
+ "ph_min": 6.5,
+ "ph_max": 8.5,
+ "gh_min": 5,
+ "gh_max": 25,
+ "tarsithato": [
+  "Afrikai és sügérek",
+  "Nagyobb testű pontyfélék",
+  "Harcsák"
+ ],
+ "kerulendo": [
+  "Nagy testű növényevő halak"
+ ],
+ "felismeres_jegyek": [
+  "Igen hosszú, akár 1.5-2 méteres szalagszerű levelek",
+  "Széles (1.5-4 cm) sötétzöld levelek kifejezett erézetmintázattal",
+  "A vízfelszínen elterülő, árnyékoló levéltömeg",
+  "Erőteljes, vastag gyökérzet"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Vallisneria spiralis",
+   "magyar_nev": "Csavartlevelű vallisnéria",
+   "kulonbseg": "A V. spiralis levelei keskenyebbek (kb. 0.5-1 cm) és rövidebbek."
+  },
+  {
+   "latin": "Crinum thaianum",
+   "magyar_nev": "Thajföldi hagymásliliom",
+   "kulonbseg": "A Crinum hagymából nő ki és levelei spirálisan csavarodók, vastagabb textúrájúak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Folyékony CO2 helyettesítők okozta levélpusztulás",
+  "Tápanyaghiány miatti fakulás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1200,
+ "ar_ft_max": 2800,
+ "tippek": [
+  "Kizárólag magas és nagy űrtartalmú akváriumokba ajánlott, mert gyorsan beárnyékolja az egész medencét.",
+  "A vízfelszínen úszó levelek hossza vágással visszanyírható, de a vágott vég visszahúzódhat.",
+  "Kiválóan alkalmas malawi és tanganyikai sügéres akváriumok zöldítésére, mert jól bírja a kemény, lúgos vizet."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

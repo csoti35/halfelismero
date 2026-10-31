@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Aponogeton ulvaceus",
+ "id": "aponogeton-ulvaceus",
+ "tipus": "noveny",
+ "latin": "Aponogeton ulvaceus",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Salátalevelű vízikalász",
+ "egyeb_nevek": [
+  "Madagaszkári vízikalász"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Aponogetonaceae",
+ "csoport": "Vízikalászfélék",
+ "szarmazas": "Madagaszkár",
+ "max_meret_cm": 60,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "kozepes-magas",
+ "co2_igeny": "hasznos",
+ "novekedes": "nagyon gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Magról vagy a gumó szétválasztásával",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 22,
+ "homerseklet_max": 27,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "békés lazacfélék",
+  "gurámik",
+  "szivárványhalak",
+  "törpe szívóharcsák"
+ ],
+ "kerulendo": [
+  "növényevő halak",
+  "nagy méretű garnelek",
+  "kemény vizet kedvelő sügérek"
+ ],
+ "felismeres_jegyek": [
+  "Hatalmas méretű, áttetsző, világoszöld levelek",
+  "Jellegzetesen dugóhúzószerűen csavarodó és hullámos levéllemez",
+  "Egyetlen gumóból akár 40-50 levél is fejlődhet",
+  "Kétágú sárga vagy fehér virágzat a felszín felett"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aponogeton crispus",
+   "magyar_nev": "Fodros vízikalász",
+   "kulonbseg": "Levelei keskenyebbek, kevésbé csavarodottak és sötétebb zöldek."
+  },
+  {
+   "latin": "Aponogeton madagascariensis",
+   "magyar_nev": "Rácsos levelű vízikalász",
+   "kulonbseg": "Levelei lyukacsos, rácsos szerkezetűek."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gumó rothadása túlságosan tömör talajban",
+  "Nyugalmi időszakban elkerülhetetlen levélelhalás"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 2200,
+ "ar_ft_max": 4500,
+ "tippek": [
+  "Hatalmas teret igényel, csak nagy akváriumok központi látványelemének alkalmas.",
+  "Ha elhullatja leveleit, ne dobjuk ki: hagyjuk a gumót pihenni hűvösebb vízben néhány hétig, majd újra hajtani fog."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

@@ -1,0 +1,74 @@
+{
+ "lista_nev": "Myriophyllum tuberculatum",
+ "id": "myriophyllum-tuberculatum",
+ "tipus": "noveny",
+ "latin": "Myriophyllum tuberculatum",
+ "regi_latin_nevek": [
+  "Myriophyllum tetrandrum"
+ ],
+ "magyar_nev": "Piros süllőhínár",
+ "egyeb_nevek": [],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Haloragaceae",
+ "csoport": "Szárhínárok",
+ "szarmazas": "Ázsia (India, Délkelet-Ázsia)",
+ "max_meret_cm": 40,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "magas",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Fejdugványozással és az oldalhajtások elültetésével.",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 5.5,
+ "ph_max": 7.0,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "Kisméretű pontylazacok",
+  "Garnélák",
+  "Békés algaevők"
+ ],
+ "kerulendo": [
+  "Növényevő halak",
+  "Árnyékoló úszónövények",
+  "Nagy mozgásigényű, túlságosan túró halak"
+ ],
+ "felismeres_jegyek": [
+  "Intenzív narancssárga-vörös színezet megfelelő fény alatt.",
+  "Igen finom, tollszerűen szárnyalt levelek.",
+  "Sűrű levélörvök a törékeny száron.",
+  "Hajtáscsúcsai mélyvörösek."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Myriophyllum mattogrossense",
+   "magyar_nev": "Matto Grosso süllőhínár",
+   "kulonbseg": "Mindig tiszta világoszöld marad, nem színeződik vörösre."
+  },
+  {
+   "latin": "Limnophila aromatica",
+   "magyar_nev": "Aromás tóhínár",
+   "kulonbseg": "Levelei szélesebbek, fűrészes szélűek, nem finoman szárnyaltak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Fény- és CO2-hiány miatti elszürkülés és szétesés",
+  "Vas- és mikroelem-hiány miatti fakulás"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 1800,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kizárólag erős világítás és folyamatos CO2-adagolás mellett tartható meg a gyönyörű vörös színe.",
+  "Bőséges vas- és mikrotápanyag-utánpótlást igényel.",
+  "Ne ültessük árnyékos helyre, mert az alsó levelei hamar elhalnak."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}

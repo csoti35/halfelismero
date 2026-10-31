@@ -1,0 +1,81 @@
+{
+ "lista_nev": "Nymphaea lotus",
+ "id": "nymphaea-lotus",
+ "tipus": "noveny",
+ "latin": "Nymphaea lotus",
+ "regi_latin_nevek": [
+  "Nymphaea lotus var. rubra",
+  "Nymphaea zenkeri"
+ ],
+ "magyar_nev": "Tigrislótusz",
+ "egyeb_nevek": [
+  "Piros tigrislótusz",
+  "Zöld tigrislótusz"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nymphaeaceae",
+ "csoport": "Gumós növények",
+ "szarmazas": "Afrika",
+ "max_meret_cm": 50,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "hatter",
+ "szaporitas_noveny": "Gumóról való leválasztás, sarj növények átültetése, ritkábban magról.",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.5,
+ "gh_min": 3,
+ "gh_max": 15,
+ "tarsithato": [
+  "Pontylazacok",
+  "Márványgurámi",
+  "Páncélosharcsák",
+  "Vízi tündérhínár"
+ ],
+ "kerulendo": [
+  "Nagy testű sügérek",
+  "Növényevő halak (pl. Pacu, nagy Metynnis fajok)"
+ ],
+ "felismeres_jegyek": [
+  "Nagy méretű, szív vagy ovális alakú víz alatti levelek",
+  "Sötét bordó vagy barna pettyes/csíkos mintázat a leveleken",
+  "Létezik piros és zöld levelű színváltozata",
+  "Idővel hosszú száron úszóleveleket növeszt a vízfelszínre",
+  "Vastag, húsos gumóval rendelkezik"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Nymphaea rubra",
+   "magyar_nev": "Vörös tavirózsa",
+   "kulonbseg": "Levelei egyöntetűbben vörösek, kevéssé foltosak."
+  },
+  {
+   "latin": "Nuphar japonica",
+   "magyar_nev": "Japán vízitök",
+   "kulonbseg": "Levelei hullámos szélűek, nyilazott alakúak és világoszöldek, hiányzik a tigrisminta."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tápanyaghiány miatti levéllyukacsosodás",
+  "Gumó rothadása túlzott mélyre ültetéskor",
+  "Fényhiány miatti felkopaszodás és megnyúlás"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "A gumót ne temessük el teljesen az altalajban, a felső harmada maradjon szabadon, különben elrohadhat.",
+  "Tápozzuk a gyökerén keresztül táptablettával, mert nagyon tápanyagigényes a gyökérzete.",
+  "Ha nem szeretnénk, hogy árnyékolja az akváriumot, a vízfelszínre törő úszóleveleket rendszeresen vágjuk le."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

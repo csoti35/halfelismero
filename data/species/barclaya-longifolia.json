@@ -1,0 +1,73 @@
+{
+ "lista_nev": "Barclaya longifolia",
+ "id": "barclaya-longifolia",
+ "tipus": "noveny",
+ "latin": "Barclaya longifolia",
+ "regi_latin_nevek": [
+  "Hydrostemma longifolium"
+ ],
+ "magyar_nev": "Hosszúlevelű barclaya",
+ "egyeb_nevek": [
+  "Barclaya"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Nymphaeaceae",
+ "csoport": "Tavirózsafélék / Gumós növények",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Malajzia)",
+ "max_meret_cm": 50,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "közepes",
+ "co2_igeny": "közepes",
+ "novekedes": "közepes",
+ "elhelyezes": "szolo",
+ "szaporitas_noveny": "Gumóosztás, magok elvetése",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 23,
+ "homerseklet_max": 28,
+ "ph_min": 6.0,
+ "ph_max": 7.2,
+ "gh_min": 2,
+ "gh_max": 10,
+ "tarsithato": [
+  "Békés ázsiai razbórák",
+  "Márványgurámi",
+  "Páncélosharcsák",
+  "Kistermetű pontylazacok"
+ ],
+ "kerulendo": [
+  "Növényevő halak",
+  "Aljzatforgató sügérek",
+  "Nagytestű csigák"
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, selymes, hullámos szélű lándzsás levelek",
+  "A levélfonák gyakran mélyvörös vagy ibolyás színű",
+  "Zöld és vörös színváltozata is ismert",
+  "Víz alatt maradó vagy felszín fölé nyúló zárt, rózsaszínes virágok"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne balansae",
+   "magyar_nev": "Fodrosszélű vízikehely",
+   "kulonbseg": "Levelei keményebbek, keskenyebbek és nem tavirózsaféle gumóból nő."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Hirtelen levélolvadás környezetváltozás hatására",
+  "Gumó rothadása hideg vízben",
+  "Tápanyaghiány miatti elvékonyodó levelek"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 3000,
+ "ar_ft_max": 6000,
+ "tippek": [
+  "Szereti a meleg vizet (24-27 °C a legmegfelelőbb számára).",
+  "Nagyon meghálálja a tápanyagban gazdag talajt és a vasas gyökértápot.",
+  "Érzékeny az átültetésre és a hirtelen vízparaméter-változásokra."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3.6-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31"
+}
