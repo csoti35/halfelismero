@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Dascyllus aruanus",
+ "id": "dascyllus-aruanus",
+ "tipus": "hal",
+ "latin": "Dascyllus aruanus",
+ "regi_latin_nevek": [
+  "Chaetodon aruanus",
+  "Tetradrachmum arcuatum"
+ ],
+ "magyar_nev": "Háromsávos korallsügér",
+ "egyeb_nevek": [
+  "Háromsávos korallsügér",
+  "Humbug korallsügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pomacentridae",
+ "csoport": "Korallsügérek (tengeri)",
+ "szarmazas": "Indo-csendes-óceáni térség, Vörös-tenger",
+ "max_meret_cm": 8,
+ "elettartam_ev": 6,
+ "nehezseg": 1,
+ "kezdoknek": true,
+ "termeszet": "agressziv",
+ "termeszet_leiras": "Rendkívül szívós, de felnőtt korára kimondottan territoriális és agresszív hal. Saját fajtársaival és a békésebb kistestű halakkal szemben kíméletlenül védi a kiválasztott korallt vagy búvóhelyet.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 120,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Mindenevő; elfogadja a fagyasztott mysis-t, artémiát, planktont, valamint a lemezes és granulált eleségeket.",
+ "tarsithato": [
+  "Nagyobb",
+  "robusztus tengeri fajokkal (pl. doktorhalak",
+  "nagyobb bohóchalak",
+  "íjhalak)."
+ ],
+ "kerulendo": [
+  "Békés",
+  "félénk fenéklakók",
+  "kis gébek",
+  "tűhalak és kistestű békés ajakoshalak."
+ ],
+ "szaporodas_mod": "Szubsztrátköltő",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Egy jól összeállt párt tartsunk gazdag élőköves környezetben, stabil vízparaméterek mellett.",
+  "A hím megtisztít egy szilárd, sima felületet (kőzetet vagy korallvázat).",
+  "Az ikrák lerakása után a hím gondosan őrzi és legyezi azokat kelésig.",
+  "A lárvák kelése éjszaka történik; felnevelésük speciális méretű élő eleséggel (rotatória) lehetséges."
+ ],
+ "ivari_kulonbseg": "Kifejlett korban a hímek kissé nagyobbak lehetnek, udvarláskor színeik felerősödnek.",
+ "felismeres_jegyek": [
+  "Fehér alapszínen három markáns, függőleges fekete sáv",
+  "Az első sáv a fejen és a szemen fut át",
+  "A farokúszó teljesen fehér vagy átlátszó",
+  "Zömök, oldalról lapított testforma",
+  "Mellúszói áttetszők"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Dascyllus melanurus",
+   "magyar_nev": "Feketefarkú korallsügér",
+   "kulonbseg": "A farokúszón jól látható fekete sáv található, nem tiszta fehér."
+  },
+  {
+   "latin": "Dascyllus trimaculatus",
+   "magyar_nev": "Háromfoltos korallsügér",
+   "kulonbseg": "Alapszíne teljesen fekete, csupán három fehér folt díszíti."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tengeri darakór (Cryptocaryon irritans)",
+  "Bársonybetegség (Amyloodinium ocellatum)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 3500,
+ "ar_ft_max": 6500,
+ "tippek": [
+  "Kezdőknek ideális szívóssága miatt, de agresszivitása miatt inkább az utolsók között telepítsük.",
+  "Biztosítsunk számára ágas-bogas dekorációt vagy Acropora korallvázakat búvóhelyként."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

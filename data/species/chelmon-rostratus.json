@@ -1,0 +1,91 @@
+{
+ "lista_nev": "Chelmon rostratus",
+ "id": "chelmon-rostratus",
+ "tipus": "hal",
+ "latin": "Chelmon rostratus",
+ "regi_latin_nevek": [
+  "Chaetodon rostratus"
+ ],
+ "magyar_nev": "Közönséges csipeszhal",
+ "egyeb_nevek": [
+  "Hosszúorrú pillangóhal",
+  "Csipeszhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Chaetodontidae",
+ "csoport": "Tengeri halak (pillangóhalfélék)",
+ "szarmazas": "Indo-csendes-óceáni térség",
+ "max_meret_cm": 20,
+ "elettartam_ev": 8,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés természetű, de fajtársaival és hasonló formájú más pillangóhalakkal szemben erősen territoriális lehet. Megfontolt táplálkozású.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 400,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Apró férgek, rákfélék, üvegrózsák (Aiptasia). Akváriumban élő és fagyasztott mysis, artémia, aprított kagylóhús.",
+ "tarsithato": [
+  "Békés doktorhalak",
+  "korallsügérek",
+  "nyálkáshalfélék",
+  "békés zátonylakók."
+ ],
+ "kerulendo": [
+  "Csőférgek és egyéb díszférgek (ezeket elpusztítja)",
+  "valamint túlságosan agresszív",
+  "falánk halak",
+  "amelyek eleszik előle a táplálékot."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Akváriumban történő szaporítása jelenleg nem megoldott és nem jellemző a hobbi szinten.",
+  "A természetben a nyílt vízben párban ívnak szürkületkor.",
+  "A lerakott pelagikus ikrák és a kelő lárvák a plankton részeként sodródnak.",
+  "A lárvák felnevelése speciális planktonikus eleséget és laboratóriumi körülményeket igényelne."
+ ],
+ "ivari_kulonbseg": "Külső ivari dimorfizmus szinte nincs, a kifejlett egyedek neme ránézésre megbízhatóan nem állapítható meg.",
+ "felismeres_jegyek": [
+  "Erősen megnyúlt, csipeszszerű csőszerű száj.",
+  "Ezüstfehér test négy függőleges, sárgás-narancssárga, sötéten szegélyezett sávval.",
+  "A hátúszó hátsó részén egy nagy, fekete, világos szegélyű szemfolt (ocellus) látható.",
+  "Magas, diszkosz alakú, oldalról erősen lapított testforma."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Forcipiger flavissimus",
+   "magyar_nev": "Sárga csipeszhal",
+   "kulonbseg": "Teljes teste élénksárga, a feje fekete-fehér mintás, hiányoznak a testen futó különálló narancs sávok."
+  },
+  {
+   "latin": "Chelmon marginalis",
+   "magyar_nev": "Ausztrál csipeszhal",
+   "kulonbseg": "Felnőtt korban a középső sávok elhalványulnak, és a hátúszón található szemfolt többnyire hiányzik nála."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tengeri darakór (Cryptocaryon irritans)",
+  "Koplalás az etetési nehézségek miatt",
+  "Lymphocystis (vírusos csomósodás az úszókon)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 18000,
+ "ar_ft_max": 35000,
+ "tippek": [
+  "Kiváló segítség az akváriumban elszaporodó nemkívánatos üvegrózsák (Aiptasia) visszaszorításában.",
+  "Vásárlás előtt mindig győződjünk meg róla a kereskedésben, hogy a kiválasztott példány elfogadja-e a fagyasztott mysis-t vagy artémiát.",
+  "Frissen érkezett példányoknál jó trükk a fagyasztott táplálék lyukacsos élő sziklába vagy kagylóhéjba rejtése, így természetes csipkedő ösztöne hamarabb felébred."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

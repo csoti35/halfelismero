@@ -1,0 +1,68 @@
+{
+ "id": "eichhornia-crassipes",
+ "tipus": "noveny",
+ "latin": "Eichhornia crassipes",
+ "regi_latin_nevek": [
+  "Pontederia crassipes"
+ ],
+ "magyar_nev": "Vízi jácint",
+ "egyeb_nevek": [
+  "Közönséges vízijácint"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pontederiaceae",
+ "csoport": "Úszó növények",
+ "szarmazas": "Dél-Amerika (Amazonas-medence)",
+ "max_meret_cm": 30,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "fenyigeny": "nagyon magas",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "felszin",
+ "szaporitas_noveny": "Indákkal, sarjnövényekkel",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 18,
+ "homerseklet_max": 30,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 5,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen hallal",
+  "kiváló búvóhely az ivadékoknak"
+ ],
+ "kerulendo": [
+  "Nincs"
+ ],
+ "felismeres_jegyek": [
+  "Felfújt, szivacsos levélnyél (úszást segíti)",
+  "Kerekded, fényes zöld levelek",
+  "Sűrű, sötét, bojtos gyökérzet",
+  "Lila virágzat sárga folttal (csak erős fényben)"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Limnobium laevigatum",
+   "magyar_nev": "Békalencse-páfrány",
+   "kulonbseg": "Sokkal kisebb, nincsenek felfújt levélnyelei."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Levélsárgulás (vas- vagy fényhiány miatt)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 800,
+ "ar_ft_max": 2000,
+ "tippek": [
+  "Zárt akváriumban a lámpák hője megégetheti a leveleit",
+  "Rendkívül fényigényes, lakásban gyakran tönkremegy pótmegvilágítás nélkül",
+  "Kerti tavakban nyáron kiválóan tartható"
+ ],
+ "lista_nev": "Eichhornia crassipes",
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

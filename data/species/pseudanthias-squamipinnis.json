@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Pseudanthias squamipinnis",
+ "id": "pseudanthias-squamipinnis",
+ "tipus": "hal",
+ "latin": "Pseudanthias squamipinnis",
+ "regi_latin_nevek": [
+  "Anthias squamipinnis"
+ ],
+ "magyar_nev": "Zászlós tündérsügér",
+ "egyeb_nevek": [
+  "Lírafarkú korallsügér",
+  "Narancs anthias"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Serranidae",
+ "csoport": "Fűrészfogú sügérek (tengeri)",
+ "szarmazas": "Indo-csendes-óceáni térség, Vörös-tenger",
+ "max_meret_cm": 15,
+ "elettartam_ev": 5,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, állandóan mozgásban lévő rajhal. A hím dominanciát mutat a nőstények felé, de más békés fajokat nem bánt.",
+ "rajhal": true,
+ "min_csoport": 5,
+ "uszasi_zona": "kozepso",
+ "min_akvarium_l": 350,
+ "homerseklet_min": 24,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Húsevő zooplankton-fogyasztó; naponta többször igényel apró fagyasztott eleséget (mysis, artémia, ciklop) vagy dúsított lemezes tápot.",
+ "tarsithato": [
+  "Békés zátonylakókkal",
+  "doktorhalakkal",
+  "gébekkel",
+  "bohóchalakkal."
+ ],
+ "kerulendo": [
+  "Agresszív ragadozók és túl gyors",
+  "tolakodó evők",
+  "amelyek eleszik előle a táplálékot."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Nagyobb csoportban (1 hím és több nőstény) tartva a domináns hal rendszeresen udvarol.",
+  "Az esti szürkületben a hím és az ikrás nőstény felfelé ívelő mozgással bocsátja ki az ivartermékeket.",
+  "A lebegő ikrák és a rendkívül apró lárvák felnevelése speciális élő eleségkultúrát igényel, fogságban ritka."
+ ],
+ "ivari_kulonbseg": "Erős ivari kétalakúság: a hímek vöröses-lilás színűek megnyúlt harmadik hátúszó-sugárral, a nőstények ragyogó narancssárgák.",
+ "felismeres_jegyek": [
+  "A nőstények élénk narancssárga színűek, szemük alatt ibolyás-kék vonallal",
+  "A hímek vöröses-bíbor színűek, megnyúlt hátúszótüskével",
+  "Líra alakú, mélyen kivágott farokúszó",
+  "Áramvonalas, elegáns testfelépítés"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Pseudanthias dispar",
+   "magyar_nev": "Piros anthias",
+   "kulonbseg": "Kisebb méretű, a hátúszó élénkpiros, teste halványabb rózsaszínes."
+  },
+  {
+   "latin": "Pseudanthias tuka",
+   "magyar_nev": "Bíbor anthias",
+   "kulonbseg": "Mély bíborlila színezet, sárga csíkkal a háton és jóval nehezebb etethetőség."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tengeri darakór (Cryptocaryon irritans)",
+  "Gyors lesoványodás a ritka etetés miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 7500,
+ "ar_ft_max": 14000,
+ "tippek": [
+  "Mindig egy hímből és 4-6 nőstényből álló csapatban tartsuk a természetes hierarchia fenntartásához.",
+  "Gyors anyagcseréje miatt elengedhetetlen a napi legalább 2-3 alkalommal történő etetés."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

@@ -1,6 +1,6 @@
 {
 "frissitve": "2026-10-31",
-"darab": 613,
+"darab": 627,
 "fajok": [
 {
 "id": "abactochromis-labrosus",
@@ -1873,6 +1873,33 @@
 "ellenorzott": false
 },
 {
+"id": "azolla-filiculoides",
+"tipus": "noveny",
+"latin": "Azolla filiculoides",
+"magyar_nev": "Azolla",
+"egyeb_nevek": [
+"Bársonyos vízipáfrány",
+"Moszatpáfrány"
+],
+"regi_latin_nevek": [],
+"csalad": "Salviniaceae",
+"csoport": "Úszó növények",
+"max_meret_cm": 3,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 20,
+"homerseklet_min": 10,
+"homerseklet_max": 26,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 800,
+"ar_ft_max": 1500,
+"ellenorzott": false
+},
+{
 "id": "bacopa-caroliniana",
 "tipus": "noveny",
 "latin": "Bacopa caroliniana",
@@ -3059,6 +3086,34 @@
 "ellenorzott": false
 },
 {
+"id": "callitriche-palustris",
+"tipus": "noveny",
+"latin": "Callitriche palustris",
+"magyar_nev": "Vízicsillag",
+"egyeb_nevek": [
+"Tavaszi mocsárhúr"
+],
+"regi_latin_nevek": [
+"Callitriche verna"
+],
+"csalad": "Plantaginaceae",
+"csoport": "Hínárfélék",
+"max_meret_cm": 40,
+"termeszet": null,
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 50,
+"homerseklet_min": 10,
+"homerseklet_max": 22,
+"ph_min": 6.5,
+"ph_max": 7.5,
+"uszasi_zona": null,
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 1200,
+"ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
 "id": "cambarellus-patzcuarensis",
 "tipus": "gerinctelen",
 "latin": "Cambarellus patzcuarensis",
@@ -3715,6 +3770,35 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 4500,
 "ar_ft_max": 12000,
+"ellenorzott": false
+},
+{
+"id": "chelmon-rostratus",
+"tipus": "hal",
+"latin": "Chelmon rostratus",
+"magyar_nev": "Közönséges csipeszhal",
+"egyeb_nevek": [
+"Hosszúorrú pillangóhal",
+"Csipeszhal"
+],
+"regi_latin_nevek": [
+"Chaetodon rostratus"
+],
+"csalad": "Chaetodontidae",
+"csoport": "Tengeri halak (pillangóhalfélék)",
+"max_meret_cm": 20,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 400,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 18000,
+"ar_ft_max": 35000,
 "ellenorzott": false
 },
 {
@@ -5098,6 +5182,34 @@
 "ellenorzott": false
 },
 {
+"id": "cryptocoryne-crispatula-var-balansae",
+"tipus": "noveny",
+"latin": "Cryptocoryne crispatula var. balansae",
+"magyar_nev": "Cryptocoryne balansae",
+"egyeb_nevek": [
+"Balansae"
+],
+"regi_latin_nevek": [
+"Cryptocoryne balansae"
+],
+"csalad": "Araceae",
+"csoport": "Tőlevélrózsás növények",
+"max_meret_cm": 60,
+"termeszet": null,
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 22,
+"homerseklet_max": 28,
+"ph_min": 6.5,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 1500,
+"ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
 "id": "cryptocoryne-crispatula",
 "tipus": "noveny",
 "latin": "Cryptocoryne crispatula",
@@ -5693,6 +5805,36 @@
 "ellenorzott": false
 },
 {
+"id": "dascyllus-aruanus",
+"tipus": "hal",
+"latin": "Dascyllus aruanus",
+"magyar_nev": "Háromsávos korallsügér",
+"egyeb_nevek": [
+"Háromsávos korallsügér",
+"Humbug korallsügér"
+],
+"regi_latin_nevek": [
+"Chaetodon aruanus",
+"Tetradrachmum arcuatum"
+],
+"csalad": "Pomacentridae",
+"csoport": "Korallsügérek (tengeri)",
+"max_meret_cm": 8,
+"termeszet": "agressziv",
+"nehezseg": 1,
+"kezdoknek": true,
+"min_akvarium_l": 120,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 3500,
+"ar_ft_max": 6500,
+"ellenorzott": false
+},
+{
 "id": "dawkinsia-filamentosa",
 "tipus": "hal",
 "latin": "Dawkinsia filamentosa",
@@ -6151,6 +6293,34 @@
 "ellenorzott": false
 },
 {
+"id": "eichhornia-crassipes",
+"tipus": "noveny",
+"latin": "Eichhornia crassipes",
+"magyar_nev": "Vízi jácint",
+"egyeb_nevek": [
+"Közönséges vízijácint"
+],
+"regi_latin_nevek": [
+"Pontederia crassipes"
+],
+"csalad": "Pontederiaceae",
+"csoport": "Úszó növények",
+"max_meret_cm": 30,
+"termeszet": null,
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 18,
+"homerseklet_max": 30,
+"ph_min": 6.0,
+"ph_max": 8.0,
+"uszasi_zona": null,
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 800,
+"ar_ft_max": 2000,
+"ellenorzott": false
+},
+{
 "id": "eigenmannia-virescens",
 "tipus": "hal",
 "latin": "Eigenmannia virescens",
@@ -6176,6 +6346,34 @@
 "beszerezhetoseg": "ritka",
 "ar_ft_min": 4000,
 "ar_ft_max": 9000,
+"ellenorzott": false
+},
+{
+"id": "elacatinus-oceanops",
+"tipus": "hal",
+"latin": "Elacatinus oceanops",
+"magyar_nev": "Neongéb",
+"egyeb_nevek": [
+"Kék neon géb"
+],
+"regi_latin_nevek": [
+"Gobiosoma oceanops"
+],
+"csalad": "Gobiidae",
+"csoport": "Tengeri gébek",
+"max_meret_cm": 5,
+"termeszet": "bekes",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 60,
+"homerseklet_min": 23,
+"homerseklet_max": 27,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 7000,
+"ar_ft_max": 12000,
 "ellenorzott": false
 },
 {
@@ -7721,6 +7919,36 @@
 "ellenorzott": false
 },
 {
+"id": "hippocampus-kuda",
+"tipus": "hal",
+"latin": "Hippocampus kuda",
+"magyar_nev": "Sárga csikóhal",
+"egyeb_nevek": [
+"Közönséges tengeri csikóhal",
+"Pöttyös csikóhal"
+],
+"regi_latin_nevek": [
+"Hippocampus moluccensis",
+"Hippocampus polytaenia"
+],
+"csalad": "Syngnathidae",
+"csoport": "Tengeri halak (tűhalfélék)",
+"max_meret_cm": 17,
+"termeszet": "bekes",
+"nehezseg": 4,
+"kezdoknek": false,
+"min_akvarium_l": 150,
+"homerseklet_min": 22,
+"homerseklet_max": 26,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "kozepes",
+"ar_ft_min": 25000,
+"ar_ft_max": 50000,
+"ellenorzott": false
+},
+{
 "id": "hoplosternum-littorale",
 "tipus": "hal",
 "latin": "Hoplosternum littorale",
@@ -8903,6 +9131,35 @@
 "ellenorzott": false
 },
 {
+"id": "labroides-dimidiatus",
+"tipus": "hal",
+"latin": "Labroides dimidiatus",
+"magyar_nev": "Tisztogatóhal",
+"egyeb_nevek": [
+"Tisztogató ajakoshal",
+"Kék tisztogatóhal"
+],
+"regi_latin_nevek": [
+"Cossyphus dimidiatus"
+],
+"csalad": "Labridae",
+"csoport": "Ajakoshalak (tengeri)",
+"max_meret_cm": 11,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "mindenhol",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 6000,
+"ar_ft_max": 11000,
+"ellenorzott": false
+},
+{
 "id": "laetacara-curviceps",
 "tipus": "hal",
 "latin": "Laetacara curviceps",
@@ -9581,6 +9838,32 @@
 "beszerezhetoseg": "gyakori",
 "ar_ft_min": 900,
 "ar_ft_max": 2200,
+"ellenorzott": false
+},
+{
+"id": "lythrypnus-dalli",
+"tipus": "hal",
+"latin": "Lythrypnus dalli",
+"magyar_nev": "Kalifornia-géb",
+"egyeb_nevek": [
+"Kaliforniai kékgyűrűs géb"
+],
+"regi_latin_nevek": [],
+"csalad": "Gobiidae",
+"csoport": "Tengeri gébek",
+"max_meret_cm": 6,
+"termeszet": "felagressziv",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 60,
+"homerseklet_min": 18,
+"homerseklet_max": 24,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "also",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 8000,
+"ar_ft_max": 15000,
 "ellenorzott": false
 },
 {
@@ -12232,6 +12515,33 @@
 "ellenorzott": false
 },
 {
+"id": "oxymonacanthus-longirostris",
+"tipus": "hal",
+"latin": "Oxymonacanthus longirostris",
+"magyar_nev": "Pettyes reszelőhal",
+"egyeb_nevek": [
+"Hegyesorrú reszelőhal",
+"Harlekin reszelőhal"
+],
+"regi_latin_nevek": [],
+"csalad": "Monacanthidae",
+"csoport": "Tengeri halak (gömbhalalakúak)",
+"max_meret_cm": 12,
+"termeszet": "bekes",
+"nehezseg": 5,
+"kezdoknek": false,
+"min_akvarium_l": 200,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "ritka",
+"ar_ft_min": 14000,
+"ar_ft_max": 26000,
+"ellenorzott": false
+},
+{
 "id": "pachypanchax-playfairii",
 "tipus": "hal",
 "latin": "Pachypanchax playfairii",
@@ -13805,6 +14115,35 @@
 "ellenorzott": false
 },
 {
+"id": "pseudanthias-squamipinnis",
+"tipus": "hal",
+"latin": "Pseudanthias squamipinnis",
+"magyar_nev": "Zászlós tündérsügér",
+"egyeb_nevek": [
+"Lírafarkú korallsügér",
+"Narancs anthias"
+],
+"regi_latin_nevek": [
+"Anthias squamipinnis"
+],
+"csalad": "Serranidae",
+"csoport": "Fűrészfogú sügérek (tengeri)",
+"max_meret_cm": 15,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 350,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "kozepso",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 7500,
+"ar_ft_max": 14000,
+"ellenorzott": false
+},
+{
 "id": "pseudetroplus-maculatus",
 "tipus": "hal",
 "latin": "Pseudetroplus maculatus",
@@ -13830,6 +14169,32 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1200,
 "ar_ft_max": 2500,
+"ellenorzott": false
+},
+{
+"id": "pseudochromis-fridmani",
+"tipus": "hal",
+"latin": "Pseudochromis fridmani",
+"magyar_nev": "Orchidea álsügér",
+"egyeb_nevek": [
+"Bíbor törpesügér"
+],
+"regi_latin_nevek": [],
+"csalad": "Pseudochromidae",
+"csoport": "Tengeri törpesügérek",
+"max_meret_cm": 7,
+"termeszet": "felagressziv",
+"nehezseg": 2,
+"kezdoknek": true,
+"min_akvarium_l": 100,
+"homerseklet_min": 24,
+"homerseklet_max": 28,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 12000,
+"ar_ft_max": 20000,
 "ellenorzott": false
 },
 {
@@ -16517,6 +16882,34 @@
 "beszerezhetoseg": "kozepes",
 "ar_ft_min": 1800,
 "ar_ft_max": 3500,
+"ellenorzott": false
+},
+{
+"id": "valenciennea-strigata",
+"tipus": "hal",
+"latin": "Valenciennea strigata",
+"magyar_nev": "Sárgafejű alvógéb",
+"egyeb_nevek": [
+"Aranyfejű homokforgató géb"
+],
+"regi_latin_nevek": [
+"Eleotris strigata"
+],
+"csalad": "Gobiidae",
+"csoport": "Tengeri gébek",
+"max_meret_cm": 18,
+"termeszet": "bekes",
+"nehezseg": 3,
+"kezdoknek": false,
+"min_akvarium_l": 300,
+"homerseklet_min": 24,
+"homerseklet_max": 27,
+"ph_min": 8.1,
+"ph_max": 8.4,
+"uszasi_zona": "also",
+"beszerezhetoseg": "gyakori",
+"ar_ft_min": 9000,
+"ar_ft_max": 16000,
 "ellenorzott": false
 },
 {

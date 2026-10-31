@@ -1,0 +1,93 @@
+{
+ "lista_nev": "Hippocampus kuda",
+ "id": "hippocampus-kuda",
+ "tipus": "hal",
+ "latin": "Hippocampus kuda",
+ "regi_latin_nevek": [
+  "Hippocampus moluccensis",
+  "Hippocampus polytaenia"
+ ],
+ "magyar_nev": "Sárga csikóhal",
+ "egyeb_nevek": [
+  "Közönséges tengeri csikóhal",
+  "Pöttyös csikóhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Syngnathidae",
+ "csoport": "Tengeri halak (tűhalfélék)",
+ "szarmazas": "Indo-csendes-óceáni térség",
+ "max_meret_cm": 17,
+ "elettartam_ev": 4,
+ "nehezseg": 4,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Rendkívül békés, lassú mozgású tengeri hal. Gyors és tolakodó fajok mellett könnyen éhen hal, mivel megfontoltan és lassan táplálkozik.",
+ "rajhal": false,
+ "min_csoport": 2,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 150,
+ "homerseklet_min": 22,
+ "homerseklet_max": 26,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Kizárólag apró, lebegő élő vagy fagyasztott rákfélék (mysis, artémia, apró garnélák). Folyamatos etetést igényel.",
+ "tarsithato": [
+  "Más csikóhalfélék",
+  "tűhalak",
+  "lassú és békés talajlakó gébek",
+  "mandarinhallal óvatosan."
+ ],
+ "kerulendo": [
+  "Gyors úszású korallsügérek",
+  "agresszív ajakoshalak",
+  "csípős csalánozók (erős tapogatójú korallok",
+  "tengerirózsák)",
+  "rákok."
+ ],
+ "szaporodas_mod": "Férfi költőtáskában hordozó elevenszülő jellegű",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "A harmonizáló párt tartsuk békés, fajspecifikus akváriumban megfelelő kapaszkodóágakkal (makroalgák, műkorallok).",
+  "Hosszadalmas udvarlási tánc után a nőstény az ikrákat a hím hasán található költőtasakba juttatja.",
+  "A hím 3-4 hétig hordozza és táplálja a fejlődő embriókat a tasakban.",
+  "A kiúszó apró csikókat külön nevelőakváriumban kell nevelni frissen keltetett, vitaminokkal és zsírsavakkal dúsított élő artémiával és kerekesférgekkel."
+ ],
+ "ivari_kulonbseg": "A kifejlett hímek hasán jól látható költőtasak (brood pouch) található, a nőstények hasvonala sima és hegyesebb szögben záródik.",
+ "felismeres_jegyek": [
+  "Lófejre emlékeztető fejforma, amely a testre derékszögben hajlik.",
+  "Fogásra alkalmas, pikkelyek nélküli, csontgyűrűkkel borított kapaszkodófarok.",
+  "Sima, tüskék nélküli vagy alacsony dudorokkal teli testfelület.",
+  "Változatos szín (sárga, barna vagy feketés), apró sötét pettyekkel tarkítva."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Hippocampus reidi",
+   "magyar_nev": "Karibi csikóhal",
+   "kulonbseg": "Karcsúbb testfelépítés, hosszabb orrmány és finomabb pöttyözöttség jellemzi."
+  },
+  {
+   "latin": "Hippocampus erectus",
+   "magyar_nev": "Csíkos tengeri csikó",
+   "kulonbseg": "A testen és fejen jellegzetes fehér vagy világos vonalkázott mintázat látható."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Gázbuborék-betegség (költőtasak puffadása)",
+  "Bakteriális fertőzések (Vibrio)",
+  "Gombás megbetegedések"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 25000,
+ "ar_ft_max": 50000,
+ "tippek": [
+  "Gyenge áramlású, kimondottan számukra berendezett makroalgás akváriumot alakítsunk ki sok rögzítési ponttal.",
+  "Gondoskodjunk túlméretezett fehérjelehabozóról, mert a bőséges és gyakori etetés gyorsan terheli a vizet.",
+  "Csak tenyésztett (fogságban született), fagyasztott mysisre már rászoktatott példányokat vásároljunk."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

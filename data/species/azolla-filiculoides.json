@@ -1,0 +1,76 @@
+{
+ "id": "azolla-filiculoides",
+ "tipus": "noveny",
+ "latin": "Azolla filiculoides",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Azolla",
+ "lista_nev": "Azolla filiculoides",
+ "egyeb_nevek": [
+  "Bársonyos vízipáfrány",
+  "Moszatpáfrány"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Salviniaceae",
+ "csoport": "Úszó növények",
+ "szarmazas": "Amerika",
+ "max_meret_cm": 3,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "erős",
+ "co2_igeny": "alacsony",
+ "novekedes": "gyors",
+ "elhelyezes": "felszín",
+ "szaporitas_noveny": "osztódás, sarjak",
+ "min_akvarium_l": 20,
+ "homerseklet_min": 10,
+ "homerseklet_max": 26,
+ "ph_min": 6.0,
+ "ph_max": 8.0,
+ "gh_min": 2,
+ "gh_max": 15,
+ "tarsithato": [
+  "Békés halakkal",
+  "amelyek nem eszik meg a felszíni növényzetet."
+ ],
+ "kerulendo": [
+  "Nagytestű növényevő sügérek",
+  "aranyhalak."
+ ],
+ "felismeres_jegyek": [
+  "Apró",
+  "pikkelyszerűen egymásra boruló levelek",
+  "bársonyos tapintású felület",
+  "erős fényben vöröses elszíneződés",
+  "rövid",
+  "vízbe lógó gyökérzet."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Azolla pinnata",
+   "magyar_nev": "羽状满江红 (Tollas vízipáfrány)",
+   "kulonbseg": "Szabályosabb, háromszög alakú elágazások jellemzik."
+  },
+  {
+   "latin": "Salvinia natans",
+   "magyar_nev": "Rucaöröm",
+   "kulonbseg": "Levelei nagyobbak, kerekdedek és párosával állnak."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Sárgulás tápanyaghiány miatt",
+  "Kiszáradás túl alacsony páratartalomnál"
+ ],
+ "beszerezhetoseg": "kozepes",
+ "ar_ft_min": 800,
+ "ar_ft_max": 1500,
+ "tippek": [
+  "Kerti tavakban is tartható, de fagyérzékeny.",
+  "Nitrogénkötő képessége miatt segít tisztán tartani a vizet.",
+  "Ne hagyjuk, hogy teljesen befedje a felszínt, mert elzárja a fényt az alsóbb szintektől."
+ ],
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

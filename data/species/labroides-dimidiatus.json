@@ -1,0 +1,88 @@
+{
+ "lista_nev": "Labroides dimidiatus",
+ "id": "labroides-dimidiatus",
+ "tipus": "hal",
+ "latin": "Labroides dimidiatus",
+ "regi_latin_nevek": [
+  "Cossyphus dimidiatus"
+ ],
+ "magyar_nev": "Tisztogatóhal",
+ "egyeb_nevek": [
+  "Tisztogató ajakoshal",
+  "Kék tisztogatóhal"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Labridae",
+ "csoport": "Ajakoshalak (tengeri)",
+ "szarmazas": "Indo-csendes-óceáni térség, Vörös-tenger",
+ "max_meret_cm": 11,
+ "elettartam_ev": 4,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Békés, folyamatosan aktív faj, amely tisztogató állomást alakít ki, és megszabadítja a többi halat az élősködőktől és elhalt szövetektől.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 200,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Természetben parazitákkal táplálkozik; akváriumban napi többszöri etetés szükséges apró fagyasztott eleségekkel (artémia, küklopsz, mysis).",
+ "tarsithato": [
+  "A legtöbb tengeri hallal (doktorhalak",
+  "császárhalak",
+  "sügérek)",
+  "melyek szívesen veszik tisztogató munkáját."
+ ],
+ "kerulendo": [
+  "Ragadozó halak (tűzhalak",
+  "nagy murénák",
+  "skorpióhalak)",
+  "amelyek időnként zsákmánynak nézhetik."
+ ],
+ "szaporodas_mod": "Szabadon ikrázó",
+ "szaporitas_nehezseg": 5,
+ "szaporitas_lepesek": [
+  "Háremben tartott ivarérett példányok szükségesek egy kifejezetten nagyméretű akváriumban.",
+  "Az esti órákban a hím és nőstény a vízoszlop tetejére emelkedve ikrázik.",
+  "A planktonikus ikrák és az apró lárvák akváriumi nevelése jelenleg szinte lehetetlen a hobbi szinten."
+ ],
+ "ivari_kulonbseg": "Proterogin hermafrodita; a domináns hímek általában nagyobbak és intenzívebb kék árnyalatúak.",
+ "felismeres_jegyek": [
+  "Hosszúkás, hengerded testforma",
+  "Az orrtól a farokúszó végéig húzódó, hátrafelé szélesedő fekete sáv",
+  "A test elülső része világos, hátrafelé élénk égszínkékbe vált",
+  "Kicsi, hegyes, előreugró száj"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Aspidontus taeniatus",
+   "magyar_nev": "Hamis tisztogatóhal",
+   "kulonbseg": "Alul elhelyezkedő száj és éles fogak; nem tisztogat, hanem darabokat harap ki más halakból."
+  },
+  {
+   "latin": "Labroides rubrolabiatus",
+   "magyar_nev": "Vörösajkú tisztogatóhal",
+   "kulonbseg": "Ajakrésze vöröses árnyalatú, elterjedése korlátozottabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Éhezés (ha nem fogad el helyettesítő eleséget)",
+  "Tengeri darakór (Cryptocaryon irritans)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 6000,
+ "ar_ft_max": 11000,
+ "tippek": [
+  "Csak beállt, megfelelő halállománnyal rendelkező akváriumba telepítsük, ahol talál természetes táplálékot is.",
+  "Ügyeljünk a lefedésre, mert ijedtében könnyen kiugorhat a medencéből."
+ ],
+ "forras": "Google gemini-flash-latest (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

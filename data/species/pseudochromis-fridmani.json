@@ -1,0 +1,85 @@
+{
+ "lista_nev": "Pseudochromis fridmani",
+ "id": "pseudochromis-fridmani",
+ "tipus": "hal",
+ "latin": "Pseudochromis fridmani",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Orchidea álsügér",
+ "egyeb_nevek": [
+  "Bíbor törpesügér"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Pseudochromidae",
+ "csoport": "Tengeri törpesügérek",
+ "szarmazas": "Vörös-tenger",
+ "max_meret_cm": 7,
+ "elettartam_ev": 5,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Területvédő hal, amely sziklahasadékok közelében tartózkodik. Hasonló alkatú halakkal és fajtársaival szemben agresszív lehet, de a nem rokon fajokat békén hagyja.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 24,
+ "homerseklet_max": 28,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Fagyasztott mysis, artemia, apró rákfélék, szárított granulatumpok",
+ "tarsithato": [
+  "Korallok",
+  "rákok",
+  "nagyobb békés korallszirti halak"
+ ],
+ "kerulendo": [
+  "Kisméretű garnélák",
+  "más Pseudochromis fajok"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A pár barlangba vagy csőbe fészkel.",
+  "A nőstény ikragombócot rak.",
+  "A hím feszülten őrzi a fészket.",
+  "A kikelő lárvákat kerekesférgekkel kell etetni."
+ ],
+ "ivari_kulonbseg": "A hímek kissé nagyobbak, és a farokúszójuk alsó sugara megnyúltabb lehet.",
+ "felismeres_jegyek": [
+  "Egységes, intenzív magenta/bíborlila testszín.",
+  "Sötét vízszintes csík húzódik az orrtól a szemen át a kopoltyúfedőig.",
+  "Áttetsző, lilás úszók.",
+  "Hosszúkás, oldalról kissé lapított test.",
+  "A kopoltyúfedő szélén apró kék szegély látható."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Gramma loreto",
+   "magyar_nev": "Királygramma",
+   "kulonbseg": "A test elülső része lila, de a hátsó része és a farokúszó élénksárga."
+  },
+  {
+   "latin": "Pseudochromis porphyreus",
+   "magyar_nev": "Lila törpesügér",
+   "kulonbseg": "Hiányzik a szemén átmenő sötét csík, és lényegesen agresszívabb."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tengeri darakór (Cryptocaryon)",
+  "Sérülések területi harcok miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 12000,
+ "ar_ft_max": 20000,
+ "tippek": [
+  "Biztosítsunk számára sok barlangot és sziklaüreget búvóhelynek.",
+  "Tenyésztett (fogságban nevelt) példányokat érdemes vásárolni, mert békésebbek és ellenállóbbak.",
+  "Több példányt csak nagyon nagy akváriumban tartsunk együtt."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

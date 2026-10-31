@@ -1,0 +1,87 @@
+{
+ "lista_nev": "Elacatinus oceanops",
+ "id": "elacatinus-oceanops",
+ "tipus": "hal",
+ "latin": "Elacatinus oceanops",
+ "regi_latin_nevek": [
+  "Gobiosoma oceanops"
+ ],
+ "magyar_nev": "Neongéb",
+ "egyeb_nevek": [
+  "Kék neon géb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gobiidae",
+ "csoport": "Tengeri gébek",
+ "szarmazas": "Atlanti-óceán nyugati része, Karib-tenger",
+ "max_meret_cm": 5,
+ "elettartam_ev": 2,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "termeszet": "bekes",
+ "termeszet_leiras": "Kifejezetten békés tisztogató hal, amely más halak testéről távolítja el az élősödőket. Fajtársaival párban vagy kisebb csoportban is tartható.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "mindenhol",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 23,
+ "homerseklet_max": 27,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Paraziták a halakon, apró fagyasztott tápok (artemia, cyclops), finom száraztápok",
+ "tarsithato": [
+  "Bármilyen békés korallszirti hal",
+  "korallok",
+  "gerinctelenek"
+ ],
+ "kerulendo": [
+  "Nagy testű ragadozó halak",
+  "amelyek bekaphatják"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 3,
+ "szaporitas_lepesek": [
+  "A párok barlangokba vagy csövekbe ikráznak.",
+  "A hím gondoskodik a fészekről és az ikrákról.",
+  "A lárvák néhány nap múlva kelnek ki.",
+  "Rotatoriával és kerekférgekkel táplálhatók az ivadékok."
+ ],
+ "ivari_kulonbseg": "A hímek és nőstények külsőre egyformák, a hímek genitális szemölcse hegyesebb.",
+ "felismeres_jegyek": [
+  "Karcsú, hengeres testalkat.",
+  "Sötét, csaknem fekete alapszín.",
+  "A orrtól a farokúszóig húzódó élénk neonkék sáv.",
+  "Hasi oldal fehér.",
+  "A száj alsó állású, tapadásra is alkalmas."
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Elacatinus evelynae",
+   "magyar_nev": "Aranysávos tisztogatógéb",
+   "kulonbseg": "A kék sáv a fejen sárga vagy arany árnyalatúba csap át."
+  },
+  {
+   "latin": "Labroides dimidiatus",
+   "magyar_nev": "Tisztogató hal",
+   "kulonbseg": "Nagyobb testű ajakoshal, eltérő mozgással és alakú úszókkal."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Agresszív halak általi uszonykárosodás",
+  "Kiszáradás kiugrás miatt"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 7000,
+ "ar_ft_max": 12000,
+ "tippek": [
+  "Kiváló választás nano tengeri akváriumokba is.",
+  "Gondoskodjunk sok búvóhelyről és élőkőről.",
+  "Könnyen elfogadja a fagyasztott és száraz tápokat is, nem függ kizárólag a parazitáktól."
+ ],
+ "forras": "Google gemini-3.5-flash (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

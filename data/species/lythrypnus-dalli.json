@@ -1,0 +1,78 @@
+{
+ "id": "lythrypnus-dalli",
+ "tipus": "hal",
+ "latin": "Lythrypnus dalli",
+ "regi_latin_nevek": [],
+ "magyar_nev": "Kalifornia-géb",
+ "egyeb_nevek": [
+  "Kaliforniai kékgyűrűs géb"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Gobiidae",
+ "csoport": "Tengeri gébek",
+ "szarmazas": "Kelet-Csendes-óceán (Kaliforniai-öböl, Mexikó)",
+ "max_meret_cm": 6,
+ "elettartam_ev": 2,
+ "nehezseg": 3,
+ "kezdoknek": false,
+ "termeszet": "felagressziv",
+ "termeszet_leiras": "Békés a legtöbb lakótárssal, de a hímek területvédők és agresszívek egymással szemben. Kis mérete miatt könnyen prédává válhat.",
+ "rajhal": false,
+ "min_csoport": 1,
+ "uszasi_zona": "also",
+ "min_akvarium_l": 60,
+ "homerseklet_min": 18,
+ "homerseklet_max": 24,
+ "ph_min": 8.1,
+ "ph_max": 8.4,
+ "gh_min": 8,
+ "gh_max": 12,
+ "taplalek": "Húsevő (fagyasztott artémia, mysis, apró rákfélék)",
+ "tarsithato": [
+  "Békés tengeri halak",
+  "amelyek nem tekintik zsákmánynak"
+ ],
+ "kerulendo": [
+  "Nagyobb ragadozók",
+  "agresszív területvédő halak"
+ ],
+ "szaporodas_mod": "Ikrázó",
+ "szaporitas_nehezseg": 4,
+ "szaporitas_lepesek": [
+  "Hűvösebb víz biztosítása az ívatáshoz",
+  "Barlang vagy üreg biztosítása az ikrák számára",
+  "A hím őrzi az ikrákat a kikelésig",
+  "Az ivadékok felnevelése rotiferával kezdődik"
+ ],
+ "ivari_kulonbseg": "A hímek hátúszója megnyúltabb, színeik intenzívebbek íváskor.",
+ "felismeres_jegyek": [
+  "Élénkvörös vagy narancssárga alapszín",
+  "Függőleges, neonkék csíkok a testen",
+  "Kicsi, zömök géb-testalkat",
+  "Nagy szemek a fej felső részén"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Lythrypnus zebra",
+   "magyar_nev": "Zebra géb",
+   "kulonbseg": "Sűrűbb és vékonyabb csíkozás jellemzi."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Tengeri darakór",
+  "Bakteriális fertőzések"
+ ],
+ "beszerezhetoseg": "ritka",
+ "ar_ft_min": 8000,
+ "ar_ft_max": 15000,
+ "tippek": [
+  "Szubtrópusi faj, ne tartsuk tartósan 24 fok feletti trópusi vízben",
+  "Biztosítsunk számára sok búvóhelyet sziklákból",
+  "Csak beállt tengeri akváriumba telepítsük"
+ ],
+ "lista_nev": "Lythrypnus dalli",
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}

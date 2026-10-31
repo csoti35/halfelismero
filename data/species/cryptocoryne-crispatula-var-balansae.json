@@ -1,0 +1,68 @@
+{
+ "id": "cryptocoryne-crispatula-var-balansae",
+ "tipus": "noveny",
+ "latin": "Cryptocoryne crispatula var. balansae",
+ "regi_latin_nevek": [
+  "Cryptocoryne balansae"
+ ],
+ "magyar_nev": "Cryptocoryne balansae",
+ "egyeb_nevek": [
+  "Balansae"
+ ],
+ "magyar_nev_bizonytalan": false,
+ "csalad": "Araceae",
+ "csoport": "Tőlevélrózsás növények",
+ "szarmazas": "Délkelet-Ázsia (Thaiföld, Vietnam)",
+ "max_meret_cm": 60,
+ "nehezseg": 2,
+ "kezdoknek": true,
+ "fenyigeny": "kozepes",
+ "co2_igeny": "alacsony",
+ "novekedes": "kozepes",
+ "elhelyezes": "hatso",
+ "szaporitas_noveny": "Indákkal, sarjnövényekkel",
+ "min_akvarium_l": 100,
+ "homerseklet_min": 22,
+ "homerseklet_max": 28,
+ "ph_min": 6.5,
+ "ph_max": 8.0,
+ "gh_min": 8,
+ "gh_max": 20,
+ "tarsithato": [
+  "Bármilyen békés hallal",
+  "sügérek mellé is jó"
+ ],
+ "kerulendo": [
+  "Növényevő nagytestű halak"
+ ],
+ "felismeres_jegyek": [
+  "Hosszú, szalagszerű levelek",
+  "Erősen hólyagos, kalapált levélfelület",
+  "A levél széle hullámos",
+  "Zöld vagy enyhén bronzos szín"
+ ],
+ "hasonlo_fajok": [
+  {
+   "latin": "Cryptocoryne aponogetifolia",
+   "magyar_nev": "Fodroslevelű vízikehely",
+   "kulonbseg": "Sokkal szélesebb levelek és robusztusabb termet."
+  }
+ ],
+ "gyakori_betegsegek": [
+  "Cryptocoryne-mállás (hirtelen környezetváltozásra)"
+ ],
+ "beszerezhetoseg": "gyakori",
+ "ar_ft_min": 1500,
+ "ar_ft_max": 3500,
+ "tippek": [
+  "Kedveli a keményebb vizet és a táptalajt",
+  "Ne ültessük túl mélyre a rizómát",
+  "Türelem kell hozzá, az átültetés után lassan indul meg"
+ ],
+ "lista_nev": "Cryptocoryne crispatula var. balansae",
+ "szaporitas_lepesek": [],
+ "forras": "Google gemini-3-flash-preview (adatbázis-kulcs)",
+ "ellenorzott": false,
+ "frissitve": "2026-10-31",
+ "magyar_nev_kuralt": true
+}
